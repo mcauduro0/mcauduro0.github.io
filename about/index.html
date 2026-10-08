@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&display=swap">
 <link rel="stylesheet" href="/styles.css">
 <script src="/app.js" defer></script>
+<script src="/subscribe.js" defer></script>
 
 </head>
 <body class="page-about">
@@ -102,8 +103,8 @@
 <section id="privacy" class="about-grid wrap" aria-labelledby="privacy-title">
   <h2 id="privacy-title" class="label">Privacy</h2>
   <div class="about-prose small">
-    <p>No email address is collected on this site today. Email sign-up is being set up on DeepStack’s own list; when it opens, the address you enter will be stored by DeepStack only to send The Weekly and dated results, confirmed by one opt-in email, never shared or sold, and removed on the first unsubscribe click.</p>
-    <p>Partnership inquiries are composed here and copied by you; nothing is sent or stored by this site. There are no advertising trackers and no analytics. Fonts are served by Google Fonts. Links to sources take you to external sites with their own policies.</p>
+    <p>Email sign-up runs on DeepStack’s own list. The address you enter is stored by DeepStack only to send The Weekly and dated results, is confirmed by one opt-in email, is never shared or sold, and is removed on the first unsubscribe click. Reply to any edition to ask what is held about you or to have it deleted.</p>
+    <p>Partnership inquiries sent from this site go to DeepStack and to no one else; they are kept only while the conversation is open. There are no advertising trackers and no analytics. Fonts are served by Google Fonts. Links to sources take you to external sites with their own policies.</p>
     <p>DeepStack publishes analysis and opinion. Nothing on this site is investment advice.</p>
   </div>
 </section>
@@ -120,7 +121,14 @@
   </select>
   <p class="brief" id="partner-brief"></p>
   <button class="btn" type="button" data-copy-brief>Copy inquiry <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
-  <p class="fine">DeepStack’s inquiry address opens together with email sign-up. Until then, keep a copy of the brief; nothing is sent from this site today.</p>
+  <form class="partner-form" action="https://subscribe.deepstack.ltd/contact" method="post" data-contact-endpoint="https://subscribe.deepstack.ltd/contact" novalidate>
+    <label for="partner-name">Your name</label><input id="partner-name" name="name" type="text" autocomplete="name" maxlength="120" required>
+    <label for="partner-email">Work email</label><input id="partner-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+    <label for="partner-message">Message</label><textarea id="partner-message" name="message" maxlength="4000" required></textarea>
+    <button class="btn btn-amber" type="submit">Send the inquiry <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+    <p class="fine">Sent to DeepStack only. Sponsored work is labeled; partners never see a view before it is published.</p>
+    <p class="form-status" role="status" aria-live="polite"></p>
+  </form>
   <p class="copy-status" role="status" aria-live="polite"></p>
 </dialog>
 </main>
@@ -131,12 +139,16 @@
       <h2 id="newsletter-title">Get the verdict before the market does.</h2>
       <p>Every Saturday, <a href="/weekly/">The DeepStack Weekly</a>: the investigation of the week, the numbers that moved, the notes under pressure and the dates that will settle the argument. Free, independent, in your inbox.</p>
     </div>
-    <div class="newsletter-form newsletter-soon" data-subscribe-state="pending">
-      <p class="label label-amber">Email sign-up</p>
-      <p class="newsletter-soon-text">Email delivery is being set up on DeepStack’s own list and will open here. Until then, follow DeepStack in any reader or put the dated tests on your calendar.</p>
-      <div class="field-row newsletter-soon-row"><a class="btn btn-amber" href="/feed.xml">RSS feed <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><a class="link-arrow link-light" href="/docket.ics">Docket calendar (.ics) <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div>
-      <p class="fine">No email address is collected on this site today. When sign-up opens, it will ask for one confirmation and never hand your address to anyone else.</p>
-    </div>
+    <form class="newsletter-form" action="https://subscribe.deepstack.ltd/subscribe" method="post" data-subscribe-endpoint="https://subscribe.deepstack.ltd/subscribe" novalidate>
+      <label for="newsletter-email">Email address</label>
+      <div class="field-row">
+        <input id="newsletter-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required maxlength="254" aria-describedby="newsletter-note">
+        <button class="btn btn-amber" type="submit">Subscribe <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+      </div>
+      <div class="nl-trap" aria-hidden="true"><label for="newsletter-website">Leave this field empty</label><input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <p id="newsletter-note" class="fine">One confirmation email from DeepStack, then The Weekly every Saturday. Unsubscribe in one click from any edition. Your address stays on DeepStack’s own list and is never shared.</p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
   </div>
 </section>
 <footer class="site-footer">
