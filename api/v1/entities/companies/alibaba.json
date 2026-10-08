@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "alibaba",
+  "name": "Alibaba",
+  "ticker": "BABA",
+  "url": "https://deepstack.ltd/companies/alibaba/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/alibaba.json",
+  "summary": "Alibaba appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Deepvalue Capital says Alibaba’s models passed 3bn downloads, ahead of Meta and Google, while compute stays tight and the price per token keeps falling.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 28,
+    "claims": 156,
+    "texts": 85,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 106.36,
+    "change": -0.64,
+    "changePercent": -0.5981,
+    "marketCap": 254931318364,
+    "pe": 23.0428,
+    "nextEarnings": "2026-11-24",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:49.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

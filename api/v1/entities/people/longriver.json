@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "longriver",
+  "name": "Longriver",
+  "role": null,
+  "url": "https://deepstack.ltd/people/longriver/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/longriver.json",
+  "summary": "Longriver appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Backlog or bottleneck",
+      "excerpt": "Graham Rhodes of Longriver, whose fund has owned Nvidia since 2025, changes the unit of account.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 1,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Long since 2025, and author of the bear case's most honest sentence.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 27,
+    "texts": 2,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

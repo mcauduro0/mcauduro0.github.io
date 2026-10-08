@@ -1,0 +1,445 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 5,
+  "slug": "anthropic-grew-142-percent-openai",
+  "headline": "OpenAI and Anthropic Are Not the Same Business",
+  "dek": "OpenAI is cutting prices while Anthropic still monetizes enterprise coding. The difference matters because hyperscalers, lenders and investors have priced the pair as one AI bet.",
+  "summary": "OpenAI is losing pricing power while Anthropic still monetizes enterprise coding, exposing the risk of treating two very different labs as one AI bet.",
+  "section": "AI Labs",
+  "date": "2026-09-11",
+  "readingMinutes": 7,
+  "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+  "api": "https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json",
+  "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "Split the trade",
+    "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Separate the two in any AI exposure: pricing power, not headline growth, sets the value.",
+      "Demand life-of-cluster margins in any prospectus, not first-year GPU economics.",
+      "Treat customer concentration and investor-funded revenue as the first red flags."
+    ],
+    "flips": [
+      "Anthropic is forced into an OpenAI-style price cut on coding.",
+      "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
+    ],
+    "nextTest": {
+      "id": "p05-t01",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next prospectus",
+      "whenLabel": "Next prospectus",
+      "date": null,
+      "precision": "signal",
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next prospectus",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t01",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "142%",
+      "label": "Anthropic quarterly growth",
+      "context": "Quarter on quarter, Q2 2026"
+    },
+    {
+      "value": "18%",
+      "label": "OpenAI quarterly growth",
+      "context": "Quarter on quarter, Q2 2026"
+    },
+    {
+      "value": "$20.9B",
+      "label": "OpenAI 2025 loss",
+      "context": "Steve Eisman; 2025"
+    },
+    {
+      "value": "$559M",
+      "label": "Anthropic adjusted income",
+      "context": "Michael Spencer; preliminary June quarter 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AI Supremacy - Q2 lab revenue comparison",
+      "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+    },
+    {
+      "label": "Fiscal.ai - Massif Capital Q2 letter",
+      "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367"
+    },
+    {
+      "label": "a16z News - Open versus closed AI economics",
+      "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus"
+    },
+    {
+      "label": "Capitalist Letters - Frontier compute economics",
+      "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute"
+    },
+    {
+      "label": "Hypertech Invest - AI selloff analysis",
+      "url": "https://hypertechinvest.com/p/my-thoughts-on-the-ai-selloff-and"
+    },
+    {
+      "label": "Financial Modeling Prep - Palantir Q2 call",
+      "url": "https://financialmodelingprep.com/earning-call-transcript/PLTR/2026-q2"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/anthropic-grew-142-percent-openai",
+  "wordCount": 1582,
+  "pullQuote": "The inference margin is the hinge between a durable business and a first-year mirage.",
+  "verdict": "DeepStack’s view: the market should stop treating OpenAI and Anthropic as a single economic object. The decisive evidence is not the headline growth gap but the way revenue behaves under pressure: OpenAI cut price 80% and lost $20.9bn, while Anthropic’s enterprise coding share and $559m adjusted operating income suggest a narrower, more defensible product. That view remains conditional. Jeremie Eliahou Ontiveros’s $100bn-per-GW-year calculation is powerful, but Daniel Romero’s depreciation objection attacks the exact period that makes it look so good. A prospectus showing durable life-of-cluster margins, low customer concentration and no investor-funded revenue would strengthen the bulls. A comparable Anthropic coding cut, a DeepSeek reversal or audited losses would move us toward the bear case.",
+  "sections": [
+    {
+      "id": "the-pair-breaks",
+      "title": "The pair breaks",
+      "startsAt": 2,
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#the-pair-breaks"
+    },
+    {
+      "id": "cheap-intelligence-arrives",
+      "title": "Cheap intelligence arrives",
+      "startsAt": 6,
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#cheap-intelligence-arrives"
+    },
+    {
+      "id": "a-premium-still-holds",
+      "title": "A premium still holds",
+      "startsAt": 9,
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#a-premium-still-holds"
+    },
+    {
+      "id": "the-margin-test",
+      "title": "The margin test",
+      "startsAt": 14,
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#the-margin-test"
+    },
+    {
+      "id": "what-would-break-it",
+      "title": "What would break it",
+      "startsAt": 18,
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#what-would-break-it"
+    }
+  ],
+  "body": [
+    "In the second quarter, OpenAI grew revenue about 18 percent from the prior quarter. Anthropic grew 142 percent. The slow laboratory went from $5.7bn to $6.7bn, according to Michael Spencer; Anthropic reached $11.6bn. Steve Eisman reported the same gap a fortnight later, with a brutal addendum: OpenAI’s costs rose about $3bn against roughly $1bn of new revenue.",
+    "The market has treated the two laboratories as one customer, one credit story and one AI trade. That is becoming a dangerous shortcut. OpenAI is showing the marks of a business being forced to sell intelligence more cheaply. Anthropic is still collecting a premium where enterprise coding turns model use into recurring work. The evidence says the pair should be separated before the numbers separate the investors for them.",
+    "The concentration is not theoretical. Eisman counts OpenAI and Anthropic at roughly 70 percent of hyperscaler AI revenue and a quarter to a third of all cloud revenue. He reckons something close to one dollar in every two of the growth the economy is expected to produce in 2026 traces back to hyperscaler spending to serve those customers. Microsoft booked $34.3bn of AI revenue last fiscal year, $24.1bn of it from OpenAI alone. Oracle’s backlog is about half OpenAI. CoreWeave wrote debt covenants against an OpenAI contract.",
+    "That makes the growth split more than a league table. It is a fault line through the financing of the buildout. A customer that grows 18 percent while its costs rise three times faster than its new revenue is not interchangeable with one growing 142 percent and reporting adjusted operating income in the black. Yet the lenders and hyperscalers have made them part of one exposure.",
+    "OpenAI’s pressure is now visible in price. Michael Spencer reports an 80 percent cut to GPT-5.6 Lune, with routing layers and code wrappers steering work toward cheaper Chinese models. He calls the cut “an act of desperation”. Eisman’s surrounding figures are harder to dress up: a $20.9bn loss in 2025 on $13.07bn of revenue, an operating margin near negative 183 percent last quarter, five customers representing 70 percent of receivables and a chief revenue officer gone after eight months.",
+    "The proposed escape through advertising looks small beside the cash burn. Eisman relays that every chatbot on the market might earn $5bn from ads four years out. That is less than OpenAI spends on inference in three months. The problem is not a weak quarter. It is the price of being a general-purpose supplier when buyers can route each task to whichever model is cheapest.",
+    "On August 9, Wyndo published step-by-step instructions for pointing Anthropic’s coding tool at DeepSeek’s servers. The same task cost about $0.32 on Claude Opus 5, about $0.24 on Kimi and roughly half a cent on DeepSeek. The list prices behind that gap were $0.14 per million input tokens against $5. Four days later, Wyndo described a council of models reviewing the same decision and said he had changed his mind about open-weight systems handling hard reasoning. Kimi K3 scored 57 on the Artificial Analysis intelligence index, 13 points above its predecessor. Open-weight seats cost 30 to 50 cents against $2 to $3 for a frontier seat.",
+    "That is a practitioner changing his buying behavior, not an analyst projecting that he might. Massif Capital LLC counts Chinese open-weight models rising from under 2 percent of token traffic in late 2024 to a majority of usage among the top models this year. Deepvalue Capital says Alibaba’s models passed 3bn downloads, ahead of Meta and Google, while compute stays tight and the price per token keeps falling. The pressure is arriving at the layer where OpenAI is most exposed: the customer does not need to admire a model if a router can send the work elsewhere.",
+    "The strongest case for the bears is therefore not that artificial intelligence has no demand. It is that demand can rise while the model owner loses pricing power. Cheap intelligence may increase usage and still drain the premium from the supplier. Geo Chen says cheap intelligence is already eroding the labs’ share and access to capital. Ed Elson’s view of unsustainable Big Tech growth requires frontier labs to remain structurally loss-making. Voss Capital’s reality-check thesis rests on deeply negative free cash flow. Their common vulnerability is the assumption that the two laboratories cannot turn usage into durable cash.",
+    "Anthropic gives investors a reason not to flatten the sector into that bear case. Spencer’s preliminary June-quarter figures put revenue at $11.5bn and adjusted operating income at $559m. He says annualized revenue is up roughly 93-fold in two years. Menlo Ventures numbers give Anthropic something like 42 to 54 percent of enterprise AI coding, a position Spencer says has stayed largely insulated from open-source erosion. When one of its models was blocked outright, he says, revenue did not visibly move.",
+    "The product is not an abstract score. Cognition’s Devin reached $1bn of annualized revenue and a $40bn valuation in under two years by handling migrations, upgrades and bug fixing. Every one of those runs burns Anthropic tokens. That is what a premium looks like when a model is embedded in a job rather than selected from a menu.",
+    "Christian Catalini’s Some Simple Economics of Open versus Closed AI supplies the logic. Training runs are only 10 to 23 percent of a laboratory’s compute bill; data curation, infrastructure and failed experiments consume the rest, and none of that ships with a released model. Commodity intelligence should become price-competitive across most applications. Where the payoff is convex, a marginal capability advantage can still command a premium. Half a cent and $5 were never bidding for the same job.",
+    "Oguz Erkan offered a test before the outcome: if laboratories trying to take share had to raise prices, demand was structurally strong. DeepSeek then raised prices. Token demand, he says, has grown roughly 17,000-fold in four years, while combined laboratory revenue rose from about $30bn to past $110bn inside the year. Price intensity can fall while total spending rises. That is not a contradiction; it is a warning that volume and value are being confused.",
+    "The inference margin is the hinge between a durable business and a first-year mirage.",
+    "Jeremie Eliahou Ontiveros, working the unit economics for SemiAnalysis, calculates that a current-generation cluster can generate over $100bn of revenue per gigawatt-year against roughly $12bn of rental cost. On that arithmetic, frontier inference is extraordinarily profitable. The number matters because it attacks the shared premise behind the bearish camp: if inference has those economics, the labs are not merely expensive wrappers beside someone else’s chips.",
+    "Daniel Romero, writing on the AI selloff, supplies the objection that matters. A GPU earns most of its cash in year one and progressively less afterward, while the books depreciate it in a straight line. A first-year cluster can therefore display a spectacular margin that does not survive the asset’s life. Jeremie’s calculation and Romero’s accounting cannot both describe the same economics. The next useful-life assumption may matter more than another quarter of revenue growth.",
+    "The best steelman of the bullish view is that cheap open weights are expanding the market rather than destroying it. Anthropic can keep the high-value coding work, while lower-cost models handle routine execution. The total token pool grows, the premium survives where mistakes are expensive, and the hyperscalers keep selling capacity to both sides. That is plausible. It is also why Anthropic’s 42–54 percent coding share and the unchanged revenue line after a model block matter more than a general warning about commoditization.",
+    "But there is a third possibility, and Palantir put it on an audited stage. In August, the company reported revenue up 93 percent to $1.935bn, adjusted free cash flow of $1.22bn at a 63 percent margin and full-year guidance raised to about $8.15bn. Management said customers are rejecting token consumption because metered bills break budgets and leak proprietary data into foundation-model training; they want to own the weights, data and logic. Palantir is talking its book, but its figures come with an auditor. The meter itself may be the product defect.",
+    "The prospectus is the cleanest test. Eisman says a listing would show gross margin by tier, customer concentration and how much revenue comes from investors who are also customers. Until then, every number is a report of a report. The market is asking investors to price a distinction that the companies have not yet disclosed in comparable accounts.",
+    "A comparable cut to Anthropic’s coding tier would be the most damaging signal for the premium case. It would say the price war has crossed from general-purpose chat into the enterprise work that supposedly resists substitution. A quiet reversal by DeepSeek would weaken Erkan’s demand evidence. A second model revocation after Massif’s June three-week suspension would turn a signal into procurement policy.",
+    "The thesis would be wrong if Anthropic kept its coding premium, DeepSeek held higher prices and audited accounts showed durable margins across a cluster’s useful life. Romero puts 2028 on the calendar for some return on invested capital to become visible. That is close enough to test, not far enough to excuse.",
+    "OpenAI and Anthropic are one line in the capex ledger, not one business. The next prospectus will decide whether the market has found a bargain in that shortcut or merely hidden the bill."
+  ],
+  "chart": null,
+  "tests": [
+    {
+      "id": "p05-t01",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next prospectus",
+      "whenLabel": "Next prospectus",
+      "date": null,
+      "precision": "signal",
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next prospectus",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t01",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t02",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next disclosures",
+      "whenLabel": "Next disclosures",
+      "date": null,
+      "precision": "signal",
+      "event": "Useful-life assumptions show whether first-year GPU margins survive across the cluster; Romero’s accounting would gain force if they do not.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next disclosures",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t02",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t03",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "DeepSeek repricing",
+      "whenLabel": "DeepSeek repricing",
+      "date": null,
+      "precision": "signal",
+      "event": "A quiet reversal would weaken Erkan’s demand evidence; sustained higher prices would support the view that demand remains structurally strong.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "DeepSeek repricing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t03",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t04",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "2028",
+      "whenLabel": "Jan 3, 2028",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2028",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t04",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t05",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "A second revocation",
+      "whenLabel": "A second revocation",
+      "date": null,
+      "precision": "signal",
+      "event": "Another model suspension would turn Massif’s signal into procurement policy, showing that open weights are changing buying behavior.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "A second revocation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t05",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alibaba",
+      "name": "Alibaba",
+      "ticker": "BABA",
+      "url": "https://deepstack.ltd/companies/alibaba/"
+    },
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "url": "https://deepstack.ltd/companies/coreweave/"
+    },
+    {
+      "kind": "company",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/deepseek/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "company",
+      "slug": "palantir",
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "url": "https://deepstack.ltd/companies/palantir/"
+    },
+    {
+      "kind": "person",
+      "slug": "christian-catalini",
+      "name": "Christian Catalini",
+      "role": null,
+      "url": "https://deepstack.ltd/people/christian-catalini/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "deepvalue-capital",
+      "name": "DeepValue Capital",
+      "role": "DeepValue Capital by Kyler",
+      "url": "https://deepstack.ltd/people/deepvalue-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-elson",
+      "name": "Ed Elson",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-elson/"
+    },
+    {
+      "kind": "person",
+      "slug": "geo-chen",
+      "name": "Geo Chen",
+      "role": null,
+      "url": "https://deepstack.ltd/people/geo-chen/"
+    },
+    {
+      "kind": "person",
+      "slug": "jeremie-eliahou-ontiveros",
+      "name": "Jeremie Eliahou Ontiveros",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/"
+    },
+    {
+      "kind": "person",
+      "slug": "massif-capital",
+      "name": "Massif Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/massif-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-spencer",
+      "name": "Michael Spencer",
+      "role": null,
+      "url": "https://deepstack.ltd/people/michael-spencer/"
+    },
+    {
+      "kind": "person",
+      "slug": "oguz-erkan",
+      "name": "Oguz Erkan",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oguz-erkan/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "voss-capital",
+      "name": "Voss Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/voss-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "wyndo",
+      "name": "Wyndo",
+      "role": null,
+      "url": "https://deepstack.ltd/people/wyndo/"
+    }
+  ]
+}

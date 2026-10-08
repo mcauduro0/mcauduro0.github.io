@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "micron-technology",
+  "name": "Micron Technology",
+  "ticker": "MU",
+  "url": "https://deepstack.ltd/companies/micron-technology/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/micron-technology.json",
+  "summary": "Micron Technology appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "Lede",
+      "excerpt": "Nvidia sat within 3 percent of a record at $5.6 trillion, while Micron traded above $1,000 a share.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "That is the market’s split in one glance: Nvidia and Micron have been paid for scarcity; Alphabet, Meta and Oracle have been charged for financing.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 33,
+    "claims": 182,
+    "texts": 92,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 1073.4476,
+    "change": -14.5524,
+    "changePercent": -1.3375,
+    "marketCap": 1212340984964,
+    "pe": 14.2537,
+    "nextEarnings": "2026-12-23",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:52.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

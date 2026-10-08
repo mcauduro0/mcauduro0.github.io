@@ -1,0 +1,329 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 1,
+  "slug": "nvidias-demand-insatiable-or-manufactured",
+  "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+  "dek": "Google paid roughly double for Nvidia capacity while private credit financed a $35bn compute platform. The chips are scarce; the returns may be anything but.",
+  "summary": "Nvidia’s demand looks real today, but private credit, slow-to-build working compute and fast obsolescence make the revenue recurrence less secure than the backlog suggests.",
+  "section": "Chips",
+  "date": "2026-08-10",
+  "readingMinutes": 7,
+  "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+  "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json",
+  "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "Bull on demand. Bear on the financing.",
+    "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Discount any AI order book that leans on private credit instead of customer cash.",
+      "Track energized megawatts, not chips shipped: working compute is the real backlog.",
+      "Read the depreciation schedule before the earnings: lives that lag obsolescence flatter profit."
+    ],
+    "flips": [
+      "End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.",
+      "Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations."
+    ],
+    "nextTest": {
+      "id": "p01-t01",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "When the bottleneck clears",
+      "whenLabel": "When the bottleneck clears",
+      "date": null,
+      "precision": "signal",
+      "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When the bottleneck clears",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t01",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$38B",
+      "label": "Apollo debt",
+      "context": "Apollo transaction in late May, described by Michael Burry"
+    },
+    {
+      "value": "$35B",
+      "label": "AI XPU tranche",
+      "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later"
+    },
+    {
+      "value": "20GW",
+      "label": "Broadcom compute",
+      "context": "Broadcom-designed capacity promised through 2028; Invest In Assets"
+    },
+    {
+      "value": "$30B",
+      "label": "Quarterly AI orders",
+      "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Invest In Assets - Broadcom AI financing and orders",
+      "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+    },
+    {
+      "label": "Potential Multibaggers - Google rents Nvidia GPUs",
+      "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+    },
+    {
+      "label": "Fiscal.ai - Longriver Q2 2026 letter",
+      "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683/"
+    },
+    {
+      "label": "Fiscal.ai - NZS Capital Q2 2026 letter",
+      "url": "https://fiscal.ai/fund-letters/nzs-capital-llc-q2-2026-fscl_document_7PFZ7CCX241/"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/nvidias-demand-insatiable-or-manufactured",
+  "wordCount": 1440,
+  "pullQuote": "A buyer paying that premium has supplied more than a forecast. It has supplied cash.",
+  "verdict": "DeepStack sides with a qualified bull case: Nvidia’s current demand is real, but the buildout’s financing makes future revenue less secure than the order book implies. The strongest evidence is Google paying roughly double the market rate for Nvidia capacity while cheaper TPUs were available; that is costly revealed preference, not paper demand. The most important reason for caution is the gap between ordered chips and working compute, amplified by private credit and depreciation that may lag obsolescence. What changes our mind is straightforward: once the power bottleneck clears, if end customers keep absorbing capacity at market-rate financing and Nvidia’s revenue recurrence holds, the financing warning was misplaced. Until then, scarce hardware and durable returns remain separate propositions.",
+  "sections": [
+    {
+      "id": "private-credit-public-appetite",
+      "title": "Private credit, public appetite",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#private-credit-public-appetite"
+    },
+    {
+      "id": "backlog-or-bottleneck",
+      "title": "Backlog or bottleneck",
+      "startsAt": 8,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#backlog-or-bottleneck"
+    },
+    {
+      "id": "long-the-chips-short-the-returns",
+      "title": "Long the chips, short the returns",
+      "startsAt": 12,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#long-the-chips-short-the-returns"
+    },
+    {
+      "id": "price-is-part-of-the-thesis",
+      "title": "Price is part of the thesis",
+      "startsAt": 19,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#price-is-part-of-the-thesis"
+    },
+    {
+      "id": "what-breaks-first",
+      "title": "What breaks first",
+      "startsAt": 21,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#what-breaks-first"
+    }
+  ],
+  "body": [
+    "In late May, Apollo was raising $38 billion of debt to put Google’s TPUs, not Nvidia’s GPUs, behind Anthropic. The transaction put private credit between the chipmaker and its end demand. It turned a balance-sheet question into a semiconductor one: the payer sits several layers away from the chipmaker.",
+    "Ten weeks later, Apollo and Blackstone were assembling a $35 billion first tranche of an “AI XPU platform”: twenty gigawatts of Broadcom-designed compute through 2028. The structure lets AI labs rent the future without carrying all of it on their own balance sheets. The same plumbing can look like proof of scarcity or a way to make future demand easier to finance than to verify.",
+    "The evidence supports a hard middle position. Demand for Nvidia hardware is real where chips meet paying customers today, but the financing behind the buildout is less durable than a backlog makes it appear. The risk is not fabricated orders so much as real demand funded in ways that may fail when the power bottleneck clears and capacity must stand on its own.",
+    "Michael Burry, the hedge-fund legend, sees that fragility everywhere. In notes dated July 8 and July 24, he argues that much current and future demand is not end-customer demand at all. Circular, off-balance-sheet financing can keep marginal buyers above what market-rate funding would support. Nvidia’s revenue growth, in his telling, is only mostly real.",
+    "The timing matters. When the power bottleneck resolves, however it resolves, the recurrence of that revenue may fall with the scarcity premium in margins. Burry’s historical echo is Lucent and Nortel, technology vendors that financed their own forward demand with enthusiasm. He re-loaded his Nvidia and semiconductor-index shorts in late July. That is a position, not proof, but it is a clean expression of the risk.",
+    "Invest In Assets, a Hong Kong fund manager, reads the same structure as a feature. Apollo and Blackstone can assemble capital for an AI XPU platform without asking any single balance sheet to carry the full future. For an industry starved of power and compute, that is not circularity; it is a way to move faster.",
+    "Kris of Potential Multibaggers offers the strongest evidence that present demand is genuine. In early June, writing about Google’s decision to rent GPUs, he pointed to a revealing price: Google paid roughly double the market rate for Nvidia hardware while its own, cheaper TPUs sat available. Nvidia keeps ramping production and still cannot follow demand. A buyer paying that premium has supplied more than a forecast. It has supplied cash.",
+    "On the question of demand today, Kris has the better evidence. A customer that pays roughly double for capacity it could source more cheaply is not behaving like a shell in a circular financing chain. But a price signal proves urgency at one moment; it does not prove that every future dollar will earn a market return.",
+    "Invest In Assets carries the bullish case from price to order books. Through Broadcom, it points to $30 billion of AI semiconductor orders booked in one quarter against $10.8 billion shipped. Demand management described conditions as simply insatiable. More important, visibility extended a full year across the entire customer base. A single customer can change its story. Customer-wide visibility is harder to dismiss.",
+    "That evidence matters, but it has a boundary. An order is a promise to take capacity, not evidence that the capacity will be used profitably after financing costs, power constraints and depreciation. Burry’s answer is severe: circularly financed buyers can create a backlog that is real in paperwork and weak in economics. The order book can exist without proving market-rate demand.",
+    "Graham Rhodes of Longriver, whose fund has owned Nvidia since 2025, changes the unit of account. In his Q2 letter, he says the meaningful measure is working compute: delivered on time with memory, networking, power, cooling and software ready to use it. A warehouse full of GPUs is not a functioning system. Headline capital spending becomes useful capacity more slowly than it appears.",
+    "That is more than a technical qualification. It shifts the investment from chips to coordination. Rhodes argues that supply-chain coordination has become part of Nvidia’s moat, because extreme design keeps turning supposedly ordinary suppliers into indispensable partners. A backlog may therefore be real and still monetize more slowly than a model assumes. The delay is where financing risk compounds.",
+    "The strongest bear case comes from people who are long Nvidia. Rhodes, holding a third of his fund in the AI complex, describes the buildout as a prisoner’s dilemma: each company invests rationally because failure threatens its existing business, while the industry collectively commits too much capital. He warns that reported earnings flatter reality if depreciation understates the pace of obsolescence.",
+    "Then Rhodes writes the sentence the bullish story has to absorb: “It is also possible that AI transforms business and society but does not yield an adequate return to the companies that built it.”",
+    "Kris makes the same concession from the other flank. In the June note that makes the revealed-preference case for Nvidia, he says today’s AI earnings picture resembles the build-up to the Great Financial Crisis more than the dot-com era: gains can be real, reported and still be amplified by risky behavior underneath. The most bullish voice in the room carries the bear’s sharpest warning about earnings quality.",
+    "The strongest case against this verdict deserves to be stated plainly. If Google is willing to pay roughly double, if Broadcom’s orders exceed shipments by a wide margin, and if customer-wide visibility lasts a year, then scarcity is not a financing mirage. Nvidia’s growth relative to competitors can also signal that its GPU is taking share rather than losing it. In that world, private credit is an accelerant, not the source of demand.",
+    "We would be wrong if, after the power bottleneck clears, end customers absorb capacity at market-rate financing and Nvidia’s revenue recurrence holds. That outcome would turn the financing warning into a false alarm.",
+    "Stephen Clapham, relaying Boston Partners’ analysis in The $4.4 Trillion Question, takes the issue to its terminal form: whether AI data-center economics ever earn an adequate return for anyone, Nvidia included. The question is not whether the machines can be built. It is whether the cash flows can pay for the buildout after the machines age.",
+    "Quanta 72’s dot-com comparison adds a necessary correction. Nvidia’s earnings and free cash flow have risen alongside its stock price, “validating much of the market’s enthusiasm so far.” That observation is about the past, and it can be true without settling the future. Current revenue can be mostly real while its recurrence becomes less valuable when supply catches up.",
+    "NZS Capital, Brad Slingerlend’s firm and one of the most semiconductor-literate shops writing letters, shows why the price still matters. It exited Nvidia in late 2025 over the market-share risk cited by skeptics. In its second-quarter letter, the firm bought back in because the derating since more than compensated for that risk and Nvidia’s growth relative to competitors suggested the GPU was taking share.",
+    "The same letter trimmed Marvell for the mirror image: a chief executive’s bullish remark had lifted the price of a business whose actual range of outcomes had not changed. The lesson travels back to Nvidia. A real demand story can still be a poor bargain if the price already assumes the best version of the future. Conversely, a financing risk can be tolerable if the price has already paid for it.",
+    "The tests are visible. For the financed-demand thesis, watch hyperscaler free cash flow, the share of announced capacity that becomes working compute, and the marks on AI debt sitting in private funds. If end demand absorbs capacity at market-rate financing after the bottleneck clears, Burry’s warning loses its force.",
+    "For the insatiable-demand case, watch order cancellations eating into the year of customer-wide visibility. Watch also for the AI race to consolidate onto a single winner designing its own silicon. For both sides, Rhodes’s test is the cleanest: do depreciation schedules survive contact with the pace of obsolescence?",
+    "The exposure is broader than a single stock. If an investor owns an index fund, the top of the S&P 500 has already cast a vote for this buildout through its weighting. The question is whether that exposure was chosen with the financing risk in view.",
+    "The chips may be scarce. The harder component is demand that can carry the financing after the bottleneck clears."
+  ],
+  "chart": null,
+  "tests": [
+    {
+      "id": "p01-t01",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "When the bottleneck clears",
+      "whenLabel": "When the bottleneck clears",
+      "date": null,
+      "precision": "signal",
+      "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When the bottleneck clears",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t01",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p01-t02",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "As capacity ramps",
+      "whenLabel": "As capacity ramps",
+      "date": null,
+      "precision": "signal",
+      "event": "Order cancellations would erode year-long customer visibility; continued bookings would support the scarcity case.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "As capacity ramps",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t02",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p01-t03",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "Next depreciation tests",
+      "whenLabel": "Next depreciation tests",
+      "date": null,
+      "precision": "signal",
+      "event": "Schedules that lag obsolescence flatter earnings; schedules that catch up would strengthen the bears.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next depreciation tests",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t03",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "blackstone",
+      "name": "Blackstone",
+      "ticker": "BX",
+      "url": "https://deepstack.ltd/companies/blackstone/"
+    },
+    {
+      "kind": "company",
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "url": "https://deepstack.ltd/companies/broadcom/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "person",
+      "slug": "invest-in-assets",
+      "name": "Invest in Assets",
+      "role": "Invest in Quality",
+      "url": "https://deepstack.ltd/people/invest-in-assets/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "longriver",
+      "name": "Longriver",
+      "role": null,
+      "url": "https://deepstack.ltd/people/longriver/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "nzs-capital",
+      "name": "NZS Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/nzs-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "quanta-72",
+      "name": "Quanta 72",
+      "role": null,
+      "url": "https://deepstack.ltd/people/quanta-72/"
+    },
+    {
+      "kind": "person",
+      "slug": "stephen-clapham",
+      "name": "Stephen Clapham",
+      "role": "Behind the Balance Sheet",
+      "url": "https://deepstack.ltd/people/stephen-clapham/"
+    }
+  ]
+}

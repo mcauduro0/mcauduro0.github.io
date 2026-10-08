@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 2,
+  "slug": "spacex-after-the-ipo-exit-liquidity",
+  "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+  "dek": "SpaceX’s $75 billion IPO puts AI infrastructure inside a profitable Starlink shell. The capacity looks plausible; the operating proof has not reached the meter.",
+  "summary": "SpaceX’s IPO funds a credible AI buildout, but the stock is pricing future capacity before deployment, revenue quality and Starlink coverage are proven.",
+  "section": "Capital Markets",
+  "date": "2026-08-13",
+  "readingMinutes": 7,
+  "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+  "api": "https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json",
+  "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Ahead of the evidence",
+    "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Value the AI arm on deployed gigawatts (0.4 today), not on the roughly 10 GW site plan.",
+      "Treat Starlink’s $4.4 billion of operating income as the collateral, not the upside.",
+      "Strip related-party and Anthropic-linked revenue out before calling AI demand proven."
+    ],
+    "flips": [
+      "Deployed capacity climbs toward the site plan, quarter after quarter.",
+      "AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work."
+    ],
+    "nextTest": {
+      "id": "p02-t01",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "2027 buildout",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 buildout",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t01",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$75B",
+      "label": "IPO proceeds",
+      "context": "Raised June 12 at near $1.75T valuation"
+    },
+    {
+      "value": "54%",
+      "label": "Peak-to-low drawdown",
+      "context": "$225.64 to $104.83 by early August"
+    },
+    {
+      "value": "0.4 GW",
+      "label": "Compute deployed",
+      "context": "Kakashii’s first-quarter reading, August 2026"
+    },
+    {
+      "value": "$1.25B",
+      "label": "Monthly Anthropic contract",
+      "context": "Through May 2029, as documented by Kevin Gee"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Potential Multibaggers - June 8 SpaceX valuation warning",
+      "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+    },
+    {
+      "label": "JunkBondInvestor - SpaceX credit guide",
+      "url": "https://www.junkbondinvestor.com/p/the-credit-investors-guide-to-spacex"
+    },
+    {
+      "label": "SemiAnalysis - SpaceX 10GW capacity analysis",
+      "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/spacex-after-the-ipo-exit-liquidity",
+  "wordCount": 1586,
+  "pullQuote": "SpaceX has not sold the future; it has sold the market a ticket to inspect it.",
+  "verdict": "The DeepStack view is that SpaceX’s AI infrastructure is more credible than a pure exit-liquidity story, but the stock has moved ahead of the operating evidence. The single most important reason is the gap between 0.4 gigawatts deployed and roughly 10 gigawatts that SemiAnalysis believes can stand by the end of 2027. A site-backed pipeline is meaningful; it is not cash generation. Starlink’s $4.4 billion of operating income gives the company room to build, while the widening AI loss gives shareholders little room for error. We would change our mind if deployed capacity approached the site plan, AI revenue arrived net of related-party arrangements and Anthropic’s payments proved durable without the capital cycle doing the work.",
+  "sections": [
+    {
+      "id": "a-price-without-proof",
+      "title": "A price without proof",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#a-price-without-proof"
+    },
+    {
+      "id": "three-businesses-one-ticker",
+      "title": "Three businesses, one ticker",
+      "startsAt": 7,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#three-businesses-one-ticker"
+    },
+    {
+      "id": "the-meter-versus-the-map",
+      "title": "The meter versus the map",
+      "startsAt": 12,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#the-meter-versus-the-map"
+    },
+    {
+      "id": "the-customer-test",
+      "title": "The customer test",
+      "startsAt": 17,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#the-customer-test"
+    },
+    {
+      "id": "what-2027-must-prove",
+      "title": "What 2027 must prove",
+      "startsAt": 21,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#what-2027-must-prove"
+    }
+  ],
+  "body": [
+    "$225.64 was SpaceX’s high-water mark. The stock had started life as a public company at $135 a share on June 12, when the rocket group raised $75 billion at a valuation near $1.75 trillion. By early August, it had fallen to $104.83, a 54 percent drawdown that carried it below the offer price. It closed Wednesday at $146.15, eleven dollars above its starting point, after a nearly 30 percent jump following its first earnings report.",
+    "In eight weeks, volatility has forced one ticker to carry three stories: satellite cash generation, a capital-intensive launch business and an audacious bet on artificial-intelligence infrastructure.",
+    "SpaceX is neither a clean exit for insiders nor a proven ten-bagger. The listing is funding a credible AI infrastructure option, but the stock is pricing that option before deployment, revenue quality and Starlink’s ability to cover the spending have been proved.",
+    "Kris of Potential Multibaggers saw the valuation problem before the listing. In a June 8 warning, Kris wrote that retail buyers at the expected price would be paying out insiders and early investors at the top of the hype cycle. Even under generous growth assumptions, the price implied roughly 45 times revenue.",
+    "The tape has made that warning difficult to dismiss. An investor who bought the summer peak was still down 35 percent two months later. Someone who bought at the offer was up eight percent, nearly all of it earned in the last week and a half. The first test therefore belongs to the cautious side: price can punish a grand narrative long before a business misses a target.",
+    "Trey Henninger of DIY Investing supplied the more interesting answer to that caution. Before the listing, he said SpaceX at nearly 100 times trailing revenue could never be called a value investment. He then disclosed that he had requested an allocation capped below one percent of his portfolio. His reasoning was not a valuation call. If artificial intelligence produces enormous corporate revenue growth alongside personal job losses, a small stake in the company building the machines is insurance for the world in which the paycheck loses.",
+    "Henninger’s position is uncomfortable but coherent. He concedes the bears’ arithmetic and still sees a ten-bagger as feasible over a decade or more. That is not a forecast that the shares are cheap. It is a wager that an extreme social and economic outcome could make the hedge valuable even if the entry price is indefensible.",
+    "Public buyers did not acquire a pure AI company. They acquired a bundle. Starlink produced $11.4 billion of revenue and $4.4 billion of operating income last year, per the filings, and is the only segment that reliably makes money. The launch business underneath keeps the satellites cheap. The AI segment, spanning xAI, Grok, the Colossus data centers and X, produced about $3.2 billion of revenue and lost roughly $6.4 billion, with the loss widening.",
+    "That mix puts the tape in context. The $146.15 close is only eleven dollars above the $135 offer, after the stock touched $225.64 and $104.83. Price has outrun the accounting: the IPO can look cheap against a $300 billion revenue path and expensive against a $6.4 billion loss. Capacity still has to be built.",
+    "That mix explains the credit market’s caution. JunkBondInvestor’s walk-through of the $25 billion inaugural bond, described as the largest corporate debut on record, says the deal is a refinancing first: its main job was to term out a $20 billion bridge loan. “A lender here is backing the satellite business and betting the AI spending does not drain the company before it pays off.” JunkBondInvestor writes.",
+    "That sentence is more revealing than the bond’s size. Lenders are not underwriting a blank check for the AI plan; they are relying on the cash-producing satellite business to survive it. The public equity, by contrast, can capitalize the upside long before the cash arrives. The two markets are looking at the same ticker and demanding different proof.",
+    "Stephen Clapham of Behind the Balance Sheet asked in a June 7 analysis why Musk is listing now. One answer he takes seriously is that public retail pays prices private markets will no longer pay. That possibility does not make the AI infrastructure fictitious. It does mean the IPO may be a financing event for a costly expansion as much as an invitation to participate in a finished business.",
+    "On August 4, SpaceX reported its first quarter as a public company. As kakashii counted, the company mentioned AI far more often than space. Musk guided 6 to 8 incremental gigawatts of data-center capacity for 2027, with upside reaching 15 gigawatts at what he called the PowerPoint level. The stock’s nearly 30 percent rally said the market chose to believe the capacity plan.",
+    "Jeremie Eliahou Ontiveros at SemiAnalysis did more than read the slide. In a site-by-site evaluation, he concluded that roughly 10 gigawatts by the end of 2027 is real. The distinction matters. A pipeline that can be located, permitted or built is not the same as a promise without physical coordinates.",
+    "Ontiveros’s economics are the bull case in its most forceful form. At a conservative market rental rate, he estimates that selling frontier-model inference on current Nvidia hardware generates over $100 billion per gigawatt-year of revenue against roughly $12 billion of cost. If that holds, the marginal AI data center is not a subsidized science project. It is an unusually profitable asset, and SpaceX has a path toward $300 billion of annualized revenue.",
+    "Kakashii read the same quarter and found 0.4 gigawatts of compute actually deployed. He asked what sits inside construction-in-progress, how the AI segment’s revenue is counted and where all the Nvidia GPUs said to be in short supply actually are. The bull has shown a map; the skeptic has shown the meter. Both can be right today. Only the meter can settle the investment.",
+    "The evidence that matters more is not the most spectacular number. It is the gap between roughly 10 gigawatts that can be built by the end of 2027 and 0.4 gigawatts operating now. Site evidence makes the plan credible. Deployed capacity and recognized revenue make it investable. Until the second arrives, the market is paying for execution that has not yet happened.",
+    "The financial question reaches back into Nvidia. Michael Burry’s July 8 piece says marginal AI-compute demand is sustained by circular financing at above-market terms, leaving the marginal buyer uneconomic without subsidy. Ontiveros’s arithmetic offers the cleanest counterpoint: a buyer earning several times cost at market rental rates needs no subsidy. Roughly $300 billion of projected revenue sits on the difference between those two readings.",
+    "Kakashii’s accounting question cuts the other way. If GPUs are genuinely scarce, an analyst reading segment disclosures should not have to ask where they are. And the demand exhibit is a signed contract rather than an inference: Kevin Gee documents Anthropic’s agreement to pay SpaceX $1.25 billion a month for compute through May 2029, roughly $45 billion in total.",
+    "That contract is powerful evidence, but it is not clean evidence. Anthropic is itself raising $30 billion at a $900 billion valuation. The customer has committed dollars; the customer is also part of the same capital cycle that has made AI infrastructure so valuable. Revealed preference and circular financing can occupy the same document.",
+    "Kevin Gee’s wider question is the one the stock cannot answer with a slide: can the market absorb three trillion-dollar cash-burning IPOs in a single window, with OpenAI still to come? Gee calls himself long AI in the long run and doubtful about the short run. After SpaceX’s violent first eight weeks, that is less a compromise than a description of the chart.",
+    "The bullish case deserves more than a courteous nod. Ontiveros evaluated where the capacity would physically stand, and his revenue-to-cost arithmetic is not a thin margin story. A business that can earn over $100 billion per gigawatt-year against roughly $12 billion of cost would not need to disguise weak demand with cheap financing. Anthropic’s monthly commitment is a signed customer contract, and Starlink generated $4.4 billion of operating income last year. The bear may be right that the price is excessive and still be wrong about the asset.",
+    "The skeptical case is stronger on timing. SpaceX has 0.4 gigawatts deployed against a plan that reaches roughly 10 gigawatts by the end of 2027. The AI segment is losing roughly $6.4 billion while the profitable satellite business is expected to carry the burn. The bond market’s implicit bargain is plain: Starlink must remain healthy while AI spending races ahead. That is a lot of future packed into a company whose public history is only eight weeks long.",
+    "DeepStack would be wrong if the next quarters showed sustained cash generation from the AI segment, deployed capacity near the 10-gigawatt site plan and Anthropic’s payments arriving without related-party support.",
+    "The scoreboard is already available: gigawatts deployed per quarter against gigawatts promised, AI revenue net of related-party arrangements, Starlink operating income against the burn, and bond prices when the next tranche arrives. Those measures will decide whether the IPO financed a durable new business or transferred the cost of optimism to public shareholders.",
+    "SpaceX has not sold the future; it has sold the market a ticket to inspect it. The ticker can price the rocket, the satellites and the dream. Only deployed watts can price what comes next."
+  ],
+  "chart": {
+    "title": "Eight Weeks, Four Prices",
+    "subtitle": "SpaceX share price from IPO to Wednesday close",
+    "unit": "$",
+    "decimals": 2,
+    "source": "Market data through August 2026",
+    "items": [
+      {
+        "label": "IPO, Jun 12",
+        "value": 135
+      },
+      {
+        "label": "Peak",
+        "value": 225.64
+      },
+      {
+        "label": "Early Aug",
+        "value": 104.83
+      },
+      {
+        "label": "Wed close",
+        "value": 146.15
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p02-t01",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "2027 buildout",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 buildout",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t01",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t02",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "May 2029",
+      "whenLabel": "May 2029",
+      "date": "2029-05-01",
+      "precision": "month",
+      "event": "Anthropic’s $1.25B monthly commitment expires; payment durability will test contracted AI demand.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "May 2029",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t02",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t03",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "Next bond tranche",
+      "whenLabel": "Next bond tranche",
+      "date": null,
+      "precision": "signal",
+      "event": "Bond pricing will show whether lenders still trust Starlink to carry AI spending.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next bond tranche",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t03",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t04",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "OpenAI IPO window",
+      "whenLabel": "OpenAI IPO window",
+      "date": null,
+      "precision": "signal",
+      "event": "A third trillion-dollar cash-burning listing would test Kevin Gee’s market-capacity concern.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "OpenAI IPO window",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t04",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "spacex",
+      "name": "SpaceX",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/spacex/"
+    },
+    {
+      "kind": "person",
+      "slug": "behind-the-balance-sheet",
+      "name": "Behind the Balance Sheet",
+      "role": null,
+      "url": "https://deepstack.ltd/people/behind-the-balance-sheet/"
+    },
+    {
+      "kind": "person",
+      "slug": "jeremie-eliahou-ontiveros",
+      "name": "Jeremie Eliahou Ontiveros",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "kevin-gee",
+      "name": "Kevin Gee",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kevin-gee/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "stephen-clapham",
+      "name": "Stephen Clapham",
+      "role": "Behind the Balance Sheet",
+      "url": "https://deepstack.ltd/people/stephen-clapham/"
+    },
+    {
+      "kind": "person",
+      "slug": "trey-henninger",
+      "name": "Trey Henninger",
+      "role": null,
+      "url": "https://deepstack.ltd/people/trey-henninger/"
+    }
+  ]
+}

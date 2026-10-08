@@ -1,0 +1,1133 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "url": "https://deepstack.ltd/docket/",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "asOf": "2026-10-08",
+  "api": "https://deepstack.ltd/api/v1/docket.json",
+  "calendar": "https://deepstack.ltd/docket.ics",
+  "count": 46,
+  "dated": 24,
+  "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
+  "tests": [
+    {
+      "id": "p01-t01",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "When the bottleneck clears",
+      "whenLabel": "When the bottleneck clears",
+      "date": null,
+      "precision": "signal",
+      "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When the bottleneck clears",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t01",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p01-t02",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "As capacity ramps",
+      "whenLabel": "As capacity ramps",
+      "date": null,
+      "precision": "signal",
+      "event": "Order cancellations would erode year-long customer visibility; continued bookings would support the scarcity case.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "As capacity ramps",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t02",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p01-t03",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "when": "Next depreciation tests",
+      "whenLabel": "Next depreciation tests",
+      "date": null,
+      "precision": "signal",
+      "event": "Schedules that lag obsolescence flatter earnings; schedules that catch up would strengthen the bears.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next depreciation tests",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p01-t03",
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t01",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "2027 buildout",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 buildout",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t01",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t02",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "May 2029",
+      "whenLabel": "May 2029",
+      "date": "2029-05-01",
+      "precision": "month",
+      "event": "Anthropic’s $1.25B monthly commitment expires; payment durability will test contracted AI demand.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "May 2029",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t02",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t03",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "Next bond tranche",
+      "whenLabel": "Next bond tranche",
+      "date": null,
+      "precision": "signal",
+      "event": "Bond pricing will show whether lenders still trust Starlink to carry AI spending.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next bond tranche",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t03",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p02-t04",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "when": "OpenAI IPO window",
+      "whenLabel": "OpenAI IPO window",
+      "date": null,
+      "precision": "signal",
+      "event": "A third trillion-dollar cash-burning listing would test Kevin Gee’s market-capacity concern.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "OpenAI IPO window",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p02-t04",
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t01",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next Nebius disclosure",
+      "whenLabel": "Nov 10, 2026",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NBIS",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t02",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next H100 batches",
+      "whenLabel": "Next H100 batches",
+      "date": null,
+      "precision": "signal",
+      "event": "Re-lets near 95 percent support durable value; faster decay would expose a gap in the economics.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next H100 batches",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t03",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "2027",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Resilient hyperscaler free cash flow would ease leverage fears; negative cash flow would validate Erkan’s tripwire.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t04",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "After Labor Day",
+      "whenLabel": "Sep 8, 2026",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t05",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "When the streak ends",
+      "whenLabel": "When the streak ends",
+      "date": null,
+      "precision": "signal",
+      "event": "The 182-day run ending would test whether unusual market calm is breaking; repetition would extend the signal.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When the streak ends",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t01",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "2027 budget",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 budget",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t02",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Next lab financing",
+      "whenLabel": "Next lab financing",
+      "date": null,
+      "precision": "signal",
+      "event": "OpenAI and Anthropic revenue and funding terms emerge; deceleration, not decline, is the trigger for a reflexive break.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next lab financing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t03",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Through 2027",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Hyperscaler free cash flow shows whether operating cash flow catches capex growth; a catch-up makes external funding temporary.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Through 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t04",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "After Labor Day",
+      "whenLabel": "Sep 8, 2026",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t05",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Token and productivity data",
+      "whenLabel": "Token and productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "Prices, volumes and productivity move together; sustained volume growth over price and a visible productivity surge support the bulls.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Token and productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t01",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next prospectus",
+      "whenLabel": "Next prospectus",
+      "date": null,
+      "precision": "signal",
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next prospectus",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t01",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t02",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next disclosures",
+      "whenLabel": "Next disclosures",
+      "date": null,
+      "precision": "signal",
+      "event": "Useful-life assumptions show whether first-year GPU margins survive across the cluster; Romero’s accounting would gain force if they do not.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next disclosures",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t02",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t03",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "DeepSeek repricing",
+      "whenLabel": "DeepSeek repricing",
+      "date": null,
+      "precision": "signal",
+      "event": "A quiet reversal would weaken Erkan’s demand evidence; sustained higher prices would support the view that demand remains structurally strong.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "DeepSeek repricing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t03",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t04",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "2028",
+      "whenLabel": "Jan 3, 2028",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2028",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t04",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p05-t05",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "A second revocation",
+      "whenLabel": "A second revocation",
+      "date": null,
+      "precision": "signal",
+      "event": "Another model suspension would turn Massif’s signal into procurement policy, showing that open weights are changing buying behavior.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "A second revocation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t05",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t01",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Dec 10",
+      "whenLabel": "Dec 10, 2026",
+      "date": "2026-12-10",
+      "precision": "day",
+      "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Dec 10",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t01",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t02",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Year-end",
+      "whenLabel": "Year-end",
+      "date": "2026-12-31",
+      "precision": "month",
+      "event": "Nebius must turn 800MW–1GW connected against 5GW contracted into Vineland revenue; commissioning and GPU fill test execution.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Year-end",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t02",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t03",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Next quarterly count",
+      "whenLabel": "Next quarterly count",
+      "date": null,
+      "precision": "signal",
+      "event": "A second quarter near 26 blocked projects would turn a single data point into a permitting trend.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next quarterly count",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t03",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t04",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "First cancellation",
+      "whenLabel": "First cancellation",
+      "date": null,
+      "precision": "signal",
+      "event": "A hyperscaler cancelling for sufficient compute would turn the fiber analogy into evidence of overbuild.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "First cancellation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t04",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t05",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "2029–30 order books",
+      "whenLabel": "Jan 1, 2029",
+      "date": "2029-01-01",
+      "precision": "window",
+      "event": "Bloom staying sold out while FuelCell Energy keeps signing would show scarcity has moved from the grid to factories.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2029–30 order books",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t05",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p07-t01",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "when": "Oct 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DFEDTARU",
+        "provider": "FRED",
+        "rule": "value after date > value before date => hike",
+        "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p07-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p07-t02",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "when": "Mid-October",
+      "whenLabel": "Oct 15, 2026",
+      "date": "2026-10-15",
+      "precision": "window",
+      "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Mid-October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "release",
+        "release": "Treasury International Capital",
+        "provider": "Treasury",
+        "rule": "release published => read the Japan line"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p07-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p07-t03",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "when": "10-year at 5.5%",
+      "whenLabel": "10-year at 5.5%",
+      "date": null,
+      "precision": "signal",
+      "event": "Howell expects a major bond opportunity; failure to turn would keep the growth brake unproven.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "10-year at 5.5%",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DGS10",
+        "provider": "FRED",
+        "rule": "value after date >= 5.5 => reached",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p07-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p07-t04",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "when": "2028 refinancing wave",
+      "whenLabel": "Jan 3, 2028",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Leveraged-loan and corporate maturities arrive; stress would show today’s rates are reaching AI’s borrowers.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2028 refinancing wave",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p07-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t01",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t02",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Nov 23",
+      "whenLabel": "Nov 23, 2026",
+      "date": "2026-11-23",
+      "precision": "day",
+      "event": "New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t03",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Feb 1, 2027",
+      "whenLabel": "Feb 1, 2027",
+      "date": "2027-02-01",
+      "precision": "day",
+      "event": "Pipeline in-service date tests whether Project Jupiter can secure fuel for its planned campus.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t04",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "First Blackwell renewal",
+      "whenLabel": "First Blackwell renewal",
+      "date": null,
+      "precision": "signal",
+      "event": "Contract repricing shows whether scarce compute retains value or lenders face faster obsolescence.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "First Blackwell renewal",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t05",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Fluidstack terms",
+      "whenLabel": "Fluidstack terms",
+      "date": null,
+      "precision": "signal",
+      "event": "Government-loan terms reveal the price Washington assigns to financing bottlenecks it wants to remove.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Fluidstack terms",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t01",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t01",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t02",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Early November",
+      "whenLabel": "Nov 3, 2026",
+      "date": "2026-11-03",
+      "precision": "day",
+      "event": "Booking reports room nights and direct mix; the result tests whether the agent or the incumbent owns the booking.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "BKNG",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t02",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t03",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Nov 16-17",
+      "whenLabel": "Nov 16, 2026",
+      "date": "2026-11-16",
+      "precision": "day",
+      "event": "Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t03",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t04",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "January-April",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "The first tax season with agents tests whether households still pay Intuit for certainty or ask an agent.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "January-April",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t04",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t05",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Amazon standoff",
+      "whenLabel": "Amazon standoff",
+      "date": null,
+      "precision": "signal",
+      "event": "Amazon allowing agent checkout would show the advertising pool beginning to move; continued resistance shows its value remains protected.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Amazon standoff",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t05",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t01",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t02",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "October",
+      "whenLabel": "October",
+      "date": "2026-10-01",
+      "precision": "month",
+      "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t03",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "At 5.5% 10-year",
+      "whenLabel": "At 5.5% 10-year",
+      "date": null,
+      "precision": "signal",
+      "event": "A 5.5% Treasury yield tests Howell’s turning-point history against TSCS’s warning that the long end will keep rising.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "At 5.5% 10-year",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DGS10",
+        "provider": "FRED",
+        "rule": "value after date >= 5.5 => reached",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t04",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Next used-GPU print",
+      "whenLabel": "Next used-GPU print",
+      "date": null,
+      "precision": "signal",
+      "event": "Three-year-old chip rents and resale prices show whether scarcity or durable economics supports hardware values.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next used-GPU print",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t05",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Productivity data",
+      "whenLabel": "Productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "A rise in total factor productivity would show the rest of the economy can write the checks; a flat reading leaves bondholders exposed.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    }
+  ]
+}

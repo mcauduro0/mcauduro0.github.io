@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "prof-g-markets",
+  "name": "Prof G Markets",
+  "role": null,
+  "url": "https://deepstack.ltd/people/prof-g-markets/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
+  "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$165B",
+      "label": "Quarterly hyperscaler capex",
+      "context": "Prof G Markets; three months, August 4",
+      "part": 4,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "Prof G Markets tallied the immediate bill: Amazon, Google, Microsoft and Meta spent $165 billion on capital spending in three months, up 87 percent from a year earlier and 393 percent from three years earlier.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "The tape picks winners",
+      "excerpt": "Prof G Markets reads the same scorecard through cash flow.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "section": "The megawatt premium",
+      "excerpt": "Prof G Markets puts data-center capital spending above telecom’s share of output in the 2000s and growing faster: it added 0.85 percentage points to GDP in one year, against 0.5 at the housing boom’s peak and 0.15 for telecom.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Mia Silverio of Prof G Markets counts nearly $170 billion of market value added to Meta in Muse’s first two weeks.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "section": "A cheap top",
+      "excerpt": "Mia Silverio of Prof G Markets cited a Goldman Sachs estimate that half of this year’s earnings growth comes from AI investment, even as the other 493 companies grew profits 31.8% in the second quarter.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 0,
+    "claims": 1105,
+    "texts": 87,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

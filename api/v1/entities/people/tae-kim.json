@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "tae-kim",
+  "name": "Tae Kim",
+  "role": null,
+  "url": "https://deepstack.ltd/people/tae-kim/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/tae-kim.json",
+  "summary": "Tae Kim appears in Part 9, Part 10 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon).",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Morgan Stanley’s arithmetic, relayed by Tae Kim, says every 100 million users adds about 35 cents, or 1%, to Meta’s 2028 earnings per share.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Tae Kim prefers CPUs because an agent working across browsers and calendars needs general-purpose compute.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "section": "A cheap top",
+      "excerpt": "Tae Kim relays Jensen Huang’s case that Nvidia’s GPUs are productive, fungible and durable.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Tae Kim says OpenAI’s annualized revenue is nearing $70 billion; Axios reported on September 29 that it had grown more than 70% since the start of the third quarter.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 9,
+      "question": null,
+      "side": "eighteen-months",
+      "sideLabel": "Eighteen months, or less",
+      "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
+      "date": "2026-09-22",
+      "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": null,
+      "side": "eighteen-months",
+      "sideLabel": "Eighteen months, or less",
+      "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+      "date": "2026-09-22",
+      "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "On the owner of the agent and on the rails beneath it.",
+      "date": null,
+      "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "The creator says he has seen enough: the personal AI agents released over the past month will be a huge paradigm shift for computer usage and a major positive inflection point for technology.",
+      "date": "2026-10-02",
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+      "date": "2026-10-02",
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "owner-of-the-agent",
+      "sideLabel": "The owner of the agent",
+      "claim": "With the release of GPT-6 Astra, computer tool use AI has finally become real, and he is now confident AI will soon perform actual software knowledge work tasks better and faster than most humans, with competence accelerating rapidly from here.",
+      "date": "2026-09-07",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "owner-of-the-agent",
+      "sideLabel": "The owner of the agent",
+      "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+      "date": "2026-09-07",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "The CPU under every agent's machine.",
+      "date": null,
+      "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "everyone-soon",
+      "sideLabel": "Everyone, soon",
+      "claim": "OpenAI near $70B a year.",
+      "date": null,
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 2,
+    "claims": 557,
+    "texts": 61,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

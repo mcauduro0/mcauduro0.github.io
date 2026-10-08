@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "geo-chen",
+  "name": "Geo Chen",
+  "role": null,
+  "url": "https://deepstack.ltd/people/geo-chen/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/geo-chen.json",
+  "summary": "Geo Chen appears in Part 5, Part 8 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Geo Chen says cheap intelligence is already eroding the labs’ share and access to capital.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 8,
+      "section": "A shortage with a price",
+      "excerpt": "Geo Chen, who exited AI positions in June, wrote in September that only one bearish scenario had arrived: token prices fell as cheaper open and Chinese models took share.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 0,
+    "claims": 1517,
+    "texts": 157,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

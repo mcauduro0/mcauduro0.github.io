@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "jeremie-eliahou-ontiveros",
+  "name": "Jeremie Eliahou Ontiveros",
+  "role": null,
+  "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/jeremie-eliahou-ontiveros.json",
+  "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 2 (The number is real).",
+  "parts": [
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 2,
+      "section": "The meter versus the map",
+      "excerpt": "Jeremie Eliahou Ontiveros at SemiAnalysis did more than read the slide.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 5,
+      "section": "The margin test",
+      "excerpt": "Jeremie Eliahou Ontiveros, working the unit economics for SemiAnalysis, calculates that a current-generation cluster can generate over $100bn of revenue per gigawatt-year against roughly $12bn of rental cost.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "The Call",
+      "excerpt": "Jeremie Eliahou Ontiveros’s $100bn-per-GW-year calculation is powerful, but Daniel Romero’s depreciation objection attacks the exact period that makes it look so good.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 2,
+      "question": null,
+      "side": "the-number-is-real",
+      "sideLabel": "The number is real",
+      "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
+      "date": "2026-08-07",
+      "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "question": null,
+      "side": "the-number-is-real",
+      "sideLabel": "The number is real",
+      "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
+      "date": "2026-08-07",
+      "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 34,
+    "texts": 3,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

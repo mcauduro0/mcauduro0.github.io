@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "comcast",
+  "name": "Comcast",
+  "ticker": "CMCSA",
+  "url": "https://deepstack.ltd/companies/comcast/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/comcast.json",
+  "summary": "Comcast appears in Part 3, Part 9, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "5.31%",
+      "label": "10-year Treasury yield",
+      "context": "CNBC, closing yield on Oct 5, 2026",
+      "part": 10,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "On CNBC, CoreWeave’s chief executive said the company was renting out 2020-vintage GPUs on contracts running to 2029 at full freight.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 9,
+      "section": "Lede",
+      "excerpt": "Amazon then blocked it from buying on Amazon, saying it stored customer credentials and scraped account data, according to CNBC.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "section": "The first bill",
+      "excerpt": "Meta rose 18% and Advanced Micro Devices rose 33%, while Booking Holdings fell 18%, Expedia 11%, Intuit 16%, Netflix 14%, Comcast 19%, Planet Fitness 17% and Bank of America 14%.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "section": "Lede",
+      "excerpt": "The 10-year Treasury, meanwhile, closed at 5.31% on October 5, the highest in roughly two decades, according to CNBC.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 16,
+    "claims": 61,
+    "texts": 48,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 20.9029,
+    "change": -0.0371,
+    "changePercent": -0.1772,
+    "marketCap": 74176796258,
+    "pe": 6.7867,
+    "nextEarnings": "2026-10-22",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:50.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

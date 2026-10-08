@@ -1,0 +1,2079 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "DeepStack API",
+    "version": "1",
+    "summary": "The money behind the machine, as static JSON.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-08T17:44:57Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
+    "license": {
+      "name": "DeepStack content: quote with attribution and a link to the canonical URL",
+      "url": "https://deepstack.ltd/about/#standards"
+    },
+    "contact": {
+      "name": "DeepStack",
+      "url": "https://deepstack.ltd/about/#partner"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://deepstack.ltd"
+    }
+  ],
+  "tags": [
+    {
+      "name": "DeepStack",
+      "description": "Static JSON under /api/v1/ and the llms.txt pair."
+    }
+  ],
+  "paths": {
+    "/api/v1/index.json": {
+      "get": {
+        "summary": "API index",
+        "operationId": "api_index",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "What exists: files, counts, license, the MCP endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Index"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/stories.json": {
+      "get": {
+        "summary": "Stories",
+        "operationId": "stories",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The 10 parts of The Buildout with The DeepStack Call, key numbers and sources.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Stories"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/stories/{slug}.json": {
+      "get": {
+        "summary": "One story",
+        "operationId": "one_story",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "The story slug, as in the page address.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "nvidias-demand-insatiable-or-manufactured",
+                "spacex-after-the-ipo-exit-liquidity",
+                "the-debt-behind-the-machines",
+                "the-market-stops-paying-for-faith",
+                "anthropic-grew-142-percent-openai",
+                "power-doesnt-depreciate",
+                "the-fed-hiked-the-long-end-kept-climbing",
+                "the-scarcity-is-the-collateral",
+                "habit-was-the-moat",
+                "the-bubble-is-in-the-denominator"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The full story: plain-text paragraphs, sections, tests, results and named entities.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Story"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/docket.json": {
+      "get": {
+        "summary": "The Docket",
+        "operationId": "the_docket",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "Every dated test with its precision, status, source and resolver.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Docket"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/results.json": {
+      "get": {
+        "summary": "Results",
+        "operationId": "results",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "Resolved tests and the ten-results rule.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Results"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sides/{slug}.json": {
+      "get": {
+        "summary": "Who is on each side",
+        "operationId": "who_is_on_each_side",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "The story slug; only stories with a sides page have a file.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "anthropic-grew-142-percent-openai",
+                "habit-was-the-moat",
+                "nvidias-demand-insatiable-or-manufactured",
+                "power-doesnt-depreciate",
+                "spacex-after-the-ipo-exit-liquidity",
+                "the-bubble-is-in-the-denominator",
+                "the-debt-behind-the-machines",
+                "the-fed-hiked-the-long-end-kept-climbing",
+                "the-market-stops-paying-for-faith",
+                "the-scarcity-is-the-collateral"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Attributed, paraphrased voices on each side of a story’s question.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Sides"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/entities/companies.json": {
+      "get": {
+        "summary": "Companies",
+        "operationId": "companies",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "33 companies with reported numbers, mentions, side rows and the delayed market snapshot.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Companies"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/entities/people.json": {
+      "get": {
+        "summary": "People",
+        "operationId": "people",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "64 people with what each argued; no score or ranking.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/People"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/entities/{kind}/{slug}.json": {
+      "get": {
+        "summary": "One entity",
+        "operationId": "one_entity",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "description": "The collection.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "companies",
+                "people"
+              ]
+            }
+          },
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "The entity slug, as in the page address.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One company or person, the same row as in the collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EntityFile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/tape.json": {
+      "get": {
+        "summary": "The macro tape",
+        "operationId": "the_macro_tape",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The live macro tape with the producer of each series.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Tape"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/weekly.json": {
+      "get": {
+        "summary": "The Weekly",
+        "operationId": "the_weekly",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The index of frozen editions.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Weekly"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "summary": "llms.txt",
+        "operationId": "llms_txt",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "Who DeepStack is, what the site offers, and links to the API and the key pages (the llms.txt convention).",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "summary": "llms-full.txt",
+        "operationId": "llms_full_txt",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The stories’ headline, dek and Call in plain text with their URLs.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Test": {
+        "type": "object",
+        "required": [
+          "id",
+          "part",
+          "slug",
+          "when",
+          "whenLabel",
+          "date",
+          "precision",
+          "event",
+          "status",
+          "resultId",
+          "source",
+          "resolver",
+          "url",
+          "storyUrl",
+          "resultUrl"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "when": {
+            "type": "string"
+          },
+          "whenLabel": {
+            "type": "string"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "precision": {
+            "type": "string",
+            "enum": [
+              "day",
+              "month",
+              "window",
+              "signal"
+            ]
+          },
+          "event": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "confirmed",
+              "refuted",
+              "inconclusive"
+            ]
+          },
+          "resultId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "resolver": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "storyUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "resultUrl": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          }
+        }
+      },
+      "Call": {
+        "type": "object",
+        "required": [
+          "tone",
+          "toneLabel",
+          "stance",
+          "line",
+          "conviction",
+          "convictionLabel",
+          "actions",
+          "flips",
+          "nextTest",
+          "url"
+        ],
+        "properties": {
+          "tone": {
+            "type": "string",
+            "enum": [
+              "bull",
+              "bear",
+              "split"
+            ]
+          },
+          "toneLabel": {
+            "type": "string"
+          },
+          "stance": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "conviction": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "convictionLabel": {
+            "type": "string"
+          },
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "flips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nextTest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Test"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "KeyNumber": {
+        "type": "object",
+        "required": [
+          "value",
+          "label",
+          "context"
+        ],
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          }
+        }
+      },
+      "Source": {
+        "type": "object",
+        "required": [
+          "label",
+          "url"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "StorySummary": {
+        "type": "object",
+        "required": [
+          "part",
+          "slug",
+          "headline",
+          "dek",
+          "summary",
+          "section",
+          "date",
+          "readingMinutes",
+          "url",
+          "api",
+          "sidesUrl",
+          "call",
+          "keyNumbers",
+          "sources",
+          "earlierVersion"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "dek": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "readingMinutes": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sidesUrl": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "call": {
+            "$ref": "#/components/schemas/Call"
+          },
+          "keyNumbers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KeyNumber"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            }
+          },
+          "earlierVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "type": "object",
+        "required": [
+          "id",
+          "testId",
+          "part",
+          "slug",
+          "story",
+          "resolvedOn",
+          "verdict",
+          "headline",
+          "body",
+          "evidence",
+          "callUpdate",
+          "approvedAt",
+          "url",
+          "storyUrl"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "testId": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "story": {
+            "type": "string"
+          },
+          "resolvedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "refuted",
+              "inconclusive"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "value",
+                "source"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "asOf": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "callUpdate": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "approvedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "storyUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "EntityRef": {
+        "type": "object",
+        "required": [
+          "kind",
+          "slug",
+          "name",
+          "url"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "company",
+              "person"
+            ]
+          },
+          "slug": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Story": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "part",
+          "slug",
+          "headline",
+          "dek",
+          "summary",
+          "section",
+          "date",
+          "readingMinutes",
+          "api",
+          "sidesUrl",
+          "call",
+          "keyNumbers",
+          "sources",
+          "earlierVersion",
+          "wordCount",
+          "pullQuote",
+          "verdict",
+          "sections",
+          "body",
+          "chart",
+          "tests",
+          "results",
+          "entities"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "dek": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "readingMinutes": {
+            "type": "integer"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sidesUrl": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "call": {
+            "$ref": "#/components/schemas/Call"
+          },
+          "keyNumbers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KeyNumber"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            }
+          },
+          "earlierVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "wordCount": {
+            "type": "integer"
+          },
+          "pullQuote": {
+            "type": "string"
+          },
+          "verdict": {
+            "type": "string"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "startsAt",
+                "url"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "startsAt": {
+                  "type": "integer"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The story as plain-text paragraphs, in order; sections[].startsAt indexes into it."
+          },
+          "chart": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "tests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Test"
+            }
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Result"
+            }
+          },
+          "entities": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EntityRef"
+            }
+          }
+        }
+      },
+      "Voice": {
+        "type": "object",
+        "required": [
+          "name",
+          "entity",
+          "claim",
+          "date",
+          "url",
+          "access"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "entity": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "access": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Side": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "voices"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "voices": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Voice"
+            }
+          }
+        }
+      },
+      "Sides": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "part",
+          "slug",
+          "story",
+          "question",
+          "call",
+          "sides",
+          "questions",
+          "crossings",
+          "notes",
+          "settles"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "story": {
+            "type": "object",
+            "required": [
+              "headline",
+              "url",
+              "api"
+            ],
+            "properties": {
+              "headline": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "api": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "question": {
+            "type": "string"
+          },
+          "call": {
+            "$ref": "#/components/schemas/Call"
+          },
+          "sides": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Side"
+            }
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "question",
+                "url",
+                "sides"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "sides": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Side"
+                  }
+                }
+              }
+            }
+          },
+          "crossings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "from",
+                "to",
+                "relation",
+                "dimension",
+                "note"
+              ],
+              "properties": {
+                "from": {
+                  "type": "string"
+                },
+                "to": {
+                  "type": "string"
+                },
+                "relation": {
+                  "type": "string"
+                },
+                "dimension": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "text"
+              ],
+              "properties": {
+                "label": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "settles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Test"
+            }
+          }
+        }
+      },
+      "MarketSnapshot": {
+        "type": "object",
+        "required": [
+          "price",
+          "change",
+          "changePercent",
+          "marketCap",
+          "pe",
+          "nextEarnings",
+          "exchange",
+          "currency",
+          "asOf",
+          "source",
+          "sourceUrl",
+          "note"
+        ],
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "change": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "changePercent": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "marketCap": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "pe": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "nextEarnings": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "exchange": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "asOf": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      },
+      "SideRow": {
+        "type": "object",
+        "required": [
+          "part",
+          "question",
+          "side",
+          "sideLabel",
+          "claim",
+          "date",
+          "url",
+          "linkVerified",
+          "storyUrl",
+          "sidesUrl"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "question": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "side": {
+            "type": "string"
+          },
+          "sideLabel": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "linkVerified": {
+            "type": "boolean"
+          },
+          "storyUrl": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sidesUrl": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Entity": {
+        "type": "object",
+        "required": [
+          "kind",
+          "slug",
+          "name",
+          "url",
+          "api",
+          "summary",
+          "parts",
+          "numbers",
+          "mentions",
+          "sides"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "company",
+              "person"
+            ]
+          },
+          "slug": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "ticker": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "role": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "part",
+                "headline",
+                "url"
+              ],
+              "properties": {
+                "part": {
+                  "type": "integer"
+                },
+                "headline": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "numbers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "value",
+                "label",
+                "context",
+                "part",
+                "url"
+              ],
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "context": {
+                  "type": "string"
+                },
+                "part": {
+                  "type": "integer"
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "mentions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "part",
+                "section",
+                "excerpt",
+                "url"
+              ],
+              "properties": {
+                "part": {
+                  "type": "integer"
+                },
+                "section": {
+                  "type": "string"
+                },
+                "excerpt": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "sides": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SideRow"
+            }
+          },
+          "coverage": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "lastUpdated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "market": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/MarketSnapshot"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "TapeItem": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "value",
+          "change",
+          "source",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "change": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Edition": {
+        "type": "object",
+        "required": [
+          "id",
+          "number",
+          "date",
+          "subject",
+          "preheader",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "number": {
+            "type": "integer"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "preheader": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Index": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "name",
+          "version",
+          "site",
+          "description",
+          "license",
+          "cors",
+          "counts",
+          "files",
+          "openapi",
+          "llms",
+          "feeds",
+          "mcp"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "name": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "cors": {
+            "type": "string"
+          },
+          "counts": {
+            "type": "object"
+          },
+          "files": {
+            "type": "object"
+          },
+          "openapi": {
+            "type": "string",
+            "format": "uri"
+          },
+          "llms": {
+            "type": "object",
+            "required": [
+              "txt",
+              "full"
+            ],
+            "properties": {
+              "txt": {
+                "type": "string",
+                "format": "uri"
+              },
+              "full": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "feeds": {
+            "type": "object",
+            "required": [
+              "rss",
+              "docket"
+            ],
+            "properties": {
+              "rss": {
+                "type": "string",
+                "format": "uri"
+              },
+              "docket": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "mcp": {
+            "type": "object",
+            "required": [
+              "url",
+              "transport",
+              "protocolVersion",
+              "tools"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "transport": {
+                "type": "string"
+              },
+              "protocolVersion": {
+                "type": "string"
+              },
+              "tools": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Stories": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "series",
+          "description",
+          "count",
+          "stories"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "series": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "stories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StorySummary"
+            }
+          }
+        }
+      },
+      "Docket": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "asOf",
+          "api",
+          "calendar",
+          "count",
+          "dated",
+          "precision",
+          "tests"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "asOf": {
+            "type": "string",
+            "format": "date"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "calendar": {
+            "type": "string",
+            "format": "uri"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "dated": {
+            "type": "integer"
+          },
+          "precision": {
+            "type": "string"
+          },
+          "tests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Test"
+            }
+          }
+        }
+      },
+      "Results": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "rule",
+          "count",
+          "counts",
+          "results"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "counts": {
+            "type": "object",
+            "required": [
+              "confirmed",
+              "refuted",
+              "inconclusive"
+            ],
+            "properties": {
+              "confirmed": {
+                "type": "integer"
+              },
+              "refuted": {
+                "type": "integer"
+              },
+              "inconclusive": {
+                "type": "integer"
+              }
+            }
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Result"
+            }
+          }
+        }
+      },
+      "Companies": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "kind",
+          "count",
+          "market",
+          "companies"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kind": {
+            "type": "string",
+            "const": "company"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "market": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "companies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Entity"
+            }
+          }
+        }
+      },
+      "People": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "kind",
+          "count",
+          "note",
+          "people"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kind": {
+            "type": "string",
+            "const": "person"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "note": {
+            "type": "string"
+          },
+          "people": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Entity"
+            }
+          }
+        }
+      },
+      "Tape": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "asOf",
+          "api",
+          "source",
+          "sourceUrl",
+          "count",
+          "items",
+          "note"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "asOf": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TapeItem"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      },
+      "Weekly": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "count",
+          "latest",
+          "editions"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "latest": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "editions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Edition"
+            }
+          }
+        }
+      },
+      "EntityFile": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Entity"
+          },
+          {
+            "type": "object",
+            "required": [
+              "generatedAt",
+              "disclaimer"
+            ],
+            "properties": {
+              "generatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "disclaimer": {
+                "type": "string",
+                "const": "Analysis and opinion, not investment advice."
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

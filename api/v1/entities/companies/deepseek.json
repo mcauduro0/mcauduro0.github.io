@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "ticker": null,
+  "url": "https://deepstack.ltd/companies/deepseek/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/deepseek.json",
+  "summary": "DeepSeek appears in Part 3, Part 5 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business.",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "His checklist is substantial: token demand is up roughly 17,000-fold in four years; DeepSeek raised token prices despite a strategy built on undercutting; combined OpenAI and Anthropic revenue run rates crossed $110 billion in July; and Morgan Stanley put hyperscaler returns on AI capital expenditure at 25 to 46 percent.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "On August 9, Wyndo published step-by-step instructions for pointing Anthropic’s coding tool at DeepSeek’s servers.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "The same task cost about $0.32 on Claude Opus 5, about $0.24 on Kimi and roughly half a cent on DeepSeek.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "A premium still holds",
+      "excerpt": "DeepSeek then raised prices.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The creator cites Artificial Analysis benchmark results as evidence of rapid open-weight model improvement: Kimi K3 scored 57 on its Intelligence Index (13 points above Kimi K2.6, per the July 17 evaluation), and DeepSeek V4 Flash 0731 scored 10…",
+      "date": "2026-08-13",
+      "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "coverage": {
+    "creators": 43,
+    "claims": 201,
+    "texts": 90,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

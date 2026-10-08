@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "christian-catalini",
+  "name": "Christian Catalini",
+  "role": null,
+  "url": "https://deepstack.ltd/people/christian-catalini/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/christian-catalini.json",
+  "summary": "Christian Catalini appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Anthropic: not yet).",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "A premium still holds",
+      "excerpt": "Christian Catalini’s Some Simple Economics of Open versus Closed AI supplies the logic.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "anthropic-not-yet",
+      "sideLabel": "Anthropic: not yet",
+      "claim": "Training runs account for only 10 to 23 percent of AI labs' total compute costs, with the remainder tied to tacit knowledge in data curation, infrastructure, and learning from failed experiments.",
+      "date": "2026-08-11",
+      "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "question": null,
+      "side": "anthropic-not-yet",
+      "sideLabel": "Anthropic: not yet",
+      "claim": "The demand curve for AI capabilities is heterogeneous: commodity intelligence will become price-competitive across many applications, while convex-payoff domains like finance and frontier research can sustain premium pricing for marginal capability…",
+      "date": "2026-08-11",
+      "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 14,
+    "texts": 1,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

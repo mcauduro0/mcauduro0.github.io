@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "ed-elson",
+  "name": "Ed Elson",
+  "role": null,
+  "url": "https://deepstack.ltd/people/ed-elson/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/ed-elson.json",
+  "summary": "Ed Elson appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Ed Elson’s view of unsustainable Big Tech growth requires frontier labs to remain structurally loss-making.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Because OpenAI and Anthropic pay their bills with venture funding of which Big Tech supplies roughly 40%, revenue Big Tech books from them is partly recycled from itself and not real growth.",
+      "date": "2026-08-11",
+      "url": "https://www.profgmedia.com/p/plastic-surgery",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "If Big Tech depends heavily on OpenAI and Anthropic for revenue growth, that growth is unsustainable because both customers are massively unprofitable and may not survive.",
+      "date": "2026-08-11",
+      "url": "https://www.profgmedia.com/p/plastic-surgery",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 573,
+    "texts": 67,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

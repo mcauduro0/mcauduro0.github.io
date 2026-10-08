@@ -1,0 +1,471 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 8,
+  "slug": "the-scarcity-is-the-collateral",
+  "headline": "AI Lenders Are Financing the End of Scarcity",
+  "dek": "The shortage of power, chips and data-center capacity supports lenders today. But every new dollar also brings the glut that can wreck their collateral.",
+  "summary": "AI capacity is scarce, but lenders are financing the supply that could erase that scarcity before hyperscaler cash flow catches up.",
+  "section": "Infrastructure Finance",
+  "date": "2026-09-29",
+  "readingMinutes": 9,
+  "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Lenders are mispricing scarcity",
+    "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Haircut any loan secured by compute scarcity: the collateral decays as supply catches up.",
+      "Measure cash flow against the $2 trillion it needs, from about $600 billion today, every quarter.",
+      "Count the $2.7 trillion of off-balance-sheet commitments as leverage, because creditors will."
+    ],
+    "flips": [
+      "September-quarter cash flow moves visibly toward $2 trillion.",
+      "The first Blackwell renewal holds its price without new guarantees."
+    ],
+    "nextTest": {
+      "id": "p08-t01",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "227 bps",
+      "label": "Oracle five-year CDS",
+      "context": "Record that week, according to Seeking Alpha"
+    },
+    {
+      "value": "1,146 bps",
+      "label": "CCC spread over Treasuries",
+      "context": "September 28, 2026; FRED"
+    },
+    {
+      "value": "$2T",
+      "label": "Hyperscaler cash-flow target",
+      "context": "Torsten Slok’s 2030 assumption"
+    },
+    {
+      "value": "$2.7T",
+      "label": "Off-balance-sheet commitments",
+      "context": "Burry estimate across five hyperscalers"
+    }
+  ],
+  "sources": [
+    {
+      "label": "TechCrunch - Oracle force majeure notice",
+      "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+    },
+    {
+      "label": "Seeking Alpha via TradingView - Oracle CDS record",
+      "url": "https://www.tradingview.com/news/seekingalpha:62ed2825e094b:0-hyperscaler-cds-spreads-widen-with-oracle-hitting-record-high/"
+    },
+    {
+      "label": "FRED - ICE BofA CCC spread",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC"
+    },
+    {
+      "label": "Apollo - technology cash-flow mismatch",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+    },
+    {
+      "label": "Apollo - hyperscaler credit assumption",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+    },
+    {
+      "label": "Apollo - AI spending concentration",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/ai-adoption-is-spreading-ai-spending-is-concentrating"
+    },
+    {
+      "label": "Apollo - AI financing market",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/europe-ai-build-out-is-missing-a-financing-market"
+    },
+    {
+      "label": "Aurelion Research - Nvidia customer base",
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/the-scarcity-is-the-collateral",
+  "wordCount": 1937,
+  "pullQuote": "Lenders thought they were financing scarcity. They may instead be financing the factories, power and chips that make scarcity disappear.",
+  "verdict": "DeepStack’s view is that the financing structure is more fragile than the demand story. The decisive fact is not that AI usage is weak; it is that spending has raced ahead of demonstrated revenue, while cash-flow forecasts depend on roughly tripling operating cash flow from about $600 billion to $2 trillion. Off-balance-sheet commitments near $2.7 trillion and Oracle’s negative $28.7 billion free cash flow make scarcity a poor long-lived security. We would change our mind if September-quarter cash flow visibly moved toward $2 trillion, customer concentration fell sharply and the first Blackwell renewal held pricing without new guarantees. A lower renewal, a permit failure or cost-cutting would reinforce the case. The lenders are not wrong to finance capacity. They are wrong to assume capacity stays scarce.",
+  "sections": [
+    {
+      "id": "a-shortage-with-a-price",
+      "title": "A shortage with a price",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#a-shortage-with-a-price"
+    },
+    {
+      "id": "who-writes-the-checks",
+      "title": "Who writes the checks",
+      "startsAt": 7,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#who-writes-the-checks"
+    },
+    {
+      "id": "cash-or-a-loop",
+      "title": "Cash, or a loop",
+      "startsAt": 13,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#cash-or-a-loop"
+    },
+    {
+      "id": "what-lenders-actually-own",
+      "title": "What lenders actually own",
+      "startsAt": 18,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#what-lenders-actually-own"
+    }
+  ],
+  "body": [
+    "On September 24, Oracle sent a letter to a unit of Blue Owl Capital about Project Jupiter, a 2.45-gigawatt New Mexico campus being built for the Stargate venture with OpenAI. The notice invokes force majeure and would let Oracle defer payments if the site misses its 2028 opening. A pipeline meant to supply its gas-fired fuel cells has slipped to February 2027 after regulators rejected its permits more than once. New Mexico has until November 23 to decide on the fuel cells’ air-quality permit. Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments. That week, Oracle’s five-year credit default swaps reached a record of about 227 basis points a year, according to Seeking Alpha’s report.",
+    "The split in credit markets is stark. The extra yield on the ICE BofA index of U.S. corporate bonds was 83 basis points on September 28, near the middle of its range for the year. CCC bonds paid 1,146 basis points over Treasuries, the widest spread of 2026, for an all-in yield of 16.4%, according to FRED. AI builders sit between those two worlds: not distressed, but no longer priced like an untroubled expansion either.",
+    "Our view is that the AI buildout is not short of demand. It is short of proof that demand’s cash flow will arrive before the financing it attracts turns today’s scarcity into tomorrow’s excess. Lenders are underwriting power, chips and ready capacity as if they will remain hard to find. Every new dollar spent to remove those shortages makes that collateral less rare.",
+    "The demand is real. Gaetano, an investor along the optical supply chain, points to Microsoft saying demand exceeds its capacity, Nvidia failing to make enough, and optical parts selling out as customers pull deliveries forward, sign multiyear agreements and sometimes pay in advance. Kris sees Amazon’s cloud unit unable to serve all its AI demand despite heavy orders for Nvidia chips and its own Trainium processors. Ren points to the income statements: Azure grew 43%, Google Cloud 82% and AWS 37%, its fastest pace in eighteen quarters.",
+    "The skeptics largely concede that point. Daniel Romero disclaims any view that the buildout cannot last. Geo Chen, who exited AI positions in June, wrote in September that only one bearish scenario had arrived: token prices fell as cheaper open and Chinese models took share. Revenue, capital spending and bottlenecks still pointed up.",
+    "The agreement ends at the balance sheet. Gaetano’s comfort stops at the hyperscalers. Beyond them sit heavily borrowing neoclouds, AI labs that cannot yet pay for compute from their own earnings, Nvidia investing across its customer base and infrastructure funds filling gaps with take-or-pay contracts. A developer with Meta or Alphabet as tenant can pay up. A developer borrowing at a floating, unhedged rate for a project that earns nothing before 2027 is a different credit.",
+    "That distinction matters. Having money to spend is not the same as earning a return. Microsoft can absorb a wasted $20 billion in a way a telecom startup of 1999 could not, but can still decide the next $20 billion earns too little. The first risk is a full data center that cannot justify expansion.",
+    "Torsten Slok, Apollo’s chief economist, turns the revenue question into an accounting test. Technology analysts expect the sector’s operating cash flow to more than double by 2028, to roughly $2.4 trillion, a gain of more than $1.2 trillion. Analysts covering the rest of the S&P 500, technology’s customers, expect a far smaller gain. “Both cannot be right at the same time,” Slok writes. Either customers will generate far more cash than their own analysts expect, or the technology forecast is too high, leaving open who will write the checks for AI services. Apollo’s analysis makes the mismatch difficult to wave away.",
+    "Slok’s credit test is severe. Hyperscaler bonds rest on operating cash flow roughly tripling by 2030, from about $600 billion to $2 trillion, fast enough to stay ahead of capital spending. If not, he expects wider spreads, spending cuts and slower U.S. growth. Apollo’s credit analysis captures a debt price dependent on a large improvement.",
+    "Michael Burry attacks the forecast from underneath. The companies now called hyperscalers were covered for years as software, social media and advertising businesses. Analysts did not have to model maintenance capital spending, and most still do not do so well. If the cost of keeping the machines running is missing, projected cash flow is high before anyone gets to the harder question of demand.",
+    "Daniel Romero works from the labs’ end. OpenAI and Anthropic were running at a combined $105 billion of annual revenue in July, $40 billion and $65 billion respectively. Romero watches for $400 billion by the end of 2027. Under his assumptions about equipment costs and required returns, the labs would need $6.8 trillion of combined annual revenue by 2030, sixty-five times the July figure. He does not call that impossible. He does say one-year compute paybacks will be the exception and that 2026 contracts may mark the high point for neocloud economics.",
+    "The bullish answer is not empty. Market Sentiment models roughly $1.2 trillion of AI capital spending next year producing about $2 trillion of new revenue. Aurelion Research sees the customer base widening from a handful of hyperscalers to enterprises, AI-native companies and smaller clouds, on top of more than $3.1 trillion of expected AI infrastructure commitments. If the payer base is multiplying, Slok’s arithmetic is too narrow.",
+    "Payment evidence is concentrated. Ramp records show about 10% of software-buying businesses now pay GPU vendors, up from under 4% two years ago, but the top tenth accounts for 99.5% of model-serving spend. In the second quarter, 69% cited live AI deployment, 29% quantified a result and 70% of quantified results were cost savings. Combined cloud capex forecasts for 2026 and 2027 rose from $1.3 trillion in January to $2.1 trillion by end-August. The bill is growing faster than receipts.",
+    "The strongest case for the bulls is the size of the checks already being written. Microsoft’s operating cash flow topped $55 billion last quarter and Alphabet’s was about $39 billion. Those are formidable businesses with room to absorb mistakes.",
+    "The strongest case for the bears is where the revenue circles back. Ed Zitron said Alphabet, Amazon, Meta and Microsoft have together spent over $1 trillion on Nvidia GPUs, mostly to win the business of OpenAI and Anthropic, two companies they also help fund and that both lose heavily. Steve Eisman estimates that about 70% of the AI revenue hyperscalers book comes directly or indirectly from those two labs. OpenAI’s revenue rose 18% in the June quarter to $6.7 billion while its costs rose $3 billion; Anthropic’s more than doubled to over $11 billion. Nvidia now gives investment-grade customers a year to pay, up from 90 days, and some CoreWeave loan covenants tie to its OpenAI contract.",
+    "George Noble sees Nvidia’s funding packages as evidence that the boom rests on money less solid than it appears. Eisman draws a narrower line: the circular deals are visible and paid with Nvidia’s cash. His concern is the return of off-balance-sheet vehicles, where the revenue may be real but the risk sits somewhere else.",
+    "The bulls have a serious answer on efficiency. Stephen Clapham sees rising data-center costs, falling token prices and cheaper models, many of them Chinese, pressing on returns. Ren sees more capable models creating more agents, longer tasks and recurring inference demand. Gaetano notes that Microsoft has reported roughly four times more Copilot throughput since January from optimization alone. If installed capacity becomes five times as productive and demand merely doubles, there is too much of it. If demand grows twentyfold, there is not enough. MOI Global adds that many demand models ignore how quickly the computing required for each query is falling.",
+    "That is the best steelman of the other side: efficiency can lower unit costs while usage expands, turning a temporary shortage into a durable market. It deserves more respect than a simple spending-versus-revenue ratio. Yet concentration and the quality of the reported payoff matter more than the most generous usage curve today. We would be wrong if operating cash flow moved decisively toward $2 trillion by 2030, customer concentration fell sharply and the first Blackwell renewal held its price without fresh guarantees.",
+    "Michael Burry’s count is the largest warning sign. Across five hyperscalers, leases on data centers not yet in service and non-cancellable purchase commitments total about $2.7 trillion, perhaps more than $3 trillion once special-purpose vehicles, guarantees and backstops are included. That compares with less than $400 billion of combined earnings over the past year.",
+    "Meta’s Louisiana campus shows how the structure works. Eisman describes a $27 billion data center financed through Beignet Investor LLC: Meta owns 20%, with Blue Owl and Pimco holding the rest. Meta builds it, bears delay and cost-overrun risk and has committed to rent it, but the debt sits off balance sheet. A lease starts at four years and can renew to twenty; leaving after four can trigger up to $28 billion under a residual value guarantee. Meta carries the venture at $3 billion against maximum exposure of $46 billion and moved $10.8 billion into restricted cash. “The lenders would not bear that residual value risk without protection,” Burry writes.",
+    "Protection has a price. Debt backed by a residual value guarantee typically pays 100 to 150 basis points more than the guarantor’s bonds. CleanSpark sold $2.3 billion of five-year notes at 8.25% to fund a data center for Meta, about 175 basis points above the average BB issuer. CoreWeave’s convertible coupon rose from 1.75% in April to 2.875% on a larger September deal. The farther a borrower sits from a hyperscaler’s balance sheet, the more the same tenant costs.",
+    "Oracle makes the exposure visible. It generated positive free cash flow every fiscal year from 2018 through 2024, but the figure was negative $28.7 billion over the twelve months through August. In its first quarter, $11.4 billion of operating cash flow came from customer prepayments. Without them, free cash flow was negative $16.8 billion rather than the reported positive $5.4 billion. More than half of its $38.9 billion of cash came from selling new shares. Apollo’s financing analysis counts $81.4 billion of U.S. data-center debt securitized since 2018, versus $1.7 billion in the European Union.",
+    "Washington may soon join the structure. Fluidstack, a GPU cloud provider last valued near $18 billion, is reportedly discussing a loan of about $5 billion with the Defense Department’s Office of Strategic Capital. Nothing is signed, and maturity, pricing, collateral and covenants are unknown. More than $400 billion of AI and data-center bonds have been sold this year. Government money can keep a campus running while easing the bottlenecks that gave lenders protection.",
+    "The next tests are unusually concrete. New Mexico’s November 23 permit decision will show whether Oracle’s letter was a precaution or a preview. The February 1, 2027 pipeline date will test the project’s fuel plan. Late-October earnings will show whether cash flow is moving toward Slok’s $2 trillion path and whether maintenance costs are becoming harder to defer. The first Blackwell renewal will put a price on the life of the scarce asset. Fluidstack’s terms will show what Washington charges to finance a shortage it is trying to end.",
+    "Lenders thought they were financing scarcity. They may instead be financing the factories, power and chips that make scarcity disappear. In this buildout, the collateral has an expiry date."
+  ],
+  "chart": null,
+  "tests": [
+    {
+      "id": "p08-t01",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t02",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Nov 23",
+      "whenLabel": "Nov 23, 2026",
+      "date": "2026-11-23",
+      "precision": "day",
+      "event": "New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t03",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Feb 1, 2027",
+      "whenLabel": "Feb 1, 2027",
+      "date": "2027-02-01",
+      "precision": "day",
+      "event": "Pipeline in-service date tests whether Project Jupiter can secure fuel for its planned campus.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t04",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "First Blackwell renewal",
+      "whenLabel": "First Blackwell renewal",
+      "date": null,
+      "precision": "signal",
+      "event": "Contract repricing shows whether scarce compute retains value or lenders face faster obsolescence.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "First Blackwell renewal",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p08-t05",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Fluidstack terms",
+      "whenLabel": "Fluidstack terms",
+      "date": null,
+      "precision": "signal",
+      "event": "Government-loan terms reveal the price Washington assigns to financing bottlenecks it wants to remove.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Fluidstack terms",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "blue-owl-capital",
+      "name": "Blue Owl Capital",
+      "ticker": "OBDC",
+      "url": "https://deepstack.ltd/companies/blue-owl-capital/"
+    },
+    {
+      "kind": "company",
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "url": "https://deepstack.ltd/companies/coreweave/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "person",
+      "slug": "aurelion-research",
+      "name": "Aurelion Research",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aurelion-research/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-zitron",
+      "name": "Ed Zitron",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-zitron/"
+    },
+    {
+      "kind": "person",
+      "slug": "gaetano",
+      "name": "Gaetano",
+      "role": null,
+      "url": "https://deepstack.ltd/people/gaetano/"
+    },
+    {
+      "kind": "person",
+      "slug": "geo-chen",
+      "name": "Geo Chen",
+      "role": null,
+      "url": "https://deepstack.ltd/people/geo-chen/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "market-sentiment",
+      "name": "Market Sentiment",
+      "role": null,
+      "url": "https://deepstack.ltd/people/market-sentiment/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "stephen-clapham",
+      "name": "Stephen Clapham",
+      "role": "Behind the Balance Sheet",
+      "url": "https://deepstack.ltd/people/stephen-clapham/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "wyndo",
+  "name": "Wyndo",
+  "role": null,
+  "url": "https://deepstack.ltd/people/wyndo/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/wyndo.json",
+  "summary": "Wyndo appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "On August 9, Wyndo published step-by-step instructions for pointing Anthropic’s coding tool at DeepSeek’s servers.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Four days later, Wyndo described a council of models reviewing the same decision and said he had changed his mind about open-weight systems handling hard reasoning.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The creator cites Artificial Analysis benchmark results as evidence of rapid open-weight model improvement: Kimi K3 scored 57 on its Intelligence Index (13 points above Kimi K2.6, per the July 17 evaluation), and DeepSeek V4 Flash 0731 scored 10…",
+      "date": "2026-08-13",
+      "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The traditional split of using a strongest frontier model (Opus) for reasoning/judgment and a faster cheaper model (Sonnet) for execution has become less clearly justified because the capability gap between 'thinking' and 'executing' models has…",
+      "date": "2026-08-13",
+      "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "coverage": {
+    "creators": 2,
+    "claims": 1935,
+    "texts": 159,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

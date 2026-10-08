@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "url": "https://deepstack.ltd/data/#theme-live",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "asOf": "2026-10-08T10:30:00.399Z",
+  "api": "https://deepstack.ltd/api/v1/tape.json",
+  "source": "U.S. Treasury; BLS; Federal Reserve H.15, Federal Reserve Board, BLS, BEA, DOL, Census Bureau, University of Michigan, OMB, S&P Dow Jones Indices, Cboe, EIA and IMF via FRED; Trading Economics for household inflation expectations, European gas, European power, uranium, lithium and forecast paths",
+  "sourceUrl": "https://deepstack.ltd/data/",
+  "count": 12,
+  "items": [
+    {
+      "id": "ten",
+      "label": "10-year Treasury",
+      "value": "5.28%",
+      "change": "−1 bp this week",
+      "source": "U.S. Treasury",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "two",
+      "label": "2-year Treasury",
+      "value": "4.77%",
+      "change": "−11 bp this week",
+      "source": "U.S. Treasury",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "thirty",
+      "label": "30-year Treasury",
+      "value": "5.67%",
+      "change": "+3 bp this week",
+      "source": "U.S. Treasury",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "real",
+      "label": "10-year real yield",
+      "value": "2.92%",
+      "change": "−1 bp this week",
+      "source": "U.S. Treasury",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,802",
+      "change": "+2.0% this week",
+      "source": "S&P Dow Jones Indices via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "vix",
+      "label": "VIX",
+      "value": "15.0",
+      "change": "−6% this week",
+      "source": "Cboe via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$125.44",
+      "change": "+10.1% this week",
+      "source": "EIA via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "gas",
+      "label": "US natural gas",
+      "value": "$3.03",
+      "change": "−4.7% this week",
+      "source": "EIA via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "fed",
+      "label": "Fed funds (upper)",
+      "value": "4.00%",
+      "change": "Since Sep 16",
+      "source": "Federal Reserve Board via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "cpi",
+      "label": "CPI, Aug",
+      "value": "3.4%",
+      "change": "Core 2.4%",
+      "source": "BLS",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "jobs",
+      "label": "Payrolls, Sep",
+      "value": "+29k",
+      "change": "Unemployment 4.2%",
+      "source": "BLS via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    },
+    {
+      "id": "copper",
+      "label": "Copper",
+      "value": "$6.14/lb",
+      "change": "Monthly avg, Jul 2026",
+      "source": "IMF via FRED",
+      "url": "https://deepstack.ltd/data/#theme-live"
+    }
+  ],
+  "note": "Weekly changes are DeepStack arithmetic from the stored closes; each item names the producer of its series."
+}

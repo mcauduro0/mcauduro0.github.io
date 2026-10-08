@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "the-vc-corner",
+  "name": "The VC Corner",
+  "role": null,
+  "url": "https://deepstack.ltd/people/the-vc-corner/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/the-vc-corner.json",
+  "summary": "The VC Corner appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The rails and the atoms).",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Ant International’s stack launched with 15 wallets and eight acquirers; The VC Corner writes that “The default rail will be the one that pays for its own mistakes.”",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "This is the first liability answer in agentic commerce that anyone has actually priced, and because merchants and consumers route toward whoever carries the risk, the default rail will be the one that pays for its own mistakes.",
+      "date": "2026-10-01",
+      "url": "https://www.thevccorner.com/p/ant-international-amp-agentic-commerce-agentsafepay",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "The industry's central question is no longer whether the agentic economy will arrive but who will build the rails it runs on, and Ant International has made its bid to be that builder.",
+      "date": "2026-10-01",
+      "url": "https://www.thevccorner.com/p/ant-international-amp-agentic-commerce-agentsafepay",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 41,
+    "texts": 4,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

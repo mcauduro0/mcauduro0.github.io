@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "the-new-york-times",
+  "name": "The New York Times",
+  "ticker": "NYT",
+  "url": "https://deepstack.ltd/companies/the-new-york-times/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/the-new-york-times.json",
+  "summary": "The New York Times appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+  "parts": [
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 6,
+      "section": "Politics sets the price",
+      "excerpt": "Tarlov and The New York Times’s Michael Grynbaum ask whether voters are angry at the buildings or at AI, the economy and inequality.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 5,
+    "claims": 5,
+    "texts": 5,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 65.84,
+    "change": 0.94,
+    "changePercent": 1.4484,
+    "marketCap": 10692481116,
+    "pe": 27.2066,
+    "nextEarnings": "2026-11-04",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:51.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

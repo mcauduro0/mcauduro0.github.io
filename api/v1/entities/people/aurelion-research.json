@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "aurelion-research",
+  "name": "Aurelion Research",
+  "role": null,
+  "url": "https://deepstack.ltd/people/aurelion-research/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/aurelion-research.json",
+  "summary": "Aurelion Research appears in Part 4, Part 8, Part 10 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 8 (The spending pays).",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "The tape picks winners",
+      "excerpt": "Aurelion Research measures the fragility in expectations.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 8,
+      "section": "Who writes the checks",
+      "excerpt": "Aurelion Research sees the customer base widening from a handful of hyperscalers to enterprises, AI-native companies and smaller clouds, on top of more than $3.1 trillion of expected AI infrastructure commitments.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Aurelion Research points to corporations, AI startups and other clouds, with more than $3.1 trillion of infrastructure commitments in prospect.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 8,
+      "question": null,
+      "side": "spending-pays",
+      "sideLabel": "The spending pays",
+      "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+      "date": "2026-09-11",
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "spending-pays",
+      "sideLabel": "The spending pays",
+      "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+      "date": "2026-09-11",
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 532,
+    "texts": 48,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

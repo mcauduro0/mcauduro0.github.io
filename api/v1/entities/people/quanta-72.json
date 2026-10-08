@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "quanta-72",
+  "name": "Quanta 72",
+  "role": null,
+  "url": "https://deepstack.ltd/people/quanta-72/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/quanta-72.json",
+  "summary": "Quanta 72 appears in Part 1, Part 4 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The spending is defense).",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Long the chips, short the returns",
+      "excerpt": "Quanta 72’s dot-com comparison adds a necessary correction.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 4,
+      "question": null,
+      "side": "spending-is-defense",
+      "sideLabel": "The spending is defense",
+      "claim": "Unlike dot-com era suppliers, today’s hyperscalers fund AI investment from profitable core businesses such as advertising, cloud, software, subscriptions, and e-commerce, so the question is not whether they can afford the spending.",
+      "date": "2026-07-22",
+      "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "spending-is-defense",
+      "sideLabel": "The spending is defense",
+      "claim": "The most important signal for AI-era investors is the relationship between capital spending, free cash flow, and the growth those investments eventually produce, because in the dot-com boom stock prices turned before earnings and cash flow collapsed.",
+      "date": "2026-07-22",
+      "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 821,
+    "texts": 71,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

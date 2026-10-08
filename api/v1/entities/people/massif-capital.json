@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "massif-capital",
+  "name": "Massif Capital",
+  "role": null,
+  "url": "https://deepstack.ltd/people/massif-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/massif-capital.json",
+  "summary": "Massif Capital appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (OpenAI: commoditized).",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Massif Capital LLC counts Chinese open-weight models rising from under 2 percent of token traffic in late 2024 to a majority of usage among the top models this year.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "openai-commoditized",
+      "sideLabel": "OpenAI: commoditized",
+      "claim": "Chinese open-weight models climbed from under 2% of token traffic in late 2024 to a majority of usage among top models in 2026, driven by the revealed preference for models running on infrastructure the user controls.",
+      "date": "2026-07-30",
+      "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "question": null,
+      "side": "openai-commoditized",
+      "sideLabel": "OpenAI: commoditized",
+      "claim": "In June 2026, the Commerce Department suspended access to Anthropic's Fable 5 and Mythos 5 models for all non-US persons, invoking export-control authority, with practical effect of a global suspension that lasted under three weeks before…",
+      "date": "2026-07-30",
+      "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "coverage": {
+    "creators": 2,
+    "claims": 55,
+    "texts": 4,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

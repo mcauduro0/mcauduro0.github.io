@@ -1,0 +1,560 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 10,
+  "slug": "the-bubble-is-in-the-denominator",
+  "headline": "The Bubble Is in the Denominator",
+  "dek": "The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.",
+  "summary": "AI spending made the market look cheaper. The harder test is whether those profits survive depreciation, weak productivity and a bond market financing the buildout.",
+  "section": "Markets",
+  "date": "2026-10-07",
+  "readingMinutes": 9,
+  "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Cheap is conditional",
+    "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Hold the 5.26% earnings yield (19.0 times earnings) against the 10-year: when the bond pays more, stocks offer no risk premium.",
+      "Stress-test the 29.5% earnings growth for server lives and depreciation before you pay for it.",
+      "Treat the $250 billion of hyperscaler bonds as competition for the savings that set the discount rate."
+    ],
+    "flips": [
+      "Used-chip values and server lives hold after scarcity fades.",
+      "Productivity turns higher and lab revenue compounds toward the checks the infrastructure requires."
+    ],
+    "nextTest": {
+      "id": "p10-t01",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "19.0x",
+      "label": "S&P 500 forward multiple",
+      "context": "FactSet, as of Oct 2, 2026"
+    },
+    {
+      "value": "29.5%",
+      "label": "Expected Q3 earnings growth",
+      "context": "FactSet, as of Oct 2, 2026"
+    },
+    {
+      "value": "$250B",
+      "label": "Hyperscaler high-grade bonds",
+      "context": "Apollo presentation via Leyla Kunimoto, through August 2026"
+    },
+    {
+      "value": "5.31%",
+      "label": "10-year Treasury yield",
+      "context": "CNBC, closing yield on Oct 5, 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "FactSet - S&P 500 earnings multiples and estimates",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf"
+    },
+    {
+      "label": "CNBC - 10-year Treasury yield",
+      "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
+    },
+    {
+      "label": "a16z - technology profit growth",
+      "url": "https://www.a16z.news/p/state-of-markets-ii"
+    },
+    {
+      "label": "Prof G Markets - AI and earnings",
+      "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+    },
+    {
+      "label": "Aurelion Research - Nvidia and infrastructure",
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+    },
+    {
+      "label": "Apollo - hyperscaler credit and cash flow",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+    },
+    {
+      "label": "Axios - OpenAI annual revenue",
+      "url": "https://axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b"
+    },
+    {
+      "label": "PYMNTS - Anthropic listing expectations",
+      "url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-could-seek-2-trillion-valuation-in-record-ipo"
+    },
+    {
+      "label": "BLS - productivity release",
+      "url": "https://www.bls.gov/news.release/archives/prod2_09032026.htm"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/the-bubble-is-in-the-denominator",
+  "wordCount": 1990,
+  "pullQuote": "The bubble is not in the multiple; it is in the time between spending and proof.",
+  "verdict": "DeepStack’s view is that the market’s apparent cheapness is conditional, not protective. The most important reason is the circular financing loop: AI spending becomes supplier revenue and reported profit, while the bonds funding that spending compete for the savings that set the discount rate. That does not make every technology share a bubble, and the broad profit advance is real enough to keep the bullish case alive. The view changes if used-chip values hold after scarcity fades, server lives remain economic, productivity turns higher and lab revenue compounds toward the checks the infrastructure requires. Until then, the market is capitalizing an earnings stream before its economic owner has been identified.",
+  "sections": [
+    {
+      "id": "a-cheap-top",
+      "title": "A cheap top",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#a-cheap-top"
+    },
+    {
+      "id": "the-depreciation-test",
+      "title": "The depreciation test",
+      "startsAt": 10,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#the-depreciation-test"
+    },
+    {
+      "id": "who-writes-the-checks",
+      "title": "Who writes the checks",
+      "startsAt": 12,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#who-writes-the-checks"
+    },
+    {
+      "id": "the-bill-raises-the-rate",
+      "title": "The bill raises the rate",
+      "startsAt": 17,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#the-bill-raises-the-rate"
+    },
+    {
+      "id": "the-tests-ahead",
+      "title": "The tests ahead",
+      "startsAt": 22,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#the-tests-ahead"
+    }
+  ],
+  "body": [
+    "On October 2, the S&P 500 offered investors a strange bargain: 19.0 times the earnings analysts expect over the next twelve months. That was below its five-year average of 19.8, its ten-year average of 19.1 and the 20.4 it fetched at the end of June, according to FactSet. The index then set a record on October 6.",
+    "The market was not getting cheaper because prices fell. Profits were outrunning them. Analysts expect third-quarter earnings to rise 29.5% from a year earlier, with information technology up 65%. The 10-year Treasury, meanwhile, closed at 5.31% on October 5, the highest in roughly two decades, according to CNBC. Inverting the S&P 500 multiple produces an earnings yield of about 5.26%, almost the same number.",
+    "That is the market’s tell. The valuation is not obviously expensive on the numerator. The risk is that the denominator, swollen by the AI buildout and financed by debt, is less durable than it looks. If the spending creates productivity and lasting demand, today’s profits are an unusually solid foundation. If it mainly turns one company’s capital expenditure into another company’s revenue, the apparent bargain is a mirage with an interest bill.",
+    "Ren looked at the same arithmetic on October 5 and titled a portfolio update “The Cheapest ‘Bubble’ I’ve Ever Seen.” Semiconductors traded at 17.1 times forward earnings against 19.0 for the S&P 500, even though chips sit at the center of the largest capital-spending cycle. Michael Burry did the opposite: his trading post said he bought more far out-of-the-money MetLife puts expiring in 2029, acting on an expected AI boom-to-bust thesis.",
+    "The disagreement is not about price. A price-to-earnings ratio has two halves. Before the March 2000 peak, technology’s forward multiple rose about 250%; since October 2022, it rose about 14%, while chip stocks’ multiple shrank. Ren says profits carried the rally. Michael Howell of Capital Wars says he underestimated AI spending’s lift to earnings; David George at a16z credits technology with about 76% of S&P 500 profit growth through late August.",
+    "The stronger objection is that the profits may be the buildout paying itself. Scott Galloway ties AI fragility to the absence of regulation and says its reach extends beyond a handful of shares: the Magnificent Seven make up a third of the index, while the buildout drove a 32% increase in S&P earnings growth this year. Mia Silverio of Prof G Markets cited a Goldman Sachs estimate that half of this year’s earnings growth comes from AI investment, even as the other 493 companies grew profits 31.8% in the second quarter.",
+    "The market can therefore look cheap while its key earnings stream remains cyclical. A pause in spending would hit chips, memory, networking, power and construction together. The denominator would shrink, and 19 times a smaller number would cease to be 19 times in any useful sense.",
+    "There is a serious case on the other side. David George says rental rates and residual values were supposed to fall but have not; A100 rental prices are no lower than in January. JunkBondInvestor reports firm contracted rents and used-market prices even for GPUs three to six years old. Tae Kim relays Jensen Huang’s case that Nvidia’s GPUs are productive, fungible and durable. AWS has had more demand for AI capacity than it could supply, Kris of Potential Multibaggers says, despite large Nvidia orders and Amazon’s own chips.",
+    "Scarcity is doing real work in that story. Power, GPUs, transformers and skilled labor are all short, and chips and servers now absorb about 60% of hyperscalers’ capital budgets. A scarce asset can retain rent while customers are waiting for capacity. That is the best case for the bulls, and it deserves to be taken literally: if demand keeps outrunning supply, eight-year economics may prove conservative.",
+    "Scarcity is also the weakness in the defense. The same shortage supporting rents supports the loans written against them. Ren warns that chip designs turn over faster than factories can be rebuilt; this year’s winning server could be beaten within five years. Kakashii estimates that Nvidia’s plan to ship more than 10 million Blackwell and Rubin chips by the end of 2026 implies roughly 20 gigawatts of power, and holds that Blackwell GPUs ended up in warehouses because too few data centers had cooling and equipment. That makes a 19-times multiple no proof that the earnings are durable.",
+    "Burry’s October 1 post attacked the accounting beneath Nvidia’s hardware optimism. An Nvidia slide put the B200 at 158% of its purchase price, the H100 at 58% and the A100 at 25%. Burry said these were not second-hand prices but outputs from a Silicon Data model that carries rental income eight years forward, begins utilization at 75% and then lets it decay. The A100’s entire 25%, he said, comes from adding years seven and eight to the model.",
+    "The purchase price matters too. Mercatus reported $56,000 per GPU for a B200 system, against the $45,000 assumption beneath Nvidia’s slide. At the higher price, Burry said the 158% figure falls to about 127%. The same slide places Nvidia’s accelerated depreciation schedule beside an eight-year life: it loses 43% in year one and reaches zero about year five. Burry called the presentation “not even internally consistent” and expects GPU server prices to fall sharply, possibly as early as next year, when a memory shortage turns into a glut.",
+    "The revenue test is harsher. Torsten Slok of Apollo says adding technology analysts’ forecasts roughly doubles the sector’s operating cash flow to about $2.4 trillion by 2028, a gain of more than $1.2 trillion. Add the forecasts of technology’s customers and the rest of the S&P 500, and cash grows far more slowly. Slok’s question is the right one: “who exactly will be writing all those checks”. Hyperscaler credit, he says, rests on cash from operations tripling or better by 2030, while disclosure still offers no verifiable link between AI capital spending and the top line.",
+    "The bullish answer is that the buyer base is widening. Aurelion Research points to corporations, AI startups and other clouds, with more than $3.1 trillion of infrastructure commitments in prospect. Dell raised its estimate to 57 quadrillion tokens a month by the end of 2028 from 1 quadrillion; a Goldman Sachs figure ran about ten times higher. AWS is capacity-constrained, Kris says.",
+    "But usage is not the same as profitable demand. Daniel Romero puts OpenAI and Anthropic at a combined annual run rate near $105 billion in July, about $40 billion and $65 billion respectively, and says the line to watch is $400 billion by the end of 2027. Tae Kim says OpenAI’s annualized revenue is nearing $70 billion; Axios reported on September 29 that it had grown more than 70% since the start of the third quarter. Against that growth sits the loss-making base of the chain: Steve Eisman, in an episode with Ed Zitron, cited OpenAI’s $20.9 billion loss in 2025 on $13.07 billion of revenue.",
+    "Mia Silverio’s distinction is the cleanest. She sees a bubble in the labs rather than in the market as a whole and points to Nvidia’s shrinking valuation. Investors expected Anthropic to list in October at $2 trillion or more, according to PYMNTS. Citing Aswath Damodaran, Silverio says that price would require about $1.2 trillion of annual revenue inside a decade, while everything sold under the AI label adds up to roughly $250 billion today. Two customers supplied almost 25% of Anthropic’s 2025 revenue, and Amazon and Google channels carried 47% of its sales.",
+    "Michael Spencer adds a price warning: Ramp’s index showed what customers pay per million tokens down 41% from its March peak, to $0.68. Ren counters that OpenAI’s newest model charges more per token than its predecessor. The distinction matters. Cheaper intelligence can expand volume, but it can also compress the revenue needed to repay the hardware and bonds. Slok’s total factor productivity is still a little under zero and has not picked up since the spending cycle began. The BLS reported nonfarm business productivity up 1.4% annualized in the second quarter and 2.2% from a year earlier, while output per hour was growing near 2.5%.",
+    "Debt makes the loop harder to dismiss. Leyla Kunimoto, citing an Apollo presentation, reports that hyperscalers sold close to $250 billion of high-grade bonds in 2026, more than in the previous ten years combined. AI-linked borrowers made up 54% of net high-grade supply through August, against 34% in 2025 and next to nothing in 2024. The largest spenders may have cash and long-term contracts, as Ren argues. In aggregate, the bond market is underwriting a large share of the boom.",
+    "The 10-year yield now decides whether that financing is a tailwind or a trap. Mia Silverio says that with 5.3% available on a Treasury carrying no credit risk, stock buyers demand a higher return and pay less for each dollar of profit. Ren says a growth stock whose payoff lies far in the future must clear a 5% hurdle. Steve Eisman calls 5% the Rubicon, while noting that oil and the 10-year are the two variables that matter and neither is predictable.",
+    "Michael Howell reads the curve more kindly. Higher yields show an economy running hotter than policy is set for, he says, not fear about government solvency. The 10-year/5-year spread has fallen by more than 40 basis points since late 2025, to about 14 basis points. With nominal yields above 5% and real yields near 3%, Howell calls this the best entry point in years and says past cycles began to buckle near 5.5%, so the next move may be down.",
+    "TSCS sees a different mechanism. Insurers that once absorbed long bonds now have arithmetic reasons to stay away; a Japanese insurer hedging back to yen earned about 95 basis points less on a Treasury than on a Japanese government bond on the only day with a published hedge cost. From the February 27 low, the 10-year rose 104 basis points, 96 of them real, while the decade-ahead inflation forecast barely moved despite Brent above $100. Vitaliy Katsenelson put the fiscal version bluntly: “I personally would not buy a 10-year Treasury even at 6%”.",
+    "Torsten Slok and Burry tie the rate rise directly to the buildout. Data centers, power plants, transmission lines, federal deficits and hyperscaler bonds all compete for savings that must last decades. If they are right, the borrowing that creates chip and construction revenue also raises the discount rate applied to that revenue. If Howell is right, 19 times earnings has room. The market is currently priced for Howell.",
+    "Late October supplies the first hard check. Microsoft, Alphabet, Meta and Amazon will report third-quarter results. Depreciation against capital spending, any change to server lives and the arrival or failure of FactSet’s 29.5% earnings growth will show whether today’s denominator is being earned or merely deferred. An Anthropic filing would expose audited revenue, losses and customer concentration, turning Silverio’s two-customer figure and Romero’s $400 billion milestone into testable numbers.",
+    "The next used-GPU price will be more revealing than another forecast. George says A100s rent at January prices; Burry expects server prices to fall when memory scarcity becomes a glut. A three-year-old chip’s resale value shows whether the asset earns its keep after the shortage. A 5.5% 10-year yield will test Howell’s history against TSCS’s long-end warning. Total factor productivity will take longer, but it is the ultimate audit: if it rises, the rest of the economy can write the checks; if it stays flat, hyperscaler bondholders do.",
+    "What would prove DeepStack wrong is eight-year GPU economics, rising productivity and lab revenue reaching Slok’s checks.",
+    "The market is not paying too much for the denominator. It is paying before the denominator has finished becoming real. The bubble is not in the multiple; it is in the time between spending and proof."
+  ],
+  "chart": {
+    "title": "The market is not unusually expensive",
+    "subtitle": "S&P 500 forward earnings multiples, selected periods",
+    "unit": "x",
+    "decimals": 1,
+    "source": "FactSet, as of October 2, 2026",
+    "items": [
+      {
+        "label": "S&P 500",
+        "value": 19
+      },
+      {
+        "label": "5-year average",
+        "value": 19.8
+      },
+      {
+        "label": "10-year average",
+        "value": 19.1
+      },
+      {
+        "label": "End of June",
+        "value": 20.4
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p10-t01",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t02",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "October",
+      "whenLabel": "October",
+      "date": "2026-10-01",
+      "precision": "month",
+      "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t03",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "At 5.5% 10-year",
+      "whenLabel": "At 5.5% 10-year",
+      "date": null,
+      "precision": "signal",
+      "event": "A 5.5% Treasury yield tests Howell’s turning-point history against TSCS’s warning that the long end will keep rising.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "At 5.5% 10-year",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DGS10",
+        "provider": "FRED",
+        "rule": "value after date >= 5.5 => reached",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t04",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Next used-GPU print",
+      "whenLabel": "Next used-GPU print",
+      "date": null,
+      "precision": "signal",
+      "event": "Three-year-old chip rents and resale prices show whether scarcity or durable economics supports hardware values.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next used-GPU print",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t05",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Productivity data",
+      "whenLabel": "Productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "A rise in total factor productivity would show the rest of the economy can write the checks; a flat reading leaves bondholders exposed.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "comcast",
+      "name": "Comcast",
+      "ticker": "CMCSA",
+      "url": "https://deepstack.ltd/companies/comcast/"
+    },
+    {
+      "kind": "company",
+      "slug": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "ticker": "GS",
+      "url": "https://deepstack.ltd/companies/goldman-sachs/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "person",
+      "slug": "aswath-damodaran",
+      "name": "Aswath Damodaran",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aswath-damodaran/"
+    },
+    {
+      "kind": "person",
+      "slug": "aurelion-research",
+      "name": "Aurelion Research",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aurelion-research/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "david-george",
+      "name": "David George",
+      "role": "a16z",
+      "url": "https://deepstack.ltd/people/david-george/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-zitron",
+      "name": "Ed Zitron",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-zitron/"
+    },
+    {
+      "kind": "person",
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jensen-huang/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "leyla-kunimoto",
+      "name": "Leyla Kunimoto",
+      "role": null,
+      "url": "https://deepstack.ltd/people/leyla-kunimoto/"
+    },
+    {
+      "kind": "person",
+      "slug": "mia-silverio",
+      "name": "Mia Silverio",
+      "role": "Prof G Markets",
+      "url": "https://deepstack.ltd/people/mia-silverio/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-howell",
+      "name": "Michael Howell",
+      "role": "Capital Wars",
+      "url": "https://deepstack.ltd/people/michael-howell/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-spencer",
+      "name": "Michael Spencer",
+      "role": null,
+      "url": "https://deepstack.ltd/people/michael-spencer/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "scott-galloway",
+      "name": "Scott Galloway",
+      "role": null,
+      "url": "https://deepstack.ltd/people/scott-galloway/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "tae-kim",
+      "name": "Tae Kim",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tae-kim/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    },
+    {
+      "kind": "person",
+      "slug": "tscs",
+      "name": "TSCS",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tscs/"
+    },
+    {
+      "kind": "person",
+      "slug": "vitaliy-katsenelson",
+      "name": "Vitaliy Katsenelson",
+      "role": null,
+      "url": "https://deepstack.ltd/people/vitaliy-katsenelson/"
+    }
+  ]
+}

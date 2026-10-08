@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "kevin-gee",
+  "name": "Kevin Gee",
+  "role": null,
+  "url": "https://deepstack.ltd/people/kevin-gee/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/kevin-gee.json",
+  "summary": "Kevin Gee appears in Part 2, Part 4 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there).",
+  "parts": [
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$1.25B",
+      "label": "Monthly Anthropic contract",
+      "context": "Through May 2029, as documented by Kevin Gee",
+      "part": 2,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "value": "$3.5T",
+      "label": "2026–30 hyperscaler capex",
+      "context": "Oscar Hattink via Kevin Gee; 2026–2030",
+      "part": 4,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "And the demand exhibit is a signed contract rather than an inference: Kevin Gee documents Anthropic’s agreement to pay SpaceX $1.25 billion a month for compute through May 2029, roughly $45 billion in total.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "Kevin Gee’s wider question is the one the stock cannot answer with a slide: can the market absorb three trillion-dollar cash-burning IPOs in a single window, with OpenAI still to come?",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "Kevin Gee’s A Letter a Day, relaying Oscar Hattink’s 2026 letter, puts the burden on the customer.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 2,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Long AI in the long run, doubtful the market absorbs three $1T cash-burning IPOs at once.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "return-not-there",
+      "sideLabel": "The return is not there",
+      "claim": "He argues the consensus revenue path is stretched, since the ~$863 billion of incremental annual AI revenue by 2030 would require roughly $100 per month of extra AI spending from every person in the US and EU including children, and equals 19.1x…",
+      "date": "2026-08-04",
+      "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "return-not-there",
+      "sideLabel": "The return is not there",
+      "claim": "He argues the hyperscalers' AI capital spending may destroy shareholder value: consensus 2026E-'30E capex of about $3.5 trillion against ~$863 billion of incremental revenue at a 40% incremental margin and 20% tax rate implies roughly an 8%…",
+      "date": "2026-08-04",
+      "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 4964,
+    "texts": 427,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

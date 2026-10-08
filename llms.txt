@@ -1,0 +1,53 @@
+# DeepStack
+
+> The money behind the machine. DeepStack is an independent publication on the AI economy: the capital, the chips, the power and the people betting on all three. Sharp analysis, sourced numbers, a clear verdict. Every story gives the strongest case on each side, takes one in The DeepStack Call, and names the dated test that will settle it. Analysis and opinion, not investment advice.
+
+DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-08T17:44:57Z.
+
+## API
+
+- [API index](https://deepstack.ltd/api/v1/index.json): what exists, with URLs, counts and the license line; static JSON, no key
+- [Stories](https://deepstack.ltd/api/v1/stories.json): the parts of The Buildout with The DeepStack Call, key numbers and sources
+- [One story](https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json): the full text as plain paragraphs; one file per story slug under /api/v1/stories/
+- [The Docket](https://deepstack.ltd/api/v1/docket.json): every dated test with its precision, status and resolver
+- [Results](https://deepstack.ltd/api/v1/results.json): resolved tests and the ten-results rule
+- [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (10 files; one per story slug under /api/v1/sides/)
+- [Companies](https://deepstack.ltd/api/v1/entities/companies.json): reported numbers, mentions, side rows and the delayed market snapshot, with its source
+- [People](https://deepstack.ltd/api/v1/entities/people.json): what each person argued, attributed and dated; no score or ranking
+- [The macro tape](https://deepstack.ltd/api/v1/tape.json): the live macro tape with the producer of each series
+- [The Weekly](https://deepstack.ltd/api/v1/weekly.json): the index of editions
+- [OpenAPI 3.1](https://deepstack.ltd/api/openapi.json): the schema of the files above
+- [MCP endpoint](https://mcp.deepstack.ltd/mcp): Model Context Protocol over Streamable HTTP; seven read tools that cite the canonical URLs; no key
+
+## Stories
+
+- [Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.](https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/): Google paid roughly double for Nvidia capacity while private credit financed a $35bn compute platform. The chips are scarce; the returns may be anything but.
+- [Part 02: SpaceX Is Funding an AI Bet Before the Proof](https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/): SpaceX’s $75 billion IPO puts AI infrastructure inside a profitable Starlink shell. The capacity looks plausible; the operating proof has not reached the meter.
+- [Part 03: The Machines Will Work. The Debt Might Not.](https://deepstack.ltd/stories/the-debt-behind-the-machines/): AI demand may be real. The more dangerous question is who is financing the machines, and how quickly lenders can change their minds.
+- [Part 04: AI Spending Has Met Its First Real Bill](https://deepstack.ltd/stories/the-market-stops-paying-for-faith/): Hyperscaler capital budgets are still climbing. The market has started charging for them, rewarding cash-backed returns and punishing faith.
+- [Part 05: OpenAI and Anthropic Are Not the Same Business](https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/): OpenAI is cutting prices while Anthropic still monetizes enterprise coding. The difference matters because hyperscalers, lenders and investors have priced the pair as one AI bet.
+- [Part 06: Power Doesn’t Depreciate. Its Premium Moves.](https://deepstack.ltd/stories/power-doesnt-depreciate/): Electricity is the constraint, but the premium belongs to whoever can secure permission, build on time and turn a megawatt into revenue before demand catches up.
+- [Part 07: The Fed Hiked. The Long End Still Climbed.](https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/): The rate rise did not tame long yields. The bill for AI’s capital binge is arriving through bonds, deficits and the investors now setting the price of duration.
+- [Part 08: AI Lenders Are Financing the End of Scarcity](https://deepstack.ltd/stories/the-scarcity-is-the-collateral/): The shortage of power, chips and data-center capacity supports lenders today. But every new dollar also brings the glut that can wreck their collateral.
+- [Part 09: Habit Was the Moat. Agents Are Draining It.](https://deepstack.ltd/stories/habit-was-the-moat/): Meta’s Muse has inserted itself between shoppers and sellers. The first bill is coming due for businesses paid by customer inertia.
+- [Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/): The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.
+
+## Pages
+
+- [The Buildout](https://deepstack.ltd/stories/): the series archive
+- [The Docket](https://deepstack.ltd/docket/): every test on the clock, with status chips
+- [Results](https://deepstack.ltd/results/): the scorecard, with the rule that no accuracy rate is shown until ten results exist
+- [Companies](https://deepstack.ltd/companies/): the companies in the argument
+- [People](https://deepstack.ltd/people/): the people on each side
+- [The Data Desk](https://deepstack.ltd/data/): interactive charts, five of them on live data
+- [Editorial Notes](https://deepstack.ltd/editorial-notes/): what DeepStack believes and how it works, tested against live data
+- [The Weekly](https://deepstack.ltd/weekly/): one edition a week
+- [About](https://deepstack.ltd/about/): standards, formats, partnerships, privacy
+- [RSS](https://deepstack.ltd/feed.xml)
+- [Docket calendar](https://deepstack.ltd/docket.ics): one event per dated test
+
+## Full text
+
+- [llms-full.txt](https://deepstack.ltd/llms-full.txt): the stories’ headline, dek and Call in plain text with their URLs
+
+Analysis and opinion, not investment advice.

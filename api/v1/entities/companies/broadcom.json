@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "broadcom",
+  "name": "Broadcom",
+  "ticker": "AVGO",
+  "url": "https://deepstack.ltd/companies/broadcom/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/broadcom.json",
+  "summary": "Broadcom appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "20GW",
+      "label": "Broadcom compute",
+      "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
+      "part": 1,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "value": "$30B",
+      "label": "Quarterly AI orders",
+      "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
+      "part": 1,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Backlog or bottleneck",
+      "excerpt": "Through Broadcom, it points to $30 billion of AI semiconductor orders booked in one quarter against $10.8 billion shipped.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "section": "Long the chips, short the returns",
+      "excerpt": "If Google is willing to pay roughly double, if Broadcom’s orders exceed shipments by a wide margin, and if customer-wide visibility lasts a year, then scarcity is not a financing mirage.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "everyone-soon",
+      "sideLabel": "Everyone, soon",
+      "claim": "Broadcom and Nvidia can both be winners because ASICs that Broadcom helps hyperscalers and AI labs build are complementary to Nvidia's GPUs rather than competitors, contrary to the framing on social media.",
+      "date": "2026-09-16",
+      "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 33,
+    "claims": 124,
+    "texts": 77,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 371.51,
+    "change": -5,
+    "changePercent": -1.328,
+    "marketCap": 1767488545800,
+    "pe": 46.0931,
+    "nextEarnings": "2026-12-09",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:51.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

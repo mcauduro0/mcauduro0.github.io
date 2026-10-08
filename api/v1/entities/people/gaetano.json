@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "gaetano",
+  "name": "Gaetano",
+  "role": null,
+  "url": "https://deepstack.ltd/people/gaetano/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
+  "summary": "Gaetano appears in Part 6, Part 8 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use).",
+  "parts": [
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 6,
+      "section": "The test is demand",
+      "excerpt": "Gaetano describes a carrier laying ten fiber routes between New York and Chicago, expecting all ten to be needed, until wavelength multiplexing lets the first route carry far more than planned.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "The test is demand",
+      "excerpt": "The first cancellation would turn Gaetano’s analogy from a warning into a precedent.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "section": "A shortage with a price",
+      "excerpt": "Gaetano, an investor along the optical supply chain, points to Microsoft saying demand exceeds its capacity, Nvidia failing to make enough, and optical parts selling out as customers pull deliveries forward, sign multiyear agreements and sometimes pay in advance.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "A shortage with a price",
+      "excerpt": "Gaetano’s comfort stops at the hyperscalers.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "Cash, or a loop",
+      "excerpt": "Gaetano notes that Microsoft has reported roughly four times more Copilot throughput since January from optimization alone.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-warning",
+      "sideLabel": "Scarcity as a warning",
+      "claim": "Carriers had already installed enormous amounts of fiber based on expectations that demand would keep outrunning supply, so when DWDM allowed each fiber to carry dramatically more capacity than expected, the remaining fiber pairs sat dark for years…",
+      "date": "2026-08-26",
+      "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-is-it-going",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-warning",
+      "sideLabel": "Scarcity as a warning",
+      "claim": "The Internet thesis proved correct—traffic exploded, fiber became essential, and optical networking became foundational—but the first-wave companies funding and supplying that infrastructure suffered enormous losses because capacity was built too…",
+      "date": "2026-08-26",
+      "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-is-it-going",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "question": "cash-or-loop",
+      "side": "real-cash",
+      "sideLabel": "Real cash, real use",
+      "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
+      "date": "2026-09-07",
+      "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "cash-or-loop",
+      "side": "real-cash",
+      "sideLabel": "Real cash, real use",
+      "claim": "Today's biggest AI infrastructure spenders are large, highly profitable companies like Microsoft, Google, Amazon and Meta, with Microsoft generating more than $55 billion of operating cash flow in its latest quarter and Alphabet roughly $39…",
+      "date": "2026-09-07",
+      "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 3071,
+    "texts": 265,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

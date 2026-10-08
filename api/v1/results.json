@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "url": "https://deepstack.ltd/results/",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "api": "https://deepstack.ltd/api/v1/results.json",
+  "rule": "No accuracy rate is shown until ten results exist, and no person is ever scored or ranked.",
+  "count": 0,
+  "counts": {
+    "confirmed": 0,
+    "refuted": 0,
+    "inconclusive": 0
+  },
+  "results": []
+}

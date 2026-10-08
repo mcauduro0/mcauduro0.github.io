@@ -1,0 +1,608 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 9,
+  "slug": "habit-was-the-moat",
+  "headline": "Habit Was the Moat. Agents Are Draining It.",
+  "dek": "Meta’s Muse has inserted itself between shoppers and sellers. The first bill is coming due for businesses paid by customer inertia.",
+  "summary": "Meta’s Muse is testing whether AI shopping agents can reroute spending, squeeze weak subscriptions and expose which moats still hold.",
+  "section": "Agents",
+  "date": "2026-10-03",
+  "readingMinutes": 8,
+  "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
+  "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json",
+  "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "Sell habit, buy the rails",
+    "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Flag businesses that live on inertia: forgotten subscriptions, commodity brands, ad-funded marketplaces.",
+      "Favor owners of trust, regulation, systems of record, distribution and compute.",
+      "Judge agent launches on retained users, transactions and fees, never on downloads."
+    ],
+    "flips": [
+      "Meta reports agent downloads without retained users, transaction volume or fees.",
+      "The first tax season with agents shows households still paying Intuit for certainty."
+    ],
+    "nextTest": {
+      "id": "p09-t01",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t01",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/habit-was-the-moat/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "18%",
+      "label": "Meta stock gain",
+      "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026"
+    },
+    {
+      "value": "33%",
+      "label": "AMD stock gain",
+      "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026"
+    },
+    {
+      "value": "3%",
+      "label": "Paid consumer AI adoption",
+      "context": "Moses Sternstein, first quarter estimate"
+    },
+    {
+      "value": "61%-70%",
+      "label": "Booking in AI recommendations",
+      "context": "Oguz Erkan, September 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Reuters - Meta launches Muse",
+      "url": "https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/"
+    },
+    {
+      "label": "CNBC - Amazon blocks Muse",
+      "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html"
+    },
+    {
+      "label": "24/7 Wall St. - enterprise repricing",
+      "url": "https://247wallst.com/investing/2026/09/28/meta-and-servicenow-drop-4-as-enterprise-platform-launch-reprices-software-mongodb-tumbles-19/"
+    },
+    {
+      "label": "Apollo - technology cash-flow question",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+    },
+    {
+      "label": "a16z - AI shopping economics",
+      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping"
+    },
+    {
+      "label": "Yet Another Value Blog - Muse test",
+      "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72"
+    },
+    {
+      "label": "Capitalist Letters - Booking analysis",
+      "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive"
+    },
+    {
+      "label": "Market Sentiment - software moats",
+      "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+    },
+    {
+      "label": "Invest in Assets - Intuit moat",
+      "url": "https://www.investinassets.net/p/fintwits-best-stock-ideas"
+    },
+    {
+      "label": "Prof G Markets - Muse market value",
+      "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1"
+    },
+    {
+      "label": "The VC Corner - agentic payments",
+      "url": "https://www.thevccorner.com/p/ant-international-amp-agentic-commerce-agentsafepay"
+    },
+    {
+      "label": "Fiscal.ai - Ennismore software moat",
+      "url": "https://fiscal.ai/fund-letters/ennismore-fund-management-q3-2026-fscl_document_7GJK2WQN204"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/habit-was-the-moat",
+  "wordCount": 1799,
+  "pullQuote": "A habit that cannot be defended is just a margin waiting for a machine.",
+  "verdict": "The direction is clear even if the timing is not: agents will pressure weak consumer habits before they replace durable software or the companies that own the rails. The single most important reason is economic position. Muse is not merely answering; it is choosing, paying and deciding which seller is seen. That makes forgotten subscriptions, commodity brands and ad-funded marketplaces vulnerable, while trust, regulation, system-of-record status, distribution and compute remain defensible. We would change our mind if Meta reports downloads without retained users, transaction volume or fees, or if the first tax season shows customers choosing agents over Intuit’s certainty. Until then, the stock moves are an early invoice, not a finished income statement.",
+  "sections": [
+    {
+      "id": "the-first-bill",
+      "title": "The first bill",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#the-first-bill"
+    },
+    {
+      "id": "habit-is-not-a-moat",
+      "title": "Habit is not a moat",
+      "startsAt": 8,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#habit-is-not-a-moat"
+    },
+    {
+      "id": "what-software-keeps",
+      "title": "What software keeps",
+      "startsAt": 11,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#what-software-keeps"
+    },
+    {
+      "id": "the-tollbooth-shifts",
+      "title": "The tollbooth shifts",
+      "startsAt": 14,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#the-tollbooth-shifts"
+    }
+  ],
+  "body": [
+    "On September 8, Meta released Muse, an assistant designed to run errands rather than answer questions. It reads email, books travel, cancels subscriptions, calls businesses and, once a card is connected, buys things. The basic version is free; heavier users pay $20 or $100 a month, according to Reuters. Within two weeks Muse was Apple’s most downloaded free app. Amazon then blocked it from buying on Amazon, saying it stored customer credentials and scraped account data, according to CNBC.",
+    "Meta responded with distribution. At its September 23 developer conference it announced an “official fast lane” of retail connectors, including Walmart, Gap, Sephora, Expedia, Wayfair, Best Buy and Instacart. Mark Zuckerberg said Meta would keep a small cut of each purchase. Five days later Meta announced an enterprise platform built on Muse and hired MongoDB’s chief executive to run it. MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St.. OpenAI answered the next day with an always-on assistant.",
+    "The thesis is straightforward: agents will first tax businesses paid by customer inertia, while durable value gathers across distribution, accumulated context, transaction rails and the hardware underneath. This is not a forecast that every habit breaks. It is a warning that a habit is a moat only when switching carries a cost, trust is scarce or the system of record cannot be replaced. The first bill is coming due for businesses paid by customer inertia.",
+    "Ren, who follows the AI stack layer by layer, describes the economic shift: once software researches, chooses, executes and pays, it sits between shopper and seller. “The unit of work is moving from the prompt to the objective,” Ren writes. The difference matters. A hundred dollars a month buys little for marginally smarter replies, and a great deal if chores disappear. Torsten Slok’s earlier question was who would write the checks if technology companies’ cash flow doubled while their customers’ did not. The agent supplies an answer: someone else’s margin. Apollo put the question plainly; the checkout supplies the cash.",
+    "The adoption figures make the market’s confidence look early. Moses Sternstein puts paid consumer AI adoption at roughly 3% in the first quarter. David George, Sternstein’s colleague, counts barely 2% of US households paying for an AI service as of April. Nearly 30% of S&P 500 companies report some quantifiable AI impact, but about 2% report a tracked metric. Sam Badri, a Cisco veteran on Eisman’s show, estimates that nine in ten users still type a prompt and wait. The product may be a change in kind; the behavior it needs is barely born.",
+    "Andrew Walker of Yet Another Value Blog is the useful witness because he changed his mind in public. On September 24, after testing Muse, he said almost everyone he knew had a burst of productivity and then stopped opening it. His request for a week of clean-eating groceries produced a $1,000 basket with enough food for twelve and three sizes of diapers his daughter had outgrown. Four days later, after hearing from skeptics who tried Muse once and declined to connect email, Walker swung back. His rule is that “what the power user does today is what the average user does tomorrow,” with an AI lag of about eighteen months or less.",
+    "The market moved before usage data could settle the matter. From September 8 through October 2, the S&P 500 was flat. Meta rose 18% and Advanced Micro Devices rose 33%, while Booking Holdings fell 18%, Expedia 11%, Intuit 16%, Netflix 14%, Comcast 19%, Planet Fitness 17% and Bank of America 14%. The closing prices came from Financial Modeling Prep. A rate hike and an oil shock moved markets in the same weeks, and Steve Eisman argues that nothing but oil and interest rates matters right now. Still, the losers share a trait: they get paid when customers do not compare, cancel or switch.",
+    "The skeptical case is not trivial. Ren says the cost of an error rises when software acts: a wrong chatbot answer costs a minute, while an agent can rebook a flight. Meta’s own account, he says, relies on company rules rather than encryption to keep staff out of user data on the current virtual machine, and the prompt-injection problem has no fix. Michael Spencer, who covers the AI industry daily, expects about 1 million users by November, doubts the ratio of downloads to users and warns that Muse’s compute bill could crater Meta’s free cash flow in 2027. That is a serious brake, not a refusal to see the machine move.",
+    "The exposed businesses are not identical. Walker expects a small effect at Netflix, whose customers watch a lot, and a large one at Peacock, where many joined for an Olympics and forgot. Planet Fitness looks vulnerable because it is a commodity gym full of members who do not go. Home internet is different: it is a local duopoly, switching means returning equipment and perhaps rewiring, and nobody switches for $10 a month. Torsten Slok’s fear that agents will move deposits from accounts earning the 0.1% national average to accounts yielding 3.3% to 5% is economically coherent, but Walker notes that cash-sorting fears have recurred at events including the SVB collapse and mostly failed to play out.",
+    "Booking is the strongest case against a broad selloff. Oguz Erkan calls its position unshakable because “a hotel can’t find a distribution channel as big and strong as Booking; there is none.” Booking already appears in 61% to 70% of AI travel recommendations, he writes, while transactional searches remain with Google. Walker’s field tests point the other way: Muse found the cheapest acceptable undershirts, checked out through JCPenney and replaced a repeat purchase a brand might have received by default. “Brand loyalty that’s really just habit is very, very exposed,” he writes.",
+    "That is why Amazon’s response matters. In 2025 it took $69 billion of advertising revenue against $34 billion of operating income outside AWS. An assistant that orders dinner through Toast and delivery through DoorDash Drive can remove the sponsored listing from the customer’s view. Shopify has no comparable ad business to protect and welcomed Muse; Amazon banned it. The incumbent still owns selection, delivery and problem-solving that an assistant cannot rebuild tomorrow, but its most profitable tollbooth is precisely the one an agent can bypass.",
+    "Eisman’s private-equity arithmetic shows the same squeeze in another form. Software buyouts reached $256 billion in 2021, and debt financed anywhere from a quarter to nearly two-thirds of the price. If a company worth $1 billion is cut in half while it owes $500 million, “Equity is zero, even if earnings and cash flow are fine.” That does not sink the economy, Eisman says, but it leaves lenders demanding new money and sponsors walking away. The 1,600% price increase FICO pushed through in five years, followed by a lost monopoly and a 26% one-day fall, is a reminder that a software seat can be priced away faster than it can be defended.",
+    "The opposing view deserves its strongest form. Market Sentiment says the industry that creates a technology rarely captures its value, and that software can prosper when tokens are cheap if it owns unique data, distribution, an unleaveable workflow or the system of record. Intuit is the test: Invest in Assets says its moat is “trust, compliance complexity, and habit, not just software,” because a tax mistake costs more than the software. Ruben Dominguez gives the corporate version: when a budget saving collides with a person’s exposure to a regulator, “exposure wins every time.” A hospital will not rip out Craneware because an AI can write code; a Greek company called Ilyda runs more than 70% of the country’s pharmacies and holds 85% of its student records, with churn under 5%.",
+    "The stronger lesson is not that software disappears. It is that the bill moves from seats to outcomes and learning. Deborah Folloni describes Crescendo resolving about 70% of calls, charging per resolved ticket rather than per seat and reaching more than $100 million of annual recurring revenue in under two years. Abhi Yadav warns that a company can own its data and still rent the intelligence if decision history and evaluations stay inside a vendor’s environment. The durable asset is accumulated context, whether it locks in a shopper or a company.",
+    "Who collects is less settled than who gets squeezed. David George sees a Red Queen’s Race at the model layer: switching is easy down to the task, so distribution and the ability to create new kinds of customers matter more than price. His candidate is OpenAI. Spencer’s is Meta, with 3.6 billion daily users and about $245 billion of advertising revenue to spend, though he thinks the spending could ruin the company. Mia Silverio of Prof G Markets counts nearly $170 billion of market value added to Meta in Muse’s first two weeks. Morgan Stanley’s arithmetic, relayed by Tae Kim, says every 100 million users adds about 35 cents, or 1%, to Meta’s 2028 earnings per share.",
+    "The quieter winners sit below the agent. Alex Immerman says Shopify, Toast and Square collect software and payments revenue whichever agent brings the order. Ant International’s stack launched with 15 wallets and eight acquirers; The VC Corner writes that “The default rail will be the one that pays for its own mistakes.” Tae Kim prefers CPUs because an agent working across browsers and calendars needs general-purpose compute. Ren finds AMD EPYC under Muse machines and estimates that provisioning one machine per user for 100 million users could require up to 1.6 million of them, an upper bound rather than a forecast. Stephen Clapham’s tank-terminal example makes the boundary vivid: land, permits, money and years are not a checkout feature.",
+    "The evidence that would prove this view wrong is simple: by early 2028, if ordinary users still open agents as rarely as today’s skeptics, and if Meta’s quarter shows downloads without users, volume or fees, the repricing will have outrun the habit. Late October’s Meta report, early November’s Booking numbers, November 16 and 17 at Nike, and the first tax season from January to April will make the test less abstract. If agents only rearrange a few transactions, the old intermediaries keep their economics. If they become the place where choices accumulate, the first bill will not be the last.",
+    "The future of commerce will be decided less by who answers fastest than by who gets to remember what the customer wanted. A habit that cannot be defended is just a margin waiting for a machine."
+  ],
+  "chart": {
+    "title": "Stocks at the first checkout",
+    "subtitle": "Closing-price moves from September 8 through October 2, 2026",
+    "unit": "%",
+    "decimals": 0,
+    "source": "Financial Modeling Prep; closing prices through October 2, 2026",
+    "items": [
+      {
+        "label": "Advanced Micro Devices",
+        "value": 33
+      },
+      {
+        "label": "Meta",
+        "value": 18
+      },
+      {
+        "label": "S&P 500",
+        "value": 0
+      },
+      {
+        "label": "Booking Holdings",
+        "value": -18
+      },
+      {
+        "label": "Expedia",
+        "value": -11
+      },
+      {
+        "label": "Intuit",
+        "value": -16
+      },
+      {
+        "label": "Netflix",
+        "value": -14
+      },
+      {
+        "label": "Comcast",
+        "value": -19
+      },
+      {
+        "label": "Planet Fitness",
+        "value": -17
+      },
+      {
+        "label": "Bank of America",
+        "value": -14
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p09-t01",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t01",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t02",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Early November",
+      "whenLabel": "Nov 3, 2026",
+      "date": "2026-11-03",
+      "precision": "day",
+      "event": "Booking reports room nights and direct mix; the result tests whether the agent or the incumbent owns the booking.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "BKNG",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t02",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t03",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Nov 16-17",
+      "whenLabel": "Nov 16, 2026",
+      "date": "2026-11-16",
+      "precision": "day",
+      "event": "Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t03",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t04",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "January-April",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "The first tax season with agents tests whether households still pay Intuit for certainty or ask an agent.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "January-April",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t04",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p09-t05",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "when": "Amazon standoff",
+      "whenLabel": "Amazon standoff",
+      "date": null,
+      "precision": "signal",
+      "event": "Amazon allowing agent checkout would show the advertising pool beginning to move; continued resistance shows its value remains protected.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Amazon standoff",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p09-t05",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "amd",
+      "name": "AMD",
+      "ticker": "AMD",
+      "url": "https://deepstack.ltd/companies/amd/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "apple",
+      "name": "Apple",
+      "ticker": "AAPL",
+      "url": "https://deepstack.ltd/companies/apple/"
+    },
+    {
+      "kind": "company",
+      "slug": "bank-of-america",
+      "name": "Bank of America",
+      "ticker": "BAC",
+      "url": "https://deepstack.ltd/companies/bank-of-america/"
+    },
+    {
+      "kind": "company",
+      "slug": "comcast",
+      "name": "Comcast",
+      "ticker": "CMCSA",
+      "url": "https://deepstack.ltd/companies/comcast/"
+    },
+    {
+      "kind": "company",
+      "slug": "doordash",
+      "name": "DoorDash",
+      "ticker": "DASH",
+      "url": "https://deepstack.ltd/companies/doordash/"
+    },
+    {
+      "kind": "company",
+      "slug": "fair-isaac",
+      "name": "Fair Isaac",
+      "ticker": "FICO",
+      "url": "https://deepstack.ltd/companies/fair-isaac/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "url": "https://deepstack.ltd/companies/morgan-stanley/"
+    },
+    {
+      "kind": "company",
+      "slug": "netflix",
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "url": "https://deepstack.ltd/companies/netflix/"
+    },
+    {
+      "kind": "company",
+      "slug": "nike",
+      "name": "Nike",
+      "ticker": "NKE",
+      "url": "https://deepstack.ltd/companies/nike/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "url": "https://deepstack.ltd/companies/salesforce/"
+    },
+    {
+      "kind": "company",
+      "slug": "shopify",
+      "name": "Shopify",
+      "ticker": "SHOP",
+      "url": "https://deepstack.ltd/companies/shopify/"
+    },
+    {
+      "kind": "person",
+      "slug": "abhi-yadav",
+      "name": "Abhi Yadav",
+      "role": null,
+      "url": "https://deepstack.ltd/people/abhi-yadav/"
+    },
+    {
+      "kind": "person",
+      "slug": "alex-immerman",
+      "name": "Alex Immerman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/alex-immerman/"
+    },
+    {
+      "kind": "person",
+      "slug": "andrew-walker",
+      "name": "Andrew Walker",
+      "role": "Yet Another Value Blog",
+      "url": "https://deepstack.ltd/people/andrew-walker/"
+    },
+    {
+      "kind": "person",
+      "slug": "david-george",
+      "name": "David George",
+      "role": "a16z",
+      "url": "https://deepstack.ltd/people/david-george/"
+    },
+    {
+      "kind": "person",
+      "slug": "deborah-folloni",
+      "name": "Deborah Folloni",
+      "role": null,
+      "url": "https://deepstack.ltd/people/deborah-folloni/"
+    },
+    {
+      "kind": "person",
+      "slug": "invest-in-assets",
+      "name": "Invest in Assets",
+      "role": "Invest in Quality",
+      "url": "https://deepstack.ltd/people/invest-in-assets/"
+    },
+    {
+      "kind": "person",
+      "slug": "market-sentiment",
+      "name": "Market Sentiment",
+      "role": null,
+      "url": "https://deepstack.ltd/people/market-sentiment/"
+    },
+    {
+      "kind": "person",
+      "slug": "mia-silverio",
+      "name": "Mia Silverio",
+      "role": "Prof G Markets",
+      "url": "https://deepstack.ltd/people/mia-silverio/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-spencer",
+      "name": "Michael Spencer",
+      "role": null,
+      "url": "https://deepstack.ltd/people/michael-spencer/"
+    },
+    {
+      "kind": "person",
+      "slug": "moses-sternstein",
+      "name": "Moses Sternstein",
+      "role": null,
+      "url": "https://deepstack.ltd/people/moses-sternstein/"
+    },
+    {
+      "kind": "person",
+      "slug": "oguz-erkan",
+      "name": "Oguz Erkan",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oguz-erkan/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "ruben-dominguez",
+      "name": "Ruben Dominguez",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ruben-dominguez/"
+    },
+    {
+      "kind": "person",
+      "slug": "sam-badri",
+      "name": "Sam Badri",
+      "role": null,
+      "url": "https://deepstack.ltd/people/sam-badri/"
+    },
+    {
+      "kind": "person",
+      "slug": "stephen-clapham",
+      "name": "Stephen Clapham",
+      "role": "Behind the Balance Sheet",
+      "url": "https://deepstack.ltd/people/stephen-clapham/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "tae-kim",
+      "name": "Tae Kim",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tae-kim/"
+    },
+    {
+      "kind": "person",
+      "slug": "the-vc-corner",
+      "name": "The VC Corner",
+      "role": null,
+      "url": "https://deepstack.ltd/people/the-vc-corner/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ]
+}

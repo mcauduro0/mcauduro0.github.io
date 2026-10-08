@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "edelbridge-alpha",
+  "name": "Edelbridge Alpha",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/edelbridge-alpha/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/edelbridge-alpha.json",
+  "summary": "Edelbridge Alpha appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.. Argued in Part 6 (Scarcity as a moat).",
+  "parts": [
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 6,
+      "section": "Scarcity has three faces",
+      "excerpt": "Edelbridge Alpha sees the town hall rather than the substation.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "Politics sets the price",
+      "excerpt": "Edelbridge Alpha counts 26 US data-center projects blocked in the first quarter of 2026, against 31 in all of 2025, with another 49 delayed and 166 facing some form of opposition.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-moat",
+      "sideLabel": "Scarcity as a moat",
+      "claim": "The creator is also hearing that Bloom keeps some capacity available rather than fully committing years in advance, allowing it to serve desperate customers needing power immediately at significantly better economics, analogous to Nebius publicly…",
+      "date": "2026-08-20",
+      "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-moat",
+      "sideLabel": "Scarcity as a moat",
+      "claim": "Building more data centers is now a permitting and community-acceptance problem rather than a construction problem, and what makes fuel cells stand out is not being cheapest or theoretically best on every metric, but being the only solution without…",
+      "date": "2026-08-20",
+      "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 229,
+    "texts": 20,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

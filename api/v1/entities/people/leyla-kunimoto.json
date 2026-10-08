@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "leyla-kunimoto",
+  "name": "Leyla Kunimoto",
+  "role": null,
+  "url": "https://deepstack.ltd/people/leyla-kunimoto/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/leyla-kunimoto.json",
+  "summary": "Leyla Kunimoto appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+  "parts": [
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$250B",
+      "label": "Hyperscaler high-grade bonds",
+      "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
+      "part": 10,
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 10,
+      "section": "The bill raises the rate",
+      "excerpt": "Leyla Kunimoto, citing an Apollo presentation, reports that hyperscalers sold close to $250 billion of high-grade bonds in 2026, more than in the previous ten years combined.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 0,
+    "claims": 1032,
+    "texts": 95,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

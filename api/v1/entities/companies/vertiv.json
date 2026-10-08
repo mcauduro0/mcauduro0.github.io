@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "vertiv",
+  "name": "Vertiv",
+  "ticker": "VRT",
+  "url": "https://deepstack.ltd/companies/vertiv/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/vertiv.json",
+  "summary": "Vertiv appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "The bill comes due",
+      "excerpt": "Vertiv, a cooling and power supplier, added $3.27 billion of revenue in a quarter and still undershot its own guidance because it could not build fast enough.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 10,
+    "claims": 20,
+    "texts": 11,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 250.016,
+    "change": 3.526,
+    "changePercent": 1.4305,
+    "marketCap": 96253162299,
+    "pe": 55.3133,
+    "nextEarnings": "2026-10-28",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:54.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

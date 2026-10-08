@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "daniel-romero",
+  "name": "Daniel Romero",
+  "role": "HyperTech Invest",
+  "url": "https://deepstack.ltd/people/daniel-romero/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
+  "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple).",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "23 GW",
+      "label": "NVL72 deployment need",
+      "context": "Daniel Romero, 2027 estimate at full use",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "The margin test",
+      "excerpt": "Daniel Romero, writing on the AI selloff, supplies the objection that matters.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "The Call",
+      "excerpt": "Jeremie Eliahou Ontiveros’s $100bn-per-GW-year calculation is powerful, but Daniel Romero’s depreciation objection attacks the exact period that makes it look so good.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "section": "The megawatt premium",
+      "excerpt": "Daniel Romero estimates that Nvidia will sell about 90,000 NVL72 racks during 2027.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "The test is demand",
+      "excerpt": "Daniel Romero concedes that power is scarce today but may not remain equally scarce indefinitely; if demand falls while supply catches up, interconnections could be worth much less by 2035.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "section": "AI meets the rate",
+      "excerpt": "Daniel Romero says Treasuries above 5% weigh on financing and stocks more heavily than at any point in 15 years, pointing to a semiconductor index fall of 30% while oil rallied 35%.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "section": "A shortage with a price",
+      "excerpt": "Daniel Romero disclaims any view that the buildout cannot last.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "Who writes the checks",
+      "excerpt": "Daniel Romero works from the labs’ end.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Daniel Romero puts OpenAI and Anthropic at a combined annual run rate near $105 billion in July, about $40 billion and $65 billion respectively, and says the line to watch is $400 billion by the end of 2027.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-moat",
+      "sideLabel": "Scarcity as a moat",
+      "claim": "The mismatch between how quickly compute can improve and how slowly physical infrastructure can be built is what drives the investment case for data-center stocks, because interconnection, transformers, turbines, generation, transmission, and…",
+      "date": "2026-08-28",
+      "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-moat",
+      "sideLabel": "Scarcity as a moat",
+      "claim": "Power is a key bottleneck in AI because rack power is rising sharply while grids, substations, transformers, and generation take years to expand.",
+      "date": "2026-08-28",
+      "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "The creator states they are not arguing the buildout is unsustainable, but that one-year compute paybacks will probably become the exception rather than a baseline assumption, possibly dependent on specific timing and shortages, and that 2026…",
+      "date": "2026-09-21",
+      "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+      "date": "2026-09-21",
+      "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 858,
+    "texts": 62,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

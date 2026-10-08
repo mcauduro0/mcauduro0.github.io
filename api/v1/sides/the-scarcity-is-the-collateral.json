@@ -1,0 +1,527 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 8,
+  "slug": "the-scarcity-is-the-collateral",
+  "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
+  "story": {
+    "headline": "AI Lenders Are Financing the End of Scarcity",
+    "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json"
+  },
+  "question": "Who writes the checks for the buildout?",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Lenders are mispricing scarcity",
+    "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Haircut any loan secured by compute scarcity: the collateral decays as supply catches up.",
+      "Measure cash flow against the $2 trillion it needs, from about $600 billion today, every quarter.",
+      "Count the $2.7 trillion of off-balance-sheet commitments as leverage, because creditors will."
+    ],
+    "flips": [
+      "September-quarter cash flow moves visibly toward $2 trillion.",
+      "The first Blackwell renewal holds its price without new guarantees."
+    ],
+    "nextTest": {
+      "id": "p08-t01",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p08-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#verdict"
+  },
+  "sides": [
+    {
+      "id": "cash-has-to-triple",
+      "label": "The cash has to triple",
+      "voices": [
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+          "date": "2026-09-29",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+          "access": "public"
+        },
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+          "date": "2026-09-29",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+          "access": "public"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Most analysts covering the former software/social-media/AdTech companies now recast as hyperscalers have never had to model maintenance capital expenditure, and most still are not doing it, or not doing it well.",
+          "date": "2026-09-19",
+          "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
+          "date": "2026-09-19",
+          "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+          "access": "paid"
+        },
+        {
+          "name": "Daniel Romero",
+          "entity": "https://deepstack.ltd/people/daniel-romero/",
+          "claim": "The creator states they are not arguing the buildout is unsustainable, but that one-year compute paybacks will probably become the exception rather than a baseline assumption, possibly dependent on specific timing and shortages, and that 2026…",
+          "date": "2026-09-21",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+          "access": "paid"
+        },
+        {
+          "name": "Daniel Romero",
+          "entity": "https://deepstack.ltd/people/daniel-romero/",
+          "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+          "date": "2026-09-21",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+          "access": "paid"
+        }
+      ]
+    },
+    {
+      "id": "spending-pays",
+      "label": "The spending pays",
+      "voices": [
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Based on their capex sustainability model, the creator estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+          "date": "2026-09-17",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+          "access": "public"
+        },
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Aggressive capital spending tends to be suboptimal because after an initial euphoric rise in stock prices tied to rising capex, investors realize they overpaid for the underlying inputs, from land to memory to fiber-optic cables.",
+          "date": "2026-09-17",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+          "access": "public"
+        },
+        {
+          "name": "Aurelion Research",
+          "entity": "https://deepstack.ltd/people/aurelion-research/",
+          "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+          "date": "2026-09-11",
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+          "access": "public"
+        },
+        {
+          "name": "Aurelion Research",
+          "entity": "https://deepstack.ltd/people/aurelion-research/",
+          "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+          "date": "2026-09-11",
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+          "access": "public"
+        },
+        {
+          "name": "Kris",
+          "entity": "https://deepstack.ltd/people/kris/",
+          "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+          "date": "2026-09-16",
+          "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+          "access": "paid"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cash-or-loop",
+      "question": "Cash, or a loop?",
+      "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/#question-cash-or-loop",
+      "sides": [
+        {
+          "id": "closed-loop",
+          "label": "A closed loop",
+          "voices": [
+            {
+              "name": "Ed Zitron",
+              "entity": "https://deepstack.ltd/people/ed-zitron/",
+              "claim": "Over $1T of GPUs bought to win two unprofitable labs, the source of about 70% of hyperscaler AI revenue.",
+              "date": null,
+              "url": null,
+              "access": "public"
+            },
+            {
+              "name": "George Noble",
+              "entity": null,
+              "claim": "Nvidia now gives a year to pay.",
+              "date": null,
+              "url": null,
+              "access": "public"
+            }
+          ]
+        },
+        {
+          "id": "real-cash",
+          "label": "Real cash, real use",
+          "voices": [
+            {
+              "name": "Gaetano",
+              "entity": "https://deepstack.ltd/people/gaetano/",
+              "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
+              "date": "2026-09-07",
+              "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+              "access": "public"
+            },
+            {
+              "name": "Gaetano",
+              "entity": "https://deepstack.ltd/people/gaetano/",
+              "claim": "Today's biggest AI infrastructure spenders are large, highly profitable companies like Microsoft, Google, Amazon and Meta, with Microsoft generating more than $55 billion of operating cash flow in its latest quarter and Alphabet roughly $39…",
+              "date": "2026-09-07",
+              "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+              "access": "public"
+            },
+            {
+              "name": "Ren",
+              "entity": "https://deepstack.ltd/people/ren/",
+              "claim": "Operating leverage is visible on the income statements of hyperscalers, with Azure growing 43 percent, Google Cloud 82 percent, and AWS growing 37 percent, which is the fastest AWS has grown in eighteen quarters.",
+              "date": "2026-08-31",
+              "url": "https://renstocks.substack.com/p/the-ai-cloud-business-who-actually",
+              "access": "paid"
+            },
+            {
+              "name": "Ren",
+              "entity": "https://deepstack.ltd/people/ren/",
+              "claim": "Cloud capex forecasts have risen dramatically, with combined 2026 and 2027 cloud capex forecast at 1.3 trillion in January rising to 2.1 trillion by the creation date, representing eight hundred billion dollars of additional expected spending…",
+              "date": "2026-08-31",
+              "url": "https://renstocks.substack.com/p/the-ai-cloud-business-who-actually",
+              "access": "paid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-lenders-hold",
+      "question": "What are the lenders holding?",
+      "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/#question-what-lenders-hold",
+      "sides": [
+        {
+          "id": "scarcity-as-collateral",
+          "label": "Scarcity as collateral",
+          "voices": [
+            {
+              "name": "JunkBondInvestor",
+              "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+              "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
+              "access": "public"
+            },
+            {
+              "name": "JunkBondInvestor",
+              "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+              "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
+              "access": "public"
+            }
+          ]
+        },
+        {
+          "id": "guarantees-not-faith",
+          "label": "Guarantees, not faith",
+          "voices": [
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+              "date": "2026-09-24",
+              "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+              "access": "paid"
+            },
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "Microsoft's raising of its buildings-and-improvements depreciation useful life ceiling from 15 to 25 years is likely a move of convenience that lets it keep tripled data center leases classified as operating rather than finance leases, since ASC…",
+              "date": "2026-09-24",
+              "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+              "access": "paid"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+              "date": "2026-09-09",
+              "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+              "access": "paid"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+              "date": "2026-09-09",
+              "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+              "access": "paid"
+            },
+            {
+              "name": "Kakashii",
+              "entity": "https://deepstack.ltd/people/kakashii/",
+              "claim": "Oracle's free cash flow was positive every year from FY2018 to FY2024, then turned slightly negative in FY2025 (-0.39B), dropped to -23.69B in FY2026 on 55.66B of cash capex, and sits at -28.72B on a trailing twelve months basis through Q1 FY2027…",
+              "date": "2026-09-24",
+              "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+              "access": "paid"
+            },
+            {
+              "name": "Kakashii",
+              "entity": "https://deepstack.ltd/people/kakashii/",
+              "claim": "Oracle's record Q1 operating cash flow of 23.103B (up 184% YoY) is largely explained by 11.363B of customer prepayments with a significant financing component; excluding that prepayment, operating cash flow would be only about 11.740B (up a more…",
+              "date": "2026-09-24",
+              "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+              "access": "paid"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "crossings": [
+    {
+      "from": "Steve Eisman",
+      "to": "Gaetano",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "Steve Eisman contradicts Gaetano on mechanism."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Steve Eisman qualifies JunkBondInvestor on condition."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Michael Burry",
+      "relation": "refutes",
+      "dimension": "evidence",
+      "note": "Torsten Slok refutes Michael Burry on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Aurelion Research",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Torsten Slok contradicts Aurelion Research on premise."
+    },
+    {
+      "from": "Gaetano",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Gaetano qualifies Torsten Slok on evidence."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "Kris",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Daniel Romero qualifies Kris on condition."
+    },
+    {
+      "from": "JunkBondInvestor",
+      "to": "Market Sentiment",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "JunkBondInvestor contradicts Market Sentiment on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Aurelion Research",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Torsten Slok qualifies Aurelion Research on evidence."
+    },
+    {
+      "from": "Kakashii",
+      "to": "Aurelion Research",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Kakashii qualifies Aurelion Research on condition."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "Michael Burry",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Daniel Romero qualifies Michael Burry on evidence."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "Aurelion Research",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Daniel Romero contradicts Aurelion Research on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Ren",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies Ren on mechanism."
+    },
+    {
+      "from": "Gaetano",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Gaetano qualifies JunkBondInvestor on condition."
+    },
+    {
+      "from": "Gaetano",
+      "to": "Steve Eisman",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Gaetano contradicts Steve Eisman on evidence."
+    },
+    {
+      "from": "Gaetano",
+      "to": "Michael Burry",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Gaetano qualifies Michael Burry on evidence."
+    },
+    {
+      "from": "Kris",
+      "to": "Daniel Romero",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Kris contradicts Daniel Romero on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Kakashii",
+      "relation": "qualifies",
+      "dimension": "premise",
+      "note": "Torsten Slok qualifies Kakashii on premise."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Daniel Romero qualifies Torsten Slok on evidence."
+    },
+    {
+      "from": "Gaetano",
+      "to": "Market Sentiment",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Gaetano qualifies Market Sentiment on mechanism."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Daniel Romero qualifies Torsten Slok on mechanism."
+    },
+    {
+      "from": "Gaetano",
+      "to": "Daniel Romero",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Gaetano qualifies Daniel Romero on evidence."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Daniel Romero qualifies JunkBondInvestor on condition."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "Gaetano",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Michael Burry contradicts Gaetano on evidence."
+    },
+    {
+      "from": "JunkBondInvestor",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "JunkBondInvestor qualifies Torsten Slok on condition."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The price rises with distance from the hyperscaler",
+      "text": "The core: investment-grade spread 83bp, bank default swaps flat near 40bp. One step out: guaranteed debt pays 100 to 150bp over the guarantor. The edge: Oracle CDS at a record, CCC spread 1,146bp."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "Late October",
+      "date": null,
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
+    },
+    {
+      "id": null,
+      "when": "Nov 23",
+      "date": "2026-11-23",
+      "event": "New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
+    },
+    {
+      "id": null,
+      "when": "Feb 1, 2027",
+      "date": "2027-02-01",
+      "event": "Pipeline in-service date tests whether Project Jupiter can secure fuel for its planned campus.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
+    },
+    {
+      "id": null,
+      "when": "First Blackwell renewal",
+      "date": null,
+      "event": "Contract repricing shows whether scarce compute retains value or lenders face faster obsolescence.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
+    },
+    {
+      "id": null,
+      "when": "Fluidstack terms",
+      "date": null,
+      "event": "Government-loan terms reveal the price Washington assigns to financing bottlenecks it wants to remove.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
+    }
+  ]
+}

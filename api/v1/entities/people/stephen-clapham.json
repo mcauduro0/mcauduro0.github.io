@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "stephen-clapham",
+  "name": "Stephen Clapham",
+  "role": "Behind the Balance Sheet",
+  "url": "https://deepstack.ltd/people/stephen-clapham/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/stephen-clapham.json",
+  "summary": "Stephen Clapham appears in Part 1, Part 2, Part 6, Part 7, Part 8, Part 9 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 7 (Debt: 99% of GDP, up from 35%), Part 9 (The rails and the atoms).",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Long the chips, short the returns",
+      "excerpt": "Stephen Clapham, relaying Boston Partners’ analysis in The $4.4 Trillion Question, takes the issue to its terminal form: whether AI data-center economics ever earn an adequate return for anyone, Nvidia included.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "section": "Three businesses, one ticker",
+      "excerpt": "Stephen Clapham of Behind the Balance Sheet asked in a June 7 analysis why Musk is listing now.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 6,
+      "section": "The rent will move",
+      "excerpt": "Stephen Clapham sees Kirby selling primary power rather than backup.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "section": "Three prices for 5%",
+      "excerpt": "Stephen Clapham’s portfolio answer is close to zero exposure to Treasuries, except for long bonds issued at pandemic-era coupons that now trade near half their face value.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "section": "Cash, or a loop",
+      "excerpt": "Stephen Clapham sees rising data-center costs, falling token prices and cheaper models, many of them Chinese, pressing on returns.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Stephen Clapham’s tank-terminal example makes the boundary vivid: land, permits, money and years are not a checkout feature.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "The creator states they would maintain a near-zero weight in US Treasuries, other than those trading at a near-50% discount to nominal value which they see as an asymmetric bet, a position they say they have covered in recent weeks.",
+      "date": "2026-09-20",
+      "url": "https://behindthebalancesheet.substack.com/p/what-investors-are-missing-about",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "The US 10 year yield has risen 24bps since Cembalest's quarterly was published and is now close to its 5 year high, following an earlier period in which it had risen only 10bps since Trump's initial 2025 tariff announcement while yields elsewhere…",
+      "date": "2026-09-06",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "After listening to Daniel Susskind discuss the range of activities AI may change, the creator sees an appeal in assets that are relatively immune to AI disruption, such as a tank terminal that takes land, permits, capital and often years to build…",
+      "date": "2026-09-27",
+      "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "Vopak's terminals occupy strategically valuable port locations that are difficult, slow and expensive to replicate, and the company has a market cap of €5.4bn versus an enterprise value of €8.3bn, which the creator sees as a massive discount to…",
+      "date": "2026-09-27",
+      "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 651,
+    "texts": 52,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

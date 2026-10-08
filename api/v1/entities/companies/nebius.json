@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "nebius",
+  "name": "Nebius",
+  "ticker": "NBIS",
+  "url": "https://deepstack.ltd/companies/nebius/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/nebius.json",
+  "summary": "Nebius appears in Part 3, Part 4, Part 6 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$20–25M",
+      "label": "Nebius one-to-three-year price",
+      "context": "Michael Burry, August 12 trading post",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "value": "$40–50M",
+      "label": "Nebius six-month price",
+      "context": "Michael Burry, August 12 trading post",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "Nebius jumped 34 percent even though Michael Burry had just added it to his short book.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "That afternoon, Burry said, “Nebius is what the top of a boom looks like.”",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Debt is the product",
+      "excerpt": "Then Nebius supplied a more tangible warning.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "Orbis Investments, which owns Nebius, makes the single-name version concrete: more than four gigawatts of capacity by 2031, more than $50 billion of revenue against $2 billion today, $15 billion of non-core holdings and enough value to justify a $70 billion market value.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "section": "Lede",
+      "excerpt": "Nebius is selling the same megawatt at two prices.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "Lede",
+      "excerpt": "Nebius has already stretched the assumed life of its servers from four years to five.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "Scarcity has three faces",
+      "excerpt": "Nebius’s second-quarter call puts the gap in management’s own guidance.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 3,
+      "question": null,
+      "side": "capex-and-credit",
+      "sideLabel": "1999 capex plus 2008 credit",
+      "claim": "Nebius extended its server depreciation schedule from four years to five this year even though its own deal pricing implies roughly 50 percent annual decay; customers that would not quit depreciating are what extended the bust twenty-five years ago.",
+      "date": "2026-08-12",
+      "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "question": null,
+      "side": "capex-and-credit",
+      "sideLabel": "1999 capex plus 2008 credit",
+      "claim": "Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…",
+      "date": "2026-08-12",
+      "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-moat",
+      "sideLabel": "Scarcity as a moat",
+      "claim": "The creator is also hearing that Bloom keeps some capacity available rather than fully committing years in advance, allowing it to serve desperate customers needing power immediately at significantly better economics, analogous to Nebius publicly…",
+      "date": "2026-08-20",
+      "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    }
+  ],
+  "coverage": {
+    "creators": 18,
+    "claims": 275,
+    "texts": 74,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 230.49,
+    "change": -6.66,
+    "changePercent": -2.8083,
+    "marketCap": 55317600000,
+    "pe": 886.5,
+    "nextEarnings": "2026-11-10",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:53.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

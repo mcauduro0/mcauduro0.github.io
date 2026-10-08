@@ -1,0 +1,530 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 4,
+  "slug": "the-market-stops-paying-for-faith",
+  "headline": "AI Spending Has Met Its First Real Bill",
+  "dek": "Hyperscaler capital budgets are still climbing. The market has started charging for them, rewarding cash-backed returns and punishing faith.",
+  "summary": "AI’s buildout is entering its first financing test: spending outruns cash flow, investors have separated the winners from the believers, and the next budget will expose who is right.",
+  "section": "Capex",
+  "date": "2026-09-04",
+  "readingMinutes": 9,
+  "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Prove the return",
+    "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Screen hyperscalers on free cash flow after capex; Alphabet’s −$6 billion quarter is the new benchmark.",
+      "Reward budgets that arrive with return data, not budgets that only grow.",
+      "Watch the labs’ growth rates: deceleration, not decline, is the trigger."
+    ],
+    "flips": [
+      "Alphabet’s larger 2027 budget lifts the stock instead of sinking it.",
+      "Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue."
+    ],
+    "nextTest": {
+      "id": "p04-t01",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "2027 budget",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 budget",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$800B",
+      "label": "Combined annual capex",
+      "context": "Four companies, disclosed in late July"
+    },
+    {
+      "value": "$165B",
+      "label": "Quarterly hyperscaler capex",
+      "context": "Prof G Markets; three months, August 4"
+    },
+    {
+      "value": "-$6B",
+      "label": "Alphabet Q2 free cash flow",
+      "context": "Hayden Capital; Q2, first negative since 2004 IPO"
+    },
+    {
+      "value": "$3.5T",
+      "label": "2026–30 hyperscaler capex",
+      "context": "Oscar Hattink via Kevin Gee; 2026–2030"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Potential Multibaggers - July 26 spending case",
+      "url": "https://www.potentialmultibaggers.com/p/the-worst-july-in-22-years"
+    },
+    {
+      "label": "a16z - July 31 equipment backlog",
+      "url": "https://www.a16z.news/p/charts-of-the-week-moar-machines"
+    },
+    {
+      "label": "a16z - August 21 usage data",
+      "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic"
+    },
+    {
+      "label": "Warden Capital - second-quarter letter",
+      "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873"
+    },
+    {
+      "label": "First Pacific Advisors - Crescent Fund letter",
+      "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+    },
+    {
+      "label": "Prof G Markets - August 4 capex tally",
+      "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+    },
+    {
+      "label": "Voss Capital - second-quarter letter",
+      "url": "https://fiscal.ai/fund-letters/voss-capital-q2-2026-fscl_document_8GNS7JMV779"
+    },
+    {
+      "label": "JunkBondInvestor - July 26 credit weekly",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/the-market-stops-paying-for-faith",
+  "wordCount": 1967,
+  "pullQuote": "The buildout can remain enormous, but the era in which capital spending counted as its own return is over.",
+  "verdict": "The direction is clear: AI infrastructure remains strategically important, but the market is no longer willing to finance it on scale alone. The single most important reason is the crossing of capital spending and operating cash flow, visible in Alphabet’s first negative quarter since its 2004 IPO and in the premium now demanded by creditors. The bullish case would regain force if Alphabet’s larger 2027 budget lifted the stock, hyperscaler cash generation caught up with investment, and the two leading labs funded growth on durable, non-circular revenue. A period of real usage growth can coexist with poor returns; what matters is whether each additional dollar of capacity earns more than its financing cost. Until that evidence arrives, capital intensity is not a moat. It is the test.",
+  "sections": [
+    {
+      "id": "the-bill-comes-due",
+      "title": "The bill comes due",
+      "startsAt": 2,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#the-bill-comes-due"
+    },
+    {
+      "id": "defense-has-a-case",
+      "title": "Defense has a case",
+      "startsAt": 6,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#defense-has-a-case"
+    },
+    {
+      "id": "arithmetic-sets-the-test",
+      "title": "Arithmetic sets the test",
+      "startsAt": 11,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#arithmetic-sets-the-test"
+    },
+    {
+      "id": "the-tape-picks-winners",
+      "title": "The tape picks winners",
+      "startsAt": 16,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#the-tape-picks-winners"
+    }
+  ],
+  "body": [
+    "Alphabet spent roughly $490 million a day on AI infrastructure last quarter. It reported the first negative free-cash-flow quarter in its history as a public company, lifted its capital budget for the year to as much as $205 billion, told analysts next year’s number would be higher, and watched its stock fall 7 percent that day. In June it sold $85 billion of equity, the largest raise ever by a listed corporation, after two decades of not knowing what to do with its cash. In August it sold $25 billion of bonds and paid a double-digit new-issue concession where in February it had paid nothing. Six weeks after that guidance, Alphabet traded 17 percent below its high. Meta was 22 percent below, Oracle 54 percent below. Nvidia sat within 3 percent of a record at $5.6 trillion, while Micron traded above $1,000 a share.",
+    "That is the first clean price signal of the AI buildout: the money is still flowing, but faith is no longer free. Four companies disclosed capital budgets in the last week of July that will approach $800 billion this year. The evidence says the spending can be rational, even necessary, but the market has begun separating cash-backed returns from capital-intensive hope. The winners will not be the companies that spend most. They will be the ones that show who pays, and when.",
+    "The bull case starts with fear. Kris of Potential Multibaggers argues that the risk of investing too little is far greater than the risk of investing too much. Several Mag7 executives have said the same. In his reading, the choice is between going all-in and being disrupted; a company whose existence is at stake does not economize. Alphabet raised its budget for that reason, and the others will follow. Morgan Stanley still expects a large jump in 2027 and only a small one in 2028, which resembles a buildout with an end rather than an endless furnace.",
+    "Sound Shore Management, a value fund with thirty-five years of history, reaches a similar conclusion from a cooler temperament. Its second-quarter letter describes AI investment rippling through the economy in distinct technological waves, each phase triggering the next capital-expenditure cycle. The fund cannot say when the surge turns cyclical. That is a timing problem, not proof that the spending is irrational.",
+    "Moses Sternstein, writing the Charts of the Week series at a16z, supplies evidence that demand has not yet broken. His July 31 edition reports that unfilled orders for computers and electronics stepped higher in 2023 and inflected upward again this summer; the backlog sits near six months of shipments. Vertiv, a cooling and power supplier, added $3.27 billion of revenue in a quarter and still undershot its own guidance because it could not build fast enough. By August 21, top-decile enterprises had increased token output more than seventeenfold since April 2025, agents were burning nearly five times the tokens that humans do, and agent usage had grown fourteenfold since February.",
+    "The tape, however, has stopped treating demand as a sufficient answer.",
+    "The strongest version of the opposing view is not that every dollar will earn a good return. It is that the companies spending today are unusually able to survive a long construction period. Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce. “The question is not whether they can afford the spending. They clearly can.”",
+    "Steve Eisman, in The Real Eisman Playbook, relays the case that the industry is only in year three of an eight-to-ten-year buildout, comparable to building the Las Vegas Strip in the 1950s. Enormous investment came first; a valuable ecosystem came later. He also says the scale is a barrier to entry because very few companies can compete at it. Orbis Investments, which owns Nebius, makes the single-name version concrete: more than four gigawatts of capacity by 2031, more than $50 billion of revenue against $2 billion today, $15 billion of non-core holdings and enough value to justify a $70 billion market value.",
+    "James Bulltard, watching semiconductors fall 30 to 50 percent in a month while the businesses remained fine, wrote that this was not a bubble and might become one only in a couple of years. On that reading, the July selloff was a leveraged unwind of Korean traders facing margin calls, not a verdict on the economics. The defense deserves to be taken seriously: a market can punish a stock for near-term cash burn while the underlying infrastructure becomes indispensable.",
+    "That is the market’s split in one glance: Nvidia and Micron have been paid for scarcity; Alphabet, Meta and Oracle have been charged for financing. The tape is not rejecting AI. It is pricing its capital.",
+    "But that case asks investors to accept a long bridge between spending and proof. The bridge is precisely where the arithmetic becomes less forgiving.",
+    "Warden Capital’s second-quarter letter starts at the top. At roughly $700 billion a year of investment, model providers would need about $1 trillion of annual end revenue by 2029, ramping toward nearly $4 trillion by 2036 if capital spending merely stays flat. Some estimates put capital spending near $2 trillion by 2030. Warden’s central warning is that discussing inference gross margins without capital cost is like discussing the marginal cost of running an oil well while ignoring the cost of drilling it. Its conclusion is stark: the cycle cannot earn a reasonable return without artificial general intelligence arriving within a few years, and a slowdown in revenue or spending would not stay confined to one sector when AI-related companies represent near half of the stock market by some counts.",
+    "First Pacific Advisors LP works the numbers from the bottom. Global AI-influenced spending is projected at $2.59 trillion this year. Earning even a low unlevered return would require about $207 billion of after-tax income every year, starting immediately, which its Crescent Fund managers call improbable. AI-related companies now make up roughly half of the S&P 500, above the 35 percent weight of the entire technology sector at the March 2000 peak.",
+    "Kevin Gee’s A Letter a Day, relaying Oscar Hattink’s 2026 letter, puts the burden on the customer. Hyperscaler capital spending is expected to reach $3.5 trillion from 2026 through 2030 against roughly $863 billion of incremental annual AI revenue by 2030. If consumers bear that revenue, it is about $100 a month from every person in the United States and the European Union, children included. It equals 19 times Netflix’s revenue and 1.6 times the entire American communications industry, the distance those businesses took decades to cover. At a 40 percent incremental margin, the spending returns about 8 percent after tax against a cost of equity of about 10 percent, with the thirty-year Treasury above 5 percent.",
+    "Prof G Markets tallied the immediate bill: Amazon, Google, Microsoft and Meta spent $165 billion on capital spending in three months, up 87 percent from a year earlier and 393 percent from three years earlier. Big Tech now spends more each year on AI than the United States spent on the Apollo program after inflation. The revenue needed to earn a return is roughly $2.5 trillion a year, against cumulative AI revenue to date of about $150 billion.",
+    "Voss Capital adds the productivity test. Despite $1.5 trillion of cumulative AI capital outlays, no economy-wide productivity surge has appeared in the data. The five largest hyperscalers account for roughly half of all forward capital spending in the Russell 3000, operating cash flows are more than fully consumed by it, AI-linked debt issuance this year runs at twice the sovereign issuance of the United Kingdom, and token prices are decaying about five times faster than PC hardware prices did at the equivalent point of adoption.",
+    "The market’s verdict is visible in the companies that can already point to cash earnings. Steve Eisman writes that investors rewarded whoever spent the most for two years, then started asking who would earn a return. Microsoft posted 30 percent earnings growth while Meta’s earnings fell 13 percent. Azure is accelerating and AWS delivered a similar message. Meta keeps raising its capital plan because, in Eisman’s telling, it feels it has no choice.",
+    "Prof G Markets reads the same scorecard through cash flow. Microsoft held its capital-spending forecast flat and was rewarded: restraint and growth proved the winning combination. Google grew cloud 82 percent and search 17 percent, yet its stock fell because capital spending ate the free cash flow. AWS grew 37 percent and now supplies more than 60 percent of Amazon’s operating profit, allowing Amazon to raise its guidance and post negative free cash flow without punishment. Apple, spending $14 billion this fiscal year, less than Amazon spends in a month, has chosen to be the anti-hyperscaler.",
+    "Hayden Capital’s second-quarter letter explains why the vote changed. Industry capital spending is compounding at about 70 percent a year while operating cash flow grows about 23 percent, and the lines are about to cross. Incremental annual debt rose from about 9 percent of capital spending in 2024 to about 32 percent over the last twelve months. Alphabet’s roughly $6 billion of negative free cash flow in the second quarter was its first since the 2004 IPO. Businesses once prized for capital-light margins now look like capital-intensive industrials, with reinvestment rates moving toward 100 percent. The market pays for certainty and predictability of returns more than for their level.",
+    "JunkBondInvestor offers a useful check from credit. AI-related issuance reached $489 billion so far this year, against $322 billion for all of 2025 and 23 percent of dollar investment-grade supply. The six largest technology names now carry more risk in the high-grade index than the six largest banks, something that had never happened before. He reads the widening as absorption rather than deterioration, helped by a thirty-year Treasury above 5 percent and governments competing with hyperscalers for the same long-end buyer. Yet he also says that this is the least informative thing one can say: capital-spending disclosure shows how much money is committed, not when capacity turns on, how much liquidity it consumes first, or who owns the delay.",
+    "Aurelion Research measures the fragility in expectations. Hyperscaler capital spending has come in 56 percent above what the market forecast a year ago, and estimates keep rising. In a normal market, a miss against expectations costs a stock 5 to 10 percent. With positioning this crowded, the same miss could cost 15 to 20 percent. That is why the firm keeps AI exposure near 10 percent of its portfolio.",
+    "The decisive evidence is not the biggest usage number or the grandest forecast. It is the funding line. Hayden’s crossing cash-flow lines, Alphabet’s first negative quarter since 2004, and the immediate reward for Microsoft’s restraint show a market charging for duration and execution. Demand can be real and the investment still destroy value if the price of tokens falls faster than volume rises, if two cash-burning labs carry too much of the revenue, or if the next dollar must come from creditors rather than customers.",
+    "We would be wrong if Alphabet’s higher 2027 budget lifted the stock, operating cash flow caught up with capital spending, and the next financing for OpenAI and Anthropic showed durable revenue without widening credit terms. Until then, the burden of proof has moved from the skeptics to the spenders. The buildout can remain enormous, but the era in which capital spending counted as its own return is over. The bill is now part of the product."
+  ],
+  "chart": {
+    "title": "Stocks split the buildout",
+    "subtitle": "Distance from recent highs, market prices as of September 4 close",
+    "unit": "%",
+    "decimals": 0,
+    "source": "Market prices as of the September 4 close",
+    "items": [
+      {
+        "label": "Alphabet",
+        "value": -17
+      },
+      {
+        "label": "Meta",
+        "value": -22
+      },
+      {
+        "label": "Oracle",
+        "value": -54
+      },
+      {
+        "label": "Nvidia",
+        "value": -3
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p04-t01",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "2027 budget",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027 budget",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t02",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Next lab financing",
+      "whenLabel": "Next lab financing",
+      "date": null,
+      "precision": "signal",
+      "event": "OpenAI and Anthropic revenue and funding terms emerge; deceleration, not decline, is the trigger for a reflexive break.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next lab financing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t03",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Through 2027",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Hyperscaler free cash flow shows whether operating cash flow catches capex growth; a catch-up makes external funding temporary.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Through 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t04",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "After Labor Day",
+      "whenLabel": "Sep 8, 2026",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p04-t05",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "when": "Token and productivity data",
+      "whenLabel": "Token and productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "Prices, volumes and productivity move together; sustained volume growth over price and a visible productivity surge support the bulls.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Token and productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p04-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "apple",
+      "name": "Apple",
+      "ticker": "AAPL",
+      "url": "https://deepstack.ltd/companies/apple/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "micron-technology",
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "url": "https://deepstack.ltd/companies/micron-technology/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "url": "https://deepstack.ltd/companies/morgan-stanley/"
+    },
+    {
+      "kind": "company",
+      "slug": "nebius",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "url": "https://deepstack.ltd/companies/nebius/"
+    },
+    {
+      "kind": "company",
+      "slug": "netflix",
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "url": "https://deepstack.ltd/companies/netflix/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "company",
+      "slug": "vertiv",
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "url": "https://deepstack.ltd/companies/vertiv/"
+    },
+    {
+      "kind": "person",
+      "slug": "aurelion-research",
+      "name": "Aurelion Research",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aurelion-research/"
+    },
+    {
+      "kind": "person",
+      "slug": "first-pacific-advisors",
+      "name": "First Pacific Advisors",
+      "role": null,
+      "url": "https://deepstack.ltd/people/first-pacific-advisors/"
+    },
+    {
+      "kind": "person",
+      "slug": "hayden-capital",
+      "name": "Hayden Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/hayden-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "james-bulltard",
+      "name": "James Bulltard",
+      "role": null,
+      "url": "https://deepstack.ltd/people/james-bulltard/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kevin-gee",
+      "name": "Kevin Gee",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kevin-gee/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "moses-sternstein",
+      "name": "Moses Sternstein",
+      "role": null,
+      "url": "https://deepstack.ltd/people/moses-sternstein/"
+    },
+    {
+      "kind": "person",
+      "slug": "orbis-investments",
+      "name": "Orbis Investments",
+      "role": null,
+      "url": "https://deepstack.ltd/people/orbis-investments/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "quanta-72",
+      "name": "Quanta 72",
+      "role": null,
+      "url": "https://deepstack.ltd/people/quanta-72/"
+    },
+    {
+      "kind": "person",
+      "slug": "sound-shore-management",
+      "name": "Sound Shore Management",
+      "role": null,
+      "url": "https://deepstack.ltd/people/sound-shore-management/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "voss-capital",
+      "name": "Voss Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/voss-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "warden-capital",
+      "name": "Warden Capital",
+      "role": null,
+      "url": "https://deepstack.ltd/people/warden-capital/"
+    }
+  ]
+}

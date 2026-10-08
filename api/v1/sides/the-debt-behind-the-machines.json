@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 3,
+  "slug": "the-debt-behind-the-machines",
+  "url": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
+  "story": {
+    "headline": "The Machines Will Work. The Debt Might Not.",
+    "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json"
+  },
+  "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Bearish on the credit",
+    "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Watch the six-month compute premium: buyers paying double for short terms are pricing duration risk.",
+      "Before trusting the 21% modeled return, ask who carries depreciation when funding costs rise.",
+      "Price new AI debt on its concessions: wider new-issue discounts mean lenders are flinching."
+    ],
+    "flips": [
+      "Nebius’s short-term premium collapses toward long-term rates.",
+      "H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions."
+    ],
+    "nextTest": {
+      "id": "p03-t01",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next Nebius disclosure",
+      "whenLabel": "Nov 10, 2026",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NBIS",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#verdict"
+  },
+  "sides": [
+    {
+      "id": "capex-and-credit",
+      "label": "1999 capex plus 2008 credit",
+      "voices": [
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Nebius extended its server depreciation schedule from four years to five this year even though its own deal pricing implies roughly 50 percent annual decay; customers that would not quit depreciating are what extended the bust twenty-five years ago.",
+          "date": "2026-08-12",
+          "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+          "access": "licensed"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…",
+          "date": "2026-08-12",
+          "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+          "access": "licensed"
+        },
+        {
+          "name": "Vitaliy Katsenelson",
+          "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+          "claim": "AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…",
+          "date": "2026-08-06",
+          "url": "https://vitaliy.substack.com/p/todays-market-1999-capex-2008-credit",
+          "access": "public"
+        }
+      ]
+    },
+    {
+      "id": "borrowing-is-rational",
+      "label": "The borrowing is rational",
+      "voices": [
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Capacity is sold before it is built: AWS backlog reached 496 billion dollars, Microsoft closed June 2026 with 678 billion of commercial RPO up 84 percent year over year, Google Cloud's backlog hit 514 billion; CoreWeave's 2020-era A100s are fully…",
+          "date": "2026-08-08",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable",
+          "access": "public"
+        },
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Modeled bottom-up, 100 billion dollars of annual data-center capex sustains roughly 160 billion of steady-state annual revenue, a 1.6x revenue-to-capex multiple and about a 21 percent IRR, even assuming a five-year chip life and a one-third annual…",
+          "date": "2026-08-08",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable",
+          "access": "public"
+        },
+        {
+          "name": "Oguz Erkan",
+          "entity": "https://deepstack.ltd/people/oguz-erkan/",
+          "claim": "Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.",
+          "date": "2026-08-06",
+          "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+          "access": "public"
+        },
+        {
+          "name": "Variant Perception",
+          "entity": null,
+          "claim": "Still risk-on, semis capital-scarce, July was a tradeable low.",
+          "date": null,
+          "url": null,
+          "access": "public"
+        }
+      ]
+    },
+    {
+      "id": "crossing",
+      "label": "Voices that cross sides",
+      "voices": [
+        {
+          "name": "JunkBondInvestor",
+          "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+          "claim": "Three endings fit today's numbers: squeeze, triumph, or spreads just cheapen. Unsortable yet.",
+          "date": null,
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Oguz Erkan",
+          "entity": "https://deepstack.ltd/people/oguz-erkan/",
+          "claim": "His own tripwire: hyperscaler free cash flow may go negative in 2027; leverage on speculative returns repels.",
+          "date": null,
+          "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+          "access": "public"
+        },
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "His own bar: the spend needs about $960B of cloud revenue; the run rate is about $380B, growing 40% or more.",
+          "date": null,
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable",
+          "access": "public"
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "crossings": [
+    {
+      "from": "Market Sentiment",
+      "to": "Michael Burry",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Market Sentiment contradicts Michael Burry on evidence."
+    },
+    {
+      "from": "Market Sentiment",
+      "to": "Vitaliy Katsenelson",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Market Sentiment contradicts Vitaliy Katsenelson on premise."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "Oguz Erkan",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Michael Burry qualifies Oguz Erkan on evidence."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Bridge to Parts 1 and 2",
+      "text": "Across earlier Parts: Katsenelson's vendor-financing evidence supports Burry's circularity thesis from Part 1, and Market Sentiment's realized H100 paybacks support SemiAnalysis's inference economics from Part 2."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "Next Nebius disclosure",
+      "date": null,
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch"
+    },
+    {
+      "id": null,
+      "when": "Next H100 batches",
+      "date": null,
+      "event": "Re-lets near 95 percent support durable value; faster decay would expose a gap in the economics.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch"
+    },
+    {
+      "id": null,
+      "when": "2027",
+      "date": null,
+      "event": "Resilient hyperscaler free cash flow would ease leverage fears; negative cash flow would validate Erkan’s tripwire.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch"
+    },
+    {
+      "id": null,
+      "when": "After Labor Day",
+      "date": null,
+      "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch"
+    },
+    {
+      "id": null,
+      "when": "When the streak ends",
+      "date": null,
+      "event": "The 182-day run ending would test whether unusual market calm is breaking; repetition would extend the signal.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch"
+    }
+  ]
+}

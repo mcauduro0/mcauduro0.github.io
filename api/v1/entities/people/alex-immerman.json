@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "alex-immerman",
+  "name": "Alex Immerman",
+  "role": null,
+  "url": "https://deepstack.ltd/people/alex-immerman/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/alex-immerman.json",
+  "summary": "Alex Immerman appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The inertia businesses), Part 9 (The rails and the atoms).",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Alex Immerman says Shopify, Toast and Square collect software and payments revenue whichever agent brings the order.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "AI assistants don't need to replicate Amazon's warehouses to pressure Amazon's profits; they only need to become the place where the customer decides what to buy, illustrated by Amazon banning Muse while Shopify, which lacks a comparable scaled ad…",
+      "date": "2026-09-29",
+      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "Even if incumbents keep their fulfillment advantage, that doesn't guarantee they preserve their profit pool: in 2025 Amazon generated $69 billion in advertising revenue versus $34 billion in operating income ex-AWS, and at an assumed 70%…",
+      "date": "2026-09-29",
+      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "rails-and-atoms",
+      "sideLabel": "The rails and the atoms",
+      "claim": "Shopify, Toast and Square get paid whichever agent brings the order.",
+      "date": null,
+      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 68,
+    "texts": 7,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

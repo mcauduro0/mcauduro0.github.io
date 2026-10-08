@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "michael-howell",
+  "name": "Michael Howell",
+  "role": "Capital Wars",
+  "url": "https://deepstack.ltd/people/michael-howell/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/michael-howell.json",
+  "summary": "Michael Howell appears in Part 7, Part 10 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator. Argued in Part 7 (Growth: yields are catching up), Part 10 (A growth signal near a peak).",
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 7,
+      "section": "The calm is real",
+      "excerpt": "Michael Howell saw the same calm in the premium investors pay to hold Treasuries rather than comparable AAA bonds.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "Three prices for 5%",
+      "excerpt": "Michael Howell estimates nominal output is expanding at roughly 7% to 8% and says a 10-year yield near 5% remains about two percentage points too low.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "section": "A cheap top",
+      "excerpt": "Michael Howell of Capital Wars says he underestimated AI spending’s lift to earnings; David George at a16z credits technology with about 76% of S&P 500 profit growth through late August.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "section": "The bill raises the rate",
+      "excerpt": "Michael Howell reads the curve more kindly.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 7,
+      "question": null,
+      "side": "growth",
+      "sideLabel": "Growth: yields are catching up",
+      "claim": "The convenience yield of Treasuries measured against similar-duration AAA domestic bonds appears stronger rather than weaker, and conventional term premia have been broadly stable over the past year, so these indicators do not support the argument…",
+      "date": "2026-08-23",
+      "url": "https://capitalwars.substack.com/p/bonds-bessent-and-bedlam",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "growth",
+      "sideLabel": "Growth: yields are catching up",
+      "claim": "Suppressing the long end of the yield curve is like holding a beachball underwater: it may work temporarily but the outcome is unstable, because holding long yields down flattens the term structure via arbitrage and shifts pressure to the front…",
+      "date": "2026-08-23",
+      "url": "https://capitalwars.substack.com/p/bonds-bessent-and-bedlam",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "growth-signal-near-a-peak",
+      "sideLabel": "A growth signal near a peak",
+      "claim": "The creator underestimated the pace of earnings growth in 2026: valuation multiples compressed as expected, but corporate earnings expanded far more rapidly than anticipated, fuelled by AI investment, which is why equities, notably technology…",
+      "date": "2026-09-25",
+      "url": "https://capitalwars.substack.com/p/understanding-the-commodity-boom",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "growth-signal-near-a-peak",
+      "sideLabel": "A growth signal near a peak",
+      "claim": "Higher bond yields reflect an economy growing faster than official policy settings can comfortably accommodate and a policy framework increasingly dependent upon maintaining abundant liquidity.",
+      "date": "2026-09-11",
+      "url": "https://capitalwars.substack.com/p/bonds-treasury-qe-and-the-3-3-3-30",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 1434,
+    "texts": 136,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

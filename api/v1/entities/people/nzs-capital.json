@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "nzs-capital",
+  "name": "NZS Capital",
+  "role": null,
+  "url": "https://deepstack.ltd/people/nzs-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/nzs-capital.json",
+  "summary": "NZS Capital appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Price is part of the thesis",
+      "excerpt": "NZS Capital, Brad Slingerlend’s firm and one of the most semiconductor-literate shops writing letters, shows why the price still matters.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 1,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Exited on the bear case; re-entered when the price paid for the risk.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 45,
+    "texts": 4,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

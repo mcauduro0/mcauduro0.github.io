@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "moses-sternstein",
+  "name": "Moses Sternstein",
+  "role": null,
+  "url": "https://deepstack.ltd/people/moses-sternstein/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/moses-sternstein.json",
+  "summary": "Moses Sternstein appears in Part 4, Part 6, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 4 (The spending is defense), Part 9 (Still a demo).",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "3%",
+      "label": "Paid consumer AI adoption",
+      "context": "Moses Sternstein, first quarter estimate",
+      "part": 9,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "The bill comes due",
+      "excerpt": "Moses Sternstein, writing the Charts of the Week series at a16z, supplies evidence that demand has not yet broken.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "section": "The megawatt premium",
+      "excerpt": "Moses Sternstein’s charts at a16z show data centers accounting for about 60% of private non-residential building in New Mexico and Wyoming.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 9,
+      "section": "The first bill",
+      "excerpt": "Moses Sternstein puts paid consumer AI adoption at roughly 3% in the first quarter.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 4,
+      "question": null,
+      "side": "spending-is-defense",
+      "sideLabel": "The spending is defense",
+      "claim": "Hyperscalers have poured free cashflow and debt into computational infrastructure to meet AI's demands, creating a generational run in semiconductors where demand has outpaced supply.",
+      "date": "2026-07-24",
+      "url": "https://www.a16z.news/p/charts-of-the-week-are-semis-cheap",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "spending-is-defense",
+      "sideLabel": "The spending is defense",
+      "claim": "AI usage is highly concentrated among power users and top-decile enterprises, which have increased token output by more than 17 times since April 2025, creating an approximately 8-fold gap between typical and top-decile enterprises, and a gap…",
+      "date": "2026-08-21",
+      "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "question": null,
+      "side": "still-a-demo",
+      "sideLabel": "Still a demo",
+      "claim": "The data suggests that, for now, the story is 'App-Slop': AI has produced many more apps, but they are not successful apps in any meaningful sense.",
+      "date": "2026-09-18",
+      "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": null,
+      "side": "still-a-demo",
+      "sideLabel": "Still a demo",
+      "claim": "Paid consumer AI adoption remains quite low even though it is growing, per Consumer Edge data showing roughly 3% adoption as of Q1, with younger people adopting at about 4x the rate of older people.",
+      "date": "2026-09-18",
+      "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 176,
+    "texts": 13,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

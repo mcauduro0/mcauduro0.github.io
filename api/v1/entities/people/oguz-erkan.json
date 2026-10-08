@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "oguz-erkan",
+  "name": "Oguz Erkan",
+  "role": null,
+  "url": "https://deepstack.ltd/people/oguz-erkan/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
+  "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit).",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "61%-70%",
+      "label": "Booking in AI recommendations",
+      "context": "Oguz Erkan, September 2026",
+      "part": 9,
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "Oguz Erkan’s framework, It’s Time To Be Bullish On Compute, Again, treats the AI trade as a reflexive loop that has survived a test.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "section": "A premium still holds",
+      "excerpt": "Oguz Erkan offered a test before the outcome: if laboratories trying to take share had to raise prices, demand was structurally strong.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 9,
+      "section": "Habit is not a moat",
+      "excerpt": "Oguz Erkan calls its position unshakable because “a hotel can’t find a distribution channel as big and strong as Booking; there is none.”",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 3,
+      "question": null,
+      "side": "borrowing-is-rational",
+      "sideLabel": "The borrowing is rational",
+      "claim": "Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.",
+      "date": "2026-08-06",
+      "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "His own tripwire: hyperscaler free cash flow may go negative in 2027; leverage on speculative returns repels.",
+      "date": null,
+      "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "not-every-habit",
+      "sideLabel": "Not every habit",
+      "claim": "Booking's competitive position in its core market is currently unshakable because its global, differentiated network reinforces supply-side lock-in, which in turn reinforces demand growth; a dissatisfied hotel cannot find a distribution channel as…",
+      "date": "2026-09-13",
+      "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "not-every-habit",
+      "sideLabel": "Not every habit",
+      "claim": "Google Search is declining but the decline is concentrated in informational rather than transactional queries; citing Ahrefs and Pew, the creator says transactional-intent query share grew from 24.7% in 2025 to 26.4% in 2026, and Booking gets…",
+      "date": "2026-09-13",
+      "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 576,
+    "texts": 46,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

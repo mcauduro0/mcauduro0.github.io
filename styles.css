@@ -1261,3 +1261,49 @@ path.lc-fc { stroke: var(--amber-ink); }
 .page-head .market-none { margin-top: 14px; font: 500 14px/1.4 var(--sans); color: var(--muted); }
 .entity-grid .status .market-cap { font-weight: 600; color: var(--ink-2); }
 @media (max-width: 760px) { .market-head { align-items: flex-start; } .market-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .market-cell.market-price { grid-column: 1 / -1; } }
+
+/* Reach and reuse (Lane I, 8 October 2026): the magnifier in the masthead, "Embed this Call" on a story, the search page, the downloads page and the scorecard. */
+.site-nav .nav-search { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); }
+.site-nav .nav-search .i { width: 18px; height: 18px; stroke-width: 2.2; }
+.site-nav .nav-search span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 920px) { .site-nav .nav-search span { position: static; width: auto; height: auto; clip: auto; } .site-nav .nav-search { margin-top: 4px; } }
+.embed-call { margin-top: 18px; }
+.embed-snippet { margin: 12px 0; padding: 14px 16px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); font: 400 12.5px/1.55 var(--mono); color: var(--ink-2); white-space: pre-wrap; overflow-wrap: anywhere; }
+.embed-snippet:focus-visible { outline-offset: 1px; }
+.sources.embed-call .fine a { color: var(--amber-ink); }
+.search-form { margin-top: 28px; max-width: 720px; }
+.search-form label { display: block; margin-bottom: 8px; font: 700 11.5px/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.search-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.search-input { flex: 1 1 260px; min-width: 0; min-height: 48px; padding: 0 18px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--ink); font: 500 17px/1 var(--sans); }
+.search-input::placeholder { color: var(--muted); }
+.search-input:focus { outline: 3px solid var(--amber); outline-offset: 1px; border-color: transparent; }
+.search-row .btn { min-height: 48px; }
+.search-status { margin-top: 12px; min-height: 1.4em; font: 500 14px/1.4 var(--sans); color: var(--ink-2); }
+.search-body { padding-block: 8px clamp(28px, 4vw, 48px); }
+.search-results li { border-top: 1px solid var(--rule); }
+.search-results li:last-child { border-bottom: 1px solid var(--rule); }
+.search-results a { display: grid; gap: 4px; padding: 18px 0; color: var(--ink); text-decoration: none; }
+.search-results a:hover .search-title, .search-results a:focus-visible .search-title { text-decoration: underline; text-decoration-color: var(--amber); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.search-type { font: 700 11px/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-ink); }
+.search-hit.search-test .search-type, .search-hit.search-note .search-type { color: var(--muted); }
+.search-hit.search-company .search-type, .search-hit.search-person .search-type { color: var(--green); }
+.search-title { font: 700 clamp(20px, 2vw, 24px)/1.2 var(--serif); letter-spacing: -0.015em; }
+.search-excerpt { font: 400 15px/1.5 var(--sans); color: var(--ink-2); max-width: 70ch; }
+.search-empty { max-width: 62ch; padding-block: 8px; font: 400 17px/1.55 var(--sans); color: var(--ink-2); }
+.search-empty-title { margin-bottom: 8px; font: 700 clamp(22px, 2.2vw, 28px)/1.2 var(--serif); color: var(--ink); }
+.search-empty a { color: var(--amber-ink); }
+.download-item { padding-block: clamp(22px, 3vw, 36px); border-top: 1px solid var(--rule); }
+.download-item:last-child { border-bottom: 1px solid var(--rule); }
+.download-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }
+.download-head h2 { font: 600 clamp(24px, 2.4vw, 30px)/1.1 var(--mono); letter-spacing: -0.03em; color: var(--ink); }
+.download-meta { font: 600 12.5px/1.4 var(--sans); color: var(--muted); }
+.download-dek { margin-top: 10px; max-width: 70ch; font: 400 17px/1.55 var(--sans); color: var(--ink-2); }
+.download-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 16px; }
+.download-columns { margin-top: 14px; overflow-wrap: anywhere; }
+.download-columns code { font: 500 12px/1.4 var(--mono); color: var(--ink-2); }
+.download-source, .download-license { margin-top: 8px; max-width: 80ch; }
+.download-source strong, .download-license strong { color: var(--ink); }
+.scorecard-block { padding-block: clamp(20px, 3vw, 36px); }
+.scorecard-counts { margin-bottom: 8px; }
+.scorecard-rate { margin-top: 4px; font: 600 12.5px/1.4 var(--sans); color: var(--muted); }
+.scorecard-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 28px; }

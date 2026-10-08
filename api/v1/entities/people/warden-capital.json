@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "warden-capital",
+  "name": "Warden Capital",
+  "role": null,
+  "url": "https://deepstack.ltd/people/warden-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/warden-capital.json",
+  "summary": "Warden Capital appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The return is not there).",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "Warden Capital’s second-quarter letter starts at the top.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 4,
+      "question": null,
+      "side": "return-not-there",
+      "sideLabel": "The return is not there",
+      "claim": "The creator argues the AI investment cycle cannot earn a reasonable return absent AGI within a few years: at roughly $700 billion per year of investment, model providers would need about $1 trillion in annual end AI revenue by 2029, ramping toward…",
+      "date": "2026-07-22",
+      "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "return-not-there",
+      "sideLabel": "The return is not there",
+      "claim": "The creator says they are relatively confident the AI boom ends in a bust but do not know when, are not certain it causes a US recession, and cannot judge how deep one would be; they add that the debt-heavy neocloud and datacenter financing raises…",
+      "date": "2026-07-22",
+      "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 41,
+    "texts": 3,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

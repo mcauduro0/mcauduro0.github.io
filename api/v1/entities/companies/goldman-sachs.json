@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "goldman-sachs",
+  "name": "Goldman Sachs",
+  "ticker": "GS",
+  "url": "https://deepstack.ltd/companies/goldman-sachs/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/goldman-sachs.json",
+  "summary": "Goldman Sachs appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+  "parts": [
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 10,
+      "section": "A cheap top",
+      "excerpt": "Mia Silverio of Prof G Markets cited a Goldman Sachs estimate that half of this year’s earnings growth comes from AI investment, even as the other 493 companies grew profits 31.8% in the second quarter.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Dell raised its estimate to 57 quadrillion tokens a month by the end of 2028 from 1 quadrillion; a Goldman Sachs figure ran about ten times higher.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "not-the-customers-yet",
+      "sideLabel": "Not the customers, yet",
+      "claim": "Overall market earnings strength this year hinges on AI investment, since Goldman Sachs estimates half of earnings growth this year will come from AI investment, even though the S&P 493 (excluding the Magnificent 7) grew earnings 31.8% in Q2 2026…",
+      "date": "2026-10-05",
+      "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 39,
+    "claims": 86,
+    "texts": 73,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 884.74,
+    "change": -2.47,
+    "changePercent": -0.2784,
+    "marketCap": 261004490299,
+    "pe": 13.4787,
+    "nextEarnings": "2026-10-13",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:50.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "vitaliy-katsenelson",
+  "name": "Vitaliy Katsenelson",
+  "role": null,
+  "url": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/vitaliy-katsenelson.json",
+  "summary": "Vitaliy Katsenelson appears in Part 3, Part 7, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator. Argued in Part 3 (1999 capex plus 2008 credit), Part 7 (Debt: 99% of GDP, up from 35%).",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$250B",
+      "label": "Nvidia Ohio-campus guarantee",
+      "context": "Vitaliy Katsenelson, August 6, 2026",
+      "part": 3,
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Debt is the product",
+      "excerpt": "Vitaliy Katsenelson, who lived through the first one, describes today’s market as “1999 capex plus 2008 credit”.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 10,
+      "section": "The bill raises the rate",
+      "excerpt": "Vitaliy Katsenelson put the fiscal version bluntly: “I personally would not buy a 10-year Treasury even at 6%”.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 3,
+      "question": null,
+      "side": "capex-and-credit",
+      "sideLabel": "1999 capex plus 2008 credit",
+      "claim": "AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…",
+      "date": "2026-08-06",
+      "url": "https://vitaliy.substack.com/p/todays-market-1999-capex-2008-credit",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; the creator says they…",
+      "date": "2026-09-10",
+      "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "The US Treasury responded by at least doubling its buyback operations for 10- to 30-year maturities to lower yields, financing the purchases by issuing short-term Treasuries; yields fell for a day and then rose again.",
+      "date": "2026-09-10",
+      "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "coverage": {
+    "creators": 2,
+    "claims": 2967,
+    "texts": 472,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

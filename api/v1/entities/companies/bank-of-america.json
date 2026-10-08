@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "bank-of-america",
+  "name": "Bank of America",
+  "ticker": "BAC",
+  "url": "https://deepstack.ltd/companies/bank-of-america/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/bank-of-america.json",
+  "summary": "Bank of America appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "The first bill",
+      "excerpt": "Meta rose 18% and Advanced Micro Devices rose 33%, while Booking Holdings fell 18%, Expedia 11%, Intuit 16%, Netflix 14%, Comcast 19%, Planet Fitness 17% and Bank of America 14%.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 24,
+    "claims": 109,
+    "texts": 90,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 52.87,
+    "change": -0.65,
+    "changePercent": -1.2145,
+    "marketCap": 375196705720,
+    "pe": 11.9887,
+    "nextEarnings": "2026-10-14",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:50.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

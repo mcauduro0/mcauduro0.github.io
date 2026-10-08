@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "ticker": "MS",
+  "url": "https://deepstack.ltd/companies/morgan-stanley/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/morgan-stanley.json",
+  "summary": "Morgan Stanley appears in Part 3, Part 4, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "His checklist is substantial: token demand is up roughly 17,000-fold in four years; DeepSeek raised token prices despite a strategy built on undercutting; combined OpenAI and Anthropic revenue run rates crossed $110 billion in July; and Morgan Stanley put hyperscaler returns on AI capital expenditure at 25 to 46 percent.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "section": "The bill comes due",
+      "excerpt": "Morgan Stanley still expects a large jump in 2027 and only a small one in 2028, which resembles a buildout with an end rather than an endless furnace.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Morgan Stanley’s arithmetic, relayed by Tae Kim, says every 100 million users adds about 35 cents, or 1%, to Meta’s 2028 earnings per share.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 35,
+    "claims": 89,
+    "texts": 66,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 187.33,
+    "change": -2.38,
+    "changePercent": -1.2546,
+    "marketCap": 295471862400,
+    "pe": 15.0587,
+    "nextEarnings": "2026-10-14",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:53.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

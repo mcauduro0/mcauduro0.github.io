@@ -1,0 +1,195 @@
+# DeepStack: The Buildout, every story and its Call
+
+The money behind the machine. Generated 2026-10-08T17:44:57Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+
+## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
+URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
+Published: 2026-08-10 · Chips · 7 min read
+Dek: Google paid roughly double for Nvidia capacity while private credit financed a $35bn compute platform. The chips are scarce; the returns may be anything but.
+Summary: Nvidia’s demand looks real today, but private credit, slow-to-build working compute and fast obsolescence make the revenue recurrence less secure than the backlog suggests.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): Bull on demand. Bear on the financing.
+Call: Nvidia’s orders are real. Price its revenue as financed, not recurring.
+What to do with this:
+1. Discount any AI order book that leans on private credit instead of customer cash.
+2. Track energized megawatts, not chips shipped: working compute is the real backlog.
+3. Read the depreciation schedule before the earnings: lives that lag obsolescence flatter profit.
+What would change the call:
+- End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.
+- Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations.
+Next test: When the bottleneck clears (pending): If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front. https://deepstack.ltd/docket/#test-p01-t01
+Key numbers: $38B Apollo debt (Apollo transaction in late May, described by Michael Burry); $35B AI XPU tranche (Apollo and Blackstone first tranche; Invest In Assets, ten weeks later); 20GW Broadcom compute (Broadcom-designed capacity promised through 2028; Invest In Assets); $30B Quarterly AI orders (Broadcom orders booked in one quarter; Invest In Assets, mid-2026)
+Who is on each side: https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/
+JSON: https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json
+
+## Part 02: SpaceX Is Funding an AI Bet Before the Proof
+URL: https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/
+Published: 2026-08-13 · Capital Markets · 7 min read
+Dek: SpaceX’s $75 billion IPO puts AI infrastructure inside a profitable Starlink shell. The capacity looks plausible; the operating proof has not reached the meter.
+Summary: SpaceX’s IPO funds a credible AI buildout, but the stock is pricing future capacity before deployment, revenue quality and Starlink coverage are proven.
+The DeepStack Call (Skeptical; conviction 3/5, Moderate): Ahead of the evidence
+Call: SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.
+What to do with this:
+1. Value the AI arm on deployed gigawatts (0.4 today), not on the roughly 10 GW site plan.
+2. Treat Starlink’s $4.4 billion of operating income as the collateral, not the upside.
+3. Strip related-party and Anthropic-linked revenue out before calling AI demand proven.
+What would change the call:
+- Deployed capacity climbs toward the site plan, quarter after quarter.
+- AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work.
+Next test: Jan 1, 2027 (pending): Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now. https://deepstack.ltd/docket/#test-p02-t01
+Key numbers: $75B IPO proceeds (Raised June 12 at near $1.75T valuation); 54% Peak-to-low drawdown ($225.64 to $104.83 by early August); 0.4 GW Compute deployed (Kakashii’s first-quarter reading, August 2026); $1.25B Monthly Anthropic contract (Through May 2029, as documented by Kevin Gee)
+Who is on each side: https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/
+JSON: https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json
+
+## Part 03: The Machines Will Work. The Debt Might Not.
+URL: https://deepstack.ltd/stories/the-debt-behind-the-machines/
+Published: 2026-08-15 · Credit · 7 min read
+Dek: AI demand may be real. The more dangerous question is who is financing the machines, and how quickly lenders can change their minds.
+Summary: AI demand is holding up, but vendor guarantees, short-term premiums and widening credit concessions expose a fragile financing chain.
+The DeepStack Call (Skeptical; conviction 4/5, High): Bearish on the credit
+Call: The machines will earn. The credit stack is where this buildout breaks first.
+What to do with this:
+1. Watch the six-month compute premium: buyers paying double for short terms are pricing duration risk.
+2. Before trusting the 21% modeled return, ask who carries depreciation when funding costs rise.
+3. Price new AI debt on its concessions: wider new-issue discounts mean lenders are flinching.
+What would change the call:
+- Nebius’s short-term premium collapses toward long-term rates.
+- H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions.
+Next test: Nov 10, 2026 (pending): Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss. https://deepstack.ltd/docket/#test-p03-t01
+Key numbers: $500B Wall Street-arranged chip facility (Headlines, August 12, 2026); $250B Nvidia Ohio-campus guarantee (Vitaliy Katsenelson, August 6, 2026); 21% Modeled compute internal return (Market Sentiment, August 8, 2026); 6% AI paper investment-grade share (JunkBondInvestor, August 9, 2026)
+Who is on each side: https://deepstack.ltd/sides/the-debt-behind-the-machines/
+JSON: https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json
+
+## Part 04: AI Spending Has Met Its First Real Bill
+URL: https://deepstack.ltd/stories/the-market-stops-paying-for-faith/
+Published: 2026-09-04 · Capex · 9 min read
+Dek: Hyperscaler capital budgets are still climbing. The market has started charging for them, rewarding cash-backed returns and punishing faith.
+Summary: AI’s buildout is entering its first financing test: spending outruns cash flow, investors have separated the winners from the believers, and the next budget will expose who is right.
+The DeepStack Call (Skeptical; conviction 4/5, High): Prove the return
+Call: Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.
+What to do with this:
+1. Screen hyperscalers on free cash flow after capex; Alphabet’s −$6 billion quarter is the new benchmark.
+2. Reward budgets that arrive with return data, not budgets that only grow.
+3. Watch the labs’ growth rates: deceleration, not decline, is the trigger.
+What would change the call:
+- Alphabet’s larger 2027 budget lifts the stock instead of sinking it.
+- Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue.
+Next test: Jan 1, 2027 (pending): Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test. https://deepstack.ltd/docket/#test-p04-t01
+Key numbers: $800B Combined annual capex (Four companies, disclosed in late July); $165B Quarterly hyperscaler capex (Prof G Markets; three months, August 4); -$6B Alphabet Q2 free cash flow (Hayden Capital; Q2, first negative since 2004 IPO); $3.5T 2026–30 hyperscaler capex (Oscar Hattink via Kevin Gee; 2026–2030)
+Who is on each side: https://deepstack.ltd/sides/the-market-stops-paying-for-faith/
+JSON: https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json
+
+## Part 05: OpenAI and Anthropic Are Not the Same Business
+URL: https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/
+Published: 2026-09-11 · AI Labs · 7 min read
+Dek: OpenAI is cutting prices while Anthropic still monetizes enterprise coding. The difference matters because hyperscalers, lenders and investors have priced the pair as one AI bet.
+Summary: OpenAI is losing pricing power while Anthropic still monetizes enterprise coding, exposing the risk of treating two very different labs as one AI bet.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): Split the trade
+Call: Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.
+What to do with this:
+1. Separate the two in any AI exposure: pricing power, not headline growth, sets the value.
+2. Demand life-of-cluster margins in any prospectus, not first-year GPU economics.
+3. Treat customer concentration and investor-funded revenue as the first red flags.
+What would change the call:
+- Anthropic is forced into an OpenAI-style price cut on coding.
+- Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses.
+Next test: Next prospectus (pending): An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks. https://deepstack.ltd/docket/#test-p05-t01
+Key numbers: 142% Anthropic quarterly growth (Quarter on quarter, Q2 2026); 18% OpenAI quarterly growth (Quarter on quarter, Q2 2026); $20.9B OpenAI 2025 loss (Steve Eisman; 2025); $559M Anthropic adjusted income (Michael Spencer; preliminary June quarter 2026)
+Who is on each side: https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/
+JSON: https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json
+
+## Part 06: Power Doesn’t Depreciate. Its Premium Moves.
+URL: https://deepstack.ltd/stories/power-doesnt-depreciate/
+Published: 2026-09-19 · Power · 9 min read
+Dek: Electricity is the constraint, but the premium belongs to whoever can secure permission, build on time and turn a megawatt into revenue before demand catches up.
+Summary: AI’s scarcity rent is shifting from chips to permitted, delivered power—but execution, politics and demand can still break the trade.
+The DeepStack Call (Constructive; conviction 4/5, High): Long access, not hardware
+Call: This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.
+What to do with this:
+1. Value AI sites on connected megawatts, never on contracted ones.
+2. Pay for delivery speed: Bloom’s 55-day timeline is where the premium lives.
+3. Mark down GPUs parked behind late interconnections; they generate cost, not rent.
+What would change the call:
+- The speed-to-power premium narrows while power stays scarce.
+- Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient.
+Next test: Dec 10, 2026 (pending): ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power. https://deepstack.ltd/docket/#test-p06-t01
+Key numbers: $20–25M Nebius one-to-three-year price (Michael Burry, August 12 trading post); $40–50M Nebius six-month price (Michael Burry, August 12 trading post); 23 GW NVL72 deployment need (Daniel Romero, 2027 estimate at full use); -7.9% Construction ex-data centers (Michael Burry citing Apollo, June year over year)
+Who is on each side: https://deepstack.ltd/sides/power-doesnt-depreciate/
+JSON: https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json
+
+## Part 07: The Fed Hiked. The Long End Still Climbed.
+URL: https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/
+Published: 2026-09-27 · Rates · 9 min read
+Dek: The rate rise did not tame long yields. The bill for AI’s capital binge is arriving through bonds, deficits and the investors now setting the price of duration.
+Summary: The Fed raised short rates, but long yields climbed. AI financing now sits inside a bond market priced by growth, deficits and a thinner buyer base.
+The DeepStack Call (Skeptical; conviction 4/5, High): Supply sets the long end
+Call: The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.
+What to do with this:
+1. Use a 10-year above 5% as the base case for valuing long-duration AI assets.
+2. Track foreign demand, Japan first: buyers returning without a better hedge would break the supply story.
+3. Circle the 2028 refinancing wave; that is when today’s rates reach AI’s borrowers.
+What would change the call:
+- Long yields fall while nominal growth, inflation and AI capital spending stay firm.
+- Japanese and other foreign buyers return in size without a better hedge.
+Next test: Oct 28, 2026 (pending): The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake. https://deepstack.ltd/docket/#test-p07-t01
+Key numbers: 5.18% 10-year Treasury yield (FRED, six trading days after September 16); $1.97T Federal deficit (TSCS, cumulative through August 2026); 8.25% CleanSpark note coupon (JunkBondInvestor, September 18, 2026); $2.3T Hyperscaler backlog (Apollo via DeepValue Capital, September 2026)
+Who is on each side: https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/
+JSON: https://deepstack.ltd/api/v1/stories/the-fed-hiked-the-long-end-kept-climbing.json
+
+## Part 08: AI Lenders Are Financing the End of Scarcity
+URL: https://deepstack.ltd/stories/the-scarcity-is-the-collateral/
+Published: 2026-09-29 · Infrastructure Finance · 9 min read
+Dek: The shortage of power, chips and data-center capacity supports lenders today. But every new dollar also brings the glut that can wreck their collateral.
+Summary: AI capacity is scarce, but lenders are financing the supply that could erase that scarcity before hyperscaler cash flow catches up.
+The DeepStack Call (Skeptical; conviction 4/5, High): Lenders are mispricing scarcity
+Call: Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.
+What to do with this:
+1. Haircut any loan secured by compute scarcity: the collateral decays as supply catches up.
+2. Measure cash flow against the $2 trillion it needs, from about $600 billion today, every quarter.
+3. Count the $2.7 trillion of off-balance-sheet commitments as leverage, because creditors will.
+What would change the call:
+- September-quarter cash flow moves visibly toward $2 trillion.
+- The first Blackwell renewal holds its price without new guarantees.
+Next test: Oct 20, 2026 (pending): September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting. https://deepstack.ltd/docket/#test-p08-t01
+Key numbers: 227 bps Oracle five-year CDS (Record that week, according to Seeking Alpha); 1,146 bps CCC spread over Treasuries (September 28, 2026; FRED); $2T Hyperscaler cash-flow target (Torsten Slok’s 2030 assumption); $2.7T Off-balance-sheet commitments (Burry estimate across five hyperscalers)
+Who is on each side: https://deepstack.ltd/sides/the-scarcity-is-the-collateral/
+JSON: https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json
+
+## Part 09: Habit Was the Moat. Agents Are Draining It.
+URL: https://deepstack.ltd/stories/habit-was-the-moat/
+Published: 2026-10-03 · Agents · 8 min read
+Dek: Meta’s Muse has inserted itself between shoppers and sellers. The first bill is coming due for businesses paid by customer inertia.
+Summary: Meta’s Muse is testing whether AI shopping agents can reroute spending, squeeze weak subscriptions and expose which moats still hold.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): Sell habit, buy the rails
+Call: Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.
+What to do with this:
+1. Flag businesses that live on inertia: forgotten subscriptions, commodity brands, ad-funded marketplaces.
+2. Favor owners of trust, regulation, systems of record, distribution and compute.
+3. Judge agent launches on retained users, transactions and fees, never on downloads.
+What would change the call:
+- Meta reports agent downloads without retained users, transaction volume or fees.
+- The first tax season with agents shows households still paying Intuit for certainty.
+Next test: Oct 28, 2026 (pending): Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business. https://deepstack.ltd/docket/#test-p09-t01
+Key numbers: 18% Meta stock gain (Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026); 33% AMD stock gain (Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026); 3% Paid consumer AI adoption (Moses Sternstein, first quarter estimate); 61%-70% Booking in AI recommendations (Oguz Erkan, September 2026)
+Who is on each side: https://deepstack.ltd/sides/habit-was-the-moat/
+JSON: https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json
+
+## Part 10: The Bubble Is in the Denominator
+URL: https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/
+Published: 2026-10-07 · Markets · 9 min read
+Dek: The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.
+Summary: AI spending made the market look cheaper. The harder test is whether those profits survive depreciation, weak productivity and a bond market financing the buildout.
+The DeepStack Call (Skeptical; conviction 4/5, High): Cheap is conditional
+Call: The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.
+What to do with this:
+1. Hold the 5.26% earnings yield (19.0 times earnings) against the 10-year: when the bond pays more, stocks offer no risk premium.
+2. Stress-test the 29.5% earnings growth for server lives and depreciation before you pay for it.
+3. Treat the $250 billion of hyperscaler bonds as competition for the savings that set the discount rate.
+What would change the call:
+- Used-chip values and server lives hold after scarcity fades.
+- Productivity turns higher and lab revenue compounds toward the checks the infrastructure requires.
+Next test: Oct 28, 2026 (pending): Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator. https://deepstack.ltd/docket/#test-p10-t01
+Key numbers: 19.0x S&P 500 forward multiple (FactSet, as of Oct 2, 2026); 29.5% Expected Q3 earnings growth (FactSet, as of Oct 2, 2026); $250B Hyperscaler high-grade bonds (Apollo presentation via Leyla Kunimoto, through August 2026); 5.31% 10-year Treasury yield (CNBC, closing yield on Oct 5, 2026)
+Who is on each side: https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/
+JSON: https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json
+
+Analysis and opinion, not investment advice.

@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "ed-zitron",
+  "name": "Ed Zitron",
+  "role": null,
+  "url": "https://deepstack.ltd/people/ed-zitron/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/ed-zitron.json",
+  "summary": "Ed Zitron appears in Part 6, Part 8, Part 10 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 8 (A closed loop).",
+  "parts": [
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 6,
+      "section": "Scarcity has three faces",
+      "excerpt": "Steve Eisman, in a conversation with Ed Zitron, draws the darker inference: data centers are harder and costlier to build than planned, gigawatt projects are late, and every month of slippage gives customers who already lose money more time to stumble.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "section": "Cash, or a loop",
+      "excerpt": "Ed Zitron said Alphabet, Amazon, Meta and Microsoft have together spent over $1 trillion on Nvidia GPUs, mostly to win the business of OpenAI and Anthropic, two companies they also help fund and that both lose heavily.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Against that growth sits the loss-making base of the chain: Steve Eisman, in an episode with Ed Zitron, cited OpenAI’s $20.9 billion loss in 2025 on $13.07 billion of revenue.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 8,
+      "question": "cash-or-loop",
+      "side": "closed-loop",
+      "sideLabel": "A closed loop",
+      "claim": "Over $1T of GPUs bought to win two unprofitable labs, the source of about 70% of hyperscaler AI revenue.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "coverage": {
+    "creators": 3,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

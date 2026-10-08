@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "oracle",
+  "name": "Oracle",
+  "ticker": "ORCL",
+  "url": "https://deepstack.ltd/companies/oracle/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
+  "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "227 bps",
+      "label": "Oracle five-year CDS",
+      "context": "Record that week, according to Seeking Alpha",
+      "part": 8,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "Depressed valuations for Oracle and CoreWeave were already pricing that discomfort.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "section": "Lede",
+      "excerpt": "Meta was 22 percent below, Oracle 54 percent below.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "That is the market’s split in one glance: Nvidia and Micron have been paid for scarcity; Alphabet, Meta and Oracle have been charged for financing.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 5,
+      "section": "The pair breaks",
+      "excerpt": "Oracle’s backlog is about half OpenAI.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "section": "Scarcity has three faces",
+      "excerpt": "In Ren’s account, Bloom got Oracle running in 55 days.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "section": "Lede",
+      "excerpt": "On September 24, Oracle sent a letter to a unit of Blue Owl Capital about Project Jupiter, a 2.45-gigawatt New Mexico campus being built for the Stargate venture with OpenAI.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "Lede",
+      "excerpt": "The notice invokes force majeure and would let Oracle defer payments if the site misses its 2028 opening.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "Lede",
+      "excerpt": "Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 8,
+      "question": "what-lenders-hold",
+      "side": "guarantees-not-faith",
+      "sideLabel": "Guarantees, not faith",
+      "claim": "Oracle's free cash flow was positive every year from FY2018 to FY2024, then turned slightly negative in FY2025 (-0.39B), dropped to -23.69B in FY2026 on 55.66B of cash capex, and sits at -28.72B on a trailing twelve months basis through Q1 FY2027…",
+      "date": "2026-09-24",
+      "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "what-lenders-hold",
+      "side": "guarantees-not-faith",
+      "sideLabel": "Guarantees, not faith",
+      "claim": "Oracle's record Q1 operating cash flow of 23.103B (up 184% YoY) is largely explained by 11.363B of customer prepayments with a significant financing component; excluding that prepayment, operating cash flow would be only about 11.740B (up a more…",
+      "date": "2026-09-24",
+      "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+      "date": "2026-09-28",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 63,
+    "claims": 203,
+    "texts": 133,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 142.345,
+    "change": -1.215,
+    "changePercent": -0.8463,
+    "marketCap": 410020502150,
+    "pe": 21.963,
+    "nextEarnings": "2026-12-09",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:51.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 6,
+  "slug": "power-doesnt-depreciate",
+  "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+  "dek": "Electricity is the constraint, but the premium belongs to whoever can secure permission, build on time and turn a megawatt into revenue before demand catches up.",
+  "summary": "AI’s scarcity rent is shifting from chips to permitted, delivered power—but execution, politics and demand can still break the trade.",
+  "section": "Power",
+  "date": "2026-09-19",
+  "readingMinutes": 9,
+  "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+  "api": "https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json",
+  "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/",
+  "call": {
+    "tone": "bull",
+    "toneLabel": "Constructive",
+    "stance": "Long access, not hardware",
+    "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Value AI sites on connected megawatts, never on contracted ones.",
+      "Pay for delivery speed: Bloom’s 55-day timeline is where the premium lives.",
+      "Mark down GPUs parked behind late interconnections; they generate cost, not rent."
+    ],
+    "flips": [
+      "The speed-to-power premium narrows while power stays scarce.",
+      "Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient."
+    ],
+    "nextTest": {
+      "id": "p06-t01",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Dec 10",
+      "whenLabel": "Dec 10, 2026",
+      "date": "2026-12-10",
+      "precision": "day",
+      "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Dec 10",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t01",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$20–25M",
+      "label": "Nebius one-to-three-year price",
+      "context": "Michael Burry, August 12 trading post"
+    },
+    {
+      "value": "$40–50M",
+      "label": "Nebius six-month price",
+      "context": "Michael Burry, August 12 trading post"
+    },
+    {
+      "value": "23 GW",
+      "label": "NVL72 deployment need",
+      "context": "Daniel Romero, 2027 estimate at full use"
+    },
+    {
+      "value": "-7.9%",
+      "label": "Construction ex-data centers",
+      "context": "Michael Burry citing Apollo, June year over year"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Financial Modeling Prep - Nebius Q2 earnings call",
+      "url": "https://financialmodelingprep.com/earning-call-transcript/NBIS/2026-q2"
+    },
+    {
+      "label": "Financial Modeling Prep - CoreWeave Q2 earnings call",
+      "url": "https://financialmodelingprep.com/earning-call-transcript/CRWV/2026-q2"
+    },
+    {
+      "label": "a16z - The Machine Age Fund",
+      "url": "https://www.a16z.news/p/the-machine-age-fund"
+    },
+    {
+      "label": "a16z - Data-center capital charts",
+      "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic"
+    },
+    {
+      "label": "Prof G Markets - Michael Burry and a crash",
+      "url": "https://www.profgmedia.com/p/michael-burry-says-a-crash-is-coming"
+    },
+    {
+      "label": "Prof G - Why Panic About Data Centers?",
+      "url": "https://www.profgmedia.com/p/why-panic-about-data-centers-josh"
+    },
+    {
+      "label": "Doomberg - Value Trap",
+      "url": "https://newsletter.doomberg.com/p/value-trap"
+    },
+    {
+      "label": "Hypertech Invest - Data Center Positions",
+      "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout"
+    },
+    {
+      "label": "AI Supremacy - Data-center opposition",
+      "url": "https://www.ai-supremacy.com/p/the-ai-backlash-is-accelerating-datacenters-2026"
+    },
+    {
+      "label": "a16z - Head In The Neoclouds",
+      "url": "https://www.a16z.news/p/charts-of-the-week-head-in-the-neoclouds"
+    },
+    {
+      "label": "Prof G - Tyler Cowen interview",
+      "url": "https://www.profgmedia.com/p/tyler-cowen-the-ai-bears-are-asking"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/power-doesnt-depreciate",
+  "wordCount": 1990,
+  "pullQuote": "The market is paying for time-to-power, not for electrons.",
+  "verdict": "DeepStack’s view is that the AI build-out is a power-access trade before it is a chip trade. The highest-value asset is a permitted, connected, reliable site that can turn a contracted megawatt into revenue; the Nebius spread, Bloom’s 55-day timeline and the contrast between contracted and connected power all point there. The key reason is that a megawatt generates rent only when it arrives on schedule, while a GPU parked behind a late interconnection generates cost. We would change our mind if the premium narrows while scarce power persists, if CoreWeave-style recontracting fails across older fleets, or if a hyperscaler cancels because compute is sufficient. Until then, the winner is whoever controls permission and delivery, not whoever owns the loudest hardware fleet.",
+  "sections": [
+    {
+      "id": "the-megawatt-premium",
+      "title": "The megawatt premium",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#the-megawatt-premium"
+    },
+    {
+      "id": "scarcity-has-three-faces",
+      "title": "Scarcity has three faces",
+      "startsAt": 7,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#scarcity-has-three-faces"
+    },
+    {
+      "id": "politics-sets-the-price",
+      "title": "Politics sets the price",
+      "startsAt": 11,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#politics-sets-the-price"
+    },
+    {
+      "id": "the-rent-will-move",
+      "title": "The rent will move",
+      "startsAt": 17,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#the-rent-will-move"
+    },
+    {
+      "id": "the-test-is-demand",
+      "title": "The test is demand",
+      "startsAt": 22,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#the-test-is-demand"
+    }
+  ],
+  "body": [
+    "Nebius is selling the same megawatt at two prices. A customer signing for one to three years pays $20 million to $25 million per megawatt. A customer demanding delivery within six months pays $40 million to $50 million. The premium for the present is roughly double the price of the future.",
+    "Michael Burry read that spread in an August 12 trading post and gave it a credit analyst’s name: backwardation. His question was more useful than the label. If power does not depreciate, what is losing value? His answer was the GPU, the customer, or both. Nebius has already stretched the assumed life of its servers from four years to five.",
+    "The evidence points to a narrower conclusion. The valuable asset is not electricity in the abstract but permitted, connected power delivered on time. That is where the scarcity rent sits today, and where it will migrate next as the grid, local politics and equipment factories take turns becoming the choke point.",
+    "The scale of the constraint is difficult to dismiss. Daniel Romero estimates that Nvidia will sell about 90,000 NVL72 racks during 2027. At 225 kilowatts each, plus cooling overhead, deploying them would require roughly 23 gigawatts and 204 terawatt-hours a year at full use. The Energy Information Administration expects total US generation to grow by 124 terawatt-hours between 2026 and 2027. Put only half those racks in the US and they would absorb 82% of the country’s new electricity, before anything already shipping is counted.",
+    "The physical reason is density. Ben Horowitz traces rack power from 5 to 10 kilowatts a few years ago to 100 to 250 kilowatts today, on the way to a megawatt within three years. Microsoft’s finance chief has described the company as short of space and power rather than chips. Amazon says every unit of capacity is sold when installed. Google opened an investor call on its energy strategy with access to power.",
+    "The buildout is now large enough to distort the surrounding economy. Prof G Markets puts data-center capital spending above telecom’s share of output in the 2000s and growing faster: it added 0.85 percentage points to GDP in one year, against 0.5 at the housing boom’s peak and 0.15 for telecom. Michael Burry, citing Apollo’s Torsten Slok, says private non-residential construction excluding data centers fell 7.9% year over year in June. Moses Sternstein’s charts at a16z show data centers accounting for about 60% of private non-residential building in New Mexico and Wyoming.",
+    "If one product line can consume most of a country’s incremental power, access is the business model.",
+    "Ask what is scarce and three answers emerge: physics, permission and execution. Romero’s case rests on the mismatch between improving compute and a grid that expands slowly. Interconnection, transformers, turbines, generation, transmission and substations all carry multi-year lead times. Ren puts the commercial point cleanly: Bloom is not selling electrons; it is selling time-to-power. Leaving billions of dollars of GPUs idle for a year and a half or two while a utility catches up costs more than paying for power on site. In Ren’s account, Bloom got Oracle running in 55 days.",
+    "Edelbridge Alpha sees the town hall rather than the substation. After two weeks speaking with people in data-center construction and the power industry, it wrote that building more data centers is now a permitting and community-acceptance problem. Turbines are inexpensive but hard to license. Nuclear works at scale but is years away. The grid is cheap where a connection exists, often years out. Solar with storage cannot promise firm supply all day. Fuel cells win by elimination.",
+    "Execution is the less glamorous bottleneck and perhaps the most investable one. Romero calls the converted bitcoin miners in his portfolio rock-solid businesses that trade as volatile as NFTs, because they have signed contracts and now must deliver sites on time without major construction problems. Steve Eisman, in a conversation with Ed Zitron, draws the darker inference: data centers are harder and costlier to build than planned, gigawatt projects are late, and every month of slippage gives customers who already lose money more time to stumble.",
+    "Nebius’s second-quarter call puts the gap in management’s own guidance. Contracted power rises to 5 gigawatts by the end of 2026, most of it coming online over the following three to three and a half years. Connected power this year is only 800 megawatts to 1 gigawatt. Commissioning, networking, cluster assembly, the software platform and customer onboarding separate a finished building from revenue. M. V. Cunha’s question about the Vineland campus in New Jersey is therefore the right one: can the site be finished, commissioned and filled with GPUs fast enough for its power to earn money by year-end?",
+    "The permission problem is showing up in numbers. Edelbridge Alpha counts 26 US data-center projects blocked in the first quarter of 2026, against 31 in all of 2025, with another 49 delayed and 166 facing some form of opposition. Michael Spencer relays polling that puts opposition to large data centers near people’s homes at 70% to 75%, with more than half of Americans supporting a national moratorium. He sees resistance as one of the biggest constraints on AI through the 2028 elections and into the 2030s. The grievances are concrete: water, energy use, farmland, property values, utility bills, noise and health.",
+    "The bills are concrete too. PJM capacity-market prices moved from $28.92 a megawatt-day to $269.92 and then $329.17 across three auctions. The Institute for Energy Economics and Financial Analysis attributes 63% of the jump to data centers, or $9.3 billion added to what ratepayers paid in one year. Pepco bills in Washington rose $21 a month. Scarcity rent is easier to defend when it stays inside an investor presentation; it becomes a political liability when it arrives on a household statement.",
+    "Jessica Tarlov records Gallup’s finding that seven in ten Americans oppose an AI data center in their area. New York’s Kathy Hochul imposed the first one-year moratorium on hyperscale data centers, arguing that they request more electricity than New York can deliver. Texas’s Greg Abbott said the state would stop approving new facilities until agencies audit the power they seek, an effectively open-ended halt in Tarlov’s reading. Texas already has 537 data centers, more than twice as many as in July of the prior year. In Alberta, a July Leger poll found 42% of 1,000 respondents wanted approvals paused and 40% wanted them to continue, as Value Trap details.",
+    "The steelman for the pro-buildout view is serious. Data centers bring billions of capital, years of construction jobs and a lasting tax base. Loudoun County, Virginia used data-center taxes for two schools, a park and a recreation center costing $102 million; a Louisiana parish is using taxes from a new Meta facility for $51,000 teacher bonuses. Brookings puts incentives in hyperscale counties at roughly 2% of what gets built. A local moratorium may change the map without changing demand, as CoreWeave management said on its second-quarter call. That is why the Vineland planning board could hear complaints about noise, water and emissions near Nebius’s 350-megawatt site and approve the plan anyway.",
+    "But the pro-buildout case confuses economic value with political permission. Loudoun’s data centers cover 53 million square feet, about 920 football fields. Tarlov and The New York Times’s Michael Grynbaum ask whether voters are angry at the buildings or at AI, the economy and inequality. The answer may be both. A facility can be a valuable tax base and still be an unacceptable burden on a neighborhood.",
+    "The market is paying for time-to-power, not for electrons.",
+    "The compromise is arriving as a technology. Nebius’s Vineland Phase 2, a 300-megawatt build for Microsoft, won approval after swapping gas turbines for Bloom fuel cells. Edelbridge believes the swap was likely decisive. The emerging local rule is simple: stay off the city grid, leave the water supply alone and keep quiet. That turns the scarcity question from who can connect to the grid into who can bring a power plant to the site.",
+    "The early evidence points to a factory bottleneck. Edelbridge relays rumors that Bloom’s output is spoken for through 2029 and 2030. Alasdair Mann notes two FuelCell Energy data-center deals in ten weeks at a 100-megawatt plant that had sat underused for 20 years. Romero’s latest portfolio update finds 2G Energy booking $410 million of North American orders in the first half, against $14 million a year earlier, with US data centers the main driver. Stephen Clapham sees Kirby selling primary power rather than backup. DeepValue Capital, relaying Comstock Resources leadership, puts new natural-gas demand from AI and data centers at 12 billion to 30 billion cubic feet a day by 2032, on top of LNG demand.",
+    "This is why Ren’s ranking matters. GPUs are turning into a commodity, energized capacity is gaining value, and the customer relationship ultimately beats hardware. Neoclouds with prepayments and secured power take in five to eight times as much per megawatt as converted miners. Yet every new chip generation squeezes more revenue from the same megawatt, which helps whoever owns the compute and weakens the idea that power alone is a moat.",
+    "CoreWeave offers the strongest case against a simple depreciation story. Management says older fleets rolling off first contracts are being recontracted rather than retired, including an A100 deal running into 2029 for a chip introduced in 2020. Clark Tang of Altimeter says hyperscalers retain an advantage through investment-grade balance sheets: they can build ahead of demand and rent at spot rates, while lenders finance neocloud hardware only against contracted offtake.",
+    "The strongest case for caution comes from the financing. Kakashii’s figures are spectacular: CoreWeave revenue rose from $229 million in 2023 to $5.1 billion in 2025, active power from about 70 megawatts to more than 1.5 gigawatts, and backlog to $104.2 billion. None proves shareholders earn anything after chips, leases, electricity, depreciation and debt. Until mature sites can fund the next build without new financing, growth can be a treadmill rather than a cash machine.",
+    "The historical warning is fiber optics. Gaetano describes a carrier laying ten fiber routes between New York and Chicago, expecting all ten to be needed, until wavelength multiplexing lets the first route carry far more than planned. The rest sit dark for years while the debt remains. The lesson is not that demand was fake. It is that real demand can be extrapolated too aggressively into the future.",
+    "That is the steelman for the bears, and it deserves more than a slogan. If AI infrastructure becomes five times more productive while demand only doubles, capacity will be excessive. Daniel Romero concedes that power is scarce today but may not remain equally scarce indefinitely; if demand falls while supply catches up, interconnections could be worth much less by 2035. Tyler Cowen says the buildout will prove worth it. The condition underneath both views is future demand.",
+    "The evidence that matters more today is the distance between contracted and connected power, not the size of a backlog. A $104.2 billion backlog cannot commission a site. A 5-gigawatt contract cannot earn revenue until buildings, networks, clusters, software and customers arrive. That makes the current premium a payment for delivery risk as much as for electricity.",
+    "We would be wrong if the short-term premium narrowed while power remained scarce, if older fleets stopped finding users, or if a hyperscaler canceled projects because it had enough compute. No hyperscaler has done that so far. The first cancellation would turn Gaetano’s analogy from a warning into a precedent.",
+    "For now, the cleanest reading of the market is not that power never depreciates. It is that permissioned, delivered power is scarce enough to earn a premium, and the premium will keep moving toward whoever can make a megawatt arrive before the customer runs out of patience."
+  ],
+  "chart": null,
+  "tests": [
+    {
+      "id": "p06-t01",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Dec 10",
+      "whenLabel": "Dec 10, 2026",
+      "date": "2026-12-10",
+      "precision": "day",
+      "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Dec 10",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t01",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t02",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Year-end",
+      "whenLabel": "Year-end",
+      "date": "2026-12-31",
+      "precision": "month",
+      "event": "Nebius must turn 800MW–1GW connected against 5GW contracted into Vineland revenue; commissioning and GPU fill test execution.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Year-end",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t02",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t03",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "Next quarterly count",
+      "whenLabel": "Next quarterly count",
+      "date": null,
+      "precision": "signal",
+      "event": "A second quarter near 26 blocked projects would turn a single data point into a permitting trend.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next quarterly count",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t03",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t04",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "First cancellation",
+      "whenLabel": "First cancellation",
+      "date": null,
+      "precision": "signal",
+      "event": "A hyperscaler cancelling for sufficient compute would turn the fiber analogy into evidence of overbuild.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "First cancellation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t04",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p06-t05",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "when": "2029–30 order books",
+      "whenLabel": "Jan 1, 2029",
+      "date": "2029-01-01",
+      "precision": "window",
+      "event": "Bloom staying sold out while FuelCell Energy keeps signing would show scarcity has moved from the grid to factories.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2029–30 order books",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p06-t05",
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "url": "https://deepstack.ltd/companies/coreweave/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nebius",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "url": "https://deepstack.ltd/companies/nebius/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "company",
+      "slug": "the-new-york-times",
+      "name": "The New York Times",
+      "ticker": "NYT",
+      "url": "https://deepstack.ltd/companies/the-new-york-times/"
+    },
+    {
+      "kind": "person",
+      "slug": "alasdair-mann",
+      "name": "Alasdair Mann",
+      "role": null,
+      "url": "https://deepstack.ltd/people/alasdair-mann/"
+    },
+    {
+      "kind": "person",
+      "slug": "ben-horowitz",
+      "name": "Ben Horowitz",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ben-horowitz/"
+    },
+    {
+      "kind": "person",
+      "slug": "clark-tang",
+      "name": "Clark Tang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/clark-tang/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "deepvalue-capital",
+      "name": "DeepValue Capital",
+      "role": "DeepValue Capital by Kyler",
+      "url": "https://deepstack.ltd/people/deepvalue-capital/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-zitron",
+      "name": "Ed Zitron",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-zitron/"
+    },
+    {
+      "kind": "person",
+      "slug": "edelbridge-alpha",
+      "name": "Edelbridge Alpha",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/edelbridge-alpha/"
+    },
+    {
+      "kind": "person",
+      "slug": "gaetano",
+      "name": "Gaetano",
+      "role": null,
+      "url": "https://deepstack.ltd/people/gaetano/"
+    },
+    {
+      "kind": "person",
+      "slug": "jessica-tarlov",
+      "name": "Jessica Tarlov",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jessica-tarlov/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "m-v-cunha",
+      "name": "M. V. Cunha",
+      "role": null,
+      "url": "https://deepstack.ltd/people/m-v-cunha/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-spencer",
+      "name": "Michael Spencer",
+      "role": null,
+      "url": "https://deepstack.ltd/people/michael-spencer/"
+    },
+    {
+      "kind": "person",
+      "slug": "moses-sternstein",
+      "name": "Moses Sternstein",
+      "role": null,
+      "url": "https://deepstack.ltd/people/moses-sternstein/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "stephen-clapham",
+      "name": "Stephen Clapham",
+      "role": "Behind the Balance Sheet",
+      "url": "https://deepstack.ltd/people/stephen-clapham/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ]
+}

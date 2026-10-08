@@ -1,0 +1,624 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 10,
+  "slug": "the-bubble-is-in-the-denominator",
+  "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
+  "story": {
+    "headline": "The Bubble Is in the Denominator",
+    "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json"
+  },
+  "question": "Does the hardware hold its value?",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Cheap is conditional",
+    "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Hold the 5.26% earnings yield (19.0 times earnings) against the 10-year: when the bond pays more, stocks offer no risk premium.",
+      "Stress-test the 29.5% earnings growth for server lives and depreciation before you pay for it.",
+      "Treat the $250 billion of hyperscaler bonds as competition for the savings that set the discount rate."
+    ],
+    "flips": [
+      "Used-chip values and server lives hold after scarcity fades.",
+      "Productivity turns higher and lab revenue compounds toward the checks the infrastructure requires."
+    ],
+    "nextTest": {
+      "id": "p10-t01",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "Late October",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#verdict"
+  },
+  "sides": [
+    {
+      "id": "a-model-not-a-price",
+      "label": "A model, not a price",
+      "voices": [
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Acting on the expected AI-boom-to-bust thesis, the creator bought more MetLife (MET) 2029 puts far out of the money.",
+          "date": "2026-10-05",
+          "url": "https://michaeljburry.substack.com/p/trading-post-october-5-2026",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "The residual-value numbers on Nvidia's slide are not actual second-hand prices but the present value of current rental income run out over 8 years according to a continuous discounted cash flow model built on assumptions like 75% utilization and a…",
+          "date": "2026-10-01",
+          "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+          "access": "paid"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "Semiconductors trade at 17.1x forward earnings while the S&P 500 sits at 19.0x, so the sector powering the largest capex cycle in history is priced at a discount to the average American company, versus the same group trading at 35x two years ago.",
+          "date": "2026-10-05",
+          "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+          "access": "paid"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "Almost the entire move of this cycle has come from earnings growth rather than multiple expansion, unlike the run-up to March 2000 when the forward multiple on tech expanded roughly 250%, versus about 14% expansion since October 2022; a rally paid…",
+          "date": "2026-10-05",
+          "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+          "access": "paid"
+        },
+        {
+          "name": "Kakashii",
+          "entity": "https://deepstack.ltd/people/kakashii/",
+          "claim": "The creator calculates that Nvidia's plan to ship over 10 million chips of Blackwell and Rubin by the end of 2026 implies a total required power of roughly 17 to 23 GW, averaging around 20 GW, and questions whether enough data centers are under…",
+          "date": "2026-10-05",
+          "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
+          "access": "paid"
+        },
+        {
+          "name": "Kakashii",
+          "entity": "https://deepstack.ltd/people/kakashii/",
+          "claim": "The creator's long-standing thesis, which they say has gained support and validation over time, is that Blackwell GPUs had to be shipped to warehouses because there were not enough compatible datacenters (with the needed cooling and equipment) to…",
+          "date": "2026-10-05",
+          "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
+          "access": "paid"
+        }
+      ]
+    },
+    {
+      "id": "renting-at-january-prices",
+      "label": "Still renting at January prices",
+      "voices": [
+        {
+          "name": "David George",
+          "entity": "https://deepstack.ltd/people/david-george/",
+          "claim": "Since 2023, tech has been the earnings growth story, contributing about 76% of the S&P 500's total earnings growth in 2026 as of late August.",
+          "date": "2026-09-30",
+          "url": "https://www.a16z.news/p/state-of-markets-ii",
+          "access": "public"
+        },
+        {
+          "name": "David George",
+          "entity": "https://deepstack.ltd/people/david-george/",
+          "claim": "For now at least, the upward-inflecting demand curve for AI compute means older chips like A100s are still pretty useful, with rental rates and residual values not decreasing as expected and even A100 pricing at or above where it was at the start…",
+          "date": "2026-09-30",
+          "url": "https://www.a16z.news/p/state-of-markets-ii",
+          "access": "public"
+        },
+        {
+          "name": "JunkBondInvestor",
+          "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+          "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
+          "date": "2026-09-13",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
+          "access": "public"
+        },
+        {
+          "name": "JunkBondInvestor",
+          "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+          "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
+          "date": "2026-09-13",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
+          "access": "public"
+        },
+        {
+          "name": "Tae Kim",
+          "entity": "https://deepstack.ltd/people/tae-kim/",
+          "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+          "date": "2026-10-02",
+          "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+          "access": "paid"
+        },
+        {
+          "name": "Tae Kim",
+          "entity": "https://deepstack.ltd/people/tae-kim/",
+          "claim": "Axios reported, and the Financial Times later confirmed the same day, that OpenAI's annual recurring revenue is nearing $70 billion, with enterprise sales more than doubled since July according to sources familiar with the financials.",
+          "date": "2026-10-02",
+          "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+          "access": "paid"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "who-writes-the-checks",
+      "question": "Who writes the checks?",
+      "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/#question-who-writes-the-checks",
+      "sides": [
+        {
+          "id": "not-the-customers-yet",
+          "label": "Not the customers, yet",
+          "voices": [
+            {
+              "name": "Torsten Slok",
+              "entity": "https://deepstack.ltd/people/torsten-slok/",
+              "claim": "Wall Street equity analysts work in sector silos, and adding up their forecasts produces internally inconsistent numbers.",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+              "access": "public"
+            },
+            {
+              "name": "Torsten Slok",
+              "entity": "https://deepstack.ltd/people/torsten-slok/",
+              "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+              "access": "public"
+            },
+            {
+              "name": "Michael Spencer",
+              "entity": "https://deepstack.ltd/people/michael-spencer/",
+              "claim": "The creator reads declining frontier model usage as a sign that enterprises, startups and power users are becoming more price conscious even as token prices fall, citing Ramp's index showing effective price per million tokens down 41% to $0.68 from…",
+              "date": "2026-09-11",
+              "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate",
+              "access": "public"
+            },
+            {
+              "name": "Michael Spencer",
+              "entity": "https://deepstack.ltd/people/michael-spencer/",
+              "claim": "A lot of the tasks agents are being asked to do won't translate into real economic value, despite requiring massive compute, which is actually how the entire AI thesis could break given the debt behind the AI infrastructure build-out.",
+              "date": "2026-10-01",
+              "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+              "access": "paid"
+            },
+            {
+              "name": "Mia Silverio",
+              "entity": "https://deepstack.ltd/people/mia-silverio/",
+              "claim": "Overall market earnings strength this year hinges on AI investment, since Goldman Sachs estimates half of earnings growth this year will come from AI investment, even though the S&P 493 (excluding the Magnificent 7) grew earnings 31.8% in Q2 2026…",
+              "date": "2026-10-05",
+              "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+              "access": "public"
+            },
+            {
+              "name": "Mia Silverio",
+              "entity": "https://deepstack.ltd/people/mia-silverio/",
+              "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
+              "date": "2026-10-05",
+              "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+              "access": "public"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
+              "date": "2026-09-25",
+              "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+              "access": "paid"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "Meta financed a $27 billion Louisiana data center last year through an SPV called Beignet Investor LLC, owning only 20% while Blue Owl and Pimco hold the rest; Meta is building it, has promised to rent it for 20 years, and bears the cost of delays…",
+              "date": "2026-09-25",
+              "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+              "access": "paid"
+            }
+          ]
+        },
+        {
+          "id": "everyone-soon",
+          "label": "Everyone, soon",
+          "voices": [
+            {
+              "name": "Aurelion Research",
+              "entity": "https://deepstack.ltd/people/aurelion-research/",
+              "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+              "access": "public"
+            },
+            {
+              "name": "Aurelion Research",
+              "entity": "https://deepstack.ltd/people/aurelion-research/",
+              "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+              "access": "public"
+            },
+            {
+              "name": "Tae Kim",
+              "entity": "https://deepstack.ltd/people/tae-kim/",
+              "claim": "OpenAI near $70B a year.",
+              "date": null,
+              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+              "access": "public"
+            },
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+              "date": "2026-09-16",
+              "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+              "access": "paid"
+            },
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "Broadcom and Nvidia can both be winners because ASICs that Broadcom helps hyperscalers and AI labs build are complementary to Nvidia's GPUs rather than competitors, contrary to the framing on social media.",
+              "date": "2026-09-16",
+              "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+              "access": "paid"
+            },
+            {
+              "name": "Daniel Romero",
+              "entity": "https://deepstack.ltd/people/daniel-romero/",
+              "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+              "date": "2026-09-21",
+              "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+              "access": "paid"
+            },
+            {
+              "name": "Daniel Romero",
+              "entity": "https://deepstack.ltd/people/daniel-romero/",
+              "claim": "The semiconductor industry is supported by the AI data center buildout, which itself depends on Anthropic's and OpenAI's total addressable market since these two companies have driven almost every major AI advancement since 2022 and carry a…",
+              "date": "2026-09-21",
+              "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+              "access": "paid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-does-5-percent-do",
+      "question": "What does 5% do to the multiple?",
+      "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/#question-what-does-5-percent-do",
+      "sides": [
+        {
+          "id": "growth-signal-near-a-peak",
+          "label": "A growth signal near a peak",
+          "voices": [
+            {
+              "name": "Michael Howell",
+              "entity": "https://deepstack.ltd/people/michael-howell/",
+              "claim": "The creator underestimated the pace of earnings growth in 2026: valuation multiples compressed as expected, but corporate earnings expanded far more rapidly than anticipated, fuelled by AI investment, which is why equities, notably technology…",
+              "date": "2026-09-25",
+              "url": "https://capitalwars.substack.com/p/understanding-the-commodity-boom",
+              "access": "public"
+            },
+            {
+              "name": "Michael Howell",
+              "entity": "https://deepstack.ltd/people/michael-howell/",
+              "claim": "Higher bond yields reflect an economy growing faster than official policy settings can comfortably accommodate and a policy framework increasingly dependent upon maintaining abundant liquidity.",
+              "date": "2026-09-11",
+              "url": "https://capitalwars.substack.com/p/bonds-treasury-qe-and-the-3-3-3-30",
+              "access": "paid"
+            }
+          ]
+        },
+        {
+          "id": "long-end-nobody-caps",
+          "label": "A long end nobody caps",
+          "voices": [
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
+              "date": "2026-09-16",
+              "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+              "access": "public"
+            },
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The creator argues the marginal long-end buyer has changed: a Japanese lifer hedging dollars back to yen earned about 95bp less on a hedged Treasury than on a JGB on the one day with a published hedge cost, so it stops rolling rather than sells…",
+              "date": "2026-09-16",
+              "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+              "access": "public"
+            },
+            {
+              "name": "Vitaliy Katsenelson",
+              "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+              "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; the creator says they…",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+              "access": "public"
+            },
+            {
+              "name": "Vitaliy Katsenelson",
+              "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+              "claim": "The AI-focused stocks, which make up roughly 37 percent of the S&P 500 and drive a good chunk of daily market movements, are fueling optimism and a growing debt pile in the AI economy, while the rest of the economy struggles.",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+              "access": "public"
+            },
+            {
+              "name": "Torsten Slok",
+              "entity": "https://deepstack.ltd/people/torsten-slok/",
+              "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+              "access": "public"
+            },
+            {
+              "name": "Torsten Slok",
+              "entity": "https://deepstack.ltd/people/torsten-slok/",
+              "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+              "date": "2026-09-21",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+              "access": "public"
+            },
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "The entire extra present value shown for the oldest GPU (A100) in the model is attributable entirely to years 7 and 8 being added into the depreciation model, so the A100's current 25% ratio comes solely from those added years.",
+              "date": "2026-10-01",
+              "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+              "access": "paid"
+            },
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+              "date": "2026-09-28",
+              "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+              "access": "paid"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "crossings": [
+    {
+      "from": "Michael Spencer",
+      "to": "Michael Burry",
+      "relation": "qualifies",
+      "dimension": "premise",
+      "note": "Michael Spencer qualifies Michael Burry on premise."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies JunkBondInvestor on mechanism."
+    },
+    {
+      "from": "Aurelion Research",
+      "to": "Daniel Romero",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Aurelion Research contradicts Daniel Romero on premise."
+    },
+    {
+      "from": "Ren",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Ren qualifies Michael Spencer on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies Michael Spencer on mechanism."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "David George",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Steve Eisman qualifies David George on mechanism."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "Aurelion Research",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Michael Burry contradicts Aurelion Research on evidence."
+    },
+    {
+      "from": "Daniel Romero",
+      "to": "David George",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Daniel Romero qualifies David George on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Aurelion Research",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Torsten Slok contradicts Aurelion Research on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Kris",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Torsten Slok contradicts Kris on evidence."
+    },
+    {
+      "from": "Aurelion Research",
+      "to": "Michael Burry",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Aurelion Research contradicts Michael Burry on premise."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Steve Eisman",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Michael Spencer qualifies Steve Eisman on condition."
+    },
+    {
+      "from": "Ren",
+      "to": "Michael Howell",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Ren qualifies Michael Howell on condition."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "Ren",
+      "relation": "refutes",
+      "dimension": "mechanism",
+      "note": "Steve Eisman refutes Ren on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "David George",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies David George on mechanism."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "Ren",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Steve Eisman qualifies Ren on mechanism."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Kris",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Michael Spencer qualifies Kris on condition."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "premise",
+      "note": "Michael Burry qualifies Michael Spencer on premise."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Aurelion Research",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Michael Spencer contradicts Aurelion Research on evidence."
+    },
+    {
+      "from": "Ren",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "premise",
+      "note": "Ren qualifies Torsten Slok on premise."
+    },
+    {
+      "from": "Aurelion Research",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Aurelion Research qualifies Torsten Slok on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Daniel Romero",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies Daniel Romero on mechanism."
+    },
+    {
+      "from": "Ren",
+      "to": "Steve Eisman",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "Ren contradicts Steve Eisman on mechanism."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "Ren",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Steve Eisman contradicts Ren on premise."
+    }
+  ],
+  "notes": [
+    {
+      "label": "What the denominator is made of",
+      "text": "Earnings, not multiples (Ren): tech's forward multiple up about 14% since October 2022, against 250% in the run to March 2000. Made by the buildout (George, Silverio): tech is 76% of S&P profit growth, half of it from AI spending. Paid for with bonds (Kunimoto): close to $250B of hyperscaler high-grade bonds in 2026."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "Late October",
+      "date": null,
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
+    },
+    {
+      "id": null,
+      "when": "October",
+      "date": null,
+      "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
+    },
+    {
+      "id": null,
+      "when": "At 5.5% 10-year",
+      "date": null,
+      "event": "A 5.5% Treasury yield tests Howell’s turning-point history against TSCS’s warning that the long end will keep rising.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
+    },
+    {
+      "id": null,
+      "when": "Next used-GPU print",
+      "date": null,
+      "event": "Three-year-old chip rents and resale prices show whether scarcity or durable economics supports hardware values.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
+    },
+    {
+      "id": null,
+      "when": "Productivity data",
+      "date": null,
+      "event": "A rise in total factor productivity would show the rest of the economy can write the checks; a flat reading leaves bondholders exposed.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
+    }
+  ]
+}

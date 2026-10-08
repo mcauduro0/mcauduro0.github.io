@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "michael-w-green",
+  "name": "Michael W. Green",
+  "role": null,
+  "url": "https://deepstack.ltd/people/michael-w-green/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/michael-w-green.json",
+  "summary": "Michael W. Green appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (A missing buyer).",
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 7,
+      "question": null,
+      "side": "missing-buyer",
+      "sideLabel": "A missing buyer",
+      "claim": "Long yields have hit multi-decade extremes across the United States, Japan, Germany, Britain, and Australia despite different deficits, inflation histories, and central banks, which challenges a purely American fiscal explanation and points toward…",
+      "date": "2026-08-23",
+      "url": "https://www.yesigiveafig.com/p/great-scott",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "missing-buyer",
+      "sideLabel": "A missing buyer",
+      "claim": "The price investors demand to warehouse duration has risen because the marginal buyer changed: the old buyer was largely unlevered, liability-matching, and indifferent to financing conditions, while the new buyer is increasingly levered, financed…",
+      "date": "2026-08-23",
+      "url": "https://www.yesigiveafig.com/p/great-scott",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 811,
+    "texts": 72,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

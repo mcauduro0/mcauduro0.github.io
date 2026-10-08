@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "palantir",
+  "name": "Palantir",
+  "ticker": "PLTR",
+  "url": "https://deepstack.ltd/companies/palantir/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/palantir.json",
+  "summary": "Palantir appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "The margin test",
+      "excerpt": "But there is a third possibility, and Palantir put it on an audited stage.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 5,
+      "section": "The margin test",
+      "excerpt": "Palantir is talking its book, but its figures come with an auditor.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 29,
+    "claims": 110,
+    "texts": 60,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 199.4,
+    "change": 5.28,
+    "changePercent": 2.72,
+    "marketCap": 457836358000,
+    "pe": 158.254,
+    "nextEarnings": "2026-11-02",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:54.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

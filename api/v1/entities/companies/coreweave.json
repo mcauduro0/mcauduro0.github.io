@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "coreweave",
+  "name": "CoreWeave",
+  "ticker": "CRWV",
+  "url": "https://deepstack.ltd/companies/coreweave/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/coreweave.json",
+  "summary": "CoreWeave appears in Part 3, Part 5, Part 6, Part 7, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "CoreWeave rose 19 percent on what a bear called “banner revenue”.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "On CNBC, CoreWeave’s chief executive said the company was renting out 2020-vintage GPUs on contracts running to 2029 at full freight.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "Depressed valuations for Oracle and CoreWeave were already pricing that discomfort.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 5,
+      "section": "The pair breaks",
+      "excerpt": "CoreWeave wrote debt covenants against an OpenAI contract.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "section": "Politics sets the price",
+      "excerpt": "A local moratorium may change the map without changing demand, as CoreWeave management said on its second-quarter call.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "The rent will move",
+      "excerpt": "CoreWeave offers the strongest case against a simple depreciation story.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "The rent will move",
+      "excerpt": "Kakashii’s figures are spectacular: CoreWeave revenue rose from $229 million in 2023 to $5.1 billion in 2025, active power from about 70 megawatts to more than 1.5 gigawatts, and backlog to $104.2 billion.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "section": "AI meets the rate",
+      "excerpt": "CoreWeave priced a convertible at a 2.875% coupon, up from 1.75% in April, and made the deal bigger.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "section": "Cash, or a loop",
+      "excerpt": "Nvidia now gives investment-grade customers a year to pay, up from 90 days, and some CoreWeave loan covenants tie to its OpenAI contract.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "What lenders actually own",
+      "excerpt": "CoreWeave’s convertible coupon rose from 1.75% in April to 2.875% on a larger September deal.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 3,
+      "question": null,
+      "side": "borrowing-is-rational",
+      "sideLabel": "The borrowing is rational",
+      "claim": "Capacity is sold before it is built: AWS backlog reached 496 billion dollars, Microsoft closed June 2026 with 678 billion of commercial RPO up 84 percent year over year, Google Cloud's backlog hit 514 billion; CoreWeave's 2020-era A100s are fully…",
+      "date": "2026-08-08",
+      "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-warning",
+      "sideLabel": "Scarcity as a warning",
+      "claim": "CoreWeave is a contract-financed infrastructure company whose assets become technologically obsolete much faster than the buildings it leases, whose largest customers are competing clouds, and whose only GPU supplier is also an investor, customer…",
+      "date": "2026-08-20",
+      "url": "https://kakashiii111.substack.com/p/the-nvidia-spv-series-part-2-coreweave",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    }
+  ],
+  "coverage": {
+    "creators": 30,
+    "claims": 135,
+    "texts": 71,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 85.3721,
+    "change": -3.0779,
+    "changePercent": -3.4798,
+    "marketCap": 46576490174,
+    "pe": -23.3896,
+    "nextEarnings": "2026-11-09",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:52.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

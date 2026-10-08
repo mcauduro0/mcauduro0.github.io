@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "trey-henninger",
+  "name": "Trey Henninger",
+  "role": null,
+  "url": "https://deepstack.ltd/people/trey-henninger/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/trey-henninger.json",
+  "summary": "Trey Henninger appears in Part 2 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof. Argued in Part 2 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 2,
+      "section": "A price without proof",
+      "excerpt": "Trey Henninger of DIY Investing supplied the more interesting answer to that caution.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 2,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+      "date": "2026-06-08",
+      "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 222,
+    "texts": 29,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

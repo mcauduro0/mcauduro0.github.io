@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "matthew-c-klein",
+  "name": "Matthew C. Klein",
+  "role": null,
+  "url": "https://deepstack.ltd/people/matthew-c-klein/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/matthew-c-klein.json",
+  "summary": "Matthew C. Klein appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (Growth: yields are catching up).",
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 7,
+      "question": null,
+      "side": "growth",
+      "sideLabel": "Growth: yields are catching up",
+      "claim": "A 10-year Treasury note yielding less than 5% in conditions of supply tightening and rising nominal income growth represents the opposite of a disorderly market.",
+      "date": "2026-09-01",
+      "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "growth",
+      "sideLabel": "Growth: yields are catching up",
+      "claim": "Current long-term Treasury yields are still low relative to reasonable expectations of inflation and growth, and are only obviously too high if inflation and growth are both set to slow sharply from current levels.",
+      "date": "2026-09-01",
+      "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 686,
+    "texts": 59,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

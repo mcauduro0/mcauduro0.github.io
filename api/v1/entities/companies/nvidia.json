@@ -1,0 +1,334 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "nvidia",
+  "name": "Nvidia",
+  "ticker": "NVDA",
+  "url": "https://deepstack.ltd/companies/nvidia/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/nvidia.json",
+  "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$250B",
+      "label": "Nvidia Ohio-campus guarantee",
+      "context": "Vitaliy Katsenelson, August 6, 2026",
+      "part": 3,
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Lede",
+      "excerpt": "In late May, Apollo was raising $38 billion of debt to put Google’s TPUs, not Nvidia’s GPUs, behind Anthropic.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "section": "Lede",
+      "excerpt": "Demand for Nvidia hardware is real where chips meet paying customers today, but the financing behind the buildout is less durable than a backlog makes it appear.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "section": "Private credit, public appetite",
+      "excerpt": "Nvidia’s revenue growth, in his telling, is only mostly real.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "section": "The meter versus the map",
+      "excerpt": "At a conservative market rental rate, he estimates that selling frontier-model inference on current Nvidia hardware generates over $100 billion per gigawatt-year of revenue against roughly $12 billion of cost.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "section": "The meter versus the map",
+      "excerpt": "He asked what sits inside construction-in-progress, how the AI segment’s revenue is counted and where all the Nvidia GPUs said to be in short supply actually are.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "The financial question reaches back into Nvidia.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "Nvidia gained 3 percent, taking its market value to $5.4 trillion.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "Headlines put a roughly $500 billion facility, arranged with Wall Street banks, behind purchases of Nvidia chips.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Debt is the product",
+      "excerpt": "His sharpest exhibit is that Nvidia was in talks to guarantee roughly $250 billion of lease and debt financing for an OpenAI data-center campus in Ohio, plus up to $350 billion for OpenAI’s chip purchases.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 4,
+      "section": "Lede",
+      "excerpt": "Nvidia sat within 3 percent of a record at $5.6 trillion, while Micron traded above $1,000 a share.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "section": "Defense has a case",
+      "excerpt": "That is the market’s split in one glance: Nvidia and Micron have been paid for scarcity; Alphabet, Meta and Oracle have been charged for financing.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 1,
+      "question": null,
+      "side": "manufactured",
+      "sideLabel": "Manufactured",
+      "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+      "date": "2026-07-09",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "question": null,
+      "side": "insatiable",
+      "sideLabel": "Insatiable",
+      "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+      "date": "2026-06-08",
+      "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "question": null,
+      "side": "exit-liquidity",
+      "sideLabel": "Exit liquidity",
+      "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+      "date": "2026-06-08",
+      "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "question": null,
+      "side": "exit-liquidity",
+      "sideLabel": "Exit liquidity",
+      "claim": "SpaceX's AI segment reveals the industry's bad accounting habits: how AI revenue is counted, what is hidden in construction-in-progress, and where the Nvidia GPUs everyone calls short-supplied actually are.",
+      "date": "2026-08-06",
+      "url": "https://kakashiii111.substack.com/p/spacex-ai-revenue-cip-nvidia-gpus",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+      "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "spending-pays",
+      "sideLabel": "The spending pays",
+      "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+      "date": "2026-09-16",
+      "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "cash-or-loop",
+      "side": "closed-loop",
+      "sideLabel": "A closed loop",
+      "claim": "Nvidia now gives a year to pay.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "cash-or-loop",
+      "side": "real-cash",
+      "sideLabel": "Real cash, real use",
+      "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
+      "date": "2026-09-07",
+      "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "what-lenders-hold",
+      "side": "guarantees-not-faith",
+      "sideLabel": "Guarantees, not faith",
+      "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+      "date": "2026-09-09",
+      "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "question": null,
+      "side": "a-model-not-a-price",
+      "sideLabel": "A model, not a price",
+      "claim": "The residual-value numbers on Nvidia's slide are not actual second-hand prices but the present value of current rental income run out over 8 years according to a continuous discounted cash flow model built on assumptions like 75% utilization and a…",
+      "date": "2026-10-01",
+      "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": null,
+      "side": "a-model-not-a-price",
+      "sideLabel": "A model, not a price",
+      "claim": "The creator calculates that Nvidia's plan to ship over 10 million chips of Blackwell and Rubin by the end of 2026 implies a total required power of roughly 17 to 23 GW, averaging around 20 GW, and questions whether enough data centers are under…",
+      "date": "2026-10-05",
+      "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": null,
+      "side": "renting-at-january-prices",
+      "sideLabel": "Still renting at January prices",
+      "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+      "date": "2026-10-02",
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "not-the-customers-yet",
+      "sideLabel": "Not the customers, yet",
+      "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
+      "date": "2026-10-05",
+      "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "not-the-customers-yet",
+      "sideLabel": "Not the customers, yet",
+      "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
+      "date": "2026-09-25",
+      "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "everyone-soon",
+      "sideLabel": "Everyone, soon",
+      "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+      "date": "2026-09-16",
+      "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+      "date": "2026-09-28",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 113,
+    "claims": 1181,
+    "texts": 559,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 236.9772,
+    "change": -0.4928,
+    "changePercent": -0.2075,
+    "marketCap": 5739824761200,
+    "pe": 29.8085,
+    "nextEarnings": "2026-11-18",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:54.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

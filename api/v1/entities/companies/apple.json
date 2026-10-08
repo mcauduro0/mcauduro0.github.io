@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "apple",
+  "name": "Apple",
+  "ticker": "AAPL",
+  "url": "https://deepstack.ltd/companies/apple/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/apple.json",
+  "summary": "Apple appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "The tape picks winners",
+      "excerpt": "Apple, spending $14 billion this fiscal year, less than Amazon spends in a month, has chosen to be the anti-hyperscaler.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "section": "Lede",
+      "excerpt": "Within two weeks Muse was Apple’s most downloaded free app.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 9,
+      "question": "who-collects",
+      "side": "owner-of-the-agent",
+      "sideLabel": "The owner of the agent",
+      "claim": "Muse is gaining traction: as of that Friday it ranked No. 1 in Apple's App Store ahead of ChatGPT at No. 2, Gemini at No. 8, and Claude at No. 13, and since its September 8 unveiling Meta has added nearly $170 billion in market cap and is up 9%…",
+      "date": "2026-09-21",
+      "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
+  "coverage": {
+    "creators": 83,
+    "claims": 955,
+    "texts": 494,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 337.6388,
+    "change": 0.9688,
+    "changePercent": 0.2878,
+    "marketCap": 4959021255013,
+    "pe": 38.5432,
+    "nextEarnings": "2026-11-02",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:51.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

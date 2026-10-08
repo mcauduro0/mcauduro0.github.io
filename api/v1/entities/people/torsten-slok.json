@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "torsten-slok",
+  "name": "Torsten Slok",
+  "role": "Apollo",
+  "url": "https://deepstack.ltd/people/torsten-slok/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/torsten-slok.json",
+  "summary": "Torsten Slok appears in Part 6, Part 8, Part 9, Part 10 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet).",
+  "parts": [
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$2T",
+      "label": "Hyperscaler cash-flow target",
+      "context": "Torsten Slok’s 2030 assumption",
+      "part": 8,
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 6,
+      "section": "The megawatt premium",
+      "excerpt": "Michael Burry, citing Apollo’s Torsten Slok, says private non-residential construction excluding data centers fell 7.9% year over year in June.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "section": "Who writes the checks",
+      "excerpt": "Torsten Slok, Apollo’s chief economist, turns the revenue question into an accounting test.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 9,
+      "section": "The first bill",
+      "excerpt": "Torsten Slok’s earlier question was who would write the checks if technology companies’ cash flow doubled while their customers’ did not.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "section": "Habit is not a moat",
+      "excerpt": "Torsten Slok’s fear that agents will move deposits from accounts earning the 0.1% national average to accounts yielding 3.3% to 5% is economically coherent, but Walker notes that cash-sorting fears have recurred at events including the SVB collapse and mostly failed to play out.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "section": "Who writes the checks",
+      "excerpt": "Torsten Slok of Apollo says adding technology analysts’ forecasts roughly doubles the sector’s operating cash flow to about $2.4 trillion by 2028, a gain of more than $1.2 trillion.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "section": "The bill raises the rate",
+      "excerpt": "Torsten Slok and Burry tie the rate rise directly to the buildout.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+      "date": "2026-09-29",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+      "date": "2026-09-29",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "Agentic AI assistants like Muse could soon automatically sweep household cash into accounts paying 3.3% to 5.0%, instead of leaving it in checking accounts earning the 0.1% national average.",
+      "date": "2026-09-27",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/is-an-agentic-bank-run-coming",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "not-the-customers-yet",
+      "sideLabel": "Not the customers, yet",
+      "claim": "Wall Street equity analysts work in sector silos, and adding up their forecasts produces internally inconsistent numbers.",
+      "date": "2026-09-29",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 2,
+    "claims": 4090,
+    "texts": 1462,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

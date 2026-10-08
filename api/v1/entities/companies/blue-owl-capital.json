@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "blue-owl-capital",
+  "name": "Blue Owl Capital",
+  "ticker": "OBDC",
+  "url": "https://deepstack.ltd/companies/blue-owl-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/blue-owl-capital.json",
+  "summary": "Blue Owl Capital appears in Part 8 of The Buildout. Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "parts": [
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 8,
+      "section": "Lede",
+      "excerpt": "On September 24, Oracle sent a letter to a unit of Blue Owl Capital about Project Jupiter, a 2.45-gigawatt New Mexico campus being built for the Stargate venture with OpenAI.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 7,
+    "claims": 9,
+    "texts": 8,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 10.065,
+    "change": 0.045,
+    "changePercent": 0.4491,
+    "marketCap": 4995314093,
+    "pe": 17.9732,
+    "nextEarnings": "2026-11-04",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:48.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

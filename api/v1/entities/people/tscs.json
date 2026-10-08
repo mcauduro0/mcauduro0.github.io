@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "tscs",
+  "name": "TSCS",
+  "role": null,
+  "url": "https://deepstack.ltd/people/tscs/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/tscs.json",
+  "summary": "TSCS appears in Part 7, Part 10 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$1.97T",
+      "label": "Federal deficit",
+      "context": "TSCS, cumulative through August 2026",
+      "part": 7,
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 7,
+      "section": "The calm is real",
+      "excerpt": "Dealers were left holding 2.2%, the smallest share in the 14 years of records TSCS could pull.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "The calm is real",
+      "excerpt": "TSCS warns that thin trading in inflation-protected bonds makes the split less precise; a Fed staff model that strips out that illiquidity puts it closer to 70/30 than 90/10.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "Three prices for 5%",
+      "excerpt": "TSCS found Japan’s $135 billion fall in Treasury holdings between February and July was mostly bills and falling prices.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 10,
+      "section": "The bill raises the rate",
+      "excerpt": "TSCS sees a different mechanism.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "section": "The tests ahead",
+      "excerpt": "A 5.5% 10-year yield will test Howell’s history against TSCS’s long-end warning.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "On 16 September the US 10-year inflation-protected bond paid 2.68% over inflation, a level last seen on 26 November 2008, which led the creator to assume something was breaking; after a week of looking he says he could not find a crisis.",
+      "date": "2026-09-21",
+      "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "debt",
+      "sideLabel": "Debt: 99% of GDP, up from 35%",
+      "claim": "Auction and volatility evidence does not look like a crisis: the 10 September 30-year drew 2.61 times bids with dealers taking 2.2%, the lowest dealer share in the 14 years of records the creator could pull against a next-lowest of 5.9%, and the…",
+      "date": "2026-09-21",
+      "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "missing-buyer",
+      "sideLabel": "A missing buyer",
+      "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
+      "date": "2026-09-16",
+      "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "missing-buyer",
+      "sideLabel": "A missing buyer",
+      "claim": "Kevin Warsh is a pretend hawk rather than a constrained one, meaning he talks tough on inflation while avoiding costly action, and this position can be falsified by a rate hike on 16 September.",
+      "date": "2026-08-29",
+      "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The Federal Reserve faces a trap: if it hikes rates it loses control of the long end because it feeds an annual interest bill approaching $1 trillion, but if it cuts despite 3.4% inflation it also loses the long end, creating a frustrating setup…",
+      "date": "2026-08-29",
+      "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The creator's forward view is that oil and long yields keep rising until stocks fall, because the S&P is the only release valve left: the bond-market valve that worked in April 2025 is the one the buybacks are designed to keep shut.",
+      "date": "2026-09-16",
+      "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 604,
+    "texts": 45,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

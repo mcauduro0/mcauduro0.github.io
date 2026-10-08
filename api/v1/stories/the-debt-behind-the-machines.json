@@ -1,0 +1,385 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 3,
+  "slug": "the-debt-behind-the-machines",
+  "headline": "The Machines Will Work. The Debt Might Not.",
+  "dek": "AI demand may be real. The more dangerous question is who is financing the machines, and how quickly lenders can change their minds.",
+  "summary": "AI demand is holding up, but vendor guarantees, short-term premiums and widening credit concessions expose a fragile financing chain.",
+  "section": "Credit",
+  "date": "2026-08-15",
+  "readingMinutes": 7,
+  "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "Bearish on the credit",
+    "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+    "conviction": 4,
+    "convictionLabel": "High",
+    "actions": [
+      "Watch the six-month compute premium: buyers paying double for short terms are pricing duration risk.",
+      "Before trusting the 21% modeled return, ask who carries depreciation when funding costs rise.",
+      "Price new AI debt on its concessions: wider new-issue discounts mean lenders are flinching."
+    ],
+    "flips": [
+      "Nebius’s short-term premium collapses toward long-term rates.",
+      "H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions."
+    ],
+    "nextTest": {
+      "id": "p03-t01",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next Nebius disclosure",
+      "whenLabel": "Nov 10, 2026",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NBIS",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$500B",
+      "label": "Wall Street-arranged chip facility",
+      "context": "Headlines, August 12, 2026"
+    },
+    {
+      "value": "$250B",
+      "label": "Nvidia Ohio-campus guarantee",
+      "context": "Vitaliy Katsenelson, August 6, 2026"
+    },
+    {
+      "value": "21%",
+      "label": "Modeled compute internal return",
+      "context": "Market Sentiment, August 8, 2026"
+    },
+    {
+      "value": "6%",
+      "label": "AI paper investment-grade share",
+      "context": "JunkBondInvestor, August 9, 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Capitalist Letters - Oguz Erkan’s compute framework",
+      "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute"
+    },
+    {
+      "label": "Market Sentiment - capex sustainability model",
+      "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+    },
+    {
+      "label": "JunkBondInvestor - Credit Weekly",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep"
+    }
+  ],
+  "earlierVersion": "https://marcocauduro.substack.com/p/the-debt-behind-the-machines",
+  "wordCount": 1427,
+  "pullQuote": "A premium for six months paired with a discount for one to three years says urgency is valuable and duration is suspect.",
+  "verdict": "DeepStack’s view is that AI demand is holding up, but the credit structure financing it is already under strain. The single most important reason is the term structure of Nebius’s compute contracts: buyers pay roughly twice as much for six months or less as for one to three years, a signal about duration that a lender cannot ignore. The 95 percent H100 re-let and the 21 percent modeled return make the bullish case credible, yet neither settles who bears depreciation when financing costs rise. Our view would change if Nebius’s short-term premium collapsed, H100 re-lets stayed near original prices, hyperscaler free cash flow remained healthy in 2027 and the queued issuance cleared without wider concessions. Until then, the buildout is less an earnings story than a test of balance-sheet patience.",
+  "sections": [
+    {
+      "id": "debt-is-the-product",
+      "title": "Debt is the product",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#debt-is-the-product"
+    },
+    {
+      "id": "demand-has-teeth",
+      "title": "Demand has teeth",
+      "startsAt": 8,
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#demand-has-teeth"
+    },
+    {
+      "id": "credit-gets-the-last-word",
+      "title": "Credit gets the last word",
+      "startsAt": 13,
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#credit-gets-the-last-word"
+    }
+  ],
+  "body": [
+    "On Wednesday, August 12, the market offered a neat picture of an untidy boom. July inflation came in tame and the S&P held near its record. CoreWeave rose 19 percent on what a bear called “banner revenue”. Nebius jumped 34 percent even though Michael Burry had just added it to his short book. Nvidia gained 3 percent, taking its market value to $5.4 trillion. Headlines put a roughly $500 billion facility, arranged with Wall Street banks, behind purchases of Nvidia chips.",
+    "On CNBC, CoreWeave’s chief executive said the company was renting out 2020-vintage GPUs on contracts running to 2029 at full freight. That afternoon, Burry said, “Nebius is what the top of a boom looks like.” Both statements can be true. A market can reward demand that is real while quietly charging more to finance it.",
+    "The AI buildout’s demand may be real. Its financing is the fragile piece. The danger is not that the machines cannot earn; it is that vendors, special purpose vehicles, insurers and bondholders are being asked to absorb hardware decay before cash flow catches up. The most important evidence is not the level of rental prices or the size of the order book, but the price and structure of the credit underneath them.",
+    "Vitaliy Katsenelson, who lived through the first one, describes today’s market as “1999 capex plus 2008 credit”. The first half is a data-center buildout marching toward a trillion dollars a year while open-source and Chinese models deliver comparable results at a fraction of the cost. His warning is familiar in shape but current in its plumbing: the race to the bottom that gutted fiber-optic pricing after 1999 is already loaded, and bankruptcies reveal who was swimming naked.",
+    "The second half is financing. Katsenelson points to a large share of the buildout running through special purpose vehicles sold to pensions and insurers. He cites research showing that when private credit stuffed into a life insurer fails, roughly 86 percent of the bill lands quietly on taxpayers. His sharpest exhibit is that Nvidia was in talks to guarantee roughly $250 billion of lease and debt financing for an OpenAI data-center campus in Ohio, plus up to $350 billion for OpenAI’s chip purchases. The customer gets capacity; the vendor helps make the loan possible.",
+    "Michael Burry pushes the same concern down into the balance sheet. In his August 11 Trading Post, he argued that the issue is not whether the $500 billion facility is circular financing, but whether unnatural credits are being structured to prolong momentum late in a bull phase. His precedents were Goldman’s 2005 escape from a warehoused synthetic CDO, which opened the floodgates to 2006, and Enron’s campaign to make wholesale power an investable class.",
+    "Burry calls this “the perimeter of debt”: off-balance-sheet structures and non-cancellable supply-chain contracts that expand a company’s true liabilities far beyond its reported ones. He also cited BTIG’s statistic of 182 consecutive trading days without a single 80 percent downside-volume day, the longest streak in at least three decades. In that history, no year had fewer than five.",
+    "Then Nebius supplied a more tangible warning. Its one-to-three-year compute contracts fetch $20 million to $25 million per megawatt, while capacity for six months or less fetches $40 million to $50 million. Buyers are paying roughly double for the near term. Burry reads that backwardation as a market pricing fast decay: power does not depreciate, so the GPU, the customer, or both are. Nebius has meanwhile stretched its server depreciation schedule from four years to five years, even as its prices imply decay of roughly half per year.",
+    "The bullish case is not hand-waving. Oguz Erkan’s framework, It’s Time To Be Bullish On Compute, Again, treats the AI trade as a reflexive loop that has survived a test. His checklist is substantial: token demand is up roughly 17,000-fold in four years; DeepSeek raised token prices despite a strategy built on undercutting; combined OpenAI and Anthropic revenue run rates crossed $110 billion in July; and Morgan Stanley put hyperscaler returns on AI capital expenditure at 25 to 46 percent.",
+    "Erkan’s most pointed evidence comes from the rental market Burry reads differently. Prices for six-year-old A100 GPUs are up more than 20 percent this year. Nearly 30 percent of Erkan’s portfolio is compute, and he is not selling. His tripwire is clear: hyperscaler free cash flow could go negative in 2027, and investors dislike leverage contingent on speculative returns. Depressed valuations for Oracle and CoreWeave were already pricing that discomfort.",
+    "Market Sentiment’s capex model is more mechanical. Assume a five-year chip life and rental prices falling by one-third each year as the fleet ages. On those terms, $100 billion of annual capital expenditure generates roughly $160 billion of steady-state revenue, a 1.6x multiple and about a 21 percent internal rate of return. An H100 bought in 2023 recovered its cost in about 2.7 years at realized rates.",
+    "The order book gives that model room to breathe. AWS’s backlog stands at $496 billion, Microsoft’s commercial commitments at $678 billion and Google Cloud’s at $514 billion. A batch of off-contract H100s was recently re-let at 95 percent of its original price. The hurdle is severe but not imaginary: sustaining next year’s spend requires cloud revenue near $960 billion against a current run rate of roughly $380 billion, growing 40 percent and accelerating.",
+    "The serious case against a credit-first reading is that the market may be paying for a durable cash machine. Six-year-old chips earning more, used H100s re-letting near their original price and an H100 recovering cost in less than three years are not the fingerprints of a dead asset. Variant Perception’s systematic models remain risk-on, growth indicators are rebounding and semiconductors are still capital-scarce on its capital-cycle framework. A July stop-out marked a tradeable low. That is a coherent bullish case, not a refusal to see risk.",
+    "The problem is that the strongest bullish evidence and the sharpest bearish evidence are not measuring the same thing. Rising A100 rents measure current scarcity. Nebius’s term structure measures what buyers will pay to avoid waiting. For a lender, the latter matters more. A premium for six months paired with a discount for one to three years says urgency is valuable and duration is suspect.",
+    "The 95 percent H100 re-let and roughly 50 percent annual decay cannot both describe the same fleet for long. Neither can Katsenelson’s race to the bottom sit comfortably beside a model that still produces a 21 percent return after priced-in decay. Those are not differences in mood. They are competing descriptions of the cash flows that must service the paper.",
+    "JunkBondInvestor’s Credit Weekly shows where the pressure would appear first. Hyperscaler capital expenditure for 2027 is tracking as high as $1.2 trillion, with about $400 billion of debt issuance penciled in. AI-related paper has doubled to 6 percent of the investment-grade index in a year. Amazon is now the index’s fifth-largest issuer, behind only the big four banks.",
+    "The change in price is already visible. Borrowers who paid nothing extra in February paid double-digit new-issue concessions in August. Beneath a calm aggregate, the CCC bucket is widening. JunkBondInvestor sees three endings that fit the current numbers: a financing squeeze that spreads into recession, AI revenue that arrives on schedule and swamps the borrowing, or spreads that simply cheapen until the paper finds a buyer and no one can identify the moment the market turned. That is why a calm aggregate can deceive. A market can keep absorbing paper while a narrower slice quietly sets the price for every borrower that follows.",
+    "The next tests are concrete. Nebius’s next disclosed deal mix will show whether short-term premiums collapse toward long-term rates. The next off-contract H100 batches will test 95 percent re-letting against the faster-decay case. Hyperscaler free cash flow in 2027 will test Erkan’s tripwire. And the $50 billion to $60 billion of issuance queued for after Labor Day will show whether concessions keep widening. DeepStack would be wrong if those signals turn benign together: flat term structure, firm re-let prices, resilient cash flow and cheapening credit.",
+    "AI does not need to stop working for this structure to break. It only needs lenders to notice that a five-year asset is being paid for with a six-month premium. The machines may keep humming; the first failure may be the signature, not the server."
+  ],
+  "chart": null,
+  "tests": [
+    {
+      "id": "p03-t01",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next Nebius disclosure",
+      "whenLabel": "Nov 10, 2026",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NBIS",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t02",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "Next H100 batches",
+      "whenLabel": "Next H100 batches",
+      "date": null,
+      "precision": "signal",
+      "event": "Re-lets near 95 percent support durable value; faster decay would expose a gap in the economics.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next H100 batches",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t03",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "2027",
+      "whenLabel": "Jan 1, 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Resilient hyperscaler free cash flow would ease leverage fears; negative cash flow would validate Erkan’s tripwire.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t04",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "After Labor Day",
+      "whenLabel": "Sep 8, 2026",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p03-t05",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "when": "When the streak ends",
+      "whenLabel": "When the streak ends",
+      "date": null,
+      "precision": "signal",
+      "event": "The 182-day run ending would test whether unusual market calm is breaking; repetition would extend the signal.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When the streak ends",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p03-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "comcast",
+      "name": "Comcast",
+      "ticker": "CMCSA",
+      "url": "https://deepstack.ltd/companies/comcast/"
+    },
+    {
+      "kind": "company",
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "url": "https://deepstack.ltd/companies/coreweave/"
+    },
+    {
+      "kind": "company",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/deepseek/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "url": "https://deepstack.ltd/companies/morgan-stanley/"
+    },
+    {
+      "kind": "company",
+      "slug": "nebius",
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "url": "https://deepstack.ltd/companies/nebius/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "market-sentiment",
+      "name": "Market Sentiment",
+      "role": null,
+      "url": "https://deepstack.ltd/people/market-sentiment/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "oguz-erkan",
+      "name": "Oguz Erkan",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oguz-erkan/"
+    },
+    {
+      "kind": "person",
+      "slug": "vitaliy-katsenelson",
+      "name": "Vitaliy Katsenelson",
+      "role": null,
+      "url": "https://deepstack.ltd/people/vitaliy-katsenelson/"
+    }
+  ]
+}

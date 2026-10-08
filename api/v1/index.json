@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "url": "https://deepstack.ltd/api/v1/index.json",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "name": "DeepStack API",
+  "version": "1",
+  "site": "https://deepstack.ltd",
+  "description": "Static JSON files, written by the site build from the same content as the pages. No key, no rate limit, cacheable; every object carries its canonical url, generatedAt and the not-advice line, and every number names its source.",
+  "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
+  "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
+  "counts": {
+    "stories": 10,
+    "tests": 46,
+    "datedTests": 24,
+    "results": 0,
+    "sides": 10,
+    "companies": 33,
+    "people": 64,
+    "editions": 1
+  },
+  "files": {
+    "index": "https://deepstack.ltd/api/v1/index.json",
+    "stories": "https://deepstack.ltd/api/v1/stories.json",
+    "story": {
+      "template": "https://deepstack.ltd/api/v1/stories/{slug}.json",
+      "slugs": [
+        "nvidias-demand-insatiable-or-manufactured",
+        "spacex-after-the-ipo-exit-liquidity",
+        "the-debt-behind-the-machines",
+        "the-market-stops-paying-for-faith",
+        "anthropic-grew-142-percent-openai",
+        "power-doesnt-depreciate",
+        "the-fed-hiked-the-long-end-kept-climbing",
+        "the-scarcity-is-the-collateral",
+        "habit-was-the-moat",
+        "the-bubble-is-in-the-denominator"
+      ]
+    },
+    "docket": "https://deepstack.ltd/api/v1/docket.json",
+    "results": "https://deepstack.ltd/api/v1/results.json",
+    "sides": {
+      "template": "https://deepstack.ltd/api/v1/sides/{slug}.json",
+      "slugs": [
+        "anthropic-grew-142-percent-openai",
+        "habit-was-the-moat",
+        "nvidias-demand-insatiable-or-manufactured",
+        "power-doesnt-depreciate",
+        "spacex-after-the-ipo-exit-liquidity",
+        "the-bubble-is-in-the-denominator",
+        "the-debt-behind-the-machines",
+        "the-fed-hiked-the-long-end-kept-climbing",
+        "the-market-stops-paying-for-faith",
+        "the-scarcity-is-the-collateral"
+      ]
+    },
+    "companies": "https://deepstack.ltd/api/v1/entities/companies.json",
+    "people": "https://deepstack.ltd/api/v1/entities/people.json",
+    "entity": {
+      "template": "https://deepstack.ltd/api/v1/entities/{kind}/{slug}.json",
+      "kinds": [
+        "companies",
+        "people"
+      ]
+    },
+    "tape": "https://deepstack.ltd/api/v1/tape.json",
+    "weekly": "https://deepstack.ltd/api/v1/weekly.json"
+  },
+  "openapi": "https://deepstack.ltd/api/openapi.json",
+  "llms": {
+    "txt": "https://deepstack.ltd/llms.txt",
+    "full": "https://deepstack.ltd/llms-full.txt"
+  },
+  "feeds": {
+    "rss": "https://deepstack.ltd/feed.xml",
+    "docket": "https://deepstack.ltd/docket.ics"
+  },
+  "mcp": {
+    "url": "https://mcp.deepstack.ltd/mcp",
+    "transport": "streamable-http",
+    "protocolVersion": "2025-06-18",
+    "tools": [
+      "deepstack_search",
+      "deepstack_story",
+      "deepstack_sides",
+      "deepstack_docket",
+      "deepstack_results",
+      "deepstack_entity",
+      "deepstack_tape"
+    ]
+  }
+}

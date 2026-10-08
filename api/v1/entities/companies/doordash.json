@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "doordash",
+  "name": "DoorDash",
+  "ticker": "DASH",
+  "url": "https://deepstack.ltd/companies/doordash/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/doordash.json",
+  "summary": "DoorDash appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "Habit is not a moat",
+      "excerpt": "An assistant that orders dinner through Toast and delivery through DoorDash Drive can remove the sponsored listing from the customer’s view.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 17,
+    "claims": 54,
+    "texts": 24,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 189.33,
+    "change": -1.91,
+    "changePercent": -0.9988,
+    "marketCap": 82494623743,
+    "pe": 97.5928,
+    "nextEarnings": "2026-11-04",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:47.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

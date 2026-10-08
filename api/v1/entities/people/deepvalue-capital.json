@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "deepvalue-capital",
+  "name": "DeepValue Capital",
+  "role": "DeepValue Capital by Kyler",
+  "url": "https://deepstack.ltd/people/deepvalue-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/deepvalue-capital.json",
+  "summary": "DeepValue Capital appears in Part 5, Part 6, Part 7 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed..",
+  "parts": [
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$2.3T",
+      "label": "Hyperscaler backlog",
+      "context": "Apollo via DeepValue Capital, September 2026",
+      "part": 7,
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Deepvalue Capital says Alibaba’s models passed 3bn downloads, ahead of Meta and Google, while compute stays tight and the price per token keeps falling.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 6,
+      "section": "The rent will move",
+      "excerpt": "DeepValue Capital, relaying Comstock Resources leadership, puts new natural-gas demand from AI and data centers at 12 billion to 30 billion cubic feet a day by 2032, on top of LNG demand.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 7,
+      "section": "AI meets the rate",
+      "excerpt": "Apollo, relayed by DeepValue Capital, assumes hyperscaler operating cash flow triples from $600 billion to $2 trillion, with OpenAI and Anthropic accounting for more than half of a $2.3 trillion backlog.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "What settles it",
+      "excerpt": "DeepValue Capital reads inflation below 2% on a three-month annualized basis in August and calls oil from the closed Strait of Hormuz a supply shock no rate rise can fix.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "What settles it",
+      "excerpt": "A negative payrolls print beside an inverted curve would, in DeepValue Capital’s reading, put recession six to 24 months out.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 0,
+    "claims": 1586,
+    "texts": 139,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

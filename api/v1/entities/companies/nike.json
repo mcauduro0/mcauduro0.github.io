@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "nike",
+  "name": "Nike",
+  "ticker": "NKE",
+  "url": "https://deepstack.ltd/companies/nike/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/nike.json",
+  "summary": "Nike appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "The tollbooth shifts",
+      "excerpt": "Late October’s Meta report, early November’s Booking numbers, November 16 and 17 at Nike, and the first tax season from January to April will make the test less abstract.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 19,
+    "claims": 89,
+    "texts": 34,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 34.626,
+    "change": 0.266,
+    "changePercent": 0.7742,
+    "marketCap": 51239943477,
+    "pe": 16.5675,
+    "nextEarnings": "2026-12-17",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:52.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

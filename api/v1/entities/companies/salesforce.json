@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "salesforce",
+  "name": "Salesforce",
+  "ticker": "CRM",
+  "url": "https://deepstack.ltd/companies/salesforce/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/salesforce.json",
+  "summary": "Salesforce appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "Lede",
+      "excerpt": "MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St..",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 49,
+    "claims": 139,
+    "texts": 101,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 224.02,
+    "change": -0.54,
+    "changePercent": -0.2405,
+    "marketCap": 183472380000,
+    "pe": 20.3655,
+    "nextEarnings": "2026-12-02",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:52.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

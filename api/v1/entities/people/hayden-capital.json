@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "hayden-capital",
+  "name": "Hayden Capital",
+  "role": null,
+  "url": "https://deepstack.ltd/people/hayden-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/hayden-capital.json",
+  "summary": "Hayden Capital appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "-$6B",
+      "label": "Alphabet Q2 free cash flow",
+      "context": "Hayden Capital; Q2, first negative since 2004 IPO",
+      "part": 4,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "The tape picks winners",
+      "excerpt": "Hayden Capital’s second-quarter letter explains why the vote changed.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 4,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+      "date": "2026-08-27",
+      "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 4,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "AI chip prices are currently inflated by speculative demand from companies ordering more chips than they need to secure allocation, and reselling them at premiums—a dynamic similar to Rolex watch secondary market pricing.",
+      "date": "2026-08-27",
+      "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 57,
+    "texts": 4,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

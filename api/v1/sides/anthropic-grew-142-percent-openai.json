@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 5,
+  "slug": "anthropic-grew-142-percent-openai",
+  "url": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
+  "story": {
+    "headline": "OpenAI and Anthropic Are Not the Same Business",
+    "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+    "api": "https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json"
+  },
+  "question": "What does a frontier lab sell: a commodity, or a premium?",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "Split the trade",
+    "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Separate the two in any AI exposure: pricing power, not headline growth, sets the value.",
+      "Demand life-of-cluster margins in any prospectus, not first-year GPU economics.",
+      "Treat customer concentration and investor-funded revenue as the first red flags."
+    ],
+    "flips": [
+      "Anthropic is forced into an OpenAI-style price cut on coding.",
+      "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
+    ],
+    "nextTest": {
+      "id": "p05-t01",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "when": "Next prospectus",
+      "whenLabel": "Next prospectus",
+      "date": null,
+      "precision": "signal",
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Next prospectus",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p05-t01",
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#verdict"
+  },
+  "sides": [
+    {
+      "id": "openai-commoditized",
+      "label": "OpenAI: commoditized",
+      "voices": [
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "OpenAI grew revenue only about 18% quarter over quarter in Q2 2026 (from $5.7B to $6.7B), while Anthropic grew 142% quarter over quarter to $11.6B, showing OpenAI is slowing at the worst possible time just before its IPO.",
+          "date": "2026-08-20",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Anthropic reported preliminary Q2 revenue of $11.5 billion and a projected adjusted operating profit of $559 million, and by the time it goes public it will be comfortably profitable, unlike SpaceX which spent $18.37 billion in capex against just…",
+          "date": "2026-08-20",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+          "access": "paid"
+        },
+        {
+          "name": "Massif Capital",
+          "entity": "https://deepstack.ltd/people/massif-capital/",
+          "claim": "Chinese open-weight models climbed from under 2% of token traffic in late 2024 to a majority of usage among top models in 2026, driven by the revealed preference for models running on infrastructure the user controls.",
+          "date": "2026-07-30",
+          "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367",
+          "access": "public"
+        },
+        {
+          "name": "Massif Capital",
+          "entity": "https://deepstack.ltd/people/massif-capital/",
+          "claim": "In June 2026, the Commerce Department suspended access to Anthropic's Fable 5 and Mythos 5 models for all non-US persons, invoking export-control authority, with practical effect of a global suspension that lasted under three weeks before…",
+          "date": "2026-07-30",
+          "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367",
+          "access": "public"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-not-yet",
+      "label": "Anthropic: not yet",
+      "voices": [
+        {
+          "name": "Christian Catalini",
+          "entity": "https://deepstack.ltd/people/christian-catalini/",
+          "claim": "Training runs account for only 10 to 23 percent of AI labs' total compute costs, with the remainder tied to tacit knowledge in data curation, infrastructure, and learning from failed experiments.",
+          "date": "2026-08-11",
+          "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus",
+          "access": "public"
+        },
+        {
+          "name": "Christian Catalini",
+          "entity": "https://deepstack.ltd/people/christian-catalini/",
+          "claim": "The demand curve for AI capabilities is heterogeneous: commodity intelligence will become price-competitive across many applications, while convex-payoff domains like finance and frontier research can sustain premium pricing for marginal capability…",
+          "date": "2026-08-11",
+          "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus",
+          "access": "public"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Anthropic's ARR grew from approximately $700 million in August 2024 to its current level, a roughly 93x increase in about two years.",
+          "date": "2026-08-20",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Cognition's Devin achieved a $1 billion annualized revenue run rate and a $40 billion valuation in under two years, making it exceptional among AI startups for this pace of revenue growth.",
+          "date": "2026-08-20",
+          "url": "https://www.ai-supremacy.com/p/visions-of-ai-automating-repetitive-grunt-coding-tasks-2026-devin",
+          "access": "paid"
+        }
+      ]
+    },
+    {
+      "id": "crossing",
+      "label": "Voices that cross sides",
+      "voices": [
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "As Devin and similar tools scale, they drive increased token usage of Anthropic's models, creating a compounding benefit to Anthropic.",
+          "date": "2026-08-20",
+          "url": "https://www.ai-supremacy.com/p/visions-of-ai-automating-repetitive-grunt-coding-tasks-2026-devin",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Europe's dream of sovereign AI leadership is fading because Mistral, despite raising 3.5 billion dollars at a 21 billion euro valuation, has been unable to compete with the United States or China in open-source AI models.",
+          "date": "2026-09-10",
+          "url": "https://www.ai-supremacy.com/p/ai-reality-european-sovereign-ai-is-dying-mistral-series-d",
+          "access": "paid"
+        },
+        {
+          "name": "Wyndo",
+          "entity": "https://deepstack.ltd/people/wyndo/",
+          "claim": "The creator cites Artificial Analysis benchmark results as evidence of rapid open-weight model improvement: Kimi K3 scored 57 on its Intelligence Index (13 points above Kimi K2.6, per the July 17 evaluation), and DeepSeek V4 Flash 0731 scored 10…",
+          "date": "2026-08-13",
+          "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
+          "access": "paid"
+        },
+        {
+          "name": "Wyndo",
+          "entity": "https://deepstack.ltd/people/wyndo/",
+          "claim": "The traditional split of using a strongest frontier model (Opus) for reasoning/judgment and a faster cheaper model (Sonnet) for execution has become less clearly justified because the capability gap between 'thinking' and 'executing' models has…",
+          "date": "2026-08-13",
+          "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
+          "access": "paid"
+        },
+        {
+          "name": "Ed Elson",
+          "entity": "https://deepstack.ltd/people/ed-elson/",
+          "claim": "Because OpenAI and Anthropic pay their bills with venture funding of which Big Tech supplies roughly 40%, revenue Big Tech books from them is partly recycled from itself and not real growth.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "access": "public"
+        },
+        {
+          "name": "Ed Elson",
+          "entity": "https://deepstack.ltd/people/ed-elson/",
+          "claim": "If Big Tech depends heavily on OpenAI and Anthropic for revenue growth, that growth is unsustainable because both customers are massively unprofitable and may not survive.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "access": "public"
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "crossings": [
+    {
+      "from": "Ed Elson",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Ed Elson qualifies Michael Spencer on condition."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Ed Elson",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Michael Spencer contradicts Ed Elson on premise."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Wyndo",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Michael Spencer qualifies Wyndo on condition."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The number three bears collided with",
+      "text": "SemiAnalysis: on a current cluster the labs can earn over $100B per gigawatt-year against about $12B of rental cost. Daniel Romero: a GPU earns most of its cash in year one while the books depreciate it straight. Steve Eisman: there is no dataset here like the subprime delinquency data; he waits for the two labs to open their books."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "Next prospectus",
+      "date": null,
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch"
+    },
+    {
+      "id": null,
+      "when": "Next disclosures",
+      "date": null,
+      "event": "Useful-life assumptions show whether first-year GPU margins survive across the cluster; Romero’s accounting would gain force if they do not.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch"
+    },
+    {
+      "id": null,
+      "when": "DeepSeek repricing",
+      "date": null,
+      "event": "A quiet reversal would weaken Erkan’s demand evidence; sustained higher prices would support the view that demand remains structurally strong.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch"
+    },
+    {
+      "id": null,
+      "when": "2028",
+      "date": null,
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch"
+    },
+    {
+      "id": null,
+      "when": "A second revocation",
+      "date": null,
+      "event": "Another model suspension would turn Massif’s signal into procurement policy, showing that open weights are changing buying behavior.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch"
+    }
+  ]
+}

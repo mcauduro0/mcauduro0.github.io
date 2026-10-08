@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "voss-capital",
+  "name": "Voss Capital",
+  "role": null,
+  "url": "https://deepstack.ltd/people/voss-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/voss-capital.json",
+  "summary": "Voss Capital appears in Part 4, Part 5 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business.",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "Voss Capital adds the productivity test.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 5,
+      "section": "Cheap intelligence arrives",
+      "excerpt": "Voss Capital’s reality-check thesis rests on deeply negative free cash flow.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 2,
+    "claims": 40,
+    "texts": 3,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

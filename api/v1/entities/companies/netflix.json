@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "netflix",
+  "name": "Netflix",
+  "ticker": "NFLX",
+  "url": "https://deepstack.ltd/companies/netflix/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/netflix.json",
+  "summary": "Netflix appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "It equals 19 times Netflix’s revenue and 1.6 times the entire American communications industry, the distance those businesses took decades to cover.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 9,
+      "section": "The first bill",
+      "excerpt": "Meta rose 18% and Advanced Micro Devices rose 33%, while Booking Holdings fell 18%, Expedia 11%, Intuit 16%, Netflix 14%, Comcast 19%, Planet Fitness 17% and Bank of America 14%.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "section": "Habit is not a moat",
+      "excerpt": "Walker expects a small effect at Netflix, whose customers watch a lot, and a large one at Peacock, where many joined for an Olympics and forgot.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 51,
+    "claims": 222,
+    "texts": 128,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 71.06,
+    "change": 1.36,
+    "changePercent": 1.9512,
+    "marketCap": 295889576329,
+    "pe": 22,
+    "nextEarnings": "2026-10-20",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:53.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}

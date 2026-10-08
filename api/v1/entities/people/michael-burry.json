@@ -1,0 +1,294 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "michael-burry",
+  "name": "Michael Burry",
+  "role": "Cassandra Unchained",
+  "url": "https://deepstack.ltd/people/michael-burry/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
+  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price).",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 6,
+      "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "headline": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$38B",
+      "label": "Apollo debt",
+      "context": "Apollo transaction in late May, described by Michael Burry",
+      "part": 1,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "value": "$20–25M",
+      "label": "Nebius one-to-three-year price",
+      "context": "Michael Burry, August 12 trading post",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "value": "$40–50M",
+      "label": "Nebius six-month price",
+      "context": "Michael Burry, August 12 trading post",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "value": "-7.9%",
+      "label": "Construction ex-data centers",
+      "context": "Michael Burry citing Apollo, June year over year",
+      "part": 6,
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Private credit, public appetite",
+      "excerpt": "Michael Burry, the hedge-fund legend, sees that fragility everywhere.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "Michael Burry’s July 8 piece says marginal AI-compute demand is sustained by circular financing at above-market terms, leaving the marginal buyer uneconomic without subsidy.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 3,
+      "section": "Lede",
+      "excerpt": "Nebius jumped 34 percent even though Michael Burry had just added it to his short book.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "section": "Debt is the product",
+      "excerpt": "Michael Burry pushes the same concern down into the balance sheet.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 6,
+      "section": "Lede",
+      "excerpt": "Michael Burry read that spread in an August 12 trading post and gave it a credit analyst’s name: backwardation.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 6,
+      "section": "The megawatt premium",
+      "excerpt": "Michael Burry, citing Apollo’s Torsten Slok, says private non-residential construction excluding data centers fell 7.9% year over year in June.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "section": "Who writes the checks",
+      "excerpt": "Michael Burry attacks the forecast from underneath.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "section": "What lenders actually own",
+      "excerpt": "Michael Burry’s count is the largest warning sign.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "section": "A cheap top",
+      "excerpt": "Michael Burry did the opposite: his trading post said he bought more far out-of-the-money MetLife puts expiring in 2029, acting on an expected AI boom-to-bust thesis.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 1,
+      "question": null,
+      "side": "manufactured",
+      "sideLabel": "Manufactured",
+      "claim": "Much and possibly most of current and future AI compute demand is not end-customer demand; the majority of future revenues are financed through a circular off-balance-sheet arrangement.",
+      "date": "2026-07-24",
+      "url": "https://michaeljburry.substack.com/p/trading-post-july-24-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "question": null,
+      "side": "manufactured",
+      "sideLabel": "Manufactured",
+      "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+      "date": "2026-07-09",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 3,
+      "question": null,
+      "side": "capex-and-credit",
+      "sideLabel": "1999 capex plus 2008 credit",
+      "claim": "Nebius extended its server depreciation schedule from four years to five this year even though its own deal pricing implies roughly 50 percent annual decay; customers that would not quit depreciating are what extended the bust twenty-five years ago.",
+      "date": "2026-08-12",
+      "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 3,
+      "question": null,
+      "side": "capex-and-credit",
+      "sideLabel": "1999 capex plus 2008 credit",
+      "claim": "Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…",
+      "date": "2026-08-12",
+      "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 6,
+      "question": null,
+      "side": "scarcity-as-warning",
+      "sideLabel": "Scarcity as a warning",
+      "claim": "GDP growth is heavily reliant on the data center buildout, evidenced by private non-residential construction excluding data centers falling 7.9% year over year in June.",
+      "date": "2026-08-21",
+      "url": "https://michaeljburry.substack.com/p/trading-post-and-short-thoughts-to",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "Most analysts covering the former software/social-media/AdTech companies now recast as hyperscalers have never had to model maintenance capital expenditure, and most still are not doing it, or not doing it well.",
+      "date": "2026-09-19",
+      "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
+      "date": "2026-09-19",
+      "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "what-lenders-hold",
+      "side": "guarantees-not-faith",
+      "sideLabel": "Guarantees, not faith",
+      "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+      "date": "2026-09-24",
+      "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 8,
+      "question": "what-lenders-hold",
+      "side": "guarantees-not-faith",
+      "sideLabel": "Guarantees, not faith",
+      "claim": "Microsoft's raising of its buildings-and-improvements depreciation useful life ceiling from 15 to 25 years is likely a move of convenience that lets it keep tripled data center leases classified as operating rather than finance leases, since ASC…",
+      "date": "2026-09-24",
+      "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 10,
+      "question": null,
+      "side": "a-model-not-a-price",
+      "sideLabel": "A model, not a price",
+      "claim": "Acting on the expected AI-boom-to-bust thesis, the creator bought more MetLife (MET) 2029 puts far out of the money.",
+      "date": "2026-10-05",
+      "url": "https://michaeljburry.substack.com/p/trading-post-october-5-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": null,
+      "side": "a-model-not-a-price",
+      "sideLabel": "A model, not a price",
+      "claim": "The residual-value numbers on Nvidia's slide are not actual second-hand prices but the present value of current rental income run out over 8 years according to a continuous discounted cash flow model built on assumptions like 75% utilization and a…",
+      "date": "2026-10-01",
+      "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "The entire extra present value shown for the oldest GPU (A100) in the model is attributable entirely to years 7 and 8 being added into the depreciation model, so the A100's current 25% ratio comes solely from those added years.",
+      "date": "2026-10-01",
+      "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 10,
+      "question": "what-does-5-percent-do",
+      "side": "long-end-nobody-caps",
+      "sideLabel": "A long end nobody caps",
+      "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+      "date": "2026-09-28",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    }
+  ],
+  "coverage": {
+    "creators": 12,
+    "claims": 1070,
+    "texts": 102,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

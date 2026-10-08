@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-10-08T17:44:57Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "blackstone",
+  "name": "Blackstone",
+  "ticker": "BX",
+  "url": "https://deepstack.ltd/companies/blackstone/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/blackstone.json",
+  "summary": "Blackstone appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$35B",
+      "label": "AI XPU tranche",
+      "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
+      "part": 1,
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 1,
+      "section": "Lede",
+      "excerpt": "Ten weeks later, Apollo and Blackstone were assembling a $35 billion first tranche of an “AI XPU platform”: twenty gigawatts of Broadcom-designed compute through 2028.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 1,
+      "section": "Private credit, public appetite",
+      "excerpt": "Apollo and Blackstone can assemble capital for an AI XPU platform without asking any single balance sheet to carry the full future.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 19,
+    "claims": 61,
+    "texts": 49,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": {
+    "price": 111.45,
+    "change": -0.38,
+    "changePercent": -0.3398,
+    "marketCap": 134630796102,
+    "pe": 24.7667,
+    "nextEarnings": "2026-10-22",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T14:30:46.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
+}
