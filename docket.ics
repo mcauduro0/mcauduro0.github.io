@@ -1,0 +1,220 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DeepStack//The Docket//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The DeepStack Docket
+X-WR-CALDESC:The dated tests that will settle each DeepStack story.
+BEGIN:VEVENT
+UID:p02-t02@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20290501
+DTEND;VALUE=DATE:20290601
+SUMMARY:DeepStack test (May 2029): Part 02
+DESCRIPTION:Anthropic’s $1.25B monthly commitment expires\; payment dur
+ ability will test contracted AI demand.\nStory: SpaceX Is Funding an AI 
+ Bet Before the Proof\nhttps://mcauduro0.github.io/stories/spacex-after-t
+ he-ipo-exit-liquidity/#watch\nAnalysis and opinion\, not investment advi
+ ce.
+URL:https://mcauduro0.github.io/stories/spacex-after-the-ipo-exit-liquidi
+ ty/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p06-t01@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:DeepStack test (Dec 10\, 2026): Part 06
+DESCRIPTION:ERCOT is due to verify its first large-load batch study\; the
+  cleared list shows whether Texas weeds out speculators or rations power
+ .\nStory: Power Doesn’t Depreciate. Its Premium Moves.\nhttps://mcaudu
+ ro0.github.io/stories/power-doesnt-depreciate/#watch\nAnalysis and opini
+ on\, not investment advice.
+URL:https://mcauduro0.github.io/stories/power-doesnt-depreciate/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p07-t01@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:DeepStack test (Oct 28\, 2026): Part 07
+DESCRIPTION:The Fed meets\; another hike would support Klein’s inflatio
+ n reading\, while no move would strengthen Paulson’s case that Septemb
+ er was a mistake.\nStory: The Fed Hiked. The Long End Still Climbed.\nht
+ tps://mcauduro0.github.io/stories/the-fed-hiked-the-long-end-kept-climbi
+ ng/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-fed-hiked-the-long-end-kept-c
+ limbing/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p07-t02@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:DeepStack test (Mid-October): Part 07
+DESCRIPTION:Treasury publishes August foreign holdings\; renewed Japanese
+  buying despite poor hedged returns would undercut the missing-buyer the
+ sis behind the long-end selloff.\nStory: The Fed Hiked. The Long End Sti
+ ll Climbed.\nhttps://mcauduro0.github.io/stories/the-fed-hiked-the-long-
+ end-kept-climbing/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-fed-hiked-the-long-end-kept-c
+ limbing/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p08-t01@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:DeepStack test (Late October): Part 08
+DESCRIPTION:September-quarter results test cash flow toward $2 trillion a
+ nd whether maintenance costs enter accounting.\nStory: AI Lenders Are Fi
+ nancing the End of Scarcity\nhttps://mcauduro0.github.io/stories/the-sca
+ rcity-is-the-collateral/#watch\nAnalysis and opinion\, not investment ad
+ vice.
+URL:https://mcauduro0.github.io/stories/the-scarcity-is-the-collateral/#w
+ atch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p08-t02@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:DeepStack test (Nov 23\, 2026): Part 08
+DESCRIPTION:New Mexico rules on the fuel-cell permit\; approval supports 
+ schedule\, denial turns Oracle’s notice into a warning.\nStory: AI Len
+ ders Are Financing the End of Scarcity\nhttps://mcauduro0.github.io/stor
+ ies/the-scarcity-is-the-collateral/#watch\nAnalysis and opinion\, not in
+ vestment advice.
+URL:https://mcauduro0.github.io/stories/the-scarcity-is-the-collateral/#w
+ atch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p08-t03@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:DeepStack test (Feb 1\, 2027): Part 08
+DESCRIPTION:Pipeline in-service date tests whether Project Jupiter can se
+ cure fuel for its planned campus.\nStory: AI Lenders Are Financing the E
+ nd of Scarcity\nhttps://mcauduro0.github.io/stories/the-scarcity-is-the-
+ collateral/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-scarcity-is-the-collateral/#w
+ atch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p09-t01@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:DeepStack test (Late October): Part 09
+DESCRIPTION:Meta reports its September quarter\; users\, transaction volu
+ me and fees would show whether downloads are becoming a business.\nStory
+ : Habit Was the Moat. Agents Are Draining It.\nhttps://mcauduro0.github.
+ io/stories/habit-was-the-moat/#watch\nAnalysis and opinion\, not investm
+ ent advice.
+URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p09-t02@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261201
+SUMMARY:DeepStack test (Early November): Part 09
+DESCRIPTION:Booking reports room nights and direct mix\; the result tests
+  whether the agent or the incumbent owns the booking.\nStory: Habit Was 
+ the Moat. Agents Are Draining It.\nhttps://mcauduro0.github.io/stories/h
+ abit-was-the-moat/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p09-t03@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:DeepStack test (Nov 16\, 2026): Part 09
+DESCRIPTION:Nike holds its investor day\; margin targets and demand plans
+  show how much selling still assumes human choice.\nStory: Habit Was the
+  Moat. Agents Are Draining It.\nhttps://mcauduro0.github.io/stories/habi
+ t-was-the-moat/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p09-t04@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:DeepStack test (January-April): Part 09
+DESCRIPTION:The first tax season with agents tests whether households sti
+ ll pay Intuit for certainty or ask an agent.\nStory: Habit Was the Moat.
+  Agents Are Draining It.\nhttps://mcauduro0.github.io/stories/habit-was-
+ the-moat/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p10-t01@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:DeepStack test (Late October): Part 10
+DESCRIPTION:Microsoft\, Alphabet\, Meta and Amazon report\; depreciation\
+ , server lives and 29.5% growth will test the earnings denominator.\nSto
+ ry: The Bubble Is in the Denominator\nhttps://mcauduro0.github.io/storie
+ s/the-bubble-is-in-the-denominator/#watch\nAnalysis and opinion\, not in
+ vestment advice.
+URL:https://mcauduro0.github.io/stories/the-bubble-is-in-the-denominator/
+ #watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p10-t02@deepstack
+DTSTAMP:20261008T021404Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:DeepStack test (October): Part 10
+DESCRIPTION:Anthropic filing or listing reveals audited revenue\, losses 
+ and concentration\, testing the $400B revenue milestone.\nStory: The Bub
+ ble Is in the Denominator\nhttps://mcauduro0.github.io/stories/the-bubbl
+ e-is-in-the-denominator/#watch\nAnalysis and opinion\, not investment ad
+ vice.
+URL:https://mcauduro0.github.io/stories/the-bubble-is-in-the-denominator/
+ #watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

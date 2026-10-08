@@ -53,7 +53,7 @@
         }
         input.value = input.value.trim();
         input.removeAttribute('aria-invalid');
-        status.textContent = 'Opening Substack in a new tab so you can confirm your subscription.';
+        status.textContent = '';
       });
     });
   }
@@ -151,7 +151,7 @@
     dialog.querySelector('[data-copy-brief]').addEventListener('click', function () {
       var text = brief.textContent;
       if (win.navigator.clipboard && win.navigator.clipboard.writeText) {
-        win.navigator.clipboard.writeText(text).then(function () { status.textContent = 'Inquiry copied. Paste it into a message on the profile.'; },
+        win.navigator.clipboard.writeText(text).then(function () { status.textContent = 'Inquiry copied.'; },
           function () { status.textContent = 'Copy failed. Select the text above and copy it manually.'; });
       } else {
         status.textContent = 'Select the text above and copy it manually.';

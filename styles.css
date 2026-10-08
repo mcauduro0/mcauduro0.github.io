@@ -1096,3 +1096,136 @@ path.lc-fc { stroke: var(--amber-ink); }
   .site-header, .newsletter, .site-footer, .progress, .story-rail, .series-nav, .share { display: none !important; }
   body { background: #fff; }
 }
+
+/* ---------- Added 2026-10 ---------- */
+/* Newsletter block while email sign-up is being set up: same card, the house feed instead of a form. */
+.newsletter-soon .label-amber { margin-bottom: 10px; }
+.newsletter-soon-text { font: 400 16.5px/1.5 var(--sans); color: var(--on-navy); max-width: 46ch; }
+.newsletter-soon-row { align-items: center; flex-wrap: wrap; gap: 14px 22px; margin-top: 18px; }
+.nl-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.newsletter-form.is-done .field-row { opacity: 0.55; }
+/* Partnership inquiry form, shown only when a contact endpoint exists. */
+.partner-form { display: grid; gap: 10px; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.partner-form input, .partner-form textarea { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); font: 400 15px/1.4 var(--sans); color: var(--ink); }
+.partner-form textarea { min-height: 120px; resize: vertical; }
+.partner-form .btn { justify-self: start; }
+/* Month-precision tile: the year above the month, no invented day. */
+.tile-month .tile-m { color: var(--on-navy-muted); }
+.tile-month .tile-d { font-size: 20px; letter-spacing: 0.04em; }
+.call .tile-month .tile-d { font-size: 15px; }
+/* Test status chips (Docket, Results, story watchlist and Call). */
+.test-status { margin: 0; white-space: nowrap; }
+.test-confirmed { border-color: transparent; background: rgba(47, 107, 79, 0.12); color: var(--green); }
+.test-refuted { border-color: transparent; background: rgba(181, 72, 47, 0.12); color: var(--brick); }
+.test-inconclusive { border-color: transparent; background: rgba(227, 163, 59, 0.2); color: var(--amber-ink); }
+.test-status-link { text-decoration: none; }
+.watch .test-status { display: inline-flex; vertical-align: middle; margin-left: 8px; }
+.call .call-resolved { margin: 10px 0 0; font: 600 12px/1.4 var(--sans); color: var(--on-navy-muted); }
+.call .call-resolved .test-status { margin-left: 6px; }
+.watch-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 20px; }
+/* The Docket page: every test, grouped by month. */
+.docket-bar { align-items: center; }
+.docket-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.docket-group { padding-block: clamp(20px, 3vw, 36px); }
+.docket-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 8px; }
+.docket-list .docket-row a { margin-top: 0; }
+.docket-id { font: 500 11.5px/1.3 var(--mono); color: var(--muted); }
+.docket-fine { padding-block: 16px clamp(32px, 4vw, 56px); }
+.page-docket .docket-list li { grid-template-columns: 76px 1fr; }
+/* Results: scorecard and result cards. */
+.results-rule { padding-block: clamp(20px, 3vw, 36px) 0; }
+.results-rule-text p { color: var(--ink-2); max-width: 52ch; }
+.results-rule-text strong { color: var(--ink); }
+.results-counts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 24px; margin: 0; }
+.results-counts > div { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+.results-counts dd { margin: 6px 0 0; }
+.results-counts .n-label { margin-top: 0; }
+.results-part { padding-block: clamp(20px, 3vw, 36px); }
+.results-list { display: grid; gap: 22px; }
+.results-empty { padding-block: clamp(20px, 3vw, 36px); }
+.results-empty .notes-links { margin-top: 28px; }
+.result { padding: clamp(20px, 2.4vw, 30px); border: 1px solid var(--rule); border-top: 4px solid var(--amber-ink); border-radius: 14px; background: var(--card); scroll-margin-top: 84px; }
+.result-confirmed { border-top-color: var(--green); }
+.result-refuted { border-top-color: var(--brick); }
+.result-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-bottom: 14px; }
+.result-meta { font: 600 12.5px/1.4 var(--sans); color: var(--muted); }
+.result-meta a { color: var(--amber-ink); text-decoration: none; }
+.result h2, .result h3 { font: 700 clamp(24px, 2.4vw, 32px)/1.1 var(--serif); letter-spacing: -0.02em; color: var(--ink); }
+.result-test { margin-top: 12px; font: 400 15.5px/1.55 var(--sans); color: var(--ink-2); }
+.result-test strong, .result-call strong { color: var(--ink); }
+.result-body { margin-top: 14px; font-size: 18px; line-height: 1.6; color: var(--ink-2); }
+.result-body p + p { margin-top: 0.9em; }
+.evidence { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0 20px; margin: 18px 0 0; border-top: 1px solid var(--rule); }
+.evidence > div { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.evidence dt { font: 600 12px/1.3 var(--sans); color: var(--muted); }
+.evidence dd { margin: 0; }
+.ev-value { margin-top: 6px; font: 600 22px/1.1 var(--mono); letter-spacing: -0.03em; color: var(--ink); }
+.ev-source { margin-top: 5px; font: 400 12.5px/1.4 var(--sans); color: var(--muted); }
+.ev-source a { color: var(--amber-ink); }
+.result-call { margin-top: 16px; padding: 12px 14px; border-left: 3px solid var(--amber); background: var(--paper); font: 400 15.5px/1.5 var(--sans); color: var(--ink-2); }
+.results-block { margin-bottom: 2.6em; }
+.results-block h2 { margin-top: 0; }
+.results-dek { margin: 10px 0 18px; font: 400 17px/1.5 var(--sans); color: var(--ink-2); }
+.results-block .result + .result { margin-top: 18px; }
+.results-block .fine { margin-top: 14px; }
+.weekly-results li { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+.weekly-results li:first-child { padding-top: 0; }
+.weekly-results h3 { margin-top: 8px; font: 700 clamp(21px, 2vw, 25px)/1.2 var(--serif); letter-spacing: -0.015em; }
+.weekly-results p:last-child { margin-top: 6px; font: 400 15.5px/1.55 var(--sans); color: var(--ink-2); }
+.weekly-results .wnote-tag span { color: var(--muted); letter-spacing: 0; text-transform: none; font-weight: 500; }
+@media (max-width: 760px) { .results-counts { grid-template-columns: repeat(2, minmax(0, 1fr)); } .page-docket .docket-list li { grid-template-columns: 64px 1fr; } }
+/* Entities: who is in this story (rail), index cards, entity page. */
+.rail-entities li { border-bottom: 1px solid var(--rule); }
+.rail-entities a { display: flex; flex-direction: column; gap: 2px; padding: 10px 0; text-decoration: none; color: var(--ink); }
+.rail-entities strong { font: 650 15px/1.3 var(--sans); }
+.rail-entities span { font: 400 12px/1.4 var(--sans); color: var(--muted); }
+.rail-who .link-arrow { margin-top: 14px; }
+.call-sides { margin-top: 18px; }
+.ex-links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 6px; }
+.explorer-list .ex-links a { margin-top: 0; }
+.ex-entity { color: var(--ink) !important; border-bottom: 1.5px solid var(--amber); }
+.entity-grid .status { text-transform: none; letter-spacing: 0.04em; }
+.entity-fine { margin-top: 28px; }
+.entity-section { padding-block: clamp(20px, 3vw, 36px); }
+.entity-numbers { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0 28px; }
+.entity-numbers .n-context a { color: var(--amber-ink); text-decoration: none; }
+.entity-mentions li { border-bottom: 1px solid var(--rule); }
+.mention { padding: 22px 0; }
+.mention-excerpt { margin: 8px 0 12px; font: 400 clamp(18px, 1.7vw, 21px)/1.5 var(--serif); color: var(--ink); max-width: 64ch; }
+.label-green { color: var(--green); }
+/* Sides: the house call on top, two columns of attributed voices, crossings, what would settle it. */
+.sides-call { padding-block: clamp(16px, 2.5vw, 28px) 0; }
+.sides-call .weekly-call { padding: clamp(20px, 2.6vw, 30px); border-radius: 12px; background: linear-gradient(160deg, var(--ink), var(--navy-2)); color: var(--on-navy); }
+.sides-call .weekly-call-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.sides-call .call-meter { margin-top: 14px; }
+.sides-call-link { margin-top: 18px; }
+.sides-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 32px; padding-block: clamp(28px, 4vw, 48px); }
+.side { min-width: 0; padding-top: 18px; border-top: 3px solid var(--ink); }
+.side-bull { border-top-color: var(--green); }
+.side-bear { border-top-color: var(--brick); }
+.side h2 { margin-top: 8px; font: 700 clamp(26px, 2.6vw, 36px)/1.08 var(--serif); letter-spacing: -0.025em; }
+.voices { margin-top: 18px; }
+.voice { padding: 16px 0; border-top: 1px solid var(--rule); }
+.voice:last-child { border-bottom: 1px solid var(--rule); }
+.voice-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; font: 700 15px/1.3 var(--sans); color: var(--ink); }
+.voice-name a { color: var(--ink); text-decoration: none; border-bottom: 1.5px solid var(--amber); }
+.voice-name time { font: 500 12px/1.3 var(--mono); color: var(--muted); }
+.voice-claim { margin-top: 8px; font: 400 17px/1.55 var(--serif); color: var(--ink-2); }
+.voice-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px; font: 600 13px/1.4 var(--sans); }
+.voice-links a { color: var(--amber-ink); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+.voice-links a:hover { text-decoration: underline; }
+.entity-voices .voice .kicker { margin-bottom: 6px; }
+.sides-crossings, .sides-settles { padding-block: clamp(20px, 3vw, 36px); }
+.crossings li { padding: 16px 0; border-top: 1px solid var(--rule); }
+.crossings li:last-child { border-bottom: 1px solid var(--rule); }
+.crossing-line { font: 500 17px/1.4 var(--sans); color: var(--ink-2); }
+.crossing-line strong { color: var(--ink); }
+.crossings li > p + p { margin-top: 6px; font: 400 16.5px/1.55 var(--serif); color: var(--ink-2); max-width: 70ch; }
+@media (max-width: 760px) { .sides-grid { grid-template-columns: 1fr; gap: 24px; } }
+/* Further questions on a Sides page (amendment 1): same columns under their own heading; the crossing group in amber. */
+.sides-question { border-top: 1px solid var(--rule); }
+.sides-question .section-head { margin-bottom: 0; border-bottom: 0; padding-top: clamp(28px, 4vw, 48px); }
+.sides-question .sides-grid { padding-top: 8px; }
+.sides-question h3 { margin-top: 8px; font: 700 clamp(22px, 2.2vw, 28px)/1.12 var(--serif); letter-spacing: -0.02em; }
+.side-crossing { border-top-color: var(--amber); }
+.sides-notes { padding-block: clamp(20px, 3vw, 36px); }
