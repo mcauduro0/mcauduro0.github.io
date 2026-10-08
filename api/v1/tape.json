@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T17:44:57Z",
+  "generatedAt": "2026-10-08T23:15:12Z",
   "url": "https://deepstack.ltd/data/#theme-live",
   "disclaimer": "Analysis and opinion, not investment advice.",
-  "asOf": "2026-10-08T10:30:00.399Z",
+  "asOf": "2026-10-08T22:59:05.000Z",
   "api": "https://deepstack.ltd/api/v1/tape.json",
   "source": "U.S. Treasury; BLS; Federal Reserve H.15, Federal Reserve Board, BLS, BEA, DOL, Census Bureau, University of Michigan, OMB, S&P Dow Jones Indices, Cboe, EIA and IMF via FRED; Trading Economics for household inflation expectations, European gas, European power, uranium, lithium and forecast paths",
   "sourceUrl": "https://deepstack.ltd/data/",
@@ -11,31 +11,31 @@
     {
       "id": "ten",
       "label": "10-year Treasury",
-      "value": "5.28%",
-      "change": "−1 bp this week",
+      "value": "5.22%",
+      "change": "−2 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "two",
       "label": "2-year Treasury",
-      "value": "4.77%",
-      "change": "−11 bp this week",
+      "value": "4.75%",
+      "change": "−3 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "thirty",
       "label": "30-year Treasury",
-      "value": "5.67%",
-      "change": "+3 bp this week",
+      "value": "5.60%",
+      "change": "−1 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "real",
       "label": "10-year real yield",
-      "value": "2.92%",
+      "value": "2.87%",
       "change": "−1 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
@@ -51,8 +51,8 @@
     {
       "id": "vix",
       "label": "VIX",
-      "value": "15.0",
-      "change": "−6% this week",
+      "value": "15.1",
+      "change": "−8% this week",
       "source": "Cboe via FRED",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
