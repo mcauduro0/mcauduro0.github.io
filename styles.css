@@ -1241,3 +1241,23 @@ path.lc-fc { stroke: var(--amber-ink); }
 /* The live wire and the weekly tape name the owners of the data they show (S&P Dow Jones Indices via FRED, Cboe via FRED). The wire sits on the card background, so the muted ink token applies. */
 .wire-source { margin-block: -2px 0; padding-bottom: 8px; font: 400 11.5px/1.4 var(--sans); color: var(--muted); }
 .weekly-source { margin-top: 10px; }
+
+/* Market snapshot on a company page (Financial Modeling Prep, delayed): the source line beside the heading, five cells with Inter Tight tabular numbers, the day change in the house green or brick, two columns on a phone. */
+.market-snap { padding-block: clamp(20px, 3vw, 36px); }
+.market-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 10px 32px; padding-bottom: 14px; border-bottom: 2px solid var(--ink); }
+.market-head h2 { margin-top: 8px; font: 700 clamp(24px, 2.4vw, 32px)/1.1 var(--serif); letter-spacing: -0.02em; color: var(--ink); }
+.market-source { max-width: 44ch; font: 400 12.5px/1.5 var(--sans); color: var(--muted); }
+.market-source a { color: var(--amber-ink); }
+.market-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0 24px; margin: 0; }
+.market-cell { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+.market-cell dt { font: 600 12px/1.3 var(--sans); color: var(--muted); }
+.market-cell dd { margin: 0; }
+.market-value { margin-top: 6px; font: 600 clamp(22px, 2vw, 27px)/1.1 var(--sans); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; color: var(--ink); }
+.market-change { margin-top: 5px; font: 600 13.5px/1.4 var(--sans); font-variant-numeric: tabular-nums; }
+.market-up { color: var(--green); }
+.market-down { color: var(--brick); }
+.market-flat { color: var(--muted); }
+.market-advice { margin-top: 12px; }
+.page-head .market-none { margin-top: 14px; font: 500 14px/1.4 var(--sans); color: var(--muted); }
+.entity-grid .status .market-cap { font-weight: 600; color: var(--ink-2); }
+@media (max-width: 760px) { .market-head { align-items: flex-start; } .market-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .market-cell.market-price { grid-column: 1 / -1; } }
