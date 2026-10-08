@@ -5,12 +5,15 @@
 (function () {
   'use strict';
 
+  // A stalled endpoint aborts after ten seconds, so the form lands in its error state
+  // instead of hanging on "Sending…".
   function post(endpoint, payload) {
     return fetch(endpoint, {
       method: 'POST',
       mode: 'cors',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
+      signal: AbortSignal.timeout(10000)
     });
   }
 
