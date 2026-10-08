@@ -1232,3 +1232,12 @@ path.lc-fc { stroke: var(--amber-ink); }
 .sides-question h3 { margin-top: 8px; font: 700 clamp(22px, 2.2vw, 28px)/1.12 var(--serif); letter-spacing: -0.02em; }
 .side-crossing { border-top-color: var(--amber); }
 .sides-notes { padding-block: clamp(20px, 3vw, 36px); }
+
+/* Live cards name who produced each number; the notes page says which cards the snapshot could not test. */
+.live-source { font: 400 12.5px/1.5 var(--sans); color: var(--muted); }
+.live-omitted { max-width: 860px; margin-top: 16px; font: 400 14px/1.55 var(--sans); color: var(--ink-2); }
+.live-omitted strong { color: var(--ink); }
+
+/* The live wire and the weekly tape name the owners of the data they show (S&P Dow Jones Indices via FRED, Cboe via FRED). The wire sits on the card background, so the muted ink token applies. */
+.wire-source { margin-block: -2px 0; padding-bottom: 8px; font: 400 11.5px/1.4 var(--sans); color: var(--muted); }
+.weekly-source { margin-top: 10px; }

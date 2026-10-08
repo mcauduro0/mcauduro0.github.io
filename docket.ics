@@ -6,8 +6,24 @@ METHOD:PUBLISH
 X-WR-CALNAME:The DeepStack Docket
 X-WR-CALDESC:The dated tests that will settle each DeepStack story.
 BEGIN:VEVENT
+UID:p02-t01@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:DeepStack test (Jan 1\, 2027): Part 02
+DESCRIPTION:Quarterly deployed gigawatts will test the roughly 10 GW site
+  plan against 0.4 GW operating now.\nStory: SpaceX Is Funding an AI Bet 
+ Before the Proof\nhttps://mcauduro0.github.io/stories/spacex-after-the-i
+ po-exit-liquidity/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/spacex-after-the-ipo-exit-liquidi
+ ty/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:p02-t02@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20290501
 DTEND;VALUE=DATE:20290601
 SUMMARY:DeepStack test (May 2029): Part 02
@@ -23,8 +39,126 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:p03-t01@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:DeepStack test (Nov 10\, 2026): Part 03
+DESCRIPTION:Short-term premiums collapsing toward long-term rates would w
+ eaken the backwardation warning\; persistence would make it harder to di
+ smiss.\nStory: The Machines Will Work. The Debt Might Not.\nhttps://mcau
+ duro0.github.io/stories/the-debt-behind-the-machines/#watch\nAnalysis an
+ d opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-debt-behind-the-machines/#wat
+ ch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p03-t03@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:DeepStack test (Jan 1\, 2027): Part 03
+DESCRIPTION:Resilient hyperscaler free cash flow would ease leverage fear
+ s\; negative cash flow would validate Erkan’s tripwire.\nStory: The Ma
+ chines Will Work. The Debt Might Not.\nhttps://mcauduro0.github.io/stori
+ es/the-debt-behind-the-machines/#watch\nAnalysis and opinion\, not inves
+ tment advice.
+URL:https://mcauduro0.github.io/stories/the-debt-behind-the-machines/#wat
+ ch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p03-t04@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:DeepStack test (Sep 8\, 2026): Part 03
+DESCRIPTION:The next $50B-$60B issuance will show whether new-issue conce
+ ssions keep widening or start to normalize.\nStory: The Machines Will Wo
+ rk. The Debt Might Not.\nhttps://mcauduro0.github.io/stories/the-debt-be
+ hind-the-machines/#watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-debt-behind-the-machines/#wat
+ ch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p04-t01@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:DeepStack test (Jan 1\, 2027): Part 04
+DESCRIPTION:Alphabet discloses its higher 2027 budget\; a rise in the sto
+ ck revives the defense case\, another fall validates the return test.\nS
+ tory: AI Spending Has Met Its First Real Bill\nhttps://mcauduro0.github.
+ io/stories/the-market-stops-paying-for-faith/#watch\nAnalysis and opinio
+ n\, not investment advice.
+URL:https://mcauduro0.github.io/stories/the-market-stops-paying-for-faith
+ /#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p04-t03@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:DeepStack test (Jan 1\, 2027): Part 04
+DESCRIPTION:Hyperscaler free cash flow shows whether operating cash flow 
+ catches capex growth\; a catch-up makes external funding temporary.\nSto
+ ry: AI Spending Has Met Its First Real Bill\nhttps://mcauduro0.github.io
+ /stories/the-market-stops-paying-for-faith/#watch\nAnalysis and opinion\
+ , not investment advice.
+URL:https://mcauduro0.github.io/stories/the-market-stops-paying-for-faith
+ /#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p04-t04@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:DeepStack test (Sep 8\, 2026): Part 04
+DESCRIPTION:$50B–60B of queued paper prices\; narrower concessions supp
+ ort absorption\, wider spreads signal borrower scrutiny.\nStory: AI Spen
+ ding Has Met Its First Real Bill\nhttps://mcauduro0.github.io/stories/th
+ e-market-stops-paying-for-faith/#watch\nAnalysis and opinion\, not inves
+ tment advice.
+URL:https://mcauduro0.github.io/stories/the-market-stops-paying-for-faith
+ /#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p05-t04@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20280103
+DTEND;VALUE=DATE:20280104
+SUMMARY:DeepStack test (Jan 3\, 2028): Part 05
+DESCRIPTION:Return on invested capital should be visible by Romero’s de
+ adline\; failure would turn today’s extraordinary economics into a fir
+ st-year illusion.\nStory: OpenAI and Anthropic Are Not the Same Business
+ \nhttps://mcauduro0.github.io/stories/anthropic-grew-142-percent-openai/
+ #watch\nAnalysis and opinion\, not investment advice.
+URL:https://mcauduro0.github.io/stories/anthropic-grew-142-percent-openai
+ /#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:p06-t01@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:DeepStack test (Dec 10\, 2026): Part 06
@@ -39,8 +173,40 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:p06-t02@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+SUMMARY:DeepStack test (Year-end): Part 06
+DESCRIPTION:Nebius must turn 800MW–1GW connected against 5GW contracted
+  into Vineland revenue\; commissioning and GPU fill test execution.\nSto
+ ry: Power Doesn’t Depreciate. Its Premium Moves.\nhttps://mcauduro0.gi
+ thub.io/stories/power-doesnt-depreciate/#watch\nAnalysis and opinion\, n
+ ot investment advice.
+URL:https://mcauduro0.github.io/stories/power-doesnt-depreciate/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p06-t05@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290102
+SUMMARY:DeepStack test (Jan 1\, 2029): Part 06
+DESCRIPTION:Bloom staying sold out while FuelCell Energy keeps signing wo
+ uld show scarcity has moved from the grid to factories.\nStory: Power Do
+ esn’t Depreciate. Its Premium Moves.\nhttps://mcauduro0.github.io/stor
+ ies/power-doesnt-depreciate/#watch\nAnalysis and opinion\, not investmen
+ t advice.
+URL:https://mcauduro0.github.io/stories/power-doesnt-depreciate/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:p07-t01@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:DeepStack test (Oct 28\, 2026): Part 07
@@ -57,10 +223,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p07-t02@deepstack
-DTSTAMP:20261008T023849Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261101
-SUMMARY:DeepStack test (Mid-October): Part 07
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:DeepStack test (Oct 15\, 2026): Part 07
 DESCRIPTION:Treasury publishes August foreign holdings\; renewed Japanese
   buying despite poor hedged returns would undercut the missing-buyer the
  sis behind the long-end selloff.\nStory: The Fed Hiked. The Long End Sti
@@ -69,15 +235,32 @@ DESCRIPTION:Treasury publishes August foreign holdings\; renewed Japanese
 URL:https://mcauduro0.github.io/stories/the-fed-hiked-the-long-end-kept-c
  limbing/#watch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:p07-t04@deepstack
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20280103
+DTEND;VALUE=DATE:20280104
+SUMMARY:DeepStack test (Jan 3\, 2028): Part 07
+DESCRIPTION:Leveraged-loan and corporate maturities arrive\; stress would
+  show today’s rates are reaching AI’s borrowers.\nStory: The Fed Hik
+ ed. The Long End Still Climbed.\nhttps://mcauduro0.github.io/stories/the
+ -fed-hiked-the-long-end-kept-climbing/#watch\nAnalysis and opinion\, not
+  investment advice.
+URL:https://mcauduro0.github.io/stories/the-fed-hiked-the-long-end-kept-c
+ limbing/#watch
+CATEGORIES:DeepStack,The Docket
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p08-t01@deepstack
-DTSTAMP:20261008T023849Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261101
-SUMMARY:DeepStack test (Late October): Part 08
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DeepStack test (Oct 20\, 2026): Part 08
 DESCRIPTION:September-quarter results test cash flow toward $2 trillion a
  nd whether maintenance costs enter accounting.\nStory: AI Lenders Are Fi
  nancing the End of Scarcity\nhttps://mcauduro0.github.io/stories/the-sca
@@ -86,12 +269,12 @@ DESCRIPTION:September-quarter results test cash flow toward $2 trillion a
 URL:https://mcauduro0.github.io/stories/the-scarcity-is-the-collateral/#w
  atch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p08-t02@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:DeepStack test (Nov 23\, 2026): Part 08
@@ -108,7 +291,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p08-t03@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:DeepStack test (Feb 1\, 2027): Part 08
@@ -124,10 +307,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p09-t01@deepstack
-DTSTAMP:20261008T023849Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261101
-SUMMARY:DeepStack test (Late October): Part 09
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:DeepStack test (Oct 28\, 2026): Part 09
 DESCRIPTION:Meta reports its September quarter\; users\, transaction volu
  me and fees would show whether downloads are becoming a business.\nStory
  : Habit Was the Moat. Agents Are Draining It.\nhttps://mcauduro0.github.
@@ -135,27 +318,27 @@ DESCRIPTION:Meta reports its September quarter\; users\, transaction volu
  ent advice.
 URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p09-t02@deepstack
-DTSTAMP:20261008T023849Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261201
-SUMMARY:DeepStack test (Early November): Part 09
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:DeepStack test (Nov 3\, 2026): Part 09
 DESCRIPTION:Booking reports room nights and direct mix\; the result tests
   whether the agent or the incumbent owns the booking.\nStory: Habit Was 
  the Moat. Agents Are Draining It.\nhttps://mcauduro0.github.io/stories/h
  abit-was-the-moat/#watch\nAnalysis and opinion\, not investment advice.
 URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p09-t03@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:DeepStack test (Nov 16\, 2026): Part 09
@@ -170,25 +353,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p09-t04@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270201
-SUMMARY:DeepStack test (January-April): Part 09
+DTEND;VALUE=DATE:20270102
+SUMMARY:DeepStack test (Jan 1\, 2027): Part 09
 DESCRIPTION:The first tax season with agents tests whether households sti
  ll pay Intuit for certainty or ask an agent.\nStory: Habit Was the Moat.
   Agents Are Draining It.\nhttps://mcauduro0.github.io/stories/habit-was-
  the-moat/#watch\nAnalysis and opinion\, not investment advice.
 URL:https://mcauduro0.github.io/stories/habit-was-the-moat/#watch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p10-t01@deepstack
-DTSTAMP:20261008T023849Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261101
-SUMMARY:DeepStack test (Late October): Part 10
+DTSTAMP:20261008T051751Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:DeepStack test (Oct 28\, 2026): Part 10
 DESCRIPTION:Microsoft\, Alphabet\, Meta and Amazon report\; depreciation\
  , server lives and 29.5% growth will test the earnings denominator.\nSto
  ry: The Bubble Is in the Denominator\nhttps://mcauduro0.github.io/storie
@@ -197,12 +380,12 @@ DESCRIPTION:Microsoft\, Alphabet\, Meta and Amazon report\; depreciation\
 URL:https://mcauduro0.github.io/stories/the-bubble-is-in-the-denominator/
  #watch
 CATEGORIES:DeepStack,The Docket
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:p10-t02@deepstack
-DTSTAMP:20261008T023849Z
+DTSTAMP:20261008T051751Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261101
 SUMMARY:DeepStack test (October): Part 10
