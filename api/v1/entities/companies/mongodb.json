@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-09T03:07:01Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "mongodb",
+  "name": "MongoDB",
+  "ticker": "MDB",
+  "url": "https://deepstack.ltd/companies/mongodb/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/mongodb.json",
+  "summary": "MongoDB appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 9,
+      "section": "Lede",
+      "excerpt": "Five days later Meta announced an enterprise platform built on Muse and hired MongoDB’s chief executive to run it.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 9,
+      "section": "Lede",
+      "excerpt": "MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St..",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 4,
+    "claims": 4,
+    "texts": 4,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

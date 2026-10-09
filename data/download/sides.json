@@ -27,7 +27,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as risk"
+        "reading": "read as risk",
+        "against": {
+          "name": "Invest in Assets",
+          "entitySlug": "invest-in-assets",
+          "claim": "A visibility window that extends by a full year across the customer base is much harder to manufacture than a single-customer beat and signals that AI demand is structural rather than lumpy.",
+          "date": "2026-08-09",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that",
+          "access": "licensed",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Burry"
+          },
+          "relation": "contradicts",
+          "dimension": "premise"
+        }
       },
       {
         "id": "insatiable",
@@ -52,7 +66,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as design"
+        "reading": "read as design",
+        "against": {
+          "name": "Michael Burry",
+          "entitySlug": "michael-burry",
+          "claim": "Much and possibly most of current and future AI compute demand is not end-customer demand; the majority of future revenues are financed through a circular off-balance-sheet arrangement.",
+          "date": "2026-07-24",
+          "url": "https://michaeljburry.substack.com/p/trading-post-july-24-2026",
+          "access": "licensed",
+          "linkVerified": true,
+          "answers": {
+            "name": "Kris"
+          },
+          "relation": "contradicts",
+          "dimension": "premise"
+        }
       },
       {
         "id": "crossing",
@@ -85,7 +113,8 @@
             "access": "public",
             "linkVerified": false
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -141,7 +170,7 @@
           {
             "name": "Kris",
             "entitySlug": "kris",
-            "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+            "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
             "date": "2026-06-08",
             "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
             "access": "licensed",
@@ -150,7 +179,7 @@
           {
             "name": "Kris",
             "entitySlug": "kris",
-            "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
+            "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
             "date": "2026-06-08",
             "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
             "access": "licensed",
@@ -175,7 +204,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as warning"
+        "reading": "read as warning",
+        "against": {
+          "name": "Trey Henninger",
+          "entitySlug": "trey-henninger",
+          "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+          "date": "2026-06-08",
+          "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Kris"
+          },
+          "relation": "contradicts",
+          "dimension": "premise"
+        }
       },
       {
         "id": "the-number-is-real",
@@ -184,7 +227,7 @@
           {
             "name": "Jeremie Eliahou Ontiveros",
             "entitySlug": "jeremie-eliahou-ontiveros",
-            "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
+            "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
             "date": "2026-08-07",
             "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
             "access": "public",
@@ -193,14 +236,28 @@
           {
             "name": "Jeremie Eliahou Ontiveros",
             "entitySlug": "jeremie-eliahou-ontiveros",
-            "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
+            "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
             "date": "2026-08-07",
             "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
             "access": "public",
             "linkVerified": true
           }
         ],
-        "reading": "read as entry"
+        "reading": "read as entry",
+        "against": {
+          "name": "Michael Burry",
+          "entitySlug": "michael-burry",
+          "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+          "date": "2026-07-09",
+          "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+          "access": "licensed",
+          "linkVerified": true,
+          "answers": {
+            "name": "Jeremie Eliahou Ontiveros"
+          },
+          "relation": "contradicts",
+          "dimension": "premise"
+        }
       },
       {
         "id": "crossing",
@@ -233,7 +290,8 @@
             "access": "public",
             "linkVerified": false
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -326,7 +384,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as the fuse"
+        "reading": "read as the fuse",
+        "against": {
+          "name": "Oguz Erkan",
+          "entitySlug": "oguz-erkan",
+          "claim": "Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.",
+          "date": "2026-08-06",
+          "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Burry"
+          },
+          "relation": "qualifies",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "borrowing-is-rational",
@@ -370,7 +442,21 @@
             "via": null
           }
         ],
-        "reading": "read as the fuel"
+        "reading": "read as the fuel",
+        "against": {
+          "name": "Vitaliy Katsenelson",
+          "entitySlug": "vitaliy-katsenelson",
+          "claim": "AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…",
+          "date": "2026-08-06",
+          "url": "https://vitaliy.substack.com/p/todays-market-1999-capex-2008-credit",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Market Sentiment"
+          },
+          "relation": "contradicts",
+          "dimension": "premise"
+        }
       },
       {
         "id": "crossing",
@@ -403,7 +489,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -528,7 +615,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as destruction"
+        "reading": "read as destruction",
+        "against": {
+          "name": "Orbis Investments",
+          "entitySlug": "orbis-investments",
+          "claim": "Nebius, an AI-focused cloud infrastructure business with multibillion-dollar infrastructure deals with Microsoft and Meta and a $2 billion Nvidia investment, has a credible base-case pathway to over 4GW of data centre capacity by 2031 that could…",
+          "date": "2026-08-11",
+          "url": "https://fiscal.ai/fund-letters/orbis-investments-q2-2026-fscl_document_3VPA9VYD914",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Kevin Gee"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "spending-is-defense",
@@ -580,7 +681,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "read as defense"
+        "reading": "read as defense",
+        "against": {
+          "name": "Kingswell",
+          "entitySlug": "kingswell",
+          "claim": "The creator flags with unease that Alphabet's Q2 capex hit a record $44.9 billion and full-year guidance was raised to $195-205 billion from $180-190 billion, with executives expecting a higher number next year.",
+          "date": "2026-07-24",
+          "url": "https://www.kingswell.io/p/the-berkshire-beat-july-24-2026",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Kris"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "crossing",
@@ -640,7 +755,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -727,7 +843,7 @@
           {
             "name": "Michael Spencer",
             "entitySlug": "michael-spencer",
-            "claim": "OpenAI grew revenue only about 18% quarter over quarter in Q2 2026 (from $5.7B to $6.7B), while Anthropic grew 142% quarter over quarter to $11.6B, showing OpenAI is slowing at the worst possible time just before its IPO.",
+            "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
             "date": "2026-08-20",
             "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
             "access": "paid",
@@ -736,7 +852,7 @@
           {
             "name": "Michael Spencer",
             "entitySlug": "michael-spencer",
-            "claim": "Anthropic reported preliminary Q2 revenue of $11.5 billion and a projected adjusted operating profit of $559 million, and by the time it goes public it will be comfortably profitable, unlike SpaceX which spent $18.37 billion in capex against just…",
+            "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which the…",
             "date": "2026-08-20",
             "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
             "access": "paid",
@@ -760,7 +876,21 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "DeepValue Capital",
+          "entitySlug": "deepvalue-capital",
+          "claim": "Alibaba's AI models have reached 3 billion downloads, surpassing Meta and Google.",
+          "date": "2026-08-21",
+          "url": "https://deepvaluecapitalbykyler.substack.com/p/week-ending-82126-news-sentiment",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Spencer"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "anthropic-not-yet",
@@ -802,7 +932,8 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       },
       {
         "id": "crossing",
@@ -862,7 +993,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -971,16 +1103,16 @@
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "Carriers had already installed enormous amounts of fiber based on expectations that demand would keep outrunning supply, so when DWDM allowed each fiber to carry dramatically more capacity than expected, the remaining fiber pairs sat dark for years…",
-            "date": "2026-08-26",
-            "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-is-it-going",
+            "claim": "Hyperscalers face hard constraints on grid access, permitting, and environmental impact that are pushing them toward distributed multi-building or multi-campus architectures rather than single massive data centers in one location.",
+            "date": "2026-09-01",
+            "url": "https://gaetanoresearch.substack.com/p/we-need-to-talk-video-data-center",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "The Internet thesis proved correct—traffic exploded, fiber became essential, and optical networking became foundational—but the first-wave companies funding and supplying that infrastructure suffered enormous losses because capacity was built too…",
+            "claim": "Carriers had already installed enormous amounts of fiber based on expectations that demand would keep outrunning supply, so when DWDM allowed each fiber to carry dramatically more capacity than expected, the remaining fiber pairs sat dark for years…",
             "date": "2026-08-26",
             "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-is-it-going",
             "access": "paid",
@@ -995,7 +1127,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "CoreWeave",
+          "entitySlug": "coreweave",
+          "claim": "Older generations of installed infrastructure retain substantial value because a large share of AI workloads do not require frontier silicon, so clusters rolling off their initial contract are recontracted rather than retired.",
+          "date": "2026-08-11",
+          "url": "https://financialmodelingprep.com/earning-call-transcript/CRWV/2026-q2",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Burry"
+          },
+          "relation": "contradicts",
+          "dimension": "mechanism"
+        }
       },
       {
         "id": "scarcity-as-moat",
@@ -1040,22 +1186,36 @@
           {
             "name": "Edelbridge Alpha",
             "entitySlug": "edelbridge-alpha",
-            "claim": "The creator is also hearing that Bloom keeps some capacity available rather than fully committing years in advance, allowing it to serve desperate customers needing power immediately at significantly better economics, analogous to Nebius publicly…",
-            "date": "2026-08-20",
-            "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+            "claim": "Despite extensive resident opposition on noise, water, and emissions grounds at the planning board hearings, Nebius's 350 MW Vineland, New Jersey data center site plan was still approved, showing there is no real 'war' against data centers.",
+            "date": "2026-08-21",
+            "url": "https://edelbridge.substack.com/p/data-center-politics-is-forcing-a",
             "access": "public",
             "linkVerified": true
           },
           {
             "name": "Edelbridge Alpha",
             "entitySlug": "edelbridge-alpha",
-            "claim": "Building more data centers is now a permitting and community-acceptance problem rather than a construction problem, and what makes fuel cells stand out is not being cheapest or theoretically best on every metric, but being the only solution without…",
-            "date": "2026-08-20",
-            "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+            "claim": "Because a single data center campus represents a multi-billion dollar capital commitment, multi-year construction payroll, and permanent tax base addition, while incentives amount to only about 2% of construction investment in hyperscale counties…",
+            "date": "2026-08-21",
+            "url": "https://edelbridge.substack.com/p/data-center-politics-is-forcing-a",
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Michael Spencer",
+          "entitySlug": "michael-spencer",
+          "claim": "Polling data shows roughly 70 to 75 percent of Americans oppose building large datacenters near their homes, and more than half support a national moratorium, with opposition rising since spring 2026.",
+          "date": "2026-08-26",
+          "url": "https://www.ai-supremacy.com/p/the-ai-backlash-is-accelerating-datacenters-2026",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Edelbridge Alpha"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       }
     ],
     "crossings": [
@@ -1163,36 +1323,36 @@
           {
             "name": "Michael Howell",
             "entitySlug": "michael-howell",
-            "claim": "The convenience yield of Treasuries measured against similar-duration AAA domestic bonds appears stronger rather than weaker, and conventional term premia have been broadly stable over the past year, so these indicators do not support the argument…",
-            "date": "2026-08-23",
-            "url": "https://capitalwars.substack.com/p/bonds-bessent-and-bedlam",
+            "claim": "The current bond market cycle is behaving like a normal cycle, and a major buying opportunity for fixed income is approaching as yields near a peak.",
+            "date": "2026-09-18",
+            "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Michael Howell",
             "entitySlug": "michael-howell",
-            "claim": "Suppressing the long end of the yield curve is like holding a beachball underwater: it may work temporarily but the outcome is unstable, because holding long yields down flattens the term structure via arbitrage and shifts pressure to the front…",
-            "date": "2026-08-23",
-            "url": "https://capitalwars.substack.com/p/bonds-bessent-and-bedlam",
+            "claim": "The risk-return balance for bonds is improving: a further 50bp yield rise would still give bonds a positive annual return, while a subsequent 100bp yield fall would generate a more than 12% annual return.",
+            "date": "2026-09-18",
+            "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Matthew C. Klein",
             "entitySlug": "matthew-c-klein",
-            "claim": "A 10-year Treasury note yielding less than 5% in conditions of supply tightening and rising nominal income growth represents the opposite of a disorderly market.",
-            "date": "2026-09-01",
-            "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+            "claim": "Contrary to what many officials expected, inflation stopped decelerating in 2023, which is especially visible in underlying measures that exclude volatile and idiosyncratic components.",
+            "date": "2026-09-14",
+            "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Matthew C. Klein",
             "entitySlug": "matthew-c-klein",
-            "claim": "Current long-term Treasury yields are still low relative to reasonable expectations of inflation and growth, and are only obviously too high if inflation and growth are both set to slow sharply from current levels.",
-            "date": "2026-09-01",
-            "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+            "claim": "The 'supercore' version of the PCE price index was rising about 1 percentage point faster than in the years immediately preceding the pandemic even before the surprises of 2025-2026, and is now rising about 2 percentage points faster.",
+            "date": "2026-09-14",
+            "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is",
             "access": "paid",
             "linkVerified": true
           },
@@ -1214,7 +1374,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "DeepValue Capital",
+          "entitySlug": "deepvalue-capital",
+          "claim": "The creator reads the September BofA Fund Manager Survey as showing investors overcrowded and bullish on semiconductors and tech while selling bonds, staples, REITs and telecoms, and attributes the selling to rising yields hurting predictable…",
+          "date": "2026-09-18",
+          "url": "https://deepvaluecapitalbykyler.substack.com/p/the-fed-hiked-rates-into-falling",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Howell"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "debt",
@@ -1223,16 +1397,16 @@
           {
             "name": "TSCS",
             "entitySlug": "tscs",
-            "claim": "On 16 September the US 10-year inflation-protected bond paid 2.68% over inflation, a level last seen on 26 November 2008, which led the creator to assume something was breaking; after a week of looking he says he could not find a crisis.",
-            "date": "2026-09-21",
-            "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+            "claim": "The Federal Reserve faces a trap: if it hikes rates it loses control of the long end because it feeds an annual interest bill approaching $1 trillion, but if it cuts despite 3.4% inflation it also loses the long end, creating a frustrating setup…",
+            "date": "2026-08-29",
+            "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "TSCS",
             "entitySlug": "tscs",
-            "claim": "Auction and volatility evidence does not look like a crisis: the 10 September 30-year drew 2.61 times bids with dealers taking 2.2%, the lowest dealer share in the 14 years of records the creator could pull against a next-lowest of 5.9%, and the…",
+            "claim": "The creator argues governments and central banks do not want long yields higher and will go a long way to stop it, which means that if they succeed real yields fall and today's 2.65% over inflation won't be on offer for long, and if the way they…",
             "date": "2026-09-21",
             "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
             "access": "paid",
@@ -1250,7 +1424,7 @@
           {
             "name": "Vitaliy Katsenelson",
             "entitySlug": "vitaliy-katsenelson",
-            "claim": "The US Treasury responded by at least doubling its buyback operations for 10- to 30-year maturities to lower yields, financing the purchases by issuing short-term Treasuries; yields fell for a day and then rose again.",
+            "claim": "In mid-August 2026 the 30-year Treasury yield reached its highest level in 19 years, above 5.3% (last seen in 2007), and the 10-year yield hit 4.75%; these are important because 30-year mortgage rates are set from them and about two-thirds of US…",
             "date": "2026-09-10",
             "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
             "access": "public",
@@ -1259,20 +1433,20 @@
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "Bessent's announced program to buy $4 billion, later raised to $6 billion, in long term Treasuries worked for one day before rates marched higher, so he needs a much bigger bazooka or an alternative buyer.",
-            "date": "2026-09-18",
-            "url": "https://realeismanplaybook.substack.com/p/why-dario-amodei-and-sam-altman-are",
+            "claim": "Treasury Secretary Bessent's $4 billion to $6 billion effort to buy long Treasuries and push rates down failed, as rates went up anyway, and his speaking at a partisan political convention undermined his credibility with the bond market.",
+            "date": "2026-09-11",
+            "url": null,
             "access": "paid",
-            "linkVerified": true
+            "linkVerified": false
           },
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "Scott Bessent is in an impossible position because federal debt sits around forty trillion dollars, and no Treasury Secretary has the firepower to push rates down against that kind of weight; intervention only works when fundamentals are already…",
-            "date": "2026-09-21",
-            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+            "claim": "Ten-year Treasury yields have broken through 4.8% and then 4.9%, the highest level since November 2023, driven by the Iran war pushing oil prices above $100.",
+            "date": "2026-09-11",
+            "url": null,
             "access": "paid",
-            "linkVerified": true
+            "linkVerified": false
           },
           {
             "name": "George Noble",
@@ -1296,13 +1470,27 @@
           {
             "name": "Stephen Clapham",
             "entitySlug": "stephen-clapham",
-            "claim": "The US 10 year yield has risen 24bps since Cembalest's quarterly was published and is now close to its 5 year high, following an earlier period in which it had risen only 10bps since Trump's initial 2025 tariff announcement while yields elsewhere…",
+            "claim": "A rise in short rates would be a problem given the government funds around 85% of its financing needs (the flow) with short-term bills, though on a stock basis bonds of over 5 years duration are only about 30% of the total, still a fairly…",
             "date": "2026-09-06",
             "url": null,
             "access": "public",
             "linkVerified": false
           }
-        ]
+        ],
+        "against": {
+          "name": "Michael Howell",
+          "entitySlug": "michael-howell",
+          "claim": "The creator estimates the net-supply component of term premia at minus 27 basis points, with inflation uncertainty and volatility premia also historically subdued, so term premia are low across virtually every measure, implying a significant…",
+          "date": "2026-09-18",
+          "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Vitaliy Katsenelson"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "missing-buyer",
@@ -1311,7 +1499,7 @@
           {
             "name": "Michael W. Green",
             "entitySlug": "michael-w-green",
-            "claim": "Long yields have hit multi-decade extremes across the United States, Japan, Germany, Britain, and Australia despite different deficits, inflation histories, and central banks, which challenges a purely American fiscal explanation and points toward…",
+            "claim": "The structural buyer base for long-duration Treasury debt has been withdrawing in stages for years—the Japanese hedged bid was damaged by the 2022 rate shock, Russia and China ceased buying in summer 2022, corporate pensions largely finished their…",
             "date": "2026-08-23",
             "url": "https://www.yesigiveafig.com/p/great-scott",
             "access": "paid",
@@ -1320,19 +1508,10 @@
           {
             "name": "Michael W. Green",
             "entitySlug": "michael-w-green",
-            "claim": "The price investors demand to warehouse duration has risen because the marginal buyer changed: the old buyer was largely unlevered, liability-matching, and indifferent to financing conditions, while the new buyer is increasingly levered, financed…",
-            "date": "2026-08-23",
-            "url": "https://www.yesigiveafig.com/p/great-scott",
+            "claim": "What markets are showing is not a shortage of safe assets but a shortage of buyers willing to own duration, with sovereigns and corporates both saying the same thing: the corporate safe-asset factory is becoming ordinary risky debt and the…",
+            "date": "2026-08-16",
+            "url": "https://www.yesigiveafig.com/p/anchors-aweigh-my-boys",
             "access": "paid",
-            "linkVerified": true
-          },
-          {
-            "name": "Mia Silverio",
-            "entitySlug": "mia-silverio",
-            "claim": "Canada's public pension funds are the third-largest pool of retirement savings in the world, and Canadian institutional managers are cooling on US investments: this past July Canadians sold $22 billion in US stocks, the biggest monthly sell-off…",
-            "date": "2026-09-21",
-            "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1",
-            "access": "public",
             "linkVerified": true
           },
           {
@@ -1345,6 +1524,24 @@
             "linkVerified": false
           },
           {
+            "name": "Mia Silverio",
+            "entitySlug": "mia-silverio",
+            "claim": "Canada's public pension funds are the third-largest pool of retirement savings in the world, and Canadian institutional managers are cooling on US investments: this past July Canadians sold $22 billion in US stocks, the biggest monthly sell-off…",
+            "date": "2026-09-21",
+            "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "TSCS",
+            "entitySlug": "tscs",
+            "claim": "Oil explains the day-to-day wiggles in yields but not the trend, since Brent is cheaper today than at its spring peak while the 10-year is 70bp higher, even though since the war a $10 Brent move has come with about 5bp on the 10-year (roughly 3…",
+            "date": "2026-09-21",
+            "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
             "name": "TSCS",
             "entitySlug": "tscs",
             "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
@@ -1352,17 +1549,22 @@
             "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
             "access": "public",
             "linkVerified": true
-          },
-          {
-            "name": "TSCS",
-            "entitySlug": "tscs",
-            "claim": "Kevin Warsh is a pretend hawk rather than a constrained one, meaning he talks tough on inflation while avoiding costly action, and this position can be falsified by a rate hike on 16 September.",
-            "date": "2026-08-29",
-            "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
-            "access": "paid",
-            "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Michael Howell",
+          "entitySlug": "michael-howell",
+          "claim": "US term premia remain broadly stable and have recently moved lower, with little sign they are rising relative to foreign equivalents, which undercuts the loss-of-confidence narrative for US Treasuries.",
+          "date": "2026-09-04",
+          "url": "https://capitalwars.substack.com/p/impossible-things",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Mia Silverio"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "crossing",
@@ -1371,7 +1573,7 @@
           {
             "name": "TSCS",
             "entitySlug": "tscs",
-            "claim": "The Federal Reserve faces a trap: if it hikes rates it loses control of the long end because it feeds an annual interest bill approaching $1 trillion, but if it cuts despite 3.4% inflation it also loses the long end, creating a frustrating setup…",
+            "claim": "Kevin Warsh is a pretend hawk rather than a constrained one, meaning he talks tough on inflation while avoiding costly action, and this position can be falsified by a rate hike on 16 September.",
             "date": "2026-08-29",
             "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
             "access": "paid",
@@ -1386,7 +1588,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [
@@ -1601,7 +1804,7 @@
           {
             "name": "Torsten Slok",
             "entitySlug": "torsten-slok",
-            "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+            "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
             "date": "2026-09-29",
             "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
             "access": "public",
@@ -1610,11 +1813,20 @@
           {
             "name": "Torsten Slok",
             "entitySlug": "torsten-slok",
-            "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
-            "date": "2026-09-29",
-            "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+            "claim": "In S&P 500 Q2 earnings season data, AI adoption keeps broadening: 69% of companies now point to a live deployment, up from 64% last quarter.",
+            "date": "2026-09-11",
+            "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-who-is-deploying-ai-to-who-can-prove-the-roi",
             "access": "public",
             "linkVerified": true
+          },
+          {
+            "name": "Michael Burry",
+            "entitySlug": "michael-burry",
+            "claim": "Alibaba's shift to financing an AI data center buildout through share issuance is a demerit against the investment thesis, as the buildout may be 'practically interminable' without a clear productive path.",
+            "date": "2026-09-04",
+            "url": null,
+            "access": "licensed",
+            "linkVerified": false
           },
           {
             "name": "Michael Burry",
@@ -1626,11 +1838,11 @@
             "linkVerified": true
           },
           {
-            "name": "Michael Burry",
-            "entitySlug": "michael-burry",
-            "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
-            "date": "2026-09-19",
-            "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "Using a model assuming equipment costs rise to $100 billion per GW by 2030, five-year equipment cost recovery, 25-year site cost recovery, a 15% annual return on invested capital, and a 65% cloud operating margin, AI labs would need to reach $6.8…",
+            "date": "2026-09-21",
+            "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
             "access": "paid",
             "linkVerified": true
           },
@@ -1642,17 +1854,22 @@
             "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
             "access": "paid",
             "linkVerified": true
-          },
-          {
-            "name": "Daniel Romero",
-            "entitySlug": "daniel-romero",
-            "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
-            "date": "2026-09-21",
-            "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
-            "access": "paid",
-            "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Kris",
+          "entitySlug": "kris",
+          "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+          "date": "2026-09-16",
+          "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Daniel Romero"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "spending-pays",
@@ -1703,7 +1920,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "DeepValue Capital",
+          "entitySlug": "deepvalue-capital",
+          "claim": "Apollo argues the hyperscaler credit story rests on a single consensus assumption that operating cash flow triples from $600 billion to $2 trillion, and that if this does not happen, the AI trade could weaken with credit spreads widening, capex…",
+          "date": "2026-09-25",
+          "url": "https://deepvaluecapitalbykyler.substack.com/p/the-data-is-clear-bargains-are-out",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Market Sentiment"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       }
     ],
     "questions": [
@@ -1734,21 +1965,13 @@
                 "linkVerified": false,
                 "via": "Steve Eisman"
               }
-            ]
+            ],
+            "against": null
           },
           {
             "id": "real-cash",
             "label": "Real cash, real use",
             "voices": [
-              {
-                "name": "Gaetano",
-                "entitySlug": "gaetano",
-                "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
-                "date": "2026-09-07",
-                "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
-                "access": "public",
-                "linkVerified": true
-              },
               {
                 "name": "Gaetano",
                 "entitySlug": "gaetano",
@@ -1759,24 +1982,47 @@
                 "linkVerified": true
               },
               {
-                "name": "Ren",
-                "entitySlug": "ren",
-                "claim": "Operating leverage is visible on the income statements of hyperscalers, with Azure growing 43 percent, Google Cloud 82 percent, and AWS growing 37 percent, which is the fastest AWS has grown in eighteen quarters.",
-                "date": "2026-08-31",
-                "url": "https://renstocks.substack.com/p/the-ai-cloud-business-who-actually",
-                "access": "paid",
+                "name": "Gaetano",
+                "entitySlug": "gaetano",
+                "claim": "Moving beyond the hyperscalers, financing becomes messier: neoclouds are borrowing enormous amounts of money, AI labs need compute without necessarily having the cash flow to fund it, NVIDIA is investing throughout the ecosystem, infrastructure…",
+                "date": "2026-09-07",
+                "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
+                "access": "public",
                 "linkVerified": true
               },
               {
                 "name": "Ren",
                 "entitySlug": "ren",
-                "claim": "Cloud capex forecasts have risen dramatically, with combined 2026 and 2027 cloud capex forecast at 1.3 trillion in January rising to 2.1 trillion by the creation date, representing eight hundred billion dollars of additional expected spending…",
-                "date": "2026-08-31",
-                "url": "https://renstocks.substack.com/p/the-ai-cloud-business-who-actually",
+                "claim": "In the August 14, 2026 edition, the author argues: The creator warns the whole theme is AI with more leverage and less liquidity: every fund is under four months old with no track record, the largest is run by a first-time adviser, in a capex pause…",
+                "date": "2026-07-27",
+                "url": null,
+                "access": "public",
+                "linkVerified": false
+              },
+              {
+                "name": "Ren",
+                "entitySlug": "ren",
+                "claim": "AGI is not the investable trade; compute is, because Astra adds a second, inference-driven demand chain (more capable models, more agents, more delegated work, longer inference trajectories, more tokens, more compute) alongside the existing…",
+                "date": "2026-09-15",
+                "url": "https://renstocks.substack.com/p/openai-astra-has-agi-arrived",
                 "access": "paid",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "Geo Chen",
+              "entitySlug": "geo-chen",
+              "claim": "Of the bearish scenarios they warned about when exiting their AI portfolio in June, only the decline in token costs from open and Chinese models gaining market share has come to pass, while AI revenues, capex spending, and bottlenecks remain bullish.",
+              "date": "2026-09-08",
+              "url": "https://www.fidenzamacro.com/p/answers-to-ama-questions-part-1",
+              "access": "public",
+              "linkVerified": true,
+              "answers": {
+                "name": "Ren"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           }
         ]
       },
@@ -1791,7 +2037,7 @@
               {
                 "name": "JunkBondInvestor",
                 "entitySlug": "junkbondinvestor",
-                "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
+                "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
                 "date": "2026-09-13",
                 "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
                 "access": "public",
@@ -1800,18 +2046,28 @@
               {
                 "name": "JunkBondInvestor",
                 "entitySlug": "junkbondinvestor",
-                "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
+                "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
                 "date": "2026-09-13",
                 "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes",
                 "access": "public",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": null
           },
           {
             "id": "guarantees-not-faith",
             "label": "Guarantees, not faith",
             "voices": [
+              {
+                "name": "Michael Burry",
+                "entitySlug": "michael-burry",
+                "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
+                "date": "2026-09-19",
+                "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+                "access": "paid",
+                "linkVerified": true
+              },
               {
                 "name": "Michael Burry",
                 "entitySlug": "michael-burry",
@@ -1822,29 +2078,20 @@
                 "linkVerified": true
               },
               {
-                "name": "Michael Burry",
-                "entitySlug": "michael-burry",
-                "claim": "Microsoft's raising of its buildings-and-improvements depreciation useful life ceiling from 15 to 25 years is likely a move of convenience that lets it keep tripled data center leases classified as operating rather than finance leases, since ASC…",
-                "date": "2026-09-24",
-                "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+                "name": "Steve Eisman",
+                "entitySlug": "steve-eisman",
+                "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+                "date": "2026-09-21",
+                "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
                 "access": "paid",
                 "linkVerified": true
               },
               {
                 "name": "Steve Eisman",
                 "entitySlug": "steve-eisman",
-                "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-                "date": "2026-09-09",
-                "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
-                "access": "paid",
-                "linkVerified": true
-              },
-              {
-                "name": "Steve Eisman",
-                "entitySlug": "steve-eisman",
-                "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
-                "date": "2026-09-09",
-                "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+                "claim": "George Noble cites an estimate from Julien Garran at MacroStrategy putting AI malinvestment at roughly twenty four times what was seen during the dot com bubble.",
+                "date": "2026-09-21",
+                "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
                 "access": "paid",
                 "linkVerified": true
               },
@@ -1866,7 +2113,8 @@
                 "access": "paid",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": null
           }
         ]
       }
@@ -2088,16 +2336,16 @@
           {
             "name": "Andrew Walker",
             "entitySlug": "andrew-walker",
-            "claim": "The major current use case for consumer AI agents appears to be saving people money, as illustrated by widely retweeted examples of an agent called Muse saving users money on insurance, returns, phone bills, and even getting free food.",
-            "date": "2026-09-21",
-            "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
+            "claim": "Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), the creator says both are too extreme but if forced to pick, they…",
+            "date": "2026-09-28",
+            "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
             "access": "public",
             "linkVerified": true
           },
           {
             "name": "Andrew Walker",
             "entitySlug": "andrew-walker",
-            "claim": "The most popular category people report saving money on via AI agents is internet or wireless bills, and this is also the category the creator has received the most \"is this a short\" inbound questions about, with signs it is starting to filter into…",
+            "claim": "AI agents make price-shopping and replacing skilled workers (e.g., using AI to edit a podcast instead of a consultant) easy, and if saving money is the core consumer use case for AI, this could have a deflationary impact on the consumer economy at…",
             "date": "2026-09-21",
             "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
             "access": "public",
@@ -2106,16 +2354,16 @@
           {
             "name": "Tae Kim",
             "entitySlug": "tae-kim",
-            "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
-            "date": "2026-09-22",
-            "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
-            "access": "paid",
-            "linkVerified": true
+            "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+            "date": "2026-09-07",
+            "url": null,
+            "access": "public",
+            "linkVerified": false
           },
           {
             "name": "Tae Kim",
             "entitySlug": "tae-kim",
-            "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+            "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
             "date": "2026-09-22",
             "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
             "access": "paid",
@@ -2139,7 +2387,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Le Shrub",
+          "entitySlug": "le-shrub",
+          "claim": "The creator questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
+          "date": "2026-09-22",
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Andrew Walker"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "still-a-demo",
@@ -2184,7 +2446,7 @@
           {
             "name": "Michael Spencer",
             "entitySlug": "michael-spencer",
-            "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+            "claim": "The creator is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…",
             "date": "2026-09-29",
             "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
             "access": "public",
@@ -2193,13 +2455,27 @@
           {
             "name": "Michael Spencer",
             "entitySlug": "michael-spencer",
-            "claim": "Since Muse's release, it is claimed that consumers who gave the AI access to banking and credit card statements found it to be a great budgeting coach, leading them to cancel unnecessary subscriptions, and the creator expects a huge subscription…",
-            "date": "2026-09-29",
-            "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
-            "access": "public",
+            "claim": "Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…",
+            "date": "2026-09-08",
+            "url": "https://www.ai-supremacy.com/p/gpt-6-astra-hugging-face-incident-2026-review",
+            "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Le Shrub",
+          "entitySlug": "le-shrub",
+          "claim": "The creator says that, like an everyday 'normie', they want something simple and non-geeky for daily tasks rather than a highly advanced model that solves difficult math problems, implying simpler consumer AI tools like Muse may win out over more…",
+          "date": "2026-09-22",
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Spencer"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "crossing",
@@ -2208,7 +2484,7 @@
           {
             "name": "Andrew Walker",
             "entitySlug": "andrew-walker",
-            "claim": "The creator suggests that Muse acting as a layer that decides where consumer spend goes is a massive threat and opportunity for retailers, noting as evidence that Amazon banned Muse.",
+            "claim": "The creator says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.",
             "date": "2026-09-28",
             "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
             "access": "public",
@@ -2217,10 +2493,10 @@
           {
             "name": "Andrew Walker",
             "entitySlug": "andrew-walker",
-            "claim": "Craneware's customer base of established US hospitals is likely highly resistant to replacing entrenched software systems, making the business unlikely to be disrupted by AI coding tools.",
-            "date": "2026-09-11",
-            "url": "https://www.yetanothervalueblog.com/p/uk-stocks-are-dirt-cheap-why-wont",
-            "access": "paid",
+            "claim": "The creator suggests that Muse acting as a layer that decides where consumer spend goes is a massive threat and opportunity for retailers, noting as evidence that Amazon banned Muse.",
+            "date": "2026-09-28",
+            "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+            "access": "public",
             "linkVerified": true
           },
           {
@@ -2232,7 +2508,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "questions": [
@@ -2247,18 +2524,18 @@
               {
                 "name": "Andrew Walker",
                 "entitySlug": "andrew-walker",
-                "claim": "The creator's market-related takeaway is that Muse (a consumer AI agent) is very bearish for businesses that rely on consumer inertia (OTAs, subscription services, banks, etc.), and the stock market seems to be starting to agree with and catch up…",
-                "date": "2026-09-24",
-                "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
-                "access": "public",
+                "claim": "Craneware's customer base of established US hospitals is likely highly resistant to replacing entrenched software systems, making the business unlikely to be disrupted by AI coding tools.",
+                "date": "2026-09-11",
+                "url": "https://www.yetanothervalueblog.com/p/uk-stocks-are-dirt-cheap-why-wont",
+                "access": "paid",
                 "linkVerified": true
               },
               {
                 "name": "Andrew Walker",
                 "entitySlug": "andrew-walker",
-                "claim": "Based on conversations with 'normie' friends (a possibly small/early sample), most people who get access to Muse, including the creator himself, have an early productivity burst that fades off hard as usage falls off a cliff within a few days.",
-                "date": "2026-09-24",
-                "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
+                "claim": "The major current use case for consumer AI agents appears to be saving people money, as illustrated by widely retweeted examples of an agent called Muse saving users money on insurance, returns, phone bills, and even getting free food.",
+                "date": "2026-09-21",
+                "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
                 "access": "public",
                 "linkVerified": true
               },
@@ -2283,6 +2560,15 @@
               {
                 "name": "Tae Kim",
                 "entitySlug": "tae-kim",
+                "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+                "date": "2026-09-22",
+                "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+                "access": "paid",
+                "linkVerified": true
+              },
+              {
+                "name": "Tae Kim",
+                "entitySlug": "tae-kim",
                 "claim": "The creator says he has seen enough: the personal AI agents released over the past month will be a huge paradigm shift for computer usage and a major positive inflection point for technology.",
                 "date": "2026-10-02",
                 "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
@@ -2290,12 +2576,12 @@
                 "linkVerified": true
               },
               {
-                "name": "Tae Kim",
-                "entitySlug": "tae-kim",
-                "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
-                "date": "2026-10-02",
-                "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
-                "access": "paid",
+                "name": "Alex Immerman",
+                "entitySlug": "alex-immerman",
+                "claim": "Customers already accept higher menu prices on DoorDash to pay for convenience, which was necessary for restaurant economics to work; the creator is uncertain whether people would similarly accept higher prices shown to assistants or pay a…",
+                "date": "2026-09-29",
+                "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+                "access": "public",
                 "linkVerified": true
               },
               {
@@ -2306,17 +2592,22 @@
                 "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
                 "access": "public",
                 "linkVerified": true
-              },
-              {
-                "name": "Alex Immerman",
-                "entitySlug": "alex-immerman",
-                "claim": "Even if incumbents keep their fulfillment advantage, that doesn't guarantee they preserve their profit pool: in 2025 Amazon generated $69 billion in advertising revenue versus $34 billion in operating income ex-AWS, and at an assumed 70%…",
-                "date": "2026-09-29",
-                "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
-                "access": "public",
-                "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "Abhi Yadav",
+              "entitySlug": "abhi-yadav",
+              "claim": "Enterprises face a bind between building AI tools (which may never get past pilot) and buying vendor platforms (which risks more organizational intelligence ending up inside somebody else's system).",
+              "date": "2026-09-27",
+              "url": "https://abhiyadav.substack.com/p/ownership-isnt-building-it-yourself",
+              "access": "public",
+              "linkVerified": true,
+              "answers": {
+                "name": "Andrew Walker"
+              },
+              "relation": "qualifies",
+              "dimension": "condition"
+            }
           },
           {
             "id": "not-every-habit",
@@ -2343,18 +2634,18 @@
               {
                 "name": "Andrew Walker",
                 "entitySlug": "andrew-walker",
-                "claim": "Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), the creator says both are too extreme but if forced to pick, they…",
-                "date": "2026-09-28",
-                "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+                "claim": "The creator's market-related takeaway is that Muse (a consumer AI agent) is very bearish for businesses that rely on consumer inertia (OTAs, subscription services, banks, etc.), and the stock market seems to be starting to agree with and catch up…",
+                "date": "2026-09-24",
+                "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
                 "access": "public",
                 "linkVerified": true
               },
               {
                 "name": "Andrew Walker",
                 "entitySlug": "andrew-walker",
-                "claim": "The creator says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.",
-                "date": "2026-09-28",
-                "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+                "claim": "Based on conversations with 'normie' friends (a possibly small/early sample), most people who get access to Muse, including the creator himself, have an early productivity burst that fades off hard as usage falls off a cliff within a few days.",
+                "date": "2026-09-24",
+                "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
                 "access": "public",
                 "linkVerified": true
               },
@@ -2376,7 +2667,8 @@
                 "access": "public",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": null
           }
         ]
       },
@@ -2427,16 +2719,16 @@
               {
                 "name": "Tae Kim",
                 "entitySlug": "tae-kim",
-                "claim": "With the release of GPT-6 Astra, computer tool use AI has finally become real, and he is now confident AI will soon perform actual software knowledge work tasks better and faster than most humans, with competence accelerating rapidly from here.",
-                "date": "2026-09-07",
-                "url": null,
-                "access": "public",
-                "linkVerified": false
+                "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+                "date": "2026-10-02",
+                "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+                "access": "paid",
+                "linkVerified": true
               },
               {
                 "name": "Tae Kim",
                 "entitySlug": "tae-kim",
-                "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+                "claim": "With the release of GPT-6 Astra, computer tool use AI has finally become real, and he is now confident AI will soon perform actual software knowledge work tasks better and faster than most humans, with competence accelerating rapidly from here.",
                 "date": "2026-09-07",
                 "url": null,
                 "access": "public",
@@ -2445,10 +2737,10 @@
               {
                 "name": "Michael Spencer",
                 "entitySlug": "michael-spencer",
-                "claim": "Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…",
-                "date": "2026-09-08",
-                "url": "https://www.ai-supremacy.com/p/gpt-6-astra-hugging-face-incident-2026-review",
-                "access": "paid",
+                "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+                "date": "2026-09-29",
+                "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+                "access": "public",
                 "linkVerified": true
               },
               {
@@ -2460,7 +2752,8 @@
                 "access": "paid",
                 "linkVerified": false
               }
-            ]
+            ],
+            "against": null
           },
           {
             "id": "rails-and-atoms",
@@ -2505,22 +2798,36 @@
               {
                 "name": "Stephen Clapham",
                 "entitySlug": "stephen-clapham",
-                "claim": "After listening to Daniel Susskind discuss the range of activities AI may change, the creator sees an appeal in assets that are relatively immune to AI disruption, such as a tank terminal that takes land, permits, capital and often years to build…",
-                "date": "2026-09-27",
-                "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+                "claim": "The creator notes the FT panel did not explain the post-2022 fall in the graduate premium, and argues part of it is non-graduate pay rising rather than graduates faring worse, citing rocketing US demand for electricians, while judging AI too recent…",
+                "date": "2026-09-13",
+                "url": "https://behindthebalancesheet.substack.com/p/when-the-numbers-dont-add-up",
                 "access": "paid",
                 "linkVerified": true
               },
               {
                 "name": "Stephen Clapham",
                 "entitySlug": "stephen-clapham",
-                "claim": "Vopak's terminals occupy strategically valuable port locations that are difficult, slow and expensive to replicate, and the company has a market cap of €5.4bn versus an enterprise value of €8.3bn, which the creator sees as a massive discount to…",
-                "date": "2026-09-27",
-                "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+                "claim": "Moritz argued that AI is the inshoring of jobs to robots and tokens, threatening white-collar work as globalisation offshored blue-collar work, and that because each successive tech wave has reached more computers the effects will be felt more…",
+                "date": "2026-09-13",
+                "url": "https://behindthebalancesheet.substack.com/p/when-the-numbers-dont-add-up",
                 "access": "paid",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "Jensen Huang",
+              "entitySlug": "jensen-huang",
+              "claim": "Huang argues past dramatic AI predictions have proven wrong: a prediction that radiology would be completely taken over by AI within five years with no radiologists left turned out to be the opposite, since more radiologists are needed than ever; a…",
+              "date": "2026-09-15",
+              "url": "https://taekim.substack.com/p/jensen-huang-on-the-irresponsible",
+              "access": "public",
+              "linkVerified": true,
+              "answers": {
+                "name": "Stephen Clapham"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           }
         ]
       }
@@ -2623,36 +2930,36 @@
           {
             "name": "Michael Burry",
             "entitySlug": "michael-burry",
-            "claim": "Acting on the expected AI-boom-to-bust thesis, the creator bought more MetLife (MET) 2029 puts far out of the money.",
-            "date": "2026-10-05",
-            "url": "https://michaeljburry.substack.com/p/trading-post-october-5-2026",
+            "claim": "CoreWeave and Nvidia's efforts to show stamina in the pricing of their chips are simply at odds with the depreciation realities lenders actually face.",
+            "date": "2026-09-28",
+            "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Michael Burry",
             "entitySlug": "michael-burry",
-            "claim": "The residual-value numbers on Nvidia's slide are not actual second-hand prices but the present value of current rental income run out over 8 years according to a continuous discounted cash flow model built on assumptions like 75% utilization and a…",
-            "date": "2026-10-01",
-            "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+            "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+            "date": "2026-09-28",
+            "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Ren",
             "entitySlug": "ren",
-            "claim": "Semiconductors trade at 17.1x forward earnings while the S&P 500 sits at 19.0x, so the sector powering the largest capex cycle in history is priced at a discount to the average American company, versus the same group trading at 35x two years ago.",
-            "date": "2026-10-05",
-            "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
-            "access": "paid",
+            "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+            "date": "2026-09-28",
+            "url": "https://renstocks.substack.com/p/power-supply-supply-chain",
+            "access": "public",
             "linkVerified": true
           },
           {
             "name": "Ren",
             "entitySlug": "ren",
-            "claim": "Almost the entire move of this cycle has come from earnings growth rather than multiple expansion, unlike the run-up to March 2000 when the forward multiple on tech expanded roughly 250%, versus about 14% expansion since October 2022; a rally paid…",
-            "date": "2026-10-05",
-            "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+            "claim": "The popular Jevons-paradox story that cheaper inference means bulk consumption and justifies simply buying the picks-and-shovels trade does not match Astra's actual pricing, since Astra's tokens got more expensive per unit (versus Sol, 2.5x on…",
+            "date": "2026-09-15",
+            "url": "https://renstocks.substack.com/p/openai-astra-has-agi-arrived",
             "access": "paid",
             "linkVerified": true
           },
@@ -2674,7 +2981,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "David George",
+          "entitySlug": "david-george",
+          "claim": "GPUs are already running hot even while the data indicates it's still very early in mature AI adoption and utilization.",
+          "date": "2026-09-30",
+          "url": "https://www.a16z.news/p/state-of-markets-ii",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Burry"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "renting-at-january-prices",
@@ -2683,7 +3004,7 @@
           {
             "name": "David George",
             "entitySlug": "david-george",
-            "claim": "Since 2023, tech has been the earnings growth story, contributing about 76% of the S&P 500's total earnings growth in 2026 as of late August.",
+            "claim": "GPUs are already running hot even while the data indicates it's still very early in mature AI adoption and utilization.",
             "date": "2026-09-30",
             "url": "https://www.a16z.news/p/state-of-markets-ii",
             "access": "public",
@@ -2692,7 +3013,7 @@
           {
             "name": "David George",
             "entitySlug": "david-george",
-            "claim": "For now at least, the upward-inflecting demand curve for AI compute means older chips like A100s are still pretty useful, with rental rates and residual values not decreasing as expected and even A100 pricing at or above where it was at the start…",
+            "claim": "Since 2023, tech has been the earnings growth story, contributing about 76% of the S&P 500's total earnings growth in 2026 as of late August.",
             "date": "2026-09-30",
             "url": "https://www.a16z.news/p/state-of-markets-ii",
             "access": "public",
@@ -2734,7 +3055,21 @@
             "access": "paid",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": {
+          "name": "Michael Burry",
+          "entitySlug": "michael-burry",
+          "claim": "CoreWeave and Nvidia's efforts to show stamina in the pricing of their chips are simply at odds with the depreciation realities lenders actually face.",
+          "date": "2026-09-28",
+          "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "David George"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       }
     ],
     "questions": [
@@ -2749,18 +3084,18 @@
               {
                 "name": "Torsten Slok",
                 "entitySlug": "torsten-slok",
-                "claim": "Wall Street equity analysts work in sector silos, and adding up their forecasts produces internally inconsistent numbers.",
-                "date": "2026-09-29",
-                "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+                "claim": "Rates are rising for reasons beyond a strong economy: sticky inflation is lifting yields in the front end, record hyperscaler debt issuance is pressuring the belly, and fiscal worries are pushing up the long end.",
+                "date": "2026-09-26",
+                "url": "https://www.apollo.com/insights-news/insights/daily-spark/recent-rates-volatility-risks-and-opportunities-in-credit",
                 "access": "public",
                 "linkVerified": true
               },
               {
                 "name": "Torsten Slok",
                 "entitySlug": "torsten-slok",
-                "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
-                "date": "2026-09-29",
-                "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+                "claim": "This disclosure pattern still leaves investors without a verifiable link between AI capex and the top line.",
+                "date": "2026-09-11",
+                "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-who-is-deploying-ai-to-who-can-prove-the-roi",
                 "access": "public",
                 "linkVerified": true
               },
@@ -2776,16 +3111,16 @@
               {
                 "name": "Michael Spencer",
                 "entitySlug": "michael-spencer",
-                "claim": "A lot of the tasks agents are being asked to do won't translate into real economic value, despite requiring massive compute, which is actually how the entire AI thesis could break given the debt behind the AI infrastructure build-out.",
-                "date": "2026-10-01",
-                "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
-                "access": "paid",
+                "claim": "The creator argues that if there really is around US$3.5 trillion of off-the-books exposure on top of capex, the U.S. is in serious trouble if and when the AI boom falters, referencing an August Wall Street Journal report that combined…",
+                "date": "2026-09-11",
+                "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate",
+                "access": "public",
                 "linkVerified": true
               },
               {
                 "name": "Mia Silverio",
                 "entitySlug": "mia-silverio",
-                "claim": "Overall market earnings strength this year hinges on AI investment, since Goldman Sachs estimates half of earnings growth this year will come from AI investment, even though the S&P 493 (excluding the Magnificent 7) grew earnings 31.8% in Q2 2026…",
+                "claim": "Anthropic's expected ~$2 trillion IPO valuation is not justified by its numbers, given that it would need $1.2 trillion in annual revenue within 10 years (per Aswath Damodaran) to justify that valuation while the entire current AI products and…",
                 "date": "2026-10-05",
                 "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
                 "access": "public",
@@ -2794,7 +3129,7 @@
               {
                 "name": "Mia Silverio",
                 "entitySlug": "mia-silverio",
-                "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
+                "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
                 "date": "2026-10-05",
                 "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
                 "access": "public",
@@ -2803,22 +3138,36 @@
               {
                 "name": "Steve Eisman",
                 "entitySlug": "steve-eisman",
-                "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
-                "date": "2026-09-25",
-                "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+                "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+                "date": "2026-09-14",
+                "url": null,
                 "access": "paid",
-                "linkVerified": true
+                "linkVerified": false
               },
               {
                 "name": "Steve Eisman",
                 "entitySlug": "steve-eisman",
-                "claim": "Meta financed a $27 billion Louisiana data center last year through an SPV called Beignet Investor LLC, owning only 20% while Blue Owl and Pimco hold the rest; Meta is building it, has promised to rent it for 20 years, and bears the cost of delays…",
-                "date": "2026-09-25",
-                "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+                "claim": "Bessent's announced program to buy $4 billion, later raised to $6 billion, in long term Treasuries worked for one day before rates marched higher, so he needs a much bigger bazooka or an alternative buyer.",
+                "date": "2026-09-18",
+                "url": null,
                 "access": "paid",
-                "linkVerified": true
+                "linkVerified": false
               }
-            ]
+            ],
+            "against": {
+              "name": "Jensen Huang",
+              "entitySlug": "jensen-huang",
+              "claim": "NVIDIA will generate increasingly large amounts of cash from being at the center of what he calls the largest industrial infrastructure build out in human history, and the smart use of that cash is to buy NVIDIA stock because he believes it is…",
+              "date": "2026-09-29",
+              "url": "https://taekim.substack.com/p/jensen-huang-press-q-and-a-nvidia",
+              "access": "paid",
+              "linkVerified": true,
+              "answers": {
+                "name": "Steve Eisman"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           },
           {
             "id": "everyone-soon",
@@ -2827,7 +3176,7 @@
               {
                 "name": "Aurelion Research",
                 "entitySlug": "aurelion-research",
-                "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+                "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
                 "date": "2026-09-11",
                 "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
                 "access": "public",
@@ -2836,7 +3185,7 @@
               {
                 "name": "Aurelion Research",
                 "entitySlug": "aurelion-research",
-                "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+                "claim": "The creator treats sharply rising third-party token forecasts — Dell moving from 1 quadrillion to 57 quadrillion tokens per month by end-2028, and a Goldman Sachs estimate roughly 10x Dell's revised number — as showing AI usage growing far faster…",
                 "date": "2026-09-11",
                 "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
                 "access": "public",
@@ -2872,22 +3221,36 @@
               {
                 "name": "Daniel Romero",
                 "entitySlug": "daniel-romero",
+                "claim": "He is already highly concentrated in AI, mostly in power plays, memory, and AMD, and believes that even if the AI trade stays strong, other segments could possibly perform better, which is why he has started diversifying into semicaps.",
+                "date": "2026-10-01",
+                "url": null,
+                "access": "paid",
+                "linkVerified": false
+              },
+              {
+                "name": "Daniel Romero",
+                "entitySlug": "daniel-romero",
                 "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
                 "date": "2026-09-21",
                 "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
                 "access": "paid",
                 "linkVerified": true
-              },
-              {
-                "name": "Daniel Romero",
-                "entitySlug": "daniel-romero",
-                "claim": "The semiconductor industry is supported by the AI data center buildout, which itself depends on Anthropic's and OpenAI's total addressable market since these two companies have driven almost every major AI advancement since 2022 and carry a…",
-                "date": "2026-09-21",
-                "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
-                "access": "paid",
-                "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "Torsten Slok",
+              "entitySlug": "torsten-slok",
+              "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+              "access": "public",
+              "linkVerified": true,
+              "answers": {
+                "name": "Aurelion Research"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           }
         ]
       },
@@ -2902,22 +3265,36 @@
               {
                 "name": "Michael Howell",
                 "entitySlug": "michael-howell",
-                "claim": "The creator underestimated the pace of earnings growth in 2026: valuation multiples compressed as expected, but corporate earnings expanded far more rapidly than anticipated, fuelled by AI investment, which is why equities, notably technology…",
-                "date": "2026-09-25",
-                "url": "https://capitalwars.substack.com/p/understanding-the-commodity-boom",
-                "access": "public",
+                "claim": "The recent rise in Treasury yields has been driven primarily by higher expected short-term interest rates rather than by expanding term premia, and there is a reasonable case that term premia have actually been declining.",
+                "date": "2026-09-18",
+                "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
+                "access": "paid",
                 "linkVerified": true
               },
               {
                 "name": "Michael Howell",
                 "entitySlug": "michael-howell",
-                "claim": "Higher bond yields reflect an economy growing faster than official policy settings can comfortably accommodate and a policy framework increasingly dependent upon maintaining abundant liquidity.",
-                "date": "2026-09-11",
-                "url": "https://capitalwars.substack.com/p/bonds-treasury-qe-and-the-3-3-3-30",
-                "access": "paid",
+                "claim": "Evidence of falling term premia is already visible in the 10-year versus 5-year yield spread narrowing to 13bp from over 45bp at the start of 2026.",
+                "date": "2026-09-27",
+                "url": "https://capitalwars.substack.com/p/phoney-press-panic",
+                "access": "public",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "TSCS",
+              "entitySlug": "tscs",
+              "claim": "Most of this year's rise in the 10-year yield is the real yield rather than inflation expectations: from the 27 February low the 10-year rose 104bp, of which 96bp was real yield and 8bp breakeven, with the market's decade-ahead inflation guess…",
+              "date": "2026-09-21",
+              "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+              "access": "paid",
+              "linkVerified": true,
+              "answers": {
+                "name": "Michael Howell"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           },
           {
             "id": "long-end-nobody-caps",
@@ -2926,7 +3303,7 @@
               {
                 "name": "TSCS",
                 "entitySlug": "tscs",
-                "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
+                "claim": "As of writing, the ten-year reached 5.04%, the highest since 2007, Brent is over $100 and the S&P is a few percent off its high, so the market priced the hike it asked for and the long end rose anyway.",
                 "date": "2026-09-16",
                 "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
                 "access": "public",
@@ -2935,10 +3312,10 @@
               {
                 "name": "TSCS",
                 "entitySlug": "tscs",
-                "claim": "The creator argues the marginal long-end buyer has changed: a Japanese lifer hedging dollars back to yen earned about 95bp less on a hedged Treasury than on a JGB on the one day with a published hedge cost, so it stops rolling rather than sells…",
-                "date": "2026-09-16",
-                "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
-                "access": "public",
+                "claim": "Most of this year's rise in the 10-year yield is the real yield rather than inflation expectations: from the 27 February low the 10-year rose 104bp, of which 96bp was real yield and 8bp breakeven, with the market's decade-ahead inflation guess…",
+                "date": "2026-09-21",
+                "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+                "access": "paid",
                 "linkVerified": true
               },
               {
@@ -2953,7 +3330,7 @@
               {
                 "name": "Vitaliy Katsenelson",
                 "entitySlug": "vitaliy-katsenelson",
-                "claim": "The AI-focused stocks, which make up roughly 37 percent of the S&P 500 and drive a good chunk of daily market movements, are fueling optimism and a growing debt pile in the AI economy, while the rest of the economy struggles.",
+                "claim": "Bond investors are declining to purchase US Treasuries at 4.7% because the US runs large budget deficits that may worsen, and budget deficits lead to inflation paid back through cheaper dollars.",
                 "date": "2026-09-10",
                 "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
                 "access": "public",
@@ -2971,31 +3348,45 @@
               {
                 "name": "Torsten Slok",
                 "entitySlug": "torsten-slok",
-                "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-                "date": "2026-09-21",
-                "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+                "claim": "Because data centers, power generation, transmission and government deficits are all long-duration claims on savings, the competition for capital concentrates at the long end of the curve, which is why long rates have moved more than short rates.",
+                "date": "2026-09-12",
+                "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage",
                 "access": "public",
                 "linkVerified": true
               },
               {
                 "name": "Michael Burry",
                 "entitySlug": "michael-burry",
-                "claim": "The entire extra present value shown for the oldest GPU (A100) in the model is attributable entirely to years 7 and 8 being added into the depreciation model, so the A100's current 25% ratio comes solely from those added years.",
-                "date": "2026-10-01",
-                "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+                "claim": "Acting on the expected AI-boom-to-bust thesis, the creator bought more MetLife (MET) 2029 puts far out of the money.",
+                "date": "2026-10-05",
+                "url": "https://michaeljburry.substack.com/p/trading-post-october-5-2026",
                 "access": "paid",
                 "linkVerified": true
               },
               {
                 "name": "Michael Burry",
                 "entitySlug": "michael-burry",
-                "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
-                "date": "2026-09-28",
-                "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+                "claim": "None of the hyperscalers' filings disclose how much of the reported AI demand and revenue growth is circular—originating on a company's own balance sheet and injected into customer companies that then leverage up to generate demand/revenue—and…",
+                "date": "2026-09-19",
+                "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
                 "access": "paid",
                 "linkVerified": true
               }
-            ]
+            ],
+            "against": {
+              "name": "Ren",
+              "entitySlug": "ren",
+              "claim": "Big funds were buyers of tech through September, the only sector they added to, yet their exposure is still well below where it stood in July, meaning they have room to buy and know it; this caution is usually resolved by earnings, and a full…",
+              "date": "2026-10-05",
+              "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+              "access": "paid",
+              "linkVerified": true,
+              "answers": {
+                "name": "Michael Burry"
+              },
+              "relation": "contradicts",
+              "dimension": "evidence"
+            }
           }
         ]
       }
@@ -3217,18 +3608,18 @@
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
-            "date": "2026-09-17",
-            "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
-            "access": "public",
+            "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
+            "date": "2026-09-15",
+            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+            "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
-            "date": "2026-09-24",
-            "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+            "claim": "What matters for hyperscaler investment is the relationship between earnings growth and the capital required to produce it rather than when capex peaks; Meta in 2023 illustrates the cash-flow math, with operating cash flow going from $50.5B to…",
+            "date": "2026-09-15",
+            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
             "access": "paid",
             "linkVerified": true
           },
@@ -3253,6 +3644,15 @@
           {
             "name": "Ren",
             "entitySlug": "ren",
+            "claim": "Muse is not important because of its underlying model; the real story is that Meta is assembling every component an AI needs to act on a user's behalf in the real economy: dedicated compute, a memory of the user, access to logins, a way to pay, and…",
+            "date": "2026-09-25",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Ren",
+            "entitySlug": "ren",
             "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
             "date": "2026-07-27",
             "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
@@ -3260,18 +3660,9 @@
             "linkVerified": true
           },
           {
-            "name": "Ren",
-            "entitySlug": "ren",
-            "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
-            "date": "2026-09-28",
-            "url": null,
-            "access": "public",
-            "linkVerified": false
-          },
-          {
             "name": "Kakashii",
             "entitySlug": "kakashii",
-            "claim": "The majority of Oracle's 26 billion QoQ RPO growth in Q1 came via prepayment or bring-your-own-hardware arrangements, meaning the new contracts won't require incremental capital from Oracle and, according to Oracle, support its guidance that…",
+            "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
             "date": "2026-09-24",
             "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
             "access": "paid",
@@ -3280,7 +3671,7 @@
           {
             "name": "Kakashii",
             "entitySlug": "kakashii",
-            "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+            "claim": "The majority of Oracle's 26 billion QoQ RPO growth in Q1 came via prepayment or bring-your-own-hardware arrangements, meaning the new contracts won't require incremental capital from Oracle and, according to Oracle, support its guidance that…",
             "date": "2026-09-24",
             "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
             "access": "paid",
@@ -3332,7 +3723,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "Demand is contracted, prepaid or oversubscribed and supply is the constraint, so converting orders is a matter of shipping."
+        "reading": "Demand is contracted, prepaid or oversubscribed and supply is the constraint, so converting orders is a matter of shipping.",
+        "against": {
+          "name": "Michael Burry",
+          "entitySlug": "michael-burry",
+          "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+          "date": "2026-09-24",
+          "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Gaetano"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
       },
       {
         "id": "a-backlog-is-a-promise",
@@ -3341,7 +3746,7 @@
           {
             "name": "Michael Burry",
             "entitySlug": "michael-burry",
-            "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+            "claim": "Amazon's backlog grew from $200 billion at a weighted average life of 3.8 years (September 30, 2025) to $496 billion at a weighted average life of 6.4 years (June 30, 2026), just nine months later, which the creator identifies as the same type of…",
             "date": "2026-09-26",
             "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
             "access": "paid",
@@ -3350,9 +3755,9 @@
           {
             "name": "Michael Burry",
             "entitySlug": "michael-burry",
-            "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
-            "date": "2026-09-24",
-            "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+            "claim": "Amazon's free cash flow has gone negative again, roughly negative $8 billion, while combined uncommenced leases and purchase commitments of $267 billion are significant and growing, up 81% over the last nine months, and long-term debt raised jumped…",
+            "date": "2026-09-26",
+            "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
             "access": "paid",
             "linkVerified": true
           },
@@ -3377,18 +3782,18 @@
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
-            "date": "2026-09-21",
-            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+            "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+            "date": "2026-09-09",
+            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
-            "date": "2026-09-09",
-            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+            "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+            "date": "2026-09-21",
+            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
             "access": "paid",
             "linkVerified": true
           },
@@ -3413,18 +3818,18 @@
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
-            "date": "2026-09-29",
-            "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
-            "access": "paid",
+            "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
+            "date": "2026-09-17",
+            "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
+            "access": "public",
             "linkVerified": true
           },
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
-            "date": "2026-09-15",
-            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+            "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+            "date": "2026-09-24",
+            "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
             "access": "paid",
             "linkVerified": true
           },
@@ -3447,7 +3852,21 @@
             "linkVerified": true
           }
         ],
-        "reading": "Reported backlog overstates assured revenue: customers can exit, out-year buyers may lack the capital, and terms stretch to a year."
+        "reading": "Reported backlog overstates assured revenue: customers can exit, out-year buyers may lack the capital, and terms stretch to a year.",
+        "against": {
+          "name": "Jensen Huang",
+          "entitySlug": "jensen-huang",
+          "claim": "NVIDIA will generate increasingly large amounts of cash from being at the center of what he calls the largest industrial infrastructure build out in human history, and the smart use of that cash is to buy NVIDIA stock because he believes it is…",
+          "date": "2026-09-29",
+          "url": "https://taekim.substack.com/p/jensen-huang-press-q-and-a-nvidia",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Steve Eisman"
+          },
+          "relation": "contradicts",
+          "dimension": "mechanism"
+        }
       },
       {
         "id": "shipping-is-not-earning",
@@ -3528,23 +3947,24 @@
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
-            "date": "2026-09-14",
-            "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+            "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+            "date": "2026-09-09",
+            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
-            "date": "2026-09-25",
-            "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+            "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+            "date": "2026-09-14",
+            "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
             "access": "paid",
             "linkVerified": true
           }
         ],
-        "reading": "Revenue that ships still has to clear ramps, pricing and cash collection before it is profit; the test is set for the Q3 reports."
+        "reading": "Revenue that ships still has to clear ramps, pricing and cash collection before it is profit; the test is set for the Q3 reports.",
+        "against": null
       },
       {
         "id": "crossing",
@@ -3553,9 +3973,9 @@
           {
             "name": "Gaetano",
             "entitySlug": "gaetano",
-            "claim": "Because supply is still the binding constraint — Coherent says it can sell as fast as it can add production — the creator argues that even a 15% cut in expected customer demand against demand running 30% above supply would still allow growth as…",
-            "date": "2026-09-15",
-            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+            "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
+            "date": "2026-09-29",
+            "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
             "access": "paid",
             "linkVerified": true
           },
@@ -3571,16 +3991,16 @@
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "An inflection point will arrive at which expectations will no longer be rewarded so heavily and proof of concept will be required in the results.",
-            "date": "2026-09-09",
-            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+            "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
+            "date": "2026-09-25",
+            "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
             "access": "paid",
             "linkVerified": true
           },
           {
             "name": "Steve Eisman",
             "entitySlug": "steve-eisman",
-            "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+            "claim": "An inflection point will arrive at which expectations will no longer be rewarded so heavily and proof of concept will be required in the results.",
             "date": "2026-09-09",
             "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
             "access": "paid",
@@ -3622,7 +4042,8 @@
             "access": "public",
             "linkVerified": true
           }
-        ]
+        ],
+        "against": null
       }
     ],
     "crossings": [

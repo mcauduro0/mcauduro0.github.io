@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -28,6 +28,22 @@
       "The speed-to-power premium narrows while power stays scarce.",
       "Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient."
     ],
+    "version": 1,
+    "updatedOn": "2026-09-19",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-09-19",
+        "stance": "Long access, not hardware",
+        "tone": "bull",
+        "toneLabel": "Constructive",
+        "conviction": 4,
+        "convictionLabel": "High",
+        "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+        "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p06-t01",
       "part": 6,
@@ -46,7 +62,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t01",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -208,7 +228,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t01",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -232,7 +256,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t02",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -256,7 +284,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t03",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -280,7 +312,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t04",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -304,7 +340,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t05",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",

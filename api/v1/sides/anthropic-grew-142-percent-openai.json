@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -26,6 +26,22 @@
       "Anthropic is forced into an OpenAI-style price cut on coding.",
       "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
     ],
+    "version": 1,
+    "updatedOn": "2026-09-11",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-09-11",
+        "stance": "Split the trade",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+        "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p05-t01",
       "part": 5,
@@ -44,7 +60,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t01",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -60,7 +80,7 @@
         {
           "name": "Michael Spencer",
           "entity": "https://deepstack.ltd/people/michael-spencer/",
-          "claim": "OpenAI grew revenue only about 18% quarter over quarter in Q2 2026 (from $5.7B to $6.7B), while Anthropic grew 142% quarter over quarter to $11.6B, showing OpenAI is slowing at the worst possible time just before its IPO.",
+          "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
           "date": "2026-08-20",
           "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
           "access": "paid"
@@ -68,7 +88,7 @@
         {
           "name": "Michael Spencer",
           "entity": "https://deepstack.ltd/people/michael-spencer/",
-          "claim": "Anthropic reported preliminary Q2 revenue of $11.5 billion and a projected adjusted operating profit of $559 million, and by the time it goes public it will be comfortably profitable, unlike SpaceX which spent $18.37 billion in capex against just…",
+          "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which the…",
           "date": "2026-08-20",
           "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
           "access": "paid"
@@ -89,7 +109,18 @@
           "url": "https://fiscal.ai/fund-letters/massif-capital-llc-q2-2026-fscl_document_3AFW4FBM367",
           "access": "public"
         }
-      ]
+      ],
+      "against": {
+        "name": "DeepValue Capital",
+        "entity": "https://deepstack.ltd/people/deepvalue-capital/",
+        "claim": "Alibaba's AI models have reached 3 billion downloads, surpassing Meta and Google.",
+        "date": "2026-08-21",
+        "url": "https://deepvaluecapitalbykyler.substack.com/p/week-ending-82126-news-sentiment",
+        "access": "paid",
+        "answers": "Michael Spencer",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
     },
     {
       "id": "anthropic-not-yet",
@@ -127,7 +158,8 @@
           "url": "https://www.ai-supremacy.com/p/visions-of-ai-automating-repetitive-grunt-coding-tasks-2026-devin",
           "access": "paid"
         }
-      ]
+      ],
+      "against": null
     },
     {
       "id": "crossing",
@@ -181,7 +213,8 @@
           "url": "https://www.profgmedia.com/p/plastic-surgery",
           "access": "public"
         }
-      ]
+      ],
+      "against": null
     }
   ],
   "questions": [],

@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T01:11:13Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T03:07:01Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
       "url": "https://deepstack.ltd/about/#standards"
@@ -122,7 +122,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Every dated test with its precision, status, source and resolver.",
+            "description": "Every dated test with its precision, status, source and resolver; a specified resolver carries the question, the public source, the rule and the ambiguity clause.",
             "content": {
               "application/json": {
                 "schema": {
@@ -230,7 +230,7 @@
         ],
         "responses": {
           "200": {
-            "description": "35 companies with reported numbers, mentions, side rows and the delayed market snapshot.",
+            "description": "45 companies with reported numbers, mentions, side rows and the delayed market snapshot.",
             "content": {
               "application/json": {
                 "schema": {
@@ -395,6 +395,72 @@
   },
   "components": {
     "schemas": {
+      "Resolver": {
+        "type": "object",
+        "required": [
+          "kind",
+          "rule",
+          "specState"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "series",
+              "release",
+              "earnings",
+              "manual"
+            ]
+          },
+          "rule": {
+            "type": "string"
+          },
+          "specState": {
+            "type": "string",
+            "enum": [
+              "approved",
+              "pending"
+            ]
+          },
+          "question": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "ambiguity": {
+            "type": "string"
+          },
+          "series": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "release": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
       "Test": {
         "type": "object",
         "required": [
@@ -470,9 +536,13 @@
             ]
           },
           "resolver": {
-            "type": [
-              "object",
-              "null"
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Resolver"
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "url": {
@@ -492,6 +562,63 @@
           }
         }
       },
+      "CallVersion": {
+        "type": "object",
+        "required": [
+          "version",
+          "date",
+          "stance",
+          "tone",
+          "toneLabel",
+          "conviction",
+          "convictionLabel",
+          "line",
+          "reason",
+          "by"
+        ],
+        "properties": {
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "stance": {
+            "type": "string"
+          },
+          "tone": {
+            "type": "string",
+            "enum": [
+              "bull",
+              "bear",
+              "split"
+            ]
+          },
+          "toneLabel": {
+            "type": "string"
+          },
+          "conviction": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "convictionLabel": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string",
+            "description": "Why this version was made; version 1 is the call made with the story."
+          },
+          "by": {
+            "type": "string"
+          }
+        }
+      },
       "Call": {
         "type": "object",
         "required": [
@@ -503,6 +630,9 @@
           "convictionLabel",
           "actions",
           "flips",
+          "version",
+          "updatedOn",
+          "history",
           "nextTest",
           "url"
         ],
@@ -543,6 +673,23 @@
             "items": {
               "type": "string"
             }
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "The current version of the Call; it rises when a result changes the stance, the conviction or the line."
+          },
+          "updatedOn": {
+            "type": "string",
+            "format": "date",
+            "description": "The day the current version was made."
+          },
+          "history": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CallVersion"
+            },
+            "description": "Every version of the Call, ascending; the last entry equals the current state."
           },
           "nextTest": {
             "oneOf": [
@@ -1110,12 +1257,80 @@
           }
         }
       },
+      "Against": {
+        "type": "object",
+        "required": [
+          "name",
+          "entity",
+          "claim",
+          "date",
+          "url",
+          "access",
+          "answers",
+          "relation",
+          "dimension"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "entity": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "access": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "answers": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The name of the voice on this side whose claim the case answers; that claim is one of the side’s voices."
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "contradicts",
+              "refutes",
+              "invalidates",
+              "qualifies"
+            ]
+          },
+          "dimension": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
       "Side": {
         "type": "object",
         "required": [
           "id",
           "label",
-          "voices"
+          "voices",
+          "against"
         ],
         "properties": {
           "id": {
@@ -1129,6 +1344,17 @@
             "items": {
               "$ref": "#/components/schemas/Voice"
             }
+          },
+          "against": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Against"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The strongest case against this side: one attributed, dated, linked claim by a voice outside it, chosen by relation (contradicts, refutes, invalidates, qualifies), then dimension, then date; null when none qualifies."
           }
         }
       },
@@ -1843,6 +2069,8 @@
           "count",
           "dated",
           "precision",
+          "specification",
+          "specified",
           "tests"
         ],
         "properties": {
@@ -1878,6 +2106,12 @@
           },
           "precision": {
             "type": "string"
+          },
+          "specification": {
+            "type": "string"
+          },
+          "specified": {
+            "type": "integer"
           },
           "tests": {
             "type": "array",

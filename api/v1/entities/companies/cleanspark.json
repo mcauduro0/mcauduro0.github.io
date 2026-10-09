@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-09T03:07:01Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "cleanspark",
+  "name": "CleanSpark",
+  "ticker": "CLSK",
+  "url": "https://deepstack.ltd/companies/cleanspark/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/cleanspark.json",
+  "summary": "CleanSpark appears in Part 7, Part 8 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "headline": "AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "8.25%",
+      "label": "CleanSpark note coupon",
+      "context": "JunkBondInvestor, September 18, 2026",
+      "part": 7,
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 7,
+      "section": "AI meets the rate",
+      "excerpt": "Two days after the Fed moved, CleanSpark, a bitcoin miner building a data center for Meta, sold $2.3 billion of five-year notes at 8.25% and drew about $10 billion in orders.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 8,
+      "section": "What lenders actually own",
+      "excerpt": "CleanSpark sold $2.3 billion of five-year notes at 8.25% to fund a data center for Meta, about 175 basis points above the average BB issuer.",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 2,
+    "claims": 4,
+    "texts": 3,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

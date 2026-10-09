@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "api": "https://deepstack.ltd/api/v1/docket.json",
   "calendar": "https://deepstack.ltd/docket.ics",
   "count": 51,
   "dated": 28,
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
+  "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty.",
+  "specified": 1,
   "tests": [
     {
       "id": "p01-t01",
@@ -27,7 +29,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p01-t01",
       "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
@@ -51,7 +57,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p01-t02",
       "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
@@ -75,7 +85,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p01-t03",
       "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
@@ -99,7 +113,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p02-t01",
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
@@ -123,7 +141,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p02-t02",
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
@@ -147,7 +169,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p02-t03",
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
@@ -171,7 +197,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p02-t04",
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
@@ -196,7 +226,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -220,7 +254,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -244,7 +282,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -268,7 +310,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -292,7 +338,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -317,7 +367,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -341,7 +395,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -365,7 +423,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -389,7 +451,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -413,7 +479,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -437,7 +507,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t01",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -461,7 +535,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t02",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -485,7 +563,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t03",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -509,7 +591,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t04",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -533,7 +619,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p05-t05",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
@@ -557,7 +647,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t01",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -581,7 +675,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t02",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -605,7 +703,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t03",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -629,7 +731,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t04",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -653,7 +759,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p06-t05",
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
@@ -680,7 +790,14 @@
         "series": "DFEDTARU",
         "provider": "FRED",
         "rule": "value after date > value before date => hike",
-        "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+        "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+        "source": {
+          "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+          "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        },
+        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -706,7 +823,11 @@
         "kind": "release",
         "release": "Treasury International Capital",
         "provider": "Treasury",
-        "rule": "release published => read the Japan line"
+        "rule": "release published => read the Japan line",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -733,7 +854,11 @@
         "series": "DGS10",
         "provider": "FRED",
         "rule": "value after date >= 5.5 => reached",
-        "url": "https://fred.stlouisfed.org/series/DGS10"
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -757,7 +882,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -781,7 +910,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -805,7 +938,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -829,7 +966,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -853,7 +994,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -877,7 +1022,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -902,7 +1051,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -927,7 +1080,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "BKNG",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -951,7 +1108,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -975,7 +1136,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t04",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -999,7 +1164,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t05",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1024,7 +1193,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1048,7 +1221,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1075,7 +1252,11 @@
         "series": "DGS10",
         "provider": "FRED",
         "rule": "value after date >= 5.5 => reached",
-        "url": "https://fred.stlouisfed.org/series/DGS10"
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1099,7 +1280,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1123,7 +1308,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1148,7 +1337,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -1173,7 +1366,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NVDA",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -1198,7 +1395,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "ORCL",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -1222,7 +1423,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -1246,7 +1451,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",

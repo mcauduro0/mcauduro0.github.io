@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-09T03:07:01Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "ciena",
+  "name": "Ciena",
+  "ticker": "CIEN",
+  "url": "https://deepstack.ltd/companies/ciena/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/ciena.json",
+  "summary": "Ciena appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$10B",
+      "label": "Ciena's backlog floor at the end of fiscal 2026",
+      "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
+      "part": 11,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "On September 17, Gaetano reported that Ciena's management expects to end fiscal 2026 with at least $10 billion of backlog, has secured the supply to grow revenue at least 30% in fiscal 2027 and believes that supply carries the same growth through fiscal 2029, when the target is roughly $14 billion of revenue.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "A backlog is a promise",
+      "excerpt": "Gaetano's case for Ciena rests on management extending its growth ambition through fiscal 2029.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+      "date": "2026-09-24",
+      "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "coverage": {
+    "creators": 5,
+    "claims": 82,
+    "texts": 24,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -27,6 +27,22 @@
       "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
       "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
     ],
+    "version": 1,
+    "updatedOn": "2026-10-08",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-08",
+        "stance": "Revenue yes, margin not yet",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p11-t01",
       "part": 11,
@@ -46,7 +62,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -62,17 +82,17 @@
         {
           "name": "Gaetano",
           "entity": "https://deepstack.ltd/people/gaetano/",
-          "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
-          "date": "2026-09-17",
-          "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
-          "access": "public"
+          "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
+          "date": "2026-09-15",
+          "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+          "access": "paid"
         },
         {
           "name": "Gaetano",
           "entity": "https://deepstack.ltd/people/gaetano/",
-          "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
-          "date": "2026-09-24",
-          "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+          "claim": "What matters for hyperscaler investment is the relationship between earnings growth and the capital required to produce it rather than when capex peaks; Meta in 2023 illustrates the cash-flow math, with operating cash flow going from $50.5B to…",
+          "date": "2026-09-15",
+          "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
           "access": "paid"
         },
         {
@@ -94,23 +114,23 @@
         {
           "name": "Ren",
           "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "Muse is not important because of its underlying model; the real story is that Meta is assembling every component an AI needs to act on a user's behalf in the real economy: dedicated compute, a memory of the user, access to logins, a way to pay, and…",
+          "date": "2026-09-25",
+          "url": null,
+          "access": "paid"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
           "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
           "date": "2026-07-27",
           "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
           "access": "public"
         },
         {
-          "name": "Ren",
-          "entity": "https://deepstack.ltd/people/ren/",
-          "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
-          "date": "2026-09-28",
-          "url": null,
-          "access": "public"
-        },
-        {
           "name": "Kakashii",
           "entity": "https://deepstack.ltd/people/kakashii/",
-          "claim": "The majority of Oracle's 26 billion QoQ RPO growth in Q1 came via prepayment or bring-your-own-hardware arrangements, meaning the new contracts won't require incremental capital from Oracle and, according to Oracle, support its guidance that…",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
           "date": "2026-09-24",
           "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
           "access": "paid"
@@ -118,7 +138,7 @@
         {
           "name": "Kakashii",
           "entity": "https://deepstack.ltd/people/kakashii/",
-          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "claim": "The majority of Oracle's 26 billion QoQ RPO growth in Q1 came via prepayment or bring-your-own-hardware arrangements, meaning the new contracts won't require incremental capital from Oracle and, according to Oracle, support its guidance that…",
           "date": "2026-09-24",
           "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
           "access": "paid"
@@ -163,7 +183,18 @@
           "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
           "access": "public"
         }
-      ]
+      ],
+      "against": {
+        "name": "Michael Burry",
+        "entity": "https://deepstack.ltd/people/michael-burry/",
+        "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+        "date": "2026-09-24",
+        "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+        "access": "paid",
+        "answers": "Gaetano",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
     },
     {
       "id": "a-backlog-is-a-promise",
@@ -172,7 +203,7 @@
         {
           "name": "Michael Burry",
           "entity": "https://deepstack.ltd/people/michael-burry/",
-          "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+          "claim": "Amazon's backlog grew from $200 billion at a weighted average life of 3.8 years (September 30, 2025) to $496 billion at a weighted average life of 6.4 years (June 30, 2026), just nine months later, which the creator identifies as the same type of…",
           "date": "2026-09-26",
           "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
           "access": "paid"
@@ -180,9 +211,9 @@
         {
           "name": "Michael Burry",
           "entity": "https://deepstack.ltd/people/michael-burry/",
-          "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
-          "date": "2026-09-24",
-          "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+          "claim": "Amazon's free cash flow has gone negative again, roughly negative $8 billion, while combined uncommenced leases and purchase commitments of $267 billion are significant and growing, up 81% over the last nine months, and long-term debt raised jumped…",
+          "date": "2026-09-26",
+          "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
           "access": "paid"
         },
         {
@@ -204,17 +235,17 @@
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
-          "date": "2026-09-21",
-          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
           "access": "paid"
         },
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
-          "date": "2026-09-09",
-          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
           "access": "paid"
         },
         {
@@ -236,17 +267,17 @@
         {
           "name": "Gaetano",
           "entity": "https://deepstack.ltd/people/gaetano/",
-          "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
-          "date": "2026-09-29",
-          "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
-          "access": "paid"
+          "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
+          "date": "2026-09-17",
+          "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
+          "access": "public"
         },
         {
           "name": "Gaetano",
           "entity": "https://deepstack.ltd/people/gaetano/",
-          "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
-          "date": "2026-09-15",
-          "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+          "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+          "date": "2026-09-24",
+          "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
           "access": "paid"
         },
         {
@@ -265,7 +296,18 @@
           "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
           "access": "public"
         }
-      ]
+      ],
+      "against": {
+        "name": "Jensen Huang",
+        "entity": "https://deepstack.ltd/people/jensen-huang/",
+        "claim": "NVIDIA will generate increasingly large amounts of cash from being at the center of what he calls the largest industrial infrastructure build out in human history, and the smart use of that cash is to buy NVIDIA stock because he believes it is…",
+        "date": "2026-09-29",
+        "url": "https://taekim.substack.com/p/jensen-huang-press-q-and-a-nvidia",
+        "access": "paid",
+        "answers": "Steve Eisman",
+        "relation": "contradicts",
+        "dimension": "mechanism"
+      }
     },
     {
       "id": "shipping-is-not-earning",
@@ -338,20 +380,21 @@
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
-          "date": "2026-09-14",
-          "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+          "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
           "access": "paid"
         },
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
-          "date": "2026-09-25",
-          "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+          "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+          "date": "2026-09-14",
+          "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
           "access": "paid"
         }
-      ]
+      ],
+      "against": null
     },
     {
       "id": "crossing",
@@ -360,9 +403,9 @@
         {
           "name": "Gaetano",
           "entity": "https://deepstack.ltd/people/gaetano/",
-          "claim": "Because supply is still the binding constraint — Coherent says it can sell as fast as it can add production — the creator argues that even a 15% cut in expected customer demand against demand running 30% above supply would still allow growth as…",
-          "date": "2026-09-15",
-          "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+          "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
+          "date": "2026-09-29",
+          "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
           "access": "paid"
         },
         {
@@ -376,15 +419,15 @@
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "An inflection point will arrive at which expectations will no longer be rewarded so heavily and proof of concept will be required in the results.",
-          "date": "2026-09-09",
-          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
+          "date": "2026-09-25",
+          "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
           "access": "paid"
         },
         {
           "name": "Steve Eisman",
           "entity": "https://deepstack.ltd/people/steve-eisman/",
-          "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+          "claim": "An inflection point will arrive at which expectations will no longer be rewarded so heavily and proof of concept will be required in the results.",
           "date": "2026-09-09",
           "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
           "access": "paid"
@@ -421,7 +464,8 @@
           "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
           "access": "public"
         }
-      ]
+      ],
+      "against": null
     }
   ],
   "questions": [],

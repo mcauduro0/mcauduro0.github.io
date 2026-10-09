@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-09T03:07:01Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "fabrinet",
+  "name": "Fabrinet",
+  "ticker": "FN",
+  "url": "https://deepstack.ltd/companies/fabrinet/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/fabrinet.json",
+  "summary": "Fabrinet appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "Fabrinet's next step depends on turning new manufacturing roles in NPO, CPO, and scale-across into real volume; it will be necessary to confirm which steps Fabrinet handles in NPO, CPO, and ELS production programs, whether multi-rail programs show…",
+      "date": "2026-09-24",
+      "url": "https://read.aurelionresearch.com/p/ciena-and-fabrinet-the-road-ahead",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "Fabrinet: new roles must become profit.",
+      "date": null,
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Nvidia supply-bound; Fabrinet's roles still have to earn.",
+      "date": null,
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "coverage": {
+    "creators": 6,
+    "claims": 44,
+    "texts": 13,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

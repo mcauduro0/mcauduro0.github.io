@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -26,6 +26,22 @@
       "Meta reports agent downloads without retained users, transaction volume or fees.",
       "The first tax season with agents shows households still paying Intuit for certainty."
     ],
+    "version": 1,
+    "updatedOn": "2026-10-03",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-03",
+        "stance": "Sell habit, buy the rails",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+        "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p09-t01",
       "part": 9,
@@ -45,7 +61,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -61,31 +81,31 @@
         {
           "name": "Andrew Walker",
           "entity": "https://deepstack.ltd/people/andrew-walker/",
-          "claim": "The major current use case for consumer AI agents appears to be saving people money, as illustrated by widely retweeted examples of an agent called Muse saving users money on insurance, returns, phone bills, and even getting free food.",
-          "date": "2026-09-21",
-          "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
+          "claim": "Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), the creator says both are too extreme but if forced to pick, they…",
+          "date": "2026-09-28",
+          "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
           "access": "public"
         },
         {
           "name": "Andrew Walker",
           "entity": "https://deepstack.ltd/people/andrew-walker/",
-          "claim": "The most popular category people report saving money on via AI agents is internet or wireless bills, and this is also the category the creator has received the most \"is this a short\" inbound questions about, with signs it is starting to filter into…",
+          "claim": "AI agents make price-shopping and replacing skilled workers (e.g., using AI to edit a podcast instead of a consultant) easy, and if saving money is the core consumer use case for AI, this could have a deflationary impact on the consumer economy at…",
           "date": "2026-09-21",
           "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
+          "access": "public"
+        },
+        {
+          "name": "Tae Kim",
+          "entity": "https://deepstack.ltd/people/tae-kim/",
+          "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+          "date": "2026-09-07",
+          "url": null,
           "access": "public"
         },
         {
           "name": "Tae Kim",
           "entity": "https://deepstack.ltd/people/tae-kim/",
           "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
-          "date": "2026-09-22",
-          "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
-          "access": "paid"
-        },
-        {
-          "name": "Tae Kim",
-          "entity": "https://deepstack.ltd/people/tae-kim/",
-          "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
           "date": "2026-09-22",
           "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
           "access": "paid"
@@ -106,7 +126,18 @@
           "url": "https://renstocks.substack.com/p/meta-muse-ai-is-done-answering-questions",
           "access": "paid"
         }
-      ]
+      ],
+      "against": {
+        "name": "Le Shrub",
+        "entity": null,
+        "claim": "The creator questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
+        "date": "2026-09-22",
+        "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+        "access": "public",
+        "answers": "Andrew Walker",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
     },
     {
       "id": "still-a-demo",
@@ -147,7 +178,7 @@
         {
           "name": "Michael Spencer",
           "entity": "https://deepstack.ltd/people/michael-spencer/",
-          "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+          "claim": "The creator is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…",
           "date": "2026-09-29",
           "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
           "access": "public"
@@ -155,17 +186,36 @@
         {
           "name": "Michael Spencer",
           "entity": "https://deepstack.ltd/people/michael-spencer/",
-          "claim": "Since Muse's release, it is claimed that consumers who gave the AI access to banking and credit card statements found it to be a great budgeting coach, leading them to cancel unnecessary subscriptions, and the creator expects a huge subscription…",
-          "date": "2026-09-29",
-          "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
-          "access": "public"
+          "claim": "Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…",
+          "date": "2026-09-08",
+          "url": "https://www.ai-supremacy.com/p/gpt-6-astra-hugging-face-incident-2026-review",
+          "access": "paid"
         }
-      ]
+      ],
+      "against": {
+        "name": "Le Shrub",
+        "entity": null,
+        "claim": "The creator says that, like an everyday 'normie', they want something simple and non-geeky for daily tasks rather than a highly advanced model that solves difficult math problems, implying simpler consumer AI tools like Muse may win out over more…",
+        "date": "2026-09-22",
+        "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+        "access": "public",
+        "answers": "Michael Spencer",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
     },
     {
       "id": "crossing",
       "label": "Voices that cross sides",
       "voices": [
+        {
+          "name": "Andrew Walker",
+          "entity": "https://deepstack.ltd/people/andrew-walker/",
+          "claim": "The creator says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.",
+          "date": "2026-09-28",
+          "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+          "access": "public"
+        },
         {
           "name": "Andrew Walker",
           "entity": "https://deepstack.ltd/people/andrew-walker/",
@@ -175,14 +225,6 @@
           "access": "public"
         },
         {
-          "name": "Andrew Walker",
-          "entity": "https://deepstack.ltd/people/andrew-walker/",
-          "claim": "Craneware's customer base of established US hospitals is likely highly resistant to replacing entrenched software systems, making the business unlikely to be disrupted by AI coding tools.",
-          "date": "2026-09-11",
-          "url": "https://www.yetanothervalueblog.com/p/uk-stocks-are-dirt-cheap-why-wont",
-          "access": "paid"
-        },
-        {
           "name": "Tae Kim",
           "entity": "https://deepstack.ltd/people/tae-kim/",
           "claim": "On the owner of the agent and on the rails beneath it.",
@@ -190,7 +232,8 @@
           "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
           "access": "public"
         }
-      ]
+      ],
+      "against": null
     }
   ],
   "questions": [
@@ -206,17 +249,17 @@
             {
               "name": "Andrew Walker",
               "entity": "https://deepstack.ltd/people/andrew-walker/",
-              "claim": "The creator's market-related takeaway is that Muse (a consumer AI agent) is very bearish for businesses that rely on consumer inertia (OTAs, subscription services, banks, etc.), and the stock market seems to be starting to agree with and catch up…",
-              "date": "2026-09-24",
-              "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
-              "access": "public"
+              "claim": "Craneware's customer base of established US hospitals is likely highly resistant to replacing entrenched software systems, making the business unlikely to be disrupted by AI coding tools.",
+              "date": "2026-09-11",
+              "url": "https://www.yetanothervalueblog.com/p/uk-stocks-are-dirt-cheap-why-wont",
+              "access": "paid"
             },
             {
               "name": "Andrew Walker",
               "entity": "https://deepstack.ltd/people/andrew-walker/",
-              "claim": "Based on conversations with 'normie' friends (a possibly small/early sample), most people who get access to Muse, including the creator himself, have an early productivity burst that fades off hard as usage falls off a cliff within a few days.",
-              "date": "2026-09-24",
-              "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
+              "claim": "The major current use case for consumer AI agents appears to be saving people money, as illustrated by widely retweeted examples of an agent called Muse saving users money on insurance, returns, phone bills, and even getting free food.",
+              "date": "2026-09-21",
+              "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
               "access": "public"
             },
             {
@@ -238,18 +281,26 @@
             {
               "name": "Tae Kim",
               "entity": "https://deepstack.ltd/people/tae-kim/",
+              "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+              "date": "2026-09-22",
+              "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+              "access": "paid"
+            },
+            {
+              "name": "Tae Kim",
+              "entity": "https://deepstack.ltd/people/tae-kim/",
               "claim": "The creator says he has seen enough: the personal AI agents released over the past month will be a huge paradigm shift for computer usage and a major positive inflection point for technology.",
               "date": "2026-10-02",
               "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
               "access": "paid"
             },
             {
-              "name": "Tae Kim",
-              "entity": "https://deepstack.ltd/people/tae-kim/",
-              "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
-              "date": "2026-10-02",
-              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
-              "access": "paid"
+              "name": "Alex Immerman",
+              "entity": "https://deepstack.ltd/people/alex-immerman/",
+              "claim": "Customers already accept higher menu prices on DoorDash to pay for convenience, which was necessary for restaurant economics to work; the creator is uncertain whether people would similarly accept higher prices shown to assistants or pay a…",
+              "date": "2026-09-29",
+              "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+              "access": "public"
             },
             {
               "name": "Alex Immerman",
@@ -258,16 +309,19 @@
               "date": "2026-09-29",
               "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
               "access": "public"
-            },
-            {
-              "name": "Alex Immerman",
-              "entity": "https://deepstack.ltd/people/alex-immerman/",
-              "claim": "Even if incumbents keep their fulfillment advantage, that doesn't guarantee they preserve their profit pool: in 2025 Amazon generated $69 billion in advertising revenue versus $34 billion in operating income ex-AWS, and at an assumed 70%…",
-              "date": "2026-09-29",
-              "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
-              "access": "public"
             }
-          ]
+          ],
+          "against": {
+            "name": "Abhi Yadav",
+            "entity": "https://deepstack.ltd/people/abhi-yadav/",
+            "claim": "Enterprises face a bind between building AI tools (which may never get past pilot) and buying vendor platforms (which risks more organizational intelligence ending up inside somebody else's system).",
+            "date": "2026-09-27",
+            "url": "https://abhiyadav.substack.com/p/ownership-isnt-building-it-yourself",
+            "access": "public",
+            "answers": "Andrew Walker",
+            "relation": "qualifies",
+            "dimension": "condition"
+          }
         },
         {
           "id": "not-every-habit",
@@ -292,17 +346,17 @@
             {
               "name": "Andrew Walker",
               "entity": "https://deepstack.ltd/people/andrew-walker/",
-              "claim": "Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), the creator says both are too extreme but if forced to pick, they…",
-              "date": "2026-09-28",
-              "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+              "claim": "The creator's market-related takeaway is that Muse (a consumer AI agent) is very bearish for businesses that rely on consumer inertia (OTAs, subscription services, banks, etc.), and the stock market seems to be starting to agree with and catch up…",
+              "date": "2026-09-24",
+              "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
               "access": "public"
             },
             {
               "name": "Andrew Walker",
               "entity": "https://deepstack.ltd/people/andrew-walker/",
-              "claim": "The creator says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.",
-              "date": "2026-09-28",
-              "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+              "claim": "Based on conversations with 'normie' friends (a possibly small/early sample), most people who get access to Muse, including the creator himself, have an early productivity burst that fades off hard as usage falls off a cliff within a few days.",
+              "date": "2026-09-24",
+              "url": "https://www.yetanothervalueblog.com/p/musings-on-muse-the-inertia-sell",
               "access": "public"
             },
             {
@@ -321,7 +375,8 @@
               "url": "https://www.investinassets.net/p/fintwits-best-stock-ideas",
               "access": "public"
             }
-          ]
+          ],
+          "against": null
         }
       ]
     },
@@ -369,15 +424,15 @@
             {
               "name": "Tae Kim",
               "entity": "https://deepstack.ltd/people/tae-kim/",
-              "claim": "With the release of GPT-6 Astra, computer tool use AI has finally become real, and he is now confident AI will soon perform actual software knowledge work tasks better and faster than most humans, with competence accelerating rapidly from here.",
-              "date": "2026-09-07",
-              "url": null,
-              "access": "public"
+              "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+              "date": "2026-10-02",
+              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+              "access": "paid"
             },
             {
               "name": "Tae Kim",
               "entity": "https://deepstack.ltd/people/tae-kim/",
-              "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+              "claim": "With the release of GPT-6 Astra, computer tool use AI has finally become real, and he is now confident AI will soon perform actual software knowledge work tasks better and faster than most humans, with competence accelerating rapidly from here.",
               "date": "2026-09-07",
               "url": null,
               "access": "public"
@@ -385,10 +440,10 @@
             {
               "name": "Michael Spencer",
               "entity": "https://deepstack.ltd/people/michael-spencer/",
-              "claim": "Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…",
-              "date": "2026-09-08",
-              "url": "https://www.ai-supremacy.com/p/gpt-6-astra-hugging-face-incident-2026-review",
-              "access": "paid"
+              "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+              "date": "2026-09-29",
+              "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+              "access": "public"
             },
             {
               "name": "Michael Spencer",
@@ -398,7 +453,8 @@
               "url": null,
               "access": "paid"
             }
-          ]
+          ],
+          "against": null
         },
         {
           "id": "rails-and-atoms",
@@ -439,20 +495,31 @@
             {
               "name": "Stephen Clapham",
               "entity": "https://deepstack.ltd/people/stephen-clapham/",
-              "claim": "After listening to Daniel Susskind discuss the range of activities AI may change, the creator sees an appeal in assets that are relatively immune to AI disruption, such as a tank terminal that takes land, permits, capital and often years to build…",
-              "date": "2026-09-27",
-              "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+              "claim": "The creator notes the FT panel did not explain the post-2022 fall in the graduate premium, and argues part of it is non-graduate pay rising rather than graduates faring worse, citing rocketing US demand for electricians, while judging AI too recent…",
+              "date": "2026-09-13",
+              "url": "https://behindthebalancesheet.substack.com/p/when-the-numbers-dont-add-up",
               "access": "paid"
             },
             {
               "name": "Stephen Clapham",
               "entity": "https://deepstack.ltd/people/stephen-clapham/",
-              "claim": "Vopak's terminals occupy strategically valuable port locations that are difficult, slow and expensive to replicate, and the company has a market cap of €5.4bn versus an enterprise value of €8.3bn, which the creator sees as a massive discount to…",
-              "date": "2026-09-27",
-              "url": "https://behindthebalancesheet.substack.com/p/what-ai-cant-disrupt",
+              "claim": "Moritz argued that AI is the inshoring of jobs to robots and tokens, threatening white-collar work as globalisation offshored blue-collar work, and that because each successive tech wave has reached more computers the effects will be felt more…",
+              "date": "2026-09-13",
+              "url": "https://behindthebalancesheet.substack.com/p/when-the-numbers-dont-add-up",
               "access": "paid"
             }
-          ]
+          ],
+          "against": {
+            "name": "Jensen Huang",
+            "entity": "https://deepstack.ltd/people/jensen-huang/",
+            "claim": "Huang argues past dramatic AI predictions have proven wrong: a prediction that radiology would be completely taken over by AI within five years with no radiologists left turned out to be the opposite, since more radiologists are needed than ever; a…",
+            "date": "2026-09-15",
+            "url": "https://taekim.substack.com/p/jensen-huang-on-the-irresponsible",
+            "access": "public",
+            "answers": "Stephen Clapham",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -26,6 +26,22 @@
       "Deployed capacity climbs toward the site plan, quarter after quarter.",
       "AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work."
     ],
+    "version": 1,
+    "updatedOn": "2026-08-13",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-08-13",
+        "stance": "Ahead of the evidence",
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+        "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p02-t01",
       "part": 2,
@@ -44,7 +60,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p02-t01",
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
@@ -60,7 +80,7 @@
         {
           "name": "Kris",
           "entity": "https://deepstack.ltd/people/kris/",
-          "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+          "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
           "date": "2026-06-08",
           "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
           "access": "licensed"
@@ -68,7 +88,7 @@
         {
           "name": "Kris",
           "entity": "https://deepstack.ltd/people/kris/",
-          "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
+          "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
           "date": "2026-06-08",
           "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
           "access": "licensed"
@@ -89,7 +109,18 @@
           "url": "https://kakashiii111.substack.com/p/spacex-ai-revenue-cip-nvidia-gpus",
           "access": "public"
         }
-      ]
+      ],
+      "against": {
+        "name": "Trey Henninger",
+        "entity": "https://deepstack.ltd/people/trey-henninger/",
+        "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+        "date": "2026-06-08",
+        "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi",
+        "access": "public",
+        "answers": "Kris",
+        "relation": "contradicts",
+        "dimension": "premise"
+      }
     },
     {
       "id": "the-number-is-real",
@@ -98,7 +129,7 @@
         {
           "name": "Jeremie Eliahou Ontiveros",
           "entity": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
-          "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
+          "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
           "date": "2026-08-07",
           "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
           "access": "public"
@@ -106,12 +137,23 @@
         {
           "name": "Jeremie Eliahou Ontiveros",
           "entity": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
-          "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
+          "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
           "date": "2026-08-07",
           "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real",
           "access": "public"
         }
-      ]
+      ],
+      "against": {
+        "name": "Michael Burry",
+        "entity": "https://deepstack.ltd/people/michael-burry/",
+        "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+        "date": "2026-07-09",
+        "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+        "access": "licensed",
+        "answers": "Jeremie Eliahou Ontiveros",
+        "relation": "contradicts",
+        "dimension": "premise"
+      }
     },
     {
       "id": "crossing",
@@ -141,7 +183,8 @@
           "url": null,
           "access": "public"
         }
-      ]
+      ],
+      "against": null
     }
   ],
   "questions": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13.179Z",
+  "generatedAt": "2026-10-09T03:07:01.264Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -17,7 +17,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -38,7 +42,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -59,7 +67,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -80,7 +92,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -101,7 +117,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -122,7 +142,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -143,7 +167,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -165,7 +193,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -186,7 +218,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -207,7 +243,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -228,7 +268,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -249,7 +293,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -271,7 +319,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -292,7 +344,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -313,7 +369,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -334,7 +394,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -355,7 +419,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -376,7 +444,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -397,7 +469,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -418,7 +494,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -439,7 +519,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -460,7 +544,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -481,7 +569,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -502,7 +594,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -523,7 +619,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -544,7 +644,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -565,7 +669,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -589,7 +697,14 @@
         "series": "DFEDTARU",
         "provider": "FRED",
         "rule": "value after date > value before date => hike",
-        "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+        "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+        "source": {
+          "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+          "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        },
+        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "status": "pending",
       "resultId": null
@@ -612,7 +727,11 @@
         "kind": "release",
         "release": "Treasury International Capital",
         "provider": "Treasury",
-        "rule": "release published => read the Japan line"
+        "rule": "release published => read the Japan line",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -636,7 +755,11 @@
         "series": "DGS10",
         "provider": "FRED",
         "rule": "value after date >= 5.5 => reached",
-        "url": "https://fred.stlouisfed.org/series/DGS10"
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -657,7 +780,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -678,7 +805,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -699,7 +830,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -720,7 +855,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -741,7 +880,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -762,7 +905,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -784,7 +931,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -806,7 +957,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "BKNG",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -827,7 +982,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -848,7 +1007,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -869,7 +1032,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -891,7 +1058,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -912,7 +1083,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -936,7 +1111,11 @@
         "series": "DGS10",
         "provider": "FRED",
         "rule": "value after date >= 5.5 => reached",
-        "url": "https://fred.stlouisfed.org/series/DGS10"
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -957,7 +1136,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -978,7 +1161,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -1000,7 +1187,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -1022,7 +1213,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NVDA",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -1044,7 +1239,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "ORCL",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -1065,7 +1264,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null
@@ -1086,7 +1289,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null

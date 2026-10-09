@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "amazon",
@@ -158,18 +158,6 @@
       "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
     },
     {
-      "part": 8,
-      "question": "what-lenders-hold",
-      "side": "guarantees-not-faith",
-      "sideLabel": "Guarantees, not faith",
-      "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-      "date": "2026-09-09",
-      "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
-      "linkVerified": true,
-      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
-      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
-    },
-    {
       "part": 9,
       "question": null,
       "side": "crossing",
@@ -194,16 +182,16 @@
       "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
     },
     {
-      "part": 9,
-      "question": "whose-margin-pays",
-      "side": "inertia-businesses",
-      "sideLabel": "The inertia businesses",
-      "claim": "Even if incumbents keep their fulfillment advantage, that doesn't guarantee they preserve their profit pool: in 2025 Amazon generated $69 billion in advertising revenue versus $34 billion in operating income ex-AWS, and at an assumed 70%…",
-      "date": "2026-09-29",
-      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+      "part": 10,
+      "question": "who-writes-the-checks",
+      "side": "not-the-customers-yet",
+      "sideLabel": "Not the customers, yet",
+      "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
+      "date": "2026-10-05",
+      "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
       "linkVerified": true,
-      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
-      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
     },
     {
       "part": 10,
@@ -213,18 +201,6 @@
       "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
       "date": "2026-09-16",
       "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
-      "linkVerified": true,
-      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
-      "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
-    },
-    {
-      "part": 10,
-      "question": "what-does-5-percent-do",
-      "side": "long-end-nobody-caps",
-      "sideLabel": "A long end nobody caps",
-      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-      "date": "2026-09-21",
-      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
@@ -249,6 +225,30 @@
       "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
       "date": "2026-09-21",
       "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Amazon's backlog grew from $200 billion at a weighted average life of 3.8 years (September 30, 2025) to $496 billion at a weighted average life of 6.4 years (June 30, 2026), just nine months later, which the creator identifies as the same type of…",
+      "date": "2026-09-26",
+      "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Amazon's free cash flow has gone negative again, roughly negative $8 billion, while combined uncommenced leases and purchase commitments of $267 billion are significant and growing, up 81% over the last nine months, and long-term debt raised jumped…",
+      "date": "2026-09-26",
+      "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"

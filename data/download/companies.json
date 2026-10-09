@@ -16,7 +16,30 @@
         "excerpt": "Deepvalue Capital says Alibaba’s models passed 3bn downloads, ahead of Meta and Google, while compute stays tight and the price per token keeps falling."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 5,
+        "question": null,
+        "side": "openai-commoditized",
+        "sideLabel": "OpenAI: commoditized",
+        "voice": "Michael Spencer",
+        "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+        "date": "2026-08-20",
+        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+        "linkVerified": true
+      },
+      {
+        "part": 8,
+        "question": null,
+        "side": "cash-has-to-triple",
+        "sideLabel": "The cash has to triple",
+        "voice": "Michael Burry",
+        "claim": "Alibaba's shift to financing an AI data center buildout through share issuance is a demerit against the investment thesis, as the buildout may be 'practically interminable' without a clear productive path.",
+        "date": "2026-09-04",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
     "coverage": {
       "creators": 28,
       "claims": 156,
@@ -169,6 +192,17 @@
         "linkVerified": true
       },
       {
+        "part": 5,
+        "question": null,
+        "side": "openai-commoditized",
+        "sideLabel": "OpenAI: commoditized",
+        "voice": "Michael Spencer",
+        "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+        "date": "2026-08-20",
+        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+        "linkVerified": true
+      },
+      {
         "part": 8,
         "question": "cash-or-loop",
         "side": "real-cash",
@@ -177,28 +211,6 @@
         "claim": "Today's biggest AI infrastructure spenders are large, highly profitable companies like Microsoft, Google, Amazon and Meta, with Microsoft generating more than $55 billion of operating cash flow in its latest quarter and Alphabet roughly $39…",
         "date": "2026-09-07",
         "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "cash-or-loop",
-        "side": "real-cash",
-        "sideLabel": "Real cash, real use",
-        "voice": "Ren",
-        "claim": "Operating leverage is visible on the income statements of hyperscalers, with Azure growing 43 percent, Google Cloud 82 percent, and AWS growing 37 percent, which is the fastest AWS has grown in eighteen quarters.",
-        "date": "2026-08-31",
-        "url": "https://renstocks.substack.com/p/the-ai-cloud-business-who-actually",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
         "linkVerified": true
       },
       {
@@ -225,24 +237,24 @@
       },
       {
         "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
+        "question": null,
+        "side": "a-model-not-a-price",
+        "sideLabel": "A model, not a price",
         "voice": "Michael Burry",
         "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
         "date": "2026-09-28",
         "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+        "linkVerified": true
+      },
+      {
+        "part": 10,
+        "question": "who-writes-the-checks",
+        "side": "not-the-customers-yet",
+        "sideLabel": "Not the customers, yet",
+        "voice": "Mia Silverio",
+        "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
+        "date": "2026-10-05",
+        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
         "linkVerified": true
       },
       {
@@ -400,17 +412,6 @@
         "linkVerified": true
       },
       {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
-        "linkVerified": true
-      },
-      {
         "part": 9,
         "question": null,
         "side": "crossing",
@@ -433,14 +434,14 @@
         "linkVerified": true
       },
       {
-        "part": 9,
-        "question": "whose-margin-pays",
-        "side": "inertia-businesses",
-        "sideLabel": "The inertia businesses",
-        "voice": "Alex Immerman",
-        "claim": "Even if incumbents keep their fulfillment advantage, that doesn't guarantee they preserve their profit pool: in 2025 Amazon generated $69 billion in advertising revenue versus $34 billion in operating income ex-AWS, and at an assumed 70%…",
-        "date": "2026-09-29",
-        "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+        "part": 10,
+        "question": "who-writes-the-checks",
+        "side": "not-the-customers-yet",
+        "sideLabel": "Not the customers, yet",
+        "voice": "Mia Silverio",
+        "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
+        "date": "2026-10-05",
+        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
         "linkVerified": true
       },
       {
@@ -452,17 +453,6 @@
         "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
         "date": "2026-09-16",
         "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
       },
       {
@@ -485,6 +475,28 @@
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
         "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Michael Burry",
+        "claim": "Amazon's backlog grew from $200 billion at a weighted average life of 3.8 years (September 30, 2025) to $496 billion at a weighted average life of 6.4 years (June 30, 2026), just nine months later, which the creator identifies as the same type of…",
+        "date": "2026-09-26",
+        "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Michael Burry",
+        "claim": "Amazon's free cash flow has gone negative again, roughly negative $8 billion, while combined uncommenced leases and purchase commitments of $267 billion are significant and growing, up 81% over the last nine months, and long-term debt raised jumped…",
+        "date": "2026-09-26",
+        "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
         "linkVerified": true
       }
     ],
@@ -645,18 +657,7 @@
         "side": "openai-commoditized",
         "sideLabel": "OpenAI: commoditized",
         "voice": "Michael Spencer",
-        "claim": "OpenAI grew revenue only about 18% quarter over quarter in Q2 2026 (from $5.7B to $6.7B), while Anthropic grew 142% quarter over quarter to $11.6B, showing OpenAI is slowing at the worst possible time just before its IPO.",
-        "date": "2026-08-20",
-        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
-        "linkVerified": true
-      },
-      {
-        "part": 5,
-        "question": null,
-        "side": "openai-commoditized",
-        "sideLabel": "OpenAI: commoditized",
-        "voice": "Michael Spencer",
-        "claim": "Anthropic reported preliminary Q2 revenue of $11.5 billion and a projected adjusted operating profit of $559 million, and by the time it goes public it will be comfortably profitable, unlike SpaceX which spent $18.37 billion in capex against just…",
+        "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
         "date": "2026-08-20",
         "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
         "linkVerified": true
@@ -717,25 +718,14 @@
         "linkVerified": true
       },
       {
-        "part": 8,
+        "part": 9,
         "question": null,
-        "side": "cash-has-to-triple",
-        "sideLabel": "The cash has to triple",
-        "voice": "Daniel Romero",
-        "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
-        "date": "2026-09-21",
-        "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "side": "still-a-demo",
+        "sideLabel": "Still a demo",
+        "voice": "Michael Spencer",
+        "claim": "The creator is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…",
+        "date": "2026-09-29",
+        "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
         "linkVerified": true
       },
       {
@@ -755,7 +745,18 @@
         "side": "not-the-customers-yet",
         "sideLabel": "Not the customers, yet",
         "voice": "Mia Silverio",
-        "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
+        "claim": "Anthropic's expected ~$2 trillion IPO valuation is not justified by its numbers, given that it would need $1.2 trillion in annual revenue within 10 years (per Aswath Damodaran) to justify that valuation while the entire current AI products and…",
+        "date": "2026-10-05",
+        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+        "linkVerified": true
+      },
+      {
+        "part": 10,
+        "question": "who-writes-the-checks",
+        "side": "not-the-customers-yet",
+        "sideLabel": "Not the customers, yet",
+        "voice": "Mia Silverio",
+        "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
         "date": "2026-10-05",
         "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
         "linkVerified": true
@@ -774,8 +775,8 @@
       {
         "part": 11,
         "question": null,
-        "side": "crossing",
-        "sideLabel": "Voices that cross sides",
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
         "voice": "Steve Eisman",
         "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
         "date": "2026-09-09",
@@ -902,17 +903,6 @@
       }
     ],
     "sides": [
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
-        "linkVerified": true
-      },
       {
         "part": 11,
         "question": null,
@@ -1125,6 +1115,174 @@
   },
   {
     "kind": "company",
+    "slug": "ciena",
+    "name": "Ciena",
+    "ticker": "CIEN",
+    "summary": "Ciena appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [
+      {
+        "value": "$10B",
+        "label": "Ciena's backlog floor at the end of fiscal 2026",
+        "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
+        "part": 11
+      }
+    ],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Lede",
+        "excerpt": "On September 17, Gaetano reported that Ciena's management expects to end fiscal 2026 with at least $10 billion of backlog, has secured the supply to grow revenue at least 30% in fiscal 2027 and believes that supply carries the same growth through fiscal 2029, when the target is roughly $14 billion of revenue."
+      },
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029."
+      },
+      {
+        "part": 11,
+        "section": "A backlog is a promise",
+        "excerpt": "Gaetano's case for Ciena rests on management extending its growth ambition through fiscal 2029."
+      }
+    ],
+    "sides": [
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Gaetano",
+        "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+        "date": "2026-09-24",
+        "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 5,
+      "claims": 82,
+      "texts": 24,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "cisco",
+    "name": "Cisco",
+    "ticker": "CSCO",
+    "summary": "Cisco appears in Part 4, Part 9, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      4,
+      9,
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 4,
+        "section": "Defense has a case",
+        "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce."
+      },
+      {
+        "part": 9,
+        "section": "The first bill",
+        "excerpt": "Sam Badri, a Cisco veteran on Eisman’s show, estimates that nine in ten users still type a prompt and wait."
+      },
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Sam Badri, on Eisman's program on September 28, described Cisco's real inflection as the point when large orders for switches built on its Silicon One chips started to land, six to nine months earlier."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 30,
+      "claims": 70,
+      "texts": 52,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "cleanspark",
+    "name": "CleanSpark",
+    "ticker": "CLSK",
+    "summary": "CleanSpark appears in Part 7, Part 8 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "parts": [
+      7,
+      8
+    ],
+    "numbers": [
+      {
+        "value": "8.25%",
+        "label": "CleanSpark note coupon",
+        "context": "JunkBondInvestor, September 18, 2026",
+        "part": 7
+      }
+    ],
+    "mentions": [
+      {
+        "part": 7,
+        "section": "AI meets the rate",
+        "excerpt": "Two days after the Fed moved, CleanSpark, a bitcoin miner building a data center for Meta, sold $2.3 billion of five-year notes at 8.25% and drew about $10 billion in orders."
+      },
+      {
+        "part": 8,
+        "section": "What lenders actually own",
+        "excerpt": "CleanSpark sold $2.3 billion of five-year notes at 8.25% to fund a data center for Meta, about 175 basis points above the average BB issuer."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 2,
+      "claims": 4,
+      "texts": 3,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "coherent",
+    "name": "Coherent",
+    "ticker": "COHR",
+    "summary": "Coherent appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Gaetano's version is arithmetic: with Coherent selling everything it can make, Gaetano's illustration has demand running 30% above supply, so that a 15% cut in expected demand still leaves the company growing as capacity ramps, which, Gaetano wrote on September 15, is a different world from idle factories."
+      },
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Gaetano's September 15 list of the money behind the orders runs from Tower's prepayments to Coherent's minimum-demand guarantees and Lumentum's take-or-pay terms."
+      },
+      {
+        "part": 11,
+        "section": "The tests ahead",
+        "excerpt": "The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 9,
+      "claims": 172,
+      "texts": 57,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
     "slug": "comcast",
     "name": "Comcast",
     "ticker": "CMCSA",
@@ -1261,6 +1419,17 @@
         "date": "2026-08-20",
         "url": "https://kakashiii111.substack.com/p/the-nvidia-spv-series-part-2-coreweave",
         "linkVerified": true
+      },
+      {
+        "part": 10,
+        "question": null,
+        "side": "a-model-not-a-price",
+        "sideLabel": "A model, not a price",
+        "voice": "Michael Burry",
+        "claim": "CoreWeave and Nvidia's efforts to show stamina in the pricing of their chips are simply at odds with the depreciation realities lenders actually face.",
+        "date": "2026-09-28",
+        "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -1308,6 +1477,17 @@
       {
         "part": 5,
         "question": null,
+        "side": "openai-commoditized",
+        "sideLabel": "OpenAI: commoditized",
+        "voice": "Michael Spencer",
+        "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+        "date": "2026-08-20",
+        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+        "linkVerified": true
+      },
+      {
+        "part": 5,
+        "question": null,
         "side": "crossing",
         "sideLabel": "Voices that cross sides",
         "voice": "Wyndo",
@@ -1321,6 +1501,44 @@
       "creators": 43,
       "claims": 201,
       "texts": 90,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "dell",
+    "name": "Dell",
+    "ticker": "DELL",
+    "summary": "Dell appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+    "parts": [
+      10
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 10,
+        "section": "Who writes the checks",
+        "excerpt": "Dell raised its estimate to 57 quadrillion tokens a month by the end of 2028 from 1 quadrillion; a Goldman Sachs figure ran about ten times higher."
+      }
+    ],
+    "sides": [
+      {
+        "part": 10,
+        "question": "who-writes-the-checks",
+        "side": "everyone-soon",
+        "sideLabel": "Everyone, soon",
+        "voice": "Aurelion Research",
+        "claim": "The creator treats sharply rising third-party token forecasts — Dell moving from 1 quadrillion to 57 quadrillion tokens per month by end-2028, and a Goldman Sachs estimate roughly 10x Dell's revised number — as showing AI usage growing far faster…",
+        "date": "2026-09-11",
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 20,
+      "claims": 43,
+      "texts": 30,
       "asOf": "2026-10-08"
     },
     "lastUpdated": "2026-10-08"
@@ -1342,11 +1560,83 @@
         "excerpt": "An assistant that orders dinner through Toast and delivery through DoorDash Drive can remove the sponsored listing from the customer’s view."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 9,
+        "question": "whose-margin-pays",
+        "side": "inertia-businesses",
+        "sideLabel": "The inertia businesses",
+        "voice": "Alex Immerman",
+        "claim": "Customers already accept higher menu prices on DoorDash to pay for convenience, which was necessary for restaurant economics to work; the creator is uncertain whether people would similarly accept higher prices shown to assistants or pay a…",
+        "date": "2026-09-29",
+        "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 17,
       "claims": 54,
       "texts": 24,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "fabrinet",
+    "name": "Fabrinet",
+    "ticker": "FN",
+    "summary": "Fabrinet appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Shipping is not earning",
+        "excerpt": "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit."
+      }
+    ],
+    "sides": [
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Aurelion Research",
+        "claim": "Fabrinet's next step depends on turning new manufacturing roles in NPO, CPO, and scale-across into real volume; it will be necessary to confirm which steps Fabrinet handles in NPO, CPO, and ELS production programs, whether multi-rail programs show…",
+        "date": "2026-09-24",
+        "url": "https://read.aurelionresearch.com/p/ciena-and-fabrinet-the-road-ahead",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "shipping-is-not-earning",
+        "sideLabel": "Shipping is not earning",
+        "voice": "Aurelion Research",
+        "claim": "Fabrinet: new roles must become profit.",
+        "date": null,
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Aurelion Research",
+        "claim": "Nvidia supply-bound; Fabrinet's roles still have to earn.",
+        "date": null,
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 6,
+      "claims": 44,
+      "texts": 13,
       "asOf": "2026-10-08"
     },
     "lastUpdated": "2026-10-08"
@@ -1429,12 +1719,12 @@
       {
         "part": 10,
         "question": "who-writes-the-checks",
-        "side": "not-the-customers-yet",
-        "sideLabel": "Not the customers, yet",
-        "voice": "Mia Silverio",
-        "claim": "Overall market earnings strength this year hinges on AI investment, since Goldman Sachs estimates half of earnings growth this year will come from AI investment, even though the S&P 493 (excluding the Magnificent 7) grew earnings 31.8% in Q2 2026…",
-        "date": "2026-10-05",
-        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+        "side": "everyone-soon",
+        "sideLabel": "Everyone, soon",
+        "voice": "Aurelion Research",
+        "claim": "The creator treats sharply rising third-party token forecasts — Dell moving from 1 quadrillion to 57 quadrillion tokens per month by end-2028, and a Goldman Sachs estimate roughly 10x Dell's revised number — as showing AI usage growing far faster…",
+        "date": "2026-09-11",
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
         "linkVerified": true
       }
     ],
@@ -1442,6 +1732,90 @@
       "creators": 39,
       "claims": 86,
       "texts": 73,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "intuit",
+    "name": "Intuit",
+    "ticker": "INTU",
+    "summary": "Intuit appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "parts": [
+      9
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 9,
+        "section": "The first bill",
+        "excerpt": "Meta rose 18% and Advanced Micro Devices rose 33%, while Booking Holdings fell 18%, Expedia 11%, Intuit 16%, Netflix 14%, Comcast 19%, Planet Fitness 17% and Bank of America 14%."
+      },
+      {
+        "part": 9,
+        "section": "What software keeps",
+        "excerpt": "Intuit is the test: Invest in Assets says its moat is “trust, compliance complexity, and habit, not just software,” because a tax mistake costs more than the software."
+      },
+      {
+        "part": 9,
+        "section": "The Call",
+        "excerpt": "We would change our mind if Meta reports downloads without retained users, transaction volume or fees, or if the first tax season shows customers choosing agents over Intuit’s certainty."
+      }
+    ],
+    "sides": [
+      {
+        "part": 9,
+        "question": "whose-margin-pays",
+        "side": "not-every-habit",
+        "sideLabel": "Not every habit",
+        "voice": "Invest in Assets",
+        "claim": "The 'AI will replace TurboTax' narrative undersells how much of Intuit's moat is trust, compliance complexity, and habit rather than just software, and that gap between fear and reality is the opportunity.",
+        "date": "2026-09-10",
+        "url": "https://www.investinassets.net/p/fintwits-best-stock-ideas",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 12,
+      "claims": 44,
+      "texts": 22,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "lumentum",
+    "name": "Lumentum",
+    "ticker": "LITE",
+    "summary": "Lumentum appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Gaetano's September 15 list of the money behind the orders runs from Tower's prepayments to Coherent's minimum-demand guarantees and Lumentum's take-or-pay terms."
+      },
+      {
+        "part": 11,
+        "section": "Shipping is not earning",
+        "excerpt": "Edelbridge Alpha's September 22 model for Lumentum assumes $11.1 billion of fiscal 2028 revenue against consensus near $9.6 billion, a number that requires optical circuit switches to scale quickly and current product lines to stay supply-constrained; Edelbridge still passes at current prices, because the target also needs sustained pricing power."
+      },
+      {
+        "part": 11,
+        "section": "The tests ahead",
+        "excerpt": "The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 7,
+      "claims": 162,
+      "texts": 61,
       "asOf": "2026-10-08"
     },
     "lastUpdated": "2026-10-08"
@@ -1573,34 +1947,12 @@
         "linkVerified": true
       },
       {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
-        "linkVerified": true
-      },
-      {
-        "part": 9,
-        "question": null,
-        "side": "eighteen-months",
-        "sideLabel": "Eighteen months, or less",
-        "voice": "Tae Kim",
-        "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
-        "date": "2026-09-22",
-        "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
-        "linkVerified": true
-      },
-      {
         "part": 9,
         "question": null,
         "side": "still-a-demo",
         "sideLabel": "Still a demo",
         "voice": "Michael Spencer",
-        "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+        "claim": "The creator is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…",
         "date": "2026-09-29",
         "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
         "linkVerified": true
@@ -1611,9 +1963,9 @@
         "side": "inertia-businesses",
         "sideLabel": "The inertia businesses",
         "voice": "Tae Kim",
-        "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
-        "date": "2026-10-02",
-        "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+        "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+        "date": "2026-09-22",
+        "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
         "linkVerified": true
       },
       {
@@ -1639,26 +1991,48 @@
         "linkVerified": true
       },
       {
-        "part": 10,
-        "question": "who-writes-the-checks",
-        "side": "not-the-customers-yet",
-        "sideLabel": "Not the customers, yet",
-        "voice": "Steve Eisman",
-        "claim": "Meta financed a $27 billion Louisiana data center last year through an SPV called Beignet Investor LLC, owning only 20% while Blue Owl and Pimco hold the rest; Meta is building it, has promised to rent it for 20 years, and bears the cost of delays…",
-        "date": "2026-09-25",
-        "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+        "part": 9,
+        "question": "who-collects",
+        "side": "owner-of-the-agent",
+        "sideLabel": "The owner of the agent",
+        "voice": "Tae Kim",
+        "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+        "date": "2026-10-02",
+        "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
         "linkVerified": true
       },
       {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "part": 9,
+        "question": "who-collects",
+        "side": "owner-of-the-agent",
+        "sideLabel": "The owner of the agent",
+        "voice": "Michael Spencer",
+        "claim": "Since Meta Muse optimizes how consumers clean up digital subscriptions they no longer care about, at scale it could implode subscriptions and accelerate subscription fatigue further in 2027, significantly hurting independent media providers such as…",
+        "date": "2026-09-29",
+        "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Gaetano",
+        "claim": "What matters for hyperscaler investment is the relationship between earnings growth and the capital required to produce it rather than when capex peaks; Meta in 2023 illustrates the cash-flow math, with operating cash flow going from $50.5B to…",
+        "date": "2026-09-15",
+        "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Ren",
+        "claim": "Muse is not important because of its underlying model; the real story is that Meta is assembling every component an AI needs to act on a user's behalf in the real economy: dedicated compute, a memory of the user, access to logins, a way to pay, and…",
+        "date": "2026-09-25",
+        "url": null,
+        "linkVerified": false
       },
       {
         "part": 11,
@@ -1859,53 +2233,9 @@
         "side": "real-cash",
         "sideLabel": "Real cash, real use",
         "voice": "Gaetano",
-        "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
-        "date": "2026-09-07",
-        "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "cash-or-loop",
-        "side": "real-cash",
-        "sideLabel": "Real cash, real use",
-        "voice": "Gaetano",
         "claim": "Today's biggest AI infrastructure spenders are large, highly profitable companies like Microsoft, Google, Amazon and Meta, with Microsoft generating more than $55 billion of operating cash flow in its latest quarter and Alphabet roughly $39…",
         "date": "2026-09-07",
         "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Michael Burry",
-        "claim": "Microsoft's raising of its buildings-and-improvements depreciation useful life ceiling from 15 to 25 years is likely a move of convenience that lets it keep tripled data center leases classified as operating rather than finance leases, since ASC…",
-        "date": "2026-09-24",
-        "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
-        "question": "what-lenders-hold",
-        "side": "guarantees-not-faith",
-        "sideLabel": "Guarantees, not faith",
-        "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
       },
       {
@@ -1929,34 +2259,43 @@
         "date": "2026-09-21",
         "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
-      },
-      {
-        "part": 11,
-        "question": null,
-        "side": "a-backlog-is-a-promise",
-        "sideLabel": "A backlog is a promise",
-        "voice": "Michael Burry",
-        "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
-        "date": "2026-09-26",
-        "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
-        "linkVerified": true
-      },
-      {
-        "part": 11,
-        "question": null,
-        "side": "a-backlog-is-a-promise",
-        "sideLabel": "A backlog is a promise",
-        "voice": "Michael Burry",
-        "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
-        "date": "2026-09-24",
-        "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
-        "linkVerified": true
       }
     ],
     "coverage": {
       "creators": 116,
       "claims": 811,
       "texts": 494,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "ticker": "MDB",
+    "summary": "MongoDB appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "parts": [
+      9
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 9,
+        "section": "Lede",
+        "excerpt": "Five days later Meta announced an enterprise platform built on Muse and hired MongoDB’s chief executive to run it."
+      },
+      {
+        "part": 9,
+        "section": "Lede",
+        "excerpt": "MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St.."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 4,
+      "claims": 4,
+      "texts": 4,
       "asOf": "2026-10-08"
     },
     "lastUpdated": "2026-10-08"
@@ -2090,9 +2429,9 @@
         "side": "scarcity-as-moat",
         "sideLabel": "Scarcity as a moat",
         "voice": "Edelbridge Alpha",
-        "claim": "The creator is also hearing that Bloom keeps some capacity available rather than fully committing years in advance, allowing it to serve desperate customers needing power immediately at significantly better economics, analogous to Nebius publicly…",
-        "date": "2026-08-20",
-        "url": "https://edelbridge.substack.com/p/ai-needs-fuel-cells-now",
+        "claim": "Despite extensive resident opposition on noise, water, and emissions grounds at the planning board hearings, Nebius's 350 MW Vineland, New Jersey data center site plan was still approved, showing there is no real 'war' against data centers.",
+        "date": "2026-08-21",
+        "url": "https://edelbridge.substack.com/p/data-center-politics-is-forcing-a",
         "linkVerified": true
       }
     ],
@@ -2332,7 +2671,7 @@
         "side": "real-cash",
         "sideLabel": "Real cash, real use",
         "voice": "Gaetano",
-        "claim": "Current AI demand is highly visible: Microsoft says demand exceeds available capacity, NVIDIA is supply constrained, optical companies are sold out, customers are pulling deliveries forward, signing long-term agreements, and some are prepaying cash…",
+        "claim": "Moving beyond the hyperscalers, financing becomes messier: neoclouds are borrowing enormous amounts of money, AI labs need compute without necessarily having the cash flow to fund it, NVIDIA is investing throughout the ecosystem, infrastructure…",
         "date": "2026-09-07",
         "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar",
         "linkVerified": true
@@ -2343,9 +2682,9 @@
         "side": "guarantees-not-faith",
         "sideLabel": "Guarantees, not faith",
         "voice": "Steve Eisman",
-        "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+        "date": "2026-09-21",
+        "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
         "linkVerified": true
       },
       {
@@ -2354,9 +2693,31 @@
         "side": "a-model-not-a-price",
         "sideLabel": "A model, not a price",
         "voice": "Michael Burry",
-        "claim": "The residual-value numbers on Nvidia's slide are not actual second-hand prices but the present value of current rental income run out over 8 years according to a continuous discounted cash flow model built on assumptions like 75% utilization and a…",
-        "date": "2026-10-01",
-        "url": "https://michaeljburry.substack.com/p/dont-believe-your-lyin-eyes-gpu-depreciation",
+        "claim": "CoreWeave and Nvidia's efforts to show stamina in the pricing of their chips are simply at odds with the depreciation realities lenders actually face.",
+        "date": "2026-09-28",
+        "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+        "linkVerified": true
+      },
+      {
+        "part": 10,
+        "question": null,
+        "side": "a-model-not-a-price",
+        "sideLabel": "A model, not a price",
+        "voice": "Michael Burry",
+        "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+        "date": "2026-09-28",
+        "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+        "linkVerified": true
+      },
+      {
+        "part": 10,
+        "question": null,
+        "side": "a-model-not-a-price",
+        "sideLabel": "A model, not a price",
+        "voice": "Ren",
+        "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+        "date": "2026-09-28",
+        "url": "https://renstocks.substack.com/p/power-supply-supply-chain",
         "linkVerified": true
       },
       {
@@ -2386,22 +2747,11 @@
         "question": "who-writes-the-checks",
         "side": "not-the-customers-yet",
         "sideLabel": "Not the customers, yet",
-        "voice": "Mia Silverio",
-        "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
-        "date": "2026-10-05",
-        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "who-writes-the-checks",
-        "side": "not-the-customers-yet",
-        "sideLabel": "Not the customers, yet",
         "voice": "Steve Eisman",
-        "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
-        "date": "2026-09-25",
-        "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
-        "linkVerified": true
+        "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+        "date": "2026-09-14",
+        "url": null,
+        "linkVerified": false
       },
       {
         "part": 10,
@@ -2412,17 +2762,6 @@
         "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
         "date": "2026-09-16",
         "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Michael Burry",
-        "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
-        "date": "2026-09-28",
-        "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
         "linkVerified": true
       },
       {
@@ -2441,22 +2780,22 @@
         "question": null,
         "side": "funded-not-forecast",
         "sideLabel": "Funded, not forecast",
-        "voice": "Ren",
-        "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
-        "date": "2026-09-28",
+        "voice": "Tae Kim",
+        "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+        "date": "2026-10-02",
         "url": null,
         "linkVerified": false
       },
       {
         "part": 11,
         "question": null,
-        "side": "funded-not-forecast",
-        "sideLabel": "Funded, not forecast",
-        "voice": "Tae Kim",
-        "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
-        "date": "2026-10-02",
-        "url": null,
-        "linkVerified": false
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Steve Eisman",
+        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
       },
       {
         "part": 11,
@@ -2472,8 +2811,8 @@
       {
         "part": 11,
         "question": null,
-        "side": "a-backlog-is-a-promise",
-        "sideLabel": "A backlog is a promise",
+        "side": "shipping-is-not-earning",
+        "sideLabel": "Shipping is not earning",
         "voice": "Steve Eisman",
         "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
         "date": "2026-09-09",
@@ -2494,23 +2833,12 @@
       {
         "part": 11,
         "question": null,
-        "side": "shipping-is-not-earning",
-        "sideLabel": "Shipping is not earning",
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
         "voice": "Steve Eisman",
         "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
         "date": "2026-09-25",
         "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
-        "linkVerified": true
-      },
-      {
-        "part": 11,
-        "question": null,
-        "side": "crossing",
-        "sideLabel": "Voices that cross sides",
-        "voice": "Steve Eisman",
-        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
         "linkVerified": true
       },
       {
@@ -2644,7 +2972,18 @@
         "side": "openai-commoditized",
         "sideLabel": "OpenAI: commoditized",
         "voice": "Michael Spencer",
-        "claim": "OpenAI grew revenue only about 18% quarter over quarter in Q2 2026 (from $5.7B to $6.7B), while Anthropic grew 142% quarter over quarter to $11.6B, showing OpenAI is slowing at the worst possible time just before its IPO.",
+        "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+        "date": "2026-08-20",
+        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+        "linkVerified": true
+      },
+      {
+        "part": 5,
+        "question": null,
+        "side": "openai-commoditized",
+        "sideLabel": "OpenAI: commoditized",
+        "voice": "Michael Spencer",
+        "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which the…",
         "date": "2026-08-20",
         "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
         "linkVerified": true
@@ -2673,24 +3012,13 @@
       },
       {
         "part": 8,
-        "question": null,
-        "side": "cash-has-to-triple",
-        "sideLabel": "The cash has to triple",
-        "voice": "Daniel Romero",
-        "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
-        "date": "2026-09-21",
-        "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
-        "linkVerified": true
-      },
-      {
-        "part": 8,
         "question": "what-lenders-hold",
         "side": "guarantees-not-faith",
         "sideLabel": "Guarantees, not faith",
         "voice": "Steve Eisman",
-        "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+        "date": "2026-09-21",
+        "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
         "linkVerified": true
       },
       {
@@ -2700,17 +3028,6 @@
         "sideLabel": "Eighteen months, or less",
         "voice": "Tae Kim",
         "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
-        "date": "2026-09-22",
-        "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
-        "linkVerified": true
-      },
-      {
-        "part": 9,
-        "question": null,
-        "side": "eighteen-months",
-        "sideLabel": "Eighteen months, or less",
-        "voice": "Tae Kim",
-        "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
         "date": "2026-09-22",
         "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
         "linkVerified": true
@@ -2732,9 +3049,9 @@
         "side": "inertia-businesses",
         "sideLabel": "The inertia businesses",
         "voice": "Tae Kim",
-        "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
-        "date": "2026-10-02",
-        "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+        "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+        "date": "2026-09-22",
+        "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
         "linkVerified": true
       },
       {
@@ -2746,6 +3063,17 @@
         "claim": "Muse is gaining traction: as of that Friday it ranked No. 1 in Apple's App Store ahead of ChatGPT at No. 2, Gemini at No. 8, and Claude at No. 13, and since its September 8 unveiling Meta has added nearly $170 billion in market cap and is up 9%…",
         "date": "2026-09-21",
         "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1",
+        "linkVerified": true
+      },
+      {
+        "part": 9,
+        "question": "who-collects",
+        "side": "owner-of-the-agent",
+        "sideLabel": "The owner of the agent",
+        "voice": "Tae Kim",
+        "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+        "date": "2026-10-02",
+        "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
         "linkVerified": true
       },
       {
@@ -2764,11 +3092,11 @@
         "question": "who-writes-the-checks",
         "side": "not-the-customers-yet",
         "sideLabel": "Not the customers, yet",
-        "voice": "Mia Silverio",
-        "claim": "There is an AI lab bubble, though not an AI bubble infecting the whole market, as shown by Nvidia's valuation having come down significantly; excessive excitement surrounds Anthropic and OpenAI because they are new and exciting even though they…",
-        "date": "2026-10-05",
-        "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
-        "linkVerified": true
+        "voice": "Steve Eisman",
+        "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+        "date": "2026-09-14",
+        "url": null,
+        "linkVerified": false
       },
       {
         "part": 10,
@@ -2798,6 +3126,17 @@
         "side": "a-backlog-is-a-promise",
         "sideLabel": "A backlog is a promise",
         "voice": "Steve Eisman",
+        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Steve Eisman",
         "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
         "date": "2026-09-21",
         "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
@@ -2812,17 +3151,6 @@
         "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
         "date": "2026-09-14",
         "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
-        "linkVerified": true
-      },
-      {
-        "part": 11,
-        "question": null,
-        "side": "crossing",
-        "sideLabel": "Voices that cross sides",
-        "voice": "Steve Eisman",
-        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
-        "date": "2026-09-09",
-        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
         "linkVerified": true
       }
     ],
@@ -2943,20 +3271,9 @@
       },
       {
         "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
-        "voice": "Torsten Slok",
-        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
-        "date": "2026-09-21",
-        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
-        "linkVerified": true
-      },
-      {
-        "part": 10,
-        "question": "what-does-5-percent-do",
-        "side": "long-end-nobody-caps",
-        "sideLabel": "A long end nobody caps",
+        "question": null,
+        "side": "a-model-not-a-price",
+        "sideLabel": "A model, not a price",
         "voice": "Michael Burry",
         "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
         "date": "2026-09-28",
@@ -3036,6 +3353,32 @@
       "creators": 49,
       "claims": 139,
       "texts": 101,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
+    "slug": "servicenow",
+    "name": "ServiceNow",
+    "ticker": "NOW",
+    "summary": "ServiceNow appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "parts": [
+      9
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 9,
+        "section": "Lede",
+        "excerpt": "MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St.."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 23,
+      "claims": 47,
+      "texts": 32,
       "asOf": "2026-10-08"
     },
     "lastUpdated": "2026-10-08"
@@ -3139,7 +3482,7 @@
         "side": "exit-liquidity",
         "sideLabel": "Exit liquidity",
         "voice": "Kris",
-        "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+        "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
         "date": "2026-06-08",
         "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
         "linkVerified": true
@@ -3150,7 +3493,7 @@
         "side": "exit-liquidity",
         "sideLabel": "Exit liquidity",
         "voice": "Kris",
-        "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
+        "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
         "date": "2026-06-08",
         "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
         "linkVerified": true
@@ -3209,17 +3552,6 @@
         "date": null,
         "url": null,
         "linkVerified": false
-      },
-      {
-        "part": 5,
-        "question": null,
-        "side": "openai-commoditized",
-        "sideLabel": "OpenAI: commoditized",
-        "voice": "Michael Spencer",
-        "claim": "Anthropic reported preliminary Q2 revenue of $11.5 billion and a projected adjusted operating profit of $559 million, and by the time it goes public it will be comfortably profitable, unlike SpaceX which spent $18.37 billion in capex against just…",
-        "date": "2026-08-20",
-        "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
-        "linkVerified": true
       }
     ],
     "coverage": {

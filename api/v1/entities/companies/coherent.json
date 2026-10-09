@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-09T03:07:01Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "coherent",
+  "name": "Coherent",
+  "ticker": "COHR",
+  "url": "https://deepstack.ltd/companies/coherent/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/coherent.json",
+  "summary": "Coherent appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Gaetano's version is arithmetic: with Coherent selling everything it can make, Gaetano's illustration has demand running 30% above supply, so that a 15% cut in expected demand still leaves the company growing as capacity ramps, which, Gaetano wrote on September 15, is a different world from idle factories.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Gaetano's September 15 list of the money behind the orders runs from Tower's prepayments to Coherent's minimum-demand guarantees and Lumentum's take-or-pay terms.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "The tests ahead",
+      "excerpt": "The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 9,
+    "claims": 172,
+    "texts": 57,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

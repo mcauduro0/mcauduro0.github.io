@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "alibaba",
@@ -24,7 +24,32 @@
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 5,
+      "question": null,
+      "side": "openai-commoditized",
+      "sideLabel": "OpenAI: commoditized",
+      "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+      "date": "2026-08-20",
+      "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 8,
+      "question": null,
+      "side": "cash-has-to-triple",
+      "sideLabel": "The cash has to triple",
+      "claim": "Alibaba's shift to financing an AI data center buildout through share issuance is a demerit against the investment thesis, as the buildout may be 'practically interminable' without a clear productive path.",
+      "date": "2026-09-04",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    }
+  ],
   "coverage": {
     "creators": 28,
     "claims": 156,

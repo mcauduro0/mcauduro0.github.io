@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "doordash",
@@ -24,7 +24,20 @@
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 9,
+      "question": "whose-margin-pays",
+      "side": "inertia-businesses",
+      "sideLabel": "The inertia businesses",
+      "claim": "Customers already accept higher menu prices on DoorDash to pay for convenience, which was necessary for restaurant economics to work; the creator is uncertain whether people would similarly accept higher prices shown to assistants or pay a…",
+      "date": "2026-09-29",
+      "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    }
+  ],
   "coverage": {
     "creators": 17,
     "claims": 54,

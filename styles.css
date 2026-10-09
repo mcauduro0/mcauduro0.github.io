@@ -362,6 +362,20 @@ a.ear-right:hover { border-color: var(--ink); }
 .call .call-argument p { margin-top: 12px; font: 400 18px/1.6 var(--serif); color: rgba(244, 239, 230, 0.92); }
 .call .call-disclaimer { margin-top: 16px; font: 500 12px/1.4 var(--sans); color: var(--on-navy-muted); }
 
+/* The Call's history (Lane S): one compact line per version under the argument. */
+.call-history { margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(244, 239, 230, 0.14); }
+.call-history summary { cursor: pointer; width: fit-content; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; list-style-position: inside; }
+.call-history summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; border-radius: 4px; }
+.call .call-history-title { margin: 0; font: 700 14px/1.3 var(--sans); color: var(--amber); }
+.call-history-meta { font: 500 12.5px/1.3 var(--sans); color: var(--on-navy-muted); }
+.call-history-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.call-history-item { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font: 400 13.5px/1.5 var(--sans); color: rgba(244, 239, 230, 0.86); }
+.call-history-v { font: 700 12px/1 var(--mono); color: var(--amber); letter-spacing: 0.5px; }
+.call-history-item time { font: 500 12.5px/1.3 var(--sans); color: var(--on-navy-muted); white-space: nowrap; }
+.call-history-stance { font-weight: 700; color: var(--on-navy); }
+.call-history-conv { color: var(--on-navy-muted); white-space: nowrap; }
+.call-history-reason { flex-basis: 100%; font: 400 15px/1.5 var(--serif); color: rgba(244, 239, 230, 0.86); }
+
 @media (max-width: 1000px) {
   .call-grid { grid-template-columns: 1fr 1fr; }
   .call-do { grid-column: 1 / -1; }
@@ -384,7 +398,7 @@ a.ear-right:hover { border-color: var(--ink); }
 
 .watch { margin-top: 2.6em; }
 .watch h2 { margin-top: 0; }
-.watch li { display: grid; grid-template-columns: 76px 1fr; gap: 20px; align-items: center; padding: 14px 0; border-top: 1px solid var(--rule); }
+.watch li { display: grid; grid-template-columns: 76px 1fr; gap: 20px; align-items: start; padding: 14px 0; border-top: 1px solid var(--rule); }
 .watch li:last-child { border-bottom: 1px solid var(--rule); }
 .watch li p { font-size: 17.5px; line-height: 1.5; color: var(--ink-2); }
 
@@ -912,6 +926,9 @@ path.lc-fc { stroke: var(--amber-ink); }
 .weekly-head h1 { max-width: 20ch; font-size: clamp(40px, 5.4vw, 72px); }
 .weekly-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-top: 18px; font: 600 13px/1.4 var(--sans); color: var(--muted); }
 .weekly-meta span { display: inline-flex; align-items: center; }
+.weekly-audio { max-width: 560px; margin-top: 20px; }
+.weekly-audio audio { display: block; width: 100%; }
+.weekly-audio-note { margin-top: 8px; }
 .weekly { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 56px; padding-bottom: clamp(56px, 7vw, 96px); }
 .weekly-main { display: flex; flex-direction: column; gap: 40px; min-width: 0; max-width: 780px; }
 .weekly-main > section { padding-top: 22px; border-top: 2px solid var(--ink); }
@@ -1131,6 +1148,15 @@ path.lc-fc { stroke: var(--amber-ink); }
 .docket-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 8px; }
 .docket-list .docket-row a { margin-top: 0; }
 .docket-id { font: 500 11.5px/1.3 var(--mono); color: var(--muted); }
+/* The specification under a Docket test (Lane R): four labelled rows, or one pending line. */
+.docket-spec { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; margin: 12px 0 0; padding: 10px 0 0; border-top: 1px dotted var(--rule); }
+.docket-spec dt { font: 600 11px/1.6 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.docket-spec dd { margin: 0; font: 400 14.5px/1.45 var(--sans); color: var(--ink-2); }
+.docket-list .docket-spec a { display: inline; margin-top: 0; font: inherit; color: var(--amber-ink); text-decoration: underline; text-decoration-color: var(--amber); }
+.docket-list .docket-spec-pending { margin-top: 8px; font: 500 12px/1.4 var(--mono); color: var(--muted); }
+.watch .docket-spec a { display: inline; margin-top: 0; font: inherit; color: var(--amber-ink); text-decoration: underline; text-decoration-color: var(--amber); }
+.watch .docket-spec-pending { margin-top: 8px; font: 500 12px/1.4 var(--mono); color: var(--muted); }
+@media (max-width: 760px) { .docket-spec { grid-template-columns: 1fr; gap: 2px 0; } .docket-spec dd { margin-bottom: 6px; } }
 .docket-fine { padding-block: 16px clamp(32px, 4vw, 56px); }
 .page-docket .docket-list li { grid-template-columns: 76px 1fr; }
 /* Results: scorecard and result cards. */
@@ -1231,6 +1257,12 @@ path.lc-fc { stroke: var(--amber-ink); }
 .sides-question .sides-grid { padding-top: 8px; }
 .sides-question h3 { margin-top: 8px; font: 700 clamp(22px, 2.2vw, 28px)/1.12 var(--serif); letter-spacing: -0.02em; }
 .side-crossing { border-top-color: var(--amber); }
+/* Lane Q: the strongest case against a side, under its voices; additive, Manus tokens only. */
+.side-against { margin-top: 20px; padding: 14px 16px 16px; border-left: 3px solid var(--brick); border-radius: 0 var(--radius) var(--radius) 0; background: var(--card); }
+.side-against .label { margin: 0; }
+.side-against .voice-name { margin-top: 10px; }
+.side-against .voice-claim { margin-top: 6px; }
+.against-relation { font: 500 12px/1.4 var(--mono); color: var(--muted); }
 .sides-notes { padding-block: clamp(20px, 3vw, 36px); }
 
 /* Live cards name who produced each number; the notes page says which cards the snapshot could not test. */
@@ -1292,6 +1324,11 @@ path.lc-fc { stroke: var(--amber-ink); }
 .search-empty { max-width: 62ch; padding-block: 8px; font: 400 17px/1.55 var(--sans); color: var(--ink-2); }
 .search-empty-title { margin-bottom: 8px; font: 700 clamp(22px, 2.2vw, 28px)/1.2 var(--serif); color: var(--ink); }
 .search-empty a { color: var(--amber-ink); }
+/* Below the relevance floor (Onda 4, lane T): the nearest items sit under the sentence, labeled, before the places to browse. */
+.search-nearest { margin-block: 20px 24px; }
+.search-nearest-label { margin-bottom: 6px; font: 700 11.5px/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.search-nearest-list a { padding: 14px 0; }
+.search-nearest-list .search-title { font-size: clamp(18px, 1.8vw, 21px); }
 .download-item { padding-block: clamp(22px, 3vw, 36px); border-top: 1px solid var(--rule); }
 .download-item:last-child { border-bottom: 1px solid var(--rule); }
 .download-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }

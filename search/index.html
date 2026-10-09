@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Search DeepStack: stories, sides, companies, people and tests</title>
-<meta name="description" content="Search 185 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
+<meta name="description" content="Search 195 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
 <meta name="theme-color" content="#F4EFE6">
 <link rel="canonical" href="https://deepstack.ltd/search/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DeepStack">
 <meta property="og:url" content="https://deepstack.ltd/search/">
 <meta property="og:title" content="Search DeepStack: stories, sides, companies, people and tests">
-<meta property="og:description" content="Search 185 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
+<meta property="og:description" content="Search 195 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
 <meta property="og:image" content="https://deepstack.ltd/assets/avatar.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Search DeepStack: stories, sides, companies, people and tests">
-<meta name="twitter:description" content="Search 185 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
+<meta name="twitter:description" content="Search 195 entries across The Buildout: stories, who is on each side, companies, people, the Editorial Notes and every dated test on the Docket.">
 <meta name="twitter:image" content="https://deepstack.ltd/assets/avatar.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="DeepStack" href="/feed.xml">
@@ -53,8 +53,8 @@
 <section class="page-head wrap search-head">
   <p class="label label-amber">Search</p>
   <h1>Find it in the stack.</h1>
-  <p class="page-dek">Stories, who is on each side, companies, people, the Editorial Notes and every dated test: 185 entries, searched in your browser.</p>
-  <form class="search-form" role="search" method="get" data-search-form>
+  <p class="page-dek">Stories, who is on each side, companies, people, the Editorial Notes and every dated test: 195 entries, searched in your browser.</p>
+  <form class="search-form" role="search" method="get" data-search-form data-question-log="https://mcp.deepstack.ltd/log">
     <label for="search-q">Search DeepStack</label>
     <div class="search-row"><input id="search-q" class="search-input" type="search" name="q" placeholder="Nvidia, the Fed, Burry, depreciation, 10-year" autocomplete="off" spellcheck="false" maxlength="120" aria-describedby="search-status"><button class="btn btn-amber" type="submit">Search <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button></div>
     <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
@@ -63,12 +63,16 @@
 <section class="wrap search-body" aria-label="Results">
   <ol id="search-results" class="search-results"></ol>
   <div id="search-empty" class="search-empty" hidden>
-    <p class="search-empty-title">Nothing matched “<span data-query></span>”.</p>
+    <p class="search-empty-title" data-answer>DeepStack has no formed side on “<span data-query></span>”. Nothing published argues it yet.</p>
+    <div class="search-nearest" data-nearest hidden>
+      <p class="search-nearest-label">Nearest published items, loosely related; not an answer.</p>
+      <ol class="search-results search-nearest-list" data-nearest-list></ol>
+    </div>
     <p>Try a company, a person, a rate or a date, or a shorter word: the search matches the start of words. Or browse <a href="/stories/">The Buildout</a>, <a href="/docket/">the Docket</a>, <a href="/companies/">Companies</a>, <a href="/people/">People</a> and <a href="/data/">the Data Desk</a>.</p>
   </div>
   <noscript><p class="fine">Search runs in the browser and needs JavaScript. Without it, browse <a href="/stories/">The Buildout</a>, <a href="/docket/">the Docket</a>, <a href="/companies/">Companies</a> and <a href="/people/">People</a>.</p></noscript>
 </section>
-<section class="wrap docket-fine" aria-label="How search works"><p class="fine">The index is one file on this site (<a href="/search.json">search.json</a>, rebuilt with every publish); nothing you type leaves your browser. Analysis and opinion, not investment advice.</p></section>
+<section class="wrap docket-fine" aria-label="How search works"><p class="fine">The index is one file on this site (<a href="/search.json">search.json</a>, rebuilt with every publish). What you type is kept by DeepStack as text with the date and the number of results, nothing else, to decide what DeepStack covers next (<a href="/about/#privacy">privacy</a>). Analysis and opinion, not investment advice.</p></section>
 </main>
 <section id="newsletter" class="newsletter" aria-labelledby="newsletter-title">
   <div class="wrap newsletter-inner">

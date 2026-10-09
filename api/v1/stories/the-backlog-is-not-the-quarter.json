@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:13Z",
+  "generatedAt": "2026-10-09T03:07:01Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -29,6 +29,22 @@
       "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
       "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
     ],
+    "version": 1,
+    "updatedOn": "2026-10-08",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-08",
+        "stance": "Revenue yes, margin not yet",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      }
+    ],
     "nextTest": {
       "id": "p11-t01",
       "part": 11,
@@ -48,7 +64,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -221,7 +241,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -246,7 +270,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NVDA",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -271,7 +299,11 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "ORCL",
-        "rule": "results reported => read the print"
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -295,7 +327,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -319,7 +355,11 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": ""
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -351,10 +391,45 @@
     },
     {
       "kind": "company",
+      "slug": "ciena",
+      "name": "Ciena",
+      "ticker": "CIEN",
+      "url": "https://deepstack.ltd/companies/ciena/"
+    },
+    {
+      "kind": "company",
+      "slug": "cisco",
+      "name": "Cisco",
+      "ticker": "CSCO",
+      "url": "https://deepstack.ltd/companies/cisco/"
+    },
+    {
+      "kind": "company",
+      "slug": "coherent",
+      "name": "Coherent",
+      "ticker": "COHR",
+      "url": "https://deepstack.ltd/companies/coherent/"
+    },
+    {
+      "kind": "company",
+      "slug": "fabrinet",
+      "name": "Fabrinet",
+      "ticker": "FN",
+      "url": "https://deepstack.ltd/companies/fabrinet/"
+    },
+    {
+      "kind": "company",
       "slug": "globalfoundries",
       "name": "GLOBALFOUNDRIES",
       "ticker": "GFS",
       "url": "https://deepstack.ltd/companies/globalfoundries/"
+    },
+    {
+      "kind": "company",
+      "slug": "lumentum",
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "url": "https://deepstack.ltd/companies/lumentum/"
     },
     {
       "kind": "company",
