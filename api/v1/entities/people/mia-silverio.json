@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "mia-silverio",
@@ -7,7 +7,7 @@
   "role": "Prof G Markets",
   "url": "https://deepstack.ltd/people/mia-silverio/",
   "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet).",
+  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
   "parts": [
     {
       "part": 7,
@@ -23,6 +23,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -50,6 +55,12 @@
       "section": "The bill raises the rate",
       "excerpt": "Mia Silverio says that with 5.3% available on a Treasury carrying no credit risk, stock buyers demand a higher return and pay less for each dollar of profit.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "A backlog is a promise",
+      "excerpt": "Mia Silverio of Prof G Markets supplied the extreme case on September 28: SB Energy has no operating data centers and a $439 billion backlog of which 9% has broken ground, and most of its contracts let the customer leave if a project runs more than a year late.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -112,6 +123,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "SB's backlog isn't 100% guaranteed revenue, because most of its contracts have completion time clauses letting the customer exit the agreement or get a discount if a project is delayed by more than a year.",
+      "date": "2026-09-28",
+      "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "SB Energy, purportedly a data center company, has zero operational data centers, and while it has a $439 billion backlog, only 9% of contracts have actually broken ground.",
+      "date": "2026-09-28",
+      "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

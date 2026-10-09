@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
   "kind": "company",
-  "count": 33,
+  "count": 35,
   "market": {
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
@@ -66,7 +66,7 @@
       "ticker": "GOOGL",
       "url": "https://deepstack.ltd/companies/alphabet/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-      "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 1,
@@ -107,6 +107,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -336,6 +341,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -367,7 +408,7 @@
       "ticker": "AMZN",
       "url": "https://deepstack.ltd/companies/amazon/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-      "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 3,
@@ -398,6 +439,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [],
@@ -583,6 +629,30 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -965,6 +1035,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -983,7 +1065,7 @@
       "ticker": "APO",
       "url": "https://deepstack.ltd/companies/apollo-global-management/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-      "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 1,
@@ -1019,6 +1101,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -1144,6 +1231,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -1870,6 +1969,40 @@
     },
     {
       "kind": "company",
+      "slug": "globalfoundries",
+      "name": "GLOBALFOUNDRIES",
+      "ticker": "GFS",
+      "url": "https://deepstack.ltd/companies/globalfoundries/",
+      "api": "https://deepstack.ltd/api/v1/entities/companies/globalfoundries.json",
+      "summary": "GLOBALFOUNDRIES appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "parts": [
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 11,
+          "section": "Shipping is not earning",
+          "excerpt": "Gaetano's GlobalFoundries case, from September 18, starts from today's gross margin of about 30% and operating margin of about 17%, against management targets of about 40% and 25% exiting 2028, and deliberately models below them.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 3,
+        "claims": 33,
+        "texts": 11,
+        "asOf": "2026-10-08"
+      },
+      "lastUpdated": "2026-10-08",
+      "market": null
+    },
+    {
+      "kind": "company",
       "slug": "goldman-sachs",
       "name": "Goldman Sachs",
       "ticker": "GS",
@@ -1941,7 +2074,7 @@
       "ticker": "META",
       "url": "https://deepstack.ltd/companies/meta/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/meta.json",
-      "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 4,
@@ -1977,6 +2110,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -1986,6 +2124,13 @@
           "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
           "part": 9,
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "value": "$28B",
+          "label": "Meta's residual-value guarantee on its data-center venture",
+          "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
+          "part": 11,
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "mentions": [
@@ -2194,6 +2339,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+          "date": "2026-09-22",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -2278,7 +2459,7 @@
       "ticker": "MSFT",
       "url": "https://deepstack.ltd/companies/microsoft/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-      "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 2,
@@ -2314,9 +2495,22 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
-      "numbers": [],
+      "numbers": [
+        {
+          "value": "113%",
+          "label": "Growth in Microsoft's backlog due beyond one year",
+          "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
+          "part": 11,
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
       "mentions": [
         {
           "part": 2,
@@ -2487,6 +2681,54 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+          "date": "2026-09-26",
+          "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
+          "date": "2026-09-24",
+          "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -2843,7 +3085,7 @@
       "ticker": "NVDA",
       "url": "https://deepstack.ltd/companies/nvidia/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nvidia.json",
-      "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 1,
@@ -2879,6 +3121,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -2888,6 +3135,13 @@
           "context": "Vitaliy Katsenelson, August 6, 2026",
           "part": 3,
           "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+        },
+        {
+          "value": "1 year",
+          "label": "Nvidia's terms for its best-rated customers",
+          "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
+          "part": 11,
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "mentions": [
@@ -3144,6 +3398,114 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "The binding constraint on NVIDIA is supply rather than demand: unconstrained revenue growth was described as potentially above 100% YoY while guidance was near 70% growth because of supply limits, and the CFO framed the FY2028 70% growth outlook as…",
+          "date": "2026-09-11",
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+          "date": "2026-09-28",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+          "date": "2026-10-02",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "shipping-is-not-earning",
+          "sideLabel": "Shipping is not earning",
+          "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+          "date": "2026-09-14",
+          "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "shipping-is-not-earning",
+          "sideLabel": "Shipping is not earning",
+          "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
+          "date": "2026-09-25",
+          "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Nvidia supply-bound; Fabrinet's roles still have to earn.",
+          "date": null,
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -3175,7 +3537,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/openai/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/openai.json",
-      "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 2,
@@ -3216,6 +3578,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -3488,6 +3855,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "a-backlog-is-a-promise",
+          "sideLabel": "A backlog is a promise",
+          "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "shipping-is-not-earning",
+          "sideLabel": "Shipping is not earning",
+          "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+          "date": "2026-09-14",
+          "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+          "date": "2026-09-09",
+          "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -3506,7 +3909,7 @@
       "ticker": "ORCL",
       "url": "https://deepstack.ltd/companies/oracle/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-      "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 3,
@@ -3532,6 +3935,11 @@
           "part": 8,
           "headline": "AI Lenders Are Financing the End of Scarcity",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [
@@ -3597,6 +4005,24 @@
           "section": "Lede",
           "excerpt": "Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments.",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 11,
+          "section": "Lede",
+          "excerpt": "Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "section": "Funded, not forecast",
+          "excerpt": "And Kakashii's September 24 point about Oracle is the strongest word on this side: most of the new obligations arrived prepaid or with the customer's own hardware, so they depend on no one raising capital.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "section": "Funded, not forecast",
+          "excerpt": "Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "sides": [
@@ -3647,6 +4073,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
         }
       ],
       "coverage": {
@@ -4053,17 +4491,69 @@
     },
     {
       "kind": "company",
+      "slug": "tsmc",
+      "name": "TSMC",
+      "ticker": "TSM",
+      "url": "https://deepstack.ltd/companies/tsmc/",
+      "api": "https://deepstack.ltd/api/v1/entities/companies/tsmc.json",
+      "summary": "TSMC appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "parts": [
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 11,
+          "section": "Funded, not forecast",
+          "excerpt": "Ren put it plainly in a note first published July 27 and updated August 14: demand for optics is funded rather than forecast, with TSMC guiding to $52 billion to $56 billion of 2026 capital spending, so demand is the easy part and price the hard one.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 11,
+          "question": null,
+          "side": "funded-not-forecast",
+          "sideLabel": "Funded, not forecast",
+          "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
+          "date": "2026-07-27",
+          "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "coverage": {
+        "creators": 41,
+        "claims": 246,
+        "texts": 134,
+        "asOf": "2026-10-08"
+      },
+      "lastUpdated": "2026-10-08",
+      "market": null
+    },
+    {
+      "kind": "company",
       "slug": "vertiv",
       "name": "Vertiv",
       "ticker": "VRT",
       "url": "https://deepstack.ltd/companies/vertiv/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/vertiv.json",
-      "summary": "Vertiv appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+      "summary": "Vertiv appears in Part 4, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
       "numbers": [],
@@ -4073,9 +4563,34 @@
           "section": "The bill comes due",
           "excerpt": "Vertiv, a cooling and power supplier, added $3.27 billion of revenue in a quarter and still undershot its own guidance because it could not build fast enough.",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 11,
+          "section": "Shipping is not earning",
+          "excerpt": "Edelbridge rated Vertiv's execution risk at 3.5 on a 5 scale on September 14, the risk being manufacturing added too fast for quality or margin.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 11,
+          "section": "The tests ahead",
+          "excerpt": "Microsoft, Alphabet, Meta and Vertiv report, and the Fed decides the same day.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 11,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The creator rates Vertiv's execution risk 3.5/5, noting that while hyperscaler capex demand looks strong, the bigger question is whether Vertiv can scale manufacturing fast enough to keep up without sacrificing quality or margins, calling this…",
+          "date": "2026-09-14",
+          "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        }
+      ],
       "coverage": {
         "creators": 10,
         "claims": 20,

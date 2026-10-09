@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T01:00:23Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T01:11:13Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
       "url": "https://deepstack.ltd/about/#standards"
@@ -56,7 +56,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The 10 parts of The Buildout with The DeepStack Call, key numbers and sources.",
+            "description": "The 11 parts of The Buildout with The DeepStack Call, key numbers and sources.",
             "content": {
               "application/json": {
                 "schema": {
@@ -93,7 +93,8 @@
                 "the-fed-hiked-the-long-end-kept-climbing",
                 "the-scarcity-is-the-collateral",
                 "habit-was-the-moat",
-                "the-bubble-is-in-the-denominator"
+                "the-bubble-is-in-the-denominator",
+                "the-backlog-is-not-the-quarter"
               ]
             }
           }
@@ -196,6 +197,7 @@
                 "nvidias-demand-insatiable-or-manufactured",
                 "power-doesnt-depreciate",
                 "spacex-after-the-ipo-exit-liquidity",
+                "the-backlog-is-not-the-quarter",
                 "the-bubble-is-in-the-denominator",
                 "the-debt-behind-the-machines",
                 "the-fed-hiked-the-long-end-kept-climbing",
@@ -228,7 +230,7 @@
         ],
         "responses": {
           "200": {
-            "description": "33 companies with reported numbers, mentions, side rows and the delayed market snapshot.",
+            "description": "35 companies with reported numbers, mentions, side rows and the delayed market snapshot.",
             "content": {
               "application/json": {
                 "schema": {
@@ -249,7 +251,7 @@
         ],
         "responses": {
           "200": {
-            "description": "64 people with what each argued; no score or ranking.",
+            "description": "67 people with what each argued; no score or ranking.",
             "content": {
               "application/json": {
                 "schema": {

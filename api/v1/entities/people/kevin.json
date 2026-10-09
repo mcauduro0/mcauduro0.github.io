@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-10-09T01:11:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "kevin",
+  "name": "Kevin",
+  "role": null,
+  "url": "https://deepstack.ltd/people/kevin/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/kevin.json",
+  "summary": "Kevin appears in Part 2, Part 4, Part 7, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (A backlog is a promise).",
+  "parts": [
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$1.25B",
+      "label": "Monthly Anthropic contract",
+      "context": "Through May 2029, as documented by Kevin Gee",
+      "part": 2,
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "value": "$3.5T",
+      "label": "2026–30 hyperscaler capex",
+      "context": "Oscar Hattink via Kevin Gee; 2026–2030",
+      "part": 4,
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "And the demand exhibit is a signed contract rather than an inference: Kevin Gee documents Anthropic’s agreement to pay SpaceX $1.25 billion a month for compute through May 2029, roughly $45 billion in total.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "section": "The customer test",
+      "excerpt": "Kevin Gee’s wider question is the one the stock cannot answer with a slide: can the market absorb three trillion-dollar cash-burning IPOs in a single window, with OpenAI still to come?",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 4,
+      "section": "Arithmetic sets the test",
+      "excerpt": "Kevin Gee’s A Letter a Day, relaying Oscar Hattink’s 2026 letter, puts the burden on the customer.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 7,
+      "section": "Lede",
+      "excerpt": "At the press conference, Neil Irwin of Axios asked Kevin Warsh what the bond market was telling the Fed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 11,
+      "section": "A backlog is a promise",
+      "excerpt": "Kevin of 100 Bagger Hunting, writing on September 11 about Ilyda, withholds conviction past 2027, because roughly 15% of revenue depends on EU and state tenders whose timing is unknown.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Roughly 15% of revenue is tied directly to EU and state tenders where timing is unknown and awards are not always publicly announced, and a significant portion of private-sector spending is supported by EU or government funding incentives, so the…",
+      "date": "2026-09-11",
+      "url": "https://www.100baggerhunting.com/p/a-software-monopoly-priced-like-a",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Ilyda is currently assessed as a genuinely good business at a boring price, with issues around revenue visibility post-2027; Kevin says his process leans more on future predictability, so he needs a better estimate of the future than just the CEO's…",
+      "date": "2026-09-11",
+      "url": "https://www.100baggerhunting.com/p/a-software-monopoly-priced-like-a",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "coverage": {
+    "creators": 30,
+    "claims": 1547,
+    "texts": 140,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

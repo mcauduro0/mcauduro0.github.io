@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kakashii",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kakashii/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kakashii.json",
-  "summary": "Kakashii appears in Part 2, Part 6, Part 8, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
+  "summary": "Kakashii appears in Part 2, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
   "parts": [
     {
       "part": 2,
@@ -28,6 +28,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [
@@ -63,6 +68,24 @@
       "section": "A cheap top",
       "excerpt": "Kakashii estimates that Nvidia’s plan to ship more than 10 million Blackwell and Rubin chips by the end of 2026 implies roughly 20 gigawatts of power, and holds that Blackwell GPUs ended up in warehouses because too few data centers had cooling and equipment.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "And Kakashii's September 24 point about Oracle is the strongest word on this side: most of the new obligations arrived prepaid or with the customer's own hardware, so they depend on no one raising capital.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "The tests ahead",
+      "excerpt": "Oracle reports on December 9, the day of the Fed's last decision of the year: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [

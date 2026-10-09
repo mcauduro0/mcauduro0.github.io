@@ -1,6 +1,6 @@
 # DeepStack: The Buildout, every story and its Call
 
-The money behind the machine. Generated 2026-10-09T01:00:23Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+The money behind the machine. Generated 2026-10-09T01:11:13Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
 
 ## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
 URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
@@ -191,5 +191,25 @@ Next test: Oct 28, 2026 (pending): Microsoft, Alphabet, Meta and Amazon report; 
 Key numbers: 19.0x S&P 500 forward multiple (FactSet, as of Oct 2, 2026); 29.5% Expected Q3 earnings growth (FactSet, as of Oct 2, 2026); $250B Hyperscaler high-grade bonds (Apollo presentation via Leyla Kunimoto, through August 2026); 5.31% 10-year Treasury yield (CNBC, closing yield on Oct 5, 2026)
 Who is on each side: https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/
 JSON: https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json
+
+## Part 11: The Backlog Is Not the Quarter
+URL: https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/
+Published: 2026-10-08 · Markets · 11 min read
+Dek: Ciena carries a $10 billion order book, Microsoft's far backlog grew three times as fast as its near one, and Nvidia now waits a year to be paid. The orders will ship. DeepStack expects the profit to arrive later, and the third-quarter reports to show the gap.
+Summary: AI suppliers report record order books. DeepStack reads the near book as revenue, the far book as a promise and the margin as the number that arrives last.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): Revenue yes, margin not yet
+Call: The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.
+What to do with this:
+1. Split every backlog into what is due within a year and what is not; a far book outgrowing the near one three to one is mostly forecast.
+2. Credit prepaid or bring-your-own-hardware orders as revenue and the rest as options; read a residual-value guarantee as the lender's doubt.
+3. Hold gross margin against the stated target before crediting the ramp: Perma-Pipe's 30% in December is the line to clear.
+What would change the call:
+- Microsoft's within-a-year backlog grows as fast as the beyond-a-year book on October 28.
+- Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.
+- Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin.
+Next test: Oct 28, 2026 (pending): Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted. https://deepstack.ltd/docket/#test-p11-t01
+Key numbers: $10B Ciena's backlog floor at the end of fiscal 2026 (Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029); 113% Growth in Microsoft's backlog due beyond one year (Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%); 1 year Nvidia's terms for its best-rated customers (From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026); $28B Meta's residual-value guarantee on its data-center venture (Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash)
+Who is on each side: https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/
+JSON: https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json
 
 Analysis and opinion, not investment advice.

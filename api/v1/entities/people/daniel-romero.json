@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "daniel-romero",
@@ -7,7 +7,7 @@
   "role": "HyperTech Invest",
   "url": "https://deepstack.ltd/people/daniel-romero/",
   "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
-  "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple).",
+  "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10, Part 11 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
   "parts": [
     {
       "part": 5,
@@ -33,6 +33,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [
@@ -92,6 +97,12 @@
       "section": "Who writes the checks",
       "excerpt": "Daniel Romero puts OpenAI and Anthropic at a combined annual run rate near $105 billion in July, about $40 billion and $65 billion respectively, and says the line to watch is $400 billion by the end of 2027.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Daniel Romero's Group Up, in his September 16 portfolio update, added capacity too slowly and saw its ramp slip to the end of 2028, so Romero expects margins to erode until the new factory reaches volume.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -142,6 +153,54 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
       "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "Group Up added capacity too slowly, which will limit growth for the next two years, and with the production ramp slipping to the end of 2028 plus the largest company-wide salary increase in its history amid a Taiwanese engineer shortage, there may…",
+      "date": "2026-09-16",
+      "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "Among the three memory names the creator holds, only Samsung is rated a Buy, because of foundry, advanced packaging, new memory architectures, unique vertical integration for base dies versus SK hynix, and because it is the cheapest of the three…",
+      "date": "2026-09-16",
+      "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "Late capacity, margin squeeze until 2028.",
+      "date": null,
+      "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "HBM capacity exploding at TOWA, added too slowly at Group Up.",
+      "date": null,
+      "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

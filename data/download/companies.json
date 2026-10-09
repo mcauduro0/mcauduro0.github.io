@@ -30,7 +30,7 @@
     "slug": "alphabet",
     "name": "Alphabet",
     "ticker": "GOOGL",
-    "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       1,
       3,
@@ -39,7 +39,8 @@
       6,
       8,
       9,
-      10
+      10,
+      11
     ],
     "numbers": [
       {
@@ -243,6 +244,39 @@
         "date": "2026-09-28",
         "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Kakashii",
+        "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+        "date": "2026-09-24",
+        "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "JunkBondInvestor",
+        "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+        "date": "2026-09-20",
+        "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -258,14 +292,15 @@
     "slug": "amazon",
     "name": "Amazon",
     "ticker": "AMZN",
-    "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       3,
       4,
       6,
       8,
       9,
-      10
+      10,
+      11
     ],
     "numbers": [],
     "mentions": [
@@ -424,6 +459,28 @@
         "question": "what-does-5-percent-do",
         "side": "long-end-nobody-caps",
         "sideLabel": "A long end nobody caps",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Kakashii",
+        "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+        "date": "2026-09-24",
+        "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
         "voice": "Torsten Slok",
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
@@ -713,6 +770,17 @@
         "date": "2026-09-21",
         "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Steve Eisman",
+        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -728,7 +796,7 @@
     "slug": "apollo-global-management",
     "name": "Apollo Global Management",
     "ticker": "APO",
-    "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       1,
       4,
@@ -736,7 +804,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "numbers": [
       {
@@ -838,6 +907,17 @@
         "question": "what-does-5-percent-do",
         "side": "long-end-nobody-caps",
         "sideLabel": "A long end nobody caps",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
         "voice": "Torsten Slok",
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
@@ -1299,6 +1379,32 @@
   },
   {
     "kind": "company",
+    "slug": "globalfoundries",
+    "name": "GLOBALFOUNDRIES",
+    "ticker": "GFS",
+    "summary": "GLOBALFOUNDRIES appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Shipping is not earning",
+        "excerpt": "Gaetano's GlobalFoundries case, from September 18, starts from today's gross margin of about 30% and operating margin of about 17%, against management targets of about 40% and 25% exiting 2028, and deliberately models below them."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 3,
+      "claims": 33,
+      "texts": 11,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
     "slug": "goldman-sachs",
     "name": "Goldman Sachs",
     "ticker": "GS",
@@ -1345,7 +1451,7 @@
     "slug": "meta",
     "name": "Meta",
     "ticker": "META",
-    "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       4,
       5,
@@ -1353,7 +1459,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "numbers": [
       {
@@ -1361,6 +1468,12 @@
         "label": "Meta stock gain",
         "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
         "part": 9
+      },
+      {
+        "value": "$28B",
+        "label": "Meta's residual-value guarantee on its data-center venture",
+        "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
+        "part": 11
       }
     ],
     "mentions": [
@@ -1546,6 +1659,39 @@
         "date": "2026-09-21",
         "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Tae Kim",
+        "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+        "date": "2026-09-22",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "JunkBondInvestor",
+        "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+        "date": "2026-09-20",
+        "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -1592,7 +1738,7 @@
     "slug": "microsoft",
     "name": "Microsoft",
     "ticker": "MSFT",
-    "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       2,
       3,
@@ -1600,9 +1746,17 @@
       5,
       6,
       8,
-      10
+      10,
+      11
     ],
-    "numbers": [],
+    "numbers": [
+      {
+        "value": "113%",
+        "label": "Growth in Microsoft's backlog due beyond one year",
+        "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
+        "part": 11
+      }
+    ],
     "mentions": [
       {
         "part": 2,
@@ -1752,6 +1906,50 @@
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
         "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Kakashii",
+        "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+        "date": "2026-09-24",
+        "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Michael Burry",
+        "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+        "date": "2026-09-26",
+        "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Michael Burry",
+        "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
+        "date": "2026-09-24",
+        "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
         "linkVerified": true
       }
     ],
@@ -1974,7 +2172,7 @@
     "slug": "nvidia",
     "name": "Nvidia",
     "ticker": "NVDA",
-    "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       1,
       2,
@@ -1982,7 +2180,8 @@
       4,
       6,
       8,
-      10
+      10,
+      11
     ],
     "numbers": [
       {
@@ -1990,6 +2189,12 @@
         "label": "Nvidia Ohio-campus guarantee",
         "context": "Vitaliy Katsenelson, August 6, 2026",
         "part": 3
+      },
+      {
+        "value": "1 year",
+        "label": "Nvidia's terms for its best-rated customers",
+        "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
+        "part": 11
       }
     ],
     "mentions": [
@@ -2219,6 +2424,105 @@
         "date": "2026-09-28",
         "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Aurelion Research",
+        "claim": "The binding constraint on NVIDIA is supply rather than demand: unconstrained revenue growth was described as potentially above 100% YoY while guidance was near 70% growth because of supply limits, and the CFO framed the FY2028 70% growth outlook as…",
+        "date": "2026-09-11",
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Ren",
+        "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+        "date": "2026-09-28",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Tae Kim",
+        "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+        "date": "2026-10-02",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Steve Eisman",
+        "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+        "date": "2026-09-21",
+        "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Steve Eisman",
+        "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "shipping-is-not-earning",
+        "sideLabel": "Shipping is not earning",
+        "voice": "Steve Eisman",
+        "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+        "date": "2026-09-14",
+        "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "shipping-is-not-earning",
+        "sideLabel": "Shipping is not earning",
+        "voice": "Steve Eisman",
+        "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
+        "date": "2026-09-25",
+        "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Steve Eisman",
+        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Aurelion Research",
+        "claim": "Nvidia supply-bound; Fabrinet's roles still have to earn.",
+        "date": null,
+        "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -2234,7 +2538,7 @@
     "slug": "openai",
     "name": "OpenAI",
     "ticker": null,
-    "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       2,
       3,
@@ -2243,7 +2547,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "numbers": [
       {
@@ -2486,6 +2791,39 @@
         "date": "2026-09-21",
         "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
         "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "a-backlog-is-a-promise",
+        "sideLabel": "A backlog is a promise",
+        "voice": "Steve Eisman",
+        "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+        "date": "2026-09-21",
+        "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "shipping-is-not-earning",
+        "sideLabel": "Shipping is not earning",
+        "voice": "Steve Eisman",
+        "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+        "date": "2026-09-14",
+        "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Steve Eisman",
+        "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+        "date": "2026-09-09",
+        "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -2501,13 +2839,14 @@
     "slug": "oracle",
     "name": "Oracle",
     "ticker": "ORCL",
-    "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       3,
       4,
       5,
       6,
-      8
+      8,
+      11
     ],
     "numbers": [
       {
@@ -2562,6 +2901,21 @@
         "part": 8,
         "section": "Lede",
         "excerpt": "Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments."
+      },
+      {
+        "part": 11,
+        "section": "Lede",
+        "excerpt": "Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle."
+      },
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "And Kakashii's September 24 point about Oracle is the strongest word on this side: most of the new obligations arrived prepaid or with the customer's own hardware, so they depend on no one raising capital."
+      },
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029."
       }
     ],
     "sides": [
@@ -2607,6 +2961,17 @@
         "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
         "date": "2026-09-28",
         "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
+        "linkVerified": true
+      },
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
       }
     ],
@@ -2893,12 +3258,51 @@
   },
   {
     "kind": "company",
+    "slug": "tsmc",
+    "name": "TSMC",
+    "ticker": "TSM",
+    "summary": "TSMC appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "parts": [
+      11
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 11,
+        "section": "Funded, not forecast",
+        "excerpt": "Ren put it plainly in a note first published July 27 and updated August 14: demand for optics is funded rather than forecast, with TSMC guiding to $52 billion to $56 billion of 2026 capital spending, so demand is the easy part and price the hard one."
+      }
+    ],
+    "sides": [
+      {
+        "part": 11,
+        "question": null,
+        "side": "funded-not-forecast",
+        "sideLabel": "Funded, not forecast",
+        "voice": "Ren",
+        "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
+        "date": "2026-07-27",
+        "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 41,
+      "claims": 246,
+      "texts": 134,
+      "asOf": "2026-10-08"
+    },
+    "lastUpdated": "2026-10-08"
+  },
+  {
+    "kind": "company",
     "slug": "vertiv",
     "name": "Vertiv",
     "ticker": "VRT",
-    "summary": "Vertiv appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "Vertiv appears in Part 4, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 11: The Backlog Is Not the Quarter.",
     "parts": [
-      4
+      4,
+      11
     ],
     "numbers": [],
     "mentions": [
@@ -2906,9 +3310,31 @@
         "part": 4,
         "section": "The bill comes due",
         "excerpt": "Vertiv, a cooling and power supplier, added $3.27 billion of revenue in a quarter and still undershot its own guidance because it could not build fast enough."
+      },
+      {
+        "part": 11,
+        "section": "Shipping is not earning",
+        "excerpt": "Edelbridge rated Vertiv's execution risk at 3.5 on a 5 scale on September 14, the risk being manufacturing added too fast for quality or margin."
+      },
+      {
+        "part": 11,
+        "section": "The tests ahead",
+        "excerpt": "Microsoft, Alphabet, Meta and Vertiv report, and the Fed decides the same day."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 11,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Edelbridge Alpha",
+        "claim": "The creator rates Vertiv's execution risk 3.5/5, noting that while hyperscaler capex demand looks strong, the bigger question is whether Vertiv can scale manufacturing fast enough to keep up without sacrificing quality or margins, calling this…",
+        "date": "2026-09-14",
+        "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 10,
       "claims": 20,

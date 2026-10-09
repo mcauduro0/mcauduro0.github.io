@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ren",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ren/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ren.json",
-  "summary": "Ren appears in Part 6, Part 7, Part 8, Part 9, Part 10 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price).",
+  "summary": "Ren appears in Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
   "parts": [
     {
       "part": 6,
@@ -33,6 +33,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -206,6 +211,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
+      "date": "2026-07-27",
+      "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+      "date": "2026-09-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

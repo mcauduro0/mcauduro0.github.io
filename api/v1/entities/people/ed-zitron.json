@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ed-zitron",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ed-zitron/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ed-zitron.json",
-  "summary": "Ed Zitron appears in Part 6, Part 8, Part 10 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 8 (A closed loop).",
+  "summary": "Ed Zitron appears in Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (A closed loop).",
   "parts": [
     {
       "part": 6,
@@ -23,9 +23,22 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
-  "numbers": [],
+  "numbers": [
+    {
+      "value": "1 year",
+      "label": "Nvidia's terms for its best-rated customers",
+      "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
+      "part": 11,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
   "mentions": [
     {
       "part": 6,
@@ -44,6 +57,12 @@
       "section": "Who writes the checks",
       "excerpt": "Against that growth sits the loss-making base of the chain: Steve Eisman, in an episode with Ed Zitron, cited OpenAI’s $20.9 billion loss in 2025 on $13.07 billion of revenue.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "The margin the book does not show",
+      "excerpt": "Eisman, in a September 9 episode with Ed Zitron, notes that Nvidia stretched payment terms for investment-grade customers to a full year from 90 days, adding 14 days to days sales outstanding, and on September 14 adds that five customers made up 70% of Nvidia's accounts receivable, some of them, OpenAI among them, not in especially healthy condition.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [

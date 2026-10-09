@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "vertiv",
@@ -7,12 +7,17 @@
   "ticker": "VRT",
   "url": "https://deepstack.ltd/companies/vertiv/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/vertiv.json",
-  "summary": "Vertiv appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+  "summary": "Vertiv appears in Part 4, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 11: The Backlog Is Not the Quarter.",
   "parts": [
     {
       "part": 4,
       "headline": "AI Spending Has Met Its First Real Bill",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -22,9 +27,34 @@
       "section": "The bill comes due",
       "excerpt": "Vertiv, a cooling and power supplier, added $3.27 billion of revenue in a quarter and still undershot its own guidance because it could not build fast enough.",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Edelbridge rated Vertiv's execution risk at 3.5 on a 5 scale on September 14, the risk being manufacturing added too fast for quality or margin.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "The tests ahead",
+      "excerpt": "Microsoft, Alphabet, Meta and Vertiv report, and the Fed decides the same day.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The creator rates Vertiv's execution risk 3.5/5, noting that while hyperscaler capex demand looks strong, the bigger question is whether Vertiv can scale manufacturing fast enough to keep up without sacrificing quality or margins, calling this…",
+      "date": "2026-09-14",
+      "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
   "coverage": {
     "creators": 10,
     "claims": 20,

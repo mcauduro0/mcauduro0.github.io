@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price).",
+  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise).",
   "parts": [
     {
       "part": 1,
@@ -38,6 +38,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [
@@ -68,6 +73,20 @@
       "context": "Michael Burry citing Apollo, June year over year",
       "part": 6,
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "value": "113%",
+      "label": "Growth in Microsoft's backlog due beyond one year",
+      "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
+      "part": 11,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "value": "$28B",
+      "label": "Meta's residual-value guarantee on its data-center venture",
+      "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
+      "part": 11,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "mentions": [
@@ -124,6 +143,12 @@
       "section": "A cheap top",
       "excerpt": "Michael Burry did the opposite: his trading post said he bought more far out-of-the-money MetLife puts expiring in 2029, acting on an expected AI boom-to-bust thesis.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "Michael Burry, reading Microsoft's filing on September 24 and 26, notes that backlog due beyond one year grew 113% while backlog due within a year grew 37%, and that the share of the book turning into revenue inside twelve months fell to 30% from 40%.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -282,6 +307,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+      "date": "2026-09-26",
+      "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-09T01:11:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "globalfoundries",
+  "name": "GLOBALFOUNDRIES",
+  "ticker": "GFS",
+  "url": "https://deepstack.ltd/companies/globalfoundries/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/globalfoundries.json",
+  "summary": "GLOBALFOUNDRIES appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Gaetano's GlobalFoundries case, from September 18, starts from today's gross margin of about 30% and operating margin of about 17%, against management targets of about 40% and 25% exiting 2028, and deliberately models below them.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 3,
+    "claims": 33,
+    "texts": 11,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

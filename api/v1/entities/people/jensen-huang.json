@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "jensen-huang",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/jensen-huang/",
   "api": "https://deepstack.ltd/api/v1/entities/people/jensen-huang.json",
-  "summary": "Jensen Huang appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+  "summary": "Jensen Huang appears in Part 10, Part 11 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
   "parts": [
     {
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "A cheap top",
       "excerpt": "Tae Kim relays Jensen Huang’s case that Nvidia’s GPUs are productive, fungible and durable.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "The margin the book does not show",
+      "excerpt": "Tae Kim, reporting Jensen Huang's press session on September 29, answers with the asset rather than the invoice: the GPUs are productive, fungible and durable.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [],

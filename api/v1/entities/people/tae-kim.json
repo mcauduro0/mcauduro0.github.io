@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "tae-kim",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/tae-kim/",
   "api": "https://deepstack.ltd/api/v1/entities/people/tae-kim.json",
-  "summary": "Tae Kim appears in Part 9, Part 10 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon).",
+  "summary": "Tae Kim appears in Part 9, Part 10, Part 11 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon).",
   "parts": [
     {
       "part": 9,
@@ -18,6 +18,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -45,6 +50,24 @@
       "section": "Who writes the checks",
       "excerpt": "Tae Kim says OpenAI’s annualized revenue is nearing $70 billion; Axios reported on September 29 that it had grown more than 70% since the start of the third quarter.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "The margin the book does not show",
+      "excerpt": "Tae Kim, reporting Jensen Huang's press session on September 29, answers with the asset rather than the invoice: the GPUs are productive, fungible and durable.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Tae Kim's account of Huang has the GPU as durable.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Tae Kim's Huang has Nvidia harvesting cash from the buildout for buybacks.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [

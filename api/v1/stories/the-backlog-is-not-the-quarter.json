@@ -1,0 +1,542 @@
+{
+  "generatedAt": "2026-10-09T01:11:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 11,
+  "slug": "the-backlog-is-not-the-quarter",
+  "headline": "The Backlog Is Not the Quarter",
+  "dek": "Ciena carries a $10 billion order book, Microsoft's far backlog grew three times as fast as its near one, and Nvidia now waits a year to be paid. The orders will ship. DeepStack expects the profit to arrive later, and the third-quarter reports to show the gap.",
+  "summary": "AI suppliers report record order books. DeepStack reads the near book as revenue, the far book as a promise and the margin as the number that arrives last.",
+  "section": "Markets",
+  "date": "2026-10-08",
+  "readingMinutes": 11,
+  "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "Revenue yes, margin not yet",
+    "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Split every backlog into what is due within a year and what is not; a far book outgrowing the near one three to one is mostly forecast.",
+      "Credit prepaid or bring-your-own-hardware orders as revenue and the rest as options; read a residual-value guarantee as the lender's doubt.",
+      "Hold gross margin against the stated target before crediting the ramp: Perma-Pipe's 30% in December is the line to clear."
+    ],
+    "flips": [
+      "Microsoft's within-a-year backlog grows as fast as the beyond-a-year book on October 28.",
+      "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
+      "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
+    ],
+    "nextTest": {
+      "id": "p11-t01",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "October 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "$10B",
+      "label": "Ciena's backlog floor at the end of fiscal 2026",
+      "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029"
+    },
+    {
+      "value": "113%",
+      "label": "Growth in Microsoft's backlog due beyond one year",
+      "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%"
+    },
+    {
+      "value": "1 year",
+      "label": "Nvidia's terms for its best-rated customers",
+      "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026"
+    },
+    {
+      "value": "$28B",
+      "label": "Meta's residual-value guarantee on its data-center venture",
+      "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Apollo - hyperscaler credit rests on one consensus assumption",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+    },
+    {
+      "label": "Aurelion Research - in conversation with Nvidia",
+      "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+    },
+    {
+      "label": "Schwar Capital Research - Perma-Pipe's record backlog",
+      "url": "https://www.schwarcapital.com/p/revenue-up-24-backlog-at-a-record"
+    },
+    {
+      "label": "Prof G Markets - SB Energy's $439 billion backlog",
+      "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even"
+    },
+    {
+      "label": "JunkBondInvestor - Keel Infrastructure's lease",
+      "url": "https://www.junkbondinvestor.com/p/keel-infrastructure-keel-what-are"
+    },
+    {
+      "label": "JunkBondInvestor - Credit Weekly, who the hike hits",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits"
+    },
+    {
+      "label": "100 Bagger Hunting - Ilyda's visibility past 2027",
+      "url": "https://www.100baggerhunting.com/p/a-software-monopoly-priced-like-a"
+    },
+    {
+      "label": "Daniel Romero - portfolio update, Group Up's ramp",
+      "url": "https://hypertechinvest.com/p/portfolio-update-part-2"
+    },
+    {
+      "label": "Aurelion Research - Ciena and Fabrinet, the road ahead",
+      "url": "https://read.aurelionresearch.com/p/ciena-and-fabrinet-the-road-ahead"
+    }
+  ],
+  "earlierVersion": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+  "corrections": [],
+  "wordCount": 2428,
+  "pullQuote": "The backlog is not the quarter. It is the list of quarters still to be earned.",
+  "verdict": "DeepStack's view is that the orders are real and the near book will ship. Prepaid and supply-constrained demand converts into revenue at the pace of capacity, and nothing in these reports suggests capacity will sit idle in the third quarter. The single most important reason for caution is that profit arrives later than revenue. Between the order and the margin sit ramps absorbing fixed costs ahead of volume, payment terms stretched to a year, revenue deferred until a deployment is complete, a far book outgrowing the near one three to one, and assets whose life the buyers' own lenders now cover with guarantees. DeepStack expects the third-quarter reports to confirm the shipments and to show margin lagging the ramp; the margin reading is the house's, drawn from the suppliers' own targets and from Burry's case on asset life against Tae Kim's and Slok's. The view changes if Microsoft's within-a-year backlog grows as fast as the beyond-a-year book, if Nvidia's days sales outstanding give back the 14 days Eisman counted or its terms for investment-grade customers return to 90 days, or if Perma-Pipe, Lumentum and Coherent report their ramps at target margin. The first answer arrives October 28.",
+  "sections": [
+    {
+      "id": "the-margin-the-book-does-not-show",
+      "title": "The margin the book does not show",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#the-margin-the-book-does-not-show"
+    },
+    {
+      "id": "funded-not-forecast",
+      "title": "Funded, not forecast",
+      "startsAt": 5,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#funded-not-forecast"
+    },
+    {
+      "id": "a-backlog-is-a-promise",
+      "title": "A backlog is a promise",
+      "startsAt": 8,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#a-backlog-is-a-promise"
+    },
+    {
+      "id": "shipping-is-not-earning",
+      "title": "Shipping is not earning",
+      "startsAt": 12,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#shipping-is-not-earning"
+    },
+    {
+      "id": "the-tests-ahead",
+      "title": "The tests ahead",
+      "startsAt": 17,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#the-tests-ahead"
+    }
+  ],
+  "body": [
+    "Start with the order book. On September 17, Gaetano reported that Ciena's management expects to end fiscal 2026 with at least $10 billion of backlog, has secured the supply to grow revenue at least 30% in fiscal 2027 and believes that supply carries the same growth through fiscal 2029, when the target is roughly $14 billion of revenue. Turning those orders into shipments, Gaetano adds, is the step that remains. Twelve days later Gaetano counted Tower Semiconductor's $1.3 billion of contractual silicon photonics commitments for 2027, backed by about $290 million of customer prepayments.",
+    "The buyers' books tell the same story at larger scale, with a wrinkle. Michael Burry, reading Microsoft's filing on September 24 and 26, notes that backlog due beyond one year grew 113% while backlog due within a year grew 37%, and that the share of the book turning into revenue inside twelve months fell to 30% from 40%. Amazon's book made the same migration by Burry's September 26 count: $200 billion with a weighted average life of 3.8 years in September 2025, $496 billion at 6.4 years nine months later. Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle. Who pays for the rest is the first collision. Torsten Slok of Apollo reported on September 21 the consensus that the hyperscalers' operating cash flow more than triples by 2030, outrunning their capital spending. Burry's September 24 reading of Amazon has free cash flow near negative $8 billion and long-term debt doubled in six months to $128.9 billion.",
+    "Those are the two halves of the question this Part asks: do the orders turn into profit? DeepStack read 164 posts, notes and episodes by 59 writers, all but four published between September 9 and October 5, first on backlog and capacity, guidance and margin, and forward earnings, then on four companies at the center of the order book: Nvidia, Alphabet, Meta and Amazon. It verified 54 agreements and 63 disagreements. Most of the disagreements concern Meta's new agent or a buyer's valuation rather than its orders; about twenty bear on the question, and they sit on the seller's margin and the buyer's balance sheet. The writers agree that the third-quarter reports are the test and differ on how much of a backlog to count before it ships.",
+    "Aurelion Research's September 11 conversation with Nvidia has the company describing unconstrained growth above 100% while guiding near 70%, because supply caps delivery. George Noble, on Steve Eisman's program on September 21, reads the same demand from the other end: a vendor funding its customers' purchases is not evidence that the money underneath is solid. Eisman, in a September 9 episode with Ed Zitron, notes that Nvidia stretched payment terms for investment-grade customers to a full year from 90 days, adding 14 days to days sales outstanding, and on September 14 adds that five customers made up 70% of Nvidia's accounts receivable, some of them, OpenAI among them, not in especially healthy condition. A year to pay is a seller financing its buyers: a sale on the income statement and a loan on the balance sheet. Tae Kim, reporting Jensen Huang's press session on September 29, answers with the asset rather than the invoice: the GPUs are productive, fungible and durable.",
+    "Perma-Pipe International, a pipe maker with data center work, reported a record $142.3 million backlog. Schwar Capital Research wrote on September 19 that management expects 40% to 50% of it to become third-quarter revenue, $57 million to $71 million against a third-quarter record of $61.2 million, with gross margin still below the 30% target. Multibagger Ideas, on September 28, sets the same exam for December: conversion as guided, gross margin back toward 30%, no second receivable write-off. It is the cleanest single test here.",
+    "The first side holds that the demand is already paid for, and that the only thing between an order and a shipment is capacity. Ren put it plainly in a note first published July 27 and updated August 14: demand for optics is funded rather than forecast, with TSMC guiding to $52 billion to $56 billion of 2026 capital spending, so demand is the easy part and price the hard one.",
+    "Gaetano's version is arithmetic: with Coherent selling everything it can make, Gaetano's illustration has demand running 30% above supply, so that a 15% cut in expected demand still leaves the company growing as capacity ramps, which, Gaetano wrote on September 15, is a different world from idle factories. Sam Badri, on Eisman's program on September 28, described Cisco's real inflection as the point when large orders for switches built on its Silicon One chips started to land, six to nine months earlier. And Kakashii's September 24 point about Oracle is the strongest word on this side: most of the new obligations arrived prepaid or with the customer's own hardware, so they depend on no one raising capital.",
+    "DeepStack's reading is that this side is right about the near book and silent about the far one. Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029. The side's weakest point is the guarantee. Gaetano's September 15 list of the money behind the orders runs from Tower's prepayments to Coherent's minimum-demand guarantees and Lumentum's take-or-pay terms. Burry's September 28 list is of a different guarantee: the residual-value guarantees that Nvidia, Oracle and Google Cloud now give on chips, not because they want to, he argues, but because lenders require them for an asset that lost 51% of its value in its first three years. Both can be true at different layers of the supply chain.",
+    "The second side reads the same numbers and asks who signed them. Burry's point about Microsoft is that the book is drifting outward: the longer a backlog takes to become revenue, the more speculative it is, and a far book growing 113% against a near book growing 37% leaves Microsoft exposed to customers who may not raise the capital to pay in the out years. Google Cloud's backlog grew 112% in six months, and Burry notes on September 26 that the figure now includes contracts for Alphabet's own TPU chips, a category of unknown size. Gaetano, on September 15, holds that AI makes the businesses the hyperscalers already own more valuable; Burry's note is that a headline which includes TPU contracts of unknown size is a weaker proof of that thesis than it looks, because the book changed definition as well as size.",
+    "Mia Silverio of Prof G Markets supplied the extreme case on September 28: SB Energy has no operating data centers and a $439 billion backlog of which 9% has broken ground, and most of its contracts let the customer leave if a project runs more than a year late. The buyers' own counterparties ask the same question. Burry's September 24 reading of Meta's data-center joint venture finds a residual-value guarantee of up to $28 billion on four-year initial terms and $10.8 billion moved into restricted cash, which he reads as collateral the counterparties demanded. Gaetano's answer is that hyperscaler spending reinforces franchises the companies already own. The two were judged in direct contradiction, and DeepStack weighs the guarantee more heavily: it is a dated figure on Meta's own balance sheet, and the franchise argument does not say who bears the residual risk.",
+    "The terms are stretching even where the demand is not in doubt. Gaetano reports that some of Arista's equipment sits shipped and invoiced while the revenue is deferred, with deployments that take 18 to 24 months. JunkBondInvestor, writing on September 24 about Keel Infrastructure, expects the Panther Creek lease to be signed in 2027, not on the 2026 timeline management gave, because terms that both a tenant and a lender will accept take time. JunkBondInvestor's credit note of September 20 draws the line that matters for the far book: a borrower with a strategic counterparty such as Meta or Alphabet and lenders competing for the mandate can keep paying up, while an AI developer on an unhedged floating-rate construction loan with no revenue until 2027 is the squeezed borrower. Slok's consensus describes the first tier of borrowers, not the second.",
+    "The collision that is purely about dates comes from outside the AI supply chain. Gaetano's case for Ciena rests on management extending its growth ambition through fiscal 2029. Kevin of 100 Bagger Hunting, writing on September 11 about Ilyda, withholds conviction past 2027, because roughly 15% of revenue depends on EU and state tenders whose timing is unknown. The two were not writing about the same stock, and DeepStack does not pretend they were. Both are reading a growth ambition that reaches 2029.",
+    "The third side grants that the orders will ship and asks what they will earn. Most of the agreement among these writers sits here, and so do the sharpest collisions.",
+    "Edelbridge Alpha's September 22 model for Lumentum assumes $11.1 billion of fiscal 2028 revenue against consensus near $9.6 billion, a number that requires optical circuit switches to scale quickly and current product lines to stay supply-constrained; Edelbridge still passes at current prices, because the target also needs sustained pricing power. Gaetano and Edelbridge agree on this family of conditions: optical circuit switches scaling, supply staying tight, and Ciena's secured supply and $10 billion backlog as the evidence an above-consensus model needs, with conversion the open step. Edelbridge's evidence that the pricing holds is that customers accept higher prices and expedite fees while supply stays short. Noble's reply on Eisman's September 21 program is that a purchase the vendor funds confirms nothing about the buyer's money. The expedite fee is the customer's money and the Nvidia commitment is the vendor's, so the disagreement narrows Edelbridge's claim without overturning it.",
+    "The same shape appears wherever a factory is being built to meet the book. Edelbridge rated Vertiv's execution risk at 3.5 on a 5 scale on September 14, the risk being manufacturing added too fast for quality or margin. Gaetano's GlobalFoundries case, from September 18, starts from today's gross margin of about 30% and operating margin of about 17%, against management targets of about 40% and 25% exiting 2028, and deliberately models below them. Daniel Romero's Group Up, in his September 16 portfolio update, added capacity too slowly and saw its ramp slip to the end of 2028, so Romero expects margins to erode until the new factory reaches volume.",
+    "This side's verified collisions sit on the life of the asset. Tae Kim's account of Huang has the GPU as durable. Burry's September 19 guide has a duration mismatch: data centers take three to five years to build while chips change their power and cooling requirements every 12 to 18 months, so today's scarcity pricing carries no guarantee that demand lasts long enough to justify it. Burry adds that purpose-built capacity has no deep resale market, so capacity that is not needed gets written down, as Meta's 2022 charges show; Gaetano's September 15 answer is Meta's 2023 arithmetic, operating cash flow from $50.5 billion to $71.1 billion while capital spending fell, an example he says is not about AI. Burry's September 26 reading of Meta's chief financial officer, Susan Li, who called the assets long-lived and therefore flexible, is that they are far shorter-lived than the telecom grid that doomed the CLECs; the consensus Slok reports needs the assets to earn through 2030. Tae Kim's Huang has Nvidia harvesting cash from the buildout for buybacks. Eisman, on September 25, has the customers' side of the ledger: something like $700 billion of capex this year, free cash flow disappearing, and S&P cutting Oracle to BBB-minus.",
+    "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit. Eisman says the same about the market: an inflection will come at which the results have to carry the proof. Gaetano's Marvell notes of September 12 give the funded side its timetable: near-packaged and co-packaged optics revenue begins in calendar 2027, with the large ramp in 2028 and 2029. Burry's point is that the customers at the end of it may not raise the money. Between the supplier's secured capacity and the lender's out-year commitment sit the third-quarter reports.",
+    "October 28 supplies the first hard check. Microsoft, Alphabet, Meta and Vertiv report, and the Fed decides the same day. The number to track is the share of Microsoft's backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%. At Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted. Amazon follows on October 29 with the weighted life of its $496 billion book and free cash flow against the new debt.",
+    "Nvidia reports on November 18. Its days sales outstanding will show what a year of payment terms costs, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives. Oracle reports on December 9, the day of the Fed's last decision of the year: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028. Perma-Pipe's third quarter, in December, is the cleanest line of all: 40% to 50% of the backlog converting, gross margin moving toward 30%, no second write-off. The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time.",
+    "What would prove DeepStack wrong is a near book growing as fast as the far one, Nvidia's days sales outstanding giving back the 14 days Eisman counted or its terms returning to 90 days, and ramps reporting at target margin.",
+    "Part eleven asks whether the orders turn into profit, and finds the answer on the calendar: the near book will ship, while the far book remains a promise. The margin comes after both. The backlog is not the quarter. It is the list of quarters still to be earned."
+  ],
+  "chart": {
+    "title": "The cleanest test on the calendar",
+    "subtitle": "Perma-Pipe's backlog and the third-quarter conversion it implies, in millions of dollars",
+    "unit": "",
+    "decimals": 1,
+    "source": "Perma-Pipe International, as reported by Schwar Capital Research, Sep 19, 2026",
+    "items": [
+      {
+        "label": "Backlog, end of fiscal Q2",
+        "value": 142.3
+      },
+      {
+        "label": "Q3 conversion at 40%",
+        "value": 57
+      },
+      {
+        "label": "Q3 conversion at 50%",
+        "value": 71
+      },
+      {
+        "label": "Q3 FY2025 revenue record",
+        "value": 61.2
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p11-t01",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "October 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t02",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: days sales outstanding after the move to a year of payment terms, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t03",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "December 9",
+      "whenLabel": "Dec 9, 2026",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t04",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "December",
+      "whenLabel": "December",
+      "date": "2026-12-01",
+      "precision": "month",
+      "event": "Perma-Pipe's third quarter: 40% to 50% of the $142.3 million backlog converting, $57 million to $71 million, with gross margin moving toward 30% and no second receivable write-off.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "December",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t05",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "The optics ramp",
+      "whenLabel": "The optics ramp",
+      "date": null,
+      "precision": "signal",
+      "event": "Ciena's $10 billion backlog into shipments, Lumentum's path to $11.1 billion of fiscal 2028 revenue and Coherent's statement that it sells everything it can make, each measured against the margin the company targets.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "The optics ramp",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "globalfoundries",
+      "name": "GLOBALFOUNDRIES",
+      "ticker": "GFS",
+      "url": "https://deepstack.ltd/companies/globalfoundries/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "company",
+      "slug": "tsmc",
+      "name": "TSMC",
+      "ticker": "TSM",
+      "url": "https://deepstack.ltd/companies/tsmc/"
+    },
+    {
+      "kind": "company",
+      "slug": "vertiv",
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "url": "https://deepstack.ltd/companies/vertiv/"
+    },
+    {
+      "kind": "person",
+      "slug": "aurelion-research",
+      "name": "Aurelion Research",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aurelion-research/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-zitron",
+      "name": "Ed Zitron",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-zitron/"
+    },
+    {
+      "kind": "person",
+      "slug": "edelbridge-alpha",
+      "name": "Edelbridge Alpha",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/edelbridge-alpha/"
+    },
+    {
+      "kind": "person",
+      "slug": "gaetano",
+      "name": "Gaetano",
+      "role": null,
+      "url": "https://deepstack.ltd/people/gaetano/"
+    },
+    {
+      "kind": "person",
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jensen-huang/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "kevin",
+      "name": "Kevin",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kevin/"
+    },
+    {
+      "kind": "person",
+      "slug": "mia-silverio",
+      "name": "Mia Silverio",
+      "role": "Prof G Markets",
+      "url": "https://deepstack.ltd/people/mia-silverio/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "multibagger-ideas",
+      "name": "Multibagger Ideas",
+      "role": null,
+      "url": "https://deepstack.ltd/people/multibagger-ideas/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "sam-badri",
+      "name": "Sam Badri",
+      "role": null,
+      "url": "https://deepstack.ltd/people/sam-badri/"
+    },
+    {
+      "kind": "person",
+      "slug": "schwar-capital-research",
+      "name": "Schwar Capital Research",
+      "role": "Schwar Capital",
+      "url": "https://deepstack.ltd/people/schwar-capital-research/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "tae-kim",
+      "name": "Tae Kim",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tae-kim/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ]
+}

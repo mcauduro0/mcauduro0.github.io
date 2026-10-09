@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "oracle",
@@ -7,7 +7,7 @@
   "ticker": "ORCL",
   "url": "https://deepstack.ltd/companies/oracle/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-  "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter.",
   "parts": [
     {
       "part": 3,
@@ -33,6 +33,11 @@
       "part": 8,
       "headline": "AI Lenders Are Financing the End of Scarcity",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [
@@ -98,6 +103,24 @@
       "section": "Lede",
       "excerpt": "Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments.",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "And Kakashii's September 24 point about Oracle is the strongest word on this side: most of the new obligations arrived prepaid or with the customer's own hardware, so they depend on no one raising capital.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Tower's $290 million is in hand and most of Oracle's $26 billion came prepaid, while Ciena's secured supply is a commitment to its suppliers that depends on its customers keeping theirs through fiscal 2029.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -148,6 +171,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

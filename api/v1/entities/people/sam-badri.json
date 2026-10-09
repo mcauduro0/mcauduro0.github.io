@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "sam-badri",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/sam-badri/",
   "api": "https://deepstack.ltd/api/v1/entities/people/sam-badri.json",
-  "summary": "Sam Badri appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "summary": "Sam Badri appears in Part 9, Part 11 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 11: The Backlog Is Not the Quarter.",
   "parts": [
     {
       "part": 9,
       "headline": "Habit Was the Moat. Agents Are Draining It.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "The first bill",
       "excerpt": "Sam Badri, a Cisco veteran on Eisman’s show, estimates that nine in ten users still type a prompt and wait.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Sam Badri, on Eisman's program on September 28, described Cisco's real inflection as the point when large orders for switches built on its Silicon One chips started to land, six to nine months earlier.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [],

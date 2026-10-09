@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-09T01:11:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "tsmc",
+  "name": "TSMC",
+  "ticker": "TSM",
+  "url": "https://deepstack.ltd/companies/tsmc/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/tsmc.json",
+  "summary": "TSMC appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "Funded, not forecast",
+      "excerpt": "Ren put it plainly in a note first published July 27 and updated August 14: demand for optics is funded rather than forecast, with TSMC guiding to $52 billion to $56 billion of 2026 capital spending, so demand is the easy part and price the hard one.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
+      "date": "2026-07-27",
+      "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "coverage": {
+    "creators": 41,
+    "claims": 246,
+    "texts": 134,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08",
+  "market": null
+}

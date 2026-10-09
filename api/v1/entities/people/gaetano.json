@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "gaetano",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/gaetano/",
   "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
-  "summary": "Gaetano appears in Part 6, Part 8 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use).",
+  "summary": "Gaetano appears in Part 6, Part 8, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides).",
   "parts": [
     {
       "part": 6,
@@ -18,9 +18,22 @@
       "part": 8,
       "headline": "AI Lenders Are Financing the End of Scarcity",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
-  "numbers": [],
+  "numbers": [
+    {
+      "value": "$10B",
+      "label": "Ciena's backlog floor at the end of fiscal 2026",
+      "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
+      "part": 11,
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
   "mentions": [
     {
       "part": 6,
@@ -51,6 +64,24 @@
       "section": "Cash, or a loop",
       "excerpt": "Gaetano notes that Microsoft has reported roughly four times more Copilot throughput since January from optimization alone.",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "On September 17, Gaetano reported that Ciena's management expects to end fiscal 2026 with at least $10 billion of backlog, has secured the supply to grow revenue at least 30% in fiscal 2027 and believes that supply carries the same growth through fiscal 2029, when the target is roughly $14 billion of revenue.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "Turning those orders into shipments, Gaetano adds, is the step that remains.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "Lede",
+      "excerpt": "Twelve days later Gaetano counted Tower Semiconductor's $1.3 billion of contractual silicon photonics commitments for 2027, backed by about $290 million of customer prepayments.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -101,6 +132,78 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
       "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
+      "date": "2026-09-17",
+      "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "funded-not-forecast",
+      "sideLabel": "Funded, not forecast",
+      "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+      "date": "2026-09-24",
+      "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
+      "date": "2026-09-29",
+      "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
+      "date": "2026-09-15",
+      "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Because supply is still the binding constraint — Coherent says it can sell as fast as it can add production — the creator argues that even a 15% cut in expected customer demand against demand running 30% above supply would still allow growth as…",
+      "date": "2026-09-15",
+      "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "GFS is adding SiGe capacity to an optical business where demand already exceeds supply, and GFS has said its SiGe capacity is oversubscribed through 2027.",
+      "date": "2026-09-18",
+      "url": "https://gaetanoresearch.substack.com/p/mrvl-just-gave-us-another-reason",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

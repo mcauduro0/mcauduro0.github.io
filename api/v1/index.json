@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -9,14 +9,14 @@
   "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
-    "stories": 10,
-    "tests": 46,
-    "datedTests": 24,
+    "stories": 11,
+    "tests": 51,
+    "datedTests": 28,
     "results": 0,
     "corrections": 0,
-    "sides": 10,
-    "companies": 33,
-    "people": 64,
+    "sides": 11,
+    "companies": 35,
+    "people": 67,
     "editions": 1
   },
   "files": {
@@ -34,7 +34,8 @@
         "the-fed-hiked-the-long-end-kept-climbing",
         "the-scarcity-is-the-collateral",
         "habit-was-the-moat",
-        "the-bubble-is-in-the-denominator"
+        "the-bubble-is-in-the-denominator",
+        "the-backlog-is-not-the-quarter"
       ]
     },
     "docket": "https://deepstack.ltd/api/v1/docket.json",
@@ -48,6 +49,7 @@
         "nvidias-demand-insatiable-or-manufactured",
         "power-doesnt-depreciate",
         "spacex-after-the-ipo-exit-liquidity",
+        "the-backlog-is-not-the-quarter",
         "the-bubble-is-in-the-denominator",
         "the-debt-behind-the-machines",
         "the-fed-hiked-the-long-end-kept-climbing",

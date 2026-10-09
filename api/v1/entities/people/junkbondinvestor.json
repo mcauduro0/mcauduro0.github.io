@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "junkbondinvestor",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/junkbondinvestor/",
   "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-  "summary": "JunkBondInvestor appears in Part 2, Part 3, Part 4, Part 7, Part 8, Part 10 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral).",
+  "summary": "JunkBondInvestor appears in Part 2, Part 3, Part 4, Part 7, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise).",
   "parts": [
     {
       "part": 2,
@@ -38,6 +38,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [
@@ -104,6 +109,18 @@
       "section": "A cheap top",
       "excerpt": "JunkBondInvestor reports firm contracted rents and used-market prices even for GPUs three to six years old.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 11,
+      "section": "A backlog is a promise",
+      "excerpt": "JunkBondInvestor, writing on September 24 about Keel Infrastructure, expects the Panther Creek lease to be signed in 2027, not on the 2026 timeline management gave, because terms that both a tenant and a lender will accept take time.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "section": "A backlog is a promise",
+      "excerpt": "JunkBondInvestor's credit note of September 20 draws the line that matters for the far book: a borrower with a strategic counterparty such as Meta or Alphabet and lenders competing for the mandate can keep paying up, while an AI developer on an unhedged floating-rate construction loan with no revenue until 2027 is the squeezed borrower.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -178,6 +195,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
       "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "The creator leans toward a Panther Creek lease being signed, but expects it in 2027 rather than on management's 2026 timeline, because assembling a delivery schedule, construction budget and risk allocation that both a tenant will sign and a lender…",
+      "date": "2026-09-24",
+      "url": "https://www.junkbondinvestor.com/p/keel-infrastructure-keel-what-are",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "a-backlog-is-a-promise",
+      "sideLabel": "A backlog is a promise",
+      "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+      "date": "2026-09-20",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {

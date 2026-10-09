@@ -2,7 +2,7 @@
 
 > The money behind the machine. Where informed investors disagree, the evidence each side stands on, and the date that settles it. DeepStack is an independent publication on the AI economy: the capital, the chips, the power and the people betting on all three. Sharp analysis, sourced numbers, a clear verdict. Every story gives the strongest case on each side, takes one in The DeepStack Call, and names the dated test that will settle it. Analysis and opinion, not investment advice.
 
-DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T01:00:23Z.
+DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T01:11:13Z.
 
 ## API
 
@@ -12,7 +12,7 @@ DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote 
 - [The Docket](https://deepstack.ltd/api/v1/docket.json): every dated test with its precision, status and resolver
 - [Results](https://deepstack.ltd/api/v1/results.json): resolved tests and the ten-results rule
 - [Corrections](https://deepstack.ltd/api/v1/corrections.json): every correction on every story, with the date of the change
-- [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (10 files; one per story slug under /api/v1/sides/)
+- [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (11 files; one per story slug under /api/v1/sides/)
 - [Companies](https://deepstack.ltd/api/v1/entities/companies.json): reported numbers, mentions, side rows and the delayed market snapshot, with its source
 - [People](https://deepstack.ltd/api/v1/entities/people.json): what each person argued, attributed and dated; no score or ranking
 - [The macro tape](https://deepstack.ltd/api/v1/tape.json): the live macro tape with the producer of each series
@@ -32,6 +32,7 @@ DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote 
 - [Part 08: AI Lenders Are Financing the End of Scarcity](https://deepstack.ltd/stories/the-scarcity-is-the-collateral/): The shortage of power, chips and data-center capacity supports lenders today. But every new dollar also brings the glut that can wreck their collateral.
 - [Part 09: Habit Was the Moat. Agents Are Draining It.](https://deepstack.ltd/stories/habit-was-the-moat/): Meta’s Muse has inserted itself between shoppers and sellers. The first bill is coming due for businesses paid by customer inertia.
 - [Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/): The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.
+- [Part 11: The Backlog Is Not the Quarter](https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/): Ciena carries a $10 billion order book, Microsoft's far backlog grew three times as fast as its near one, and Nvidia now waits a year to be paid. The orders will ship. DeepStack expects the profit to arrive later, and the third-quarter reports to show the gap.
 
 ## Pages
 

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-08",
   "api": "https://deepstack.ltd/api/v1/docket.json",
   "calendar": "https://deepstack.ltd/docket.ics",
-  "count": 46,
-  "dated": 24,
+  "count": 51,
+  "dated": 28,
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
   "tests": [
     {
@@ -1127,6 +1127,129 @@
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t01",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "October 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t02",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: days sales outstanding after the move to a year of payment terms, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t03",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "December 9",
+      "whenLabel": "Dec 9, 2026",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "results reported => read the print"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t04",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "December",
+      "whenLabel": "December",
+      "date": "2026-12-01",
+      "precision": "month",
+      "event": "Perma-Pipe's third quarter: 40% to 50% of the $142.3 million backlog converting, $57 million to $71 million, with gross margin moving toward 30% and no second receivable write-off.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "December",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p11-t05",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "when": "The optics ramp",
+      "whenLabel": "The optics ramp",
+      "date": null,
+      "precision": "signal",
+      "event": "Ciena's $10 billion backlog into shipments, Lumentum's path to $11.1 billion of fiscal 2028 revenue and Coherent's statement that it sells everything it can make, each measured against the margin the company targets.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "The optics ramp",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": ""
+      },
+      "url": "https://deepstack.ltd/docket/#test-p11-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
       "resultUrl": null
     }
   ]

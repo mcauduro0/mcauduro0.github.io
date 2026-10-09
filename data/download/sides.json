@@ -3204,5 +3204,630 @@
       }
     ],
     "lastUpdated": "2026-10-08"
+  },
+  {
+    "part": 11,
+    "slug": "the-backlog-is-not-the-quarter",
+    "question": "Do the orders turn into profit?",
+    "sides": [
+      {
+        "id": "funded-not-forecast",
+        "label": "Funded, not forecast",
+        "voices": [
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "There is substance behind the growth confidence: management expects to finish FY2026 with at least $10B in backlog, says it has secured supply to support at least 30% revenue growth in FY2027, and believes it has secured supply to extend that…",
+            "date": "2026-09-17",
+            "url": "https://gaetanoresearch.substack.com/p/cien-just-got-a-lot-more-interesting",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "The creator is much more bullish on Ciena over the past two weeks given upgraded guidance and the ECOC demos, and thinks Ciena is one company being under-appreciated for its late 2027/early 2028 time frame; CFO Marc Graff said the roughly $14B…",
+            "date": "2026-09-24",
+            "url": "https://gaetanoresearch.substack.com/p/major-optical-updates-main-takeaways",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Aurelion Research",
+            "entitySlug": "aurelion-research",
+            "claim": "The binding constraint on NVIDIA is supply rather than demand: unconstrained revenue growth was described as potentially above 100% YoY while guidance was near 70% growth because of supply limits, and the CFO framed the FY2028 70% growth outlook as…",
+            "date": "2026-09-11",
+            "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Aurelion Research",
+            "entitySlug": "aurelion-research",
+            "claim": "Fabrinet's next step depends on turning new manufacturing roles in NPO, CPO, and scale-across into real volume; it will be necessary to confirm which steps Fabrinet handles in NPO, CPO, and ELS production programs, whether multi-rail programs show…",
+            "date": "2026-09-24",
+            "url": "https://read.aurelionresearch.com/p/ciena-and-fabrinet-the-road-ahead",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Ren",
+            "entitySlug": "ren",
+            "claim": "In the August 14, 2026 edition, the author argues: Demand for the theme is already funded rather than forecast: TSMC guides to 52-56 billion dollars of 2026 capex, chip equipment sales just set a record, and the silicon photonics market is modelled…",
+            "date": "2026-07-27",
+            "url": "https://renstocks.substack.com/p/you-want-the-light-here-are-three",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Ren",
+            "entitySlug": "ren",
+            "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+            "date": "2026-09-28",
+            "url": null,
+            "access": "public",
+            "linkVerified": false
+          },
+          {
+            "name": "Kakashii",
+            "entitySlug": "kakashii",
+            "claim": "The majority of Oracle's 26 billion QoQ RPO growth in Q1 came via prepayment or bring-your-own-hardware arrangements, meaning the new contracts won't require incremental capital from Oracle and, according to Oracle, support its guidance that…",
+            "date": "2026-09-24",
+            "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Kakashii",
+            "entitySlug": "kakashii",
+            "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+            "date": "2026-09-24",
+            "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "Group Up added capacity too slowly, which will limit growth for the next two years, and with the production ramp slipping to the end of 2028 plus the largest company-wide salary increase in its history amid a Taiwanese engineer shortage, there may…",
+            "date": "2026-09-16",
+            "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "Among the three memory names the creator holds, only Samsung is rated a Buy, because of foundry, advanced packaging, new memory architectures, unique vertical integration for base dies versus SK hynix, and because it is the cheapest of the three…",
+            "date": "2026-09-16",
+            "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Tae Kim",
+            "entitySlug": "tae-kim",
+            "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+            "date": "2026-10-02",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Tae Kim",
+            "entitySlug": "tae-kim",
+            "claim": "Despite Muse's initial traction, its long-term success is far from assured; Meta can cross-promote it across Facebook, Instagram, and WhatsApp, but competitors with similar distribution advantages are coming, with OpenAI likely being the biggest…",
+            "date": "2026-09-22",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Torsten Slok",
+            "entitySlug": "torsten-slok",
+            "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+            "date": "2026-09-21",
+            "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+            "access": "public",
+            "linkVerified": true
+          }
+        ],
+        "reading": "Demand is contracted, prepaid or oversubscribed and supply is the constraint, so converting orders is a matter of shipping."
+      },
+      {
+        "id": "a-backlog-is-a-promise",
+        "label": "A backlog is a promise",
+        "voices": [
+          {
+            "name": "Michael Burry",
+            "entitySlug": "michael-burry",
+            "claim": "Microsoft's long-term backlog (revenue beyond one year) grew 113% while near-term backlog (within a year) grew only 37%, giving Microsoft growing future revenue exposure to customers that may not raise the capital necessary to come through in the…",
+            "date": "2026-09-26",
+            "url": "https://michaeljburry.substack.com/p/abridged-capital-cycle-iq-and-forensic",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Michael Burry",
+            "entitySlug": "michael-burry",
+            "claim": "Microsoft's backlog is shifting further out — the share to be realized in revenue within twelve months fell from 40% to 30%, with the near book up 37% and the farther-out book up 113% — and the creator holds that backlog becomes more speculative…",
+            "date": "2026-09-24",
+            "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Mia Silverio",
+            "entitySlug": "mia-silverio",
+            "claim": "SB's backlog isn't 100% guaranteed revenue, because most of its contracts have completion time clauses letting the customer exit the agreement or get a discount if a project is delayed by more than a year.",
+            "date": "2026-09-28",
+            "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Mia Silverio",
+            "entitySlug": "mia-silverio",
+            "claim": "SB Energy, purportedly a data center company, has zero operational data centers, and while it has a $439 billion backlog, only 9% of contracts have actually broken ground.",
+            "date": "2026-09-28",
+            "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+            "date": "2026-09-21",
+            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "NVIDIA has extended payment terms for investment-grade customers from 90 days to a full year, lengthening days sales outstanding by 14 days.",
+            "date": "2026-09-09",
+            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Kevin",
+            "entitySlug": "kevin",
+            "claim": "Roughly 15% of revenue is tied directly to EU and state tenders where timing is unknown and awards are not always publicly announced, and a significant portion of private-sector spending is supported by EU or government funding incentives, so the…",
+            "date": "2026-09-11",
+            "url": "https://www.100baggerhunting.com/p/a-software-monopoly-priced-like-a",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Kevin",
+            "entitySlug": "kevin",
+            "claim": "Ilyda is currently assessed as a genuinely good business at a boring price, with issues around revenue visibility post-2027; Kevin says his process leans more on future predictability, so he needs a better estimate of the future than just the CEO's…",
+            "date": "2026-09-11",
+            "url": "https://www.100baggerhunting.com/p/a-software-monopoly-priced-like-a",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "Tower already has $1.3B of contractual silicon photonics revenue commitments for 2027, backed by roughly $290M of customer prepayments, and management has said its actual 2027 SiPho expectations are substantially higher than that contractual…",
+            "date": "2026-09-29",
+            "url": "https://gaetanoresearch.substack.com/p/tsem-the-foundry-behind-the-optics",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "The hyperscaler thesis is that AI makes businesses they already own more valuable, that owning the customer relationship makes them less dependent on predicting which model wins, and that broad agent usage creates recurring compute demand, while…",
+            "date": "2026-09-15",
+            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "JunkBondInvestor",
+            "entitySlug": "junkbondinvestor",
+            "claim": "The creator leans toward a Panther Creek lease being signed, but expects it in 2027 rather than on management's 2026 timeline, because assembling a delivery schedule, construction budget and risk allocation that both a tenant will sign and a lender…",
+            "date": "2026-09-24",
+            "url": "https://www.junkbondinvestor.com/p/keel-infrastructure-keel-what-are",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "JunkBondInvestor",
+            "entitySlug": "junkbondinvestor",
+            "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+            "date": "2026-09-20",
+            "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+            "access": "public",
+            "linkVerified": true
+          }
+        ],
+        "reading": "Reported backlog overstates assured revenue: customers can exit, out-year buyers may lack the capital, and terms stretch to a year."
+      },
+      {
+        "id": "shipping-is-not-earning",
+        "label": "Shipping is not earning",
+        "voices": [
+          {
+            "name": "Edelbridge Alpha",
+            "entitySlug": "edelbridge-alpha",
+            "claim": "The creator's model assumes $11.1 billion of FY28 revenue, materially above consensus expectations of roughly $9.6 billion, and notes reaching it would require OCS to scale quickly, high-power laser shipments to ramp with CPO and NPO deployments…",
+            "date": "2026-09-22",
+            "url": "https://edelbridge.substack.com/p/should-you-buy-lumentum",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Edelbridge Alpha",
+            "entitySlug": "edelbridge-alpha",
+            "claim": "At current levels the creator does not find the risk/reward attractive, because reaching their target requires strong execution on manufacturing ramps, sustained pricing power, and continued demand growth, and earnings must translate into cash flow…",
+            "date": "2026-09-22",
+            "url": "https://edelbridge.substack.com/p/should-you-buy-lumentum",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Multibagger Ideas",
+            "entitySlug": "multibagger-ideas",
+            "claim": "Management expects 40% to 50% of backlog to convert to revenue in Q3 alone, roughly $57M to $71M, and the creator views this conversion as making it achievable for the second half to deliver more than $12.7M of net income to common needed to grow…",
+            "date": "2026-09-28",
+            "url": "https://multibaggerideas.substack.com/p/new-multibagger-idea-24-growth-ai",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Multibagger Ideas",
+            "entitySlug": "multibagger-ideas",
+            "claim": "The creator states the position earns its next tranche if Q3 results in December show backlog converting as guided and gross margin moving back toward 30%, or if Jordan becomes a definitive award; another receivable write-off or gross margin…",
+            "date": "2026-09-28",
+            "url": "https://multibaggerideas.substack.com/p/new-multibagger-idea-24-growth-ai",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Schwar Capital Research",
+            "entitySlug": "schwar-capital-research",
+            "claim": "Management said substantially all of the backlog is expected to be completed within the next twelve months and expects approximately 40-50% of the $142.3 million backlog to convert to revenue in the third quarter, implying $57-71 million of Q3…",
+            "date": "2026-09-19",
+            "url": "https://www.schwarcapital.com/p/revenue-up-24-backlog-at-a-record",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Schwar Capital Research",
+            "entitySlug": "schwar-capital-research",
+            "claim": "The creator will be watching whether Q3 revenue conversion clears the 40-50% backlog guidance ($57-71 million) and beats the $61.2 million Q3 fiscal 2025 record, whether book-to-bill stays above 1x, whether gross margin moves toward the above-30%…",
+            "date": "2026-09-19",
+            "url": "https://www.schwarcapital.com/p/revenue-up-24-backlog-at-a-record",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "Late capacity, margin squeeze until 2028.",
+            "date": null,
+            "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Aurelion Research",
+            "entitySlug": "aurelion-research",
+            "claim": "Fabrinet: new roles must become profit.",
+            "date": null,
+            "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+            "date": "2026-09-14",
+            "url": "https://realeismanplaybook.substack.com/p/the-big-short-partners-reunite-rates",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "Off-balance-sheet AI financing is back because costs are exploding: Nvidia raised prices 15%, data centers are expensive and slow to build, and the big cloud companies that used to be capital-light cash machines will spend something like $700…",
+            "date": "2026-09-25",
+            "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+            "access": "paid",
+            "linkVerified": true
+          }
+        ],
+        "reading": "Revenue that ships still has to clear ramps, pricing and cash collection before it is profit; the test is set for the Q3 reports."
+      },
+      {
+        "id": "crossing",
+        "label": "Voices that cross sides",
+        "voices": [
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "Because supply is still the binding constraint — Coherent says it can sell as fast as it can add production — the creator argues that even a 15% cut in expected customer demand against demand running 30% above supply would still allow growth as…",
+            "date": "2026-09-15",
+            "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "GFS is adding SiGe capacity to an optical business where demand already exceeds supply, and GFS has said its SiGe capacity is oversubscribed through 2027.",
+            "date": "2026-09-18",
+            "url": "https://gaetanoresearch.substack.com/p/mrvl-just-gave-us-another-reason",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "An inflection point will arrive at which expectations will no longer be rewarded so heavily and proof of concept will be required in the results.",
+            "date": "2026-09-09",
+            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "There is a chain where NVIDIA sells chips to hyperscalers, hyperscalers' capital spending depends on the future health of OpenAI and Anthropic, and both are currently losing substantial sums, with OpenAI's revenue growth having slowed relative to…",
+            "date": "2026-09-09",
+            "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Multibagger Ideas",
+            "entitySlug": "multibagger-ideas",
+            "claim": "Record backlog, 1% growth at CeoTronics; PPIH's Q3 test.",
+            "date": null,
+            "url": "https://multibaggerideas.substack.com/p/new-multibagger-idea-24-growth-ai",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Aurelion Research",
+            "entitySlug": "aurelion-research",
+            "claim": "Nvidia supply-bound; Fabrinet's roles still have to earn.",
+            "date": null,
+            "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "HBM capacity exploding at TOWA, added too slowly at Group Up.",
+            "date": null,
+            "url": "https://hypertechinvest.com/p/portfolio-update-part-2",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Edelbridge Alpha",
+            "entitySlug": "edelbridge-alpha",
+            "claim": "The creator rates Vertiv's execution risk 3.5/5, noting that while hyperscaler capex demand looks strong, the bigger question is whether Vertiv can scale manufacturing fast enough to keep up without sacrificing quality or margins, calling this…",
+            "date": "2026-09-14",
+            "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
+            "access": "public",
+            "linkVerified": true
+          }
+        ]
+      }
+    ],
+    "crossings": [
+      {
+        "from": "Gaetano",
+        "to": "Kevin",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Gaetano qualifies Kevin on condition."
+      },
+      {
+        "from": "Gaetano",
+        "to": "Kevin",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Gaetano qualifies Kevin on evidence."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Michael Burry",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Tae Kim contradicts Michael Burry on mechanism."
+      },
+      {
+        "from": "Mia Silverio",
+        "to": "Tae Kim",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Mia Silverio contradicts Tae Kim on evidence."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Ren",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Tae Kim qualifies Ren on condition."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Ren",
+        "relation": "qualifies",
+        "dimension": "mechanism",
+        "note": "Tae Kim qualifies Ren on mechanism."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Steve Eisman",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Tae Kim qualifies Steve Eisman on condition."
+      },
+      {
+        "from": "Steve Eisman",
+        "to": "Tae Kim",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Steve Eisman contradicts Tae Kim on mechanism."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Steve Eisman",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Tae Kim qualifies Steve Eisman on evidence."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Steve Eisman",
+        "relation": "qualifies",
+        "dimension": "mechanism",
+        "note": "Tae Kim qualifies Steve Eisman on mechanism."
+      },
+      {
+        "from": "Ren",
+        "to": "Gaetano",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Ren qualifies Gaetano on evidence."
+      },
+      {
+        "from": "Michael Burry",
+        "to": "Gaetano",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Michael Burry qualifies Gaetano on evidence."
+      },
+      {
+        "from": "Steve Eisman",
+        "to": "Aurelion Research",
+        "relation": "contradicts",
+        "dimension": "premise",
+        "note": "Steve Eisman contradicts Aurelion Research on premise."
+      },
+      {
+        "from": "Steve Eisman",
+        "to": "Edelbridge Alpha",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Steve Eisman qualifies Edelbridge Alpha on evidence."
+      },
+      {
+        "from": "Ren",
+        "to": "Steve Eisman",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Ren contradicts Steve Eisman on mechanism."
+      },
+      {
+        "from": "Michael Burry",
+        "to": "Gaetano",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Michael Burry contradicts Gaetano on mechanism."
+      },
+      {
+        "from": "Gaetano",
+        "to": "Tae Kim",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Gaetano contradicts Tae Kim on evidence."
+      },
+      {
+        "from": "Torsten Slok",
+        "to": "Michael Burry",
+        "relation": "contradicts",
+        "dimension": "premise",
+        "note": "Torsten Slok contradicts Michael Burry on premise."
+      },
+      {
+        "from": "Gaetano",
+        "to": "Tae Kim",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Gaetano qualifies Tae Kim on evidence."
+      },
+      {
+        "from": "Michael Burry",
+        "to": "Gaetano",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Michael Burry contradicts Gaetano on evidence."
+      },
+      {
+        "from": "Ren",
+        "to": "Tae Kim",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Ren contradicts Tae Kim on mechanism."
+      },
+      {
+        "from": "Steve Eisman",
+        "to": "Gaetano",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Steve Eisman contradicts Gaetano on mechanism."
+      },
+      {
+        "from": "Steve Eisman",
+        "to": "Mia Silverio",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Steve Eisman qualifies Mia Silverio on evidence."
+      },
+      {
+        "from": "JunkBondInvestor",
+        "to": "Torsten Slok",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "JunkBondInvestor qualifies Torsten Slok on condition."
+      }
+    ],
+    "notes": [
+      {
+        "label": "The thread",
+        "text": "Part 10 asked what the profits are made of. Part 11 asks whether the orders behind them turn into profit, and finds the writers agreeing on the test and splitting on what a backlog is worth before it ships."
+      }
+    ],
+    "settles": [
+      {
+        "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+        "when": "October 28",
+        "date": "2026-10-28"
+      },
+      {
+        "event": "Nvidia reports: days sales outstanding after the move to a year of payment terms, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives.",
+        "when": "November 18",
+        "date": "2026-11-18"
+      },
+      {
+        "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+        "when": "December 9",
+        "date": "2026-12-09"
+      },
+      {
+        "event": "Perma-Pipe's third quarter: 40% to 50% of the $142.3 million backlog converting, $57 million to $71 million, with gross margin moving toward 30% and no second receivable write-off.",
+        "when": "December",
+        "date": null
+      },
+      {
+        "event": "Ciena's $10 billion backlog into shipments, Lumentum's path to $11.1 billion of fiscal 2028 revenue and Coherent's statement that it sells everything it can make, each measured against the margin the company targets.",
+        "when": "The optics ramp",
+        "date": null
+      }
+    ],
+    "lastUpdated": "2026-10-08"
   }
 ]

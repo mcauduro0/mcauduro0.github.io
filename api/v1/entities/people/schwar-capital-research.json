@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-09T01:11:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "schwar-capital-research",
+  "name": "Schwar Capital Research",
+  "role": "Schwar Capital",
+  "url": "https://deepstack.ltd/people/schwar-capital-research/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/schwar-capital-research.json",
+  "summary": "Schwar Capital Research appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (Shipping is not earning).",
+  "parts": [
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 11,
+      "section": "The margin the book does not show",
+      "excerpt": "Schwar Capital Research wrote on September 19 that management expects 40% to 50% of it to become third-quarter revenue, $57 million to $71 million against a third-quarter record of $61.2 million, with gross margin still below the 30% target.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "Management said substantially all of the backlog is expected to be completed within the next twelve months and expects approximately 40-50% of the $142.3 million backlog to convert to revenue in the third quarter, implying $57-71 million of Q3…",
+      "date": "2026-09-19",
+      "url": "https://www.schwarcapital.com/p/revenue-up-24-backlog-at-a-record",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "The creator will be watching whether Q3 revenue conversion clears the 40-50% backlog guidance ($57-71 million) and beats the $61.2 million Q3 fiscal 2025 record, whether book-to-bill stays above 1x, whether gross margin moves toward the above-30%…",
+      "date": "2026-09-19",
+      "url": "https://www.schwarcapital.com/p/revenue-up-24-backlog-at-a-record",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 772,
+    "texts": 69,
+    "asOf": "2026-10-08"
+  },
+  "lastUpdated": "2026-10-08"
+}

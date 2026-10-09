@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:23Z",
+  "generatedAt": "2026-10-09T01:11:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "edelbridge-alpha",
@@ -7,12 +7,17 @@
   "role": "Research organization",
   "url": "https://deepstack.ltd/people/edelbridge-alpha/",
   "api": "https://deepstack.ltd/api/v1/entities/people/edelbridge-alpha.json",
-  "summary": "Edelbridge Alpha appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.. Argued in Part 6 (Scarcity as a moat).",
+  "summary": "Edelbridge Alpha appears in Part 6, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
   "parts": [
     {
       "part": 6,
       "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 11,
+      "headline": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "numbers": [],
@@ -28,6 +33,12 @@
       "section": "Politics sets the price",
       "excerpt": "Edelbridge Alpha counts 26 US data-center projects blocked in the first quarter of 2026, against 31 in all of 2025, with another 49 delayed and 166 facing some form of opposition.",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 11,
+      "section": "Shipping is not earning",
+      "excerpt": "Edelbridge Alpha's September 22 model for Lumentum assumes $11.1 billion of fiscal 2028 revenue against consensus near $9.6 billion, a number that requires optical circuit switches to scale quickly and current product lines to stay supply-constrained; Edelbridge still passes at current prices, because the target also needs sustained pricing power.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
     }
   ],
   "sides": [
@@ -54,6 +65,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
       "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "The creator's model assumes $11.1 billion of FY28 revenue, materially above consensus expectations of roughly $9.6 billion, and notes reaching it would require OCS to scale quickly, high-power laser shipments to ramp with CPO and NPO deployments…",
+      "date": "2026-09-22",
+      "url": "https://edelbridge.substack.com/p/should-you-buy-lumentum",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "shipping-is-not-earning",
+      "sideLabel": "Shipping is not earning",
+      "claim": "At current levels the creator does not find the risk/reward attractive, because reaching their target requires strong execution on manufacturing ramps, sustained pricing power, and continued demand growth, and earnings must translate into cash flow…",
+      "date": "2026-09-22",
+      "url": "https://edelbridge.substack.com/p/should-you-buy-lumentum",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 11,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The creator rates Vertiv's execution risk 3.5/5, noting that while hyperscaler capex demand looks strong, the bigger question is whether Vertiv can scale manufacturing fast enough to keep up without sacrificing quality or margins, calling this…",
+      "date": "2026-09-14",
+      "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
     }
   ],
   "coverage": {
