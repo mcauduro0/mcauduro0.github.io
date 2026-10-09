@@ -2,6 +2,13 @@
 // content/site.json. Loaded only when an endpoint exists. The only network call
 // in the site is fetch(endpoint), where endpoint comes from the form's data
 // attribute; scripts/check.mjs enforces that rule on the built file.
+//
+// The visit's origin (Onda 7, lane OR; docs/growth/medicao-spec.md M1 and M2): on the first page
+// of the visit the campaign tags (utm_source, utm_medium, utm_campaign, utm_content) and the
+// referrer's host are read once and kept in sessionStorage under ds_arrival with the landing
+// path, so nothing outlives the tab; the subscribe form sends them beside the address, and one
+// POST /arrive per tab counts the visit when it carried a tag or came from a referrer the map
+// below knows. The host only, never the referrer's URL; no cookie, no localStorage.
 (function () {
   'use strict';
 
@@ -17,11 +24,158 @@
     });
   }
 
-  function subscribePayload(email, source) {
-    return { email: String(email || '').trim(), source: String(source || '/') };
+  // The arrival beacon: text/plain so it is a simple request (no preflight) and keepalive so a
+  // navigation does not cancel it. The endpoint is the Worker's /arrive, named from the same
+  // attribute a form on the page carries (arriveEndpoint below); the Worker checks the origin.
+  function beacon(endpoint, payload) {
+    return fetch(endpoint, { method: 'POST', body: JSON.stringify(payload), keepalive: true, credentials: 'omit', headers: { 'Content-Type': 'text/plain' } });
+  }
+
+  // ---------- the visit's origin ----------
+
+  var ARRIVAL_KEY = 'ds_arrival';
+  // The closed alphabet the Worker applies too (subscribe-worker/src/arrivals.js): a value outside
+  // it is dropped here and would be dropped there.
+  var FIELD_RE = /^[a-z0-9._-]{1,64}$/;
+  var LANDING_RE = /^\/[a-z0-9/._-]{0,119}$/;
+  var ARRIVAL_KEYS = ['channel', 'medium', 'campaign', 'content', 'referrer_host', 'landing'];
+  // The referrer-to-channel map of M1, the Worker's copy being the one that decides; the site's
+  // test keeps the two identical. A host matches a domain exactly or as a subdomain.
+  var REFERRER_CHANNELS = [
+    ['chatgpt.com', 'chatgpt'], ['perplexity.ai', 'perplexity'], ['gemini.google.com', 'gemini'], ['claude.ai', 'claude'], ['copilot.microsoft.com', 'copilot'],
+    ['linkedin.com', 'linkedin-organic'], ['lnkd.in', 'linkedin-organic'], ['t.co', 'x-organic'], ['x.com', 'x-organic'], ['reddit.com', 'reddit-organic'],
+    ['news.google.com', 'google-news'], ['bsky.app', 'bluesky-organic'], ['t.me', 'telegram-organic'], ['substack.com', 'substack'], ['news.ycombinator.com', 'hn']
+  ];
+  var GOOGLE_ANY = /^(?:[a-z0-9-]+\.)*google\.[a-z]{2,}(?:\.[a-z]{2,})?$/;
+
+  function cleanField(value) {
+    var s = String(value == null ? '' : value).trim().toLowerCase();
+    return FIELD_RE.test(s) ? s : null;
+  }
+
+  function cleanLanding(value) {
+    var s = String(value == null ? '' : value).trim().toLowerCase();
+    return LANDING_RE.test(s) ? s : null;
+  }
+
+  function referrerChannel(host) {
+    var h = String(host || '').trim().toLowerCase();
+    if (!h) return null;
+    for (var i = 0; i < REFERRER_CHANNELS.length; i++) {
+      var domain = REFERRER_CHANNELS[i][0];
+      if (h === domain || h.slice(-(domain.length + 1)) === '.' + domain) return REFERRER_CHANNELS[i][1];
+    }
+    return GOOGLE_ANY.test(h) ? 'google-organic' : null;
+  }
+
+  function hostOf(referrer) {
+    try { return String(new URL(String(referrer || '')).hostname || '').toLowerCase(); } catch (e) { return ''; }
+  }
+
+  function sameSite(a, b) {
+    return String(a || '').replace(/^www\./, '') === String(b || '').replace(/^www\./, '');
+  }
+
+  // What this page says about the visit: the tags in its address, the referrer's host when it is
+  // another site, the path. `channel` is utm_source, else the mapped referrer, else null.
+  function arrivalFromVisit(visit) {
+    var v = visit || {};
+    var params = new URLSearchParams(String(v.search || ''));
+    var ref = hostOf(v.referrer);
+    var referrerHost = ref && !sameSite(ref, String(v.host || '').toLowerCase()) ? cleanField(ref) : null;
+    var tagged = cleanField(params.get('utm_source'));
+    return {
+      channel: tagged || referrerChannel(referrerHost),
+      medium: cleanField(params.get('utm_medium')),
+      campaign: cleanField(params.get('utm_campaign')),
+      content: cleanField(params.get('utm_content')),
+      referrer_host: referrerHost,
+      landing: cleanLanding(v.pathname),
+      posted: false
+    };
+  }
+
+  // The tab keeps its first arrival. The one exception: a tab that began with no channel and
+  // then opens an address with one (a reader who came back through a tagged link) takes the
+  // tagged arrival, so the campaign is the one credited.
+  function resolveArrival(stored, current) {
+    if (!stored || typeof stored !== 'object') return current;
+    if (!stored.channel && current && current.channel) return current;
+    return stored;
+  }
+
+  function readArrival(storage) {
+    try {
+      var raw = storage ? storage.getItem(ARRIVAL_KEY) : null;
+      var a = raw ? JSON.parse(raw) : null;
+      return a && typeof a === 'object' && !Array.isArray(a) ? a : null;
+    } catch (e) { return null; }
+  }
+
+  function writeArrival(storage, arrival) {
+    try { storage.setItem(ARRIVAL_KEY, JSON.stringify(arrival)); return true; } catch (e) { return false; }
+  }
+
+  // The six fields, only those with a value: the body of /arrive and the extra fields of /subscribe.
+  function arrivePayload(arrival) {
+    var out = {};
+    var a = arrival || {};
+    for (var i = 0; i < ARRIVAL_KEYS.length; i++) if (a[ARRIVAL_KEYS[i]] != null) out[ARRIVAL_KEYS[i]] = a[ARRIVAL_KEYS[i]];
+    return out;
+  }
+
+  // /arrive on the same Worker as the form's endpoint: the last path segment swapped. A value
+  // that is not an absolute address with a path gives null, and nothing is sent.
+  function arriveEndpointFrom(value) {
+    var s = String(value || '').replace(/\/+$/, '');
+    var scheme = s.indexOf('//');
+    var i = s.lastIndexOf('/');
+    if (scheme < 0 || i < scheme + 3) return null;
+    return s.slice(0, i) + '/arrive';
+  }
+
+  function arriveEndpoint(doc) {
+    var form = doc.querySelector('form[data-subscribe-endpoint], form[data-follow-endpoint], form[data-contact-endpoint]');
+    if (!form) return null;
+    return arriveEndpointFrom(form.getAttribute('data-subscribe-endpoint') || form.getAttribute('data-follow-endpoint') || form.getAttribute('data-contact-endpoint'));
+  }
+
+  function storageOf(win) {
+    try { return win.sessionStorage || null; } catch (e) { return null; }
+  }
+
+  // On every page: settle the tab's arrival, and post it once when it names a channel and a form
+  // on the page says where the Worker is (a page without one leaves `posted` false for the next).
+  function initArrival(win, doc) {
+    var storage = storageOf(win);
+    if (!storage) return null;
+    var current = arrivalFromVisit({ search: win.location.search, host: win.location.hostname, referrer: doc.referrer, pathname: win.location.pathname });
+    var stored = readArrival(storage);
+    var arrival = resolveArrival(stored, current);
+    if (arrival !== stored) writeArrival(storage, arrival);
+    if (arrival.channel && !arrival.posted) {
+      var endpoint = arriveEndpoint(doc);
+      if (endpoint) {
+        arrival.posted = true;
+        writeArrival(storage, arrival);
+        try { beacon(endpoint, arrivePayload(arrival)).catch(function () {}); } catch (e) { /* a blocked transport sends nothing */ }
+      }
+    }
+    return arrival;
+  }
+
+  // {email, source} plus the tab's origin fields (never `posted`): the Worker keeps them on the row.
+  function subscribePayload(email, source, arrival) {
+    var payload = { email: String(email || '').trim(), source: String(source || '/') };
+    var extra = arrivePayload(arrival);
+    for (var k in extra) if (Object.prototype.hasOwnProperty.call(extra, k)) payload[k] = extra[k];
+    return payload;
   }
 
   // The support form on /contact/ carries a hidden subject ("support"); the partner dialog carries none.
+  // The partner form on /partners/ carries the subject "partner" and a select of B2B formats the
+  // Worker's own list does not know: the choice is written into the message as "[<format>] " so it
+  // survives in the stored text whatever format the Worker files the row under.
   function contactPayload(fields) {
     var payload = {
       name: String(fields.name || '').trim(),
@@ -31,6 +185,7 @@
     };
     var subject = String(fields.subject || '').trim();
     if (subject) payload.subject = subject;
+    if (subject.toLowerCase() === 'partner' && payload.format && payload.message) payload.message = '[' + payload.format + '] ' + payload.message;
     return payload;
   }
 
@@ -49,7 +204,7 @@
         if (trap && trap.value) { status.textContent = 'Check your inbox for a confirmation email from DeepStack.'; return; }
         button.disabled = true;
         status.textContent = 'Sending…';
-        post(endpoint, subscribePayload(input.value, win.location.pathname)).then(function (response) {
+        post(endpoint, subscribePayload(input.value, win.location.pathname, readArrival(storageOf(win)))).then(function (response) {
           if (!response.ok) throw new Error(String(response.status));
           form.classList.add('is-done');
           input.value = '';
@@ -148,11 +303,15 @@
     });
   }
 
-  var api = { subscribePayload: subscribePayload, contactPayload: contactPayload, followPayload: followPayload };
+  var api = {
+    subscribePayload: subscribePayload, contactPayload: contactPayload, followPayload: followPayload,
+    ARRIVAL_KEY: ARRIVAL_KEY, REFERRER_CHANNELS: REFERRER_CHANNELS, cleanField: cleanField, cleanLanding: cleanLanding, referrerChannel: referrerChannel,
+    arrivalFromVisit: arrivalFromVisit, resolveArrival: resolveArrival, readArrival: readArrival, writeArrival: writeArrival, arrivePayload: arrivePayload, arriveEndpointFrom: arriveEndpointFrom
+  };
   if (typeof globalThis !== 'undefined') globalThis.DeepStackSubscribe = api;
 
   if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-    var start = function () { initSubscribe(window, document); initContact(document); initFollow(document); };
+    var start = function () { initArrival(window, document); initSubscribe(window, document); initContact(document); initFollow(document); };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
   }
 })();

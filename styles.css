@@ -1568,3 +1568,48 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 .proof-brand { justify-content: center; font: italic 600 15px/1.3 var(--serif); color: var(--ink); }
 @media (max-width: 1000px) { .proof { grid-template-columns: repeat(2, minmax(0, 1fr)); } .proof-cell:nth-child(odd) { padding-left: 0; border-left: 0; } .proof-cell:nth-child(n + 3) { border-top: 1px solid var(--rule); } }
 @media (max-width: 560px) { .proof { grid-template-columns: 1fr; } .proof-cell { padding-inline: 0; border-left: 0; } .proof-cell + .proof-cell { border-top: 1px solid var(--rule); } .proof-brand { justify-content: flex-start; } }
+
+/* The landing pages and /partners/ (Onda 7, lane LP, 9 October 2026): /start/ and /start/<tema>/ put the hero and the sign-up form (the home's own form component) on the newsletter block's navy, three proof cards on paper (the Call card on the Call's own navy rules), "How it works" on the About anatomy's numbers and the short footer; the code pages are one column; /partners/ adds the four counts as a definition list and the partner form on the partner-form rules. Manus tokens only; additive. */
+.landing-ics { font: 650 14px/1.3 var(--sans); color: var(--ink); text-decoration: none; border-bottom: 1.5px solid var(--amber); padding-bottom: 3px; white-space: nowrap; }
+.landing-hero { background: radial-gradient(110% 140% at 0% 0%, #22344F 0%, var(--ink) 58%); color: var(--on-navy); }
+.landing-hero-inner { padding-block: clamp(48px, 7vw, 96px); max-width: calc(var(--pad) * 2 + 760px); }
+.landing-hero .label-amber { color: var(--amber); }
+.landing-title { margin: 14px 0 0; max-width: 14ch; font: 750 clamp(40px, 6.4vw, 84px)/0.98 var(--serif); letter-spacing: -0.04em; color: var(--on-navy); text-wrap: balance; }
+.landing-dek { margin: 20px 0 0; max-width: 46ch; font: italic 400 clamp(19px, 2vw, 25px)/1.4 var(--serif); color: var(--on-navy-muted); }
+.landing-form { margin-top: clamp(26px, 3.5vw, 40px); max-width: 560px; }
+.landing-form .fine { margin-top: 12px; color: var(--on-navy-muted); }
+.landing-proof { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding-top: clamp(32px, 5vw, 56px); }
+.landing-card { display: flex; flex-direction: column; gap: 10px; min-width: 0; margin: 0; padding: 22px 24px; border: 1px solid var(--rule); border-radius: 12px; background: var(--card); }
+.landing-card-label { margin: 0; font: 700 11px/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber-ink); }
+.landing-card.call { margin-top: 0; padding: 22px 24px; border: 0; background: radial-gradient(120% 90% at 100% 0%, rgba(227, 163, 59, 0.14) 0%, rgba(227, 163, 59, 0) 55%), linear-gradient(160deg, var(--navy-2) 0%, var(--ink) 72%); }
+.landing-card.call .landing-card-label { color: var(--amber); }
+.landing-card.call .call-stance { align-self: flex-start; }
+.landing-call-line { margin: 6px 0 0; font: 700 clamp(20px, 1.8vw, 24px)/1.22 var(--serif); letter-spacing: -0.01em; color: #FFFFFF; text-wrap: balance; }
+.landing-card .call-meter { margin-top: 6px; }
+.landing-when { margin: 0; font: 600 clamp(22px, 2vw, 28px)/1.1 var(--mono); color: var(--ink); }
+.landing-verdict { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0; font: 600 13px/1.2 var(--mono); color: var(--ink); }
+.landing-verdict .status { margin-bottom: 0; }
+.landing-card-text { margin: 0; font: 400 15.5px/1.5 var(--sans); color: var(--ink-2); overflow-wrap: anywhere; }
+.landing-card-more { margin-top: auto; padding-top: 10px; align-self: flex-start; }
+.landing-how { padding-block: clamp(32px, 5vw, 56px); }
+.landing-how-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin: 18px 0 0; padding: 0; list-style: none; }
+.landing-how-list li { display: grid; gap: 10px; padding-top: 16px; border-top: 1px solid var(--ink); font: 650 clamp(18px, 1.6vw, 22px)/1.25 var(--serif); color: var(--ink); }
+.landing-how-list .p-num { margin: 0; color: var(--amber-ink); }
+.landing-footer { padding-top: 0; border-top: 1px solid var(--rule); }
+.landing-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-block: 22px 32px; }
+.landing-footer-line { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0; font: 400 13px/1.5 var(--sans); color: var(--muted); }
+.landing-footer .footer-legal { margin: 0; font: 400 13px/1.5 var(--sans); }
+.code-page { padding-block: clamp(48px, 8vw, 96px); }
+.code-page h1 { margin-top: 14px; font: 750 clamp(36px, 5vw, 64px)/1 var(--serif); letter-spacing: -0.04em; }
+.partners-numbers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 0; }
+.partners-number { display: grid; gap: 6px; padding: 16px 18px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); }
+.partners-number dt { font: 700 11px/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.partners-number dd { margin: 0; font: 600 clamp(26px, 2.4vw, 34px)/1.1 var(--mono); color: var(--ink); }
+.partners-section .fine { margin-top: 12px; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.partners-form { max-width: 560px; }
+.partners-form label { display: block; margin-bottom: 2px; font: 600 13px/1 var(--sans); color: var(--ink); }
+.partners-form select { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); font: 400 15px/1.4 var(--sans); color: var(--ink); }
+.partners-form .form-status { color: var(--amber-ink); }
+.partners-form.is-done input, .partners-form.is-done textarea, .partners-form.is-done select { opacity: 0.55; }
+@media (max-width: 1000px) { .landing-proof { grid-template-columns: 1fr; } .landing-how-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } .partners-numbers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .landing-how-list { grid-template-columns: 1fr; } .partners-numbers { grid-template-columns: 1fr; } .landing-footer .wrap { flex-direction: column; } .landing-form .field-row { flex-direction: column; } }
