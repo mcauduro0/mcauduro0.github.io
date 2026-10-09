@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:57:40Z",
+  "generatedAt": "2026-10-09T08:05:28Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -15,9 +15,11 @@
     "results": 2,
     "corrections": 0,
     "sides": 11,
+    "questions": 11,
     "companies": 45,
     "people": 67,
-    "editions": 1
+    "editions": 1,
+    "notes": 0
   },
   "files": {
     "index": "https://deepstack.ltd/api/v1/index.json",
@@ -74,6 +76,23 @@
         "the-scarcity-is-the-collateral"
       ]
     },
+    "questions": "https://deepstack.ltd/api/v1/questions.json",
+    "question": {
+      "template": "https://deepstack.ltd/api/v1/questions/{slug}.json",
+      "slugs": [
+        "is-the-marginal-buyer-of-ai-compute-real",
+        "spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger",
+        "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
+        "is-the-capex-spending-defense-or-is-the-return-not-there",
+        "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
+        "is-power-scarcity-a-warning-or-a-moat",
+        "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
+        "who-writes-the-checks-for-the-buildout",
+        "how-fast-do-habits-break",
+        "does-the-hardware-hold-its-value",
+        "do-the-orders-turn-into-profit"
+      ]
+    },
     "companies": "https://deepstack.ltd/api/v1/entities/companies.json",
     "people": "https://deepstack.ltd/api/v1/entities/people.json",
     "entity": {
@@ -84,7 +103,21 @@
       ]
     },
     "tape": "https://deepstack.ltd/api/v1/tape.json",
-    "weekly": "https://deepstack.ltd/api/v1/weekly.json"
+    "weekly": "https://deepstack.ltd/api/v1/weekly.json",
+    "resolutionPackages": {
+      "template": "https://deepstack.ltd/assets/resolution/{id}.pdf",
+      "ids": [
+        "p03-t04",
+        "p04-t04",
+        "p07-t01"
+      ],
+      "page": "https://deepstack.ltd/data/download/#packages"
+    },
+    "notes": "https://deepstack.ltd/api/v1/notes.json",
+    "note": {
+      "template": "https://deepstack.ltd/api/v1/notes/{slug}.json",
+      "slugs": []
+    }
   },
   "openapi": "https://deepstack.ltd/api/openapi.json",
   "llms": {
@@ -107,7 +140,8 @@
       "deepstack_docket",
       "deepstack_results",
       "deepstack_entity",
-      "deepstack_tape"
+      "deepstack_tape",
+      "deepstack_counter"
     ]
   },
   "pages": {

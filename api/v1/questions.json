@@ -1,0 +1,1261 @@
+{
+  "generatedAt": "2026-10-09T08:05:28Z",
+  "url": "https://deepstack.ltd/questions/",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "api": "https://deepstack.ltd/api/v1/questions.json",
+  "method": "How DeepStack settles a question",
+  "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
+  "count": 11,
+  "questions": [
+    {
+      "slug": "is-the-marginal-buyer-of-ai-compute-real",
+      "question": "Is the marginal buyer of AI compute real?",
+      "title": null,
+      "headline": "Is the marginal buyer of AI compute real?",
+      "url": "https://deepstack.ltd/questions/is-the-marginal-buyer-of-ai-compute-real/",
+      "api": "https://deepstack.ltd/api/v1/questions/is-the-marginal-buyer-of-ai-compute-real.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 1,
+          "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+          "question": "Is the marginal buyer of AI compute real?",
+          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+          "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json",
+          "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "Bull on demand. Bear on the financing.",
+            "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Discount any AI order book that leans on private credit instead of customer cash.",
+              "Track energized megawatts, not chips shipped: working compute is the real backlog.",
+              "Read the depreciation schedule before the earnings: lives that lag obsolescence flatter profit."
+            ],
+            "flips": [
+              "End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.",
+              "Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations."
+            ],
+            "version": 1,
+            "updatedOn": "2026-08-10",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-08-10",
+                "stance": "Bull on demand. Bear on the financing.",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p01-t01",
+              "part": 1,
+              "slug": "nvidias-demand-insatiable-or-manufactured",
+              "when": "When the bottleneck clears",
+              "whenLabel": "When the bottleneck clears",
+              "date": null,
+              "precision": "signal",
+              "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "When the bottleneck clears",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "",
+                "question": "",
+                "source": null,
+                "ambiguity": "",
+                "specState": "pending"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p01-t01",
+              "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p01-t01",
+        "part": 1,
+        "slug": "nvidias-demand-insatiable-or-manufactured",
+        "when": "When the bottleneck clears",
+        "whenLabel": "When the bottleneck clears",
+        "date": null,
+        "precision": "signal",
+        "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "When the bottleneck clears",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "",
+          "question": "",
+          "source": null,
+          "ambiguity": "",
+          "specState": "pending"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p01-t01",
+        "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger",
+      "question": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+      "title": null,
+      "headline": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+      "url": "https://deepstack.ltd/questions/spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger/",
+      "api": "https://deepstack.ltd/api/v1/questions/spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 2,
+          "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+          "question": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+          "api": "https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json",
+          "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Ahead of the evidence",
+            "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Value the AI arm on deployed gigawatts (0.4 today), not on the roughly 10 GW site plan.",
+              "Treat Starlink’s $4.4 billion of operating income as the collateral, not the upside.",
+              "Strip related-party and Anthropic-linked revenue out before calling AI demand proven."
+            ],
+            "flips": [
+              "Deployed capacity climbs toward the site plan, quarter after quarter.",
+              "AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work."
+            ],
+            "version": 1,
+            "updatedOn": "2026-08-13",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-08-13",
+                "stance": "Ahead of the evidence",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p02-t01",
+              "part": 2,
+              "slug": "spacex-after-the-ipo-exit-liquidity",
+              "when": "2027 buildout",
+              "whenLabel": "Jan 1, 2027",
+              "date": "2027-01-01",
+              "precision": "window",
+              "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "2027 buildout",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "",
+                "question": "",
+                "source": null,
+                "ambiguity": "",
+                "specState": "pending"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p02-t01",
+              "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p02-t01",
+        "part": 2,
+        "slug": "spacex-after-the-ipo-exit-liquidity",
+        "when": "2027 buildout",
+        "whenLabel": "Jan 1, 2027",
+        "date": "2027-01-01",
+        "precision": "window",
+        "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "2027 buildout",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "",
+          "question": "",
+          "source": null,
+          "ambiguity": "",
+          "specState": "pending"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p02-t01",
+        "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
+      "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+      "title": null,
+      "headline": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+      "url": "https://deepstack.ltd/questions/the-debt-behind-the-machines-1999-capex-2008-credit-or-neither/",
+      "api": "https://deepstack.ltd/api/v1/questions/the-debt-behind-the-machines-1999-capex-2008-credit-or-neither.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 3,
+          "headline": "The Machines Will Work. The Debt Might Not.",
+          "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+          "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Bearish on the credit",
+            "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Watch the six-month compute premium: buyers paying double for short terms are pricing duration risk.",
+              "Before trusting the 21% modeled return, ask who carries depreciation when funding costs rise.",
+              "Price new AI debt on its concessions: wider new-issue discounts mean lenders are flinching."
+            ],
+            "flips": [
+              "Nebius’s short-term premium collapses toward long-term rates.",
+              "H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions."
+            ],
+            "version": 1,
+            "updatedOn": "2026-08-15",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-08-15",
+                "stance": "Bearish on the credit",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p03-t01",
+              "part": 3,
+              "slug": "the-debt-behind-the-machines",
+              "when": "Next Nebius disclosure",
+              "whenLabel": "Nov 10, 2026",
+              "date": "2026-11-10",
+              "precision": "day",
+              "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "fmp-earnings",
+                "ref": "Company earnings calendar, date via Financial Modeling Prep",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "NBIS",
+                "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+                "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+                "source": {
+                  "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+                },
+                "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p03-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p03-t01",
+        "part": 3,
+        "slug": "the-debt-behind-the-machines",
+        "when": "Next Nebius disclosure",
+        "whenLabel": "Nov 10, 2026",
+        "date": "2026-11-10",
+        "precision": "day",
+        "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "fmp-earnings",
+          "ref": "Company earnings calendar, date via Financial Modeling Prep",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "NBIS",
+          "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+          "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+          "source": {
+            "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+          },
+          "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p03-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
+      "question": "Is the capex spending defense, or is the return not there?",
+      "title": null,
+      "headline": "Is the capex spending defense, or is the return not there?",
+      "url": "https://deepstack.ltd/questions/is-the-capex-spending-defense-or-is-the-return-not-there/",
+      "api": "https://deepstack.ltd/api/v1/questions/is-the-capex-spending-defense-or-is-the-return-not-there.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 4,
+          "headline": "AI Spending Has Met Its First Real Bill",
+          "question": "Is the capex spending defense, or is the return not there?",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Prove the return",
+            "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Screen hyperscalers on free cash flow after capex; Alphabet’s −$6 billion quarter is the new benchmark.",
+              "Reward budgets that arrive with return data, not budgets that only grow.",
+              "Watch the labs’ growth rates: deceleration, not decline, is the trigger."
+            ],
+            "flips": [
+              "Alphabet’s larger 2027 budget lifts the stock instead of sinking it.",
+              "Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue."
+            ],
+            "version": 1,
+            "updatedOn": "2026-09-04",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-09-04",
+                "stance": "Prove the return",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p04-t01",
+              "part": 4,
+              "slug": "the-market-stops-paying-for-faith",
+              "when": "2027 budget",
+              "whenLabel": "Jan 1, 2027",
+              "date": "2027-01-01",
+              "precision": "window",
+              "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "2027 budget",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "GOOGL",
+                "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+                "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+                "source": {
+                  "label": "Alphabet investor relations, quarterly earnings release and call",
+                  "url": "https://abc.xyz/investor/"
+                },
+                "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p04-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p04-t01",
+        "part": 4,
+        "slug": "the-market-stops-paying-for-faith",
+        "when": "2027 budget",
+        "whenLabel": "Jan 1, 2027",
+        "date": "2027-01-01",
+        "precision": "window",
+        "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "2027 budget",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "GOOGL",
+          "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+          "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+          "source": {
+            "label": "Alphabet investor relations, quarterly earnings release and call",
+            "url": "https://abc.xyz/investor/"
+          },
+          "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p04-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
+      "question": "What does a frontier lab sell: a commodity, or a premium?",
+      "title": null,
+      "headline": "What does a frontier lab sell: a commodity, or a premium?",
+      "url": "https://deepstack.ltd/questions/what-does-a-frontier-lab-sell-a-commodity-or-a-premium/",
+      "api": "https://deepstack.ltd/api/v1/questions/what-does-a-frontier-lab-sell-a-commodity-or-a-premium.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 5,
+          "headline": "OpenAI and Anthropic Are Not the Same Business",
+          "question": "What does a frontier lab sell: a commodity, or a premium?",
+          "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+          "api": "https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json",
+          "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "Split the trade",
+            "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Separate the two in any AI exposure: pricing power, not headline growth, sets the value.",
+              "Demand life-of-cluster margins in any prospectus, not first-year GPU economics.",
+              "Treat customer concentration and investor-funded revenue as the first red flags."
+            ],
+            "flips": [
+              "Anthropic is forced into an OpenAI-style price cut on coding.",
+              "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
+            ],
+            "version": 1,
+            "updatedOn": "2026-09-11",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-09-11",
+                "stance": "Split the trade",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p05-t01",
+              "part": 5,
+              "slug": "anthropic-grew-142-percent-openai",
+              "when": "Next prospectus",
+              "whenLabel": "Next prospectus",
+              "date": null,
+              "precision": "signal",
+              "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "Next prospectus",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "",
+                "question": "",
+                "source": null,
+                "ambiguity": "",
+                "specState": "pending"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p05-t01",
+              "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p05-t04",
+        "part": 5,
+        "slug": "anthropic-grew-142-percent-openai",
+        "when": "2028",
+        "whenLabel": "Jan 3, 2028",
+        "date": "2028-01-03",
+        "precision": "window",
+        "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "2028",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "",
+          "question": "",
+          "source": null,
+          "ambiguity": "",
+          "specState": "pending"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p05-t04",
+        "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "is-power-scarcity-a-warning-or-a-moat",
+      "question": "Is power scarcity a warning, or a moat?",
+      "title": null,
+      "headline": "Is power scarcity a warning, or a moat?",
+      "url": "https://deepstack.ltd/questions/is-power-scarcity-a-warning-or-a-moat/",
+      "api": "https://deepstack.ltd/api/v1/questions/is-power-scarcity-a-warning-or-a-moat.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 6,
+          "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+          "question": "Is power scarcity a warning, or a moat?",
+          "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+          "api": "https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json",
+          "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/",
+          "call": {
+            "tone": "bull",
+            "toneLabel": "Constructive",
+            "stance": "Long access, not hardware",
+            "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Value AI sites on connected megawatts, never on contracted ones.",
+              "Pay for delivery speed: Bloom’s 55-day timeline is where the premium lives.",
+              "Mark down GPUs parked behind late interconnections; they generate cost, not rent."
+            ],
+            "flips": [
+              "The speed-to-power premium narrows while power stays scarce.",
+              "Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient."
+            ],
+            "version": 1,
+            "updatedOn": "2026-09-19",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-09-19",
+                "stance": "Long access, not hardware",
+                "tone": "bull",
+                "toneLabel": "Constructive",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p06-t01",
+              "part": 6,
+              "slug": "power-doesnt-depreciate",
+              "when": "Dec 10",
+              "whenLabel": "Dec 10, 2026",
+              "date": "2026-12-10",
+              "precision": "day",
+              "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "Dec 10",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "",
+                "question": "",
+                "source": null,
+                "ambiguity": "",
+                "specState": "pending"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p06-t01",
+              "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p06-t01",
+        "part": 6,
+        "slug": "power-doesnt-depreciate",
+        "when": "Dec 10",
+        "whenLabel": "Dec 10, 2026",
+        "date": "2026-12-10",
+        "precision": "day",
+        "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "Dec 10",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "",
+          "question": "",
+          "source": null,
+          "ambiguity": "",
+          "specState": "pending"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p06-t01",
+        "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
+      "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+      "title": null,
+      "headline": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+      "url": "https://deepstack.ltd/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer/",
+      "api": "https://deepstack.ltd/api/v1/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 7,
+          "headline": "The Fed Hiked. The Long End Still Climbed.",
+          "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+          "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-fed-hiked-the-long-end-kept-climbing.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Supply sets the long end",
+            "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Use a 10-year above 5% as the base case for valuing long-duration AI assets.",
+              "Track foreign demand, Japan first: buyers returning without a better hedge would break the supply story.",
+              "Circle the 2028 refinancing wave; that is when today’s rates reach AI’s borrowers."
+            ],
+            "flips": [
+              "Long yields fall while nominal growth, inflation and AI capital spending stay firm.",
+              "Japanese and other foreign buyers return in size without a better hedge."
+            ],
+            "version": 1,
+            "updatedOn": "2026-09-27",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-09-27",
+                "stance": "Supply sets the long end",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p07-t01",
+              "part": 7,
+              "slug": "the-fed-hiked-the-long-end-kept-climbing",
+              "when": "Oct 28",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "series",
+                "series": "DFEDTARU",
+                "provider": "FRED",
+                "rule": "value after date > value before date => hike",
+                "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+                "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+                "source": {
+                  "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+                  "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+                },
+                "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p07-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p07-t02",
+        "part": 7,
+        "slug": "the-fed-hiked-the-long-end-kept-climbing",
+        "when": "Mid-October",
+        "whenLabel": "Oct 15, 2026",
+        "date": "2026-10-15",
+        "precision": "window",
+        "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "Mid-October",
+          "url": null
+        },
+        "resolver": {
+          "kind": "release",
+          "release": "Treasury International Capital",
+          "provider": "Treasury",
+          "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+          "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+          "source": {
+            "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+            "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+          },
+          "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p07-t02",
+        "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "who-writes-the-checks-for-the-buildout",
+      "question": "Who writes the checks for the buildout?",
+      "title": null,
+      "headline": "Who writes the checks for the buildout?",
+      "url": "https://deepstack.ltd/questions/who-writes-the-checks-for-the-buildout/",
+      "api": "https://deepstack.ltd/api/v1/questions/who-writes-the-checks-for-the-buildout.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 8,
+          "headline": "AI Lenders Are Financing the End of Scarcity",
+          "question": "Who writes the checks for the buildout?",
+          "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Lenders are mispricing scarcity",
+            "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Haircut any loan secured by compute scarcity: the collateral decays as supply catches up.",
+              "Measure cash flow against the $2 trillion it needs, from about $600 billion today, every quarter.",
+              "Count the $2.7 trillion of off-balance-sheet commitments as leverage, because creditors will."
+            ],
+            "flips": [
+              "September-quarter cash flow moves visibly toward $2 trillion.",
+              "The first Blackwell renewal holds its price without new guarantees."
+            ],
+            "version": 1,
+            "updatedOn": "2026-09-29",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-09-29",
+                "stance": "Lenders are mispricing scarcity",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p08-t01",
+              "part": 8,
+              "slug": "the-scarcity-is-the-collateral",
+              "when": "Late October",
+              "whenLabel": "Oct 20, 2026",
+              "date": "2026-10-20",
+              "precision": "window",
+              "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "Late October",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+                "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
+                "source": {
+                  "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+                  "url": "https://www.sec.gov/edgar/search/"
+                },
+                "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p08-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p08-t01",
+        "part": 8,
+        "slug": "the-scarcity-is-the-collateral",
+        "when": "Late October",
+        "whenLabel": "Oct 20, 2026",
+        "date": "2026-10-20",
+        "precision": "window",
+        "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "Late October",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+          "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
+          "source": {
+            "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+            "url": "https://www.sec.gov/edgar/search/"
+          },
+          "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p08-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "how-fast-do-habits-break",
+      "question": "How fast do habits break?",
+      "title": null,
+      "headline": "How fast do habits break?",
+      "url": "https://deepstack.ltd/questions/how-fast-do-habits-break/",
+      "api": "https://deepstack.ltd/api/v1/questions/how-fast-do-habits-break.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 9,
+          "headline": "Habit Was the Moat. Agents Are Draining It.",
+          "question": "How fast do habits break?",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
+          "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json",
+          "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "Sell habit, buy the rails",
+            "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Flag businesses that live on inertia: forgotten subscriptions, commodity brands, ad-funded marketplaces.",
+              "Favor owners of trust, regulation, systems of record, distribution and compute.",
+              "Judge agent launches on retained users, transactions and fees, never on downloads."
+            ],
+            "flips": [
+              "Meta reports agent downloads without retained users, transaction volume or fees.",
+              "The first tax season with agents shows households still paying Intuit for certainty."
+            ],
+            "version": 1,
+            "updatedOn": "2026-10-03",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-03",
+                "stance": "Sell habit, buy the rails",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p09-t01",
+              "part": 9,
+              "slug": "habit-was-the-moat",
+              "when": "Late October",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "fmp-earnings",
+                "ref": "Company earnings calendar, date via Financial Modeling Prep",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "META",
+                "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+                "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+                "source": {
+                  "label": "Meta investor relations, third-quarter 2026 results",
+                  "url": "https://investor.atmeta.com/"
+                },
+                "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p09-t01",
+              "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/habit-was-the-moat/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p09-t01",
+        "part": 9,
+        "slug": "habit-was-the-moat",
+        "when": "Late October",
+        "whenLabel": "Oct 28, 2026",
+        "date": "2026-10-28",
+        "precision": "day",
+        "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "fmp-earnings",
+          "ref": "Company earnings calendar, date via Financial Modeling Prep",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "META",
+          "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+          "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+          "source": {
+            "label": "Meta investor relations, third-quarter 2026 results",
+            "url": "https://investor.atmeta.com/"
+          },
+          "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p09-t01",
+        "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "does-the-hardware-hold-its-value",
+      "question": "Does the hardware hold its value?",
+      "title": null,
+      "headline": "Does the hardware hold its value?",
+      "url": "https://deepstack.ltd/questions/does-the-hardware-hold-its-value/",
+      "api": "https://deepstack.ltd/api/v1/questions/does-the-hardware-hold-its-value.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 10,
+          "headline": "The Bubble Is in the Denominator",
+          "question": "Does the hardware hold its value?",
+          "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "Cheap is conditional",
+            "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "actions": [
+              "Hold the 5.26% earnings yield (19.0 times earnings) against the 10-year: when the bond pays more, stocks offer no risk premium.",
+              "Stress-test the 29.5% earnings growth for server lives and depreciation before you pay for it.",
+              "Treat the $250 billion of hyperscaler bonds as competition for the savings that set the discount rate."
+            ],
+            "flips": [
+              "Used-chip values and server lives hold after scarcity fades.",
+              "Productivity turns higher and lab revenue compounds toward the checks the infrastructure requires."
+            ],
+            "version": 1,
+            "updatedOn": "2026-10-07",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-07",
+                "stance": "Cheap is conditional",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 4,
+                "convictionLabel": "High",
+                "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+                "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p10-t01",
+              "part": 10,
+              "slug": "the-bubble-is-in-the-denominator",
+              "when": "Late October",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "fmp-earnings",
+                "ref": "Company earnings calendar, date via Financial Modeling Prep",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "MSFT",
+                "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
+                "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
+                "source": {
+                  "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+                  "url": "https://www.sec.gov/edgar/search/"
+                },
+                "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p10-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p10-t02",
+        "part": 10,
+        "slug": "the-bubble-is-in-the-denominator",
+        "when": "October",
+        "whenLabel": "October",
+        "date": "2026-10-01",
+        "precision": "month",
+        "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "October",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+          "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+          "source": {
+            "label": "SEC EDGAR, Anthropic filings",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+          },
+          "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p10-t02",
+        "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "do-the-orders-turn-into-profit",
+      "question": "Do the orders turn into profit?",
+      "title": null,
+      "headline": "Do the orders turn into profit?",
+      "url": "https://deepstack.ltd/questions/do-the-orders-turn-into-profit/",
+      "api": "https://deepstack.ltd/api/v1/questions/do-the-orders-turn-into-profit.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "question": "Do the orders turn into profit?",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "Revenue yes, margin not yet",
+            "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Split every backlog into what is due within a year and what is not; a far book outgrowing the near one three to one is mostly forecast.",
+              "Credit prepaid or bring-your-own-hardware orders as revenue and the rest as options; read a residual-value guarantee as the lender's doubt.",
+              "Hold gross margin against the stated target before crediting the ramp: Perma-Pipe's 30% in December is the line to clear."
+            ],
+            "flips": [
+              "Microsoft's within-a-year backlog grows as fast as the beyond-a-year book on October 28.",
+              "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
+              "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
+            ],
+            "version": 1,
+            "updatedOn": "2026-10-08",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-08",
+                "stance": "Revenue yes, margin not yet",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p11-t01",
+              "part": 11,
+              "slug": "the-backlog-is-not-the-quarter",
+              "when": "October 28",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "MSFT",
+                "rule": "results reported => read the print",
+                "question": "",
+                "source": null,
+                "ambiguity": "",
+                "specState": "pending"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p11-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p11-t01",
+        "part": 11,
+        "slug": "the-backlog-is-not-the-quarter",
+        "when": "October 28",
+        "whenLabel": "Oct 28, 2026",
+        "date": "2026-10-28",
+        "precision": "day",
+        "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[0].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "MSFT",
+          "rule": "results reported => read the print",
+          "question": "",
+          "source": null,
+          "ambiguity": "",
+          "specState": "pending"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p11-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+        "resultUrl": null
+      }
+    }
+  ]
+}

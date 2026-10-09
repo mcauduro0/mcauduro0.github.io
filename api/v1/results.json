@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:57:40Z",
+  "generatedAt": "2026-10-09T08:05:28Z",
   "url": "https://deepstack.ltd/results/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/results.json",
@@ -40,7 +40,8 @@
       },
       "approvedAt": "2026-10-09T03:49:26Z",
       "url": "https://deepstack.ltd/results/#result-p03-t04",
-      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#result-p03-t04"
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#result-p03-t04",
+      "resolutionPackage": "https://deepstack.ltd/assets/resolution/p03-t04.pdf"
     },
     {
       "id": "p04-t04",
@@ -71,7 +72,8 @@
       },
       "approvedAt": "2026-10-09T03:49:27Z",
       "url": "https://deepstack.ltd/results/#result-p04-t04",
-      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04"
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04",
+      "resolutionPackage": "https://deepstack.ltd/assets/resolution/p04-t04.pdf"
     }
   ]
 }

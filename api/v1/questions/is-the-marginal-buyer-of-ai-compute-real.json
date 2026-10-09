@@ -1,0 +1,338 @@
+{
+  "generatedAt": "2026-10-09T08:05:28Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "slug": "is-the-marginal-buyer-of-ai-compute-real",
+  "question": "Is the marginal buyer of AI compute real?",
+  "title": null,
+  "headline": "Is the marginal buyer of AI compute real?",
+  "url": "https://deepstack.ltd/questions/is-the-marginal-buyer-of-ai-compute-real/",
+  "api": "https://deepstack.ltd/api/v1/questions/is-the-marginal-buyer-of-ai-compute-real.json",
+  "aliases": [],
+  "parts": [
+    {
+      "part": 1,
+      "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+      "question": "Is the marginal buyer of AI compute real?",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json",
+      "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
+      "call": {
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "stance": "Bull on demand. Bear on the financing.",
+        "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Discount any AI order book that leans on private credit instead of customer cash.",
+          "Track energized megawatts, not chips shipped: working compute is the real backlog.",
+          "Read the depreciation schedule before the earnings: lives that lag obsolescence flatter profit."
+        ],
+        "flips": [
+          "End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.",
+          "Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations."
+        ],
+        "version": 1,
+        "updatedOn": "2026-08-10",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-08-10",
+            "stance": "Bull on demand. Bear on the financing.",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+            "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p01-t01",
+          "part": 1,
+          "slug": "nvidias-demand-insatiable-or-manufactured",
+          "when": "When the bottleneck clears",
+          "whenLabel": "When the bottleneck clears",
+          "date": null,
+          "precision": "signal",
+          "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "When the bottleneck clears",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p01-t01",
+          "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#verdict"
+      },
+      "sides": [
+        {
+          "id": "manufactured",
+          "label": "Manufactured",
+          "voices": [
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "Much and possibly most of current and future AI compute demand is not end-customer demand; the majority of future revenues are financed through a circular off-balance-sheet arrangement.",
+              "date": "2026-07-24",
+              "url": "https://michaeljburry.substack.com/p/trading-post-july-24-2026",
+              "access": "licensed"
+            },
+            {
+              "name": "Michael Burry",
+              "entity": "https://deepstack.ltd/people/michael-burry/",
+              "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+              "date": "2026-07-09",
+              "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+              "access": "licensed"
+            }
+          ],
+          "against": {
+            "name": "Invest in Assets",
+            "entity": "https://deepstack.ltd/people/invest-in-assets/",
+            "claim": "A visibility window that extends by a full year across the customer base is much harder to manufacture than a single-customer beat and signals that AI demand is structural rather than lumpy.",
+            "date": "2026-08-09",
+            "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that",
+            "access": "licensed",
+            "answers": "Michael Burry",
+            "relation": "contradicts",
+            "dimension": "premise"
+          }
+        },
+        {
+          "id": "insatiable",
+          "label": "Insatiable",
+          "voices": [
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+              "date": "2026-06-08",
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
+              "access": "licensed"
+            },
+            {
+              "name": "Invest in Assets",
+              "entity": "https://deepstack.ltd/people/invest-in-assets/",
+              "claim": "A visibility window that extends by a full year across the customer base is much harder to manufacture than a single-customer beat and signals that AI demand is structural rather than lumpy.",
+              "date": "2026-08-09",
+              "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that",
+              "access": "licensed"
+            }
+          ],
+          "against": {
+            "name": "Michael Burry",
+            "entity": "https://deepstack.ltd/people/michael-burry/",
+            "claim": "Much and possibly most of current and future AI compute demand is not end-customer demand; the majority of future revenues are financed through a circular off-balance-sheet arrangement.",
+            "date": "2026-07-24",
+            "url": "https://michaeljburry.substack.com/p/trading-post-july-24-2026",
+            "access": "licensed",
+            "answers": "Kris",
+            "relation": "contradicts",
+            "dimension": "premise"
+          }
+        },
+        {
+          "id": "crossing",
+          "label": "Voices that cross sides",
+          "voices": [
+            {
+              "name": "Longriver",
+              "entity": "https://deepstack.ltd/people/longriver/",
+              "claim": "Long since 2025, and author of the bear case's most honest sentence.",
+              "date": null,
+              "url": null,
+              "access": "public"
+            },
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "Bullish on demand, and endorses the GFC earnings-quality parallel.",
+              "date": null,
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news",
+              "access": "public"
+            },
+            {
+              "name": "NZS Capital",
+              "entity": "https://deepstack.ltd/people/nzs-capital/",
+              "claim": "Exited on the bear case; re-entered when the price paid for the risk.",
+              "date": null,
+              "url": null,
+              "access": "public"
+            }
+          ],
+          "against": null
+        }
+      ],
+      "crossings": [
+        {
+          "from": "Michael Burry",
+          "to": "Kris",
+          "relation": "contradicts",
+          "dimension": "premise",
+          "note": "Michael Burry contradicts Kris on premise."
+        },
+        {
+          "from": "Michael Burry",
+          "to": "Invest in Assets",
+          "relation": "contradicts",
+          "dimension": "premise",
+          "note": "Michael Burry contradicts Invest in Assets on premise."
+        }
+      ],
+      "notes": [
+        {
+          "label": "Not a disagreement",
+          "text": "Quanta 72: earnings and cash flow have validated the enthusiasm so far. A statement about the past and a projection of decline can both be true."
+        }
+      ],
+      "tests": [
+        {
+          "id": "p01-t01",
+          "part": 1,
+          "slug": "nvidias-demand-insatiable-or-manufactured",
+          "when": "When the bottleneck clears",
+          "whenLabel": "When the bottleneck clears",
+          "date": null,
+          "precision": "signal",
+          "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "When the bottleneck clears",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p01-t01",
+          "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p01-t02",
+          "part": 1,
+          "slug": "nvidias-demand-insatiable-or-manufactured",
+          "when": "As capacity ramps",
+          "whenLabel": "As capacity ramps",
+          "date": null,
+          "precision": "signal",
+          "event": "Order cancellations would erode year-long customer visibility; continued bookings would support the scarcity case.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "As capacity ramps",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p01-t02",
+          "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p01-t03",
+          "part": 1,
+          "slug": "nvidias-demand-insatiable-or-manufactured",
+          "when": "Next depreciation tests",
+          "whenLabel": "Next depreciation tests",
+          "date": null,
+          "precision": "signal",
+          "event": "Schedules that lag obsolescence flatter earnings; schedules that catch up would strengthen the bears.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Next depreciation tests",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p01-t03",
+          "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+          "resultUrl": null
+        }
+      ],
+      "results": [],
+      "sources": [
+        {
+          "label": "Invest In Assets - Broadcom AI financing and orders",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        {
+          "label": "Potential Multibaggers - Google rents Nvidia GPUs",
+          "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+        },
+        {
+          "label": "Fiscal.ai - Longriver Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683/"
+        },
+        {
+          "label": "Fiscal.ai - NZS Capital Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/nzs-capital-llc-q2-2026-fscl_document_7PFZ7CCX241/"
+        }
+      ]
+    }
+  ],
+  "nextTest": {
+    "id": "p01-t01",
+    "part": 1,
+    "slug": "nvidias-demand-insatiable-or-manufactured",
+    "when": "When the bottleneck clears",
+    "whenLabel": "When the bottleneck clears",
+    "date": null,
+    "precision": "signal",
+    "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+    "status": "pending",
+    "resultId": null,
+    "source": {
+      "kind": "label",
+      "ref": "When the bottleneck clears",
+      "url": null
+    },
+    "resolver": {
+      "kind": "manual",
+      "rule": "",
+      "question": "",
+      "source": null,
+      "ambiguity": "",
+      "specState": "pending"
+    },
+    "url": "https://deepstack.ltd/docket/#test-p01-t01",
+    "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
+    "resultUrl": null
+  },
+  "method": "How DeepStack settles a question"
+}

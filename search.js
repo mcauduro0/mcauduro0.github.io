@@ -14,7 +14,9 @@
 // its hits is strong, a title term or the whole phrase in the title or the excerpt (for a one-word
 // query the word itself). A prefix counts as a match only from four characters on, so "me" does
 // not reach Meta nor "app" Apple. When nothing clears the floor the page says so, in one sentence,
-// and lists up to three loosely related entries as nearest, never as results.
+// points at the nearest canonical question DeepStack settles when the query lands on one
+// (nearestQuestion, with a threshold of its own), and lists up to three loosely related entries as
+// nearest, never as results.
 
 const STOP = new Set(('a about after all also an and any are as at be because been before being between both but by can could did do does done ' +
   'during each for from had has have he her here his how if in into is it its just like more most no nor not now of on one only or other our over ' +
@@ -33,8 +35,9 @@ export function queryTerms(query) {
   return terms.length ? terms : tokenize(query, { keepStopwords: true });
 }
 
-export const TYPE_LABEL = { story: 'Story', sides: 'Who is on each side', company: 'Company', person: 'Person', note: 'Editorial note', test: 'Dated test' };
-const TYPE_RANK = { story: 0, sides: 1, note: 2, company: 3, person: 4, test: 5 };
+// "monthly" is a note under /notes/ (what agents asked, Onda 5); "note" stays the Editorial Notes.
+export const TYPE_LABEL = { story: 'Story', question: 'Question', sides: 'Who is on each side', company: 'Company', person: 'Person', note: 'Editorial note', test: 'Dated test', monthly: 'Monthly note' };
+const TYPE_RANK = { story: 0, question: 1, sides: 2, note: 3, company: 4, person: 5, test: 6, monthly: 7 };
 export const LIMIT = 20;
 
 // The index entry, with its three fields split into words once.
@@ -98,6 +101,52 @@ export const clearsFloor = ({ matched, strong }, termCount) => matched * 2 > ter
 // The sentence that stands for an absence, the same on the MCP endpoint.
 export const noFormedSide = (query) => `DeepStack has no formed side on ${String(query || '').replace(/\s+/g, ' ').trim()}. Nothing published argues it yet.`;
 export const NEAREST_LIMIT = 3;
+export const QUESTION_LABEL = 'The nearest question DeepStack settles:';
+
+// The Part an entry belongs to: the build writes `part` on story, sides and test entries (and
+// `parts` on question entries); a Docket anchor also carries it in its id. Null for a company, a
+// person or a note, which belong to no single Part.
+export function partOfEntry(entry) {
+  if (Number.isInteger(entry.part)) return entry.part;
+  const m = /#test-p(\d+)-t\d+$/.exec(String(entry.url || ''));
+  return m ? Number(m[1]) : null;
+}
+
+// Below the floor the absence answer points at the nearest canonical question when the query
+// lands on one (Onda 5, lane CQ; the same rule as the MCP Worker's search, mcp-worker/src/lib.js).
+// The pointer has a threshold of its own, since one shared word must not name a question, and a
+// title word is still one word: "credit card rewards" must not name the debt question because
+// "credit" sits in its title, any more than "price", "capital" or "inflation" name one. A question
+// entry is named on its own only when it carries every one of the query's distinct terms (two of
+// two, three of three, four of four; strength is waived, every term on the entry itself is the
+// landing); else the question of the Part the query lands on: a Part with a nearby story, sides
+// page or test (whatever its rank in `below`) that carries every term and missed the
+// floor on strength alone; when several Parts qualify, the one whose nearby entries score most
+// together, the later Part on a tie. A company, a person or a note belongs to no Part and lands
+// nowhere. The limit of a keyword pointer stands in docs/api.md, section 2.1: a majority counts
+// words, not meaning. `below` is the sorted list under the floor with each entry's assessment
+// ({ entry, score, matched, strong }), `termCount` the number of distinct query terms; null hides
+// the line.
+export function nearestQuestion(below, entries, termCount) {
+  const questions = entries.filter((e) => e.type === 'question');
+  if (!questions.length) return null;
+  const allTerms = (a) => a.matched === termCount;
+  const direct = below.find((s) => s.entry.type === 'question' && allTerms(s));
+  if (direct) return direct.entry;
+  const owner = (part) => questions.find((e) => Array.isArray(e.parts) && e.parts.includes(part));
+  const parts = new Map();
+  for (const item of below) {
+    const part = partOfEntry(item.entry);
+    if (part === null || !owner(part)) continue;
+    const p = parts.get(part) || { landed: false, score: 0 };
+    p.score += item.score;
+    if (allTerms(item)) p.landed = true;
+    parts.set(part, p);
+  }
+  let pick = null;
+  for (const [part, p] of parts) if (p.landed && (!pick || p.score > pick.score || (p.score === pick.score && part > pick.part))) pick = { part, score: p.score };
+  return pick ? owner(pick.part) : null;
+}
 
 export function search(entries, query, limit = LIMIT) {
   const terms = queryTerms(query);
@@ -108,12 +157,12 @@ export function search(entries, query, limit = LIMIT) {
   for (const e of entries) {
     const a = assessEntry(e, terms, phrase);
     if (a.score <= 0) continue;
-    (clearsFloor(a, terms.length) ? scored : below).push({ entry: e, score: a.score });
+    (clearsFloor(a, terms.length) ? scored : below).push({ entry: e, score: a.score, matched: a.matched, strong: a.strong });
   }
   const order = (a, b) => b.score - a.score || (TYPE_RANK[a.entry.type] ?? 9) - (TYPE_RANK[b.entry.type] ?? 9) || a.entry.title.localeCompare(b.entry.title);
   if (!scored.length) {
     below.sort(order);
-    return { terms, total: 0, results: [], answer: noFormedSide(query), nearest: below.slice(0, NEAREST_LIMIT).map((s) => s.entry) };
+    return { terms, total: 0, results: [], answer: noFormedSide(query), nearest: below.slice(0, NEAREST_LIMIT).map((s) => s.entry), question: nearestQuestion(below, entries, terms.length) };
   }
   scored.sort(order);
   return { terms, total: scored.length, results: scored.slice(0, limit).map((s) => s.entry) };
@@ -172,9 +221,12 @@ function init(doc, win) {
     li.append(a);
     return li;
   };
-  // Below the floor: the sentence, then the nearest items labeled as such (never as results).
+  // Below the floor: the sentence, the nearest canonical question when one exists, then the
+  // nearest items labeled as such (never as results).
   const nearestBox = empty.querySelector('[data-nearest]');
   const nearestList = empty.querySelector('[data-nearest-list]');
+  const questionBox = empty.querySelector('[data-question]');
+  const questionLink = empty.querySelector('[data-question-link]');
   const render = (query, out) => {
     list.replaceChildren();
     const q = query.trim();
@@ -183,6 +235,9 @@ function init(doc, win) {
       empty.hidden = false;
       empty.querySelector('[data-query]').textContent = q;
       const nearest = out.nearest || [];
+      const question = out.question || null;
+      if (questionLink && question) { questionLink.href = question.url; questionLink.textContent = question.title; }
+      if (questionBox) questionBox.hidden = !question;
       if (nearestList) nearestList.replaceChildren(...nearest.map(hit));
       if (nearestBox) nearestBox.hidden = !nearest.length;
       say(`DeepStack has no formed side on “${q}”.`);

@@ -1,0 +1,544 @@
+{
+  "generatedAt": "2026-10-09T08:05:28Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "slug": "how-fast-do-habits-break",
+  "question": "How fast do habits break?",
+  "title": null,
+  "headline": "How fast do habits break?",
+  "url": "https://deepstack.ltd/questions/how-fast-do-habits-break/",
+  "api": "https://deepstack.ltd/api/v1/questions/how-fast-do-habits-break.json",
+  "aliases": [],
+  "parts": [
+    {
+      "part": 9,
+      "headline": "Habit Was the Moat. Agents Are Draining It.",
+      "question": "How fast do habits break?",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json",
+      "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
+      "call": {
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "stance": "Sell habit, buy the rails",
+        "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Flag businesses that live on inertia: forgotten subscriptions, commodity brands, ad-funded marketplaces.",
+          "Favor owners of trust, regulation, systems of record, distribution and compute.",
+          "Judge agent launches on retained users, transactions and fees, never on downloads."
+        ],
+        "flips": [
+          "Meta reports agent downloads without retained users, transaction volume or fees.",
+          "The first tax season with agents shows households still paying Intuit for certainty."
+        ],
+        "version": 1,
+        "updatedOn": "2026-10-03",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-03",
+            "stance": "Sell habit, buy the rails",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+            "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p09-t01",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "Late October",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "fmp-earnings",
+            "ref": "Company earnings calendar, date via Financial Modeling Prep",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "META",
+            "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+            "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+            "source": {
+              "label": "Meta investor relations, third-quarter 2026 results",
+              "url": "https://investor.atmeta.com/"
+            },
+            "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t01",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/habit-was-the-moat/#verdict"
+      },
+      "sides": [
+        {
+          "id": "eighteen-months",
+          "label": "Eighteen months, or less",
+          "voices": [
+            {
+              "name": "Andrew Walker",
+              "entity": "https://deepstack.ltd/people/andrew-walker/",
+              "claim": "Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), the creator says both are too extreme but if forced to pick, they…",
+              "date": "2026-09-28",
+              "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+              "access": "public"
+            },
+            {
+              "name": "Andrew Walker",
+              "entity": "https://deepstack.ltd/people/andrew-walker/",
+              "claim": "AI agents make price-shopping and replacing skilled workers (e.g., using AI to edit a podcast instead of a consultant) easy, and if saving money is the core consumer use case for AI, this could have a deflationary impact on the consumer economy at…",
+              "date": "2026-09-21",
+              "url": "https://www.yetanothervalueblog.com/p/if-muse-is-buying-your-running-shoes",
+              "access": "public"
+            },
+            {
+              "name": "Tae Kim",
+              "entity": "https://deepstack.ltd/people/tae-kim/",
+              "claim": "As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.",
+              "date": "2026-09-07",
+              "url": null,
+              "access": "public"
+            },
+            {
+              "name": "Tae Kim",
+              "entity": "https://deepstack.ltd/people/tae-kim/",
+              "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
+              "date": "2026-09-22",
+              "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+              "access": "paid"
+            },
+            {
+              "name": "Ren",
+              "entity": "https://deepstack.ltd/people/ren/",
+              "claim": "Once an AI moves from surfacing a link to researching, deciding, executing and paying, it inserts itself between the customer and the business, potentially capturing an unusually valuable piece of the internet's discovery and transaction funnel.",
+              "date": "2026-09-25",
+              "url": "https://renstocks.substack.com/p/meta-muse-ai-is-done-answering-questions",
+              "access": "paid"
+            },
+            {
+              "name": "Ren",
+              "entity": "https://deepstack.ltd/people/ren/",
+              "claim": "The unit of interaction is shifting from the prompt to the objective: instead of a chatbot loop of question-and-answer, Muse takes a goal, plans, executes, and only interrupts the user at decisions it isn't allowed to make alone.",
+              "date": "2026-09-25",
+              "url": "https://renstocks.substack.com/p/meta-muse-ai-is-done-answering-questions",
+              "access": "paid"
+            }
+          ],
+          "against": {
+            "name": "Le Shrub",
+            "entity": null,
+            "claim": "The creator questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
+            "date": "2026-09-22",
+            "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+            "access": "public",
+            "answers": "Andrew Walker",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "still-a-demo",
+          "label": "Still a demo",
+          "voices": [
+            {
+              "name": "Moses Sternstein",
+              "entity": "https://deepstack.ltd/people/moses-sternstein/",
+              "claim": "The data suggests that, for now, the story is 'App-Slop': AI has produced many more apps, but they are not successful apps in any meaningful sense.",
+              "date": "2026-09-18",
+              "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so",
+              "access": "public"
+            },
+            {
+              "name": "Moses Sternstein",
+              "entity": "https://deepstack.ltd/people/moses-sternstein/",
+              "claim": "Paid consumer AI adoption remains quite low even though it is growing, per Consumer Edge data showing roughly 3% adoption as of Q1, with younger people adopting at about 4x the rate of older people.",
+              "date": "2026-09-18",
+              "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so",
+              "access": "public"
+            },
+            {
+              "name": "David George",
+              "entity": "https://deepstack.ltd/people/david-george/",
+              "claim": "The creators argue OpenAI will prevail not because of best models, chips, cost-performance curve or even best product — though they think OpenAI has those — but because it is so good at creating new kinds of customers and has the most durable…",
+              "date": "2026-09-28",
+              "url": "https://www.a16z.news/p/openai-understands-something-important",
+              "access": "public"
+            },
+            {
+              "name": "David George",
+              "entity": "https://deepstack.ltd/people/david-george/",
+              "claim": "As of September 2026, the creators say intelligence-as-a-service product rankings are no longer the most important question; intelligence is everywhere and nearly anyone can do nearly anything, yet most people aren't yet, so awakening new behavior…",
+              "date": "2026-09-28",
+              "url": "https://www.a16z.news/p/openai-understands-something-important",
+              "access": "public"
+            },
+            {
+              "name": "Michael Spencer",
+              "entity": "https://deepstack.ltd/people/michael-spencer/",
+              "claim": "The creator is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…",
+              "date": "2026-09-29",
+              "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+              "access": "public"
+            },
+            {
+              "name": "Michael Spencer",
+              "entity": "https://deepstack.ltd/people/michael-spencer/",
+              "claim": "Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…",
+              "date": "2026-09-08",
+              "url": "https://www.ai-supremacy.com/p/gpt-6-astra-hugging-face-incident-2026-review",
+              "access": "paid"
+            }
+          ],
+          "against": {
+            "name": "Le Shrub",
+            "entity": null,
+            "claim": "The creator says that, like an everyday 'normie', they want something simple and non-geeky for daily tasks rather than a highly advanced model that solves difficult math problems, implying simpler consumer AI tools like Muse may win out over more…",
+            "date": "2026-09-22",
+            "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+            "access": "public",
+            "answers": "Michael Spencer",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "crossing",
+          "label": "Voices that cross sides",
+          "voices": [
+            {
+              "name": "Andrew Walker",
+              "entity": "https://deepstack.ltd/people/andrew-walker/",
+              "claim": "The creator says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.",
+              "date": "2026-09-28",
+              "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+              "access": "public"
+            },
+            {
+              "name": "Andrew Walker",
+              "entity": "https://deepstack.ltd/people/andrew-walker/",
+              "claim": "The creator suggests that Muse acting as a layer that decides where consumer spend goes is a massive threat and opportunity for retailers, noting as evidence that Amazon banned Muse.",
+              "date": "2026-09-28",
+              "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72",
+              "access": "public"
+            },
+            {
+              "name": "Tae Kim",
+              "entity": "https://deepstack.ltd/people/tae-kim/",
+              "claim": "On the owner of the agent and on the rails beneath it.",
+              "date": null,
+              "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
+              "access": "public"
+            }
+          ],
+          "against": null
+        }
+      ],
+      "crossings": [
+        {
+          "from": "Moses Sternstein",
+          "to": "David George",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Moses Sternstein qualifies David George on mechanism."
+        },
+        {
+          "from": "Tae Kim",
+          "to": "David George",
+          "relation": "qualifies",
+          "dimension": "evidence",
+          "note": "Tae Kim qualifies David George on evidence."
+        },
+        {
+          "from": "David George",
+          "to": "Tae Kim",
+          "relation": "qualifies",
+          "dimension": "evidence",
+          "note": "David George qualifies Tae Kim on evidence."
+        },
+        {
+          "from": "Stephen Clapham",
+          "to": "Tae Kim",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Stephen Clapham contradicts Tae Kim on evidence."
+        },
+        {
+          "from": "Stephen Clapham",
+          "to": "Andrew Walker",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Stephen Clapham contradicts Andrew Walker on evidence."
+        },
+        {
+          "from": "Tae Kim",
+          "to": "Stephen Clapham",
+          "relation": "contradicts",
+          "dimension": "mechanism",
+          "note": "Tae Kim contradicts Stephen Clapham on mechanism."
+        },
+        {
+          "from": "Alex Immerman",
+          "to": "Ren",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Alex Immerman qualifies Ren on condition."
+        }
+      ],
+      "notes": [
+        {
+          "label": "The software split: same squeeze, three readings",
+          "text": "Dead money (Eisman): $256B of software buyouts in 2021, up to 64% debt. Moats AI cannot erode (Market Sentiment, Dominguez): data, distribution, system of record. From the seat to the outcome (Folloni, Yadav): paid per resolved ticket, not per seat."
+        }
+      ],
+      "tests": [
+        {
+          "id": "p09-t01",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "Late October",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "fmp-earnings",
+            "ref": "Company earnings calendar, date via Financial Modeling Prep",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "META",
+            "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+            "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+            "source": {
+              "label": "Meta investor relations, third-quarter 2026 results",
+              "url": "https://investor.atmeta.com/"
+            },
+            "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t01",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p09-t02",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "Early November",
+          "whenLabel": "Nov 3, 2026",
+          "date": "2026-11-03",
+          "precision": "day",
+          "event": "Booking reports room nights and direct mix; the result tests whether the agent or the incumbent owns the booking.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "fmp-earnings",
+            "ref": "Company earnings calendar, date via Financial Modeling Prep",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "BKNG",
+            "rule": "Read room nights and the direct mix from the release and the call; room nights above the year-earlier quarter and a direct share at or above the year-earlier share resolves confirmed, a decline in either resolves refuted.",
+            "question": "Did Booking Holdings report September-quarter room nights above the September quarter of 2025, with a direct-channel share of bookings no lower than the share it reported a year earlier?",
+            "source": {
+              "label": "Booking Holdings investor relations, third-quarter 2026 results",
+              "url": "https://ir.bookingholdings.com/"
+            },
+            "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t02",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p09-t03",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "Nov 16-17",
+          "whenLabel": "Nov 16, 2026",
+          "date": "2026-11-16",
+          "precision": "day",
+          "event": "Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[2].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "Yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; the test resolves confirmed on yes and refuted on no. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is the owner's reading from the same materials and goes in the Result, not in the verdict.",
+            "question": "Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?",
+            "source": {
+              "label": "Nike investor relations, investor day presentation and press release",
+              "url": "https://investors.nike.com/"
+            },
+            "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t03",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p09-t04",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "January-April",
+          "whenLabel": "Jan 1, 2027",
+          "date": "2027-01-01",
+          "precision": "window",
+          "event": "The first tax season with agents tests whether households still pay Intuit for certainty or ask an agent.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "January-April",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t04",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p09-t05",
+          "part": 9,
+          "slug": "habit-was-the-moat",
+          "when": "Amazon standoff",
+          "whenLabel": "Amazon standoff",
+          "date": null,
+          "precision": "signal",
+          "event": "Amazon allowing agent checkout would show the advertising pool beginning to move; continued resistance shows its value remains protected.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Amazon standoff",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p09-t05",
+          "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+          "resultUrl": null
+        }
+      ],
+      "results": [],
+      "sources": [
+        {
+          "label": "Reuters - Meta launches Muse",
+          "url": "https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/"
+        },
+        {
+          "label": "CNBC - Amazon blocks Muse",
+          "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html"
+        },
+        {
+          "label": "24/7 Wall St. - enterprise repricing",
+          "url": "https://247wallst.com/investing/2026/09/28/meta-and-servicenow-drop-4-as-enterprise-platform-launch-reprices-software-mongodb-tumbles-19/"
+        },
+        {
+          "label": "Apollo - technology cash-flow question",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+        },
+        {
+          "label": "a16z - AI shopping economics",
+          "url": "https://www.a16z.news/p/who-gets-paid-when-ai-does-the-shopping"
+        },
+        {
+          "label": "Yet Another Value Blog - Muse test",
+          "url": "https://www.yetanothervalueblog.com/p/before-you-fade-muse-use-it-for-72"
+        },
+        {
+          "label": "Capitalist Letters - Booking analysis",
+          "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive"
+        },
+        {
+          "label": "Market Sentiment - software moats",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+        },
+        {
+          "label": "Invest in Assets - Intuit moat",
+          "url": "https://www.investinassets.net/p/fintwits-best-stock-ideas"
+        },
+        {
+          "label": "Prof G Markets - Muse market value",
+          "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1"
+        },
+        {
+          "label": "The VC Corner - agentic payments",
+          "url": "https://www.thevccorner.com/p/ant-international-amp-agentic-commerce-agentsafepay"
+        },
+        {
+          "label": "Fiscal.ai - Ennismore software moat",
+          "url": "https://fiscal.ai/fund-letters/ennismore-fund-management-q3-2026-fscl_document_7GJK2WQN204"
+        }
+      ]
+    }
+  ],
+  "nextTest": {
+    "id": "p09-t01",
+    "part": 9,
+    "slug": "habit-was-the-moat",
+    "when": "Late October",
+    "whenLabel": "Oct 28, 2026",
+    "date": "2026-10-28",
+    "precision": "day",
+    "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+    "status": "pending",
+    "resultId": null,
+    "source": {
+      "kind": "fmp-earnings",
+      "ref": "Company earnings calendar, date via Financial Modeling Prep",
+      "url": null
+    },
+    "resolver": {
+      "kind": "earnings",
+      "symbol": "META",
+      "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+      "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+      "source": {
+        "label": "Meta investor relations, third-quarter 2026 results",
+        "url": "https://investor.atmeta.com/"
+      },
+      "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+      "specState": "approved"
+    },
+    "url": "https://deepstack.ltd/docket/#test-p09-t01",
+    "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
+    "resultUrl": null
+  },
+  "method": "How DeepStack settles a question"
+}

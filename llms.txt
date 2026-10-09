@@ -2,9 +2,11 @@
 
 > The money behind the machine. Where informed investors disagree, the evidence each side stands on, and the date that settles it. DeepStack is an independent publication on the AI economy: the capital, the chips, the power and the people betting on all three. Sharp analysis, sourced numbers, a clear verdict. Every story gives the strongest case on each side, takes one in The DeepStack Call, and names the dated test that will settle it. Analysis and opinion, not investment advice.
 
-DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T04:57:40Z.
+DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T08:05:28Z.
 
 Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id and the name the calling program gives itself, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next.
+
+A click on a Docket test is kept only as a count per test and day, never with who clicked.
 
 ## API
 
@@ -13,15 +15,18 @@ Questions typed into the search box or asked through the MCP tools are kept as t
 - [One story](https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json): the full text as plain paragraphs; one file per story slug under /api/v1/stories/
 - [The Docket](https://deepstack.ltd/api/v1/docket.json): every dated test with its precision, status and resolver
 - [Results](https://deepstack.ltd/api/v1/results.json): resolved tests and the ten-results rule
+- [Resolution packages](https://deepstack.ltd/data/download/#packages): one PDF per settled or specified test: the question, the rule, the official source, the ambiguity clause, the evidence, the verdict, the approver and the date; a demonstration, not a contract
 - [Corrections](https://deepstack.ltd/api/v1/corrections.json): every correction on every story, with the date of the change
 - [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (11 files; one per story slug under /api/v1/sides/)
 - [The sides grid](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai/grid.json): one row per voice and one column per question of a sides page, the side each holds with the dated claim and the verified link (11 files, one per story slug at /api/v1/sides/<slug>/grid.json; the same rows as CSV at /sides/<slug>/grid.csv)
+- [Questions](https://deepstack.ltd/api/v1/questions.json): the 11 questions DeepStack settles, with the Part, the Call and the next dated test; one file per question under /api/v1/questions/
 - [Companies](https://deepstack.ltd/api/v1/entities/companies.json): reported numbers, mentions, side rows and the delayed market snapshot, with its source
 - [People](https://deepstack.ltd/api/v1/entities/people.json): what each person argued, attributed and dated; no score or ranking
 - [The macro tape](https://deepstack.ltd/api/v1/tape.json): the live macro tape with the producer of each series
 - [The Weekly](https://deepstack.ltd/api/v1/weekly.json): the index of editions
+- [Notes](https://deepstack.ltd/api/v1/notes.json): the monthly notes on what agents and readers asked DeepStack; one file per note under /api/v1/notes/
 - [OpenAPI 3.1](https://deepstack.ltd/api/openapi.json): the schema of the files above
-- [MCP endpoint](https://mcp.deepstack.ltd/mcp): Model Context Protocol over Streamable HTTP; seven read tools that cite the canonical URLs; no key
+- [MCP endpoint](https://mcp.deepstack.ltd/mcp): Model Context Protocol over Streamable HTTP; eight read tools that cite the canonical URLs, one of them the strongest case against a stated thesis; no key
 - [MCP documentation](https://deepstack.ltd/mcp/): the endpoint, the transport, the tools, the client snippets for Claude and ChatGPT, the rate limit and what is kept
 
 ## Stories
@@ -38,9 +43,26 @@ Questions typed into the search box or asked through the MCP tools are kept as t
 - [Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/): The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.
 - [Part 11: The Backlog Is Not the Quarter](https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/): Ciena carries a $10 billion order book, Microsoft's far backlog grew three times as fast as its near one, and Nvidia now waits a year to be paid. The orders will ship. DeepStack expects the profit to arrive later, and the third-quarter reports to show the gap.
 
+## Questions
+
+How DeepStack settles a question: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated test that settles it; the result either way. Index: https://deepstack.ltd/questions/
+
+- [Is the marginal buyer of AI compute real?](https://deepstack.ltd/questions/is-the-marginal-buyer-of-ai-compute-real/): Part 01; the Call: Bull on demand. Bear on the financing.
+- [SpaceX after the IPO: exit liquidity, or the next ten-bagger?](https://deepstack.ltd/questions/spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger/): Part 02; the Call: Ahead of the evidence
+- [The debt behind the machines: 1999 capex, 2008 credit, or neither?](https://deepstack.ltd/questions/the-debt-behind-the-machines-1999-capex-2008-credit-or-neither/): Part 03; the Call: Bearish on the credit
+- [Is the capex spending defense, or is the return not there?](https://deepstack.ltd/questions/is-the-capex-spending-defense-or-is-the-return-not-there/): Part 04; the Call: Prove the return
+- [What does a frontier lab sell: a commodity, or a premium?](https://deepstack.ltd/questions/what-does-a-frontier-lab-sell-a-commodity-or-a-premium/): Part 05; the Call: Split the trade
+- [Is power scarcity a warning, or a moat?](https://deepstack.ltd/questions/is-power-scarcity-a-warning-or-a-moat/): Part 06; the Call: Long access, not hardware
+- [Why did the long end climb after the hike: growth, debt, or a missing buyer?](https://deepstack.ltd/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer/): Part 07; the Call: Supply sets the long end
+- [Who writes the checks for the buildout?](https://deepstack.ltd/questions/who-writes-the-checks-for-the-buildout/): Part 08; the Call: Lenders are mispricing scarcity
+- [How fast do habits break?](https://deepstack.ltd/questions/how-fast-do-habits-break/): Part 09; the Call: Sell habit, buy the rails
+- [Does the hardware hold its value?](https://deepstack.ltd/questions/does-the-hardware-hold-its-value/): Part 10; the Call: Cheap is conditional
+- [Do the orders turn into profit?](https://deepstack.ltd/questions/do-the-orders-turn-into-profit/): Part 11; the Call: Revenue yes, margin not yet
+
 ## Pages
 
 - [The Buildout](https://deepstack.ltd/stories/): the series archive
+- [Questions](https://deepstack.ltd/questions/): every question, one page each, with the Call and the next dated test
 - [The Docket](https://deepstack.ltd/docket/): every test on the clock, with status chips
 - [Results](https://deepstack.ltd/results/): the scorecard, with the rule that no accuracy rate is shown until ten results exist
 - [Corrections](https://deepstack.ltd/corrections/): what DeepStack got wrong and when it was fixed; a correction is dated at the top of its story

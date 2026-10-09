@@ -1,0 +1,559 @@
+{
+  "generatedAt": "2026-10-09T08:05:28Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
+  "question": "Is the capex spending defense, or is the return not there?",
+  "title": null,
+  "headline": "Is the capex spending defense, or is the return not there?",
+  "url": "https://deepstack.ltd/questions/is-the-capex-spending-defense-or-is-the-return-not-there/",
+  "api": "https://deepstack.ltd/api/v1/questions/is-the-capex-spending-defense-or-is-the-return-not-there.json",
+  "aliases": [],
+  "parts": [
+    {
+      "part": 4,
+      "headline": "AI Spending Has Met Its First Real Bill",
+      "question": "Is the capex spending defense, or is the return not there?",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
+      "call": {
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "stance": "Prove the return",
+        "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+        "conviction": 4,
+        "convictionLabel": "High",
+        "actions": [
+          "Screen hyperscalers on free cash flow after capex; Alphabet’s −$6 billion quarter is the new benchmark.",
+          "Reward budgets that arrive with return data, not budgets that only grow.",
+          "Watch the labs’ growth rates: deceleration, not decline, is the trigger."
+        ],
+        "flips": [
+          "Alphabet’s larger 2027 budget lifts the stock instead of sinking it.",
+          "Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue."
+        ],
+        "version": 1,
+        "updatedOn": "2026-09-04",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-09-04",
+            "stance": "Prove the return",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+            "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p04-t01",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "2027 budget",
+          "whenLabel": "Jan 1, 2027",
+          "date": "2027-01-01",
+          "precision": "window",
+          "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "2027 budget",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "GOOGL",
+            "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+            "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+            "source": {
+              "label": "Alphabet investor relations, quarterly earnings release and call",
+              "url": "https://abc.xyz/investor/"
+            },
+            "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#verdict"
+      },
+      "sides": [
+        {
+          "id": "return-not-there",
+          "label": "The return is not there",
+          "voices": [
+            {
+              "name": "Warden Capital",
+              "entity": "https://deepstack.ltd/people/warden-capital/",
+              "claim": "The creator argues the AI investment cycle cannot earn a reasonable return absent AGI within a few years: at roughly $700 billion per year of investment, model providers would need about $1 trillion in annual end AI revenue by 2029, ramping toward…",
+              "date": "2026-07-22",
+              "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873",
+              "access": "public"
+            },
+            {
+              "name": "Warden Capital",
+              "entity": "https://deepstack.ltd/people/warden-capital/",
+              "claim": "The creator says they are relatively confident the AI boom ends in a bust but do not know when, are not certain it causes a US recession, and cannot judge how deep one would be; they add that the debt-heavy neocloud and datacenter financing raises…",
+              "date": "2026-07-22",
+              "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873",
+              "access": "public"
+            },
+            {
+              "name": "Kevin Gee",
+              "entity": "https://deepstack.ltd/people/kevin-gee/",
+              "claim": "He argues the consensus revenue path is stretched, since the ~$863 billion of incremental annual AI revenue by 2030 would require roughly $100 per month of extra AI spending from every person in the US and EU including children, and equals 19.1x…",
+              "date": "2026-08-04",
+              "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+              "access": "public"
+            },
+            {
+              "name": "Kevin Gee",
+              "entity": "https://deepstack.ltd/people/kevin-gee/",
+              "claim": "He argues the hyperscalers' AI capital spending may destroy shareholder value: consensus 2026E-'30E capex of about $3.5 trillion against ~$863 billion of incremental revenue at a 40% incremental margin and 20% tax rate implies roughly an 8%…",
+              "date": "2026-08-04",
+              "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+              "access": "public"
+            },
+            {
+              "name": "First Pacific Advisors",
+              "entity": "https://deepstack.ltd/people/first-pacific-advisors/",
+              "claim": "Global AI spending is projected to reach 2.59 trillion dollars in 2026, and to achieve even a relatively low unlevered return on investment would require 207 billion dollars in after-tax income per year starting immediately, which the portfolio…",
+              "date": "2026-07-30",
+              "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810",
+              "access": "public"
+            },
+            {
+              "name": "First Pacific Advisors",
+              "entity": "https://deepstack.ltd/people/first-pacific-advisors/",
+              "claim": "AI-related stocks have accounted for 50% to more than 75% of the S&P 500's total gains since late 2022, and AI companies now constitute approximately 50% of the S&P 500, exceeding even the Information Technology sector's 35% weight at the S&P 500's…",
+              "date": "2026-07-30",
+              "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810",
+              "access": "public"
+            }
+          ],
+          "against": {
+            "name": "Orbis Investments",
+            "entity": "https://deepstack.ltd/people/orbis-investments/",
+            "claim": "Nebius, an AI-focused cloud infrastructure business with multibillion-dollar infrastructure deals with Microsoft and Meta and a $2 billion Nvidia investment, has a credible base-case pathway to over 4GW of data centre capacity by 2031 that could…",
+            "date": "2026-08-11",
+            "url": "https://fiscal.ai/fund-letters/orbis-investments-q2-2026-fscl_document_3VPA9VYD914",
+            "access": "public",
+            "answers": "Kevin Gee",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "spending-is-defense",
+          "label": "The spending is defense",
+          "voices": [
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "The Mag7 capex boom should be read the same way: the risk of not investing heavily is much higher than the risk of overinvesting, which is why Alphabet announced more investment and others will follow, since their existence is at stake.",
+              "date": "2026-07-26",
+              "url": "https://www.potentialmultibaggers.com/p/the-worst-july-in-22-years",
+              "access": "licensed"
+            },
+            {
+              "name": "Moses Sternstein",
+              "entity": "https://deepstack.ltd/people/moses-sternstein/",
+              "claim": "Hyperscalers have poured free cashflow and debt into computational infrastructure to meet AI's demands, creating a generational run in semiconductors where demand has outpaced supply.",
+              "date": "2026-07-24",
+              "url": "https://www.a16z.news/p/charts-of-the-week-are-semis-cheap",
+              "access": "public"
+            },
+            {
+              "name": "Moses Sternstein",
+              "entity": "https://deepstack.ltd/people/moses-sternstein/",
+              "claim": "AI usage is highly concentrated among power users and top-decile enterprises, which have increased token output by more than 17 times since April 2025, creating an approximately 8-fold gap between typical and top-decile enterprises, and a gap…",
+              "date": "2026-08-21",
+              "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic",
+              "access": "public"
+            },
+            {
+              "name": "Quanta 72",
+              "entity": "https://deepstack.ltd/people/quanta-72/",
+              "claim": "Unlike dot-com era suppliers, today’s hyperscalers fund AI investment from profitable core businesses such as advertising, cloud, software, subscriptions, and e-commerce, so the question is not whether they can afford the spending.",
+              "date": "2026-07-22",
+              "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what",
+              "access": "public"
+            },
+            {
+              "name": "Quanta 72",
+              "entity": "https://deepstack.ltd/people/quanta-72/",
+              "claim": "The most important signal for AI-era investors is the relationship between capital spending, free cash flow, and the growth those investments eventually produce, because in the dot-com boom stock prices turned before earnings and cash flow collapsed.",
+              "date": "2026-07-22",
+              "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what",
+              "access": "public"
+            }
+          ],
+          "against": {
+            "name": "Kingswell",
+            "entity": null,
+            "claim": "The creator flags with unease that Alphabet's Q2 capex hit a record $44.9 billion and full-year guidance was raised to $195-205 billion from $180-190 billion, with executives expecting a higher number next year.",
+            "date": "2026-07-24",
+            "url": "https://www.kingswell.io/p/the-berkshire-beat-july-24-2026",
+            "access": "public",
+            "answers": "Kris",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "crossing",
+          "label": "Voices that cross sides",
+          "voices": [
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "If AI becomes cheaper and commoditized, spending hundreds of billions of dollars becomes much harder to justify economically.",
+              "date": "2026-07-24",
+              "url": "https://realeismanplaybook.substack.com/p/googles-negative-cash-flow-and-the",
+              "access": "public"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "The bullish case compares current AI infrastructure buildout to building the Las Vegas Strip in the 1950s, arguing that enormous upfront investment creates an eventually valuable economic ecosystem.",
+              "date": "2026-07-27",
+              "url": "https://realeismanplaybook.substack.com/p/the-ai-revolution-who-wins-who-loses",
+              "access": "public"
+            },
+            {
+              "name": "Hayden Capital",
+              "entity": "https://deepstack.ltd/people/hayden-capital/",
+              "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+              "date": "2026-08-27",
+              "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+              "access": "public"
+            },
+            {
+              "name": "Hayden Capital",
+              "entity": "https://deepstack.ltd/people/hayden-capital/",
+              "claim": "AI chip prices are currently inflated by speculative demand from companies ordering more chips than they need to secure allocation, and reselling them at premiums—a dynamic similar to Rolex watch secondary market pricing.",
+              "date": "2026-08-27",
+              "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+              "access": "public"
+            },
+            {
+              "name": "JunkBondInvestor",
+              "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+              "claim": "The widening in AI-related credit is largely a supply-and-duration absorption story rather than fundamental deterioration, and saying so is true but the least informative thing one can say about it.",
+              "date": "2026-07-26",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated",
+              "access": "public"
+            },
+            {
+              "name": "JunkBondInvestor",
+              "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+              "claim": "AI-related issuance across investment grade, high yield and loans stands at $489bn year to date against $322bn for all of 2025, is 23% of USD IG gross supply this year, and for the first time the six largest tech names carry more risk in the US…",
+              "date": "2026-07-26",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated",
+              "access": "public"
+            }
+          ],
+          "against": null
+        }
+      ],
+      "crossings": [
+        {
+          "from": "Quanta 72",
+          "to": "Steve Eisman",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Quanta 72 qualifies Steve Eisman on condition."
+        },
+        {
+          "from": "Warden Capital",
+          "to": "Steve Eisman",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Warden Capital contradicts Steve Eisman on evidence."
+        },
+        {
+          "from": "Steve Eisman",
+          "to": "Quanta 72",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Steve Eisman qualifies Quanta 72 on condition."
+        },
+        {
+          "from": "JunkBondInvestor",
+          "to": "Moses Sternstein",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "JunkBondInvestor qualifies Moses Sternstein on mechanism."
+        },
+        {
+          "from": "Warden Capital",
+          "to": "JunkBondInvestor",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Warden Capital qualifies JunkBondInvestor on mechanism."
+        }
+      ],
+      "notes": [
+        {
+          "label": "Bridge to Parts 1 to 3",
+          "text": "Across earlier Parts: Eisman's return question and Warden's arithmetic both support Burry's circularity thesis from Part 1, and Kevin Gee's return math supports Oguz Erkan's free-cash-flow tripwire from Part 3."
+        }
+      ],
+      "tests": [
+        {
+          "id": "p04-t01",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "2027 budget",
+          "whenLabel": "Jan 1, 2027",
+          "date": "2027-01-01",
+          "precision": "window",
+          "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "2027 budget",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "GOOGL",
+            "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+            "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+            "source": {
+              "label": "Alphabet investor relations, quarterly earnings release and call",
+              "url": "https://abc.xyz/investor/"
+            },
+            "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p04-t02",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "Next lab financing",
+          "whenLabel": "Next lab financing",
+          "date": null,
+          "precision": "signal",
+          "event": "OpenAI and Anthropic revenue and funding terms emerge; deceleration, not decline, is the trigger for a reflexive break.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Next lab financing",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t02",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p04-t03",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "Through 2027",
+          "whenLabel": "Jan 1, 2027",
+          "date": "2027-01-01",
+          "precision": "window",
+          "event": "Hyperscaler free cash flow shows whether operating cash flow catches capex growth; a catch-up makes external funding temporary.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Through 2027",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t03",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p04-t04",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "After Labor Day",
+          "whenLabel": "Sep 8, 2026",
+          "date": "2026-09-08",
+          "precision": "window",
+          "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
+          "status": "inconclusive",
+          "resultId": "p04-t04",
+          "source": {
+            "kind": "label",
+            "ref": "After Labor Day",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+            "question": "Did the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 price by October 2 with narrower new-issue concessions than August's deals?",
+            "source": {
+              "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+              "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+            },
+            "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t04",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": "https://deepstack.ltd/results/#result-p04-t04"
+        },
+        {
+          "id": "p04-t05",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "when": "Token and productivity data",
+          "whenLabel": "Token and productivity data",
+          "date": null,
+          "precision": "signal",
+          "event": "Prices, volumes and productivity move together; sustained volume growth over price and a visible productivity surge support the bulls.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Token and productivity data",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p04-t05",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+          "resultUrl": null
+        }
+      ],
+      "results": [
+        {
+          "id": "p04-t04",
+          "testId": "p04-t04",
+          "part": 4,
+          "slug": "the-market-stops-paying-for-faith",
+          "story": "AI Spending Has Met Its First Real Bill",
+          "resolvedOn": "2026-10-08",
+          "verdict": "inconclusive",
+          "headline": "Inconclusive: no public figure covers the September concessions",
+          "body": [
+            "The test asked whether the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 priced by October 2 with narrower new-issue concessions than August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+            "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+          ],
+          "evidence": [
+            {
+              "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+              "value": "No public figure; dealer estimates are not published as a series",
+              "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+              "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+              "asOf": "2026-10-09"
+            }
+          ],
+          "callUpdate": {
+            "stance": null,
+            "conviction": null,
+            "note": "Conviction unchanged; the Call stands as written."
+          },
+          "approvedAt": "2026-10-09T03:49:27Z",
+          "url": "https://deepstack.ltd/results/#result-p04-t04",
+          "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04",
+          "resolutionPackage": null
+        }
+      ],
+      "sources": [
+        {
+          "label": "Potential Multibaggers - July 26 spending case",
+          "url": "https://www.potentialmultibaggers.com/p/the-worst-july-in-22-years"
+        },
+        {
+          "label": "a16z - July 31 equipment backlog",
+          "url": "https://www.a16z.news/p/charts-of-the-week-moar-machines"
+        },
+        {
+          "label": "a16z - August 21 usage data",
+          "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic"
+        },
+        {
+          "label": "Warden Capital - second-quarter letter",
+          "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873"
+        },
+        {
+          "label": "First Pacific Advisors - Crescent Fund letter",
+          "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+        },
+        {
+          "label": "Prof G Markets - August 4 capex tally",
+          "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+        },
+        {
+          "label": "Voss Capital - second-quarter letter",
+          "url": "https://fiscal.ai/fund-letters/voss-capital-q2-2026-fscl_document_8GNS7JMV779"
+        },
+        {
+          "label": "JunkBondInvestor - July 26 credit weekly",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated"
+        }
+      ]
+    }
+  ],
+  "nextTest": {
+    "id": "p04-t01",
+    "part": 4,
+    "slug": "the-market-stops-paying-for-faith",
+    "when": "2027 budget",
+    "whenLabel": "Jan 1, 2027",
+    "date": "2027-01-01",
+    "precision": "window",
+    "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+    "status": "pending",
+    "resultId": null,
+    "source": {
+      "kind": "label",
+      "ref": "2027 budget",
+      "url": null
+    },
+    "resolver": {
+      "kind": "earnings",
+      "symbol": "GOOGL",
+      "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+      "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+      "source": {
+        "label": "Alphabet investor relations, quarterly earnings release and call",
+        "url": "https://abc.xyz/investor/"
+      },
+      "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+      "specState": "approved"
+    },
+    "url": "https://deepstack.ltd/docket/#test-p04-t01",
+    "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
+    "resultUrl": null
+  },
+  "method": "How DeepStack settles a question"
+}

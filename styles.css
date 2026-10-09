@@ -1329,6 +1329,9 @@ path.lc-fc { stroke: var(--amber-ink); }
 .search-nearest-label { margin-bottom: 6px; font: 700 11.5px/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 .search-nearest-list a { padding: 14px 0; }
 .search-nearest-list .search-title { font-size: clamp(18px, 1.8vw, 21px); }
+/* Below the floor (Onda 5, lane CQ): the nearest canonical question, one line under the sentence, before the nearest items. */
+.search-question { margin-block: 4px 16px; font: 400 17px/1.5 var(--sans); color: var(--ink); }
+.search-question a { font-weight: 700; color: var(--amber-ink); }
 .download-item { padding-block: clamp(22px, 3vw, 36px); border-top: 1px solid var(--rule); }
 .download-item:last-child { border-bottom: 1px solid var(--rule); }
 .download-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }
@@ -1435,3 +1438,80 @@ path.lc-fc { stroke: var(--amber-ink); }
 .footer-legal a { color: var(--ink-2); text-decoration: none; }
 .footer-legal a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 4px; }
 @media (max-width: 760px) { .fixed-body p, .fixed-section p, .fixed-section li { font-size: 17px; } .page-table tbody th { white-space: normal; } }
+
+/* The reader's position (Onda 5, lane RP): the static totals line and the "I expect: Yes / No" control under a Docket row and under "What to watch"; additive, existing tokens only. */
+.position-totals { margin: 10px 0 0; font: 500 13px/1.5 var(--sans); color: var(--ink-2); }
+.position-totals .position-share { font-weight: 700; color: var(--ink); }
+.position-totals .position-asof { color: var(--muted); }
+.result .position-totals { margin: 8px 0 0; }
+.position { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0 0; }
+.position-label { font: 600 12px/1.3 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.position-btn { min-height: 34px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--paper); color: var(--ink); font: 650 13px/1 var(--sans); cursor: pointer; transition: background-color .18s ease, border-color .18s ease; }
+.position-btn:hover { border-color: var(--ink); }
+.position-btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+.position-btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.position-btn:disabled { cursor: default; }
+.position-btn:disabled:not([aria-pressed="true"]) { opacity: 0.5; }
+.position-status { flex-basis: 100%; font: 500 13px/1.5 var(--sans); color: var(--ink-2); }
+.position-status:empty { display: none; }
+
+/* Notes, "What agents asked" (Onda 5, lane MN, 9 October 2026): the story layout's simpler cousin, existing tokens only; the figures as a small table, the sources as a list, the index on the Docket list and date tile. */
+.note-meta { margin-top: 14px; }
+.note-article { max-width: 72ch; padding-block: clamp(20px, 3vw, 36px); }
+.note-body p { margin: 0 0 1.1em; font: 400 18px/1.6 var(--serif); color: var(--ink); }
+.note-body p.lede { font-size: 20px; }
+.note-figures-block, .note-sources-block { margin-top: clamp(24px, 3vw, 36px); }
+.note-figures { width: 100%; max-width: 48ch; margin-top: 12px; border-collapse: collapse; font: 400 15px/1.45 var(--sans); color: var(--ink-2); }
+.note-figures caption { caption-side: bottom; padding-top: 8px; text-align: left; font: 400 12.5px/1.4 var(--sans); color: var(--muted); }
+.note-figures th, .note-figures td { padding: 8px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.note-figures thead th { font: 600 12px/1.3 var(--sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.note-figures tbody th { font-weight: 500; color: var(--ink); }
+.note-figures td { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; color: var(--ink); }
+.note-figures thead th:last-child { text-align: right; }
+.note-sources { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.note-sources li { font: 400 15px/1.5 var(--sans); color: var(--ink-2); }
+.note-sources a { color: var(--amber-ink); text-decoration: none; }
+.note-sources a:hover { text-decoration: underline; }
+.note-fine { margin-top: clamp(20px, 3vw, 28px); max-width: 70ch; }
+.note-fine a, .page-note .docket-fine a, .page-notes .docket-fine a { color: var(--amber-ink); }
+.note-others { margin-top: clamp(20px, 3vw, 28px); }
+.note-others ul { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.note-others li { font: 400 15px/1.5 var(--sans); color: var(--ink-2); }
+.note-others a { color: var(--ink); }
+.note-others time { margin-left: 8px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.notes-list { margin-top: 8px; }
+.notes-list .notes-list-title { margin: 0 0 6px; font: 700 clamp(19px, 2vw, 23px)/1.25 var(--serif); letter-spacing: -0.01em; }
+.notes-list .notes-list-title a { color: var(--ink); text-decoration: none; }
+.notes-list .notes-list-title a:hover { text-decoration: underline; }
+.notes-list li > div > p { max-width: 70ch; font: 400 15.5px/1.5 var(--sans); color: var(--ink-2); }
+@media (max-width: 560px) { .note-figures td { white-space: normal; } }
+
+/* Canonical question pages (Onda 5, lane CQ): /questions/ and /questions/<slug>/ reuse the sides columns, the Call card, the Docket list and the result cards; what is new here is the index list and the Call history inside the navy card. Additive, Manus tokens only. */
+.question-head .question-published { margin-top: 10px; max-width: 32em; font: italic 400 clamp(18px, 1.9vw, 23px)/1.4 var(--serif); color: var(--ink-2); }
+.question-part-head { padding-top: clamp(28px, 4vw, 48px); border-top: 1px solid var(--rule); }
+.question-part-head h2 a { color: var(--ink); text-decoration: none; }
+.question-part-head h2 a:hover { text-decoration: underline; text-decoration-color: var(--amber); text-decoration-thickness: 3px; }
+.sides-call .call-history { margin-top: 18px; }
+.question-tests .docket-list .docket-id { font: 500 11.5px/1.4 var(--mono); color: var(--muted); }
+.question-results { padding-block: clamp(20px, 3vw, 36px); }
+.question-results .result { margin-top: 20px; }
+.question-sources { padding-block: 8px clamp(20px, 3vw, 36px); }
+.question-sources .sources { margin-top: 0; }
+.page-questions .archive-bar { margin-top: 24px; }
+.questions-list { list-style: none; margin: 0; padding: 0; }
+.question-item { display: grid; gap: 10px; padding-block: clamp(22px, 3vw, 36px); border-top: 1px solid var(--rule); }
+.questions-list li:last-child .question-item { border-bottom: 1px solid var(--rule); }
+.question-item .kicker { margin-bottom: 0; }
+.question-item h2 { max-width: 30em; font: 700 clamp(24px, 2.6vw, 34px)/1.12 var(--serif); letter-spacing: -0.025em; }
+.question-item h2 a { color: var(--ink); text-decoration: none; }
+.question-item h2 a:hover, .question-item h2 a:focus-visible { text-decoration: underline; text-decoration-color: var(--amber); text-decoration-thickness: 3px; text-underline-offset: 4px; }
+.question-call { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 2px; font: 600 14px/1.4 var(--sans); color: var(--ink-2); }
+.question-call-label { font: 700 11px/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber-ink); }
+.question-call .call-tone { padding: 5px 10px; border-radius: 999px; font: 800 10.5px/1 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; background: var(--tone, var(--amber)); color: var(--ink); }
+.question-call-conv { color: var(--muted); }
+.question-next { display: grid; grid-template-columns: 76px 1fr; gap: 16px; align-items: start; margin-top: 4px; }
+.question-next p { font: 400 16px/1.5 var(--sans); color: var(--ink-2); max-width: 70ch; }
+.question-next p strong { display: block; margin-bottom: 2px; font: 700 11.5px/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.question-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 6px; }
+.search-hit.search-question .search-type { color: var(--amber-ink); }
+@media (max-width: 560px) { .question-next { grid-template-columns: 64px 1fr; gap: 12px; } }

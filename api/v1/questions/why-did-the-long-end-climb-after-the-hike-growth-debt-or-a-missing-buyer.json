@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-10-09T08:05:28Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
+  "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+  "title": null,
+  "headline": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+  "url": "https://deepstack.ltd/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer/",
+  "api": "https://deepstack.ltd/api/v1/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer.json",
+  "aliases": [],
+  "parts": [
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-fed-hiked-the-long-end-kept-climbing.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/",
+      "call": {
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "stance": "Supply sets the long end",
+        "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+        "conviction": 4,
+        "convictionLabel": "High",
+        "actions": [
+          "Use a 10-year above 5% as the base case for valuing long-duration AI assets.",
+          "Track foreign demand, Japan first: buyers returning without a better hedge would break the supply story.",
+          "Circle the 2028 refinancing wave; that is when today’s rates reach AI’s borrowers."
+        ],
+        "flips": [
+          "Long yields fall while nominal growth, inflation and AI capital spending stay firm.",
+          "Japanese and other foreign buyers return in size without a better hedge."
+        ],
+        "version": 1,
+        "updatedOn": "2026-09-27",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-09-27",
+            "stance": "Supply sets the long end",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+            "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p07-t01",
+          "part": 7,
+          "slug": "the-fed-hiked-the-long-end-kept-climbing",
+          "when": "Oct 28",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "series",
+            "series": "DFEDTARU",
+            "provider": "FRED",
+            "rule": "value after date > value before date => hike",
+            "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+            "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+            "source": {
+              "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+              "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+            },
+            "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p07-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#verdict"
+      },
+      "sides": [
+        {
+          "id": "growth",
+          "label": "Growth: yields are catching up",
+          "voices": [
+            {
+              "name": "Michael Howell",
+              "entity": "https://deepstack.ltd/people/michael-howell/",
+              "claim": "The current bond market cycle is behaving like a normal cycle, and a major buying opportunity for fixed income is approaching as yields near a peak.",
+              "date": "2026-09-18",
+              "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
+              "access": "paid"
+            },
+            {
+              "name": "Michael Howell",
+              "entity": "https://deepstack.ltd/people/michael-howell/",
+              "claim": "The risk-return balance for bonds is improving: a further 50bp yield rise would still give bonds a positive annual return, while a subsequent 100bp yield fall would generate a more than 12% annual return.",
+              "date": "2026-09-18",
+              "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
+              "access": "paid"
+            },
+            {
+              "name": "Matthew C. Klein",
+              "entity": "https://deepstack.ltd/people/matthew-c-klein/",
+              "claim": "Contrary to what many officials expected, inflation stopped decelerating in 2023, which is especially visible in underlying measures that exclude volatile and idiosyncratic components.",
+              "date": "2026-09-14",
+              "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is",
+              "access": "paid"
+            },
+            {
+              "name": "Matthew C. Klein",
+              "entity": "https://deepstack.ltd/people/matthew-c-klein/",
+              "claim": "The 'supercore' version of the PCE price index was rising about 1 percentage point faster than in the years immediately preceding the pandemic even before the surprises of 2025-2026, and is now rising about 2 percentage points faster.",
+              "date": "2026-09-14",
+              "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is",
+              "access": "paid"
+            },
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "Interest rate hikes are not currently a problem for the economy or investing, because if the economy and company profits grow faster than the interest rate, value is created, and the estimated Q3 GDP growth of 5.1% plus inflation gives nominal…",
+              "date": "2026-09-21",
+              "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era",
+              "access": "paid"
+            },
+            {
+              "name": "Kris",
+              "entity": "https://deepstack.ltd/people/kris/",
+              "claim": "The main reason for higher inflation is probably the more expensive oil, and a higher interest rate will not cure that; the Fed just wants to ensure inflation doesn't get out of hand.",
+              "date": "2026-09-21",
+              "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era",
+              "access": "paid"
+            }
+          ],
+          "against": {
+            "name": "DeepValue Capital",
+            "entity": "https://deepstack.ltd/people/deepvalue-capital/",
+            "claim": "The creator reads the September BofA Fund Manager Survey as showing investors overcrowded and bullish on semiconductors and tech while selling bonds, staples, REITs and telecoms, and attributes the selling to rising yields hurting predictable…",
+            "date": "2026-09-18",
+            "url": "https://deepvaluecapitalbykyler.substack.com/p/the-fed-hiked-rates-into-falling",
+            "access": "paid",
+            "answers": "Michael Howell",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "debt",
+          "label": "Debt: 99% of GDP, up from 35%",
+          "voices": [
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The Federal Reserve faces a trap: if it hikes rates it loses control of the long end because it feeds an annual interest bill approaching $1 trillion, but if it cuts despite 3.4% inflation it also loses the long end, creating a frustrating setup…",
+              "date": "2026-08-29",
+              "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
+              "access": "paid"
+            },
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The creator argues governments and central banks do not want long yields higher and will go a long way to stop it, which means that if they succeed real yields fall and today's 2.65% over inflation won't be on offer for long, and if the way they…",
+              "date": "2026-09-21",
+              "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+              "access": "paid"
+            },
+            {
+              "name": "Vitaliy Katsenelson",
+              "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+              "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; the creator says they…",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+              "access": "public"
+            },
+            {
+              "name": "Vitaliy Katsenelson",
+              "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+              "claim": "In mid-August 2026 the 30-year Treasury yield reached its highest level in 19 years, above 5.3% (last seen in 2007), and the 10-year yield hit 4.75%; these are important because 30-year mortgage rates are set from them and about two-thirds of US…",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
+              "access": "public"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "Treasury Secretary Bessent's $4 billion to $6 billion effort to buy long Treasuries and push rates down failed, as rates went up anyway, and his speaking at a partisan political convention undermined his credibility with the bond market.",
+              "date": "2026-09-11",
+              "url": null,
+              "access": "paid"
+            },
+            {
+              "name": "Steve Eisman",
+              "entity": "https://deepstack.ltd/people/steve-eisman/",
+              "claim": "Ten-year Treasury yields have broken through 4.8% and then 4.9%, the highest level since November 2023, driven by the Iran war pushing oil prices above $100.",
+              "date": "2026-09-11",
+              "url": null,
+              "access": "paid"
+            },
+            {
+              "name": "George Noble",
+              "entity": null,
+              "claim": "No secretary talks down $40T of debt.",
+              "date": null,
+              "url": null,
+              "access": "public"
+            },
+            {
+              "name": "Stephen Clapham",
+              "entity": "https://deepstack.ltd/people/stephen-clapham/",
+              "claim": "The creator states they would maintain a near-zero weight in US Treasuries, other than those trading at a near-50% discount to nominal value which they see as an asymmetric bet, a position they say they have covered in recent weeks.",
+              "date": "2026-09-20",
+              "url": "https://behindthebalancesheet.substack.com/p/what-investors-are-missing-about",
+              "access": "paid"
+            },
+            {
+              "name": "Stephen Clapham",
+              "entity": "https://deepstack.ltd/people/stephen-clapham/",
+              "claim": "A rise in short rates would be a problem given the government funds around 85% of its financing needs (the flow) with short-term bills, though on a stock basis bonds of over 5 years duration are only about 30% of the total, still a fairly…",
+              "date": "2026-09-06",
+              "url": null,
+              "access": "public"
+            }
+          ],
+          "against": {
+            "name": "Michael Howell",
+            "entity": "https://deepstack.ltd/people/michael-howell/",
+            "claim": "The creator estimates the net-supply component of term premia at minus 27 basis points, with inflation uncertainty and volatility premia also historically subdued, so term premia are low across virtually every measure, implying a significant…",
+            "date": "2026-09-18",
+            "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
+            "access": "paid",
+            "answers": "Vitaliy Katsenelson",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "missing-buyer",
+          "label": "A missing buyer",
+          "voices": [
+            {
+              "name": "Michael W. Green",
+              "entity": "https://deepstack.ltd/people/michael-w-green/",
+              "claim": "The structural buyer base for long-duration Treasury debt has been withdrawing in stages for years—the Japanese hedged bid was damaged by the 2022 rate shock, Russia and China ceased buying in summer 2022, corporate pensions largely finished their…",
+              "date": "2026-08-23",
+              "url": "https://www.yesigiveafig.com/p/great-scott",
+              "access": "paid"
+            },
+            {
+              "name": "Michael W. Green",
+              "entity": "https://deepstack.ltd/people/michael-w-green/",
+              "claim": "What markets are showing is not a shortage of safe assets but a shortage of buyers willing to own duration, with sovereigns and corporates both saying the same thing: the corporate safe-asset factory is becoming ordinary risky debt and the…",
+              "date": "2026-08-16",
+              "url": "https://www.yesigiveafig.com/p/anchors-aweigh-my-boys",
+              "access": "paid"
+            },
+            {
+              "name": "Mia Silverio",
+              "entity": "https://deepstack.ltd/people/mia-silverio/",
+              "claim": "The creator argues that persistent inflation concerns have pushed the U.S. 10-year Treasury yield near the closely watched 5% level for only the second time since the 2007-2008 financial crisis, and notes long-term Treasurys have returned -2%…",
+              "date": "2026-09-14",
+              "url": null,
+              "access": "public"
+            },
+            {
+              "name": "Mia Silverio",
+              "entity": "https://deepstack.ltd/people/mia-silverio/",
+              "claim": "Canada's public pension funds are the third-largest pool of retirement savings in the world, and Canadian institutional managers are cooling on US investments: this past July Canadians sold $22 billion in US stocks, the biggest monthly sell-off…",
+              "date": "2026-09-21",
+              "url": "https://www.profgmedia.com/p/a-new-ai-app-beat-chatgpt-to-no-1",
+              "access": "public"
+            },
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "Oil explains the day-to-day wiggles in yields but not the trend, since Brent is cheaper today than at its spring peak while the 10-year is 70bp higher, even though since the war a $10 Brent move has come with about 5bp on the 10-year (roughly 3…",
+              "date": "2026-09-21",
+              "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
+              "access": "paid"
+            },
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
+              "date": "2026-09-16",
+              "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+              "access": "public"
+            }
+          ],
+          "against": {
+            "name": "Michael Howell",
+            "entity": "https://deepstack.ltd/people/michael-howell/",
+            "claim": "US term premia remain broadly stable and have recently moved lower, with little sign they are rising relative to foreign equivalents, which undercuts the loss-of-confidence narrative for US Treasuries.",
+            "date": "2026-09-04",
+            "url": "https://capitalwars.substack.com/p/impossible-things",
+            "access": "paid",
+            "answers": "Mia Silverio",
+            "relation": "contradicts",
+            "dimension": "evidence"
+          }
+        },
+        {
+          "id": "crossing",
+          "label": "Voices that cross sides",
+          "voices": [
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "Kevin Warsh is a pretend hawk rather than a constrained one, meaning he talks tough on inflation while avoiding costly action, and this position can be falsified by a rate hike on 16 September.",
+              "date": "2026-08-29",
+              "url": "https://tscsw.substack.com/p/gold-calls-the-hawks-bluff",
+              "access": "paid"
+            },
+            {
+              "name": "TSCS",
+              "entity": "https://deepstack.ltd/people/tscs/",
+              "claim": "The creator's forward view is that oil and long yields keep rising until stocks fall, because the S&P is the only release valve left: the bond-market valve that worked in April 2025 is the one the buybacks are designed to keep shut.",
+              "date": "2026-09-16",
+              "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
+              "access": "public"
+            }
+          ],
+          "against": null
+        }
+      ],
+      "crossings": [
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Michael Howell qualifies Michael W. Green on mechanism."
+        },
+        {
+          "from": "TSCS",
+          "to": "Steve Eisman",
+          "relation": "refutes",
+          "dimension": "evidence",
+          "note": "TSCS refutes Steve Eisman on evidence."
+        },
+        {
+          "from": "Vitaliy Katsenelson",
+          "to": "TSCS",
+          "relation": "contradicts",
+          "dimension": "mechanism",
+          "note": "Vitaliy Katsenelson contradicts TSCS on mechanism."
+        },
+        {
+          "from": "Michael W. Green",
+          "to": "Michael Howell",
+          "relation": "contradicts",
+          "dimension": "mechanism",
+          "note": "Michael W. Green contradicts Michael Howell on mechanism."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "TSCS",
+          "relation": "contradicts",
+          "dimension": "premise",
+          "note": "Michael Howell contradicts TSCS on premise."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "qualifies",
+          "dimension": "evidence",
+          "note": "Michael Howell qualifies Michael W. Green on evidence."
+        },
+        {
+          "from": "Stephen Clapham",
+          "to": "Michael Howell",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Stephen Clapham qualifies Michael Howell on mechanism."
+        },
+        {
+          "from": "Vitaliy Katsenelson",
+          "to": "Michael W. Green",
+          "relation": "refutes",
+          "dimension": "mechanism",
+          "note": "Vitaliy Katsenelson refutes Michael W. Green on mechanism."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "TSCS",
+          "relation": "qualifies",
+          "dimension": "evidence",
+          "note": "Michael Howell qualifies TSCS on evidence."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "contradicts",
+          "dimension": "mechanism",
+          "note": "Michael Howell contradicts Michael W. Green on mechanism."
+        },
+        {
+          "from": "Michael W. Green",
+          "to": "Michael Howell",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Michael W. Green contradicts Michael Howell on evidence."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "refutes",
+          "dimension": "mechanism",
+          "note": "Michael Howell refutes Michael W. Green on mechanism."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Michael Howell contradicts Michael W. Green on evidence."
+        },
+        {
+          "from": "Matthew C. Klein",
+          "to": "Michael W. Green",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Matthew C. Klein qualifies Michael W. Green on condition."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Matthew C. Klein",
+          "relation": "qualifies",
+          "dimension": "evidence",
+          "note": "Michael Howell qualifies Matthew C. Klein on evidence."
+        },
+        {
+          "from": "Michael W. Green",
+          "to": "Michael Howell",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Michael W. Green qualifies Michael Howell on mechanism."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "TSCS",
+          "relation": "refutes",
+          "dimension": "mechanism",
+          "note": "Michael Howell refutes TSCS on mechanism."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Michael W. Green",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Michael Howell qualifies Michael W. Green on condition."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Vitaliy Katsenelson",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Michael Howell qualifies Vitaliy Katsenelson on mechanism."
+        },
+        {
+          "from": "Vitaliy Katsenelson",
+          "to": "TSCS",
+          "relation": "qualifies",
+          "dimension": "premise",
+          "note": "Vitaliy Katsenelson qualifies TSCS on premise."
+        },
+        {
+          "from": "Vitaliy Katsenelson",
+          "to": "Stephen Clapham",
+          "relation": "qualifies",
+          "dimension": "mechanism",
+          "note": "Vitaliy Katsenelson qualifies Stephen Clapham on mechanism."
+        },
+        {
+          "from": "Vitaliy Katsenelson",
+          "to": "Michael Howell",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Vitaliy Katsenelson contradicts Michael Howell on evidence."
+        },
+        {
+          "from": "Michael W. Green",
+          "to": "Michael Howell",
+          "relation": "qualifies",
+          "dimension": "condition",
+          "note": "Michael W. Green qualifies Michael Howell on condition."
+        },
+        {
+          "from": "Michael Howell",
+          "to": "Mia Silverio",
+          "relation": "contradicts",
+          "dimension": "evidence",
+          "note": "Michael Howell contradicts Mia Silverio on evidence."
+        }
+      ],
+      "notes": [
+        {
+          "label": "Where the AI buildout sits in the price",
+          "text": "Borrowers who choose: CleanSpark at 8.25% for a Meta data center; CoreWeave's convert coupon at 1.75% to 2.875%, upsized anyway. Borrowers who cannot: floating-rate loans reset on schedule. The valuations (Ren): 5% is the bar every long-duration growth stock must clear."
+        }
+      ],
+      "tests": [
+        {
+          "id": "p07-t01",
+          "part": 7,
+          "slug": "the-fed-hiked-the-long-end-kept-climbing",
+          "when": "Oct 28",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "series",
+            "series": "DFEDTARU",
+            "provider": "FRED",
+            "rule": "value after date > value before date => hike",
+            "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+            "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+            "source": {
+              "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+              "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+            },
+            "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p07-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p07-t02",
+          "part": 7,
+          "slug": "the-fed-hiked-the-long-end-kept-climbing",
+          "when": "Mid-October",
+          "whenLabel": "Oct 15, 2026",
+          "date": "2026-10-15",
+          "precision": "window",
+          "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Mid-October",
+            "url": null
+          },
+          "resolver": {
+            "kind": "release",
+            "release": "Treasury International Capital",
+            "provider": "Treasury",
+            "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+            "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+            "source": {
+              "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+              "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+            },
+            "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p07-t02",
+          "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p07-t03",
+          "part": 7,
+          "slug": "the-fed-hiked-the-long-end-kept-climbing",
+          "when": "10-year at 5.5%",
+          "whenLabel": "10-year at 5.5%",
+          "date": null,
+          "precision": "signal",
+          "event": "Howell expects a major bond opportunity; failure to turn would keep the growth brake unproven.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "10-year at 5.5%",
+            "url": null
+          },
+          "resolver": {
+            "kind": "series",
+            "series": "DGS10",
+            "provider": "FRED",
+            "rule": "value after date >= 5.5 => reached",
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p07-t03",
+          "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+          "resultUrl": null
+        },
+        {
+          "id": "p07-t04",
+          "part": 7,
+          "slug": "the-fed-hiked-the-long-end-kept-climbing",
+          "when": "2028 refinancing wave",
+          "whenLabel": "Jan 3, 2028",
+          "date": "2028-01-03",
+          "precision": "window",
+          "event": "Leveraged-loan and corporate maturities arrive; stress would show today’s rates are reaching AI’s borrowers.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "2028 refinancing wave",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "",
+            "question": "",
+            "source": null,
+            "ambiguity": "",
+            "specState": "pending"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p07-t04",
+          "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+          "resultUrl": null
+        }
+      ],
+      "results": [],
+      "sources": [
+        {
+          "label": "Federal Reserve - September 16 policy statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        },
+        {
+          "label": "Federal Reserve - September 16 press-conference transcript",
+          "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf"
+        },
+        {
+          "label": "FRED - 10-year Treasury constant-maturity series",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "The Overshoot - rising bond yields analysis",
+          "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually"
+        },
+        {
+          "label": "Potential Multibaggers - growth and the Fed hike",
+          "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era"
+        },
+        {
+          "label": "JunkBondInvestor - who the hike hits",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits"
+        },
+        {
+          "label": "HyperTech Investor - AI rally math",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+        },
+        {
+          "label": "Variant Perception - inflation and energy",
+          "url": "https://blog.variantperception.com/p/politics-trumps-economics-macro-snapshot"
+        }
+      ]
+    }
+  ],
+  "nextTest": {
+    "id": "p07-t02",
+    "part": 7,
+    "slug": "the-fed-hiked-the-long-end-kept-climbing",
+    "when": "Mid-October",
+    "whenLabel": "Oct 15, 2026",
+    "date": "2026-10-15",
+    "precision": "window",
+    "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+    "status": "pending",
+    "resultId": null,
+    "source": {
+      "kind": "label",
+      "ref": "Mid-October",
+      "url": null
+    },
+    "resolver": {
+      "kind": "release",
+      "release": "Treasury International Capital",
+      "provider": "Treasury",
+      "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+      "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+      "source": {
+        "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+        "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+      },
+      "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+      "specState": "approved"
+    },
+    "url": "https://deepstack.ltd/docket/#test-p07-t02",
+    "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
+    "resultUrl": null
+  },
+  "method": "How DeepStack settles a question"
+}

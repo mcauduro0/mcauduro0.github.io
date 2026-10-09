@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T04:57:40Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T08:05:28Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -267,6 +267,72 @@
         }
       }
     },
+    "/api/v1/questions.json": {
+      "get": {
+        "summary": "Questions",
+        "operationId": "questions",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The 11 questions DeepStack settles, one page each: the Part, The DeepStack Call and the next dated test.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Questions"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/questions/{slug}.json": {
+      "get": {
+        "summary": "One question",
+        "operationId": "one_question",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "The question slug, as in the page address.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "is-the-marginal-buyer-of-ai-compute-real",
+                "spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger",
+                "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
+                "is-the-capex-spending-defense-or-is-the-return-not-there",
+                "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
+                "is-power-scarcity-a-warning-or-a-moat",
+                "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
+                "who-writes-the-checks-for-the-buildout",
+                "how-fast-do-habits-break",
+                "does-the-hardware-hold-its-value",
+                "do-the-orders-turn-into-profit"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One question in full: the Call with its history, the sides with the strongest case against each, the crossings, the dated tests with their specification, the results and the sources.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Question"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/entities/companies.json": {
       "get": {
         "summary": "Companies",
@@ -389,6 +455,27 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Weekly"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/notes.json": {
+      "get": {
+        "summary": "Notes",
+        "operationId": "notes",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The monthly notes on what agents and readers asked DeepStack: counts of questions, the ones asked most, the ones with no formed side.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Notes"
                 }
               }
             }
@@ -959,7 +1046,8 @@
           "callUpdate",
           "approvedAt",
           "url",
-          "storyUrl"
+          "storyUrl",
+          "resolutionPackage"
         ],
         "properties": {
           "id": {
@@ -1051,6 +1139,14 @@
           "storyUrl": {
             "type": "string",
             "format": "uri"
+          },
+          "resolutionPackage": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri",
+            "description": "The one-page resolution package (PDF): question, rule, official source, ambiguity clause, evidence, verdict, approver and date; null while no file exists."
           }
         }
       },
@@ -1785,6 +1881,332 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/GridRow"
+            }
+          }
+        }
+      },
+      "QuestionPart": {
+        "type": "object",
+        "required": [
+          "part",
+          "headline",
+          "question",
+          "url",
+          "api",
+          "sidesUrl",
+          "call"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "question": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sidesUrl": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "call": {
+            "$ref": "#/components/schemas/Call"
+          }
+        }
+      },
+      "QuestionSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "question",
+          "title",
+          "headline",
+          "url",
+          "api",
+          "aliases",
+          "parts",
+          "nextTest"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string",
+            "description": "The Part’s published question, verbatim."
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "A shorter title the owner approved, or null; the page’s headline is the title when one exists, else the question."
+          },
+          "headline": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Other wordings agents and readers used for this question, as the sensor recorded them; never a person."
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuestionPart"
+            }
+          },
+          "nextTest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Test"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "Question": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "slug",
+          "question",
+          "title",
+          "headline",
+          "api",
+          "aliases",
+          "method",
+          "parts",
+          "nextTest"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "slug": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "method": {
+            "type": "string",
+            "const": "How DeepStack settles a question"
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/components/schemas/QuestionPart"
+                },
+                {
+                  "type": "object",
+                  "required": [
+                    "sides",
+                    "crossings",
+                    "notes",
+                    "tests",
+                    "results",
+                    "sources"
+                  ],
+                  "properties": {
+                    "sides": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Side"
+                      }
+                    },
+                    "crossings": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "from",
+                          "to",
+                          "relation",
+                          "dimension",
+                          "note"
+                        ],
+                        "properties": {
+                          "from": {
+                            "type": "string"
+                          },
+                          "to": {
+                            "type": "string"
+                          },
+                          "relation": {
+                            "type": "string"
+                          },
+                          "dimension": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "note": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "notes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "label",
+                          "text"
+                        ],
+                        "properties": {
+                          "label": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "text": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "tests": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Test"
+                      }
+                    },
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Result"
+                      }
+                    },
+                    "sources": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Source"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "nextTest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Test"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "Questions": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "method",
+          "about",
+          "count",
+          "questions"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "method": {
+            "type": "string",
+            "const": "How DeepStack settles a question"
+          },
+          "about": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuestionSummary"
             }
           }
         }
@@ -2731,6 +3153,206 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Edition"
+            }
+          }
+        }
+      },
+      "NoteSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "month",
+          "publishedDate",
+          "dek",
+          "window",
+          "url",
+          "api"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "month": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}$"
+          },
+          "publishedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dek": {
+            "type": "string"
+          },
+          "window": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "since": {
+                "type": "string",
+                "format": "date"
+              },
+              "until": {
+                "type": "string",
+                "format": "date"
+              },
+              "exports": {
+                "type": "integer"
+              }
+            },
+            "description": "The days the question log covered, and how many weekly exports were read."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Note": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "slug",
+          "title",
+          "month",
+          "publishedDate",
+          "dek",
+          "window",
+          "api",
+          "body",
+          "figures",
+          "sources"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "month": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}$"
+          },
+          "publishedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dek": {
+            "type": "string"
+          },
+          "window": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The note as plain-text paragraphs, in order."
+          },
+          "figures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "value"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": "Counts of questions, never of people."
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            }
+          }
+        }
+      },
+      "Notes": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "description",
+          "count",
+          "latest",
+          "notes"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "latest": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NoteSummary"
             }
           }
         }
