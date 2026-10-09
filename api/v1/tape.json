@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T08:05:28Z",
+  "generatedAt": "2026-10-09T10:31:19Z",
   "url": "https://deepstack.ltd/data/#theme-live",
   "disclaimer": "Analysis and opinion, not investment advice.",
-  "asOf": "2026-10-08T22:59:05.000Z",
+  "asOf": "2026-10-09T10:30:00.504Z",
   "api": "https://deepstack.ltd/api/v1/tape.json",
   "source": "U.S. Treasury; BLS; Federal Reserve H.15, Federal Reserve Board, BLS, BEA, DOL, Census Bureau, University of Michigan, OMB, S&P Dow Jones Indices, Cboe, EIA and IMF via FRED; Trading Economics for household inflation expectations, European gas, European power, uranium, lithium and forecast paths",
   "sourceUrl": "https://deepstack.ltd/data/",
@@ -43,8 +43,8 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,802",
-      "change": "+2.0% this week",
+      "value": "7,765",
+      "change": "+1.3% this week",
       "source": "S&P Dow Jones Indices via FRED",
       "url": "https://deepstack.ltd/data/#theme-live"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:05:28Z",
+  "generatedAt": "2026-10-09T10:31:19Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "lumentum",
@@ -44,5 +44,18 @@
     "asOf": "2026-10-08"
   },
   "lastUpdated": "2026-10-08",
-  "market": null
+  "market": {
+    "price": 1048.6,
+    "change": -62.47,
+    "changePercent": -5.6225,
+    "marketCap": 81581080000,
+    "pe": -11.2801,
+    "nextEarnings": "2026-11-05",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T20:00:01.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }

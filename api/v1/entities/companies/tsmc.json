@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:05:28Z",
+  "generatedAt": "2026-10-09T10:31:19Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "tsmc",
@@ -45,5 +45,18 @@
     "asOf": "2026-10-08"
   },
   "lastUpdated": "2026-10-08",
-  "market": null
+  "market": {
+    "price": 457.99,
+    "change": -14.21,
+    "changePercent": -3.0093,
+    "marketCap": 2375355975200,
+    "pe": 29.5584,
+    "nextEarnings": "2026-10-15",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T20:00:02.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }

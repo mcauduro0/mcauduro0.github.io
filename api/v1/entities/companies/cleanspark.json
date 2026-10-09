@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:05:28Z",
+  "generatedAt": "2026-10-09T10:31:19Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "cleanspark",
@@ -51,5 +51,18 @@
     "asOf": "2026-10-08"
   },
   "lastUpdated": "2026-10-08",
-  "market": null
+  "market": {
+    "price": 10.63,
+    "change": -0.89,
+    "changePercent": -7.7257,
+    "marketCap": 2727749482,
+    "pe": -2.8388,
+    "nextEarnings": "2026-11-24",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-08T20:00:00.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }

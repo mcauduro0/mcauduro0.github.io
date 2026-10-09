@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:05:28Z",
+  "generatedAt": "2026-10-09T10:31:19Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "coherent",
@@ -44,5 +44,18 @@
     "asOf": "2026-10-08"
   },
   "lastUpdated": "2026-10-08",
-  "market": null
+  "market": {
+    "price": 302.35,
+    "change": -32.21,
+    "changePercent": -9.6276,
+    "marketCap": 59151548704,
+    "pe": 69.5057,
+    "nextEarnings": "2026-11-04",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-08T20:00:02.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }
