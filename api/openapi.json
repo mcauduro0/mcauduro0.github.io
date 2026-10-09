@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T12:49:59Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T15:00:27Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -149,6 +149,42 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Results"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/results/{id}.json": {
+      "get": {
+        "summary": "One result",
+        "operationId": "one_result",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The test id, as in the page address (pNN-tNN).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "p03-t04",
+                "p04-t04"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One result in full: the row and the page’s four blocks (what we said, the rule, what happened, what changes).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultFull"
                 }
               }
             }
@@ -743,6 +779,13 @@
           "line": {
             "type": "string"
           },
+          "side": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The side the Call took in this version (the label of a side of the story’s sides page), or null for a synthesis of two sides; present only on versions made since the side was named."
+          },
           "reason": {
             "type": "string",
             "description": "Why this version was made; version 1 is the call made with the story."
@@ -807,10 +850,28 @@
               "type": "string"
             }
           },
+          "side": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The side the Call takes: the label of one side of the story’s sides page, or null when the Call is a synthesis of two sides; absent until the owner names it."
+          },
+          "against": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Against"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The strongest case against the side the Call takes, the same object the sides page carries for that side; null for a synthesis or when no case has cleared the bar; absent with `side`."
+          },
           "version": {
             "type": "integer",
             "minimum": 1,
-            "description": "The current version of the Call; it rises when a result changes the stance, the conviction or the line."
+            "description": "The current version of the Call; it rises when a result changes the stance, the conviction or the line, or when the owner names the side."
           },
           "updatedOn": {
             "type": "string",
@@ -1046,6 +1107,8 @@
           "callUpdate",
           "approvedAt",
           "url",
+          "anchorUrl",
+          "api",
           "storyUrl",
           "resolutionPackage"
         ],
@@ -1134,6 +1197,16 @@
           },
           "url": {
             "type": "string",
+            "format": "uri",
+            "description": "The Result page, /results/<id>/: what we said, the rule, what happened, what changes."
+          },
+          "anchorUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "The same result as a card on /results/."
+          },
+          "api": {
+            "type": "string",
             "format": "uri"
           },
           "storyUrl": {
@@ -1147,6 +1220,370 @@
             ],
             "format": "uri",
             "description": "The one-page resolution package (PDF): question, rule, official source, ambiguity clause, evidence, verdict, approver and date; null while no file exists."
+          }
+        }
+      },
+      "ResultCall": {
+        "type": "object",
+        "required": [
+          "version",
+          "date",
+          "stance",
+          "tone",
+          "toneLabel",
+          "conviction",
+          "convictionLabel",
+          "line",
+          "reason",
+          "by"
+        ],
+        "properties": {
+          "version": {
+            "type": "integer"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stance": {
+            "type": "string"
+          },
+          "tone": {
+            "type": "string"
+          },
+          "toneLabel": {
+            "type": "string"
+          },
+          "conviction": {
+            "type": "integer"
+          },
+          "convictionLabel": {
+            "type": "string"
+          },
+          "line": {
+            "type": "string"
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "ResultFull": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "id",
+          "testId",
+          "part",
+          "slug",
+          "story",
+          "resolvedOn",
+          "verdict",
+          "headline",
+          "body",
+          "evidence",
+          "callUpdate",
+          "approvedAt",
+          "anchorUrl",
+          "api",
+          "storyUrl",
+          "resolutionPackage",
+          "page",
+          "card"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "id": {
+            "type": "string"
+          },
+          "testId": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "story": {
+            "type": "string"
+          },
+          "resolvedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "refuted",
+              "inconclusive"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "body": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "array"
+          },
+          "callUpdate": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "approvedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "anchorUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "storyUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "resolutionPackage": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "page": {
+            "type": "object",
+            "required": [
+              "said",
+              "rule",
+              "happened",
+              "changes"
+            ],
+            "properties": {
+              "said": {
+                "type": "object",
+                "required": [
+                  "asOf",
+                  "call",
+                  "test",
+                  "storyUrl"
+                ],
+                "properties": {
+                  "asOf": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "call": {
+                    "oneOf": [
+                      {
+                        "$ref": "#/components/schemas/ResultCall"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "test": {
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  },
+                  "storyUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                }
+              },
+              "rule": {
+                "type": "object",
+                "required": [
+                  "specState",
+                  "question",
+                  "source",
+                  "rule",
+                  "ambiguity",
+                  "approvedLine",
+                  "afterTestDate"
+                ],
+                "properties": {
+                  "specState": {
+                    "type": "string",
+                    "enum": [
+                      "approved",
+                      "pending"
+                    ]
+                  },
+                  "question": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "source": {
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  },
+                  "rule": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "ambiguity": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "approvedLine": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "afterTestDate": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "happened": {
+                "type": "object",
+                "required": [
+                  "headline",
+                  "body",
+                  "evidence",
+                  "positions",
+                  "resolutionPackage"
+                ],
+                "properties": {
+                  "headline": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "evidence": {
+                    "type": "array"
+                  },
+                  "positions": {
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  },
+                  "resolutionPackage": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "uri"
+                  }
+                }
+              },
+              "changes": {
+                "type": "object",
+                "required": [
+                  "note",
+                  "stance",
+                  "conviction",
+                  "moved",
+                  "line",
+                  "after",
+                  "current"
+                ],
+                "properties": {
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "stance": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "conviction": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "moved": {
+                    "type": "boolean"
+                  },
+                  "line": {
+                    "type": "string"
+                  },
+                  "after": {
+                    "oneOf": [
+                      {
+                        "$ref": "#/components/schemas/ResultCall"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "current": {
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "card": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "The result card as og:image (1200x630) and portrait (1200x1500), while the files exist."
           }
         }
       },

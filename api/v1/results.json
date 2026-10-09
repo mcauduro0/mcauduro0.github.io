@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "url": "https://deepstack.ltd/results/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/results.json",
@@ -39,7 +39,9 @@
         "note": "Conviction unchanged; the Call stands as written."
       },
       "approvedAt": "2026-10-09T03:49:26Z",
-      "url": "https://deepstack.ltd/results/#result-p03-t04",
+      "url": "https://deepstack.ltd/results/p03-t04/",
+      "anchorUrl": "https://deepstack.ltd/results/#result-p03-t04",
+      "api": "https://deepstack.ltd/api/v1/results/p03-t04.json",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#result-p03-t04",
       "resolutionPackage": "https://deepstack.ltd/assets/resolution/p03-t04.pdf"
     },
@@ -71,7 +73,9 @@
         "note": "Conviction unchanged; the Call stands as written."
       },
       "approvedAt": "2026-10-09T03:49:27Z",
-      "url": "https://deepstack.ltd/results/#result-p04-t04",
+      "url": "https://deepstack.ltd/results/p04-t04/",
+      "anchorUrl": "https://deepstack.ltd/results/#result-p04-t04",
+      "api": "https://deepstack.ltd/api/v1/results/p04-t04.json",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04",
       "resolutionPackage": "https://deepstack.ltd/assets/resolution/p04-t04.pdf"
     }

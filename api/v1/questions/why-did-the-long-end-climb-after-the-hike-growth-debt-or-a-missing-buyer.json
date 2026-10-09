@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -32,8 +32,20 @@
           "Long yields fall while nominal growth, inflation and AI capital spending stay firm.",
           "Japanese and other foreign buyers return in size without a better hedge."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-27",
+        "side": "A missing buyer",
+        "against": {
+          "name": "Michael Howell",
+          "entity": "https://deepstack.ltd/people/michael-howell/",
+          "claim": "US term premia remain broadly stable and have recently moved lower, with little sign they are rising relative to foreign equivalents, which undercuts the loss-of-confidence narrative for US Treasuries.",
+          "date": "2026-09-04",
+          "url": "https://capitalwars.substack.com/p/impossible-things",
+          "access": "paid",
+          "answers": "Mia Silverio",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -46,6 +58,19 @@
             "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Supply sets the long end",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+            "side": "A missing buyer",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {

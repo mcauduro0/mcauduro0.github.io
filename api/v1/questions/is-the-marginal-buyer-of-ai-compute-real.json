@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-marginal-buyer-of-ai-compute-real",
   "question": "Is the marginal buyer of AI compute real?",
@@ -32,8 +32,10 @@
           "End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.",
           "Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations."
         ],
-        "version": 1,
-        "updatedOn": "2026-08-10",
+        "side": null,
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -46,6 +48,19 @@
             "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Bull on demand. Bear on the financing.",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+            "side": null,
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {

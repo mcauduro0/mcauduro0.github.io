@@ -2,7 +2,7 @@
   "routes": [
     {
       "path": "/",
-      "title": "DeepStack — The money behind the machine"
+      "title": "DeepStack: Independent analysis of the AI economy"
     },
     {
       "path": "/stories/",
@@ -82,6 +82,16 @@
     {
       "path": "/results/",
       "title": "Results"
+    },
+    {
+      "path": "/results/p03-t04/",
+      "title": "Result p03-t04: Inconclusive: no public figure covers the September concessions",
+      "lastmod": "2026-10-08"
+    },
+    {
+      "path": "/results/p04-t04/",
+      "title": "Result p04-t04: Inconclusive: no public figure covers the September concessions",
+      "lastmod": "2026-10-08"
     },
     {
       "path": "/companies/",
@@ -861,6 +871,10 @@
       "path": "/embed/call/the-backlog-is-not-the-quarter/",
       "title": "The DeepStack Call: The Backlog Is Not the Quarter",
       "lastmod": "2026-10-08"
+    },
+    {
+      "path": "/embed/",
+      "title": "Cards to reuse"
     },
     {
       "path": "/data/download/",

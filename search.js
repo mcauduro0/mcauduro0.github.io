@@ -36,8 +36,8 @@ export function queryTerms(query) {
 }
 
 // "monthly" is a note under /notes/ (what agents asked, Onda 5); "note" stays the Editorial Notes.
-export const TYPE_LABEL = { story: 'Story', question: 'Question', sides: 'Who is on each side', company: 'Company', person: 'Person', note: 'Editorial note', test: 'Dated test', monthly: 'Monthly note' };
-const TYPE_RANK = { story: 0, question: 1, sides: 2, note: 3, company: 4, person: 5, test: 6, monthly: 7 };
+export const TYPE_LABEL = { story: 'Story', question: 'Question', sides: 'Who is on each side', company: 'Company', person: 'Person', note: 'Editorial note', test: 'Dated test', monthly: 'Monthly note', result: 'Result' };
+const TYPE_RANK = { story: 0, question: 1, sides: 2, result: 3, note: 4, company: 5, person: 6, test: 7, monthly: 8 };
 export const LIMIT = 20;
 
 // The index entry, with its three fields split into words once.

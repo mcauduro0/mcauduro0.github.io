@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
@@ -34,8 +34,10 @@
           "End customers keep absorbing capacity at market-rate financing once the power bottleneck clears.",
           "Nvidia’s revenue recurrence holds through the ramp, with no wave of order cancellations."
         ],
-        "version": 1,
-        "updatedOn": "2026-08-10",
+        "side": null,
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -48,6 +50,19 @@
             "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Bull on demand. Bear on the financing.",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+            "side": null,
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -151,8 +166,20 @@
           "Deployed capacity climbs toward the site plan, quarter after quarter.",
           "AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work."
         ],
-        "version": 1,
-        "updatedOn": "2026-08-13",
+        "side": "Exit liquidity",
+        "against": {
+          "name": "Trey Henninger",
+          "entity": "https://deepstack.ltd/people/trey-henninger/",
+          "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+          "date": "2026-06-08",
+          "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi",
+          "access": "public",
+          "answers": "Kris",
+          "relation": "contradicts",
+          "dimension": "premise"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -165,6 +192,19 @@
             "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Ahead of the evidence",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+            "side": "Exit liquidity",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -264,8 +304,20 @@
           "Nebius’s short-term premium collapses toward long-term rates.",
           "H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions."
         ],
-        "version": 1,
-        "updatedOn": "2026-08-15",
+        "side": "1999 capex plus 2008 credit",
+        "against": {
+          "name": "Oguz Erkan",
+          "entity": "https://deepstack.ltd/people/oguz-erkan/",
+          "claim": "Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.",
+          "date": "2026-08-06",
+          "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute",
+          "access": "public",
+          "answers": "Michael Burry",
+          "relation": "qualifies",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -278,6 +330,19 @@
             "line": "The machines will earn. The credit stack is where this buildout breaks first.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Bearish on the credit",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+            "side": "1999 capex plus 2008 credit",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -381,8 +446,20 @@
           "Alphabet’s larger 2027 budget lifts the stock instead of sinking it.",
           "Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-04",
+        "side": "The return is not there",
+        "against": {
+          "name": "Orbis Investments",
+          "entity": "https://deepstack.ltd/people/orbis-investments/",
+          "claim": "Nebius, an AI-focused cloud infrastructure business with multibillion-dollar infrastructure deals with Microsoft and Meta and a $2 billion Nvidia investment, has a credible base-case pathway to over 4GW of data centre capacity by 2031 that could…",
+          "date": "2026-08-11",
+          "url": "https://fiscal.ai/fund-letters/orbis-investments-q2-2026-fscl_document_3VPA9VYD914",
+          "access": "public",
+          "answers": "Kevin Gee",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -395,6 +472,19 @@
             "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Prove the return",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+            "side": "The return is not there",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -518,8 +608,10 @@
           "Anthropic is forced into an OpenAI-style price cut on coding.",
           "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-11",
+        "side": null,
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -532,6 +624,19 @@
             "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Split the trade",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+            "side": null,
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -643,8 +748,20 @@
           "The speed-to-power premium narrows while power stays scarce.",
           "Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-19",
+        "side": "Scarcity as a moat",
+        "against": {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Polling data shows roughly 70 to 75 percent of Americans oppose building large datacenters near their homes, and more than half support a national moratorium, with opposition rising since spring 2026.",
+          "date": "2026-08-26",
+          "url": "https://www.ai-supremacy.com/p/the-ai-backlash-is-accelerating-datacenters-2026",
+          "access": "paid",
+          "answers": "Edelbridge Alpha",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -657,6 +774,19 @@
             "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Long access, not hardware",
+            "tone": "bull",
+            "toneLabel": "Constructive",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+            "side": "Scarcity as a moat",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -788,8 +918,20 @@
           "Long yields fall while nominal growth, inflation and AI capital spending stay firm.",
           "Japanese and other foreign buyers return in size without a better hedge."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-27",
+        "side": "A missing buyer",
+        "against": {
+          "name": "Michael Howell",
+          "entity": "https://deepstack.ltd/people/michael-howell/",
+          "claim": "US term premia remain broadly stable and have recently moved lower, with little sign they are rising relative to foreign equivalents, which undercuts the loss-of-confidence narrative for US Treasuries.",
+          "date": "2026-09-04",
+          "url": "https://capitalwars.substack.com/p/impossible-things",
+          "access": "paid",
+          "answers": "Mia Silverio",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -802,6 +944,19 @@
             "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Supply sets the long end",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+            "side": "A missing buyer",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -927,8 +1082,20 @@
           "September-quarter cash flow moves visibly toward $2 trillion.",
           "The first Blackwell renewal holds its price without new guarantees."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-29",
+        "side": "The cash has to triple",
+        "against": {
+          "name": "Kris",
+          "entity": "https://deepstack.ltd/people/kris/",
+          "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+          "date": "2026-09-16",
+          "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
+          "access": "paid",
+          "answers": "Daniel Romero",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -941,6 +1108,19 @@
             "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Lenders are mispricing scarcity",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+            "side": "The cash has to triple",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -1063,8 +1243,20 @@
           "Meta reports agent downloads without retained users, transaction volume or fees.",
           "The first tax season with agents shows households still paying Intuit for certainty."
         ],
-        "version": 1,
-        "updatedOn": "2026-10-03",
+        "side": "Eighteen months, or less",
+        "against": {
+          "name": "Le Shrub",
+          "entity": null,
+          "claim": "The creator questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
+          "date": "2026-09-22",
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+          "access": "public",
+          "answers": "Andrew Walker",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -1077,6 +1269,19 @@
             "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Sell habit, buy the rails",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+            "side": "Eighteen months, or less",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -1216,8 +1421,20 @@
           "Used-chip values and server lives hold after scarcity fades.",
           "Productivity turns higher and lab revenue compounds toward the checks the infrastructure requires."
         ],
-        "version": 1,
-        "updatedOn": "2026-10-07",
+        "side": "A model, not a price",
+        "against": {
+          "name": "David George",
+          "entity": "https://deepstack.ltd/people/david-george/",
+          "claim": "GPUs are already running hot even while the data indicates it's still very early in mature AI adoption and utilization.",
+          "date": "2026-09-30",
+          "url": "https://www.a16z.news/p/state-of-markets-ii",
+          "access": "public",
+          "answers": "Michael Burry",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -1230,6 +1447,19 @@
             "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Cheap is conditional",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+            "side": "A model, not a price",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -1358,8 +1588,10 @@
           "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
           "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
         ],
-        "version": 1,
-        "updatedOn": "2026-10-08",
+        "side": "Shipping is not earning",
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -1372,6 +1604,19 @@
             "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
             "reason": "First call, with the story.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Revenue yes, margin not yet",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+            "side": "Shipping is not earning",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {

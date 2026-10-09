@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -28,8 +28,20 @@
       "Meta reports agent downloads without retained users, transaction volume or fees.",
       "The first tax season with agents shows households still paying Intuit for certainty."
     ],
-    "version": 1,
-    "updatedOn": "2026-10-03",
+    "side": "Eighteen months, or less",
+    "against": {
+      "name": "Le Shrub",
+      "entity": null,
+      "claim": "The creator questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
+      "date": "2026-09-22",
+      "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+      "access": "public",
+      "answers": "Andrew Walker",
+      "relation": "contradicts",
+      "dimension": "evidence"
+    },
+    "version": 2,
+    "updatedOn": "2026-10-09",
     "history": [
       {
         "version": 1,
@@ -42,6 +54,19 @@
         "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
         "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
         "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-09",
+        "stance": "Sell habit, buy the rails",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+        "side": "Eighteen months, or less",
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
       }
     ],
     "nextTest": {

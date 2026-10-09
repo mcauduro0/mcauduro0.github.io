@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -26,8 +26,10 @@
       "Anthropic is forced into an OpenAI-style price cut on coding.",
       "Audited losses or a DeepSeek-style price reversal erase the gap between the two businesses."
     ],
-    "version": 1,
-    "updatedOn": "2026-09-11",
+    "side": null,
+    "against": null,
+    "version": 2,
+    "updatedOn": "2026-10-09",
     "history": [
       {
         "version": 1,
@@ -40,6 +42,19 @@
         "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
         "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
         "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-09",
+        "stance": "Split the trade",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+        "side": null,
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
       }
     ],
     "nextTest": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -33,8 +33,10 @@
           "Nvidia's days sales outstanding give back the 14 days Eisman counted, or its terms for investment-grade customers return to 90 days.",
           "Perma-Pipe converts $57 million or more at a gross margin above 30% while Lumentum and Coherent report their ramps at target margin."
         ],
-        "version": 1,
-        "updatedOn": "2026-10-08",
+        "side": "Shipping is not earning",
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -47,6 +49,19 @@
             "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
             "reason": "First call, with the story.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Revenue yes, margin not yet",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+            "side": "Shipping is not earning",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {

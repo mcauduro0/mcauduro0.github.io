@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-power-scarcity-a-warning-or-a-moat",
   "question": "Is power scarcity a warning, or a moat?",
@@ -32,8 +32,20 @@
           "The speed-to-power premium narrows while power stays scarce.",
           "Recontracting fails across older fleets, or a hyperscaler cancels because compute is sufficient."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-19",
+        "side": "Scarcity as a moat",
+        "against": {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Polling data shows roughly 70 to 75 percent of Americans oppose building large datacenters near their homes, and more than half support a national moratorium, with opposition rising since spring 2026.",
+          "date": "2026-08-26",
+          "url": "https://www.ai-supremacy.com/p/the-ai-backlash-is-accelerating-datacenters-2026",
+          "access": "paid",
+          "answers": "Edelbridge Alpha",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -46,6 +58,19 @@
             "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Long access, not hardware",
+            "tone": "bull",
+            "toneLabel": "Constructive",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+            "side": "Scarcity as a moat",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {

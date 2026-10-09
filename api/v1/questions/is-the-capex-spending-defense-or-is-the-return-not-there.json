@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
   "question": "Is the capex spending defense, or is the return not there?",
@@ -32,8 +32,20 @@
           "Alphabet’s larger 2027 budget lifts the stock instead of sinking it.",
           "Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue."
         ],
-        "version": 1,
-        "updatedOn": "2026-09-04",
+        "side": "The return is not there",
+        "against": {
+          "name": "Orbis Investments",
+          "entity": "https://deepstack.ltd/people/orbis-investments/",
+          "claim": "Nebius, an AI-focused cloud infrastructure business with multibillion-dollar infrastructure deals with Microsoft and Meta and a $2 billion Nvidia investment, has a credible base-case pathway to over 4GW of data centre capacity by 2031 that could…",
+          "date": "2026-08-11",
+          "url": "https://fiscal.ai/fund-letters/orbis-investments-q2-2026-fscl_document_3VPA9VYD914",
+          "access": "public",
+          "answers": "Kevin Gee",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-09",
         "history": [
           {
             "version": 1,
@@ -46,6 +58,19 @@
             "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
             "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
             "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-09",
+            "stance": "Prove the return",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 4,
+            "convictionLabel": "High",
+            "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+            "side": "The return is not there",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
           }
         ],
         "nextTest": {
@@ -422,7 +447,7 @@
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t04",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
-          "resultUrl": "https://deepstack.ltd/results/#result-p04-t04"
+          "resultUrl": "https://deepstack.ltd/results/p04-t04/"
         },
         {
           "id": "p04-t05",
@@ -482,7 +507,9 @@
             "note": "Conviction unchanged; the Call stands as written."
           },
           "approvedAt": "2026-10-09T03:49:27Z",
-          "url": "https://deepstack.ltd/results/#result-p04-t04",
+          "url": "https://deepstack.ltd/results/p04-t04/",
+          "anchorUrl": "https://deepstack.ltd/results/#result-p04-t04",
+          "api": "https://deepstack.ltd/api/v1/results/p04-t04.json",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04",
           "resolutionPackage": null
         }

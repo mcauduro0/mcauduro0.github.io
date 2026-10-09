@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:49:59Z",
+  "generatedAt": "2026-10-09T15:00:27Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -28,8 +28,20 @@
       "Deployed capacity climbs toward the site plan, quarter after quarter.",
       "AI revenue arrives net of related-party deals and Anthropic keeps paying without the capital cycle doing the work."
     ],
-    "version": 1,
-    "updatedOn": "2026-08-13",
+    "side": "Exit liquidity",
+    "against": {
+      "name": "Trey Henninger",
+      "entity": "https://deepstack.ltd/people/trey-henninger/",
+      "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+      "date": "2026-06-08",
+      "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi",
+      "access": "public",
+      "answers": "Kris",
+      "relation": "contradicts",
+      "dimension": "premise"
+    },
+    "version": 2,
+    "updatedOn": "2026-10-09",
     "history": [
       {
         "version": 1,
@@ -42,6 +54,19 @@
         "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
         "reason": "First call, as published with the story. The conviction, the actions and the flips were set down for the site on October 7, 2026.",
         "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-09",
+        "stance": "Ahead of the evidence",
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+        "side": "Exit liquidity",
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
       }
     ],
     "nextTest": {
