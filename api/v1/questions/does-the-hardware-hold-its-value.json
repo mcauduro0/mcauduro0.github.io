@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T19:22:00Z",
+  "generatedAt": "2026-10-09T19:42:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -74,34 +74,33 @@
           }
         ],
         "nextTest": {
-          "id": "p10-t01",
+          "id": "p10-t02",
           "part": 10,
           "slug": "the-bubble-is-in-the-denominator",
-          "when": "Late October",
-          "whenLabel": "Oct 28, 2026",
-          "date": "2026-10-28",
-          "precision": "day",
-          "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+          "when": "October",
+          "whenLabel": "October",
+          "date": "2026-10-01",
+          "precision": "month",
+          "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
           "status": "pending",
           "resultId": null,
           "source": {
-            "kind": "fmp-earnings",
-            "ref": "Company earnings calendar, date via Financial Modeling Prep",
+            "kind": "label",
+            "ref": "October",
             "url": null
           },
           "resolver": {
-            "kind": "earnings",
-            "symbol": "MSFT",
-            "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
-            "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
+            "kind": "manual",
+            "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+            "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
             "source": {
-              "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
-              "url": "https://www.sec.gov/edgar/search/"
+              "label": "SEC EDGAR, Anthropic filings",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
             },
-            "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+            "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
             "specState": "approved"
           },
-          "url": "https://deepstack.ltd/docket/#test-p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
           "resultUrl": null
         },
@@ -147,7 +146,7 @@
             {
               "name": "Kakashii",
               "entity": "https://deepstack.ltd/people/kakashii/",
-              "claim": "The creator calculates that Nvidia's plan to ship over 10 million chips of Blackwell and Rubin by the end of 2026 implies a total required power of roughly 17 to 23 GW, averaging around 20 GW, and questions whether enough data centers are under…",
+              "claim": "Kakashii calculates that Nvidia's plan to ship over 10 million chips of Blackwell and Rubin by the end of 2026 implies a total required power of roughly 17 to 23 GW, averaging around 20 GW, and questions whether enough data centers are under…",
               "date": "2026-10-05",
               "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
               "access": "paid"
@@ -155,7 +154,7 @@
             {
               "name": "Kakashii",
               "entity": "https://deepstack.ltd/people/kakashii/",
-              "claim": "The creator's long-standing thesis, which they say has gained support and validation over time, is that Blackwell GPUs had to be shipped to warehouses because there were not enough compatible datacenters (with the needed cooling and equipment) to…",
+              "claim": "Kakashii's long-standing thesis, which they say has gained support and validation over time, is that Blackwell GPUs had to be shipped to warehouses because there were not enough compatible datacenters (with the needed cooling and equipment) to…",
               "date": "2026-10-05",
               "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
               "access": "paid"
@@ -212,7 +211,7 @@
             {
               "name": "Tae Kim",
               "entity": "https://deepstack.ltd/people/tae-kim/",
-              "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+              "claim": "Tae Kim believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's ARR…",
               "date": "2026-10-02",
               "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
               "access": "paid"

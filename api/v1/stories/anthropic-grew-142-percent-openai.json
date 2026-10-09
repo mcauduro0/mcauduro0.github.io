@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T19:22:00Z",
+  "generatedAt": "2026-10-09T19:42:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -60,19 +60,19 @@
       }
     ],
     "nextTest": {
-      "id": "p05-t01",
+      "id": "p05-t04",
       "part": 5,
       "slug": "anthropic-grew-142-percent-openai",
-      "when": "Next prospectus",
-      "whenLabel": "Next prospectus",
-      "date": null,
-      "precision": "signal",
-      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "when": "2028",
+      "whenLabel": "Jan 3, 2028",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
       "status": "pending",
       "resultId": null,
       "source": {
         "kind": "label",
-        "ref": "Next prospectus",
+        "ref": "2028",
         "url": null
       },
       "resolver": {
@@ -83,7 +83,7 @@
         "ambiguity": "",
         "specState": "pending"
       },
-      "url": "https://deepstack.ltd/docket/#test-p05-t01",
+      "url": "https://deepstack.ltd/docket/#test-p05-t04",
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
       "resultUrl": null
     },

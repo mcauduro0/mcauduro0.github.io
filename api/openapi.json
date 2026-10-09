@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T19:22:00Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T19:42:11Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -399,7 +399,7 @@
         ],
         "responses": {
           "200": {
-            "description": "67 people with what each argued; no score or ranking.",
+            "description": "68 people with what each argued; no score or ranking.",
             "content": {
               "application/json": {
                 "schema": {
@@ -1945,6 +1945,7 @@
           "disclaimer",
           "part",
           "slug",
+          "card",
           "story",
           "question",
           "call",
@@ -1973,6 +1974,11 @@
           },
           "slug": {
             "type": "string"
+          },
+          "card": {
+            "type": "string",
+            "format": "uri",
+            "description": "The sides bar card of this page, /embed/sides/<slug>/card.svg: a 1200 × 630 SVG with the question, the share of voices per side, the Call’s side when named, the conviction and the next test."
           },
           "story": {
             "type": "object",

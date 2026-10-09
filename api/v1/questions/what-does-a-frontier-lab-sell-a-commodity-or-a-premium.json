@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T19:22:00Z",
+  "generatedAt": "2026-10-09T19:42:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
   "question": "What does a frontier lab sell: a commodity, or a premium?",
@@ -64,19 +64,19 @@
           }
         ],
         "nextTest": {
-          "id": "p05-t01",
+          "id": "p05-t04",
           "part": 5,
           "slug": "anthropic-grew-142-percent-openai",
-          "when": "Next prospectus",
-          "whenLabel": "Next prospectus",
-          "date": null,
-          "precision": "signal",
-          "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+          "when": "2028",
+          "whenLabel": "Jan 3, 2028",
+          "date": "2028-01-03",
+          "precision": "window",
+          "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
           "status": "pending",
           "resultId": null,
           "source": {
             "kind": "label",
-            "ref": "Next prospectus",
+            "ref": "2028",
             "url": null
           },
           "resolver": {
@@ -87,7 +87,7 @@
             "ambiguity": "",
             "specState": "pending"
           },
-          "url": "https://deepstack.ltd/docket/#test-p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t04",
           "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
           "resultUrl": null
         },
@@ -101,7 +101,7 @@
             {
               "name": "Michael Spencer",
               "entity": "https://deepstack.ltd/people/michael-spencer/",
-              "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+              "claim": "Michael Spencer predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
               "date": "2026-08-20",
               "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
               "access": "paid"
@@ -109,7 +109,7 @@
             {
               "name": "Michael Spencer",
               "entity": "https://deepstack.ltd/people/michael-spencer/",
-              "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which the…",
+              "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which…",
               "date": "2026-08-20",
               "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
               "access": "paid"
@@ -205,7 +205,7 @@
             {
               "name": "Wyndo",
               "entity": "https://deepstack.ltd/people/wyndo/",
-              "claim": "The creator cites Artificial Analysis benchmark results as evidence of rapid open-weight model improvement: Kimi K3 scored 57 on its Intelligence Index (13 points above Kimi K2.6, per the July 17 evaluation), and DeepSeek V4 Flash 0731 scored 10…",
+              "claim": "Wyndo cites Artificial Analysis benchmark results as evidence of rapid open-weight model improvement: Kimi K3 scored 57 on its Intelligence Index (13 points above Kimi K2.6, per the July 17 evaluation), and DeepSeek V4 Flash 0731 scored 10 points…",
               "date": "2026-08-13",
               "url": "https://aimaker.substack.com/p/claude-code-multiple-models-openrouter",
               "access": "paid"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T19:22:00Z",
+  "generatedAt": "2026-10-09T19:42:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "openai",
@@ -163,7 +163,7 @@
       "question": null,
       "side": "openai-commoditized",
       "sideLabel": "OpenAI: commoditized",
-      "claim": "The creator predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
+      "claim": "Michael Spencer predicts Anthropic will achieve AI supremacy status in 2027 and by 2030 will have no comparable peer competitor, not Google, OpenAI, DeepSeek, or Alibaba.",
       "date": "2026-08-20",
       "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
       "linkVerified": true,
@@ -175,7 +175,7 @@
       "question": null,
       "side": "openai-commoditized",
       "sideLabel": "OpenAI: commoditized",
-      "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which the…",
+      "claim": "Open-source Chinese models are disrupting OpenAI's revenue because routing and code wrappers increasingly favor them over OpenAI's models due to cheaper token costs, forcing OpenAI to cut API prices, including an 80% cut to GPT-5.6 Lune, which…",
       "date": "2026-08-20",
       "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo",
       "linkVerified": true,
@@ -223,7 +223,7 @@
       "question": null,
       "side": "eighteen-months",
       "sideLabel": "Eighteen months, or less",
-      "claim": "Having used Muse over the past week, the creator found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
+      "claim": "Having used Muse over the past week, Tae Kim found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.",
       "date": "2026-09-22",
       "url": "https://taekim.substack.com/p/metas-muse-is-no-sure-thing",
       "linkVerified": true,
@@ -271,7 +271,7 @@
       "question": "who-collects",
       "side": "owner-of-the-agent",
       "sideLabel": "The owner of the agent",
-      "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, the creator says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him…",
+      "claim": "After personally using OpenAI's Dots, Meta's Muse and Instinct, Tae Kim says he now has much higher confidence that personal AI agents will be the future of computing and a lift off for a new AI wave, praising how they proactively ping him about…",
       "date": "2026-10-02",
       "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
       "linkVerified": true,
@@ -283,7 +283,7 @@
       "question": null,
       "side": "renting-at-january-prices",
       "sideLabel": "Still renting at January prices",
-      "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+      "claim": "Tae Kim believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's ARR…",
       "date": "2026-10-02",
       "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
       "linkVerified": true,
@@ -367,8 +367,8 @@
     "creators": 147,
     "claims": 2047,
     "texts": 906,
-    "asOf": "2026-10-08"
+    "asOf": "2026-10-09"
   },
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "market": null
 }

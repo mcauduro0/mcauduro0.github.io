@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-10-09T19:22:00Z",
+  "generatedAt": "2026-10-09T19:42:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
   "url": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/",
+  "card": "https://deepstack.ltd/embed/sides/the-fed-hiked-the-long-end-kept-climbing/card.svg",
   "story": {
     "headline": "The Fed Hiked. The Long End Still Climbed.",
     "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
@@ -68,36 +69,35 @@
       }
     ],
     "nextTest": {
-      "id": "p07-t01",
+      "id": "p07-t02",
       "part": 7,
       "slug": "the-fed-hiked-the-long-end-kept-climbing",
-      "when": "Oct 28",
-      "whenLabel": "Oct 28, 2026",
-      "date": "2026-10-28",
-      "precision": "day",
-      "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+      "when": "Mid-October",
+      "whenLabel": "Oct 15, 2026",
+      "date": "2026-10-15",
+      "precision": "window",
+      "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
       "status": "pending",
       "resultId": null,
       "source": {
-        "kind": "story",
-        "ref": "watchlist[0].date",
+        "kind": "label",
+        "ref": "Mid-October",
         "url": null
       },
       "resolver": {
-        "kind": "series",
-        "series": "DFEDTARU",
-        "provider": "FRED",
-        "rule": "value after date > value before date => hike",
-        "url": "https://fred.stlouisfed.org/series/DFEDTARU",
-        "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+        "kind": "release",
+        "release": "Treasury International Capital",
+        "provider": "Treasury",
+        "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+        "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
         "source": {
-          "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
-          "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+          "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
         },
-        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+        "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
         "specState": "approved"
       },
-      "url": "https://deepstack.ltd/docket/#test-p07-t01",
+      "url": "https://deepstack.ltd/docket/#test-p07-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
       "resultUrl": null
     },
@@ -160,7 +160,7 @@
       "against": {
         "name": "DeepValue Capital",
         "entity": "https://deepstack.ltd/people/deepvalue-capital/",
-        "claim": "The creator reads the September BofA Fund Manager Survey as showing investors overcrowded and bullish on semiconductors and tech while selling bonds, staples, REITs and telecoms, and attributes the selling to rising yields hurting predictable…",
+        "claim": "DeepValue Capital reads the September BofA Fund Manager Survey as showing investors overcrowded and bullish on semiconductors and tech while selling bonds, staples, REITs and telecoms, and attributes the selling to rising yields hurting…",
         "date": "2026-09-18",
         "url": "https://deepvaluecapitalbykyler.substack.com/p/the-fed-hiked-rates-into-falling",
         "access": "paid",
@@ -184,7 +184,7 @@
         {
           "name": "TSCS",
           "entity": "https://deepstack.ltd/people/tscs/",
-          "claim": "The creator argues governments and central banks do not want long yields higher and will go a long way to stop it, which means that if they succeed real yields fall and today's 2.65% over inflation won't be on offer for long, and if the way they…",
+          "claim": "TSCS argues governments and central banks do not want long yields higher and will go a long way to stop it, which means that if they succeed real yields fall and today's 2.65% over inflation won't be on offer for long, and if the way they succeed…",
           "date": "2026-09-21",
           "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman",
           "access": "paid"
@@ -192,7 +192,7 @@
         {
           "name": "Vitaliy Katsenelson",
           "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
-          "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; the creator says they…",
+          "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; Vitaliy Katsenelson says they…",
           "date": "2026-09-10",
           "url": "https://vitaliy.substack.com/p/narrative-change-part-1",
           "access": "public"
@@ -232,7 +232,7 @@
         {
           "name": "Stephen Clapham",
           "entity": "https://deepstack.ltd/people/stephen-clapham/",
-          "claim": "The creator states they would maintain a near-zero weight in US Treasuries, other than those trading at a near-50% discount to nominal value which they see as an asymmetric bet, a position they say they have covered in recent weeks.",
+          "claim": "Stephen Clapham states they would maintain a near-zero weight in US Treasuries, other than those trading at a near-50% discount to nominal value which they see as an asymmetric bet, a position they say they have covered in recent weeks.",
           "date": "2026-09-20",
           "url": "https://behindthebalancesheet.substack.com/p/what-investors-are-missing-about",
           "access": "paid"
@@ -249,7 +249,7 @@
       "against": {
         "name": "Michael Howell",
         "entity": "https://deepstack.ltd/people/michael-howell/",
-        "claim": "The creator estimates the net-supply component of term premia at minus 27 basis points, with inflation uncertainty and volatility premia also historically subdued, so term premia are low across virtually every measure, implying a significant…",
+        "claim": "Michael Howell estimates the net-supply component of term premia at minus 27 basis points, with inflation uncertainty and volatility premia also historically subdued, so term premia are low across virtually every measure, implying a significant…",
         "date": "2026-09-18",
         "url": "https://capitalwars.substack.com/p/its-the-economy-stupid",
         "access": "paid",
@@ -281,7 +281,7 @@
         {
           "name": "Mia Silverio",
           "entity": "https://deepstack.ltd/people/mia-silverio/",
-          "claim": "The creator argues that persistent inflation concerns have pushed the U.S. 10-year Treasury yield near the closely watched 5% level for only the second time since the 2007-2008 financial crisis, and notes long-term Treasurys have returned -2%…",
+          "claim": "Mia Silverio argues that persistent inflation concerns have pushed the U.S. 10-year Treasury yield near the closely watched 5% level for only the second time since the 2007-2008 financial crisis, and notes long-term Treasurys have returned -2%…",
           "date": "2026-09-14",
           "url": null,
           "access": "public"
@@ -305,7 +305,7 @@
         {
           "name": "TSCS",
           "entity": "https://deepstack.ltd/people/tscs/",
-          "claim": "The creator argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to…",
+          "claim": "TSCS argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to close the…",
           "date": "2026-09-16",
           "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
           "access": "public"
@@ -338,7 +338,7 @@
         {
           "name": "TSCS",
           "entity": "https://deepstack.ltd/people/tscs/",
-          "claim": "The creator's forward view is that oil and long yields keep rising until stocks fall, because the S&P is the only release valve left: the bond-market valve that worked in April 2025 is the one the buybacks are designed to keep shut.",
+          "claim": "TSCS's forward view is that oil and long yields keep rising until stocks fall, because the S&P is the only release valve left: the bond-market valve that worked in April 2025 is the one the buybacks are designed to keep shut.",
           "date": "2026-09-16",
           "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go",
           "access": "public"
