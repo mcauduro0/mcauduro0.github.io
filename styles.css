@@ -1307,3 +1307,33 @@ path.lc-fc { stroke: var(--amber-ink); }
 .scorecard-counts { margin-bottom: 8px; }
 .scorecard-rate { margin-top: 4px; font: 600 12.5px/1.4 var(--sans); color: var(--muted); }
 .scorecard-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 28px; }
+
+/* Corrections (Lane N, 8 October 2026): the dated notice under a story's byline (brick rule, card background, existing tokens only) and the /corrections/ register, which reuses the Docket list and date tile. */
+.story-corrections { display: grid; gap: 10px; margin-top: 18px; }
+.story-correction { max-width: 70ch; padding: 12px 16px; border-left: 3px solid var(--brick); border-radius: 0 var(--radius) var(--radius) 0; background: var(--card); font: 400 15px/1.5 var(--sans); color: var(--ink-2); }
+.story-correction-label { color: var(--ink); font-weight: 700; }
+.story-correction time { font-variant-numeric: tabular-nums; }
+.story-correction-policy { font: 600 12.5px/1.4 var(--sans); }
+.story-correction-policy a { color: var(--amber-ink); text-decoration: none; }
+.story-correction-policy a:hover { text-decoration: underline; }
+.corrections-register { padding-bottom: clamp(20px, 3vw, 36px); }
+.corrections-register .archive-bar { margin-top: 0; }
+.corrections-list { margin-top: 8px; }
+.corrections-list .corrections-text { max-width: 70ch; font: 400 17.5px/1.5 var(--serif); color: var(--ink); }
+.corrections-empty { padding-block: clamp(20px, 3vw, 36px); }
+.corrections-empty .section-head > p a { color: var(--amber-ink); }
+.page-corrections .docket-fine a { color: var(--amber-ink); }
+/* Follow (Seguir v0): one box on company, person and story pages; the site's tokens, paper on paper, additive. */
+.follow-box { margin-top: clamp(28px, 4vw, 44px); padding: clamp(22px, 3vw, 32px); background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); }
+.follow-box h2 { display: block; margin: 10px 0 18px; font: 700 clamp(22px, 2.4vw, 28px)/1.22 var(--serif); letter-spacing: -0.02em; color: var(--ink); }
+.follow-box h2::before { content: none; }
+.follow-form label { display: block; margin-bottom: 10px; font: 600 13px/1 var(--sans); color: var(--ink); }
+.follow-form .field-row input { border: 1px solid var(--rule); background: var(--paper); color: var(--ink); }
+.follow-form .field-row input::placeholder { color: var(--muted); }
+.follow-form .field-row input[aria-invalid="true"] { border-color: var(--brick); }
+.follow-form .fine { margin-top: 12px; max-width: 62ch; }
+.follow-form .form-status { color: var(--amber-ink); }
+.follow-form.is-done .field-row { opacity: 0.55; }
+.story-body .follow-box { font-size: 16px; line-height: 1.5; color: var(--ink-2); }
+.entity-section.follow-box { margin-top: clamp(12px, 2vw, 20px); margin-bottom: clamp(12px, 2vw, 20px); }
+@media (max-width: 560px) { .follow-form .field-row { flex-direction: column; } .follow-form .field-row .btn { width: 100%; } }

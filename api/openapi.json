@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-08T23:15:12Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T01:00:23Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
       "url": "https://deepstack.ltd/about/#standards"
@@ -147,6 +147,27 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Results"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/corrections.json": {
+      "get": {
+        "summary": "Corrections",
+        "operationId": "corrections",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "Every correction on every story, newest first, with the date of the change and the policy.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Corrections"
                 }
               }
             }
@@ -572,6 +593,70 @@
           }
         }
       },
+      "Correction": {
+        "type": "object",
+        "required": [
+          "date",
+          "text",
+          "url"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "text": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "CorrectionRow": {
+        "type": "object",
+        "required": [
+          "date",
+          "text",
+          "part",
+          "slug",
+          "story",
+          "url",
+          "storyUrl",
+          "api"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "text": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "story": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "storyUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
       "StorySummary": {
         "type": "object",
         "required": [
@@ -589,7 +674,8 @@
           "call",
           "keyNumbers",
           "sources",
-          "earlierVersion"
+          "earlierVersion",
+          "corrections"
         ],
         "properties": {
           "part": {
@@ -652,6 +738,13 @@
               "string",
               "null"
             ]
+          },
+          "corrections": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Correction"
+            },
+            "description": "The dated correction notices printed at the top of the story, newest first; empty when none."
           }
         }
       },
@@ -814,6 +907,7 @@
           "keyNumbers",
           "sources",
           "earlierVersion",
+          "corrections",
           "wordCount",
           "pullQuote",
           "verdict",
@@ -893,6 +987,12 @@
               "string",
               "null"
             ]
+          },
+          "corrections": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Correction"
+            }
           },
           "wordCount": {
             "type": "integer"
@@ -1843,6 +1943,52 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Result"
+            }
+          }
+        }
+      },
+      "Corrections": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "policy",
+          "count",
+          "stories",
+          "corrections"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "policy": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "stories": {
+            "type": "integer"
+          },
+          "corrections": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CorrectionRow"
             }
           }
         }

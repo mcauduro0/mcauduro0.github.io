@@ -1,4 +1,4 @@
-// Subscribe and contact forms: posts JSON to the house endpoints configured in
+// Subscribe, contact and follow forms: posts JSON to the house endpoints configured in
 // content/site.json. Loaded only when an endpoint exists. The only network call
 // in the site is fetch(endpoint), where endpoint comes from the form's data
 // attribute; scripts/check.mjs enforces that rule on the built file.
@@ -89,11 +89,62 @@
     });
   }
 
-  var api = { subscribePayload: subscribePayload, contactPayload: contactPayload };
+  // The Follow box (Seguir v0): {email, kind, slug, label} to the follow endpoint from the form's
+  // attribute; the label is the page's name, which the Worker keeps for its emails and pages.
+  // app.js validates only the newsletter form, so the address is checked here. The Worker
+  // answers the same "pending" for every address: one confirmation email, whoever it is.
+  function followPayload(email, kind, slug, label) {
+    var payload = { email: String(email || '').trim(), kind: String(kind || '').trim(), slug: String(slug || '').trim() };
+    var name = String(label || '').trim();
+    if (name) payload.label = name.slice(0, 80);
+    return payload;
+  }
+
+  function initFollow(doc) {
+    var forms = doc.querySelectorAll('form[data-follow-endpoint]');
+    Array.prototype.forEach.call(forms, function (form) {
+      var endpoint = form.getAttribute('data-follow-endpoint');
+      var input = form.querySelector('input[type="email"]');
+      var button = form.querySelector('button[type="submit"]');
+      var status = form.querySelector('.form-status');
+      var trap = form.querySelector('input[name="website"]');
+      var kind = form.querySelector('input[name="kind"]');
+      var slug = form.querySelector('input[name="slug"]');
+      var label = form.querySelector('input[name="label"]');
+      var name = (label && label.value) || form.getAttribute('data-follow-name') || '';
+      if (!endpoint || !input || !button || !status || !kind || !slug) return;
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        var email = String(input.value || '').trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+          input.setAttribute('aria-invalid', 'true');
+          status.textContent = 'Enter a valid email address.';
+          input.focus();
+          return;
+        }
+        input.removeAttribute('aria-invalid');
+        if (trap && trap.value) { status.textContent = 'Check your inbox for a confirmation email from DeepStack.'; return; }
+        button.disabled = true;
+        status.textContent = 'Sending…';
+        post(endpoint, followPayload(email, kind.value, slug.value, name)).then(function (response) {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json().catch(function () { return {}; });
+        }).then(function () {
+          form.classList.add('is-done');
+          input.value = '';
+          status.textContent = 'Check your inbox: one confirmation email from DeepStack starts the follow when you open its link.';
+        }).catch(function () {
+          status.textContent = 'The follow could not be sent. Try again in a moment.';
+        }).then(function () { button.disabled = false; });
+      });
+    });
+  }
+
+  var api = { subscribePayload: subscribePayload, contactPayload: contactPayload, followPayload: followPayload };
   if (typeof globalThis !== 'undefined') globalThis.DeepStackSubscribe = api;
 
   if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-    var start = function () { initSubscribe(window, document); initContact(document); };
+    var start = function () { initSubscribe(window, document); initContact(document); initFollow(document); };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
   }
 })();

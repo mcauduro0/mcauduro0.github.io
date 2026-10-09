@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:15:12Z",
+  "generatedAt": "2026-10-09T01:00:23Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -13,6 +13,7 @@
     "tests": 46,
     "datedTests": 24,
     "results": 0,
+    "corrections": 0,
     "sides": 10,
     "companies": 33,
     "people": 64,
@@ -38,6 +39,7 @@
     },
     "docket": "https://deepstack.ltd/api/v1/docket.json",
     "results": "https://deepstack.ltd/api/v1/results.json",
+    "corrections": "https://deepstack.ltd/api/v1/corrections.json",
     "sides": {
       "template": "https://deepstack.ltd/api/v1/sides/{slug}.json",
       "slugs": [
