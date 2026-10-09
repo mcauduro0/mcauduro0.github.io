@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
@@ -299,11 +299,14 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "NBIS",
-            "rule": "results reported => read the print",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+            "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+            "source": {
+              "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+            },
+            "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
           },
           "url": "https://deepstack.ltd/docket/#test-p03-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -413,11 +416,14 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "GOOGL",
-            "rule": "results reported => read the print",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+            "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+            "source": {
+              "label": "Alphabet investor relations, quarterly earnings release and call",
+              "url": "https://abc.xyz/investor/"
+            },
+            "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -955,11 +961,14 @@
           },
           "resolver": {
             "kind": "manual",
-            "rule": "",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+            "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
+            "source": {
+              "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+              "url": "https://www.sec.gov/edgar/search/"
+            },
+            "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
           },
           "url": "https://deepstack.ltd/docket/#test-p08-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -1089,11 +1098,14 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "META",
-            "rule": "results reported => read the print",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+            "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+            "source": {
+              "label": "Meta investor relations, third-quarter 2026 results",
+              "url": "https://investor.atmeta.com/"
+            },
+            "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
           },
           "url": "https://deepstack.ltd/docket/#test-p09-t01",
           "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1239,11 +1251,14 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "MSFT",
-            "rule": "results reported => read the print",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
+            "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
+            "source": {
+              "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+              "url": "https://www.sec.gov/edgar/search/"
+            },
+            "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
           },
           "url": "https://deepstack.ltd/docket/#test-p10-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",

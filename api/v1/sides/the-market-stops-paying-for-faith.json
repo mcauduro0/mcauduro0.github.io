@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -61,11 +61,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+        "source": {
+          "label": "Alphabet investor relations, quarterly earnings release and call",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -61,11 +61,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+        "source": {
+          "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+        },
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",

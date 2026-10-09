@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-09",
@@ -9,7 +9,7 @@
   "dated": 28,
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
   "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty.",
-  "specified": 1,
+  "specified": 13,
   "tests": [
     {
       "id": "p01-t01",
@@ -226,11 +226,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+        "source": {
+          "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+        },
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -301,8 +304,8 @@
       "date": "2026-09-08",
       "precision": "window",
       "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
-      "status": "pending",
-      "resultId": null,
+      "status": "inconclusive",
+      "resultId": "p03-t04",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -310,15 +313,18 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did investment-grade borrowers pay narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026 (September 8 to October 2) than on August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
-      "resultUrl": null
+      "resultUrl": "https://deepstack.ltd/results/#result-p03-t04"
     },
     {
       "id": "p03-t05",
@@ -367,11 +373,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+        "source": {
+          "label": "Alphabet investor relations, quarterly earnings release and call",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -442,8 +451,8 @@
       "date": "2026-09-08",
       "precision": "window",
       "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
-      "status": "pending",
-      "resultId": null,
+      "status": "inconclusive",
+      "resultId": "p04-t04",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -451,15 +460,18 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 price by October 2 with narrower new-issue concessions than August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
-      "resultUrl": null
+      "resultUrl": "https://deepstack.ltd/results/#result-p04-t04"
     },
     {
       "id": "p04-t05",
@@ -823,11 +835,14 @@
         "kind": "release",
         "release": "Treasury International Capital",
         "provider": "Treasury",
-        "rule": "release published => read the Japan line",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+        "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+        "source": {
+          "label": "U.S. Treasury, Major Foreign Holders of Treasury Securities (TIC)",
+          "url": "https://ticdata.treasury.gov/Publish/mfh.txt"
+        },
+        "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -910,11 +925,14 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+        "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
+        "source": {
+          "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -938,11 +956,14 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if the department publishes a final permit approval, with or without conditions, on or before November 23, 2026; the test resolves confirmed on yes and refuted on a published denial.",
+        "question": "Did the New Mexico Environment Department approve the air-quality permit for the fuel cells at the Project Jupiter campus in Doña Ana County by November 23, 2026?",
+        "source": {
+          "label": "New Mexico Environment Department, Air Quality Bureau permit decisions",
+          "url": "https://www.env.nm.gov/air-quality/"
+        },
+        "ambiguity": "A decision deferred past November 23, a permit withdrawn by the applicant, or an approval under appeal on that date is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -1051,11 +1072,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+        "source": {
+          "label": "Meta investor relations, third-quarter 2026 results",
+          "url": "https://investor.atmeta.com/"
+        },
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1080,11 +1104,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "BKNG",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read room nights and the direct mix from the release and the call; room nights above the year-earlier quarter and a direct share at or above the year-earlier share resolves confirmed, a decline in either resolves refuted.",
+        "question": "Did Booking Holdings report September-quarter room nights above the September quarter of 2025, with a direct-channel share of bookings no lower than the share it reported a year earlier?",
+        "source": {
+          "label": "Booking Holdings investor relations, third-quarter 2026 results",
+          "url": "https://ir.bookingholdings.com/"
+        },
+        "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1108,11 +1135,14 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; the test resolves confirmed on yes and refuted on no. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is the owner's reading from the same materials and goes in the Result, not in the verdict.",
+        "question": "Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?",
+        "source": {
+          "label": "Nike investor relations, investor day presentation and press release",
+          "url": "https://investors.nike.com/"
+        },
+        "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1193,11 +1223,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
+        "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
+        "source": {
+          "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1221,11 +1254,14 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Anthropic filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+        },
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",

@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": "p03-t04",
+    "testId": "p03-t04",
+    "part": 3,
+    "resolvedOn": "2026-10-08",
+    "verdict": "inconclusive",
+    "headline": "Inconclusive: no public figure covers the September concessions",
+    "body": [
+      "The test asked whether investment-grade borrowers paid narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026, September 8 to October 2, than on August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+      "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+    ],
+    "evidence": [
+      {
+        "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+        "value": "No public figure; dealer estimates are not published as a series",
+        "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+        "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+        "asOf": "2026-10-09"
+      }
+    ],
+    "callUpdate": {
+      "stance": null,
+      "conviction": null,
+      "note": "Conviction unchanged; the Call stands as written."
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-09T03:49:26Z",
+    "slug": "the-debt-behind-the-machines",
+    "headline_story": "The Machines Will Work. The Debt Might Not.",
+    "test": {
+      "date": "2026-09-08",
+      "when": "After Labor Day",
+      "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
+      "testId": "p03-t04",
+      "precision": "window",
+      "status": "inconclusive",
+      "resultId": "p03-t04",
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did investment-grade borrowers pay narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026 (September 8 to October 2) than on August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      }
+    }
+  },
+  {
+    "id": "p04-t04",
+    "testId": "p04-t04",
+    "part": 4,
+    "resolvedOn": "2026-10-08",
+    "verdict": "inconclusive",
+    "headline": "Inconclusive: no public figure covers the September concessions",
+    "body": [
+      "The test asked whether the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 priced by October 2 with narrower new-issue concessions than August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+      "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+    ],
+    "evidence": [
+      {
+        "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+        "value": "No public figure; dealer estimates are not published as a series",
+        "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+        "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+        "asOf": "2026-10-09"
+      }
+    ],
+    "callUpdate": {
+      "stance": null,
+      "conviction": null,
+      "note": "Conviction unchanged; the Call stands as written."
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-09T03:49:27Z",
+    "slug": "the-market-stops-paying-for-faith",
+    "headline_story": "AI Spending Has Met Its First Real Bill",
+    "test": {
+      "date": "2026-09-08",
+      "when": "After Labor Day",
+      "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
+      "testId": "p04-t04",
+      "precision": "window",
+      "status": "inconclusive",
+      "resultId": "p04-t04",
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 price by October 2 with narrower new-issue concessions than August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      }
+    }
+  }
+]

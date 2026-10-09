@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -63,11 +63,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+        "source": {
+          "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+        },
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -178,11 +181,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+        "source": {
+          "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+        },
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -253,8 +259,8 @@
       "date": "2026-09-08",
       "precision": "window",
       "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
-      "status": "pending",
-      "resultId": null,
+      "status": "inconclusive",
+      "resultId": "p03-t04",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -262,15 +268,18 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did investment-grade borrowers pay narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026 (September 8 to October 2) than on August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
-      "resultUrl": null
+      "resultUrl": "https://deepstack.ltd/results/#result-p03-t04"
     },
     {
       "id": "p03-t05",
@@ -301,7 +310,39 @@
       "resultUrl": null
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "id": "p03-t04",
+      "testId": "p03-t04",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "story": "The Machines Will Work. The Debt Might Not.",
+      "resolvedOn": "2026-10-08",
+      "verdict": "inconclusive",
+      "headline": "Inconclusive: no public figure covers the September concessions",
+      "body": [
+        "The test asked whether investment-grade borrowers paid narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026, September 8 to October 2, than on August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+        "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+      ],
+      "evidence": [
+        {
+          "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+          "value": "No public figure; dealer estimates are not published as a series",
+          "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+          "asOf": "2026-10-09"
+        }
+      ],
+      "callUpdate": {
+        "stance": null,
+        "conviction": null,
+        "note": "Conviction unchanged; the Call stands as written."
+      },
+      "approvedAt": "2026-10-09T03:49:26Z",
+      "url": "https://deepstack.ltd/results/#result-p03-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#result-p03-t04"
+    }
+  ],
   "entities": [
     {
       "kind": "company",

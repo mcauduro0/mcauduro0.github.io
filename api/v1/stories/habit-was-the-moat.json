@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -63,11 +63,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+        "source": {
+          "label": "Meta investor relations, third-quarter 2026 results",
+          "url": "https://investor.atmeta.com/"
+        },
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -267,11 +270,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+        "source": {
+          "label": "Meta investor relations, third-quarter 2026 results",
+          "url": "https://investor.atmeta.com/"
+        },
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -296,11 +302,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "BKNG",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read room nights and the direct mix from the release and the call; room nights above the year-earlier quarter and a direct share at or above the year-earlier share resolves confirmed, a decline in either resolves refuted.",
+        "question": "Did Booking Holdings report September-quarter room nights above the September quarter of 2025, with a direct-channel share of bookings no lower than the share it reported a year earlier?",
+        "source": {
+          "label": "Booking Holdings investor relations, third-quarter 2026 results",
+          "url": "https://ir.bookingholdings.com/"
+        },
+        "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -324,11 +333,14 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; the test resolves confirmed on yes and refuted on no. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is the owner's reading from the same materials and goes in the Result, not in the verdict.",
+        "question": "Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?",
+        "source": {
+          "label": "Nike investor relations, investor day presentation and press release",
+          "url": "https://investors.nike.com/"
+        },
+        "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",

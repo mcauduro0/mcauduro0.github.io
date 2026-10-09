@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:07:01Z",
+  "generatedAt": "2026-10-09T03:54:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -63,11 +63,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+        "source": {
+          "label": "Alphabet investor relations, quarterly earnings release and call",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -232,11 +235,14 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+        "source": {
+          "label": "Alphabet investor relations, quarterly earnings release and call",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -307,8 +313,8 @@
       "date": "2026-09-08",
       "precision": "window",
       "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
-      "status": "pending",
-      "resultId": null,
+      "status": "inconclusive",
+      "resultId": "p04-t04",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -316,15 +322,18 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
+        "question": "Did the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 price by October 2 with narrower new-issue concessions than August's deals?",
+        "source": {
+          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        },
+        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
-      "resultUrl": null
+      "resultUrl": "https://deepstack.ltd/results/#result-p04-t04"
     },
     {
       "id": "p04-t05",
@@ -355,7 +364,39 @@
       "resultUrl": null
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "id": "p04-t04",
+      "testId": "p04-t04",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "story": "AI Spending Has Met Its First Real Bill",
+      "resolvedOn": "2026-10-08",
+      "verdict": "inconclusive",
+      "headline": "Inconclusive: no public figure covers the September concessions",
+      "body": [
+        "The test asked whether the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 priced by October 2 with narrower new-issue concessions than August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+        "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+      ],
+      "evidence": [
+        {
+          "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+          "value": "No public figure; dealer estimates are not published as a series",
+          "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+          "asOf": "2026-10-09"
+        }
+      ],
+      "callUpdate": {
+        "stance": null,
+        "conviction": null,
+        "note": "Conviction unchanged; the Call stands as written."
+      },
+      "approvedAt": "2026-10-09T03:49:27Z",
+      "url": "https://deepstack.ltd/results/#result-p04-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#result-p04-t04"
+    }
+  ],
   "entities": [
     {
       "kind": "company",
