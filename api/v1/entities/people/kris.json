@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kris",
@@ -7,7 +7,7 @@
   "role": "Potential Multibaggers",
   "url": "https://deepstack.ltd/people/kris/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kris.json",
-  "summary": "Kris appears in Part 1, Part 2, Part 4, Part 7, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
+  "summary": "Kris appears in Part 1, Part 2, Part 4, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
   "parts": [
     {
       "part": 1,
@@ -38,6 +38,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -107,6 +112,12 @@
       "section": "Who writes the checks",
       "excerpt": "AWS is capacity-constrained, Kris says.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "section": "Open weights set the price",
+      "excerpt": "Kris, on September 14, relayed Vercel's count: open models at 62% of its AI Gateway tokens, from 28.4% two months earlier.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [

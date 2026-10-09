@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "gaetano",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/gaetano/",
   "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
-  "summary": "Gaetano appears in Part 6, Part 8, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides).",
+  "summary": "Gaetano appears in Part 6, Part 8, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
   "parts": [
     {
       "part": 6,
@@ -23,6 +23,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -82,6 +87,12 @@
       "section": "Lede",
       "excerpt": "Twelve days later Gaetano counted Tower Semiconductor's $1.3 billion of contractual silicon photonics commitments for 2027, backed by about $290 million of customer prepayments.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Gaetano's Alphabet case of October 4 leans the other way, on Cloud at $24.8 billion in the second quarter, up 82%, and on the Anthropic agreement as a way Google earns beneath a rival's interface.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -204,6 +215,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Criteo launched an Agentic Commerce Recommendation Service letting AI systems use Criteo's commerce intelligence to rank products, and OpenAI selected Criteo as its first advertising technology partner for ChatGPT Ads, with more than 2,000 brands…",
+      "date": "2026-09-23",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

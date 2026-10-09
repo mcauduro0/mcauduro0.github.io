@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "market-sentiment",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/market-sentiment/",
   "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-  "summary": "Market Sentiment appears in Part 3, Part 8, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
+  "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
   "parts": [
     {
       "part": 3,
@@ -23,6 +23,11 @@
       "part": 9,
       "headline": "Habit Was the Moat. Agents Are Draining It.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -52,6 +57,24 @@
       "section": "What software keeps",
       "excerpt": "Market Sentiment says the industry that creates a technology rarely captures its value, and that software can prosper when tokens are cheap if it owns unique data, distribution, an unleaveable workflow or the system of record.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Market Sentiment, on September 17, reasoned from the spending down: about $1.2 trillion of AI capex next year should drive about $2 trillion of incremental revenue.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "The two were judged in contradiction, and DeepStack sides with Burry, whose charge rests on a related-party contract that a filing must disclose, where Market Sentiment's figure rests on an assumed rate of return.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [

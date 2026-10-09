@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "apollo-global-management",
@@ -7,7 +7,7 @@
   "ticker": "APO",
   "url": "https://deepstack.ltd/companies/apollo-global-management/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-  "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
+  "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 1,
@@ -48,6 +48,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -85,6 +90,13 @@
       "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
       "part": 10,
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "value": "4 months",
+      "label": "The gap between the Chinese open models and the frontier",
+      "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "mentions": [

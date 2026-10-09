@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "microsoft",
@@ -7,7 +7,7 @@
   "ticker": "MSFT",
   "url": "https://deepstack.ltd/companies/microsoft/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-  "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
+  "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 2,
@@ -48,6 +48,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -208,9 +213,9 @@
     }
   ],
   "coverage": {
-    "creators": 116,
-    "claims": 811,
-    "texts": 494,
+    "creators": 121,
+    "claims": 828,
+    "texts": 502,
     "asOf": "2026-10-09"
   },
   "lastUpdated": "2026-10-09",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "anthropic",
@@ -7,7 +7,7 @@
   "ticker": null,
   "url": "https://deepstack.ltd/companies/anthropic/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/anthropic.json",
-  "summary": "Anthropic appears in Part 1, Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator.",
+  "summary": "Anthropic appears in Part 1, Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 1,
@@ -48,6 +48,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -71,6 +76,20 @@
       "context": "Michael Spencer; preliminary June quarter 2026",
       "part": 5,
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "value": "$4 vs $10",
+      "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
+      "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "value": "A quarter",
+      "label": "Share of Anthropic's 2025 revenue that came from two customers",
+      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "mentions": [
@@ -303,12 +322,180 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+      "date": "2026-07-20",
+      "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Tae Kim anticipates a close back-and-forth for model leadership between OpenAI and Anthropic over the next six months, expects another Anthropic model release before or around its IPO, and predicts both American frontier labs should do great once…",
+      "date": "2026-10-02",
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Tae Kim argues the earlier media consensus that OpenAI had fallen too far behind Anthropic was wrong, and that OpenAI pivoted resources to agentic coding after Anthropic's December lead, largely caught up by April, and arguably surpassed Anthropic…",
+      "date": "2026-10-02",
+      "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Oguz Erkan says the concentration of the LLM market is still unknown: OpenAI and Anthropic take the lion's share of token dollars but their share of token volume has been declining, so the LLM market could be far more fragmented in 3-5 years, which…",
+      "date": "2026-09-13",
+      "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Wyndo recommends trying open-weight models if a user keeps hitting usage limits on Claude or ChatGPT, or wants to lower the cost of certain tasks, since some work may run well on an open-weight model while saving the subscription for tasks where…",
+      "date": "2026-09-13",
+      "url": "https://aimaker.substack.com/p/claude-code-free-openrouter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+      "date": "2026-10-01",
+      "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Steve says the AI story probably continues as long as token growth keeps rising, and identifies a price war between Anthropic, OpenAI and the Chinese models as the main risk that could change it.",
+      "date": "2026-09-28",
+      "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
+      "date": "2026-07-15",
+      "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Alphabet's reported 112% Google Cloud backlog growth is suspect because a new category of unknown size — TPU system sales contracts — was added to cloud backlog in the last six months, and one of the largest TPU customers is Anthropic, in which…",
+      "date": "2026-09-24",
+      "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+      "date": "2026-09-21",
+      "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Anthropic looks likely to file for an IPO soon, and it will want to do that while token usage numbers are still near their peak, before the picture gets less flattering.",
+      "date": "2026-09-21",
+      "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "The AI trade's foundations are shaky because roughly seventy percent of the hyperscalers' AI revenue traces back to just two customers, OpenAI and Anthropic, both of which are burning enormous amounts of cash, so if either stumbles the entire…",
+      "date": "2026-09-21",
+      "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "OpenAI is in deep trouble in 2027 due to pressure in consumer AI from Meta and SpaceXAI, pressure from Chinese open-source models on cost and token marketshare, and being late to IPO while being overtaken in ARR and growth by Anthropic in…",
+      "date": "2026-09-29",
+      "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Michael Spencer argues that in 2026 Chinese open-weight models are taking serious market share from incumbents like OpenAI and Anthropic, because the Chinese labs are only a few months behind the frontier and shortening release gaps mean even…",
+      "date": "2026-09-11",
+      "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {
-    "creators": 120,
-    "claims": 2067,
-    "texts": 746,
+    "creators": 122,
+    "claims": 2069,
+    "texts": 748,
     "asOf": "2026-10-09"
   },
   "lastUpdated": "2026-10-09",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise).",
+  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
   "parts": [
     {
       "part": 1,
@@ -43,6 +43,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -149,6 +154,12 @@
       "section": "Lede",
       "excerpt": "Michael Burry, reading Microsoft's filing on September 24 and 26, notes that backlog due beyond one year grew 113% while backlog due within a year grew 37%, and that the share of the book turning into revenue inside twelve months fell to 30% from 40%.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Michael Burry, on September 24, read Google Cloud's 112% backlog growth as suspect because a category of unknown size, TPU system sales contracts, entered the book in the last six months, and one of the largest TPU customers is Anthropic, in which Alphabet holds 14% and agreed in April to invest up to $40 billion.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -319,6 +330,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Alphabet's reported 112% Google Cloud backlog growth is suspect because a new category of unknown size — TPU system sales contracts — was added to cloud backlog in the last six months, and one of the largest TPU customers is Anthropic, in which…",
+      "date": "2026-09-24",
+      "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

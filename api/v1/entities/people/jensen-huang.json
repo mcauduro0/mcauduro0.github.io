@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "jensen-huang",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/jensen-huang/",
   "api": "https://deepstack.ltd/api/v1/entities/people/jensen-huang.json",
-  "summary": "Jensen Huang appears in Part 10, Part 11 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
+  "summary": "Jensen Huang appears in Part 10, Part 11, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 10,
@@ -18,6 +18,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -33,6 +38,12 @@
       "section": "The margin the book does not show",
       "excerpt": "Tae Kim, reporting Jensen Huang's press session on September 29, answers with the asset rather than the invoice: the GPUs are productive, fungible and durable.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "Nine are Spencer against Kim on who leads the model race, Part 5's question, and three more are Spencer against Jensen Huang as Kim relayed him; about twenty bear on this one.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [],

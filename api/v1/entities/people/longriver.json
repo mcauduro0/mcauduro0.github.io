@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "longriver",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/longriver/",
   "api": "https://deepstack.ltd/api/v1/entities/people/longriver.json",
-  "summary": "Longriver appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
+  "summary": "Longriver appears in Part 1, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 12: The Model Is Not the Price. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid).",
   "parts": [
     {
       "part": 1,
       "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,24 @@
       "section": "Backlog or bottleneck",
       "excerpt": "Graham Rhodes of Longriver, whose fund has owned Nvidia since 2025, changes the unit of account.",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "Longriver Investment Partners Limited, in its July 20 letter, relayed an annualized run-rate at Anthropic of $1 billion at the end of 2024, $9 billion at the end of 2025 and almost $50 billion in May, as proof that customers pay for agentic work.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Longriver's run-rate was judged in direct contradiction with three managers of the same season.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "Four run-rates, three dates",
+      "excerpt": "Longriver's Anthropic run-rate was almost $50 billion in May.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -36,6 +59,18 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
       "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+      "date": "2026-07-20",
+      "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

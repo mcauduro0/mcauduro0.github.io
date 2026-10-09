@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-09T22:29:49Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "charlie-hills",
+  "name": "Charlie Hills",
+  "role": null,
+  "url": "https://deepstack.ltd/people/charlie-hills/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/charlie-hills.json",
+  "summary": "Charlie Hills appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
+  "parts": [
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$4 vs $10",
+      "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
+      "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "On September 27, Charlie Hills put Anthropic's Opus 5.5 at $4 per million input tokens against $10 for OpenAI's GPT-6 Astra, 60% cheaper.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Opus 5.5 is 60% cheaper than Astra, at $4 versus $10 per million input tokens.",
+      "date": "2026-09-27",
+      "url": "https://charliehills.substack.com/p/claude-code-motion-graphics",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 773,
+    "texts": 69,
+    "asOf": "2026-10-09"
+  },
+  "lastUpdated": "2026-10-09"
+}

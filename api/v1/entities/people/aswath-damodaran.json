@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "aswath-damodaran",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/aswath-damodaran/",
   "api": "https://deepstack.ltd/api/v1/entities/people/aswath-damodaran.json",
-  "summary": "Aswath Damodaran appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+  "summary": "Aswath Damodaran appears in Part 10, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "Who writes the checks",
       "excerpt": "Citing Aswath Damodaran, Silverio says that price would require about $1.2 trillion of annual revenue inside a decade, while everything sold under the AI label adds up to roughly $250 billion today.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [],

@@ -1,6 +1,6 @@
 # DeepStack: The Buildout, every story and its Call
 
-The money behind the machine. Generated 2026-10-09T20:53:34Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+The money behind the machine. Generated 2026-10-09T22:29:49Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
 
 ## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
 URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
@@ -229,5 +229,27 @@ Next test: Oct 28, 2026 (pending): Microsoft reports: the share of backlog due w
 Key numbers: $10B Ciena's backlog floor at the end of fiscal 2026 (Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029); 113% Growth in Microsoft's backlog due beyond one year (Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%); 1 year Nvidia's terms for its best-rated customers (From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026); $28B Meta's residual-value guarantee on its data-center venture (Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash)
 Who is on each side: https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/
 JSON: https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json
+
+## Part 12: The Model Is Not the Price
+URL: https://deepstack.ltd/stories/the-model-is-not-the-price/
+Published: 2026-10-09 · Markets · 10 min read
+Dek: A frontier model now lists at $4 per million input tokens, open and Chinese models carry most of the tokens on the platforms that count them, and the two labs' revenue is counted in the tens of billions. Investors agree the token is cheap. They differ on what the lab is paid for, and only a prospectus on EDGAR can settle it.
+Summary: The token is cheap and getting cheaper; the labs' revenue is counted in the tens of billions, and none of it is audited on EDGAR. DeepStack reads the model's price as a four-month lease and the lab's price as a line in a filing the public has yet to read.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): The price has left the model
+Call: A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.
+What to do with this:
+1. Separate token volume from token dollars: OpenRouter's 57% to 67% and Vercel's 62% in September are volume; the dollar share is uncounted.
+2. Date every run-rate before comparing two: Longriver's May, Romero's July and Kim's October 2 figures are not updates of one another.
+3. Read the customer note before the growth rate when the prospectus lands: Silverio's quarter from two customers is the line to clear first.
+What would change the call:
+- A prospectus with audited revenue near the relayed run-rates, no customer above a tenth of sales and no investor-linked revenue to disclose.
+- Alphabet sizes the TPU contracts with Anthropic inside them on October 28 and Cloud growth holds without them, retiring Burry's charge.
+- No registration on EDGAR by October 31 while either lab cuts list prices again; the house moves toward the open-weights reading.
+Our Call takes the side “The filing sets the price”.
+The strongest case against our call: Market Sentiment (2026-09-17): Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business… https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything
+Next test: Oct 28, 2026 (pending): Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them. https://deepstack.ltd/docket/#test-p12-t01
+Key numbers: $4 vs $10 Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra (Charlie Hills, Sep 27, 2026; the frontier undercut by 60%); 57% to 67% Chinese models' share of token usage on OpenRouter by September (As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22); 4 months The gap between the Chinese open models and the frontier (Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026); A quarter Share of Anthropic's 2025 revenue that came from two customers (Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google)
+Who is on each side: https://deepstack.ltd/sides/the-model-is-not-the-price/
+JSON: https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json
 
 Analysis and opinion, not investment advice.

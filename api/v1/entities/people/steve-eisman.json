@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "steve-eisman",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/steve-eisman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-  "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+  "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
   "parts": [
     {
       "part": 4,
@@ -48,6 +48,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -132,6 +137,12 @@
       "section": "The margin the book does not show",
       "excerpt": "George Noble, on Steve Eisman's program on September 21, reads the same demand from the other end: a vendor funding its customers' purchases is not evidence that the money underneath is solid.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "section": "Open weights set the price",
+      "excerpt": "Steve Eisman, on September 11, read OpenAI's cut on its GPT model, with a reported tenfold jump in usage, as the beginning of a price war in AI services; by September 28 he called a price war among the two labs and the Chinese models the chief risk to the AI story.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -278,6 +289,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "OpenAI's price cut on its GPT model, combined with a reported tenfold jump in usage, looks like the beginning of a price war in AI services.",
+      "date": "2026-09-11",
+      "url": "https://realeismanplaybook.substack.com/p/ai-terminator-fears-grow-and-rates",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Steve says the AI story probably continues as long as token growth keeps rising, and identifies a price war between Anthropic, OpenAI and the Chinese models as the main risk that could change it.",
+      "date": "2026-09-28",
+      "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Anthropic looks likely to file for an IPO soon, and it will want to do that while token usage numbers are still near their peak, before the picture gets less flattering.",
+      "date": "2026-09-21",
+      "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

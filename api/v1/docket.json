@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-09",
   "api": "https://deepstack.ltd/api/v1/docket.json",
   "calendar": "https://deepstack.ltd/docket.ics",
-  "count": 51,
-  "dated": 28,
+  "count": 56,
+  "dated": 32,
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
   "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty.",
-  "specified": 13,
+  "specified": 16,
   "tests": [
     {
       "id": "p01-t01",
@@ -1495,6 +1495,158 @@
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t05",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p12-t01",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "when": "October 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+        "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
+        "source": {
+          "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
+        },
+        "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p12-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p12-t02",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "when": "October 29",
+      "whenLabel": "Oct 29, 2026",
+      "date": "2026-10-29",
+      "precision": "day",
+      "event": "Amazon reports: it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's October 5 count of 47% of Anthropic's sales through Amazon and Google.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "AMZN",
+        "rule": "Confirmed if the concentration note of the 10-Q, the release or the call names a customer or a group of customers at 10% or more of AWS revenue, or states Anthropic's share of AWS sales; refuted if the quarter is reported with no such disclosure. The figure is read against Silverio's October 5 count of 47% of Anthropic's sales running through Amazon and Google.",
+        "question": "Did Amazon, in its third-quarter 2026 results of October 29, 2026 (the earnings release, the 10-Q or the call), disclose a customer or a group of customers at 10% or more of AWS revenue, or quantify Anthropic's share of AWS sales?",
+        "source": {
+          "label": "Amazon Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1018724)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-Q"
+        },
+        "ambiguity": "A concentration disclosure given only for Amazon as a whole, without an AWS figure, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p12-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p12-t03",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "when": "October 31",
+      "whenLabel": "Oct 31, 2026",
+      "date": "2026-10-31",
+      "precision": "day",
+      "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p12-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p12-t04",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether it names the labs among its largest customers, against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue from the two.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Confirmed if the concentration note of the 10-Q, the release or the call names either lab as a direct or indirect customer at 10% or more of revenue, or states a share of revenue for the two labs together; refuted if the customers at 10% or more are described without naming either lab and no share for the labs is given. The figure is read against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue coming from the two labs.",
+        "question": "Did Nvidia, in its third-quarter fiscal 2027 results of November 18, 2026 (the earnings release, the 10-Q or the call), name OpenAI or Anthropic as a customer at 10% or more of revenue, or state the two labs' share of its revenue?",
+        "source": {
+          "label": "Nvidia Q3 FY2027 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1045810)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "A disclosure that names a lab only as an indirect end customer without a share is inconclusive, reviewed by the owner. A report delayed past December 15, 2026 is inconclusive.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p12-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p12-t05",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "when": "When it files",
+      "whenLabel": "When it files",
+      "date": null,
+      "precision": "signal",
+      "event": "The prospectus: the gross margin on inference, customer concentration against Silverio's October 5 count of a quarter from two customers, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "When it files",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p12-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
       "resultUrl": null
     }
   ]

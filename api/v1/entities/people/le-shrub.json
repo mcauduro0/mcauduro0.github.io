@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-09T22:29:49Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "le-shrub",
+  "name": "Le Shrub",
+  "role": null,
+  "url": "https://deepstack.ltd/people/le-shrub/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/le-shrub.json",
+  "summary": "Le Shrub appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "57% to 67%",
+      "label": "Chinese models' share of token usage on OpenRouter by September",
+      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 12,
+      "section": "Open weights set the price",
+      "excerpt": "Le Shrub had Chinese models at 66% of token share on September 22.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "Open weights set the price",
+      "excerpt": "Spencer conceded on September 11 that the Chinese labs' share of token spending remains to be seen; Le Shrub's 66% answered him on volume; the dollar share is still uncounted.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "Four run-rates, three dates",
+      "excerpt": "Spencer reported on September 16 that OpenAI had delayed its listing until next year; Le Shrub, on September 22, relayed Alex Karp's view that OpenAI will never list.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "China is gaining ground in AI, with Chinese models now accounting for 66% of token share.",
+      "date": "2026-09-22",
+      "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Chinese models at 66% of tokens; Karp's never-IPO call on OpenAI.",
+      "date": null,
+      "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 650,
+    "texts": 89,
+    "asOf": "2026-10-09"
+  },
+  "lastUpdated": "2026-10-09"
+}

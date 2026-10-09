@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
   "method": "How DeepStack settles a question",
   "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
-  "count": 11,
+  "count": 12,
   "questions": [
     {
       "slug": "is-the-marginal-buyer-of-ai-compute-real",
@@ -1126,7 +1126,7 @@
             "side": "Eighteen months, or less",
             "against": {
               "name": "Le Shrub",
-              "entity": null,
+              "entity": "https://deepstack.ltd/people/le-shrub/",
               "claim": "Le Shrub questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
               "date": "2026-09-22",
               "url": "https://www.shrubstack.com/p/uncomfortable-truths",
@@ -1497,6 +1497,137 @@
         },
         "url": "https://deepstack.ltd/docket/#test-p11-t01",
         "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "does-the-frontier-model-still-command-a-price",
+      "question": "Does the frontier model still command a price?",
+      "title": null,
+      "headline": "Does the frontier model still command a price?",
+      "url": "https://deepstack.ltd/questions/does-the-frontier-model-still-command-a-price/",
+      "api": "https://deepstack.ltd/api/v1/questions/does-the-frontier-model-still-command-a-price.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "question": "Does the frontier model still command a price?",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "The price has left the model",
+            "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Separate token volume from token dollars: OpenRouter's 57% to 67% and Vercel's 62% in September are volume; the dollar share is uncounted.",
+              "Date every run-rate before comparing two: Longriver's May, Romero's July and Kim's October 2 figures are not updates of one another.",
+              "Read the customer note before the growth rate when the prospectus lands: Silverio's quarter from two customers is the line to clear first."
+            ],
+            "flips": [
+              "A prospectus with audited revenue near the relayed run-rates, no customer above a tenth of sales and no investor-linked revenue to disclose.",
+              "Alphabet sizes the TPU contracts with Anthropic inside them on October 28 and Cloud growth holds without them, retiring Burry's charge.",
+              "No registration on EDGAR by October 31 while either lab cuts list prices again; the house moves toward the open-weights reading."
+            ],
+            "side": "The filing sets the price",
+            "against": {
+              "name": "Market Sentiment",
+              "entity": "https://deepstack.ltd/people/market-sentiment/",
+              "claim": "Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+              "date": "2026-09-17",
+              "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+              "access": "public",
+              "answers": "Michael Burry",
+              "relation": "contradicts",
+              "dimension": "evidence"
+            },
+            "version": 1,
+            "updatedOn": "2026-10-09",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "stance": "The price has left the model",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+                "side": "The filing sets the price",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p12-t01",
+              "part": 12,
+              "slug": "the-model-is-not-the-price",
+              "when": "October 28",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "GOOGL",
+                "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+                "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
+                "source": {
+                  "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
+                },
+                "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p12-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p12-t01",
+        "part": 12,
+        "slug": "the-model-is-not-the-price",
+        "when": "October 28",
+        "whenLabel": "Oct 28, 2026",
+        "date": "2026-10-28",
+        "precision": "day",
+        "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[0].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "GOOGL",
+          "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+          "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
+          "source": {
+            "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
+          },
+          "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p12-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
         "resultUrl": null
       }
     }

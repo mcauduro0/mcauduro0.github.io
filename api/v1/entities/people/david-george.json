@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "david-george",
@@ -7,7 +7,7 @@
   "role": "a16z",
   "url": "https://deepstack.ltd/people/david-george/",
   "api": "https://deepstack.ltd/api/v1/entities/people/david-george.json",
-  "summary": "David George appears in Part 9, Part 10 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices).",
+  "summary": "David George appears in Part 9, Part 10, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices), Part 12 (Voices that cross sides).",
   "parts": [
     {
       "part": 9,
@@ -18,6 +18,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -45,6 +50,12 @@
       "section": "A cheap top",
       "excerpt": "David George says rental rates and residual values were supposed to fall but have not; A100 rental prices are no lower than in January.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "section": "The frontier is still paid",
+      "excerpt": "David George of a16z, on September 28, located OpenAI's edge away from the model: at the model layer switching is easy down to the single task and no advantage sticks, so OpenAI prevails by creating new kinds of customers and by durable distribution.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -107,6 +118,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Cheaper intelligence lifts all; at the model layer no edge sticks.",
+      "date": null,
+      "url": "https://www.a16z.news/p/openai-understands-something-important",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

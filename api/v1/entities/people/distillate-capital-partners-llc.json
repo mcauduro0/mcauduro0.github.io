@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-09T22:29:49Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "distillate-capital-partners-llc",
+  "name": "Distillate Capital Partners LLC",
+  "role": null,
+  "url": "https://deepstack.ltd/people/distillate-capital-partners-llc/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/distillate-capital-partners-llc.json",
+  "summary": "Distillate Capital Partners LLC appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (The filing sets the price).",
+  "parts": [
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "Distillate Capital Partners LLC, on July 15, counted roughly $180 billion committed by the hyperscalers and Nvidia to the two labs, about $1.1 trillion of compute pledged back, and $53 billion of first-quarter hyperscaler net income, 34% of the total, booked as non-cash marks on those stakes.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-filing-sets-the-price",
+      "sideLabel": "The filing sets the price",
+      "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
+      "date": "2026-07-15",
+      "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 53,
+    "texts": 4,
+    "asOf": "2026-10-09"
+  },
+  "lastUpdated": "2026-10-09"
+}

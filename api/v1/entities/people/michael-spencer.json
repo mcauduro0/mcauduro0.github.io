@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-spencer",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/michael-spencer/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-spencer.json",
-  "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet).",
+  "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 5,
@@ -28,6 +28,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -37,6 +42,13 @@
       "context": "Michael Spencer; preliminary June quarter 2026",
       "part": 5,
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "value": "57% to 67%",
+      "label": "Chinese models' share of token usage on OpenRouter by September",
+      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "mentions": [
@@ -69,6 +81,12 @@
       "section": "Who writes the checks",
       "excerpt": "Michael Spencer adds a price warning: Ramp’s index showed what customers pay per million tokens down 41% from its March peak, to $0.68.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "On October 1, Michael Spencer counted Chinese models at 57% to 67% of token usage on the OpenRouter platform by September.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -215,6 +233,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Chinese AI models captured a majority share of 57% to 67% of total token usage on the OpenRouter developer platform by September 2026, eroding OpenAI's token marketshare even as OpenAI subsidizes its new cheaper GPT-6.1 Sol model.",
+      "date": "2026-10-01",
+      "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+      "date": "2026-10-01",
+      "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

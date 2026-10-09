@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T20:53:34Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T22:29:49Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -57,7 +57,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The 11 parts of The Buildout with The DeepStack Call, key numbers and sources.",
+            "description": "The 12 parts of The Buildout with The DeepStack Call, key numbers and sources.",
             "content": {
               "application/json": {
                 "schema": {
@@ -95,7 +95,8 @@
                 "the-scarcity-is-the-collateral",
                 "habit-was-the-moat",
                 "the-bubble-is-in-the-denominator",
-                "the-backlog-is-not-the-quarter"
+                "the-backlog-is-not-the-quarter",
+                "the-model-is-not-the-price"
               ]
             }
           }
@@ -239,6 +240,7 @@
                 "the-debt-behind-the-machines",
                 "the-fed-hiked-the-long-end-kept-climbing",
                 "the-market-stops-paying-for-faith",
+                "the-model-is-not-the-price",
                 "the-scarcity-is-the-collateral"
               ]
             }
@@ -284,6 +286,7 @@
                 "the-debt-behind-the-machines",
                 "the-fed-hiked-the-long-end-kept-climbing",
                 "the-market-stops-paying-for-faith",
+                "the-model-is-not-the-price",
                 "the-scarcity-is-the-collateral"
               ]
             }
@@ -312,7 +315,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The 11 questions DeepStack settles, one page each: the Part, The DeepStack Call and the next dated test.",
+            "description": "The 12 questions DeepStack settles, one page each: the Part, The DeepStack Call and the next dated test.",
             "content": {
               "application/json": {
                 "schema": {
@@ -350,7 +353,8 @@
                 "who-writes-the-checks-for-the-buildout",
                 "how-fast-do-habits-break",
                 "does-the-hardware-hold-its-value",
-                "do-the-orders-turn-into-profit"
+                "do-the-orders-turn-into-profit",
+                "does-the-frontier-model-still-command-a-price"
               ]
             }
           }
@@ -399,7 +403,7 @@
         ],
         "responses": {
           "200": {
-            "description": "68 people with what each argued; no score or ranking.",
+            "description": "72 people with what each argued; no score or ranking.",
             "content": {
               "application/json": {
                 "schema": {

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-09T22:29:49Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "alex-karp",
+  "name": "Alex Karp",
+  "role": null,
+  "url": "https://deepstack.ltd/people/alex-karp/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/alex-karp.json",
+  "summary": "Alex Karp appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price.",
+  "parts": [
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 12,
+      "section": "Four run-rates, three dates",
+      "excerpt": "Spencer reported on September 16 that OpenAI had delayed its listing until next year; Le Shrub, on September 22, relayed Alex Karp's view that OpenAI will never list.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 2,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-09"
+  },
+  "lastUpdated": "2026-10-09"
+}

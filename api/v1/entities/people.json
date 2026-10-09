@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "url": "https://deepstack.ltd/people/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/people.json",
   "kind": "person",
-  "count": 68,
+  "count": 72,
   "note": "What each person argued, attributed and dated. No score, ranking or accuracy figure exists for anyone.",
   "people": [
     {
@@ -139,6 +139,39 @@
         "creators": 0,
         "claims": 68,
         "texts": 7,
+        "asOf": "2026-10-09"
+      },
+      "lastUpdated": "2026-10-09"
+    },
+    {
+      "kind": "person",
+      "slug": "alex-karp",
+      "name": "Alex Karp",
+      "role": null,
+      "url": "https://deepstack.ltd/people/alex-karp/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/alex-karp.json",
+      "summary": "Alex Karp appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price.",
+      "parts": [
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 12,
+          "section": "Four run-rates, three dates",
+          "excerpt": "Spencer reported on September 16 that OpenAI had delayed its listing until next year; Le Shrub, on September 22, relayed Alex Karp's view that OpenAI will never list.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 2,
+        "claims": 0,
+        "texts": 0,
         "asOf": "2026-10-09"
       },
       "lastUpdated": "2026-10-09"
@@ -291,12 +324,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/aswath-damodaran/",
       "api": "https://deepstack.ltd/api/v1/entities/people/aswath-damodaran.json",
-      "summary": "Aswath Damodaran appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+      "summary": "Aswath Damodaran appears in Part 10, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -306,6 +344,12 @@
           "section": "Who writes the checks",
           "excerpt": "Citing Aswath Damodaran, Silverio says that price would require about $1.2 trillion of annual revenue inside a decade, while everything sold under the AI label adds up to roughly $250 billion today.",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [],
@@ -518,6 +562,60 @@
     },
     {
       "kind": "person",
+      "slug": "charlie-hills",
+      "name": "Charlie Hills",
+      "role": null,
+      "url": "https://deepstack.ltd/people/charlie-hills/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/charlie-hills.json",
+      "summary": "Charlie Hills appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
+      "parts": [
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "$4 vs $10",
+          "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
+          "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "On September 27, Charlie Hills put Anthropic's Opus 5.5 at $4 per million input tokens against $10 for OpenAI's GPT-6 Astra, 60% cheaper.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "Opus 5.5 is 60% cheaper than Astra, at $4 versus $10 per million input tokens.",
+          "date": "2026-09-27",
+          "url": "https://charliehills.substack.com/p/claude-code-motion-graphics",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 773,
+        "texts": 69,
+        "asOf": "2026-10-09"
+      },
+      "lastUpdated": "2026-10-09"
+    },
+    {
+      "kind": "person",
       "slug": "christian-catalini",
       "name": "Christian Catalini",
       "role": null,
@@ -614,7 +712,7 @@
       "role": "HyperTech Invest",
       "url": "https://deepstack.ltd/people/daniel-romero/",
       "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
-      "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10, Part 11 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+      "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
       "parts": [
         {
           "part": 5,
@@ -645,6 +743,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -710,6 +813,12 @@
           "section": "Shipping is not earning",
           "excerpt": "Daniel Romero's Group Up, in his September 16 portfolio update, added capacity too slowly and saw its ramp slip to the end of 2028, so Romero expects margins to erode until the new factory reaches volume.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -837,7 +946,7 @@
       "role": "a16z",
       "url": "https://deepstack.ltd/people/david-george/",
       "api": "https://deepstack.ltd/api/v1/entities/people/david-george.json",
-      "summary": "David George appears in Part 9, Part 10 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices).",
+      "summary": "David George appears in Part 9, Part 10, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices), Part 12 (Voices that cross sides).",
       "parts": [
         {
           "part": 9,
@@ -848,6 +957,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -875,6 +989,12 @@
           "section": "A cheap top",
           "excerpt": "David George says rental rates and residual values were supposed to fall but have not; A100 rental prices are no lower than in January.",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "section": "The frontier is still paid",
+          "excerpt": "David George of a16z, on September 28, located OpenAI's edge away from the model: at the model layer switching is easy down to the single task and no advantage sticks, so OpenAI prevails by creating new kinds of customers and by durable distribution.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -937,6 +1057,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Cheaper intelligence lifts all; at the model layer no edge sticks.",
+          "date": null,
+          "url": "https://www.a16z.news/p/openai-understands-something-important",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -954,12 +1086,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/deborah-folloni/",
       "api": "https://deepstack.ltd/api/v1/entities/people/deborah-folloni.json",
-      "summary": "Deborah Folloni appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Deborah Folloni appears in Part 9, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
       "parts": [
         {
           "part": 9,
           "headline": "Habit Was the Moat. Agents Are Draining It.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -971,7 +1108,20 @@
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "100,000 leads: $7 against $3,000.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        }
+      ],
       "coverage": {
         "creators": 0,
         "claims": 566,
@@ -1051,6 +1201,52 @@
         "creators": 0,
         "claims": 1586,
         "texts": 139,
+        "asOf": "2026-10-09"
+      },
+      "lastUpdated": "2026-10-09"
+    },
+    {
+      "kind": "person",
+      "slug": "distillate-capital-partners-llc",
+      "name": "Distillate Capital Partners LLC",
+      "role": null,
+      "url": "https://deepstack.ltd/people/distillate-capital-partners-llc/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/distillate-capital-partners-llc.json",
+      "summary": "Distillate Capital Partners LLC appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (The filing sets the price).",
+      "parts": [
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Distillate Capital Partners LLC, on July 15, counted roughly $180 billion committed by the hyperscalers and Nvidia to the two labs, about $1.1 trillion of compute pledged back, and $53 billion of first-quarter hyperscaler net income, 34% of the total, booked as non-cash marks on those stakes.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-filing-sets-the-price",
+          "sideLabel": "The filing sets the price",
+          "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
+          "date": "2026-07-15",
+          "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 53,
+        "texts": 4,
         "asOf": "2026-10-09"
       },
       "lastUpdated": "2026-10-09"
@@ -1318,12 +1514,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/first-pacific-advisors/",
       "api": "https://deepstack.ltd/api/v1/entities/people/first-pacific-advisors.json",
-      "summary": "First Pacific Advisors appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The return is not there).",
+      "summary": "First Pacific Advisors appears in Part 4, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
       "parts": [
         {
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -1333,6 +1534,12 @@
           "section": "Arithmetic sets the test",
           "excerpt": "First Pacific Advisors LP works the numbers from the bottom.",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "First Pacific Advisors LP, on July 30, projected global AI spending of $2.59 trillion in 2026 and counted $207 billion a year of after-tax income for even a low return, which its managers call improbable.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -1376,7 +1583,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/gaetano/",
       "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
-      "summary": "Gaetano appears in Part 6, Part 8, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides).",
+      "summary": "Gaetano appears in Part 6, Part 8, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
       "parts": [
         {
           "part": 6,
@@ -1392,6 +1599,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -1451,6 +1663,12 @@
           "section": "Lede",
           "excerpt": "Twelve days later Gaetano counted Tower Semiconductor's $1.3 billion of contractual silicon photonics commitments for 2027, backed by about $290 million of customer prepayments.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Gaetano's Alphabet case of October 4 leans the other way, on Cloud at $24.8 billion in the second quarter, up 82%, and on the Anthropic agreement as a way Google earns beneath a rival's interface.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -1573,6 +1791,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-frontier-is-still-paid",
+          "sideLabel": "The frontier is still paid",
+          "claim": "Criteo launched an Agentic Commerce Recommendation Service letting AI systems use Criteo's commerce intelligence to rank products, and OpenAI selected Criteo as its first advertising technology partner for ChatGPT Ads, with more than 2,000 brands…",
+          "date": "2026-09-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -1875,7 +2105,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/jensen-huang/",
       "api": "https://deepstack.ltd/api/v1/entities/people/jensen-huang.json",
-      "summary": "Jensen Huang appears in Part 10, Part 11 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Jensen Huang appears in Part 10, Part 11, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 10,
@@ -1886,6 +2116,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -1901,6 +2136,12 @@
           "section": "The margin the book does not show",
           "excerpt": "Tae Kim, reporting Jensen Huang's press session on September 29, answers with the asset rather than the invoice: the GPUs are productive, fungible and durable.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Nine are Spencer against Kim on who leads the model race, Part 5's question, and three more are Spencer against Jensen Huang as Kim relayed him; about twenty bear on this one.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [],
@@ -2562,7 +2803,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/kevin-gee/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kevin-gee.json",
-      "summary": "Kevin Gee appears in Part 2, Part 4 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there).",
+      "summary": "Kevin Gee appears in Part 2, Part 4, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
       "parts": [
         {
           "part": 2,
@@ -2573,6 +2814,11 @@
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -2647,6 +2893,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
           "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "China is releasing open frontier models not despite state involvement, but because an open frontier is how you seed an ecosystem, win the developer base, and move the world's default tech stack onto a Chinese one, motivated by technological…",
+          "date": "2026-09-12",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -2697,7 +2955,7 @@
       "role": "Potential Multibaggers",
       "url": "https://deepstack.ltd/people/kris/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kris.json",
-      "summary": "Kris appears in Part 1, Part 2, Part 4, Part 7, Part 8, Part 10 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
+      "summary": "Kris appears in Part 1, Part 2, Part 4, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
       "parts": [
         {
           "part": 1,
@@ -2728,6 +2986,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -2797,6 +3060,12 @@
           "section": "Who writes the checks",
           "excerpt": "AWS is capacity-constrained, Kris says.",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Kris, on September 14, relayed Vercel's count: open models at 62% of its AI Gateway tokens, from 28.4% two months earlier.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -2919,6 +3188,84 @@
     },
     {
       "kind": "person",
+      "slug": "le-shrub",
+      "name": "Le Shrub",
+      "role": null,
+      "url": "https://deepstack.ltd/people/le-shrub/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/le-shrub.json",
+      "summary": "Le Shrub appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "57% to 67%",
+          "label": "Chinese models' share of token usage on OpenRouter by September",
+          "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Le Shrub had Chinese models at 66% of token share on September 22.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Spencer conceded on September 11 that the Chinese labs' share of token spending remains to be seen; Le Shrub's 66% answered him on volume; the dollar share is still uncounted.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "Four run-rates, three dates",
+          "excerpt": "Spencer reported on September 16 that OpenAI had delayed its listing until next year; Le Shrub, on September 22, relayed Alex Karp's view that OpenAI will never list.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "China is gaining ground in AI, with Chinese models now accounting for 66% of token share.",
+          "date": "2026-09-22",
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Chinese models at 66% of tokens; Karp's never-IPO call on OpenAI.",
+          "date": null,
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 650,
+        "texts": 89,
+        "asOf": "2026-10-09"
+      },
+      "lastUpdated": "2026-10-09"
+    },
+    {
+      "kind": "person",
       "slug": "leyla-kunimoto",
       "name": "Leyla Kunimoto",
       "role": null,
@@ -2965,12 +3312,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/longriver/",
       "api": "https://deepstack.ltd/api/v1/entities/people/longriver.json",
-      "summary": "Longriver appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
+      "summary": "Longriver appears in Part 1, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 12: The Model Is Not the Price. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid).",
       "parts": [
         {
           "part": 1,
           "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
           "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -2980,6 +3332,24 @@
           "section": "Backlog or bottleneck",
           "excerpt": "Graham Rhodes of Longriver, whose fund has owned Nvidia since 2025, changes the unit of account.",
           "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Longriver Investment Partners Limited, in its July 20 letter, relayed an annualized run-rate at Anthropic of $1 billion at the end of 2024, $9 billion at the end of 2025 and almost $50 billion in May, as proof that customers pay for agentic work.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Longriver's run-rate was judged in direct contradiction with three managers of the same season.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "Four run-rates, three dates",
+          "excerpt": "Longriver's Anthropic run-rate was almost $50 billion in May.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -2994,6 +3364,18 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
           "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-frontier-is-still-paid",
+          "sideLabel": "The frontier is still paid",
+          "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+          "date": "2026-07-20",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -3037,7 +3419,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/market-sentiment/",
       "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-      "summary": "Market Sentiment appears in Part 3, Part 8, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
+      "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
       "parts": [
         {
           "part": 3,
@@ -3053,6 +3435,11 @@
           "part": 9,
           "headline": "Habit Was the Moat. Agents Are Draining It.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -3082,6 +3469,24 @@
           "section": "What software keeps",
           "excerpt": "Market Sentiment says the industry that creates a technology rarely captures its value, and that software can prosper when tokens are cheap if it owns unique data, distribution, an unleaveable workflow or the system of record.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Market Sentiment, on September 17, reasoned from the spending down: about $1.2 trillion of AI capex next year should drive about $2 trillion of incremental revenue.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "The two were judged in contradiction, and DeepStack sides with Burry, whose charge rests on a related-party contract that a filing must disclose, where Market Sentiment's figure rests on an assumed rate of return.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -3161,12 +3566,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/massif-capital/",
       "api": "https://deepstack.ltd/api/v1/entities/people/massif-capital.json",
-      "summary": "Massif Capital appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (OpenAI: commoditized).",
+      "summary": "Massif Capital appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (OpenAI: commoditized), Part 12 (Open weights set the price).",
       "parts": [
         {
           "part": 5,
           "headline": "OpenAI and Anthropic Are Not the Same Business",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -3202,6 +3612,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
           "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "Under 2% of tokens to a majority.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -3270,7 +3692,7 @@
       "role": "Prof G Markets",
       "url": "https://deepstack.ltd/people/mia-silverio/",
       "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-      "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+      "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
       "parts": [
         {
           "part": 7,
@@ -3291,9 +3713,22 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
-      "numbers": [],
+      "numbers": [
+        {
+          "value": "A quarter",
+          "label": "Share of Anthropic's 2025 revenue that came from two customers",
+          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
       "mentions": [
         {
           "part": 9,
@@ -3324,6 +3759,12 @@
           "section": "A backlog is a promise",
           "excerpt": "Mia Silverio of Prof G Markets supplied the extreme case on September 28: SB Energy has no operating data centers and a $439 billion backlog of which 9% has broken ground, and most of its contracts let the customer leave if a project runs more than a year late.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -3427,7 +3868,7 @@
       "role": "Cassandra Unchained",
       "url": "https://deepstack.ltd/people/michael-burry/",
       "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-      "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise).",
+      "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
       "parts": [
         {
           "part": 1,
@@ -3463,6 +3904,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -3569,6 +4015,12 @@
           "section": "Lede",
           "excerpt": "Michael Burry, reading Microsoft's filing on September 24 and 26, notes that backlog due beyond one year grew 113% while backlog due within a year grew 37%, and that the share of the book turning into revenue inside twelve months fell to 30% from 40%.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Michael Burry, on September 24, read Google Cloud's 112% backlog growth as suspect because a category of unknown size, TPU system sales contracts, entered the book in the last six months, and one of the largest TPU customers is Anthropic, in which Alphabet holds 14% and agreed in April to invest up to $40 billion.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -3739,6 +4191,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-filing-sets-the-price",
+          "sideLabel": "The filing sets the price",
+          "claim": "Alphabet's reported 112% Google Cloud backlog growth is suspect because a new category of unknown size — TPU system sales contracts — was added to cloud backlog in the last six months, and one of the largest TPU customers is Anthropic, in which…",
+          "date": "2026-09-24",
+          "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -3861,7 +4325,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/michael-spencer/",
       "api": "https://deepstack.ltd/api/v1/entities/people/michael-spencer.json",
-      "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet).",
+      "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
       "parts": [
         {
           "part": 5,
@@ -3882,6 +4346,11 @@
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -3891,6 +4360,13 @@
           "context": "Michael Spencer; preliminary June quarter 2026",
           "part": 5,
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "value": "57% to 67%",
+          "label": "Chinese models' share of token usage on OpenRouter by September",
+          "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "mentions": [
@@ -3923,6 +4399,12 @@
           "section": "Who writes the checks",
           "excerpt": "Michael Spencer adds a price warning: Ramp’s index showed what customers pay per million tokens down 41% from its March peak, to $0.68.",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "On October 1, Michael Spencer counted Chinese models at 57% to 67% of token usage on the OpenRouter platform by September.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -4069,6 +4551,30 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "Chinese AI models captured a majority share of 57% to 67% of total token usage on the OpenRouter developer platform by September 2026, eroding OpenAI's token marketshare even as OpenAI subsidizes its new cheaper GPT-6.1 Sol model.",
+          "date": "2026-10-01",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+          "date": "2026-10-01",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -4365,7 +4871,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/oguz-erkan/",
       "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-      "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit).",
+      "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
       "parts": [
         {
           "part": 3,
@@ -4381,6 +4887,11 @@
           "part": 9,
           "headline": "Habit Was the Moat. Agents Are Draining It.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -4410,6 +4921,12 @@
           "section": "Habit is not a moat",
           "excerpt": "Oguz Erkan calls its position unshakable because “a hotel can’t find a distribution channel as big and strong as Booking; there is none.”",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "section": "The frontier is still paid",
+          "excerpt": "Oguz Erkan, on September 13, drew the Part's line: OpenAI and Anthropic take the lion's share of token dollars while their share of token volume declines.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -4460,6 +4977,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
           "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The dollars with two labs, the volume leaving, fragmentation in 3-5 years.",
+          "date": null,
+          "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -4510,7 +5039,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/prof-g-markets/",
       "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-      "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 4,
@@ -4536,6 +5065,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -4545,6 +5079,13 @@
           "context": "Prof G Markets; three months, August 4",
           "part": 4,
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "value": "A quarter",
+          "label": "Share of Anthropic's 2025 revenue that came from two customers",
+          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "mentions": [
@@ -4583,6 +5124,12 @@
           "section": "A backlog is a promise",
           "excerpt": "Mia Silverio of Prof G Markets supplied the extreme case on September 28: SB Energy has no operating data centers and a $439 billion backlog of which 9% has broken ground, and most of its contracts let the customer leave if a project runs more than a year late.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [],
@@ -4670,7 +5217,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/ren/",
       "api": "https://deepstack.ltd/api/v1/entities/people/ren.json",
-      "summary": "Ren appears in Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
+      "summary": "Ren appears in Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
       "parts": [
         {
           "part": 6,
@@ -4701,6 +5248,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -5241,7 +5793,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/steve-eisman/",
       "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-      "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+      "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
       "parts": [
         {
           "part": 4,
@@ -5282,6 +5834,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -5366,6 +5923,12 @@
           "section": "The margin the book does not show",
           "excerpt": "George Noble, on Steve Eisman's program on September 21, reads the same demand from the other end: a vendor funding its customers' purchases is not evidence that the money underneath is solid.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Steve Eisman, on September 11, read OpenAI's cut on its GPT model, with a reported tenfold jump in usage, as the beginning of a price war in AI services; by September 28 he called a price war among the two labs and the Chinese models the chief risk to the AI story.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -5512,6 +6075,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "OpenAI's price cut on its GPT model, combined with a reported tenfold jump in usage, looks like the beginning of a price war in AI services.",
+          "date": "2026-09-11",
+          "url": "https://realeismanplaybook.substack.com/p/ai-terminator-fears-grow-and-rates",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "open-weights-set-the-price",
+          "sideLabel": "Open weights set the price",
+          "claim": "Steve says the AI story probably continues as long as token growth keeps rising, and identifies a price war between Anthropic, OpenAI and the Chinese models as the main risk that could change it.",
+          "date": "2026-09-28",
+          "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-filing-sets-the-price",
+          "sideLabel": "The filing sets the price",
+          "claim": "Anthropic looks likely to file for an IPO soon, and it will want to do that while token usage numbers are still near their peak, before the picture gets less flattering.",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -5529,7 +6128,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/tae-kim/",
       "api": "https://deepstack.ltd/api/v1/entities/people/tae-kim.json",
-      "summary": "Tae Kim appears in Part 9, Part 10, Part 11 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon).",
+      "summary": "Tae Kim appears in Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
       "parts": [
         {
           "part": 9,
@@ -5545,6 +6144,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -5590,6 +6194,12 @@
           "section": "Shipping is not earning",
           "excerpt": "Tae Kim's Huang has Nvidia harvesting cash from the buildout for buybacks.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Lede",
+          "excerpt": "On October 2, Tae Kim reported OpenAI at $70 billion of annualized revenue.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -5700,6 +6310,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "$70B of ARR at OpenAI; Huang's 80% of AI-native startups on open models.",
+          "date": null,
+          "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {
@@ -5775,7 +6397,7 @@
       "role": "Apollo",
       "url": "https://deepstack.ltd/people/torsten-slok/",
       "api": "https://deepstack.ltd/api/v1/entities/people/torsten-slok.json",
-      "summary": "Torsten Slok appears in Part 6, Part 8, Part 9, Part 10, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
+      "summary": "Torsten Slok appears in Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
       "parts": [
         {
           "part": 6,
@@ -5801,6 +6423,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [
@@ -5810,6 +6437,13 @@
           "context": "Torsten Slok’s 2030 assumption",
           "part": 8,
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "value": "4 months",
+          "label": "The gap between the Chinese open models and the frontier",
+          "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "mentions": [
@@ -5854,6 +6488,12 @@
           "section": "Lede",
           "excerpt": "Torsten Slok of Apollo reported on September 21 the consensus that the hyperscalers' operating cash flow more than triples by 2030, outrunning their capital spending.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Torsten Slok of Apollo put the gap at about four months on July 16, citing the Epoch Capabilities Index.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -6296,12 +6936,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/warden-capital/",
       "api": "https://deepstack.ltd/api/v1/entities/people/warden-capital.json",
-      "summary": "Warden Capital appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The return is not there).",
+      "summary": "Warden Capital appears in Part 4, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
       "parts": [
         {
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -6311,6 +6956,12 @@
           "section": "Arithmetic sets the test",
           "excerpt": "Warden Capital’s second-quarter letter starts at the top.",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 12,
+          "section": "The filing sets the price",
+          "excerpt": "Warden Capital, on July 22, put the model providers' required end revenue near $1 trillion by 2029 on roughly $700 billion a year of investment.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -6354,12 +7005,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/wyndo/",
       "api": "https://deepstack.ltd/api/v1/entities/people/wyndo.json",
-      "summary": "Wyndo appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+      "summary": "Wyndo appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (Voices that cross sides), Part 12 (The frontier is still paid).",
       "parts": [
         {
           "part": 5,
           "headline": "OpenAI and Anthropic Are Not the Same Business",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "numbers": [],
@@ -6375,6 +7031,18 @@
           "section": "Cheap intelligence arrives",
           "excerpt": "Four days later, Wyndo described a council of models reviewing the same decision and said he had changed his mind about open-weight systems handling hard reasoning.",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 12,
+          "section": "The frontier is still paid",
+          "excerpt": "Wyndo, the same day, told readers hitting usage limits on Claude or ChatGPT to run cheaper tasks on open-weight models and keep the bigger ones, which need more intelligence, at OpenAI and Anthropic.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "section": "Open weights set the price",
+          "excerpt": "Spencer's September 29 line that ChatGPT loses share to open-source models is narrowed by Wyndo's routing of hard work to the closed labs; it narrows, in turn, George's September 30 reading that cheaper intelligence has so far lifted the whole ecosystem, since the incumbent consumer product is the one losing ground.",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "sides": [
@@ -6401,6 +7069,30 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
           "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-frontier-is-still-paid",
+          "sideLabel": "The frontier is still paid",
+          "claim": "Wyndo believes an always-on agent should run on the most capable model available, which is why they consider it fitting that ChatGPT's Dots runs on GPT-6 Astra.",
+          "date": "2026-10-04",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 12,
+          "question": null,
+          "side": "the-frontier-is-still-paid",
+          "sideLabel": "The frontier is still paid",
+          "claim": "Wyndo recommends trying open-weight models if a user keeps hitting usage limits on Claude or ChatGPT, or wants to lower the cost of certain tasks, since some work may run well on an open-weight model while saving the subscription for tasks where…",
+          "date": "2026-09-13",
+          "url": "https://aimaker.substack.com/p/claude-code-free-openrouter",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
         }
       ],
       "coverage": {

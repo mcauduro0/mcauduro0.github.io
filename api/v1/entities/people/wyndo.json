@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "wyndo",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/wyndo/",
   "api": "https://deepstack.ltd/api/v1/entities/people/wyndo.json",
-  "summary": "Wyndo appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+  "summary": "Wyndo appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (Voices that cross sides), Part 12 (The frontier is still paid).",
   "parts": [
     {
       "part": 5,
       "headline": "OpenAI and Anthropic Are Not the Same Business",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -28,6 +33,18 @@
       "section": "Cheap intelligence arrives",
       "excerpt": "Four days later, Wyndo described a council of models reviewing the same decision and said he had changed his mind about open-weight systems handling hard reasoning.",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 12,
+      "section": "The frontier is still paid",
+      "excerpt": "Wyndo, the same day, told readers hitting usage limits on Claude or ChatGPT to run cheaper tasks on open-weight models and keep the bigger ones, which need more intelligence, at OpenAI and Anthropic.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "section": "Open weights set the price",
+      "excerpt": "Spencer's September 29 line that ChatGPT loses share to open-source models is narrowed by Wyndo's routing of hard work to the closed labs; it narrows, in turn, George's September 30 reading that cheaper intelligence has so far lifted the whole ecosystem, since the incumbent consumer product is the one losing ground.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -54,6 +71,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
       "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Wyndo believes an always-on agent should run on the most capable model available, which is why they consider it fitting that ChatGPT's Dots runs on GPT-6 Astra.",
+      "date": "2026-10-04",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "the-frontier-is-still-paid",
+      "sideLabel": "The frontier is still paid",
+      "claim": "Wyndo recommends trying open-weight models if a user keeps hitting usage limits on Claude or ChatGPT, or wants to lower the cost of certain tasks, since some work may run well on an open-weight model while saving the subscription for tasks where…",
+      "date": "2026-09-13",
+      "url": "https://aimaker.substack.com/p/claude-code-free-openrouter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

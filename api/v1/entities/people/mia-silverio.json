@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "mia-silverio",
@@ -7,7 +7,7 @@
   "role": "Prof G Markets",
   "url": "https://deepstack.ltd/people/mia-silverio/",
   "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
   "parts": [
     {
       "part": 7,
@@ -28,9 +28,22 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [],
+  "numbers": [
+    {
+      "value": "A quarter",
+      "label": "Share of Anthropic's 2025 revenue that came from two customers",
+      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+      "part": 12,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    }
+  ],
   "mentions": [
     {
       "part": 9,
@@ -61,6 +74,12 @@
       "section": "A backlog is a promise",
       "excerpt": "Mia Silverio of Prof G Markets supplied the extreme case on September 28: SB Energy has no operating data centers and a $439 billion backlog of which 9% has broken ground, and most of its contracts let the customer leave if a project runs more than a year late.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 12,
+      "section": "Lede",
+      "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [

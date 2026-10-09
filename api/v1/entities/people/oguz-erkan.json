@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "oguz-erkan",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/oguz-erkan/",
   "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-  "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit).",
+  "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
   "parts": [
     {
       "part": 3,
@@ -23,6 +23,11 @@
       "part": 9,
       "headline": "Habit Was the Moat. Agents Are Draining It.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -52,6 +57,12 @@
       "section": "Habit is not a moat",
       "excerpt": "Oguz Erkan calls its position unshakable because “a hotel can’t find a distribution channel as big and strong as Booking; there is none.”",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "section": "The frontier is still paid",
+      "excerpt": "Oguz Erkan, on September 13, drew the Part's line: OpenAI and Anthropic take the lion's share of token dollars while their share of token volume declines.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [
@@ -102,6 +113,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
       "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The dollars with two labs, the volume leaving, fragmentation in 3-5 years.",
+      "date": null,
+      "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

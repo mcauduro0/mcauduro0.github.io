@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "massif-capital",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/massif-capital/",
   "api": "https://deepstack.ltd/api/v1/entities/people/massif-capital.json",
-  "summary": "Massif Capital appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (OpenAI: commoditized).",
+  "summary": "Massif Capital appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (OpenAI: commoditized), Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 5,
       "headline": "OpenAI and Anthropic Are Not the Same Business",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -48,6 +53,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
       "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "Under 2% of tokens to a majority.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

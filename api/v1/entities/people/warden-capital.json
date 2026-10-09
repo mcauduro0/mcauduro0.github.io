@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "warden-capital",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/warden-capital/",
   "api": "https://deepstack.ltd/api/v1/entities/people/warden-capital.json",
-  "summary": "Warden Capital appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The return is not there).",
+  "summary": "Warden Capital appears in Part 4, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
   "parts": [
     {
       "part": 4,
       "headline": "AI Spending Has Met Its First Real Bill",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "Arithmetic sets the test",
       "excerpt": "Warden Capital’s second-quarter letter starts at the top.",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 12,
+      "section": "The filing sets the price",
+      "excerpt": "Warden Capital, on July 22, put the model providers' required end revenue near $1 trillion by 2029 on roughly $700 billion a year of investment.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "sides": [

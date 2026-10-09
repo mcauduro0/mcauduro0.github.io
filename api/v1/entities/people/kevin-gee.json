@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kevin-gee",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kevin-gee/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kevin-gee.json",
-  "summary": "Kevin Gee appears in Part 2, Part 4 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there).",
+  "summary": "Kevin Gee appears in Part 2, Part 4, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 2,
@@ -18,6 +18,11 @@
       "part": 4,
       "headline": "AI Spending Has Met Its First Real Bill",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [
@@ -92,6 +97,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
       "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "China is releasing open frontier models not despite state involvement, but because an open frontier is how you seed an ecosystem, win the developer base, and move the world's default tech stack onto a Chinese one, motivated by technological…",
+      "date": "2026-09-12",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
     }
   ],
   "coverage": {

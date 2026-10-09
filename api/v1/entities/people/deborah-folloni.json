@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "deborah-folloni",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/deborah-folloni/",
   "api": "https://deepstack.ltd/api/v1/entities/people/deborah-folloni.json",
-  "summary": "Deborah Folloni appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+  "summary": "Deborah Folloni appears in Part 9, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 9,
       "headline": "Habit Was the Moat. Agents Are Draining It.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 12,
+      "headline": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "numbers": [],
@@ -24,7 +29,20 @@
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 12,
+      "question": null,
+      "side": "open-weights-set-the-price",
+      "sideLabel": "Open weights set the price",
+      "claim": "100,000 leads: $7 against $3,000.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    }
+  ],
   "coverage": {
     "creators": 0,
     "claims": 566,

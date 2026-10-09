@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -9,15 +9,15 @@
   "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
-    "stories": 11,
-    "tests": 51,
-    "datedTests": 28,
+    "stories": 12,
+    "tests": 56,
+    "datedTests": 32,
     "results": 2,
     "corrections": 0,
-    "sides": 11,
-    "questions": 11,
+    "sides": 12,
+    "questions": 12,
     "companies": 45,
-    "people": 68,
+    "people": 72,
     "editions": 1,
     "notes": 0
   },
@@ -37,7 +37,8 @@
         "the-scarcity-is-the-collateral",
         "habit-was-the-moat",
         "the-bubble-is-in-the-denominator",
-        "the-backlog-is-not-the-quarter"
+        "the-backlog-is-not-the-quarter",
+        "the-model-is-not-the-price"
       ]
     },
     "docket": "https://deepstack.ltd/api/v1/docket.json",
@@ -64,6 +65,7 @@
         "the-debt-behind-the-machines",
         "the-fed-hiked-the-long-end-kept-climbing",
         "the-market-stops-paying-for-faith",
+        "the-model-is-not-the-price",
         "the-scarcity-is-the-collateral"
       ]
     },
@@ -81,6 +83,7 @@
         "the-debt-behind-the-machines",
         "the-fed-hiked-the-long-end-kept-climbing",
         "the-market-stops-paying-for-faith",
+        "the-model-is-not-the-price",
         "the-scarcity-is-the-collateral"
       ]
     },
@@ -98,7 +101,8 @@
         "who-writes-the-checks-for-the-buildout",
         "how-fast-do-habits-break",
         "does-the-hardware-hold-its-value",
-        "do-the-orders-turn-into-profit"
+        "do-the-orders-turn-into-profit",
+        "does-the-frontier-model-still-command-a-price"
       ]
     },
     "companies": "https://deepstack.ltd/api/v1/entities/companies.json",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-09T20:53:34Z",
+  "generatedAt": "2026-10-09T22:29:49Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
   "description": "Ten investigations into who pays for the AI build-out, who profits, and what breaks first.",
-  "count": 11,
+  "count": 12,
   "stories": [
     {
       "part": 1,
@@ -1245,7 +1245,7 @@
         "side": "Eighteen months, or less",
         "against": {
           "name": "Le Shrub",
-          "entity": null,
+          "entity": "https://deepstack.ltd/people/le-shrub/",
           "claim": "Le Shrub questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.",
           "date": "2026-09-22",
           "url": "https://www.shrubstack.com/p/uncomfortable-truths",
@@ -1709,6 +1709,189 @@
         }
       ],
       "earlierVersion": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "corrections": []
+    },
+    {
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "headline": "The Model Is Not the Price",
+      "dek": "A frontier model now lists at $4 per million input tokens, open and Chinese models carry most of the tokens on the platforms that count them, and the two labs' revenue is counted in the tens of billions. Investors agree the token is cheap. They differ on what the lab is paid for, and only a prospectus on EDGAR can settle it.",
+      "summary": "The token is cheap and getting cheaper; the labs' revenue is counted in the tens of billions, and none of it is audited on EDGAR. DeepStack reads the model's price as a four-month lease and the lab's price as a line in a filing the public has yet to read.",
+      "section": "Markets",
+      "date": "2026-10-09",
+      "readingMinutes": 10,
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/",
+      "call": {
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "stance": "The price has left the model",
+        "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Separate token volume from token dollars: OpenRouter's 57% to 67% and Vercel's 62% in September are volume; the dollar share is uncounted.",
+          "Date every run-rate before comparing two: Longriver's May, Romero's July and Kim's October 2 figures are not updates of one another.",
+          "Read the customer note before the growth rate when the prospectus lands: Silverio's quarter from two customers is the line to clear first."
+        ],
+        "flips": [
+          "A prospectus with audited revenue near the relayed run-rates, no customer above a tenth of sales and no investor-linked revenue to disclose.",
+          "Alphabet sizes the TPU contracts with Anthropic inside them on October 28 and Cloud growth holds without them, retiring Burry's charge.",
+          "No registration on EDGAR by October 31 while either lab cuts list prices again; the house moves toward the open-weights reading."
+        ],
+        "side": "The filing sets the price",
+        "against": {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+          "date": "2026-09-17",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+          "access": "public",
+          "answers": "Michael Burry",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 1,
+        "updatedOn": "2026-10-09",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "stance": "The price has left the model",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+            "side": "The filing sets the price",
+            "reason": "First call, with the story.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p12-t01",
+          "part": 12,
+          "slug": "the-model-is-not-the-price",
+          "when": "October 28",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "GOOGL",
+            "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+            "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
+            "source": {
+              "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
+            },
+            "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p12-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#verdict"
+      },
+      "keyNumbers": [
+        {
+          "value": "$4 vs $10",
+          "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
+          "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%"
+        },
+        {
+          "value": "57% to 67%",
+          "label": "Chinese models' share of token usage on OpenRouter by September",
+          "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22"
+        },
+        {
+          "value": "4 months",
+          "label": "The gap between the Chinese open models and the frontier",
+          "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026"
+        },
+        {
+          "value": "A quarter",
+          "label": "Share of Anthropic's 2025 revenue that came from two customers",
+          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AI Supremacy - Gemini-4 Argon and the OpenRouter token count",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon"
+        },
+        {
+          "label": "Longriver Investment Partners - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683"
+        },
+        {
+          "label": "Prof G Markets - Anthropic wants $2 trillion anyway",
+          "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+        },
+        {
+          "label": "Distillate Capital Partners - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647"
+        },
+        {
+          "label": "Capitalist Letters - Booking Holdings deep dive, the token dollars",
+          "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive"
+        },
+        {
+          "label": "a16z - OpenAI understands something important and rare",
+          "url": "https://www.a16z.news/p/openai-understands-something-important"
+        },
+        {
+          "label": "AI Supremacy - The era of personal super-intelligent agents",
+          "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026"
+        },
+        {
+          "label": "Apollo - Chinese models vs. frontier models",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/chinese-models-vs-frontier-models"
+        },
+        {
+          "label": "Shrubstack - Uncomfortable truths",
+          "url": "https://www.shrubstack.com/p/uncomfortable-truths"
+        },
+        {
+          "label": "Potential Multibaggers - Vercel's open-model count",
+          "url": "https://www.potentialmultibaggers.com/p/and-another-new-pick"
+        },
+        {
+          "label": "a16z - State of Markets II",
+          "url": "https://www.a16z.news/p/state-of-markets-ii"
+        },
+        {
+          "label": "First Pacific Advisors - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+        },
+        {
+          "label": "Warden Capital - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873"
+        },
+        {
+          "label": "Market Sentiment - The next great AI trade is everything that isn't AI",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+        },
+        {
+          "label": "HyperTech Invest - The math behind the next AI rally",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+        },
+        {
+          "label": "AI Supremacy - A guide to Grok Bot 2026, the listing delay",
+          "url": "https://www.ai-supremacy.com/p/a-guide-to-grok-bot-2026-autonomous-teammate-systems"
+        }
+      ],
+      "earlierVersion": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "corrections": []
     }
   ]

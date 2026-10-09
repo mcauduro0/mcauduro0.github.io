@@ -4250,5 +4250,617 @@
       }
     ],
     "lastUpdated": "2026-10-09"
+  },
+  {
+    "part": 12,
+    "slug": "the-model-is-not-the-price",
+    "question": "Does the frontier model still command a price?",
+    "sides": [
+      {
+        "id": "the-frontier-is-still-paid",
+        "label": "The frontier is still paid",
+        "voices": [
+          {
+            "name": "Longriver",
+            "entitySlug": "longriver",
+            "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+            "date": "2026-07-20",
+            "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Tae Kim",
+            "entitySlug": "tae-kim",
+            "claim": "Tae Kim anticipates a close back-and-forth for model leadership between OpenAI and Anthropic over the next six months, expects another Anthropic model release before or around its IPO, and predicts both American frontier labs should do great once…",
+            "date": "2026-10-02",
+            "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Tae Kim",
+            "entitySlug": "tae-kim",
+            "claim": "Tae Kim argues the earlier media consensus that OpenAI had fallen too far behind Anthropic was wrong, and that OpenAI pivoted resources to agentic coding after Anthropic's December lead, largely caught up by April, and arguably surpassed Anthropic…",
+            "date": "2026-10-02",
+            "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Oguz Erkan",
+            "entitySlug": "oguz-erkan",
+            "claim": "Oguz Erkan says the concentration of the LLM market is still unknown: OpenAI and Anthropic take the lion's share of token dollars but their share of token volume has been declining, so the LLM market could be far more fragmented in 3-5 years, which…",
+            "date": "2026-09-13",
+            "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Wyndo",
+            "entitySlug": "wyndo",
+            "claim": "Wyndo believes an always-on agent should run on the most capable model available, which is why they consider it fitting that ChatGPT's Dots runs on GPT-6 Astra.",
+            "date": "2026-10-04",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Wyndo",
+            "entitySlug": "wyndo",
+            "claim": "Wyndo recommends trying open-weight models if a user keeps hitting usage limits on Claude or ChatGPT, or wants to lower the cost of certain tasks, since some work may run well on an open-weight model while saving the subscription for tasks where…",
+            "date": "2026-09-13",
+            "url": "https://aimaker.substack.com/p/claude-code-free-openrouter",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Ren",
+            "entitySlug": "ren",
+            "claim": "What actually fell is cost per completed job rather than cost per token: against Sol, Astra finishes Terminal-Bench 4.0 tasks at roughly 9% lower estimated API cost per task and OSWorld 2.0 tasks in about 47% less time, so the relevant demand…",
+            "date": "2026-09-15",
+            "url": "https://renstocks.substack.com/p/openai-astra-has-agi-arrived",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "David George",
+            "entitySlug": "david-george",
+            "claim": "They judge the switching-cost lever basically unavailable because the AI frontier is a Red Queen's Race at the model layer, with swapping between models easy down to task-by-task switching and everyone improving continuously.",
+            "date": "2026-09-28",
+            "url": "https://www.a16z.news/p/openai-understands-something-important",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "David George",
+            "entitySlug": "david-george",
+            "claim": "They say a pretty small group uses AI rampantly for everything and a somewhat larger group uses ChatGPT regularly, meaning most people have not yet been awakened as customers, and they think OpenAI understands how to do it.",
+            "date": "2026-09-28",
+            "url": "https://www.a16z.news/p/openai-understands-something-important",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Gaetano",
+            "entitySlug": "gaetano",
+            "claim": "Criteo launched an Agentic Commerce Recommendation Service letting AI systems use Criteo's commerce intelligence to rank products, and OpenAI selected Criteo as its first advertising technology partner for ChatGPT Ads, with more than 2,000 brands…",
+            "date": "2026-09-23",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Market Sentiment",
+            "entitySlug": "market-sentiment",
+            "claim": "Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+            "date": "2026-09-17",
+            "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+            "access": "public",
+            "linkVerified": true
+          }
+        ],
+        "reading": "The dollars stay at the frontier: run-rates in the tens of billions, the hard work routed to closed models, distribution that outlives parity.",
+        "against": {
+          "name": "Michael Spencer",
+          "entitySlug": "michael-spencer",
+          "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+          "date": "2026-10-01",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+          "access": "paid",
+          "linkVerified": true,
+          "answers": {
+            "name": "Tae Kim"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
+      },
+      {
+        "id": "open-weights-set-the-price",
+        "label": "Open weights set the price",
+        "voices": [
+          {
+            "name": "Michael Spencer",
+            "entitySlug": "michael-spencer",
+            "claim": "Chinese AI models captured a majority share of 57% to 67% of total token usage on the OpenRouter developer platform by September 2026, eroding OpenAI's token marketshare even as OpenAI subsidizes its new cheaper GPT-6.1 Sol model.",
+            "date": "2026-10-01",
+            "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Michael Spencer",
+            "entitySlug": "michael-spencer",
+            "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+            "date": "2026-10-01",
+            "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "OpenAI's price cut on its GPT model, combined with a reported tenfold jump in usage, looks like the beginning of a price war in AI services.",
+            "date": "2026-09-11",
+            "url": "https://realeismanplaybook.substack.com/p/ai-terminator-fears-grow-and-rates",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "Steve says the AI story probably continues as long as token growth keeps rising, and identifies a price war between Anthropic, OpenAI and the Chinese models as the main risk that could change it.",
+            "date": "2026-09-28",
+            "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Le Shrub",
+            "entitySlug": "le-shrub",
+            "claim": "China is gaining ground in AI, with Chinese models now accounting for 66% of token share.",
+            "date": "2026-09-22",
+            "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Massif Capital",
+            "entitySlug": "massif-capital",
+            "claim": "Under 2% of tokens to a majority.",
+            "date": null,
+            "url": null,
+            "access": "public",
+            "linkVerified": false
+          },
+          {
+            "name": "Kevin Gee",
+            "entitySlug": "kevin-gee",
+            "claim": "China is releasing open frontier models not despite state involvement, but because an open frontier is how you seed an ecosystem, win the developer base, and move the world's default tech stack onto a Chinese one, motivated by technological…",
+            "date": "2026-09-12",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Deborah Folloni",
+            "entitySlug": "deborah-folloni",
+            "claim": "100,000 leads: $7 against $3,000.",
+            "date": null,
+            "url": null,
+            "access": "public",
+            "linkVerified": false
+          },
+          {
+            "name": "Charlie Hills",
+            "entitySlug": "charlie-hills",
+            "claim": "Opus 5.5 is 60% cheaper than Astra, at $4 versus $10 per million input tokens.",
+            "date": "2026-09-27",
+            "url": "https://charliehills.substack.com/p/claude-code-motion-graphics",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "David George",
+            "entitySlug": "david-george",
+            "claim": "So far, neither compute nor model advancements have been a zero-sum game: better, cheaper intelligence is accruing value to the entire ecosystem, with both older chips and models retaining substantial value well past the expiration dates the bears…",
+            "date": "2026-09-30",
+            "url": "https://www.a16z.news/p/state-of-markets-ii",
+            "access": "public",
+            "linkVerified": true
+          }
+        ],
+        "reading": "Open weights months behind the frontier take the volume at a fraction of the token price; a price cut with tenfold usage reads as a price war.",
+        "against": null
+      },
+      {
+        "id": "the-filing-sets-the-price",
+        "label": "The filing sets the price",
+        "voices": [
+          {
+            "name": "Mia Silverio",
+            "entitySlug": "mia-silverio",
+            "claim": "Anthropic's expected ~$2 trillion IPO valuation is not justified by its numbers, given that it would need $1.2 trillion in annual revenue within 10 years (per Aswath Damodaran) to justify that valuation while the entire current AI products and…",
+            "date": "2026-10-05",
+            "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Mia Silverio",
+            "entitySlug": "mia-silverio",
+            "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
+            "date": "2026-10-05",
+            "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Distillate Capital Partners LLC",
+            "entitySlug": "distillate-capital-partners-llc",
+            "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
+            "date": "2026-07-15",
+            "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Michael Burry",
+            "entitySlug": "michael-burry",
+            "claim": "Alphabet's reported 112% Google Cloud backlog growth is suspect because a new category of unknown size — TPU system sales contracts — was added to cloud backlog in the last six months, and one of the largest TPU customers is Anthropic, in which…",
+            "date": "2026-09-24",
+            "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Michael Burry",
+            "entitySlug": "michael-burry",
+            "claim": "Aggregate purchase commitments, future leases, guarantees backing third-party debt, and various off-balance sheet potential liabilities across the hyperscalers total about $3 trillion, pointing toward a couple more years of record AI data center…",
+            "date": "2026-09-26",
+            "url": null,
+            "access": "paid",
+            "linkVerified": false
+          },
+          {
+            "name": "Warden Capital",
+            "entitySlug": "warden-capital",
+            "claim": "Warden Capital argues the AI investment cycle cannot earn a reasonable return absent AGI within a few years: at roughly $700 billion per year of investment, model providers would need about $1 trillion in annual end AI revenue by 2029, ramping…",
+            "date": "2026-07-22",
+            "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "First Pacific Advisors",
+            "entitySlug": "first-pacific-advisors",
+            "claim": "Global AI spending is projected to reach 2.59 trillion dollars in 2026, and to achieve even a relatively low unlevered return on investment would require 207 billion dollars in after-tax income per year starting immediately, which the portfolio…",
+            "date": "2026-07-30",
+            "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "Although SpaceX reports AI infrastructure payback periods of less than one year, maintaining a one-year payback across the entire hypothetical 2027 buildout would require $1.9-2.28 trillion in annual compute payments, and if AI labs footed that…",
+            "date": "2026-09-21",
+            "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Daniel Romero",
+            "entitySlug": "daniel-romero",
+            "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+            "date": "2026-09-21",
+            "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "Anthropic looks likely to file for an IPO soon, and it will want to do that while token usage numbers are still near their peak, before the picture gets less flattering.",
+            "date": "2026-09-21",
+            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "The AI trade's foundations are shaky because roughly seventy percent of the hyperscalers' AI revenue traces back to just two customers, OpenAI and Anthropic, both of which are burning enormous amounts of cash, so if either stumbles the entire…",
+            "date": "2026-09-21",
+            "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+            "access": "paid",
+            "linkVerified": true
+          }
+        ],
+        "reading": "The lab's price rests on revenue a prospectus must prove: a quarter from two customers, dollars pledged back to investors, no return yet earned.",
+        "against": {
+          "name": "Market Sentiment",
+          "entitySlug": "market-sentiment",
+          "claim": "Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+          "date": "2026-09-17",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+          "access": "public",
+          "linkVerified": true,
+          "answers": {
+            "name": "Michael Burry"
+          },
+          "relation": "contradicts",
+          "dimension": "evidence"
+        }
+      },
+      {
+        "id": "crossing",
+        "label": "Voices that cross sides",
+        "voices": [
+          {
+            "name": "Michael Spencer",
+            "entitySlug": "michael-spencer",
+            "claim": "OpenAI is in deep trouble in 2027 due to pressure in consumer AI from Meta and SpaceXAI, pressure from Chinese open-source models on cost and token marketshare, and being late to IPO while being overtaken in ARR and growth by Anthropic in…",
+            "date": "2026-09-29",
+            "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Michael Spencer",
+            "entitySlug": "michael-spencer",
+            "claim": "Michael Spencer argues that in 2026 Chinese open-weight models are taking serious market share from incumbents like OpenAI and Anthropic, because the Chinese labs are only a few months behind the frontier and shortening release gaps mean even…",
+            "date": "2026-09-11",
+            "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "David George",
+            "entitySlug": "david-george",
+            "claim": "Cheaper intelligence lifts all; at the model layer no edge sticks.",
+            "date": null,
+            "url": "https://www.a16z.news/p/openai-understands-something-important",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Steve Eisman",
+            "entitySlug": "steve-eisman",
+            "claim": "Oracle's remaining performance obligations of $664 billion are concerning because roughly 50% come from OpenAI, a company burning massive cash, making Oracle over-reliant on OpenAI's solvency.",
+            "date": "2026-09-11",
+            "url": "https://realeismanplaybook.substack.com/p/ai-terminator-fears-grow-and-rates",
+            "access": "paid",
+            "linkVerified": true
+          },
+          {
+            "name": "Tae Kim",
+            "entitySlug": "tae-kim",
+            "claim": "$70B of ARR at OpenAI; Huang's 80% of AI-native startups on open models.",
+            "date": null,
+            "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Le Shrub",
+            "entitySlug": "le-shrub",
+            "claim": "Chinese models at 66% of tokens; Karp's never-IPO call on OpenAI.",
+            "date": null,
+            "url": "https://www.shrubstack.com/p/uncomfortable-truths",
+            "access": "public",
+            "linkVerified": true
+          },
+          {
+            "name": "Oguz Erkan",
+            "entitySlug": "oguz-erkan",
+            "claim": "The dollars with two labs, the volume leaving, fragmentation in 3-5 years.",
+            "date": null,
+            "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive",
+            "access": "public",
+            "linkVerified": true
+          }
+        ],
+        "against": null
+      }
+    ],
+    "crossings": [
+      {
+        "from": "Michael Spencer",
+        "to": "Tae Kim",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Michael Spencer contradicts Tae Kim on evidence."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Le Shrub",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Michael Spencer contradicts Le Shrub on evidence."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Wyndo",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Michael Spencer qualifies Wyndo on condition."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Oguz Erkan",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Michael Spencer qualifies Oguz Erkan on evidence."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Le Shrub",
+        "relation": "contradicts",
+        "dimension": "premise",
+        "note": "Michael Spencer contradicts Le Shrub on premise."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Tae Kim",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Michael Spencer qualifies Tae Kim on evidence."
+      },
+      {
+        "from": "David George",
+        "to": "Michael Spencer",
+        "relation": "qualifies",
+        "dimension": "mechanism",
+        "note": "David George qualifies Michael Spencer on mechanism."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Tae Kim",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Michael Spencer qualifies Tae Kim on condition."
+      },
+      {
+        "from": "David George",
+        "to": "Steve Eisman",
+        "relation": "qualifies",
+        "dimension": "mechanism",
+        "note": "David George qualifies Steve Eisman on mechanism."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "Wyndo",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Michael Spencer contradicts Wyndo on evidence."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "David George",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Michael Spencer contradicts David George on mechanism."
+      },
+      {
+        "from": "Kevin Gee",
+        "to": "David George",
+        "relation": "contradicts",
+        "dimension": "mechanism",
+        "note": "Kevin Gee contradicts David George on mechanism."
+      },
+      {
+        "from": "Tae Kim",
+        "to": "Michael Spencer",
+        "relation": "contradicts",
+        "dimension": "premise",
+        "note": "Tae Kim contradicts Michael Spencer on premise."
+      },
+      {
+        "from": "Michael Spencer",
+        "to": "David George",
+        "relation": "qualifies",
+        "dimension": "mechanism",
+        "note": "Michael Spencer qualifies David George on mechanism."
+      },
+      {
+        "from": "Gaetano",
+        "to": "Oguz Erkan",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Gaetano qualifies Oguz Erkan on condition."
+      },
+      {
+        "from": "David George",
+        "to": "Michael Spencer",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "David George qualifies Michael Spencer on condition."
+      },
+      {
+        "from": "Daniel Romero",
+        "to": "Market Sentiment",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Daniel Romero contradicts Market Sentiment on evidence."
+      },
+      {
+        "from": "Longriver",
+        "to": "Warden Capital",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Longriver contradicts Warden Capital on evidence."
+      },
+      {
+        "from": "Longriver",
+        "to": "First Pacific Advisors",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Longriver contradicts First Pacific Advisors on evidence."
+      },
+      {
+        "from": "Longriver",
+        "to": "Distillate Capital Partners LLC",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Longriver contradicts Distillate Capital Partners LLC on evidence."
+      },
+      {
+        "from": "Michael Burry",
+        "to": "Daniel Romero",
+        "relation": "qualifies",
+        "dimension": "evidence",
+        "note": "Michael Burry qualifies Daniel Romero on evidence."
+      },
+      {
+        "from": "Michael Burry",
+        "to": "Market Sentiment",
+        "relation": "contradicts",
+        "dimension": "evidence",
+        "note": "Michael Burry contradicts Market Sentiment on evidence."
+      },
+      {
+        "from": "Gaetano",
+        "to": "Mia Silverio",
+        "relation": "qualifies",
+        "dimension": "condition",
+        "note": "Gaetano qualifies Mia Silverio on condition."
+      }
+    ],
+    "notes": [
+      {
+        "label": "The thread",
+        "text": "Part 5 split the two labs into two businesses. Part 12 asks whether the model they sell still commands a price, and finds the writers agreeing on the volume leaving the frontier and splitting on the dollars."
+      }
+    ],
+    "settles": [
+      {
+        "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+        "when": "October 28",
+        "date": "2026-10-28"
+      },
+      {
+        "event": "Amazon reports: it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's October 5 count of 47% of Anthropic's sales through Amazon and Google.",
+        "when": "October 29",
+        "date": "2026-10-29"
+      },
+      {
+        "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
+        "when": "October 31",
+        "date": "2026-10-31"
+      },
+      {
+        "event": "Nvidia reports: whether it names the labs among its largest customers, against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue from the two.",
+        "when": "November 18",
+        "date": "2026-11-18"
+      },
+      {
+        "event": "The prospectus: the gross margin on inference, customer concentration against Silverio's October 5 count of a quarter from two customers, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back.",
+        "when": "When it files",
+        "date": null
+      }
+    ],
+    "lastUpdated": "2026-10-09"
   }
 ]
