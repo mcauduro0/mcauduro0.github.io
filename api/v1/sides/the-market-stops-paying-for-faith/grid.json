@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 4,
+  "slug": "the-market-stops-paying-for-faith",
+  "url": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/the-market-stops-paying-for-faith/grid.json",
+  "csv": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
+  "story": {
+    "headline": "AI Spending Has Met Its First Real Bill",
+    "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json"
+  },
+  "question": "Is the capex spending defense, or is the return not there?",
+  "license": "DeepStack, https://deepstack.ltd/sides/the-market-stops-paying-for-faith/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 9,
+  "claims": 17,
+  "columns": [
+    {
+      "id": "main",
+      "question": "Is the capex spending defense, or is the return not there?",
+      "url": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Warden Capital",
+      "entity": "https://deepstack.ltd/people/warden-capital/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "return-not-there",
+          "label": "The return is not there",
+          "claims": [
+            {
+              "claim": "The creator argues the AI investment cycle cannot earn a reasonable return absent AGI within a few years: at roughly $700 billion per year of investment, model providers would need about $1 trillion in annual end AI revenue by 2029, ramping toward…",
+              "date": "2026-07-22",
+              "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873"
+            },
+            {
+              "claim": "The creator says they are relatively confident the AI boom ends in a bust but do not know when, are not certain it causes a US recession, and cannot judge how deep one would be; they add that the debt-heavy neocloud and datacenter financing raises…",
+              "date": "2026-07-22",
+              "url": "https://fiscal.ai/fund-letters/warden-capital-q2-2026-fscl_document_8ABS2CYK873"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kevin Gee",
+      "entity": "https://deepstack.ltd/people/kevin-gee/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "return-not-there",
+          "label": "The return is not there",
+          "claims": [
+            {
+              "claim": "He argues the consensus revenue path is stretched, since the ~$863 billion of incremental annual AI revenue by 2030 would require roughly $100 per month of extra AI spending from every person in the US and EU including children, and equals 19.1x…",
+              "date": "2026-08-04",
+              "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026"
+            },
+            {
+              "claim": "He argues the hyperscalers' AI capital spending may destroy shareholder value: consensus 2026E-'30E capex of about $3.5 trillion against ~$863 billion of incremental revenue at a 40% incremental margin and 20% tax rate implies roughly an 8%…",
+              "date": "2026-08-04",
+              "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "First Pacific Advisors",
+      "entity": "https://deepstack.ltd/people/first-pacific-advisors/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "return-not-there",
+          "label": "The return is not there",
+          "claims": [
+            {
+              "claim": "Global AI spending is projected to reach 2.59 trillion dollars in 2026, and to achieve even a relatively low unlevered return on investment would require 207 billion dollars in after-tax income per year starting immediately, which the portfolio…",
+              "date": "2026-07-30",
+              "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+            },
+            {
+              "claim": "AI-related stocks have accounted for 50% to more than 75% of the S&P 500's total gains since late 2022, and AI companies now constitute approximately 50% of the S&P 500, exceeding even the Information Technology sector's 35% weight at the S&P 500's…",
+              "date": "2026-07-30",
+              "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kris",
+      "entity": "https://deepstack.ltd/people/kris/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-is-defense",
+          "label": "The spending is defense",
+          "claims": [
+            {
+              "claim": "The Mag7 capex boom should be read the same way: the risk of not investing heavily is much higher than the risk of overinvesting, which is why Alphabet announced more investment and others will follow, since their existence is at stake.",
+              "date": "2026-07-26",
+              "url": "https://www.potentialmultibaggers.com/p/the-worst-july-in-22-years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moses Sternstein",
+      "entity": "https://deepstack.ltd/people/moses-sternstein/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-is-defense",
+          "label": "The spending is defense",
+          "claims": [
+            {
+              "claim": "Hyperscalers have poured free cashflow and debt into computational infrastructure to meet AI's demands, creating a generational run in semiconductors where demand has outpaced supply.",
+              "date": "2026-07-24",
+              "url": "https://www.a16z.news/p/charts-of-the-week-are-semis-cheap"
+            },
+            {
+              "claim": "AI usage is highly concentrated among power users and top-decile enterprises, which have increased token output by more than 17 times since April 2025, creating an approximately 8-fold gap between typical and top-decile enterprises, and a gap…",
+              "date": "2026-08-21",
+              "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quanta 72",
+      "entity": "https://deepstack.ltd/people/quanta-72/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-is-defense",
+          "label": "The spending is defense",
+          "claims": [
+            {
+              "claim": "Unlike dot-com era suppliers, today’s hyperscalers fund AI investment from profitable core businesses such as advertising, cloud, software, subscriptions, and e-commerce, so the question is not whether they can afford the spending.",
+              "date": "2026-07-22",
+              "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what"
+            },
+            {
+              "claim": "The most important signal for AI-era investors is the relationship between capital spending, free cash flow, and the growth those investments eventually produce, because in the dot-com boom stock prices turned before earnings and cash flow collapsed.",
+              "date": "2026-07-22",
+              "url": "https://quanta72.substack.com/p/is-ai-the-next-dot-com-bubble-what"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steve Eisman",
+      "entity": "https://deepstack.ltd/people/steve-eisman/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "If AI becomes cheaper and commoditized, spending hundreds of billions of dollars becomes much harder to justify economically.",
+              "date": "2026-07-24",
+              "url": "https://realeismanplaybook.substack.com/p/googles-negative-cash-flow-and-the"
+            },
+            {
+              "claim": "The bullish case compares current AI infrastructure buildout to building the Las Vegas Strip in the 1950s, arguing that enormous upfront investment creates an eventually valuable economic ecosystem.",
+              "date": "2026-07-27",
+              "url": "https://realeismanplaybook.substack.com/p/the-ai-revolution-who-wins-who-loses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hayden Capital",
+      "entity": "https://deepstack.ltd/people/hayden-capital/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+              "date": "2026-08-27",
+              "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260"
+            },
+            {
+              "claim": "AI chip prices are currently inflated by speculative demand from companies ordering more chips than they need to secure allocation, and reselling them at premiums—a dynamic similar to Rolex watch secondary market pricing.",
+              "date": "2026-08-27",
+              "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JunkBondInvestor",
+      "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "The widening in AI-related credit is largely a supply-and-duration absorption story rather than fundamental deterioration, and saying so is true but the least informative thing one can say about it.",
+              "date": "2026-07-26",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated"
+            },
+            {
+              "claim": "AI-related issuance across investment grade, high yield and loans stands at $489bn year to date against $322bn for all of 2025, is 23% of USD IG gross supply this year, and for the first time the six largest tech names carry more risk in the US…",
+              "date": "2026-07-26",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -532,5 +532,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/grid/",
+    "csv": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-fed-hiked-the-long-end-kept-climbing/grid.json"
+  }
 }

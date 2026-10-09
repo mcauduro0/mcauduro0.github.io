@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -340,5 +340,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/grid/",
+    "csv": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-market-stops-paying-for-faith/grid.json"
+  }
 }

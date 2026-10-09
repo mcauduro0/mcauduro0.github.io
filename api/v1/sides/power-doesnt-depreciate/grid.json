@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 6,
+  "slug": "power-doesnt-depreciate",
+  "url": "https://deepstack.ltd/sides/power-doesnt-depreciate/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/power-doesnt-depreciate/grid.json",
+  "csv": "https://deepstack.ltd/sides/power-doesnt-depreciate/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/",
+  "story": {
+    "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+    "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+    "api": "https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json"
+  },
+  "question": "Is power scarcity a warning, or a moat?",
+  "license": "DeepStack, https://deepstack.ltd/sides/power-doesnt-depreciate/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 7,
+  "claims": 13,
+  "columns": [
+    {
+      "id": "main",
+      "question": "Is power scarcity a warning, or a moat?",
+      "url": "https://deepstack.ltd/sides/power-doesnt-depreciate/"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Michael Burry",
+      "entity": "https://deepstack.ltd/people/michael-burry/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-warning",
+          "label": "Scarcity as a warning",
+          "claims": [
+            {
+              "claim": "Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…",
+              "date": "2026-08-12",
+              "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026"
+            },
+            {
+              "claim": "GDP growth is heavily reliant on the data center buildout, evidenced by private non-residential construction excluding data centers falling 7.9% year over year in June.",
+              "date": "2026-08-21",
+              "url": "https://michaeljburry.substack.com/p/trading-post-and-short-thoughts-to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kakashii",
+      "entity": "https://deepstack.ltd/people/kakashii/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-warning",
+          "label": "Scarcity as a warning",
+          "claims": [
+            {
+              "claim": "CoreWeave is a contract-financed infrastructure company whose assets become technologically obsolete much faster than the buildings it leases, whose largest customers are competing clouds, and whose only GPU supplier is also an investor, customer…",
+              "date": "2026-08-20",
+              "url": "https://kakashiii111.substack.com/p/the-nvidia-spv-series-part-2-coreweave"
+            },
+            {
+              "claim": "Profitability requires mature deployments to fund the next build without another financing wave, a condition that has not yet been met and that revenue, backlog, and gigawatts rising alone do not prove common equity earns an attractive return after…",
+              "date": "2026-08-20",
+              "url": "https://kakashiii111.substack.com/p/the-nvidia-spv-series-part-2-coreweave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gaetano",
+      "entity": "https://deepstack.ltd/people/gaetano/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-warning",
+          "label": "Scarcity as a warning",
+          "claims": [
+            {
+              "claim": "Hyperscalers face hard constraints on grid access, permitting, and environmental impact that are pushing them toward distributed multi-building or multi-campus architectures rather than single massive data centers in one location.",
+              "date": "2026-09-01",
+              "url": "https://gaetanoresearch.substack.com/p/we-need-to-talk-video-data-center"
+            },
+            {
+              "claim": "Carriers had already installed enormous amounts of fiber based on expectations that demand would keep outrunning supply, so when DWDM allowed each fiber to carry dramatically more capacity than expected, the remaining fiber pairs sat dark for years…",
+              "date": "2026-08-26",
+              "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-is-it-going"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steve Eisman",
+      "entity": "https://deepstack.ltd/people/steve-eisman/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-warning",
+          "label": "Scarcity as a warning",
+          "claims": [
+            {
+              "claim": "Data centers are proving more difficult and costly to build than expected, with gigawatt-scale projects running behind schedule, and every delay gives an already-unprofitable customer base more time to encounter financial strain.",
+              "date": "2026-09-09",
+              "url": "https://realeismanplaybook.substack.com/p/inside-ais-fragile-ecosystem-with"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ren",
+      "entity": "https://deepstack.ltd/people/ren/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-moat",
+          "label": "Scarcity as a moat",
+          "claims": [
+            {
+              "claim": "AI data center buildout is bottlenecked by power delivery, not compute, since compute can be ordered faster than power can be delivered to a site.",
+              "date": "2026-08-25",
+              "url": "https://renstocks.substack.com/p/should-you-buy-bloom-energy-now"
+            },
+            {
+              "claim": "Bloom's real product is time-to-power rather than electrons, because stranding a multi-billion-dollar GPU cluster for 18-24 months costs far more than paying a premium for onsite electricity.",
+              "date": "2026-08-25",
+              "url": "https://renstocks.substack.com/p/should-you-buy-bloom-energy-now"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daniel Romero",
+      "entity": "https://deepstack.ltd/people/daniel-romero/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-moat",
+          "label": "Scarcity as a moat",
+          "claims": [
+            {
+              "claim": "The mismatch between how quickly compute can improve and how slowly physical infrastructure can be built is what drives the investment case for data-center stocks, because interconnection, transformers, turbines, generation, transmission, and…",
+              "date": "2026-08-28",
+              "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout"
+            },
+            {
+              "claim": "Power is a key bottleneck in AI because rack power is rising sharply while grids, substations, transformers, and generation take years to expand.",
+              "date": "2026-08-28",
+              "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edelbridge Alpha",
+      "entity": "https://deepstack.ltd/people/edelbridge-alpha/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "scarcity-as-moat",
+          "label": "Scarcity as a moat",
+          "claims": [
+            {
+              "claim": "Despite extensive resident opposition on noise, water, and emissions grounds at the planning board hearings, Nebius's 350 MW Vineland, New Jersey data center site plan was still approved, showing there is no real 'war' against data centers.",
+              "date": "2026-08-21",
+              "url": "https://edelbridge.substack.com/p/data-center-politics-is-forcing-a"
+            },
+            {
+              "claim": "Because a single data center campus represents a multi-billion dollar capital commitment, multi-year construction payroll, and permanent tax base addition, while incentives amount to only about 2% of construction investment in hyperscale counties…",
+              "date": "2026-08-21",
+              "url": "https://edelbridge.substack.com/p/data-center-politics-is-forcing-a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

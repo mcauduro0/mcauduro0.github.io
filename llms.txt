@@ -2,7 +2,7 @@
 
 > The money behind the machine. Where informed investors disagree, the evidence each side stands on, and the date that settles it. DeepStack is an independent publication on the AI economy: the capital, the chips, the power and the people betting on all three. Sharp analysis, sourced numbers, a clear verdict. Every story gives the strongest case on each side, takes one in The DeepStack Call, and names the dated test that will settle it. Analysis and opinion, not investment advice.
 
-DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T04:05:22Z.
+DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-09T04:55:21Z.
 
 Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id and the name the calling program gives itself, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next.
 
@@ -15,12 +15,14 @@ Questions typed into the search box or asked through the MCP tools are kept as t
 - [Results](https://deepstack.ltd/api/v1/results.json): resolved tests and the ten-results rule
 - [Corrections](https://deepstack.ltd/api/v1/corrections.json): every correction on every story, with the date of the change
 - [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (11 files; one per story slug under /api/v1/sides/)
+- [The sides grid](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai/grid.json): one row per voice and one column per question of a sides page, the side each holds with the dated claim and the verified link (11 files, one per story slug at /api/v1/sides/<slug>/grid.json; the same rows as CSV at /sides/<slug>/grid.csv)
 - [Companies](https://deepstack.ltd/api/v1/entities/companies.json): reported numbers, mentions, side rows and the delayed market snapshot, with its source
 - [People](https://deepstack.ltd/api/v1/entities/people.json): what each person argued, attributed and dated; no score or ranking
 - [The macro tape](https://deepstack.ltd/api/v1/tape.json): the live macro tape with the producer of each series
 - [The Weekly](https://deepstack.ltd/api/v1/weekly.json): the index of editions
 - [OpenAPI 3.1](https://deepstack.ltd/api/openapi.json): the schema of the files above
 - [MCP endpoint](https://mcp.deepstack.ltd/mcp): Model Context Protocol over Streamable HTTP; seven read tools that cite the canonical URLs; no key
+- [MCP documentation](https://deepstack.ltd/mcp/): the endpoint, the transport, the tools, the client snippets for Claude and ChatGPT, the rate limit and what is kept
 
 ## Stories
 
@@ -44,15 +46,36 @@ Questions typed into the search box or asked through the MCP tools are kept as t
 - [Corrections](https://deepstack.ltd/corrections/): what DeepStack got wrong and when it was fixed; a correction is dated at the top of its story
 - [Companies](https://deepstack.ltd/companies/): the companies in the argument
 - [People](https://deepstack.ltd/people/): the people on each side
+- [The sides grids](https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/grid/): the grid of each sides page (11 grids at /sides/<slug>/grid/): voice by row, question by column, the side held and the published claim; each with its CSV at /sides/<slug>/grid.csv, licensed on its first line
 - [The Data Desk](https://deepstack.ltd/data/): interactive charts, five of them on live data
+- [Downloads](https://deepstack.ltd/data/download/): the dataset as CSV and JSON, and the grid CSV of every sides page
 - [Editorial Notes](https://deepstack.ltd/editorial-notes/): what DeepStack believes and how it works, tested against live data
 - [The Weekly](https://deepstack.ltd/weekly/): one edition a week
 - [About](https://deepstack.ltd/about/): standards, formats, partnerships, privacy
+- [Terms of use](https://deepstack.ltd/terms/): free, read-only, as is; quotations clipped under fair use; cite the canonical URL; not investment advice
+- [Privacy](https://deepstack.ltd/privacy/): what DeepStack keeps about readers and about the programs that read it, and why
+- [Contact](https://deepstack.ltd/contact/): support, with the stated reply window; the other ways to follow
 - [RSS](https://deepstack.ltd/feed.xml)
 - [Docket calendar](https://deepstack.ltd/docket.ics): one event per dated test
 
 ## Full text
 
 - [llms-full.txt](https://deepstack.ltd/llms-full.txt): the stories’ headline, dek and Call in plain text with their URLs
+
+## Memos
+
+One PDF per Part, printed from the published pages (11 today; the page stays the record). Listed with the dataset at https://deepstack.ltd/data/download/#memos.
+
+- [Memo, Part 11: The Backlog Is Not the Quarter](https://deepstack.ltd/assets/memos/the-backlog-is-not-the-quarter.pdf): PDF, 308 KB, 10 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/assets/memos/the-bubble-is-in-the-denominator.pdf): PDF, 330 KB, 11 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 09: Habit Was the Moat. Agents Are Draining It.](https://deepstack.ltd/assets/memos/habit-was-the-moat.pdf): PDF, 326 KB, 10 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 08: AI Lenders Are Financing the End of Scarcity](https://deepstack.ltd/assets/memos/the-scarcity-is-the-collateral.pdf): PDF, 283 KB, 8 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 07: The Fed Hiked. The Long End Still Climbed.](https://deepstack.ltd/assets/memos/the-fed-hiked-the-long-end-kept-climbing.pdf): PDF, 271 KB, 8 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 06: Power Doesn’t Depreciate. Its Premium Moves.](https://deepstack.ltd/assets/memos/power-doesnt-depreciate.pdf): PDF, 233 KB, 6 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 05: OpenAI and Anthropic Are Not the Same Business](https://deepstack.ltd/assets/memos/anthropic-grew-142-percent-openai.pdf): PDF, 225 KB, 5 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 04: AI Spending Has Met Its First Real Bill](https://deepstack.ltd/assets/memos/the-market-stops-paying-for-faith.pdf): PDF, 267 KB, 7 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 03: The Machines Will Work. The Debt Might Not.](https://deepstack.ltd/assets/memos/the-debt-behind-the-machines.pdf): PDF, 238 KB, 6 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 02: SpaceX Is Funding an AI Bet Before the Proof](https://deepstack.ltd/assets/memos/spacex-after-the-ipo-exit-liquidity.pdf): PDF, 209 KB, 5 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
+- [Memo, Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.](https://deepstack.ltd/assets/memos/nvidias-demand-insatiable-or-manufactured.pdf): PDF, 202 KB, 4 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
 
 Analysis and opinion, not investment advice.

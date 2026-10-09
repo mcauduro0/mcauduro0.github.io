@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 3,
+  "slug": "the-debt-behind-the-machines",
+  "url": "https://deepstack.ltd/sides/the-debt-behind-the-machines/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/the-debt-behind-the-machines/grid.json",
+  "csv": "https://deepstack.ltd/sides/the-debt-behind-the-machines/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
+  "story": {
+    "headline": "The Machines Will Work. The Debt Might Not.",
+    "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json"
+  },
+  "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+  "license": "DeepStack, https://deepstack.ltd/sides/the-debt-behind-the-machines/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 6,
+  "claims": 10,
+  "columns": [
+    {
+      "id": "main",
+      "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+      "url": "https://deepstack.ltd/sides/the-debt-behind-the-machines/"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Michael Burry",
+      "entity": "https://deepstack.ltd/people/michael-burry/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "capex-and-credit",
+          "label": "1999 capex plus 2008 credit",
+          "claims": [
+            {
+              "claim": "Nebius extended its server depreciation schedule from four years to five this year even though its own deal pricing implies roughly 50 percent annual decay; customers that would not quit depreciating are what extended the bust twenty-five years ago.",
+              "date": "2026-08-12",
+              "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026"
+            },
+            {
+              "claim": "Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…",
+              "date": "2026-08-12",
+              "url": "https://michaeljburry.substack.com/p/trading-post-august-12-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vitaliy Katsenelson",
+      "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "capex-and-credit",
+          "label": "1999 capex plus 2008 credit",
+          "claims": [
+            {
+              "claim": "AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…",
+              "date": "2026-08-06",
+              "url": "https://vitaliy.substack.com/p/todays-market-1999-capex-2008-credit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market Sentiment",
+      "entity": "https://deepstack.ltd/people/market-sentiment/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "borrowing-is-rational",
+          "label": "The borrowing is rational",
+          "claims": [
+            {
+              "claim": "Capacity is sold before it is built: AWS backlog reached 496 billion dollars, Microsoft closed June 2026 with 678 billion of commercial RPO up 84 percent year over year, Google Cloud's backlog hit 514 billion; CoreWeave's 2020-era A100s are fully…",
+              "date": "2026-08-08",
+              "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+            },
+            {
+              "claim": "Modeled bottom-up, 100 billion dollars of annual data-center capex sustains roughly 160 billion of steady-state annual revenue, a 1.6x revenue-to-capex multiple and about a 21 percent IRR, even assuming a five-year chip life and a one-third annual…",
+              "date": "2026-08-08",
+              "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+            }
+          ]
+        },
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "His own bar: the spend needs about $960B of cloud revenue; the run rate is about $380B, growing 40% or more.",
+              "date": null,
+              "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oguz Erkan",
+      "entity": "https://deepstack.ltd/people/oguz-erkan/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "borrowing-is-rational",
+          "label": "The borrowing is rational",
+          "claims": [
+            {
+              "claim": "Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.",
+              "date": "2026-08-06",
+              "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute"
+            }
+          ]
+        },
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "His own tripwire: hyperscaler free cash flow may go negative in 2027; leverage on speculative returns repels.",
+              "date": null,
+              "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Variant Perception",
+      "entity": null,
+      "positions": [
+        {
+          "question": "main",
+          "side": "borrowing-is-rational",
+          "label": "The borrowing is rational",
+          "claims": [
+            {
+              "claim": "Still risk-on, semis capital-scarce, July was a tradeable low.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JunkBondInvestor",
+      "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Three endings fit today's numbers: squeeze, triumph, or spreads just cheapen. Unsortable yet.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

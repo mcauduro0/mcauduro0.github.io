@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -250,5 +250,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/grid/",
+    "csv": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/spacex-after-the-ipo-exit-liquidity/grid.json"
+  }
 }

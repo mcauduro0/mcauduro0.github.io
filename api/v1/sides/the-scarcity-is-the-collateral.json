@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -582,5 +582,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid/",
+    "csv": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-scarcity-is-the-collateral/grid.json"
+  }
 }

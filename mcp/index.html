@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeepStack over MCP | DeepStack</title>
+<meta name="description" content="The DeepStack MCP endpoint: address, transport, the read tools, client setup for Claude and ChatGPT, the rate limit, what is kept, and the terms.">
+<meta name="theme-color" content="#F4EFE6">
+<link rel="canonical" href="https://deepstack.ltd/mcp/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DeepStack">
+<meta property="og:url" content="https://deepstack.ltd/mcp/">
+<meta property="og:title" content="DeepStack over MCP | DeepStack">
+<meta property="og:description" content="The DeepStack MCP endpoint: address, transport, the read tools, client setup for Claude and ChatGPT, the rate limit, what is kept, and the terms.">
+<meta property="og:image" content="https://deepstack.ltd/assets/avatar.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DeepStack over MCP | DeepStack">
+<meta name="twitter:description" content="The DeepStack MCP endpoint: address, transport, the read tools, client setup for Claude and ChatGPT, the rate limit, what is kept, and the terms.">
+<meta name="twitter:image" content="https://deepstack.ltd/assets/avatar.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="DeepStack" href="/feed.xml">
+<link rel="alternate" type="text/calendar" title="The DeepStack Docket" href="/docket.ics">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<script src="/app.js" defer></script>
+<script src="/subscribe.js" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"3fbcb0373d194f38bfc42e5db1d680fe"}'></script>
+
+</head>
+<body class="page-fixed page-fixed-mcp">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="DeepStack home"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path d="M19 21H81M50 21V85M19 21 50 43M81 21 50 43M22 43H78M22 43 50 66M78 43 50 66M29 66H71M29 66 50 85M71 66 50 85" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor"><circle cx="19" cy="21" r="6"/><circle cx="50" cy="21" r="6"/><circle cx="81" cy="21" r="6"/><circle cx="22" cy="43" r="6"/><circle cx="78" cy="43" r="6"/><circle cx="29" cy="66" r="6"/><circle cx="50" cy="66" r="5"/><circle cx="71" cy="66" r="6"/><circle cx="50" cy="85" r="6"/></g><circle class="mark-core" cx="50" cy="43" r="8" stroke="currentColor" stroke-width="2.6"/></svg><span>DeepStack</span></a>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="/stories/">The Buildout</a>
+      <a href="/data/">Data Desk</a>
+      <a href="/editorial-notes/">Editorial Notes</a>
+      <a href="/weekly/">The Weekly</a>
+      <a href="/about/">About</a>
+      <a href="/about/#partner">Partner</a>
+      <a class="nav-cta" href="#newsletter">Subscribe</a>
+      <a class="nav-search" href="/search/"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg><span>Search</span></a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head wrap fixed-head">
+  <p class="label label-amber">For agents</p>
+  <h1>DeepStack over MCP</h1>
+  <p class="page-dek">Where informed investors disagree, as tools any agent can call: the endpoint, the transport, what each tool answers, how to connect Claude or ChatGPT, and what is kept.</p>
+  <p class="fixed-updated">Updated <time datetime="2026-10-09">October 9, 2026</time></p>
+</section>
+<article class="wrap fixed-page">
+  <div class="fixed-body"><p>DeepStack publishes its analysis as text that programs can read: a static JSON API at <a href="/api/v1/index.json">deepstack.ltd/api/v1/</a> and a Model Context Protocol server that reads those files and answers in text, citing the canonical URL of everything it names. Both are free and need no key. The content is the content of the site; nothing is written by a model at request time.</p></div>
+  <section class="fixed-section" id="the-endpoint" aria-labelledby="the-endpoint-title"><h2 id="the-endpoint-title">The endpoint</h2><p>The address is <strong>https://mcp.deepstack.ltd/mcp</strong>. Transport: Streamable HTTP, JSON-RPC 2.0 by POST, one message or a batch. Protocol 2025-03-26 or 2025-06-18, whichever the client asks for. No key, no account, no sign-in. Server name <code>deepstack-mcp</code>, version 1.0.0.</p>
+<p>Sixty calls a minute per client; the refusal is a 429 with a Retry-After header. The server reads the static files under <a href="/api/v1/index.json">/api/v1/</a> with a ten-minute cache, keeps no state between calls and runs no model: every answer is the published analysis as text, with the canonical deepstack.ltd URL of each item it names, and ends with the line &quot;Analysis and opinion, not investment advice.&quot;</p></section>
+<section class="fixed-section" id="the-tools" aria-labelledby="the-tools-title"><h2 id="the-tools-title">The tools</h2><div class="table-scroll page-table-wrap"><table class="page-table"><thead><tr><th scope="col">Tool</th><th scope="col">Arguments</th><th scope="col">What it does</th></tr></thead><tbody><tr><th scope="row"><code>deepstack_search</code></th><td><code>query</code> (required), <code>limit</code>, <code>kinds</code></td><td>Use when the user asks where informed investors disagree on a topic of the AI economy, or wants DeepStack’s published analysis on a company, a person or a question; returns the matching stories, sides, tests and entities with their canonical URLs, or answers “DeepStack has no formed side on …” with up to three nearest items, labeled as nearest. Use it first when the slug or name is not known.</td></tr><tr><th scope="row"><code>deepstack_story</code></th><td><code>slug</code>, <code>part</code>, <code>detail</code></td><td>Use when the user wants one Part of The Buildout read in full, by slug or part number: headline, dek, The DeepStack Call (stance, conviction, three actions, what would change the call, the next dated test), key numbers, the full text as plain paragraphs, the dated tests, any result, the named companies and people, and the sources, each with its URL.</td></tr><tr><th scope="row"><code>deepstack_sides</code></th><td><code>slug</code>, <code>part</code></td><td>Use when the user asks for the bull and bear case, who disagrees with a thesis, the counter-argument, or what would change a side’s mind. Returns, for one story by slug or part number, The DeepStack Call, every attributed, paraphrased voice on each side with its date and source link, the strongest case against each side from outside it, where voices cross, and the dated tests that settle it.</td></tr><tr><th scope="row"><code>deepstack_docket</code></th><td><code>window_days</code>, <code>include_past</code>, <code>include_signal</code>, <code>status</code>, <code>part</code></td><td>Use when the user asks what will decide a dispute, what to watch, or the next dated test. Returns the dated tests that will settle each story, from today forward: date and precision, status, the event, the resolver (which series, release or earnings print decides it) and the story, each with its URL.</td></tr><tr><th scope="row"><code>deepstack_results</code></th><td>none</td><td>Use when the user asks what resolved and how the Call fared. Returns the tests that came in: verdict, what happened with the primary source and the number, what it did to the Call, and the rule that no accuracy rate is shown until ten results exist.</td></tr><tr><th scope="row"><code>deepstack_entity</code></th><td><code>slug</code>, <code>ticker</code>, <code>name</code>, <code>kind</code></td><td>Use when the user asks what the voices argued about a company, or what a person argued, in The Buildout; by slug, ticker or name. Returns where it appears, the figures the stories reported, each argument attributed, dated and linked, and for a listed company the delayed market snapshot with its source. Never a score or a ranking.</td></tr><tr><th scope="row"><code>deepstack_tape</code></th><td>none</td><td>Use when the user asks for the macro figures DeepStack tests its notes against, each with its producer and date: Treasury yields, the real yield, the S&amp;P 500, VIX, Brent, US natural gas, copper, the Fed funds target, CPI and payrolls, with the weekly change and the as-of time of each series.</td></tr></tbody></table></div>
+<p>7 tools, all read-only: nothing is written to any account and no money moves. The same list comes back from <code>tools/list</code>.</p></section>
+<section class="fixed-section" id="connecting-a-client" aria-labelledby="connecting-a-client-title"><h2 id="connecting-a-client-title">Connecting a client</h2><p><strong>Claude</strong> (claude.ai and the desktop app): Settings, Connectors, <em>Add custom connector</em>; name DeepStack, remote MCP server URL https://mcp.deepstack.ltd/mcp, no OAuth. Then enable it in a conversation&#39;s tools menu.</p>
+<p><strong>Claude Code</strong>:</p>
+<pre class="page-code"><code>claude mcp add --transport http deepstack https://mcp.deepstack.ltd/mcp</code></pre>
+<p><strong>ChatGPT</strong>: Settings, Connectors, <em>Create</em> (developer mode on); name DeepStack, MCP server URL https://mcp.deepstack.ltd/mcp, authentication <em>No authentication</em>. The same address serves an Apps SDK remote server. The tools then appear in a conversation under the connector&#39;s name.</p>
+<p><strong>Cursor, Windsurf and other editors</strong> (<code>mcp.json</code>):</p>
+<pre class="page-code"><code>{ &quot;mcpServers&quot;: { &quot;deepstack&quot;: { &quot;url&quot;: &quot;https://mcp.deepstack.ltd/mcp&quot; } } }</code></pre>
+<p><strong>By hand</strong>, the handshake and one call:</p>
+<pre class="page-code"><code>curl -s https://mcp.deepstack.ltd/mcp -H &#39;content-type: application/json&#39; -H &#39;accept: application/json&#39; \
+  -d &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;initialize&quot;,&quot;params&quot;:{&quot;protocolVersion&quot;:&quot;2025-06-18&quot;,&quot;capabilities&quot;:{},&quot;clientInfo&quot;:{&quot;name&quot;:&quot;curl&quot;,&quot;version&quot;:&quot;0&quot;}}}&#39;
+curl -s https://mcp.deepstack.ltd/mcp -H &#39;content-type: application/json&#39; -H &#39;accept: application/json&#39; \
+  -d &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:2,&quot;method&quot;:&quot;tools/call&quot;,&quot;params&quot;:{&quot;name&quot;:&quot;deepstack_docket&quot;,&quot;arguments&quot;:{}}}&#39;</code></pre></section>
+<section class="fixed-section" id="when-deepstack-has-no-formed-side" aria-labelledby="when-deepstack-has-no-formed-side-title"><h2 id="when-deepstack-has-no-formed-side-title">When DeepStack has no formed side</h2><p>The tools say so. A search below the relevance floor, or a story, sides page, company or person that does not exist, answers &quot;DeepStack has no formed side on …. Nothing published argues it yet.&quot; and then says what exists nearby: up to three nearest published items, labeled as nearest and not as an answer, or the list of parts, companies and people with their slugs. That sentence is the answer, not a failure, and nothing should be inferred beyond it. The site&#39;s own <a href="/search/">search</a> gives the same sentence.</p></section>
+<section class="fixed-section" id="what-is-kept" aria-labelledby="what-is-kept-title"><h2 id="what-is-kept-title">What is kept</h2><p>Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id and the name the calling program gives itself, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next.</p>
+<p>The record is read in aggregate, to see which disputes are asked about and where DeepStack has no formed side; it is never published per question and never shared. No conversation text beyond the tool&#39;s own arguments is kept. The full policy is at <a href="/privacy/">deepstack.ltd/privacy/</a>.</p></section>
+<section class="fixed-section" id="not-advice-and-the-terms" aria-labelledby="not-advice-and-the-terms-title"><h2 id="not-advice-and-the-terms-title">Not advice, and the terms</h2><p>Every answer ends with the line &quot;Analysis and opinion, not investment advice.&quot; The tools return a way of reading public evidence, published identically to everyone; they do not know the user&#39;s situation and never recommend a trade. Use is under the <a href="/terms/">terms of use</a>: free, read-only, as is, quotations clipped under fair use, the canonical URL to cite. The schema of the files the server reads is the <a href="/api/openapi.json">OpenAPI document</a>; programs that read the web without MCP can start from <a href="/llms.txt">llms.txt</a>.</p></section>
+  <p class="fine fixed-advice">Analysis and opinion, not investment advice.</p>
+</article>
+</main>
+<section id="newsletter" class="newsletter" aria-labelledby="newsletter-title">
+  <div class="wrap newsletter-inner">
+    <div class="newsletter-copy">
+      <p class="label label-amber">The DeepStack dispatch</p>
+      <h2 id="newsletter-title">Get the verdict before the market does.</h2>
+      <p>Every Saturday, <a href="/weekly/">The DeepStack Weekly</a>: the investigation of the week, the numbers that moved, the notes under pressure and the dates that will settle the argument. Free, independent, in your inbox.</p>
+    </div>
+    <form class="newsletter-form" action="https://subscribe.deepstack.ltd/subscribe" method="post" data-subscribe-endpoint="https://subscribe.deepstack.ltd/subscribe" novalidate>
+      <label for="newsletter-email">Email address</label>
+      <div class="field-row">
+        <input id="newsletter-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required maxlength="254" aria-describedby="newsletter-note">
+        <button class="btn btn-amber" type="submit">Subscribe <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+      </div>
+      <div class="nl-trap" aria-hidden="true"><label for="newsletter-website">Leave this field empty</label><input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <p id="newsletter-note" class="fine">One confirmation email from DeepStack, then The Weekly every Saturday. Unsubscribe in one click from any edition. Your address stays on DeepStack’s own list and is never shared.</p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="logo logo-lg" href="/"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path d="M19 21H81M50 21V85M19 21 50 43M81 21 50 43M22 43H78M22 43 50 66M78 43 50 66M29 66H71M29 66 50 85M71 66 50 85" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor"><circle cx="19" cy="21" r="6"/><circle cx="50" cy="21" r="6"/><circle cx="81" cy="21" r="6"/><circle cx="22" cy="43" r="6"/><circle cx="78" cy="43" r="6"/><circle cx="29" cy="66" r="6"/><circle cx="50" cy="66" r="5"/><circle cx="71" cy="66" r="6"/><circle cx="50" cy="85" r="6"/></g><circle class="mark-core" cx="50" cy="43" r="8" stroke="currentColor" stroke-width="2.6"/></svg><span>DeepStack</span></a><p>The money behind the machine.</p></div>
+      <nav class="footer-col" aria-label="Read"><p class="label">Read</p><a href="/stories/">The Buildout</a><a href="/data/">The Data Desk</a><a href="/editorial-notes/#live">The notes, tested live</a><a href="/weekly/">The Weekly</a><a href="/docket/">The Docket</a><a href="/results/">Results</a><a href="/companies/">Companies</a><a href="/people/">People</a><a href="/stories/?order=first">Start from Part 01</a></nav>
+      <nav class="footer-col" aria-label="DeepStack"><p class="label">DeepStack</p><a href="/about/">About</a><a href="/editorial-notes/">Editorial Notes</a><a href="/corrections/">Corrections</a><a href="/about/#standards">Standards</a><a href="/about/#partner">Partner with us</a><a href="/about/#privacy">Privacy</a></nav>
+      <nav class="footer-col" aria-label="Elsewhere"><p class="label">Elsewhere</p><a href="/feed.xml">RSS feed</a><a href="/docket.ics">Docket calendar</a><a href="/api/v1/index.json">API</a><a href="https://t.me/deepstack_ltd" target="_blank" rel="noopener noreferrer">Telegram <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg></a></nav>
+    </div>
+    <div class="footer-bottom"><p>© 2026 DeepStack. Published by Marco Cauduro.</p><p class="footer-legal" aria-label="Documentation, terms, privacy and contact"><a href="/mcp/">MCP</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a></p><p>Analysis and opinion, not investment advice. Figures are as of the dates cited in each story.</p></div>
+  </div>
+</footer>
+</body>
+</html>

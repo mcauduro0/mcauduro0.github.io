@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 1,
   "slug": "nvidias-demand-insatiable-or-manufactured",
@@ -219,5 +219,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/grid/",
+    "csv": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/nvidias-demand-insatiable-or-manufactured/grid.json"
+  }
 }

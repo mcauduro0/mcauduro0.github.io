@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 1,
+  "slug": "nvidias-demand-insatiable-or-manufactured",
+  "url": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/nvidias-demand-insatiable-or-manufactured/grid.json",
+  "csv": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
+  "story": {
+    "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+    "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+    "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json"
+  },
+  "question": "Is the marginal buyer of AI compute real?",
+  "license": "DeepStack, https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 5,
+  "claims": 7,
+  "columns": [
+    {
+      "id": "main",
+      "question": "Is the marginal buyer of AI compute real?",
+      "url": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Michael Burry",
+      "entity": "https://deepstack.ltd/people/michael-burry/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "manufactured",
+          "label": "Manufactured",
+          "claims": [
+            {
+              "claim": "Much and possibly most of current and future AI compute demand is not end-customer demand; the majority of future revenues are financed through a circular off-balance-sheet arrangement.",
+              "date": "2026-07-24",
+              "url": "https://michaeljburry.substack.com/p/trading-post-july-24-2026"
+            },
+            {
+              "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+              "date": "2026-07-09",
+              "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kris",
+      "entity": "https://deepstack.ltd/people/kris/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "insatiable",
+          "label": "Insatiable",
+          "claims": [
+            {
+              "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+              "date": "2026-06-08",
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+            }
+          ]
+        },
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Bullish on demand, and endorses the GFC earnings-quality parallel.",
+              "date": null,
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invest in Assets",
+      "entity": "https://deepstack.ltd/people/invest-in-assets/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "insatiable",
+          "label": "Insatiable",
+          "claims": [
+            {
+              "claim": "A visibility window that extends by a full year across the customer base is much harder to manufacture than a single-customer beat and signals that AI demand is structural rather than lumpy.",
+              "date": "2026-08-09",
+              "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Longriver",
+      "entity": "https://deepstack.ltd/people/longriver/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Long since 2025, and author of the bear case's most honest sentence.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NZS Capital",
+      "entity": "https://deepstack.ltd/people/nzs-capital/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Exited on the bear case; re-entered when the price paid for the risk.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

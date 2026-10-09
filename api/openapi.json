@@ -4,14 +4,15 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-09T04:05:22Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-09T04:55:21Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
-      "url": "https://deepstack.ltd/about/#standards"
+      "url": "https://deepstack.ltd/terms/"
     },
     "contact": {
       "name": "DeepStack",
-      "url": "https://deepstack.ltd/about/#partner"
+      "url": "https://deepstack.ltd/contact/"
     }
   },
   "servers": [
@@ -214,6 +215,51 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Sides"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sides/{slug}/grid.json": {
+      "get": {
+        "summary": "The sides grid",
+        "operationId": "the_sides_grid",
+        "tags": [
+          "DeepStack"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "The story slug; only stories with a sides page have a grid.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "anthropic-grew-142-percent-openai",
+                "habit-was-the-moat",
+                "nvidias-demand-insatiable-or-manufactured",
+                "power-doesnt-depreciate",
+                "spacex-after-the-ipo-exit-liquidity",
+                "the-backlog-is-not-the-quarter",
+                "the-bubble-is-in-the-denominator",
+                "the-debt-behind-the-machines",
+                "the-fed-hiked-the-long-end-kept-climbing",
+                "the-market-stops-paying-for-faith",
+                "the-scarcity-is-the-collateral"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One row per voice and one column per question of a sides page: the side each voice holds with the published claim, its date and the verified link; the same rows as /sides/{slug}/grid.csv.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SidesGrid"
                 }
               }
             }
@@ -1373,7 +1419,8 @@
           "questions",
           "crossings",
           "notes",
-          "settles"
+          "settles",
+          "grid"
         ],
         "properties": {
           "generatedAt": {
@@ -1515,6 +1562,229 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Test"
+            }
+          },
+          "grid": {
+            "type": "object",
+            "required": [
+              "url",
+              "csv",
+              "api"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "csv": {
+                "type": "string",
+                "format": "uri"
+              },
+              "api": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "description": "The grid of this page: one row per voice, one column per question; the page, its CSV and its JSON twin."
+          }
+        }
+      },
+      "GridCard": {
+        "type": "object",
+        "required": [
+          "claim",
+          "date",
+          "url"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "maxLength": 250
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          }
+        }
+      },
+      "GridPosition": {
+        "type": "object",
+        "required": [
+          "question",
+          "side",
+          "label",
+          "claims"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "The column: main for the headline question, otherwise the further question’s id."
+          },
+          "side": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GridCard"
+            }
+          }
+        }
+      },
+      "GridRow": {
+        "type": "object",
+        "required": [
+          "name",
+          "entity",
+          "positions"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "entity": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "positions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GridPosition"
+            }
+          }
+        }
+      },
+      "SidesGrid": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "part",
+          "slug",
+          "api",
+          "csv",
+          "sidesUrl",
+          "story",
+          "question",
+          "license",
+          "clip",
+          "count",
+          "claims",
+          "columns",
+          "rows"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "csv": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sidesUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "story": {
+            "type": "object",
+            "required": [
+              "headline",
+              "url",
+              "api"
+            ],
+            "properties": {
+              "headline": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "api": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "question": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "clip": {
+            "type": "integer"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Distinct voices on the page: the rows."
+          },
+          "claims": {
+            "type": "integer",
+            "description": "Published cards: the rows of the CSV."
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "question",
+                "url"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "question": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GridRow"
             }
           }
         }
@@ -1909,7 +2179,8 @@
           "openapi",
           "llms",
           "feeds",
-          "mcp"
+          "mcp",
+          "pages"
         ],
         "properties": {
           "generatedAt": {
@@ -1993,6 +2264,7 @@
               "url",
               "transport",
               "protocolVersion",
+              "docs",
               "tools"
             ],
             "properties": {
@@ -2006,11 +2278,42 @@
               "protocolVersion": {
                 "type": "string"
               },
+              "docs": {
+                "type": "string",
+                "format": "uri"
+              },
               "tools": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
+              }
+            }
+          },
+          "pages": {
+            "type": "object",
+            "required": [
+              "mcp",
+              "terms",
+              "privacy",
+              "contact"
+            ],
+            "properties": {
+              "mcp": {
+                "type": "string",
+                "format": "uri"
+              },
+              "terms": {
+                "type": "string",
+                "format": "uri"
+              },
+              "privacy": {
+                "type": "string",
+                "format": "uri"
+              },
+              "contact": {
+                "type": "string",
+                "format": "uri"
               }
             }
           }

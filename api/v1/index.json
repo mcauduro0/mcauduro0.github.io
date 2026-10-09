@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -57,6 +57,23 @@
         "the-scarcity-is-the-collateral"
       ]
     },
+    "sidesGrid": {
+      "template": "https://deepstack.ltd/api/v1/sides/{slug}/grid.json",
+      "csv": "https://deepstack.ltd/sides/{slug}/grid.csv",
+      "slugs": [
+        "anthropic-grew-142-percent-openai",
+        "habit-was-the-moat",
+        "nvidias-demand-insatiable-or-manufactured",
+        "power-doesnt-depreciate",
+        "spacex-after-the-ipo-exit-liquidity",
+        "the-backlog-is-not-the-quarter",
+        "the-bubble-is-in-the-denominator",
+        "the-debt-behind-the-machines",
+        "the-fed-hiked-the-long-end-kept-climbing",
+        "the-market-stops-paying-for-faith",
+        "the-scarcity-is-the-collateral"
+      ]
+    },
     "companies": "https://deepstack.ltd/api/v1/entities/companies.json",
     "people": "https://deepstack.ltd/api/v1/entities/people.json",
     "entity": {
@@ -82,6 +99,7 @@
     "url": "https://mcp.deepstack.ltd/mcp",
     "transport": "streamable-http",
     "protocolVersion": "2025-06-18",
+    "docs": "https://deepstack.ltd/mcp/",
     "tools": [
       "deepstack_search",
       "deepstack_story",
@@ -91,5 +109,11 @@
       "deepstack_entity",
       "deepstack_tape"
     ]
+  },
+  "pages": {
+    "mcp": "https://deepstack.ltd/mcp/",
+    "terms": "https://deepstack.ltd/terms/",
+    "privacy": "https://deepstack.ltd/privacy/",
+    "contact": "https://deepstack.ltd/contact/"
   }
 }

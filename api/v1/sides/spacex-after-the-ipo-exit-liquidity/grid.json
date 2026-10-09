@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 2,
+  "slug": "spacex-after-the-ipo-exit-liquidity",
+  "url": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/spacex-after-the-ipo-exit-liquidity/grid.json",
+  "csv": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/",
+  "story": {
+    "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+    "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
+    "api": "https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json"
+  },
+  "question": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+  "license": "DeepStack, https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 6,
+  "claims": 9,
+  "columns": [
+    {
+      "id": "main",
+      "question": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+      "url": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Kris",
+      "entity": "https://deepstack.ltd/people/kris/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "exit-liquidity",
+          "label": "Exit liquidity",
+          "claims": [
+            {
+              "claim": "Retail buyers of the SpaceX IPO are the exit liquidity: the fancy name for paying insiders, VCs and early investors at peak hype valuations.",
+              "date": "2026-06-08",
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+            },
+            {
+              "claim": "The Google SpaceX GPU rental is bullish for Nvidia because there are still not enough GPUs to quench demand; Nvidia ramps production continuously but cannot follow demand.",
+              "date": "2026-06-08",
+              "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kakashii",
+      "entity": "https://deepstack.ltd/people/kakashii/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "exit-liquidity",
+          "label": "Exit liquidity",
+          "claims": [
+            {
+              "claim": "SpaceX deployed 0.4 gigawatts of nameplate compute in the last quarter while Musk promises more than 10 gigawatts by end-2027 and describes close to 15 gigawatts at the PowerPoint level.",
+              "date": "2026-08-06",
+              "url": "https://kakashiii111.substack.com/p/spacex-ai-revenue-cip-nvidia-gpus"
+            },
+            {
+              "claim": "SpaceX's AI segment reveals the industry's bad accounting habits: how AI revenue is counted, what is hidden in construction-in-progress, and where the Nvidia GPUs everyone calls short-supplied actually are.",
+              "date": "2026-08-06",
+              "url": "https://kakashiii111.substack.com/p/spacex-ai-revenue-cip-nvidia-gpus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jeremie Eliahou Ontiveros",
+      "entity": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "the-number-is-real",
+          "label": "The number is real",
+          "claims": [
+            {
+              "claim": "Selling frontier-model inference is extraordinarily profitable: on a GB300 cluster, OpenAI and Anthropic can generate over 100 billion dollars per gigawatt-year of revenue against roughly 12 billion of rental cost.",
+              "date": "2026-08-07",
+              "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real"
+            },
+            {
+              "claim": "SpaceX is on track to build about 10 gigawatts of datacenter capacity by year-end 2027; independent site-by-site evaluation supports the guided 6 to 8 incremental gigawatts, implying a path to 300 billion dollars of ARR with only half the…",
+              "date": "2026-08-07",
+              "url": "https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trey Henninger",
+      "entity": "https://deepstack.ltd/people/trey-henninger/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "SpaceX at roughly 100 times trailing revenue would never qualify as a value investment, yet it is feasibly a ten-bagger: an extreme bull scenario could carry the company toward an 18 trillion dollar valuation or beyond over ten to twenty-five years.",
+              "date": "2026-06-08",
+              "url": "https://diyinvestingstocks.substack.com/p/spacex-ipo-hedge-against-agi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JunkBondInvestor",
+      "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Lenders back Starlink's cash and bet the AI spend never drains the company.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kevin Gee",
+      "entity": "https://deepstack.ltd/people/kevin-gee/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "crossing",
+          "label": "Voices that cross sides",
+          "claims": [
+            {
+              "claim": "Long AI in the long run, doubtful the market absorbs three $1T cash-burning IPOs at once.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

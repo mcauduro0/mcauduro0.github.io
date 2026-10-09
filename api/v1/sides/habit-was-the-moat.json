@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -625,5 +625,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/habit-was-the-moat/grid/",
+    "csv": "https://deepstack.ltd/sides/habit-was-the-moat/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/habit-was-the-moat/grid.json"
+  }
 }

@@ -21,13 +21,17 @@
     return { email: String(email || '').trim(), source: String(source || '/') };
   }
 
+  // The support form on /contact/ carries a hidden subject ("support"); the partner dialog carries none.
   function contactPayload(fields) {
-    return {
+    var payload = {
       name: String(fields.name || '').trim(),
       email: String(fields.email || '').trim(),
       format: String(fields.format || '').trim(),
       message: String(fields.message || '').trim()
     };
+    var subject = String(fields.subject || '').trim();
+    if (subject) payload.subject = subject;
+    return payload;
   }
 
   function initSubscribe(win, doc) {
@@ -64,6 +68,8 @@
     var status = form.querySelector('.form-status');
     var button = form.querySelector('button[type="submit"]');
     var format = doc.getElementById('partner-format');
+    var subject = form.querySelector('input[name="subject"]');
+    var trap = form.querySelector('input[name="website"]');
     if (!endpoint || !status || !button) return;
     form.addEventListener('submit', function (event) {
       event.preventDefault();
@@ -71,8 +77,10 @@
         name: form.querySelector('[name="name"]').value,
         email: form.querySelector('[name="email"]').value,
         format: format ? format.value : '',
+        subject: subject ? subject.value : '',
         message: form.querySelector('[name="message"]').value
       };
+      if (trap && trap.value) { status.textContent = 'Received.'; return; }
       if (!fields.name || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(fields.email) || !fields.message) {
         status.textContent = 'Add your name, a valid email address and a short message.';
         return;

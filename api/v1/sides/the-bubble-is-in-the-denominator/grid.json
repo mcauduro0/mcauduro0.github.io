@@ -1,0 +1,453 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 10,
+  "slug": "the-bubble-is-in-the-denominator",
+  "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/the-bubble-is-in-the-denominator/grid.json",
+  "csv": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
+  "story": {
+    "headline": "The Bubble Is in the Denominator",
+    "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json"
+  },
+  "question": "Does the hardware hold its value?",
+  "license": "DeepStack, https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 16,
+  "claims": 37,
+  "columns": [
+    {
+      "id": "main",
+      "question": "Does the hardware hold its value?",
+      "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "id": "who-writes-the-checks",
+      "question": "Who writes the checks?",
+      "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/#question-who-writes-the-checks"
+    },
+    {
+      "id": "what-does-5-percent-do",
+      "question": "What does 5% do to the multiple?",
+      "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/#question-what-does-5-percent-do"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Michael Burry",
+      "entity": "https://deepstack.ltd/people/michael-burry/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "a-model-not-a-price",
+          "label": "A model, not a price",
+          "claims": [
+            {
+              "claim": "CoreWeave and Nvidia's efforts to show stamina in the pricing of their chips are simply at odds with the depreciation realities lenders actually face.",
+              "date": "2026-09-28",
+              "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan"
+            },
+            {
+              "claim": "Manufacturers such as Nvidia and hyperscalers such as Oracle and Google Cloud are offering residual value guarantees for chips not because they want to but because lenders require them, given that chip depreciation is a very real problem following…",
+              "date": "2026-09-28",
+              "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan"
+            }
+          ]
+        },
+        {
+          "question": "what-does-5-percent-do",
+          "side": "long-end-nobody-caps",
+          "label": "A long end nobody caps",
+          "claims": [
+            {
+              "claim": "Acting on the expected AI-boom-to-bust thesis, the creator bought more MetLife (MET) 2029 puts far out of the money.",
+              "date": "2026-10-05",
+              "url": "https://michaeljburry.substack.com/p/trading-post-october-5-2026"
+            },
+            {
+              "claim": "None of the hyperscalers' filings disclose how much of the reported AI demand and revenue growth is circular—originating on a company's own balance sheet and injected into customer companies that then leverage up to generate demand/revenue—and…",
+              "date": "2026-09-19",
+              "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ren",
+      "entity": "https://deepstack.ltd/people/ren/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "a-model-not-a-price",
+          "label": "A model, not a price",
+          "claims": [
+            {
+              "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+              "date": "2026-09-28",
+              "url": "https://renstocks.substack.com/p/power-supply-supply-chain"
+            },
+            {
+              "claim": "The popular Jevons-paradox story that cheaper inference means bulk consumption and justifies simply buying the picks-and-shovels trade does not match Astra's actual pricing, since Astra's tokens got more expensive per unit (versus Sol, 2.5x on…",
+              "date": "2026-09-15",
+              "url": "https://renstocks.substack.com/p/openai-astra-has-agi-arrived"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kakashii",
+      "entity": "https://deepstack.ltd/people/kakashii/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "a-model-not-a-price",
+          "label": "A model, not a price",
+          "claims": [
+            {
+              "claim": "The creator calculates that Nvidia's plan to ship over 10 million chips of Blackwell and Rubin by the end of 2026 implies a total required power of roughly 17 to 23 GW, averaging around 20 GW, and questions whether enough data centers are under…",
+              "date": "2026-10-05",
+              "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math"
+            },
+            {
+              "claim": "The creator's long-standing thesis, which they say has gained support and validation over time, is that Blackwell GPUs had to be shipped to warehouses because there were not enough compatible datacenters (with the needed cooling and equipment) to…",
+              "date": "2026-10-05",
+              "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "David George",
+      "entity": "https://deepstack.ltd/people/david-george/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "renting-at-january-prices",
+          "label": "Still renting at January prices",
+          "claims": [
+            {
+              "claim": "GPUs are already running hot even while the data indicates it's still very early in mature AI adoption and utilization.",
+              "date": "2026-09-30",
+              "url": "https://www.a16z.news/p/state-of-markets-ii"
+            },
+            {
+              "claim": "Since 2023, tech has been the earnings growth story, contributing about 76% of the S&P 500's total earnings growth in 2026 as of late August.",
+              "date": "2026-09-30",
+              "url": "https://www.a16z.news/p/state-of-markets-ii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JunkBondInvestor",
+      "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "renting-at-january-prices",
+          "label": "Still renting at January prices",
+          "claims": [
+            {
+              "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes"
+            },
+            {
+              "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tae Kim",
+      "entity": "https://deepstack.ltd/people/tae-kim/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "renting-at-january-prices",
+          "label": "Still renting at January prices",
+          "claims": [
+            {
+              "claim": "The creator believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's…",
+              "date": "2026-10-02",
+              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and"
+            },
+            {
+              "claim": "Axios reported, and the Financial Times later confirmed the same day, that OpenAI's annual recurring revenue is nearing $70 billion, with enterprise sales more than doubled since July according to sources familiar with the financials.",
+              "date": "2026-10-02",
+              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and"
+            }
+          ]
+        },
+        {
+          "question": "who-writes-the-checks",
+          "side": "everyone-soon",
+          "label": "Everyone, soon",
+          "claims": [
+            {
+              "claim": "OpenAI near $70B a year.",
+              "date": null,
+              "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Torsten Slok",
+      "entity": "https://deepstack.ltd/people/torsten-slok/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "not-the-customers-yet",
+          "label": "Not the customers, yet",
+          "claims": [
+            {
+              "claim": "Rates are rising for reasons beyond a strong economy: sticky inflation is lifting yields in the front end, record hyperscaler debt issuance is pressuring the belly, and fiscal worries are pushing up the long end.",
+              "date": "2026-09-26",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/recent-rates-volatility-risks-and-opportunities-in-credit"
+            },
+            {
+              "claim": "This disclosure pattern still leaves investors without a verifiable link between AI capex and the top line.",
+              "date": "2026-09-11",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-who-is-deploying-ai-to-who-can-prove-the-roi"
+            }
+          ]
+        },
+        {
+          "question": "what-does-5-percent-do",
+          "side": "long-end-nobody-caps",
+          "label": "A long end nobody caps",
+          "claims": [
+            {
+              "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+            },
+            {
+              "claim": "Because data centers, power generation, transmission and government deficits are all long-duration claims on savings, the competition for capital concentrates at the long end of the curve, which is why long rates have moved more than short rates.",
+              "date": "2026-09-12",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michael Spencer",
+      "entity": "https://deepstack.ltd/people/michael-spencer/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "not-the-customers-yet",
+          "label": "Not the customers, yet",
+          "claims": [
+            {
+              "claim": "The creator reads declining frontier model usage as a sign that enterprises, startups and power users are becoming more price conscious even as token prices fall, citing Ramp's index showing effective price per million tokens down 41% to $0.68 from…",
+              "date": "2026-09-11",
+              "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate"
+            },
+            {
+              "claim": "The creator argues that if there really is around US$3.5 trillion of off-the-books exposure on top of capex, the U.S. is in serious trouble if and when the AI boom falters, referencing an August Wall Street Journal report that combined…",
+              "date": "2026-09-11",
+              "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mia Silverio",
+      "entity": "https://deepstack.ltd/people/mia-silverio/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "not-the-customers-yet",
+          "label": "Not the customers, yet",
+          "claims": [
+            {
+              "claim": "Anthropic's expected ~$2 trillion IPO valuation is not justified by its numbers, given that it would need $1.2 trillion in annual revenue within 10 years (per Aswath Damodaran) to justify that valuation while the entire current AI products and…",
+              "date": "2026-10-05",
+              "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+            },
+            {
+              "claim": "Anthropic's customer concentration is a risk for its $2 trillion valuation: nearly a quarter of its 2025 revenue came from two customers and 47% of sales ran through Amazon and Google, which is an acceptable problem for a small company but not for…",
+              "date": "2026-10-05",
+              "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steve Eisman",
+      "entity": "https://deepstack.ltd/people/steve-eisman/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "not-the-customers-yet",
+          "label": "Not the customers, yet",
+          "claims": [
+            {
+              "claim": "Nvidia's top five customers accounted for seventy percent of accounts receivable for the quarter, and some of those customers including OpenAI are not in especially healthy financial condition.",
+              "date": "2026-09-14",
+              "url": null
+            },
+            {
+              "claim": "Bessent's announced program to buy $4 billion, later raised to $6 billion, in long term Treasuries worked for one day before rates marched higher, so he needs a much bigger bazooka or an alternative buyer.",
+              "date": "2026-09-18",
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aurelion Research",
+      "entity": "https://deepstack.ltd/people/aurelion-research/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "everyone-soon",
+          "label": "Everyone, soon",
+          "claims": [
+            {
+              "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+            },
+            {
+              "claim": "The creator treats sharply rising third-party token forecasts — Dell moving from 1 quadrillion to 57 quadrillion tokens per month by end-2028, and a Goldman Sachs estimate roughly 10x Dell's revised number — as showing AI usage growing far faster…",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kris",
+      "entity": "https://deepstack.ltd/people/kris/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "everyone-soon",
+          "label": "Everyone, soon",
+          "claims": [
+            {
+              "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+              "date": "2026-09-16",
+              "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026"
+            },
+            {
+              "claim": "Broadcom and Nvidia can both be winners because ASICs that Broadcom helps hyperscalers and AI labs build are complementary to Nvidia's GPUs rather than competitors, contrary to the framing on social media.",
+              "date": "2026-09-16",
+              "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daniel Romero",
+      "entity": "https://deepstack.ltd/people/daniel-romero/",
+      "positions": [
+        {
+          "question": "who-writes-the-checks",
+          "side": "everyone-soon",
+          "label": "Everyone, soon",
+          "claims": [
+            {
+              "claim": "He is already highly concentrated in AI, mostly in power plays, memory, and AMD, and believes that even if the AI trade stays strong, other segments could possibly perform better, which is why he has started diversifying into semicaps.",
+              "date": "2026-10-01",
+              "url": null
+            },
+            {
+              "claim": "OpenAI's combined annualized revenue with Anthropic reached $105 billion (OpenAI $40 billion, Anthropic $65 billion) in July 2026, which is nowhere near the figure needed to support the modeled 2027 buildout, and this understates the true gap since…",
+              "date": "2026-09-21",
+              "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michael Howell",
+      "entity": "https://deepstack.ltd/people/michael-howell/",
+      "positions": [
+        {
+          "question": "what-does-5-percent-do",
+          "side": "growth-signal-near-a-peak",
+          "label": "A growth signal near a peak",
+          "claims": [
+            {
+              "claim": "The recent rise in Treasury yields has been driven primarily by higher expected short-term interest rates rather than by expanding term premia, and there is a reasonable case that term premia have actually been declining.",
+              "date": "2026-09-18",
+              "url": "https://capitalwars.substack.com/p/its-the-economy-stupid"
+            },
+            {
+              "claim": "Evidence of falling term premia is already visible in the 10-year versus 5-year yield spread narrowing to 13bp from over 45bp at the start of 2026.",
+              "date": "2026-09-27",
+              "url": "https://capitalwars.substack.com/p/phoney-press-panic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TSCS",
+      "entity": "https://deepstack.ltd/people/tscs/",
+      "positions": [
+        {
+          "question": "what-does-5-percent-do",
+          "side": "long-end-nobody-caps",
+          "label": "A long end nobody caps",
+          "claims": [
+            {
+              "claim": "As of writing, the ten-year reached 5.04%, the highest since 2007, Brent is over $100 and the S&P is a few percent off its high, so the market priced the hike it asked for and the long end rose anyway.",
+              "date": "2026-09-16",
+              "url": "https://tscsw.substack.com/p/everything-goes-up-until-stocks-go"
+            },
+            {
+              "claim": "Most of this year's rise in the 10-year yield is the real yield rather than inflation expectations: from the 27 February low the 10-year rose 104bp, of which 96bp was real yield and 8bp breakeven, with the market's decade-ahead inflation guess…",
+              "date": "2026-09-21",
+              "url": "https://tscsw.substack.com/p/lehman-yields-no-lehman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vitaliy Katsenelson",
+      "entity": "https://deepstack.ltd/people/vitaliy-katsenelson/",
+      "positions": [
+        {
+          "question": "what-does-5-percent-do",
+          "side": "long-end-nobody-caps",
+          "label": "A long end nobody caps",
+          "claims": [
+            {
+              "claim": "Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; the creator says they…",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1"
+            },
+            {
+              "claim": "Bond investors are declining to purchase US Treasuries at 4.7% because the US runs large budget deficits that may worsen, and budget deficits lead to inflation paid back through cheaper dollars.",
+              "date": "2026-09-10",
+              "url": "https://vitaliy.substack.com/p/narrative-change-part-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

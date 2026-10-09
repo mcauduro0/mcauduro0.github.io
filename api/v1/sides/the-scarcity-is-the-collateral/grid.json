@@ -1,0 +1,340 @@
+{
+  "generatedAt": "2026-10-09T04:55:21Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 8,
+  "slug": "the-scarcity-is-the-collateral",
+  "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid/",
+  "api": "https://deepstack.ltd/api/v1/sides/the-scarcity-is-the-collateral/grid.json",
+  "csv": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid.csv",
+  "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
+  "story": {
+    "headline": "AI Lenders Are Financing the End of Scarcity",
+    "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json"
+  },
+  "question": "Who writes the checks for the buildout?",
+  "license": "DeepStack, https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid/; quotations under fair use, clipped to 250 characters; cite the canonical URL",
+  "clip": 250,
+  "count": 13,
+  "claims": 25,
+  "columns": [
+    {
+      "id": "main",
+      "question": "Who writes the checks for the buildout?",
+      "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "id": "cash-or-loop",
+      "question": "Cash, or a loop?",
+      "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/#question-cash-or-loop"
+    },
+    {
+      "id": "what-lenders-hold",
+      "question": "What are the lenders holding?",
+      "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/#question-what-lenders-hold"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Torsten Slok",
+      "entity": "https://deepstack.ltd/people/torsten-slok/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "cash-has-to-triple",
+          "label": "The cash has to triple",
+          "claims": [
+            {
+              "claim": "The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.",
+              "date": "2026-09-29",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+            },
+            {
+              "claim": "In S&P 500 Q2 earnings season data, AI adoption keeps broadening: 69% of companies now point to a live deployment, up from 64% last quarter.",
+              "date": "2026-09-11",
+              "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-who-is-deploying-ai-to-who-can-prove-the-roi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michael Burry",
+      "entity": "https://deepstack.ltd/people/michael-burry/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "cash-has-to-triple",
+          "label": "The cash has to triple",
+          "claims": [
+            {
+              "claim": "Alibaba's shift to financing an AI data center buildout through share issuance is a demerit against the investment thesis, as the buildout may be 'practically interminable' without a clear productive path.",
+              "date": "2026-09-04",
+              "url": null
+            },
+            {
+              "claim": "Most analysts covering the former software/social-media/AdTech companies now recast as hyperscalers have never had to model maintenance capital expenditure, and most still are not doing it, or not doing it well.",
+              "date": "2026-09-19",
+              "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c"
+            }
+          ]
+        },
+        {
+          "question": "what-lenders-hold",
+          "side": "guarantees-not-faith",
+          "label": "Guarantees, not faith",
+          "claims": [
+            {
+              "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
+              "date": "2026-09-19",
+              "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c"
+            },
+            {
+              "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+              "date": "2026-09-24",
+              "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daniel Romero",
+      "entity": "https://deepstack.ltd/people/daniel-romero/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "cash-has-to-triple",
+          "label": "The cash has to triple",
+          "claims": [
+            {
+              "claim": "Using a model assuming equipment costs rise to $100 billion per GW by 2030, five-year equipment cost recovery, 25-year site cost recovery, a 15% annual return on invested capital, and a 65% cloud operating margin, AI labs would need to reach $6.8…",
+              "date": "2026-09-21",
+              "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+            },
+            {
+              "claim": "The creator states they are not arguing the buildout is unsustainable, but that one-year compute paybacks will probably become the exception rather than a baseline assumption, possibly dependent on specific timing and shortages, and that 2026…",
+              "date": "2026-09-21",
+              "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market Sentiment",
+      "entity": "https://deepstack.ltd/people/market-sentiment/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-pays",
+          "label": "The spending pays",
+          "claims": [
+            {
+              "claim": "Based on their capex sustainability model, the creator estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+              "date": "2026-09-17",
+              "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+            },
+            {
+              "claim": "Aggressive capital spending tends to be suboptimal because after an initial euphoric rise in stock prices tied to rising capex, investors realize they overpaid for the underlying inputs, from land to memory to fiber-optic cables.",
+              "date": "2026-09-17",
+              "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aurelion Research",
+      "entity": "https://deepstack.ltd/people/aurelion-research/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-pays",
+          "label": "The spending pays",
+          "claims": [
+            {
+              "claim": "The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+            },
+            {
+              "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+              "date": "2026-09-11",
+              "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kris",
+      "entity": "https://deepstack.ltd/people/kris/",
+      "positions": [
+        {
+          "question": "main",
+          "side": "spending-pays",
+          "label": "The spending pays",
+          "claims": [
+            {
+              "claim": "AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and the creator considers this kind of capacity-constrained spending among the…",
+              "date": "2026-09-16",
+              "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ed Zitron",
+      "entity": "https://deepstack.ltd/people/ed-zitron/",
+      "positions": [
+        {
+          "question": "cash-or-loop",
+          "side": "closed-loop",
+          "label": "A closed loop",
+          "claims": [
+            {
+              "claim": "Over $1T of GPUs bought to win two unprofitable labs, the source of about 70% of hyperscaler AI revenue.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "George Noble",
+      "entity": null,
+      "positions": [
+        {
+          "question": "cash-or-loop",
+          "side": "closed-loop",
+          "label": "A closed loop",
+          "claims": [
+            {
+              "claim": "Nvidia now gives a year to pay.",
+              "date": null,
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gaetano",
+      "entity": "https://deepstack.ltd/people/gaetano/",
+      "positions": [
+        {
+          "question": "cash-or-loop",
+          "side": "real-cash",
+          "label": "Real cash, real use",
+          "claims": [
+            {
+              "claim": "Today's biggest AI infrastructure spenders are large, highly profitable companies like Microsoft, Google, Amazon and Meta, with Microsoft generating more than $55 billion of operating cash flow in its latest quarter and Alphabet roughly $39…",
+              "date": "2026-09-07",
+              "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar"
+            },
+            {
+              "claim": "Moving beyond the hyperscalers, financing becomes messier: neoclouds are borrowing enormous amounts of money, AI labs need compute without necessarily having the cash flow to fund it, NVIDIA is investing throughout the ecosystem, infrastructure…",
+              "date": "2026-09-07",
+              "url": "https://gaetanoresearch.substack.com/p/fiber-optics-boom-bust-how-similar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ren",
+      "entity": "https://deepstack.ltd/people/ren/",
+      "positions": [
+        {
+          "question": "cash-or-loop",
+          "side": "real-cash",
+          "label": "Real cash, real use",
+          "claims": [
+            {
+              "claim": "In the August 14, 2026 edition, the author argues: The creator warns the whole theme is AI with more leverage and less liquidity: every fund is under four months old with no track record, the largest is run by a first-time adviser, in a capex pause…",
+              "date": "2026-07-27",
+              "url": null
+            },
+            {
+              "claim": "AGI is not the investable trade; compute is, because Astra adds a second, inference-driven demand chain (more capable models, more agents, more delegated work, longer inference trajectories, more tokens, more compute) alongside the existing…",
+              "date": "2026-09-15",
+              "url": "https://renstocks.substack.com/p/openai-astra-has-agi-arrived"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JunkBondInvestor",
+      "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+      "positions": [
+        {
+          "question": "what-lenders-hold",
+          "side": "scarcity-as-collateral",
+          "label": "Scarcity as collateral",
+          "claims": [
+            {
+              "claim": "Contracted GPU lease rates and second-hand prices have held up even for chips launched 3 to 6 years ago, and compute is now about 60% of hyperscaler capex, so the scarce, short-lived asset is a growing share of what is being financed.",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes"
+            },
+            {
+              "claim": "The entire AI buildout has been constrained by scarcity of power, GPUs, transformers, interconnection, skilled labor and ready-to-use capacity, and this scarcity has propped up the economics of everything financed against it by holding up lease…",
+              "date": "2026-09-13",
+              "url": "https://www.junkbondinvestor.com/p/credit-weekly-when-the-pentagon-becomes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steve Eisman",
+      "entity": "https://deepstack.ltd/people/steve-eisman/",
+      "positions": [
+        {
+          "question": "what-lenders-hold",
+          "side": "guarantees-not-faith",
+          "label": "Guarantees, not faith",
+          "claims": [
+            {
+              "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+              "date": "2026-09-21",
+              "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times"
+            },
+            {
+              "claim": "George Noble cites an estimate from Julien Garran at MacroStrategy putting AI malinvestment at roughly twenty four times what was seen during the dot com bubble.",
+              "date": "2026-09-21",
+              "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kakashii",
+      "entity": "https://deepstack.ltd/people/kakashii/",
+      "positions": [
+        {
+          "question": "what-lenders-hold",
+          "side": "guarantees-not-faith",
+          "label": "Guarantees, not faith",
+          "claims": [
+            {
+              "claim": "Oracle's free cash flow was positive every year from FY2018 to FY2024, then turned slightly negative in FY2025 (-0.39B), dropped to -23.69B in FY2026 on 55.66B of cash capex, and sits at -28.72B on a trailing twelve months basis through Q1 FY2027…",
+              "date": "2026-09-24",
+              "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a"
+            },
+            {
+              "claim": "Oracle's record Q1 operating cash flow of 23.103B (up 184% YoY) is largely explained by 11.363B of customer prepayments with a significant financing component; excluding that prepayment, operating cash flow would be only about 11.740B (up a more…",
+              "date": "2026-09-24",
+              "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

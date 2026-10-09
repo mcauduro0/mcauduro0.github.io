@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:05:22Z",
+  "generatedAt": "2026-10-09T04:55:21Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -709,5 +709,10 @@
       "status": "pending",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch"
     }
-  ]
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid/",
+    "csv": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-bubble-is-in-the-denominator/grid.json"
+  }
 }
