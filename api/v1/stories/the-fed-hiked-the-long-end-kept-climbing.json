@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T03:54:46Z",
+  "generatedAt": "2026-10-09T04:05:22Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -253,8 +253,8 @@
         "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
         "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
         "source": {
-          "label": "U.S. Treasury, Major Foreign Holders of Treasury Securities (TIC)",
-          "url": "https://ticdata.treasury.gov/Publish/mfh.txt"
+          "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
         },
         "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
         "specState": "approved"
