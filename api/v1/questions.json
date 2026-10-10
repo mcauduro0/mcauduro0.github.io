@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
   "method": "How DeepStack settles a question",
   "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
-  "count": 12,
+  "count": 13,
   "questions": [
     {
       "slug": "is-the-marginal-buyer-of-ai-compute-real",
@@ -1640,6 +1640,122 @@
         },
         "url": "https://deepstack.ltd/docket/#test-p12-t01",
         "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
+        "resultUrl": null
+      }
+    },
+    {
+      "slug": "who-pays-for-the-ai-power-bill",
+      "question": "Who pays for the AI power bill?",
+      "title": null,
+      "headline": "Who pays for the AI power bill?",
+      "url": "https://deepstack.ltd/questions/who-pays-for-the-ai-power-bill/",
+      "api": "https://deepstack.ltd/api/v1/questions/who-pays-for-the-ai-power-bill.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "question": "Who pays for the AI power bill?",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "stance": "The ratepayer pays first",
+            "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Compare medians, not states: PJM's nine rose a median 11.7% per kilowatt-hour in the year to July, against 5.6% elsewhere.",
+              "Separate the wire from the scarcity: pledges fund the upgrades a project triggers; the capacity price reaches every PJM bill.",
+              "Mark December 9: PJM's auction for 2029/2030 shows whether the price ceiling still binds."
+            ],
+            "flips": [
+              "The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.",
+              "A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.",
+              "Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share."
+            ],
+            "version": 1,
+            "updatedOn": "2026-10-10",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "stance": "The ratepayer pays first",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              }
+            ],
+            "nextTest": {
+              "id": "p13-t01",
+              "part": 13,
+              "slug": "the-ratepayer-pays-first",
+              "when": "Late October",
+              "whenLabel": "Oct 20, 2026",
+              "date": "2026-10-20",
+              "precision": "window",
+              "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+              "status": "pending",
+              "resultId": null,
+              "source": {
+                "kind": "label",
+                "ref": "Late October",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+                "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+                "source": {
+                  "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+                  "url": "https://www.eia.gov/electricity/data/eia861m/"
+                },
+                "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+                "specState": "approved"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p13-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p13-t01",
+        "part": 13,
+        "slug": "the-ratepayer-pays-first",
+        "when": "Late October",
+        "whenLabel": "Oct 20, 2026",
+        "date": "2026-10-20",
+        "precision": "window",
+        "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+        "status": "pending",
+        "resultId": null,
+        "source": {
+          "kind": "label",
+          "ref": "Late October",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+          "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+          "source": {
+            "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+            "url": "https://www.eia.gov/electricity/data/eia861m/"
+          },
+          "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+          "specState": "approved"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p13-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
         "resultUrl": null
       }
     }

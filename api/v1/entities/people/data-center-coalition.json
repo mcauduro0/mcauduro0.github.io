@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "data-center-coalition",
+  "name": "Data Center Coalition",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/data-center-coalition/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/data-center-coalition.json",
+  "summary": "Data Center Coalition appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The tests ahead",
+      "excerpt": "The Data Center Coalition noted on March 16 that PJM had proposed June 1, 2029, as the date its new transmission services for co-located loads take effect; until then, the market price is the bill.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "PJM's proposed June 1, 2029 effective date for the new transmission services presumably means PJM cannot start studying these innovative solutions for over three years, and the goal should be to implement needed reforms earlier than 2029 given the…",
+      "date": "2026-03-16",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "Clearer interconnection rules for existing generators also require more concrete timelines for reviewing and approving Necessary Studies and CIR revisions, and PJM needs to account for CIRs going to the specific co-located customer so a generator…",
+      "date": "2026-03-16",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 14,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

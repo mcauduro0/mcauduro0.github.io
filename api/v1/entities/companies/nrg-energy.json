@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "nrg-energy",
+  "name": "NRG Energy",
+  "ticker": "NRG",
+  "url": "https://deepstack.ltd/companies/nrg-energy/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/nrg-energy.json",
+  "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The load pays its way",
+      "excerpt": "NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 1,
+    "claims": 1,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10",
+  "market": null
+}

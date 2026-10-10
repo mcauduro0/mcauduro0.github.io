@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "berkshire-hathaway",
+  "name": "Berkshire Hathaway",
+  "ticker": "BRK-A",
+  "url": "https://deepstack.ltd/companies/berkshire-hathaway/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/berkshire-hathaway.json",
+  "summary": "Berkshire Hathaway appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The load pays its way",
+      "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 45,
+    "claims": 1995,
+    "texts": 536,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10",
+  "market": null
+}

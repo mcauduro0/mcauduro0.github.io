@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "monitoring-analytics-pjm-market-monitor",
+  "name": "Monitoring Analytics (PJM market monitor)",
+  "role": "Monitoring Analytics",
+  "url": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/monitoring-analytics-pjm-market-monitor.json",
+  "summary": "Monitoring Analytics (PJM market monitor) appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The bill no state can shield",
+      "excerpt": "Monitoring Analytics, PJM's independent market monitor, told FERC on December 5, 2025, that the central problem is a shortage of generation to serve the new loads reliably, and that the failure to impose a reliability requirement had driven large increases in capacity prices, and in energy prices and transmission costs as well.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "The central issue facing PJM, which the Market Monitor says the ANOPR appears to largely ignore, is that there is not enough generating capacity to reliably serve the large loads that want to be online quickly.",
+      "date": "2025-12-05",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "The Market Monitor states that the current failure to impose a reliability requirement has led to large increases in capacity market prices, and also in energy market prices and transmission costs.",
+      "date": "2025-12-05",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 14,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "sonya-huang",
+  "name": "Sonya Huang",
+  "role": null,
+  "url": "https://deepstack.ltd/people/sonya-huang/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/sonya-huang.json",
+  "summary": "Sonya Huang appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The load pays its way",
+      "excerpt": "Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "Vahdat: Google pays for its own lines.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 22,
+    "texts": 2,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

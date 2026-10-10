@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "mia-silverio",
@@ -7,7 +7,7 @@
   "role": "Prof G Markets",
   "url": "https://deepstack.ltd/people/mia-silverio/",
   "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+  "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
   "parts": [
     {
       "part": 7,
@@ -33,6 +33,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "numbers": [
@@ -80,6 +85,12 @@
       "section": "Lede",
       "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "sides": [
@@ -172,7 +183,7 @@
     "creators": 1,
     "claims": 176,
     "texts": 14,
-    "asOf": "2026-10-09"
+    "asOf": "2026-10-10"
   },
-  "lastUpdated": "2026-10-09"
+  "lastUpdated": "2026-10-10"
 }

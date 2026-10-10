@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "market-sentiment",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/market-sentiment/",
   "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-  "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
+  "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12, Part 13 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
   "parts": [
     {
       "part": 3,
@@ -28,6 +28,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "numbers": [
@@ -75,6 +80,12 @@
       "section": "The filing sets the price",
       "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "section": "The bill no state can shield",
+      "excerpt": "Market Sentiment, on July 10, read two moves of January 2026 as the end of the best case it had modeled for the power companies it follows: the governors of all 13 PJM states declared with the administration that data centers pay their grid costs, and the auction's price ceiling was extended to 2030.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "sides": [
@@ -137,13 +148,25 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
       "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Market Sentiment treats the January joint declaration by the governors of all 13 PJM states with the Trump administration that power prices be reined in and that data centers pay their grid costs, together with the extension of the capacity-auction…",
+      "date": "2026-07-10",
+      "url": "https://www.marketsentiment.co/p/ms-101",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 1894,
     "texts": 198,
-    "asOf": "2026-10-09"
+    "asOf": "2026-10-10"
   },
-  "lastUpdated": "2026-10-09"
+  "lastUpdated": "2026-10-10"
 }

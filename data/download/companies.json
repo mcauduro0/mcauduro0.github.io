@@ -44,16 +44,16 @@
       "creators": 28,
       "claims": 156,
       "texts": 85,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
     "slug": "alphabet",
     "name": "Alphabet",
     "ticker": "GOOGL",
-    "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
     "parts": [
       1,
       3,
@@ -64,7 +64,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "numbers": [
       {
@@ -318,15 +319,26 @@
         "date": "2026-09-24",
         "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
         "linkVerified": true
+      },
+      {
+        "part": 13,
+        "question": null,
+        "side": "the-load-pays-its-way",
+        "sideLabel": "The load pays its way",
+        "voice": "Sonya Huang",
+        "claim": "Vahdat: Google pays for its own lines.",
+        "date": null,
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
-      "creators": 189,
-      "claims": 2936,
-      "texts": 1367,
-      "asOf": "2026-10-09"
+      "creators": 191,
+      "claims": 2944,
+      "texts": 1370,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -549,12 +561,12 @@
       }
     ],
     "coverage": {
-      "creators": 117,
-      "claims": 830,
-      "texts": 504,
-      "asOf": "2026-10-09"
+      "creators": 118,
+      "claims": 833,
+      "texts": 505,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -585,9 +597,9 @@
       "creators": 42,
       "claims": 335,
       "texts": 173,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1000,12 +1012,12 @@
       }
     ],
     "coverage": {
-      "creators": 122,
-      "claims": 2069,
-      "texts": 748,
-      "asOf": "2026-10-09"
+      "creators": 123,
+      "claims": 2070,
+      "texts": 749,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1138,12 +1150,12 @@
       }
     ],
     "coverage": {
-      "creators": 35,
-      "claims": 247,
-      "texts": 184,
-      "asOf": "2026-10-09"
+      "creators": 36,
+      "claims": 248,
+      "texts": 185,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1185,9 +1197,9 @@
       "creators": 83,
       "claims": 955,
       "texts": 494,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1211,9 +1223,35 @@
       "creators": 24,
       "claims": 109,
       "texts": 90,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "kind": "company",
+    "slug": "berkshire-hathaway",
+    "name": "Berkshire Hathaway",
+    "ticker": "BRK-A",
+    "summary": "Berkshire Hathaway appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "parts": [
+      13
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 13,
+        "section": "The load pays its way",
+        "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 45,
+      "claims": 1995,
+      "texts": 536,
+      "asOf": "2026-10-10"
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1249,9 +1287,9 @@
       "creators": 20,
       "claims": 62,
       "texts": 50,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1275,9 +1313,9 @@
       "creators": 7,
       "claims": 9,
       "texts": 8,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1331,9 +1369,9 @@
       "creators": 34,
       "claims": 125,
       "texts": 78,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1386,9 +1424,9 @@
       "creators": 5,
       "claims": 82,
       "texts": 24,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1424,9 +1462,9 @@
       "creators": 30,
       "claims": 70,
       "texts": 52,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1463,9 +1501,9 @@
       "creators": 3,
       "claims": 5,
       "texts": 4,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1499,9 +1537,9 @@
       "creators": 9,
       "claims": 172,
       "texts": 57,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1549,9 +1587,9 @@
       "creators": 16,
       "claims": 61,
       "texts": 48,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1658,9 +1696,9 @@
       "creators": 32,
       "claims": 160,
       "texts": 81,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1723,9 +1761,9 @@
       "creators": 43,
       "claims": 201,
       "texts": 90,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1761,9 +1799,9 @@
       "creators": 20,
       "claims": 43,
       "texts": 30,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1799,9 +1837,35 @@
       "creators": 17,
       "claims": 54,
       "texts": 24,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "kind": "company",
+    "slug": "exelon",
+    "name": "Exelon",
+    "ticker": "EXC",
+    "summary": "Exelon appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "parts": [
+      13
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 13,
+        "section": "The bill no state can shield",
+        "excerpt": "The Indicated PJM Transmission Owners, in a rehearing request Exelon filed with FERC on January 16, said a co-located load that funds its own upgrades but pays nothing toward the existing grid leaves other customers holding the bag."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 2,
+      "claims": 2,
+      "texts": 2,
+      "asOf": "2026-10-10"
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1859,9 +1923,9 @@
       "creators": 6,
       "claims": 44,
       "texts": 13,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1885,9 +1949,9 @@
       "creators": 13,
       "claims": 85,
       "texts": 37,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1911,9 +1975,9 @@
       "creators": 3,
       "claims": 33,
       "texts": 11,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -1954,9 +2018,9 @@
       "creators": 40,
       "claims": 88,
       "texts": 75,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2002,9 +2066,9 @@
       "creators": 12,
       "claims": 44,
       "texts": 22,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2038,9 +2102,9 @@
       "creators": 7,
       "claims": 162,
       "texts": 61,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2292,12 +2356,12 @@
       }
     ],
     "coverage": {
-      "creators": 128,
-      "claims": 1939,
-      "texts": 807,
-      "asOf": "2026-10-09"
+      "creators": 129,
+      "claims": 1940,
+      "texts": 808,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2326,9 +2390,9 @@
       "creators": 33,
       "claims": 182,
       "texts": 92,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2486,12 +2550,12 @@
       }
     ],
     "coverage": {
-      "creators": 121,
-      "claims": 828,
-      "texts": 502,
-      "asOf": "2026-10-09"
+      "creators": 122,
+      "claims": 829,
+      "texts": 503,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2520,9 +2584,9 @@
       "creators": 4,
       "claims": 4,
       "texts": 4,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2558,9 +2622,9 @@
       "creators": 36,
       "claims": 90,
       "texts": 67,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2663,9 +2727,9 @@
       "creators": 19,
       "claims": 282,
       "texts": 78,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2700,9 +2764,9 @@
       "creators": 51,
       "claims": 222,
       "texts": 128,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -2726,9 +2790,35 @@
       "creators": 19,
       "claims": 89,
       "texts": 34,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
+  },
+  {
+    "kind": "company",
+    "slug": "nrg-energy",
+    "name": "NRG Energy",
+    "ticker": "NRG",
+    "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "parts": [
+      13
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 13,
+        "section": "The load pays its way",
+        "excerpt": "NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability."
+      }
+    ],
+    "sides": [],
+    "coverage": {
+      "creators": 1,
+      "claims": 1,
+      "texts": 1,
+      "asOf": "2026-10-10"
+    },
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3090,12 +3180,12 @@
       }
     ],
     "coverage": {
-      "creators": 119,
-      "claims": 1207,
-      "texts": 569,
-      "asOf": "2026-10-09"
+      "creators": 121,
+      "claims": 1209,
+      "texts": 571,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3574,12 +3664,12 @@
       }
     ],
     "coverage": {
-      "creators": 148,
-      "claims": 2048,
-      "texts": 907,
-      "asOf": "2026-10-09"
+      "creators": 150,
+      "claims": 2050,
+      "texts": 909,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3726,9 +3816,9 @@
       "creators": 65,
       "claims": 212,
       "texts": 135,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3757,9 +3847,9 @@
       "creators": 29,
       "claims": 110,
       "texts": 60,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3783,9 +3873,9 @@
       "creators": 49,
       "claims": 139,
       "texts": 101,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3809,9 +3899,9 @@
       "creators": 23,
       "claims": 47,
       "texts": 32,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3863,9 +3953,9 @@
       "creators": 31,
       "claims": 102,
       "texts": 66,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -3996,12 +4086,12 @@
       }
     ],
     "coverage": {
-      "creators": 70,
-      "claims": 389,
-      "texts": 199,
-      "asOf": "2026-10-09"
+      "creators": 73,
+      "claims": 394,
+      "texts": 202,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -4025,9 +4115,9 @@
       "creators": 5,
       "claims": 5,
       "texts": 5,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -4060,12 +4150,12 @@
       }
     ],
     "coverage": {
-      "creators": 41,
-      "claims": 246,
-      "texts": 134,
-      "asOf": "2026-10-09"
+      "creators": 42,
+      "claims": 248,
+      "texts": 135,
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   {
     "kind": "company",
@@ -4112,8 +4202,8 @@
       "creators": 10,
       "claims": 20,
       "texts": 11,
-      "asOf": "2026-10-09"
+      "asOf": "2026-10-10"
     },
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   }
 ]

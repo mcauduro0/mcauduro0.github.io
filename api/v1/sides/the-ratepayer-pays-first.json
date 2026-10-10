@@ -1,0 +1,605 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 13,
+  "slug": "the-ratepayer-pays-first",
+  "url": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
+  "card": "https://deepstack.ltd/embed/sides/the-ratepayer-pays-first/card.svg",
+  "story": {
+    "headline": "The Ratepayer Pays First",
+    "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json"
+  },
+  "question": "Who pays for the AI power bill?",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "The ratepayer pays first",
+    "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Compare medians, not states: PJM's nine rose a median 11.7% per kilowatt-hour in the year to July, against 5.6% elsewhere.",
+      "Separate the wire from the scarcity: pledges fund the upgrades a project triggers; the capacity price reaches every PJM bill.",
+      "Mark December 9: PJM's auction for 2029/2030 shows whether the price ceiling still binds."
+    ],
+    "flips": [
+      "The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.",
+      "A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.",
+      "Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share."
+    ],
+    "version": 1,
+    "updatedOn": "2026-10-10",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-10",
+        "stance": "The ratepayer pays first",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      }
+    ],
+    "nextTest": {
+      "id": "p13-t01",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p13-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#verdict"
+  },
+  "sides": [
+    {
+      "id": "the-load-pays-its-way",
+      "label": "The load pays its way",
+      "voices": [
+        {
+          "name": "Sonya Huang",
+          "entity": "https://deepstack.ltd/people/sonya-huang/",
+          "claim": "Vahdat: Google pays for its own lines.",
+          "date": null,
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Google",
+          "entity": "https://deepstack.ltd/people/google/",
+          "claim": "Citing ERCOT's October 2025 reporting, over 200 gigawatts of large loads have requested interconnection through the interim process, yet less than 4% have been granted approval to energize and about another 7% are eligible to seek energization…",
+          "date": "2025-12-18",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "access": "public"
+        },
+        {
+          "name": "Google",
+          "entity": "https://deepstack.ltd/people/google/",
+          "claim": "The Joint Commenters recommend the Commission adopt a unifying framework aligning all related rulemakings and ERCOT protocol revisions, advancing cost-causation-based cost assignment that shields residential and small commercial customers from cost…",
+          "date": "2025-12-18",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "access": "public"
+        },
+        {
+          "name": "Crusoe Energy",
+          "entity": "https://deepstack.ltd/people/crusoe-energy/",
+          "claim": "Crusoe states that co-located generation, when structured correctly, simultaneously advances grid reliability, reduces ratepayer costs, and accelerates AI infrastructure buildout, which is the basis of its energy-first 'bring your own power' model.",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5379",
+          "access": "public"
+        },
+        {
+          "name": "Crusoe Energy",
+          "entity": "https://deepstack.ltd/people/crusoe-energy/",
+          "claim": "Crusoe states that PJM's own filing acknowledges a lower threshold risks forcing existing BTMG resources offline during the transition period, which would increase grid burden by converting currently netted load into full network load without…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5379",
+          "access": "public"
+        },
+        {
+          "name": "EDF Power Solutions",
+          "entity": "https://deepstack.ltd/people/edf-power-solutions/",
+          "claim": "EDFps says BTMG co-location can reduce grid congestion, avoid generator interconnection queue delays, lower network upgrade needs, reduce congestion costs, allow the load to provide demand response if power demands are flexible, and deliver…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222",
+          "access": "public"
+        },
+        {
+          "name": "EDF Power Solutions",
+          "entity": "https://deepstack.ltd/people/edf-power-solutions/",
+          "claim": "EDFps argues PJM's own proposed contract demand service changes alleviate the ability of large loads with Retail BTMG to lean on the system, since a Retail BTMG equal to the load size fully covered by Non-Firm Contract Demand would be limited to…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222",
+          "access": "public"
+        },
+        {
+          "name": "NRG Energy",
+          "entity": "https://deepstack.ltd/people/nrg-energy/",
+          "claim": "NRG argues that because the funding a large load customer must supply to bring new generation greatly exceeds the $50,000/MW security amount, concerns about whether the large load can meet financial commitments are easily satisfied under BYOG…",
+          "date": "2026-04-17",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "access": "public"
+        },
+        {
+          "name": "NRG Energy",
+          "entity": "https://deepstack.ltd/people/nrg-energy/",
+          "claim": "NRG states the ERCOT region faces unprecedented load growth over the next five years, which it says will bring both grid challenges and significant business development opportunities in Texas, making it critical to get the large load…",
+          "date": "2026-04-17",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "access": "public"
+        },
+        {
+          "name": "Kingswell",
+          "entity": "https://deepstack.ltd/people/kingswell/",
+          "claim": "BHE's stance of participating in data center buildouts only if hyperscalers bear the full construction and operating cost is a disciplined framework that lets it join a major infrastructure cycle without spreading risk and cost onto existing…",
+          "date": "2026-05-11",
+          "url": "https://www.kingswell.io/p/10-things-about-berkshire-hathaways",
+          "access": "public"
+        },
+        {
+          "name": "Data Center Coalition",
+          "entity": "https://deepstack.ltd/people/data-center-coalition/",
+          "claim": "PJM's proposed June 1, 2029 effective date for the new transmission services presumably means PJM cannot start studying these innovative solutions for over three years, and the goal should be to implement needed reforms earlier than 2029 given the…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+          "access": "public"
+        },
+        {
+          "name": "Data Center Coalition",
+          "entity": "https://deepstack.ltd/people/data-center-coalition/",
+          "claim": "Clearer interconnection rules for existing generators also require more concrete timelines for reviewing and approving Necessary Studies and CIR revisions, and PJM needs to account for CIRs going to the specific co-located customer so a generator…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+          "access": "public"
+        }
+      ],
+      "against": {
+        "name": "Virginia State Corporation Commission",
+        "entity": "https://deepstack.ltd/people/virginia-state-corporation-commission/",
+        "claim": "Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…",
+        "date": "2025-12-15",
+        "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406",
+        "access": "public",
+        "answers": "Google",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
+    },
+    {
+      "id": "the-bill-no-state-can-shield",
+      "label": "The bill no state can shield",
+      "voices": [
+        {
+          "name": "Monitoring Analytics (PJM market monitor)",
+          "entity": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+          "claim": "The central issue facing PJM, which the Market Monitor says the ANOPR appears to largely ignore, is that there is not enough generating capacity to reliably serve the large loads that want to be online quickly.",
+          "date": "2025-12-05",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+          "access": "public"
+        },
+        {
+          "name": "Monitoring Analytics (PJM market monitor)",
+          "entity": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+          "claim": "The Market Monitor states that the current failure to impose a reliability requirement has led to large increases in capacity market prices, and also in energy market prices and transmission costs.",
+          "date": "2025-12-05",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+          "access": "public"
+        },
+        {
+          "name": "Virginia State Corporation Commission",
+          "entity": "https://deepstack.ltd/people/virginia-state-corporation-commission/",
+          "claim": "Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…",
+          "date": "2025-12-15",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406",
+          "access": "public"
+        },
+        {
+          "name": "Virginia State Corporation Commission",
+          "entity": "https://deepstack.ltd/people/virginia-state-corporation-commission/",
+          "claim": "Implementing a minimum set of standards designed to remove bottlenecks within the interconnection queue itself can expedite interconnections without disturbing existing state-federal jurisdictional boundaries.",
+          "date": "2025-12-05",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Maryland Office of People's Counsel",
+          "entity": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/",
+          "claim": "Fixing cost allocation alone is insufficient if planning inputs remain corrupted by speculative and duplicative load forecasts, so a remedy must also reform the planning process to eliminate speculative load forecasts.",
+          "date": "2026-06-11",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+          "access": "public"
+        },
+        {
+          "name": "Maryland Office of People's Counsel",
+          "entity": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/",
+          "claim": "Absent regional reform, state-level remedies such as large load tariffs may worsen the problem by magnifying the incentive to overbuild while shifting costs to customers elsewhere in PJM.",
+          "date": "2026-06-11",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+          "access": "public"
+        },
+        {
+          "name": "Exelon",
+          "entity": "https://deepstack.ltd/people/exelon/",
+          "claim": "Because the transmission system is not a one-and-done investment but evolves and requires maintenance at a cost, a model where initial investment absolves co-located loads of ongoing contributions leaves other customers holding the bag and creates…",
+          "date": "2026-01-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7",
+          "access": "public"
+        },
+        {
+          "name": "tscsw",
+          "entity": "https://deepstack.ltd/people/tscsw/",
+          "claim": "Interconnection queues, turbine shortages, and permitting gridlock are preventing $33 billion offers from translating into actual megawatts of new capacity.",
+          "date": "2026-02-26",
+          "url": "https://tscsw.substack.com/p/there-is-no-power",
+          "access": "public"
+        },
+        {
+          "name": "tscsw",
+          "entity": "https://deepstack.ltd/people/tscsw/",
+          "claim": "The PJM capacity auction price for mid-Atlantic grid generation cleared at $269.92 per megawatt-day in July 2024, up 9x from the previous auction's $28.92, with all subsequent auctions clearing at administrative price caps.",
+          "date": "2026-08-11",
+          "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+          "access": "public"
+        },
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Market Sentiment treats the January joint declaration by the governors of all 13 PJM states with the Trump administration that power prices be reined in and that data centers pay their grid costs, together with the extension of the capacity-auction…",
+          "date": "2026-07-10",
+          "url": "https://www.marketsentiment.co/p/ms-101",
+          "access": "public"
+        },
+        {
+          "name": "Earthjustice",
+          "entity": "https://deepstack.ltd/people/earthjustice/",
+          "claim": "Earthjustice argues that no commenter describes what financial penalty would be sufficient in practice, likely because none of them know what penalty would convince large load customers—who have virtually unlimited capital and very high contractual…",
+          "date": "2026-04-24",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260424-5110",
+          "access": "public"
+        }
+      ],
+      "against": {
+        "name": "North American Electric Reliability Corporation",
+        "entity": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+        "claim": "Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…",
+        "date": "2026-02-24",
+        "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2",
+        "access": "public",
+        "answers": "tscsw",
+        "relation": "qualifies",
+        "dimension": "evidence"
+      }
+    },
+    {
+      "id": "the-plant-is-late",
+      "label": "The plant is late",
+      "voices": [
+        {
+          "name": "North American Electric Reliability Corporation",
+          "entity": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+          "claim": "Over the past two years NERC's LTRA has shown that industry resource growth projections can outpace actual completion rates, with efforts to interconnect resources hampered by unresponsive supply chains, permitting delays, and project owner…",
+          "date": "2026-04-23",
+          "url": "https://www.nerc.com/globalassets/our-work/assessments/2025-ltra-sensitivity-miso-eras.pdf#p2",
+          "access": "public"
+        },
+        {
+          "name": "North American Electric Reliability Corporation",
+          "entity": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+          "claim": "Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…",
+          "date": "2026-02-24",
+          "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2",
+          "access": "public"
+        },
+        {
+          "name": "Electric Reliability Council of Texas",
+          "entity": "https://deepstack.ltd/people/electric-reliability-council-of-texas/",
+          "claim": "ERCOT reports it is tracking roughly 438 GW of Large Load interconnection requests and roughly 452 GW of Generation Interconnection requests.",
+          "date": "2026-05-24",
+          "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+          "access": "public"
+        },
+        {
+          "name": "Electric Reliability Council of Texas",
+          "entity": "https://deepstack.ltd/people/electric-reliability-council-of-texas/",
+          "claim": "The 438 GW of Large Load interconnection requests is tracked through the current PGRR115-based process, in which the vast majority of requests have no studies submitted; that process ends July 10, 2026, when ERCOT switches to a batch-based…",
+          "date": "2026-05-24",
+          "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+          "access": "public"
+        },
+        {
+          "name": "Reyk Knuhtsen",
+          "entity": "https://deepstack.ltd/people/reyk-knuhtsen/",
+          "claim": "ERCOT illustrates phantom demand: as of April 2026 it was assessing more than 410 GW of large-load interconnection requests, over 87% from datacenters, against a Texas all-time peak of about 85 GW, and they count 311 GW of that as phantom…",
+          "date": "2026-06-18",
+          "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+          "access": "public"
+        },
+        {
+          "name": "Reyk Knuhtsen",
+          "entity": "https://deepstack.ltd/people/reyk-knuhtsen/",
+          "claim": "They acknowledge open questions in judging real delays: some projects may die on local opposition while others pass and unseat the council members who approved them, labor can be imported or become a constraint, and behind-the-meter power remains a…",
+          "date": "2026-06-18",
+          "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+          "access": "public"
+        },
+        {
+          "name": "Jeremie Eliahou Ontiveros",
+          "entity": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
+          "claim": "They expect power generation to be a major bottleneck to grid-connected datacenter load growth, pointing to utilities revising promised load ramps by years because long-lead interconnection equipment is unavailable, and to buyers now bearing the…",
+          "date": "2026-06-25",
+          "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+          "access": "public"
+        },
+        {
+          "name": "Mia Silverio",
+          "entity": "https://deepstack.ltd/people/mia-silverio/",
+          "claim": "Investors are understandably nervous because an estimated 30% to 50% of data center capacity planned to come online this year will be delayed, as constructors face grid connection issues, power equipment supply shortages, and increasingly community…",
+          "date": "2026-09-28",
+          "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+          "access": "public"
+        },
+        {
+          "name": "tscsw",
+          "entity": "https://deepstack.ltd/people/tscsw/",
+          "claim": "PJM's 2027/2028 Base Residual Auction failed to meet the reliability requirement for the first time since the capacity market's creation in 2007, achieving only a 14.8% reserve margin against a 20.0% target, a shortfall of 6,623 MW.",
+          "date": "2026-02-26",
+          "url": "https://tscsw.substack.com/p/there-is-no-power",
+          "access": "public"
+        }
+      ],
+      "against": null
+    },
+    {
+      "id": "crossing",
+      "label": "Voices that cross sides",
+      "voices": [
+        {
+          "name": "Jason Bordoff",
+          "entity": "https://deepstack.ltd/people/jason-bordoff/",
+          "claim": "On his program, Millican's large-load tariffs and 260 GW; Arent's spare grids.",
+          "date": null,
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "tscsw",
+          "entity": "https://deepstack.ltd/people/tscsw/",
+          "claim": "The capacity price ninefold; the auction short; on-site power could shrink the gap.",
+          "date": null,
+          "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+          "access": "public"
+        },
+        {
+          "name": "NRG Energy",
+          "entity": "https://deepstack.ltd/people/nrg-energy/",
+          "claim": "Own generation answers affordability; the influx of large loads threatens bills.",
+          "date": null,
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "access": "public"
+        },
+        {
+          "name": "Google",
+          "entity": "https://deepstack.ltd/people/google/",
+          "claim": "Shield households by cost causation; $24B of Texas lines need loads that connect.",
+          "date": null,
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "access": "public"
+        }
+      ],
+      "against": null
+    }
+  ],
+  "questions": [],
+  "crossings": [
+    {
+      "from": "Jason Bordoff",
+      "to": "Maryland Office of People's Counsel",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Jason Bordoff qualifies Maryland Office of People's Counsel on condition."
+    },
+    {
+      "from": "Maryland Office of People's Counsel",
+      "to": "Jason Bordoff",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Maryland Office of People's Counsel qualifies Jason Bordoff on mechanism."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Google",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Virginia State Corporation Commission qualifies Google on mechanism."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "refutes",
+      "dimension": "mechanism",
+      "note": "Virginia State Corporation Commission refutes Monitoring Analytics (PJM market monitor) on mechanism."
+    },
+    {
+      "from": "tscsw",
+      "to": "North American Electric Reliability Corporation",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "tscsw qualifies North American Electric Reliability Corporation on evidence."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Virginia State Corporation Commission qualifies Monitoring Analytics (PJM market monitor) on mechanism."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "qualifies",
+      "dimension": "premise",
+      "note": "Virginia State Corporation Commission qualifies Monitoring Analytics (PJM market monitor) on premise."
+    },
+    {
+      "from": "Monitoring Analytics (PJM market monitor)",
+      "to": "Virginia State Corporation Commission",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Monitoring Analytics (PJM market monitor) qualifies Virginia State Corporation Commission on mechanism."
+    },
+    {
+      "from": "Crusoe Energy",
+      "to": "EDF Power Solutions",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Crusoe Energy qualifies EDF Power Solutions on condition."
+    },
+    {
+      "from": "North American Electric Reliability Corporation",
+      "to": "tscsw",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "North American Electric Reliability Corporation qualifies tscsw on condition."
+    },
+    {
+      "from": "EDF Power Solutions",
+      "to": "Data Center Coalition",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "EDF Power Solutions qualifies Data Center Coalition on condition."
+    },
+    {
+      "from": "NRG Energy",
+      "to": "North American Electric Reliability Corporation",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "NRG Energy qualifies North American Electric Reliability Corporation on condition."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Virginia State Corporation Commission contradicts Monitoring Analytics (PJM market monitor) on premise."
+    },
+    {
+      "from": "Jason Bordoff",
+      "to": "Jeremie Eliahou Ontiveros",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Jason Bordoff qualifies Jeremie Eliahou Ontiveros on mechanism."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "Virginia State Corporation Commission contradicts Monitoring Analytics (PJM market monitor) on mechanism."
+    },
+    {
+      "from": "Monitoring Analytics (PJM market monitor)",
+      "to": "Virginia State Corporation Commission",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Monitoring Analytics (PJM market monitor) qualifies Virginia State Corporation Commission on condition."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Google",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Virginia State Corporation Commission qualifies Google on condition."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Monitoring Analytics (PJM market monitor)",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Virginia State Corporation Commission qualifies Monitoring Analytics (PJM market monitor) on condition."
+    },
+    {
+      "from": "Reyk Knuhtsen",
+      "to": "Jeremie Eliahou Ontiveros",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Reyk Knuhtsen qualifies Jeremie Eliahou Ontiveros on evidence."
+    },
+    {
+      "from": "NRG Energy",
+      "to": "Earthjustice",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "NRG Energy contradicts Earthjustice on mechanism."
+    },
+    {
+      "from": "Virginia State Corporation Commission",
+      "to": "Google",
+      "relation": "contradicts",
+      "dimension": "evidence",
+      "note": "Virginia State Corporation Commission contradicts Google on evidence."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The thread",
+      "text": "Part 6 asked who holds the premium for scarce power. Part 13 asks who pays for it, and reads the regulatory record beside the voices."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "Late October",
+      "date": null,
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch"
+    },
+    {
+      "id": null,
+      "when": "December 9",
+      "date": "2026-12-09",
+      "event": "PJM's capacity auction for the year from June 2029, as scheduled: whether it clears below the price ceiling, the second exit from the house's view.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch"
+    },
+    {
+      "id": null,
+      "when": "Late February 2027",
+      "date": null,
+      "event": "The federal data for all of 2026: the same four-point test, with Texas below the national change.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch"
+    }
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-ratepayer-pays-first/grid/",
+    "csv": "https://deepstack.ltd/sides/the-ratepayer-pays-first/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-ratepayer-pays-first/grid.json"
+  }
+}

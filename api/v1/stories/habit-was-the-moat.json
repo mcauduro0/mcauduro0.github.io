@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -607,10 +607,24 @@
     },
     {
       "kind": "person",
+      "slug": "google",
+      "name": "Google",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/google/"
+    },
+    {
+      "kind": "person",
       "slug": "invest-in-assets",
       "name": "Invest in Assets",
       "role": "Invest in Quality",
       "url": "https://deepstack.ltd/people/invest-in-assets/"
+    },
+    {
+      "kind": "person",
+      "slug": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "role": null,
+      "url": "https://deepstack.ltd/people/mark-zuckerberg/"
     },
     {
       "kind": "person",
@@ -686,7 +700,7 @@
       "kind": "person",
       "slug": "steve-eisman",
       "name": "Steve Eisman",
-      "role": null,
+      "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/"
     },
     {

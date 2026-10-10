@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
   "description": "Ten investigations into who pays for the AI build-out, who profits, and what breaks first.",
-  "count": 12,
+  "count": 13,
   "stories": [
     {
       "part": 1,
@@ -1904,6 +1904,163 @@
         }
       ],
       "earlierVersion": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "corrections": []
+    },
+    {
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "headline": "The Ratepayer Pays First",
+      "dek": "Households in the nine jurisdictions PJM serves paid a median 11.7% more per kilowatt-hour over the year to July than the year before, against 5.6% elsewhere. Data center builders tell regulators they pay their own way. PJM's market monitor told them no state commission can shield households from the capacity price their demand sets.",
+      "summary": "Data centers pay for the wires they cause. The higher capacity price their demand sets reaches every household in PJM first. DeepStack reads both bills and names the federal price data and the December auction that will test the view.",
+      "section": "Markets",
+      "date": "2026-10-10",
+      "readingMinutes": 10,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
+      "call": {
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "stance": "The ratepayer pays first",
+        "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Compare medians, not states: PJM's nine rose a median 11.7% per kilowatt-hour in the year to July, against 5.6% elsewhere.",
+          "Separate the wire from the scarcity: pledges fund the upgrades a project triggers; the capacity price reaches every PJM bill.",
+          "Mark December 9: PJM's auction for 2029/2030 shows whether the price ceiling still binds."
+        ],
+        "flips": [
+          "The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.",
+          "A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.",
+          "Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share."
+        ],
+        "version": 1,
+        "updatedOn": "2026-10-10",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "stance": "The ratepayer pays first",
+            "tone": "split",
+            "toneLabel": "Mixed",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+            "reason": "First call, with the story.",
+            "by": "DeepStack"
+          }
+        ],
+        "nextTest": {
+          "id": "p13-t01",
+          "part": 13,
+          "slug": "the-ratepayer-pays-first",
+          "when": "Late October",
+          "whenLabel": "Oct 20, 2026",
+          "date": "2026-10-20",
+          "precision": "window",
+          "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+          "status": "pending",
+          "resultId": null,
+          "source": {
+            "kind": "label",
+            "ref": "Late October",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+            "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+            "source": {
+              "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+              "url": "https://www.eia.gov/electricity/data/eia861m/"
+            },
+            "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+            "specState": "approved"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p13-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#verdict"
+      },
+      "keyNumbers": [
+        {
+          "value": "+11.7%",
+          "label": "Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026",
+          "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42"
+        },
+        {
+          "value": "+6.6%",
+          "label": "The national household price per kilowatt-hour over the same twelve months",
+          "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%"
+        },
+        {
+          "value": "6,623 MW",
+          "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
+          "context": "PJM auction results as relayed by tscsw, Feb 26, 2026"
+        },
+        {
+          "value": "$1.6B",
+          "label": "Added transmission cost on Maryland bills over 10 years",
+          "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "label": "U.S. Energy Information Administration - EIA-861M sales and revenue",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        {
+          "label": "Monitoring Analytics (PJM market monitor) - FERC RM26-4 reply comments",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219"
+        },
+        {
+          "label": "Virginia State Corporation Commission - FERC AD24-11 answer",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406"
+        },
+        {
+          "label": "Maryland Office of People's Counsel - FERC RM26-4 motion",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8"
+        },
+        {
+          "label": "Indicated PJM Transmission Owners (filed by Exelon) - FERC EL25-20 rehearing request",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7"
+        },
+        {
+          "label": "Google and Lancium - PUCT 58317 joint comments",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11"
+        },
+        {
+          "label": "NRG Energy - PUCT 58481 comments",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173"
+        },
+        {
+          "label": "EDF Power Solutions - FERC ER26-1479 comments",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222"
+        },
+        {
+          "label": "Earthjustice - FERC ER26-1479 reply comments",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260424-5110"
+        },
+        {
+          "label": "NERC - 2025 Long-Term Reliability Assessment",
+          "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2"
+        },
+        {
+          "label": "ERCOT - Interconnection and grid analysis update, May 24",
+          "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf"
+        },
+        {
+          "label": "Training Data - Amin Vahdat on frontier AI infrastructure",
+          "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3"
+        },
+        {
+          "label": "Prof G Markets - Nobody wants a data center",
+          "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even"
+        }
+      ],
+      "earlierVersion": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
       "corrections": []
     }
   ]

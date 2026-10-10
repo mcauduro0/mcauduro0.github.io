@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -554,6 +554,13 @@
     },
     {
       "kind": "person",
+      "slug": "google",
+      "name": "Google",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/google/"
+    },
+    {
+      "kind": "person",
       "slug": "hayden-capital",
       "name": "Hayden Capital",
       "role": null,
@@ -605,8 +612,15 @@
       "kind": "person",
       "slug": "orbis-investments",
       "name": "Orbis Investments",
-      "role": null,
+      "role": "Orbis Investment Management",
       "url": "https://deepstack.ltd/people/orbis-investments/"
+    },
+    {
+      "kind": "person",
+      "slug": "oscar-hattink",
+      "name": "Oscar Hattink",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oscar-hattink/"
     },
     {
       "kind": "person",
@@ -633,7 +647,7 @@
       "kind": "person",
       "slug": "steve-eisman",
       "name": "Steve Eisman",
-      "role": null,
+      "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/"
     },
     {

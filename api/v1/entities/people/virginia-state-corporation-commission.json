@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "virginia-state-corporation-commission",
+  "name": "Virginia State Corporation Commission",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/virginia-state-corporation-commission/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/virginia-state-corporation-commission.json",
+  "summary": "Virginia State Corporation Commission appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The bill no state can shield",
+      "excerpt": "The Virginia State Corporation Commission made the distributional case on December 15, 2025.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…",
+      "date": "2025-12-15",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Implementing a minimum set of standards designed to remove bottlenecks within the interconnection queue itself can expedite interconnections without disturbing existing state-federal jurisdictional boundaries.",
+      "date": "2025-12-05",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 27,
+    "texts": 2,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

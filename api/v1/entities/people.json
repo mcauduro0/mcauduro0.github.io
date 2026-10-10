@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "url": "https://deepstack.ltd/people/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/people.json",
   "kind": "person",
-  "count": 72,
+  "count": 96,
   "note": "What each person argued, attributed and dated. No score, ranking or accuracy figure exists for anyone.",
   "people": [
     {
@@ -36,9 +36,9 @@
         "creators": 0,
         "claims": 581,
         "texts": 47,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -69,9 +69,9 @@
         "creators": 0,
         "claims": 12,
         "texts": 1,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -139,9 +139,9 @@
         "creators": 0,
         "claims": 68,
         "texts": 7,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -172,9 +172,42 @@
         "creators": 2,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "amin-vahdat",
+      "name": "Amin Vahdat",
+      "role": null,
+      "url": "https://deepstack.ltd/people/amin-vahdat/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/amin-vahdat.json",
+      "summary": "Amin Vahdat appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -313,9 +346,9 @@
         "creators": 1,
         "claims": 2993,
         "texts": 295,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -357,9 +390,9 @@
         "creators": 5,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -490,9 +523,9 @@
         "creators": 0,
         "claims": 532,
         "texts": 48,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -523,9 +556,9 @@
         "creators": 1,
         "claims": 36,
         "texts": 3,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -556,9 +589,9 @@
         "creators": 5,
         "claims": 43,
         "texts": 5,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -610,9 +643,9 @@
         "creators": 0,
         "claims": 773,
         "texts": 69,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -668,9 +701,9 @@
         "creators": 0,
         "claims": 14,
         "texts": 1,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -701,9 +734,67 @@
         "creators": 0,
         "claims": 11,
         "texts": 1,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "crusoe-energy",
+      "name": "Crusoe Energy",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/crusoe-energy/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/crusoe-energy.json",
+      "summary": "Crusoe Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "Crusoe Energy told FERC on March 16 that co-located generation, a power plant built beside the data center it feeds, lowers ratepayer costs when it is set up correctly.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "Crusoe states that co-located generation, when structured correctly, simultaneously advances grid reliability, reduces ratepayer costs, and accelerates AI infrastructure buildout, which is the basis of its energy-first 'bring your own power' model.",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5379",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "Crusoe states that PJM's own filing acknowledges a lower threshold risks forcing existing BTMG resources offline during the transition period, which would increase grid burden by converting currently netted load into full network load without…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5379",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 13,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -935,9 +1026,67 @@
         "creators": 0,
         "claims": 858,
         "texts": 62,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "data-center-coalition",
+      "name": "Data Center Coalition",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/data-center-coalition/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/data-center-coalition.json",
+      "summary": "Data Center Coalition appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The tests ahead",
+          "excerpt": "The Data Center Coalition noted on March 16 that PJM had proposed June 1, 2029, as the date its new transmission services for co-located loads take effect; until then, the market price is the bill.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "PJM's proposed June 1, 2029 effective date for the new transmission services presumably means PJM cannot start studying these innovative solutions for over three years, and the goal should be to implement needed reforms earlier than 2029 given the…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "Clearer interconnection rules for existing generators also require more concrete timelines for reviewing and approving Necessary Studies and CIR revisions, and PJM needs to account for CIRs going to the specific co-located customer so a generator…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5323",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 14,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1075,9 +1224,9 @@
         "creators": 0,
         "claims": 115,
         "texts": 11,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1126,9 +1275,9 @@
         "creators": 0,
         "claims": 566,
         "texts": 47,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1201,9 +1350,9 @@
         "creators": 0,
         "claims": 1586,
         "texts": 139,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1247,9 +1396,88 @@
         "creators": 0,
         "claims": 53,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "doug-arent",
+      "name": "Doug Arent",
+      "role": null,
+      "url": "https://deepstack.ltd/people/doug-arent/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/doug-arent.json",
+      "summary": "Doug Arent appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The grid without an auction",
+          "excerpt": "Doug Arent offered a frame for the difference in the first part of the June 30 conversation.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "earthjustice",
+      "name": "Earthjustice",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/earthjustice/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/earthjustice.json",
+      "summary": "Earthjustice appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "In a separate federal proceeding, Earthjustice argued on April 24 that no commenter could name the penalty that would make a customer with virtually unlimited capital and strict uptime contracts cut its draw when the grid runs short.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Earthjustice argues that no commenter describes what financial penalty would be sufficient in practice, likely because none of them know what penalty would convince large load customers—who have virtually unlimited capital and very high contractual…",
+          "date": "2026-04-24",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260424-5110",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 2,
+        "claims": 15,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1305,9 +1533,9 @@
         "creators": 0,
         "claims": 573,
         "texts": 67,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1392,9 +1620,9 @@
         "creators": 3,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1503,9 +1731,171 @@
         "creators": 0,
         "claims": 229,
         "texts": 20,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "edf-power-solutions",
+      "name": "EDF Power Solutions",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/edf-power-solutions/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/edf-power-solutions.json",
+      "summary": "EDF Power Solutions appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "EDF Power Solutions said the same day that such plants can ease congestion and cut the network upgrades the grid would otherwise need.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "EDFps says BTMG co-location can reduce grid congestion, avoid generator interconnection queue delays, lower network upgrade needs, reduce congestion costs, allow the load to provide demand response if power demands are flexible, and deliver…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "EDFps argues PJM's own proposed contract demand service changes alleviate the ability of large loads with Retail BTMG to lean on the system, since a Retail BTMG equal to the load size fully covered by Non-Firm Contract Demand would be limited to…",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 15,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "electric-reliability-council-of-texas",
+      "name": "Electric Reliability Council of Texas",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/electric-reliability-council-of-texas/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/electric-reliability-council-of-texas.json",
+      "summary": "Electric Reliability Council of Texas appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "The Electric Reliability Council of Texas, ERCOT, reported about 438 gigawatts of large-load requests on May 24, against about 452 gigawatts of generation requests, most of the load requests with no study submitted.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "ERCOT reports it is tracking roughly 438 GW of Large Load interconnection requests and roughly 452 GW of Generation Interconnection requests.",
+          "date": "2026-05-24",
+          "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "The 438 GW of Large Load interconnection requests is tracked through the current PGRR115-based process, in which the vast majority of requests have no studies submitted; that process ends July 10, 2026, when ERCOT switches to a batch-based…",
+          "date": "2026-05-24",
+          "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 40,
+        "texts": 3,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "exelon",
+      "name": "Exelon",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/exelon/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/exelon.json",
+      "summary": "Exelon appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "The Indicated PJM Transmission Owners, in a rehearing request Exelon filed with FERC on January 16, said a co-located load that funds its own upgrades but pays nothing toward the existing grid leaves other customers holding the bag.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Because the transmission system is not a one-and-done investment but evolves and requires maintenance at a cost, a model where initial investment absolves co-located loads of ongoing contributions leaves other customers holding the bag and creates…",
+          "date": "2026-01-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 1,
+        "claims": 14,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1572,9 +1962,9 @@
         "creators": 0,
         "claims": 185,
         "texts": 15,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1809,9 +2199,9 @@
         "creators": 0,
         "claims": 3071,
         "texts": 265,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1853,9 +2243,203 @@
         "creators": 0,
         "claims": 1517,
         "texts": 157,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "google",
+      "name": "Google",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/google/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/google.json",
+      "summary": "Google appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way), Part 13 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 1,
+          "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
+          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 3,
+          "headline": "The Machines Will Work. The Debt Might Not.",
+          "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+        },
+        {
+          "part": 4,
+          "headline": "AI Spending Has Met Its First Real Bill",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 5,
+          "headline": "OpenAI and Anthropic Are Not the Same Business",
+          "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 6,
+          "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
+          "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+        },
+        {
+          "part": 8,
+          "headline": "AI Lenders Are Financing the End of Scarcity",
+          "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 9,
+          "headline": "Habit Was the Moat. Agents Are Draining It.",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 10,
+          "headline": "The Bubble Is in the Denominator",
+          "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "headline": "The Backlog Is Not the Quarter",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 12,
+          "headline": "The Model Is Not the Price",
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "A quarter",
+          "label": "Share of Anthropic's 2025 revenue that came from two customers",
+          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+          "part": 12,
+          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 1,
+          "section": "Lede",
+          "excerpt": "In late May, Apollo was raising $38 billion of debt to put Google’s TPUs, not Nvidia’s GPUs, behind Anthropic.",
+          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 1,
+          "section": "Private credit, public appetite",
+          "excerpt": "In early June, writing about Google’s decision to rent GPUs, he pointed to a revealing price: Google paid roughly double the market rate for Nvidia hardware while its own, cheaper TPUs sat available.",
+          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 1,
+          "section": "Long the chips, short the returns",
+          "excerpt": "If Google is willing to pay roughly double, if Broadcom’s orders exceed shipments by a wide margin, and if customer-wide visibility lasts a year, then scarcity is not a financing mirage.",
+          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+        },
+        {
+          "part": 3,
+          "section": "Demand has teeth",
+          "excerpt": "AWS’s backlog stands at $496 billion, Microsoft’s commercial commitments at $678 billion and Google Cloud’s at $514 billion.",
+          "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+        },
+        {
+          "part": 4,
+          "section": "Arithmetic sets the test",
+          "excerpt": "Prof G Markets tallied the immediate bill: Amazon, Google, Microsoft and Meta spent $165 billion on capital spending in three months, up 87 percent from a year earlier and 393 percent from three years earlier.",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 4,
+          "section": "The tape picks winners",
+          "excerpt": "Google grew cloud 82 percent and search 17 percent, yet its stock fell because capital spending ate the free cash flow.",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 5,
+          "section": "Cheap intelligence arrives",
+          "excerpt": "Deepvalue Capital says Alibaba’s models passed 3bn downloads, ahead of Meta and Google, while compute stays tight and the price per token keeps falling.",
+          "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 6,
+          "section": "The megawatt premium",
+          "excerpt": "Google opened an investor call on its energy strategy with access to power.",
+          "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+        },
+        {
+          "part": 8,
+          "section": "A shortage with a price",
+          "excerpt": "Ren points to the income statements: Azure grew 43%, Google Cloud 82% and AWS 37%, its fastest pace in eighteen quarters.",
+          "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 9,
+          "section": "Habit is not a moat",
+          "excerpt": "Booking already appears in 61% to 70% of AI travel recommendations, he writes, while transactional searches remain with Google.",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 10,
+          "section": "Who writes the checks",
+          "excerpt": "Two customers supplied almost 25% of Anthropic’s 2025 revenue, and Amazon and Google channels carried 47% of its sales.",
+          "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 11,
+          "section": "Funded, not forecast",
+          "excerpt": "Burry's September 28 list is of a different guarantee: the residual-value guarantees that Nvidia, Oracle and Google Cloud now give on chips, not because they want to, he argues, but because lenders require them for an asset that lost 51% of its value in its first three years.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "Citing ERCOT's October 2025 reporting, over 200 gigawatts of large loads have requested interconnection through the interim process, yet less than 4% have been granted approval to energize and about another 7% are eligible to seek energization…",
+          "date": "2025-12-18",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "The Joint Commenters recommend the Commission adopt a unifying framework aligning all related rulemakings and ERCOT protocol revisions, advancing cost-causation-based cost assignment that shields residential and small commercial customers from cost…",
+          "date": "2025-12-18",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Shield households by cost causation; $24B of Texas lines need loads that connect.",
+          "date": null,
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 153,
+        "claims": 15,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1919,9 +2503,9 @@
         "creators": 1,
         "claims": 57,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -1952,9 +2536,9 @@
         "creators": 0,
         "claims": 272,
         "texts": 27,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2061,9 +2645,9 @@
         "creators": 0,
         "claims": 1841,
         "texts": 162,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2094,9 +2678,55 @@
         "creators": 0,
         "claims": 168,
         "texts": 23,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "jason-bordoff",
+      "name": "Jason Bordoff",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jason-bordoff/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/jason-bordoff.json",
+      "summary": "Jason Bordoff appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "Robin Millican, on Columbia Energy Exchange, which Jason Bordoff hosts with Bill Loveless, on June 30, named tariffs that make large loads pay their incremental grid costs as one of the structural fixes.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "On his program, Millican's large-load tariffs and 260 GW; Arent's spare grids.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 19,
+        "texts": 2,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2149,9 +2779,9 @@
         "creators": 19,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2160,7 +2790,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
       "api": "https://deepstack.ltd/api/v1/entities/people/jeremie-eliahou-ontiveros.json",
-      "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 2 (The number is real).",
+      "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
       "parts": [
         {
           "part": 2,
@@ -2171,6 +2801,11 @@
           "part": 5,
           "headline": "OpenAI and Anthropic Are Not the Same Business",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "numbers": [],
@@ -2192,6 +2827,12 @@
           "section": "The Call",
           "excerpt": "Jeremie Eliahou Ontiveros’s $100bn-per-GW-year calculation is powerful, but Daniel Romero’s depreciation objection attacks the exact period that makes it look so good.",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "sides": [
@@ -2218,15 +2859,27 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
           "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "They expect power generation to be a major bottleneck to grid-connected datacenter load growth, pointing to utilities revising promised load ramps by years because long-lead interconnection equipment is unavailable, and to buyers now bearing the…",
+          "date": "2026-06-25",
+          "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 34,
         "texts": 3,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2257,9 +2910,9 @@
         "creators": 1,
         "claims": 420,
         "texts": 39,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2486,9 +3139,9 @@
         "creators": 0,
         "claims": 1567,
         "texts": 130,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2680,9 +3333,9 @@
         "creators": 0,
         "claims": 421,
         "texts": 43,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2792,9 +3445,9 @@
         "creators": 30,
         "claims": 1547,
         "texts": 140,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2911,9 +3564,9 @@
         "creators": 0,
         "claims": 4964,
         "texts": 427,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -2944,9 +3597,55 @@
         "creators": 18,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "kingswell",
+      "name": "Kingswell",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kingswell/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/kingswell.json",
+      "summary": "Kingswell appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "BHE's stance of participating in data center buildouts only if hyperscalers bear the full construction and operating cost is a disciplined framework that lets it join a major infrastructure cycle without spreading risk and cost onto existing…",
+          "date": "2026-05-11",
+          "url": "https://www.kingswell.io/p/10-things-about-berkshire-hathaways",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 1,
+        "claims": 4184,
+        "texts": 405,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3182,9 +3881,9 @@
         "creators": 3,
         "claims": 1819,
         "texts": 154,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3260,9 +3959,9 @@
         "creators": 0,
         "claims": 650,
         "texts": 89,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3301,9 +4000,9 @@
         "creators": 0,
         "claims": 1032,
         "texts": 95,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3382,9 +4081,9 @@
         "creators": 0,
         "claims": 27,
         "texts": 2,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3408,9 +4107,42 @@
         "creators": 0,
         "claims": 1104,
         "texts": 90,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "role": null,
+      "url": "https://deepstack.ltd/people/mark-zuckerberg/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/mark-zuckerberg.json",
+      "summary": "Mark Zuckerberg appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "parts": [
+        {
+          "part": 9,
+          "headline": "Habit Was the Moat. Agents Are Draining It.",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 9,
+          "section": "Lede",
+          "excerpt": "Mark Zuckerberg said Meta would keep a small cut of each purchase.",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 10,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3419,7 +4151,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/market-sentiment/",
       "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-      "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays).",
+      "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12, Part 13 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
       "parts": [
         {
           "part": 3,
@@ -3440,6 +4172,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "numbers": [
@@ -3487,6 +4224,12 @@
           "section": "The filing sets the price",
           "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "Market Sentiment, on July 10, read two moves of January 2026 as the end of the best case it had modeled for the power companies it follows: the governors of all 13 PJM states declared with the administration that data centers pay their grid costs, and the auction's price ceiling was extended to 2030.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "sides": [
@@ -3549,15 +4292,93 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
           "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Market Sentiment treats the January joint declaration by the governors of all 13 PJM states with the Trump administration that power prices be reined in and that data centers pay their grid costs, together with the extension of the capacity-auction…",
+          "date": "2026-07-10",
+          "url": "https://www.marketsentiment.co/p/ms-101",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 1894,
         "texts": 198,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "maryland-office-of-people-s-counsel",
+      "name": "Maryland Office of People's Counsel",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/maryland-office-of-people-s-counsel.json",
+      "summary": "Maryland Office of People's Counsel appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "$1.6B",
+          "label": "Added transmission cost on Maryland bills over 10 years",
+          "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
+          "part": 13,
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "The Maryland Office of People's Counsel put a number on the transmission side on June 11: $1.6 billion of added cost on Maryland bills over 10 years, from $2 billion of investment in PJM's three most recent cycles of regional projects that it says was misallocated to the state, projects it says data center growth outside Maryland drove.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Fixing cost allocation alone is insufficient if planning inputs remain corrupted by speculative and duplicative load forecasts, so a remedy must also reform the planning process to eliminate speculative load forecasts.",
+          "date": "2026-06-11",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Absent regional reform, state-level remedies such as large load tariffs may worsen the problem by magnifying the incentive to overbuild while shifting costs to customers elsewhere in PJM.",
+          "date": "2026-06-11",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 14,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3630,9 +4451,9 @@
         "creators": 2,
         "claims": 55,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3681,9 +4502,9 @@
         "creators": 0,
         "claims": 686,
         "texts": 59,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -3692,7 +4513,7 @@
       "role": "Prof G Markets",
       "url": "https://deepstack.ltd/people/mia-silverio/",
       "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-      "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+      "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
       "parts": [
         {
           "part": 7,
@@ -3718,6 +4539,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "numbers": [
@@ -3765,6 +4591,12 @@
           "section": "Lede",
           "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "sides": [
@@ -3857,9 +4689,9 @@
         "creators": 1,
         "claims": 176,
         "texts": 14,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4206,12 +5038,12 @@
         }
       ],
       "coverage": {
-        "creators": 12,
+        "creators": 13,
         "claims": 1070,
         "texts": 102,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4314,9 +5146,9 @@
         "creators": 0,
         "claims": 1434,
         "texts": 136,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4581,9 +5413,9 @@
         "creators": 0,
         "claims": 1643,
         "texts": 152,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4632,9 +5464,67 @@
         "creators": 0,
         "claims": 811,
         "texts": 72,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "monitoring-analytics-pjm-market-monitor",
+      "name": "Monitoring Analytics (PJM market monitor)",
+      "role": "Monitoring Analytics",
+      "url": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/monitoring-analytics-pjm-market-monitor.json",
+      "summary": "Monitoring Analytics (PJM market monitor) appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "Monitoring Analytics, PJM's independent market monitor, told FERC on December 5, 2025, that the central problem is a shortage of generation to serve the new loads reliably, and that the failure to impose a reliability requirement had driven large increases in capacity prices, and in energy prices and transmission costs as well.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "The central issue facing PJM, which the Market Monitor says the ANOPR appears to largely ignore, is that there is not enough generating capacity to reliably serve the large loads that want to be online quickly.",
+          "date": "2025-12-05",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "The Market Monitor states that the current failure to impose a reliability requirement has led to large increases in capacity market prices, and also in energy market prices and transmission costs.",
+          "date": "2025-12-05",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 14,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4744,9 +5634,9 @@
         "creators": 1,
         "claims": 176,
         "texts": 13,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4814,9 +5704,137 @@
         "creators": 0,
         "claims": 863,
         "texts": 72,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "north-american-electric-reliability-corporation",
+      "name": "North American Electric Reliability Corporation",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/north-american-electric-reliability-corporation.json",
+      "summary": "North American Electric Reliability Corporation appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "The North American Electric Reliability Corporation, NERC, noted in an assessment of the Midwest grid that for two years industry projections of new resources had outpaced what was actually completed, held back by supply chains, permits and developers' own decisions.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "Over the past two years NERC's LTRA has shown that industry resource growth projections can outpace actual completion rates, with efforts to interconnect resources hampered by unresponsive supply chains, permitting delays, and project owner…",
+          "date": "2026-04-23",
+          "url": "https://www.nerc.com/globalassets/our-work/assessments/2025-ltra-sensitivity-miso-eras.pdf#p2",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…",
+          "date": "2026-02-24",
+          "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 45,
+        "texts": 3,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "nrg-energy",
+      "name": "NRG Energy",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/nrg-energy/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/nrg-energy.json",
+      "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way), Part 13 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "NRG argues that because the funding a large load customer must supply to bring new generation greatly exceeds the $50,000/MW security amount, concerns about whether the large load can meet financial commitments are easily satisfied under BYOG…",
+          "date": "2026-04-17",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "NRG states the ERCOT region faces unprecedented load growth over the next five years, which it says will bring both grid challenges and significant business development opportunities in Texas, making it critical to get the large load…",
+          "date": "2026-04-17",
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Own generation answers affordability; the influx of large loads threatens bills.",
+          "date": null,
+          "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 1,
+        "claims": 15,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4860,9 +5878,9 @@
         "creators": 0,
         "claims": 45,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -4995,15 +6013,15 @@
         "creators": 0,
         "claims": 576,
         "texts": 46,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
       "slug": "orbis-investments",
       "name": "Orbis Investments",
-      "role": null,
+      "role": "Orbis Investment Management",
       "url": "https://deepstack.ltd/people/orbis-investments/",
       "api": "https://deepstack.ltd/api/v1/entities/people/orbis-investments.json",
       "summary": "Orbis Investments appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
@@ -5028,9 +6046,50 @@
         "creators": 0,
         "claims": 84,
         "texts": 8,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "oscar-hattink",
+      "name": "Oscar Hattink",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oscar-hattink/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/oscar-hattink.json",
+      "summary": "Oscar Hattink appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+      "parts": [
+        {
+          "part": 4,
+          "headline": "AI Spending Has Met Its First Real Bill",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "$3.5T",
+          "label": "2026–30 hyperscaler capex",
+          "context": "Oscar Hattink via Kevin Gee; 2026–2030",
+          "part": 4,
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 4,
+          "section": "Arithmetic sets the test",
+          "excerpt": "Kevin Gee’s A Letter a Day, relaying Oscar Hattink’s 2026 letter, puts the burden on the customer.",
+          "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5039,7 +6098,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/prof-g-markets/",
       "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-      "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
       "parts": [
         {
           "part": 4,
@@ -5070,6 +6129,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "numbers": [
@@ -5130,6 +6194,12 @@
           "section": "Lede",
           "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
         }
       ],
       "sides": [],
@@ -5137,9 +6207,9 @@
         "creators": 0,
         "claims": 1105,
         "texts": 87,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5206,9 +6276,9 @@
         "creators": 0,
         "claims": 821,
         "texts": 71,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5444,9 +6514,100 @@
         "creators": 0,
         "claims": 467,
         "texts": 36,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "reyk-knuhtsen",
+      "name": "Reyk Knuhtsen",
+      "role": null,
+      "url": "https://deepstack.ltd/people/reyk-knuhtsen/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/reyk-knuhtsen.json",
+      "summary": "Reyk Knuhtsen appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Reyk Knuhtsen of SemiAnalysis, on June 18, counted 311 gigawatts of the more than 410 gigawatts ERCOT was assessing in April as phantom data center demand, against an all-time Texas peak of about 85 gigawatts.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "ERCOT illustrates phantom demand: as of April 2026 it was assessing more than 410 GW of large-load interconnection requests, over 87% from datacenters, against a Texas all-time peak of about 85 GW, and they count 311 GW of that as phantom…",
+          "date": "2026-06-18",
+          "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "They acknowledge open questions in judging real delays: some projects may die on local opposition while others pass and unseat the council members who approved them, labor can be imported or become a constraint, and behind-the-meter power remains a…",
+          "date": "2026-06-18",
+          "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 15,
+        "texts": 1,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "robin-millican",
+      "name": "Robin Millican",
+      "role": null,
+      "url": "https://deepstack.ltd/people/robin-millican/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/robin-millican.json",
+      "summary": "Robin Millican appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "Robin Millican, on Columbia Energy Exchange, which Jason Bordoff hosts with Bill Loveless, on June 30, named tariffs that make large loads pay their incremental grid costs as one of the structural fixes.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5477,9 +6638,9 @@
         "creators": 0,
         "claims": 3050,
         "texts": 345,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5521,9 +6682,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5579,9 +6740,9 @@
         "creators": 0,
         "claims": 772,
         "texts": 69,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5612,9 +6773,122 @@
         "creators": 2,
         "claims": 872,
         "texts": 134,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "semianalysis",
+      "name": "SemiAnalysis",
+      "role": null,
+      "url": "https://deepstack.ltd/people/semianalysis/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/semianalysis.json",
+      "summary": "SemiAnalysis appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First.",
+      "parts": [
+        {
+          "part": 2,
+          "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+        },
+        {
+          "part": 5,
+          "headline": "OpenAI and Anthropic Are Not the Same Business",
+          "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 2,
+          "section": "The meter versus the map",
+          "excerpt": "Jeremie Eliahou Ontiveros at SemiAnalysis did more than read the slide.",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+        },
+        {
+          "part": 2,
+          "section": "The Call",
+          "excerpt": "The single most important reason is the gap between 0.4 gigawatts deployed and roughly 10 gigawatts that SemiAnalysis believes can stand by the end of 2027.",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+        },
+        {
+          "part": 5,
+          "section": "The margin test",
+          "excerpt": "Jeremie Eliahou Ontiveros, working the unit economics for SemiAnalysis, calculates that a current-generation cluster can generate over $100bn of revenue per gigawatt-year against roughly $12bn of rental cost.",
+          "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Reyk Knuhtsen of SemiAnalysis, on June 18, counted 311 gigawatts of the more than 410 gigawatts ERCOT was assessing in April as phantom data center demand, against an all-time Texas peak of about 85 gigawatts.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 10,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "sonya-huang",
+      "name": "Sonya Huang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/sonya-huang/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/sonya-huang.json",
+      "summary": "Sonya Huang appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The load pays its way",
+          "excerpt": "Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-load-pays-its-way",
+          "sideLabel": "The load pays its way",
+          "claim": "Vahdat: Google pays for its own lines.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 22,
+        "texts": 2,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5645,9 +6919,9 @@
         "creators": 0,
         "claims": 40,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -5782,15 +7056,15 @@
         "creators": 1,
         "claims": 651,
         "texts": 52,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
       "slug": "steve-eisman",
       "name": "Steve Eisman",
-      "role": null,
+      "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/",
       "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
       "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
@@ -6117,9 +7391,9 @@
         "creators": 0,
         "claims": 763,
         "texts": 143,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6328,9 +7602,9 @@
         "creators": 2,
         "claims": 557,
         "texts": 61,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6386,9 +7660,9 @@
         "creators": 1,
         "claims": 41,
         "texts": 4,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6598,9 +7872,9 @@
         "creators": 2,
         "claims": 4090,
         "texts": 1462,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6644,9 +7918,9 @@
         "creators": 0,
         "claims": 222,
         "texts": 29,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6787,9 +8061,169 @@
         "creators": 0,
         "claims": 604,
         "texts": 45,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "tscsw",
+      "name": "tscsw",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tscsw/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/tscsw.json",
+      "summary": "tscsw appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [
+        {
+          "value": "6,623 MW",
+          "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
+          "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
+          "part": 13,
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "Lede",
+          "excerpt": "The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as tscsw recounted on August 11.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "section": "Lede",
+          "excerpt": "The auction for the year from June 2027, tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "section": "The plant is late",
+          "excerpt": "The strongest form of this side cuts against the house. tscsw's February 26 post held that if 15 to 20 gigawatts of data center load moves behind the meter by 2030, the grid's deficit and the scarcity premium paid to generators in PJM and ERCOT would shrink.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Interconnection queues, turbine shortages, and permitting gridlock are preventing $33 billion offers from translating into actual megawatts of new capacity.",
+          "date": "2026-02-26",
+          "url": "https://tscsw.substack.com/p/there-is-no-power",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "The PJM capacity auction price for mid-Atlantic grid generation cleared at $269.92 per megawatt-day in July 2024, up 9x from the previous auction's $28.92, with all subsequent auctions clearing at administrative price caps.",
+          "date": "2026-08-11",
+          "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-plant-is-late",
+          "sideLabel": "The plant is late",
+          "claim": "PJM's 2027/2028 Base Residual Auction failed to meet the reliability requirement for the first time since the capacity market's creation in 2007, achieving only a 14.8% reserve margin against a 20.0% target, a shortfall of 6,623 MW.",
+          "date": "2026-02-26",
+          "url": "https://tscsw.substack.com/p/there-is-no-power",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The capacity price ninefold; the auction short; on-site power could shrink the gap.",
+          "date": null,
+          "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 950,
+        "texts": 74,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "virginia-state-corporation-commission",
+      "name": "Virginia State Corporation Commission",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/virginia-state-corporation-commission/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/virginia-state-corporation-commission.json",
+      "summary": "Virginia State Corporation Commission appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+      "parts": [
+        {
+          "part": 13,
+          "headline": "The Ratepayer Pays First",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 13,
+          "section": "The bill no state can shield",
+          "excerpt": "The Virginia State Corporation Commission made the distributional case on December 15, 2025.",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…",
+          "date": "2025-12-15",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 13,
+          "question": null,
+          "side": "the-bill-no-state-can-shield",
+          "sideLabel": "The bill no state can shield",
+          "claim": "Implementing a minimum set of standards designed to remove bottlenecks within the interconnection queue itself can expedite interconnections without disturbing existing state-federal jurisdictional boundaries.",
+          "date": "2025-12-05",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 27,
+        "texts": 2,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6881,9 +8315,9 @@
         "creators": 2,
         "claims": 2967,
         "texts": 472,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6925,9 +8359,59 @@
         "creators": 2,
         "claims": 40,
         "texts": 3,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
+    },
+    {
+      "kind": "person",
+      "slug": "vp-research",
+      "name": "VP Research",
+      "role": "Variant Perception",
+      "url": "https://deepstack.ltd/people/vp-research/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/vp-research.json",
+      "summary": "VP Research appears in Part 3, Part 7 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 7: The Fed Hiked. The Long End Still Climbed..",
+      "parts": [
+        {
+          "part": 3,
+          "headline": "The Machines Will Work. The Debt Might Not.",
+          "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+        },
+        {
+          "part": 7,
+          "headline": "The Fed Hiked. The Long End Still Climbed.",
+          "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 3,
+          "section": "Demand has teeth",
+          "excerpt": "Variant Perception’s systematic models remain risk-on, growth indicators are rebounding and semiconductors are still capital-scarce on its capital-cycle framework.",
+          "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+        },
+        {
+          "part": 7,
+          "section": "What settles it",
+          "excerpt": "Hugh Vuillier of Variant Perception says trimmed-mean PCE is still trending lower.",
+          "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+        },
+        {
+          "part": 7,
+          "section": "What settles it",
+          "excerpt": "Variant Perception’s account shows why the Fed can look late to one analyst and reckless to another.",
+          "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 1,
+        "claims": 1042,
+        "texts": 135,
+        "asOf": "2026-10-10"
+      },
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -6994,9 +8478,9 @@
         "creators": 0,
         "claims": 41,
         "texts": 3,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     },
     {
       "kind": "person",
@@ -7099,9 +8583,9 @@
         "creators": 2,
         "claims": 1935,
         "texts": 159,
-        "asOf": "2026-10-09"
+        "asOf": "2026-10-10"
       },
-      "lastUpdated": "2026-10-09"
+      "lastUpdated": "2026-10-10"
     }
   ]
 }

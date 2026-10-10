@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "company",
+  "slug": "exelon",
+  "name": "Exelon",
+  "ticker": "EXC",
+  "url": "https://deepstack.ltd/companies/exelon/",
+  "api": "https://deepstack.ltd/api/v1/entities/companies/exelon.json",
+  "summary": "Exelon appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The bill no state can shield",
+      "excerpt": "The Indicated PJM Transmission Owners, in a rehearing request Exelon filed with FERC on January 16, said a co-located load that funds its own upgrades but pays nothing toward the existing grid leaves other customers holding the bag.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 2,
+    "claims": 2,
+    "texts": 2,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10",
+  "market": null
+}

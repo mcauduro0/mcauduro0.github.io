@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "jeremie-eliahou-ontiveros",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
   "api": "https://deepstack.ltd/api/v1/entities/people/jeremie-eliahou-ontiveros.json",
-  "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 2 (The number is real).",
+  "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
   "parts": [
     {
       "part": 2,
@@ -18,6 +18,11 @@
       "part": 5,
       "headline": "OpenAI and Anthropic Are Not the Same Business",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "numbers": [],
@@ -39,6 +44,12 @@
       "section": "The Call",
       "excerpt": "Jeremie Eliahou Ontiveros’s $100bn-per-GW-year calculation is powerful, but Daniel Romero’s depreciation objection attacks the exact period that makes it look so good.",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "sides": [
@@ -65,13 +76,25 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
       "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "They expect power generation to be a major bottleneck to grid-connected datacenter load growth, pointing to utilities revising promised load ramps by years because long-lead interconnection equipment is unavailable, and to buyers now bearing the…",
+      "date": "2026-06-25",
+      "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 34,
     "texts": 3,
-    "asOf": "2026-10-09"
+    "asOf": "2026-10-10"
   },
-  "lastUpdated": "2026-10-09"
+  "lastUpdated": "2026-10-10"
 }

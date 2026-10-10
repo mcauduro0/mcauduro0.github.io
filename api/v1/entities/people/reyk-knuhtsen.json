@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "reyk-knuhtsen",
+  "name": "Reyk Knuhtsen",
+  "role": null,
+  "url": "https://deepstack.ltd/people/reyk-knuhtsen/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/reyk-knuhtsen.json",
+  "summary": "Reyk Knuhtsen appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "Reyk Knuhtsen of SemiAnalysis, on June 18, counted 311 gigawatts of the more than 410 gigawatts ERCOT was assessing in April as phantom data center demand, against an all-time Texas peak of about 85 gigawatts.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "ERCOT illustrates phantom demand: as of April 2026 it was assessing more than 410 GW of large-load interconnection requests, over 87% from datacenters, against a Texas all-time peak of about 85 GW, and they count 311 GW of that as phantom…",
+      "date": "2026-06-18",
+      "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "They acknowledge open questions in judging real delays: some projects may die on local opposition while others pass and unseat the council members who approved them, labor can be imported or become a constraint, and behind-the-meter power remains a…",
+      "date": "2026-06-18",
+      "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 15,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

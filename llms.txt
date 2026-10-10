@@ -2,7 +2,7 @@
 
 > The money behind the machine. Where informed investors disagree, the evidence each side stands on, and the date that settles it. DeepStack is an independent publication on the AI economy: the capital, the chips, the power and the people betting on all three. Sharp analysis, sourced numbers, a clear verdict. Every story gives the strongest case on each side, takes one in The DeepStack Call, and names the dated test that will settle it. Analysis and opinion, not investment advice.
 
-DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-10T02:35:22Z.
+DeepStack publishes at https://deepstack.ltd. The pages are free to read; quote with attribution and a link to the canonical page. Every figure carries its date and source. This file was generated 2026-10-10T04:31:00Z.
 
 Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id, the name and version the calling program gives itself, the time the call took and a short digest of its arguments, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next.
 
@@ -17,9 +17,9 @@ A click on a Docket test is kept only as a count per test and day, never with wh
 - [Results](https://deepstack.ltd/api/v1/results.json): resolved tests and the ten-results rule
 - [Resolution packages](https://deepstack.ltd/data/download/#packages): one PDF per settled or specified test: the question, the rule, the official source, the ambiguity clause, the evidence, the verdict, the approver and the date; a demonstration, not a contract
 - [Corrections](https://deepstack.ltd/api/v1/corrections.json): every correction on every story, with the date of the change
-- [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (12 files; one per story slug under /api/v1/sides/)
-- [The sides grid](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai/grid.json): one row per voice and one column per question of a sides page, the side each holds with the dated claim and the verified link (12 files, one per story slug at /api/v1/sides/<slug>/grid.json; the same rows as CSV at /sides/<slug>/grid.csv)
-- [Questions](https://deepstack.ltd/api/v1/questions.json): the 12 questions DeepStack settles, with the Part, the Call and the next dated test; one file per question under /api/v1/questions/
+- [Who is on each side](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai.json): attributed, paraphrased voices per story (13 files; one per story slug under /api/v1/sides/)
+- [The sides grid](https://deepstack.ltd/api/v1/sides/anthropic-grew-142-percent-openai/grid.json): one row per voice and one column per question of a sides page, the side each holds with the dated claim and the verified link (13 files, one per story slug at /api/v1/sides/<slug>/grid.json; the same rows as CSV at /sides/<slug>/grid.csv)
+- [Questions](https://deepstack.ltd/api/v1/questions.json): the 13 questions DeepStack settles, with the Part, the Call and the next dated test; one file per question under /api/v1/questions/
 - [Companies](https://deepstack.ltd/api/v1/entities/companies.json): reported numbers, mentions, side rows and the delayed market snapshot, with its source
 - [People](https://deepstack.ltd/api/v1/entities/people.json): what each person argued, attributed and dated; no score or ranking
 - [The macro tape](https://deepstack.ltd/api/v1/tape.json): the live macro tape with the producer of each series
@@ -43,6 +43,7 @@ A click on a Docket test is kept only as a count per test and day, never with wh
 - [Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/): The S&P 500 looks cheaper because profits surged. But those profits depend on AI spending, chip values and debt that may be inflating the denominator while raising the discount rate.
 - [Part 11: The Backlog Is Not the Quarter](https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/): Ciena carries a $10 billion order book, Microsoft's far backlog grew three times as fast as its near one, and Nvidia now waits a year to be paid. The orders will ship. DeepStack expects the profit to arrive later, and the third-quarter reports to show the gap.
 - [Part 12: The Model Is Not the Price](https://deepstack.ltd/stories/the-model-is-not-the-price/): A frontier model now lists at $4 per million input tokens, open and Chinese models carry most of the tokens on the platforms that count them, and the two labs' revenue is counted in the tens of billions. Investors agree the token is cheap. They differ on what the lab is paid for, and only a prospectus on EDGAR can settle it.
+- [Part 13: The Ratepayer Pays First](https://deepstack.ltd/stories/the-ratepayer-pays-first/): Households in the nine jurisdictions PJM serves paid a median 11.7% more per kilowatt-hour over the year to July than the year before, against 5.6% elsewhere. Data center builders tell regulators they pay their own way. PJM's market monitor told them no state commission can shield households from the capacity price their demand sets.
 
 ## Questions
 
@@ -60,6 +61,7 @@ How DeepStack settles a question: the strongest case on each side, attributed an
 - [Does AI hardware hold its value?](https://deepstack.ltd/questions/does-the-hardware-hold-its-value/): Part 10; the Call: Cheap is conditional
 - [Do orders become profit?](https://deepstack.ltd/questions/do-the-orders-turn-into-profit/): Part 11; the Call: Revenue yes, margin not yet
 - [Does the frontier model still command a price?](https://deepstack.ltd/questions/does-the-frontier-model-still-command-a-price/): Part 12; the Call: The price has left the model
+- [Who pays for the AI power bill?](https://deepstack.ltd/questions/who-pays-for-the-ai-power-bill/): Part 13; the Call: The ratepayer pays first
 
 ## Pages
 
@@ -70,7 +72,7 @@ How DeepStack settles a question: the strongest case on each side, attributed an
 - [Corrections](https://deepstack.ltd/corrections/): what DeepStack got wrong and when it was fixed; a correction is dated at the top of its story
 - [Companies](https://deepstack.ltd/companies/): the companies in the argument
 - [People](https://deepstack.ltd/people/): the people on each side
-- [The sides grids](https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/grid/): the grid of each sides page (12 grids at /sides/<slug>/grid/): voice by row, question by column, the side held and the published claim; each with its CSV at /sides/<slug>/grid.csv, licensed on its first line
+- [The sides grids](https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/grid/): the grid of each sides page (13 grids at /sides/<slug>/grid/): voice by row, question by column, the side held and the published claim; each with its CSV at /sides/<slug>/grid.csv, licensed on its first line
 - [The Data Desk](https://deepstack.ltd/data/): interactive charts, five of them on live data
 - [Downloads](https://deepstack.ltd/data/download/): the dataset as CSV and JSON, and the grid CSV of every sides page
 - [Cards](https://deepstack.ltd/embed/): the Call of every Part as a page for an iframe (/embed/call/<slug>/) and as a 1200 × 630 SVG, and the sides card of every sides page (/embed/sides/<slug>/card.svg); each names the Part’s next test
@@ -89,8 +91,9 @@ How DeepStack settles a question: the strongest case on each side, attributed an
 
 ## Memos
 
-One PDF per Part, printed from the published pages (11 today; the page stays the record). Listed with the dataset at https://deepstack.ltd/data/download/#memos.
+One PDF per Part, printed from the published pages (12 today; the page stays the record). Listed with the dataset at https://deepstack.ltd/data/download/#memos.
 
+- [Memo, Part 13: The Ratepayer Pays First](https://deepstack.ltd/assets/memos/the-ratepayer-pays-first.pdf): PDF, 314 KB, 10 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
 - [Memo, Part 11: The Backlog Is Not the Quarter](https://deepstack.ltd/assets/memos/the-backlog-is-not-the-quarter.pdf): PDF, 308 KB, 10 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
 - [Memo, Part 10: The Bubble Is in the Denominator](https://deepstack.ltd/assets/memos/the-bubble-is-in-the-denominator.pdf): PDF, 330 KB, 11 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources
 - [Memo, Part 09: Habit Was the Moat. Agents Are Draining It.](https://deepstack.ltd/assets/memos/habit-was-the-moat.pdf): PDF, 326 KB, 10 pages; the headline, The DeepStack Call with its history, the key numbers, who is on each side with the strongest case against each side, the dated tests, the results and the sources

@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "electric-reliability-council-of-texas",
+  "name": "Electric Reliability Council of Texas",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/electric-reliability-council-of-texas/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/electric-reliability-council-of-texas.json",
+  "summary": "Electric Reliability Council of Texas appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "The Electric Reliability Council of Texas, ERCOT, reported about 438 gigawatts of large-load requests on May 24, against about 452 gigawatts of generation requests, most of the load requests with no study submitted.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "ERCOT reports it is tracking roughly 438 GW of Large Load interconnection requests and roughly 452 GW of Generation Interconnection requests.",
+      "date": "2026-05-24",
+      "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "The 438 GW of Large Load interconnection requests is tracked through the current PGRR115-based process, in which the vast majority of requests have no studies submitted; that process ends July 10, 2026, when ERCOT switches to a batch-based…",
+      "date": "2026-05-24",
+      "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 40,
+    "texts": 3,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

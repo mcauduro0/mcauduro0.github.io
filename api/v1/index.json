@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -9,15 +9,15 @@
   "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
-    "stories": 12,
-    "tests": 56,
-    "datedTests": 32,
+    "stories": 13,
+    "tests": 59,
+    "datedTests": 35,
     "results": 2,
     "corrections": 0,
-    "sides": 12,
-    "questions": 12,
-    "companies": 45,
-    "people": 72,
+    "sides": 13,
+    "questions": 13,
+    "companies": 48,
+    "people": 96,
     "editions": 1,
     "notes": 0
   },
@@ -38,7 +38,8 @@
         "habit-was-the-moat",
         "the-bubble-is-in-the-denominator",
         "the-backlog-is-not-the-quarter",
-        "the-model-is-not-the-price"
+        "the-model-is-not-the-price",
+        "the-ratepayer-pays-first"
       ]
     },
     "docket": "https://deepstack.ltd/api/v1/docket.json",
@@ -66,6 +67,7 @@
         "the-fed-hiked-the-long-end-kept-climbing",
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
+        "the-ratepayer-pays-first",
         "the-scarcity-is-the-collateral"
       ]
     },
@@ -84,6 +86,7 @@
         "the-fed-hiked-the-long-end-kept-climbing",
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
+        "the-ratepayer-pays-first",
         "the-scarcity-is-the-collateral"
       ]
     },
@@ -102,7 +105,8 @@
         "how-fast-do-habits-break",
         "does-the-hardware-hold-its-value",
         "do-the-orders-turn-into-profit",
-        "does-the-frontier-model-still-command-a-price"
+        "does-the-frontier-model-still-command-a-price",
+        "who-pays-for-the-ai-power-bill"
       ]
     },
     "companies": "https://deepstack.ltd/api/v1/entities/companies.json",

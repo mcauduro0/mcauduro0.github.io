@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "alphabet",
@@ -7,7 +7,7 @@
   "ticker": "GOOGL",
   "url": "https://deepstack.ltd/companies/alphabet/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-  "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+  "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
   "parts": [
     {
       "part": 1,
@@ -58,6 +58,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
   "numbers": [
@@ -342,15 +347,27 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "Vahdat: Google pays for its own lines.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
     }
   ],
   "coverage": {
-    "creators": 189,
-    "claims": 2936,
-    "texts": 1367,
-    "asOf": "2026-10-09"
+    "creators": 191,
+    "claims": 2944,
+    "texts": 1370,
+    "asOf": "2026-10-10"
   },
-  "lastUpdated": "2026-10-09",
+  "lastUpdated": "2026-10-10",
   "market": {
     "price": 348.29,
     "change": -2.21,

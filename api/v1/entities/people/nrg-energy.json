@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "nrg-energy",
+  "name": "NRG Energy",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/nrg-energy/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/nrg-energy.json",
+  "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way), Part 13 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The load pays its way",
+      "excerpt": "NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "NRG argues that because the funding a large load customer must supply to bring new generation greatly exceeds the $50,000/MW security amount, concerns about whether the large load can meet financial commitments are easily satisfied under BYOG…",
+      "date": "2026-04-17",
+      "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "NRG states the ERCOT region faces unprecedented load growth over the next five years, which it says will bring both grid challenges and significant business development opportunities in Texas, making it critical to get the large load…",
+      "date": "2026-04-17",
+      "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Own generation answers affordability; the influx of large loads threatens bills.",
+      "date": null,
+      "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 15,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

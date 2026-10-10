@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "north-american-electric-reliability-corporation",
+  "name": "North American Electric Reliability Corporation",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/north-american-electric-reliability-corporation.json",
+  "summary": "North American Electric Reliability Corporation appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "The North American Electric Reliability Corporation, NERC, noted in an assessment of the Midwest grid that for two years industry projections of new resources had outpaced what was actually completed, held back by supply chains, permits and developers' own decisions.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "Over the past two years NERC's LTRA has shown that industry resource growth projections can outpace actual completion rates, with efforts to interconnect resources hampered by unresponsive supply chains, permitting delays, and project owner…",
+      "date": "2026-04-23",
+      "url": "https://www.nerc.com/globalassets/our-work/assessments/2025-ltra-sensitivity-miso-eras.pdf#p2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…",
+      "date": "2026-02-24",
+      "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 45,
+    "texts": 3,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

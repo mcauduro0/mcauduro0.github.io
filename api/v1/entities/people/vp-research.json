@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "vp-research",
+  "name": "VP Research",
+  "role": "Variant Perception",
+  "url": "https://deepstack.ltd/people/vp-research/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/vp-research.json",
+  "summary": "VP Research appears in Part 3, Part 7 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 7: The Fed Hiked. The Long End Still Climbed..",
+  "parts": [
+    {
+      "part": 3,
+      "headline": "The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 7,
+      "headline": "The Fed Hiked. The Long End Still Climbed.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 3,
+      "section": "Demand has teeth",
+      "excerpt": "Variant Perception’s systematic models remain risk-on, growth indicators are rebounding and semiconductors are still capital-scarce on its capital-cycle framework.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "part": 7,
+      "section": "What settles it",
+      "excerpt": "Hugh Vuillier of Variant Perception says trimmed-mean PCE is still trending lower.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 7,
+      "section": "What settles it",
+      "excerpt": "Variant Perception’s account shows why the Fed can look late to one analyst and reckless to another.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 1,
+    "claims": 1042,
+    "texts": 135,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

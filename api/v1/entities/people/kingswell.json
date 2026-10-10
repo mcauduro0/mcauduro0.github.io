@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "kingswell",
+  "name": "Kingswell",
+  "role": null,
+  "url": "https://deepstack.ltd/people/kingswell/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/kingswell.json",
+  "summary": "Kingswell appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The load pays its way",
+      "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "BHE's stance of participating in data center buildouts only if hyperscalers bear the full construction and operating cost is a disciplined framework that lets it join a major infrastructure cycle without spreading risk and cost onto existing…",
+      "date": "2026-05-11",
+      "url": "https://www.kingswell.io/p/10-things-about-berkshire-hathaways",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 4184,
+    "texts": 405,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

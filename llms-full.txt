@@ -1,6 +1,6 @@
 # DeepStack: The Buildout, every story and its Call
 
-The money behind the machine. Generated 2026-10-10T02:35:22Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+The money behind the machine. Generated 2026-10-10T04:31:00Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
 
 ## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
 URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
@@ -251,5 +251,25 @@ Next test: Oct 28, 2026 (pending): Alphabet, Microsoft and Meta report, and the 
 Key numbers: $4 vs $10 Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra (Charlie Hills, Sep 27, 2026; the frontier undercut by 60%); 57% to 67% Chinese models' share of token usage on OpenRouter by September (As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22); 4 months The gap between the Chinese open models and the frontier (Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026); A quarter Share of Anthropic's 2025 revenue that came from two customers (Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google)
 Who is on each side: https://deepstack.ltd/sides/the-model-is-not-the-price/
 JSON: https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json
+
+## Part 13: The Ratepayer Pays First
+URL: https://deepstack.ltd/stories/the-ratepayer-pays-first/
+Published: 2026-10-10 · Markets · 10 min read
+Dek: Households in the nine jurisdictions PJM serves paid a median 11.7% more per kilowatt-hour over the year to July than the year before, against 5.6% elsewhere. Data center builders tell regulators they pay their own way. PJM's market monitor told them no state commission can shield households from the capacity price their demand sets.
+Summary: Data centers pay for the wires they cause. The higher capacity price their demand sets reaches every household in PJM first. DeepStack reads both bills and names the federal price data and the December auction that will test the view.
+The DeepStack Call (Mixed; conviction 3/5, Moderate): The ratepayer pays first
+Call: Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.
+What to do with this:
+1. Compare medians, not states: PJM's nine rose a median 11.7% per kilowatt-hour in the year to July, against 5.6% elsewhere.
+2. Separate the wire from the scarcity: pledges fund the upgrades a project triggers; the capacity price reaches every PJM bill.
+3. Mark December 9: PJM's auction for 2029/2030 shows whether the price ceiling still binds.
+What would change the call:
+- The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.
+- A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.
+- Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share.
+Next test: Oct 20, 2026 (pending): The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July. https://deepstack.ltd/docket/#test-p13-t01
+Key numbers: +11.7% Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026 (EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42); +6.6% The national household price per kilowatt-hour over the same twelve months (EIA-861M, first published Sep 24, 2026; Texas +4.8%); 6,623 MW Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007 (PJM auction results as relayed by tscsw, Feb 26, 2026); $1.6B Added transmission cost on Maryland bills over 10 years (Maryland Office of People's Counsel at FERC, Jun 11, 2026)
+Who is on each side: https://deepstack.ltd/sides/the-ratepayer-pays-first/
+JSON: https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json
 
 Analysis and opinion, not investment advice.

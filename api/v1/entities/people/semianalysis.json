@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "semianalysis",
+  "name": "SemiAnalysis",
+  "role": null,
+  "url": "https://deepstack.ltd/people/semianalysis/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/semianalysis.json",
+  "summary": "SemiAnalysis appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First.",
+  "parts": [
+    {
+      "part": 2,
+      "headline": "SpaceX Is Funding an AI Bet Before the Proof",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 5,
+      "headline": "OpenAI and Anthropic Are Not the Same Business",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 2,
+      "section": "The meter versus the map",
+      "excerpt": "Jeremie Eliahou Ontiveros at SemiAnalysis did more than read the slide.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 2,
+      "section": "The Call",
+      "excerpt": "The single most important reason is the gap between 0.4 gigawatts deployed and roughly 10 gigawatts that SemiAnalysis believes can stand by the end of 2027.",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
+    },
+    {
+      "part": 5,
+      "section": "The margin test",
+      "excerpt": "Jeremie Eliahou Ontiveros, working the unit economics for SemiAnalysis, calculates that a current-generation cluster can generate over $100bn of revenue per gigawatt-year against roughly $12bn of rental cost.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+    },
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "Reyk Knuhtsen of SemiAnalysis, on June 18, counted 311 gigawatts of the more than 410 gigawatts ERCOT was assessing in April as phantom data center demand, against an all-time Texas peak of about 85 gigawatts.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 10,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

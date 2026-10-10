@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:22Z",
+  "generatedAt": "2026-10-10T04:31:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -550,6 +550,13 @@
     },
     {
       "kind": "person",
+      "slug": "google",
+      "name": "Google",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/google/"
+    },
+    {
+      "kind": "person",
       "slug": "jensen-huang",
       "name": "Jensen Huang",
       "role": null,
@@ -643,7 +650,7 @@
       "kind": "person",
       "slug": "steve-eisman",
       "name": "Steve Eisman",
-      "role": null,
+      "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/"
     },
     {

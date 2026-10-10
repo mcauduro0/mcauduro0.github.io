@@ -1,0 +1,573 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 13,
+  "slug": "the-ratepayer-pays-first",
+  "headline": "The Ratepayer Pays First",
+  "dek": "Households in the nine jurisdictions PJM serves paid a median 11.7% more per kilowatt-hour over the year to July than the year before, against 5.6% elsewhere. Data center builders tell regulators they pay their own way. PJM's market monitor told them no state commission can shield households from the capacity price their demand sets.",
+  "summary": "Data centers pay for the wires they cause. The higher capacity price their demand sets reaches every household in PJM first. DeepStack reads both bills and names the federal price data and the December auction that will test the view.",
+  "section": "Markets",
+  "date": "2026-10-10",
+  "readingMinutes": 10,
+  "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Mixed",
+    "stance": "The ratepayer pays first",
+    "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Compare medians, not states: PJM's nine rose a median 11.7% per kilowatt-hour in the year to July, against 5.6% elsewhere.",
+      "Separate the wire from the scarcity: pledges fund the upgrades a project triggers; the capacity price reaches every PJM bill.",
+      "Mark December 9: PJM's auction for 2029/2030 shows whether the price ceiling still binds."
+    ],
+    "flips": [
+      "The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.",
+      "A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.",
+      "Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share."
+    ],
+    "version": 1,
+    "updatedOn": "2026-10-10",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-10",
+        "stance": "The ratepayer pays first",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      }
+    ],
+    "nextTest": {
+      "id": "p13-t01",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p13-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "value": "+11.7%",
+      "label": "Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026",
+      "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42"
+    },
+    {
+      "value": "+6.6%",
+      "label": "The national household price per kilowatt-hour over the same twelve months",
+      "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%"
+    },
+    {
+      "value": "6,623 MW",
+      "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
+      "context": "PJM auction results as relayed by tscsw, Feb 26, 2026"
+    },
+    {
+      "value": "$1.6B",
+      "label": "Added transmission cost on Maryland bills over 10 years",
+      "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "U.S. Energy Information Administration - EIA-861M sales and revenue",
+      "url": "https://www.eia.gov/electricity/data/eia861m/"
+    },
+    {
+      "label": "Monitoring Analytics (PJM market monitor) - FERC RM26-4 reply comments",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219"
+    },
+    {
+      "label": "Virginia State Corporation Commission - FERC AD24-11 answer",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251215-5406"
+    },
+    {
+      "label": "Maryland Office of People's Counsel - FERC RM26-4 motion",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8"
+    },
+    {
+      "label": "Indicated PJM Transmission Owners (filed by Exelon) - FERC EL25-20 rehearing request",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7"
+    },
+    {
+      "label": "Google and Lancium - PUCT 58317 joint comments",
+      "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11"
+    },
+    {
+      "label": "NRG Energy - PUCT 58481 comments",
+      "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173"
+    },
+    {
+      "label": "EDF Power Solutions - FERC ER26-1479 comments",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5222"
+    },
+    {
+      "label": "Earthjustice - FERC ER26-1479 reply comments",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260424-5110"
+    },
+    {
+      "label": "NERC - 2025 Long-Term Reliability Assessment",
+      "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2"
+    },
+    {
+      "label": "ERCOT - Interconnection and grid analysis update, May 24",
+      "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf"
+    },
+    {
+      "label": "Training Data - Amin Vahdat on frontier AI infrastructure",
+      "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3"
+    },
+    {
+      "label": "Prof G Markets - Nobody wants a data center",
+      "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even"
+    }
+  ],
+  "earlierVersion": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+  "corrections": [],
+  "wordCount": 2257,
+  "pullQuote": "The data center pays for its wire. The ratepayer pays for the scarcity.",
+  "verdict": "DeepStack's view is that the ratepayer pays first. The builders and the utilities that serve them describe data centers paying for what they cause at their own sites: Google funds its lines and upgrades, and Texas asks large loads for $50,000 of security per megawatt. A data center also pays the capacity price on its own load. What none of them pays is the rise its demand causes in the price every other customer pays, and PJM's market monitor told FERC on December 5, 2025, that no state tariff can shield retail customers from it. The median household in PJM's nine jurisdictions paid 11.7% more per kilowatt-hour over the year to July, against 5.6% in the other 42. The single most important reason for caution is that retail prices also move with fuel and with rate cases for local wires, so the gap is consistent with the transfer without proving it. The view changes if that gap falls below four points while PJM's data center load keeps growing, or if a rule makes large loads bring their own capacity and the December 9 auction clears below the ceiling. The first answer arrives in late October, with the federal data for August.",
+  "sections": [
+    {
+      "id": "the-load-pays-its-way",
+      "title": "The load pays its way",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-load-pays-its-way"
+    },
+    {
+      "id": "the-bill-no-state-can-shield",
+      "title": "The bill no state can shield",
+      "startsAt": 6,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-bill-no-state-can-shield"
+    },
+    {
+      "id": "the-plant-is-late",
+      "title": "The plant is late",
+      "startsAt": 10,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-plant-is-late"
+    },
+    {
+      "id": "the-grid-without-an-auction",
+      "title": "The grid without an auction",
+      "startsAt": 14,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-grid-without-an-auction"
+    },
+    {
+      "id": "the-tests-ahead",
+      "title": "The tests ahead",
+      "startsAt": 16,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-tests-ahead"
+    }
+  ],
+  "body": [
+    "A household in Maryland paid 13.2% more for each kilowatt-hour of electricity in the twelve months to July 2026 than in the twelve months before, by DeepStack's reading of the Energy Information Administration's monthly sales and revenue data, first published for July on September 24. The country paid 6.6% more. Rank all 50 states and Washington, D.C., by that change and seven of the nine jurisdictions PJM serves wholly or largely land in the top nine: the District at 21.9%, then Maryland, Pennsylvania at 12.8%, New Jersey at 12.2%, Ohio at 11.7%, Virginia at 11.5% and Illinois at 11.4%. Delaware rose 5.7% and West Virginia 0.6%. The median of the nine was 11.7%; the median of the other 42 was 5.6%. PJM runs the grid and the wholesale power market for all or part of 13 states and the District, and carries the country's densest cluster of data centers.",
+    "The bill starts in an auction. PJM buys capacity, a plant's promise to be ready at the hour of peak demand, in an auction held before each delivery year, and the price reaches every customer's bill. The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as tscsw recounted on August 11. At $269.92, a 1,000-megawatt plant collects about $98.5 million a year for standing ready. The auction for the year from June 2027, tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short. Part six, on September 19, followed the price to the ceiling and relayed an estimate that data centers caused 63% of the first jump. Part thirteen asks who carries that bill under the rules.",
+    "DeepStack read 92 filings, posts and episodes by 60 voices across two clusters of its vault, among them the regulatory record: briefs at the Federal Energy Regulatory Commission and the Texas commission, and the grid planners' reliability assessments. It verified 106 agreements and 70 disagreements, 10 of them direct contradictions.",
+    "The first reading holds that the data center pays for what it causes. Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires. Google and Lancium made the same case to the Texas commission on December 18, 2025: assign costs to whoever causes them, with minimum transmission charges large enough that households and small businesses are shielded from shifts. Crusoe Energy told FERC on March 16 that co-located generation, a power plant built beside the data center it feeds, lowers ratepayer costs when it is set up correctly. EDF Power Solutions said the same day that such plants can ease congestion and cut the network upgrades the grid would otherwise need.",
+    "Utilities and generators describe the same contract from the other side. NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability. Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
+    "DeepStack's reading is that this side pays for what it causes at its own site, from the substation to the deposit that holds its place in line. A data center also pays the capacity price on its own load, like any customer. What none of these filings offers to pay is the rise its demand causes in the price every other customer pays on the same kilowatt-hours as last year. The closest any comes is bringing its own new generation, which NRG and Crusoe propose.",
+    "The second reading says the bill arrives through the market before any invoice is drawn, and years before the rules that would assign it to large loads take effect. Monitoring Analytics, PJM's independent market monitor, told FERC on December 5, 2025, that the central problem is a shortage of generation to serve the new loads reliably, and that the failure to impose a reliability requirement had driven large increases in capacity prices, and in energy prices and transmission costs as well. It added that whatever tariffs the states write, state regulators cannot protect retail customers from what those loads do to PJM's wholesale prices for capacity, energy and reserves. Its remedy was a queue for large data center loads, with a faster path for those that bring their own new generation.",
+    "The Virginia State Corporation Commission made the distributional case on December 15, 2025. If existing plants may leave the market and wire their output straight to data centers, behind the meter in the industry's term, the data centers get partly depreciated, cheaper generation, and the customers who remain pay for the costlier plants built to replace it. Unless such arrangements protect existing customers, the commission warned, they work as a wealth transfer from retail customers to generators such as Constellation, which it said was already profiting from a market short of resources and expensive. The capacity price is revenue to the generators that clear the auction. The Maryland Office of People's Counsel put a number on the transmission side on June 11: $1.6 billion of added cost on Maryland bills over 10 years, from $2 billion of investment in PJM's three most recent cycles of regional projects that it says was misallocated to the state, projects it says data center growth outside Maryland drove. The Indicated PJM Transmission Owners, in a rehearing request Exelon filed with FERC on January 16, said a co-located load that funds its own upgrades but pays nothing toward the existing grid leaves other customers holding the bag.",
+    "Read side by side, two filings that describe the harm alike disagree about the remedy. Virginia's commission saw no defect in PJM's own tariff that called for a PJM-only fix, and wanted the question settled in FERC's general rulemaking on large loads, with state authority over retail service intact. The market monitor had argued ten days earlier, in a separate proceeding, that state tariffs can reach the cost of connecting a load but not what the load does to wholesale prices. Robin Millican, on Columbia Energy Exchange, which Jason Bordoff hosts with Bill Loveless, on June 30, named tariffs that make large loads pay their incremental grid costs as one of the structural fixes. Maryland's counsel adds a limit: without regional reform, a state tariff can magnify the incentive to overbuild and move the cost onto customers elsewhere in PJM.",
+    "Maryland's counsel cites the industry's answer, the Ratepayer Protection Pledge, under which the largest data center developers commit to pay for new power delivery upgrades, network upgrades included, so the expense does not reach households. Market Sentiment, on July 10, read two moves of January 2026 as the end of the best case it had modeled for the power companies it follows: the governors of all 13 PJM states declared with the administration that data centers pay their grid costs, and the auction's price ceiling was extended to 2030. DeepStack reads the pledge as a promise about the wire. A household in Baltimore pays the capacity price whether or not a data center in northern Virginia funded its substation. In a separate federal proceeding, Earthjustice argued on April 24 that no commenter could name the penalty that would make a customer with virtually unlimited capital and strict uptime contracts cut its draw when the grid runs short.",
+    "The third reading says neither the load nor the plants arrive when the bills assume. The North American Electric Reliability Corporation, NERC, noted in an assessment of the Midwest grid that for two years industry projections of new resources had outpaced what was actually completed, held back by supply chains, permits and developers' own decisions. Its 2025 long-term assessment warned that large loads make forecasts volatile; revised ERCOT and PJM forecasts showed some projects slowing or failing even as requests for later years kept rising. The Electric Reliability Council of Texas, ERCOT, reported about 438 gigawatts of large-load requests on May 24, against about 452 gigawatts of generation requests, most of the load requests with no study submitted. Reyk Knuhtsen of SemiAnalysis, on June 18, counted 311 gigawatts of the more than 410 gigawatts ERCOT was assessing in April as phantom data center demand, against an all-time Texas peak of about 85 gigawatts.",
+    "What is real is slow. Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late. Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
+    "The strongest form of this side cuts against the house. tscsw's February 26 post held that if 15 to 20 gigawatts of data center load moves behind the meter by 2030, the grid's deficit and the scarcity premium paid to generators in PJM and ERCOT would shrink. Millican relayed industry estimates on June 30 that roughly 260 gigawatts of new load could be met by using the existing grid better, through dynamic line ratings, reconductoring and demand flexibility, while granting that new building is still needed. Eliahou Ontiveros puts the limit elsewhere: a major bottleneck is generation and the equipment to connect it. The same February 26 post argued that queues, turbine shortages and permits keep projects as large as a $33 billion gas plant from becoming megawatts, and NERC's forecasts show some of the demand fading on the buyers' side.",
+    "DeepStack's reading is that lateness on both ends lengthens the household's bill. A deposit buys a data center its place in line; until the plant behind it runs, the scarcity sits in everyone's capacity price.",
+    "Texas runs an energy-only market with no capacity auction. Its households paid 4.8% more per kilowatt-hour over the year to July, below the national 6.6%. Under the proposed rule NRG commented on, a large load posts security of $50,000 per megawatt, and ERCOT's September 17 update showed requests to connect gas generation up 23% since June, to 80 gigawatts. DeepStack reads that as supply answering the price. Doug Arent offered a frame for the difference in the first part of the June 30 conversation. Where spare generation and wires already existed, as in Nebraska, North Dakota and New Mexico, new load spread fixed costs over more sales and prices fell. In Virginia and the rest of PJM, the load still to come needs new generation that costs more than today's average.",
+    "The comparison falls short of proof. Retail prices also move with fuel and with rate cases for local wires, and the high risers outside PJM say so: New Hampshire rose 13.2%, Washington 12.7%, New York 11.1% and Maine 10.0%. Texas carries its own transmission bill as well; Google and Lancium counted about $24 billion of approved 765-kilovolt projects in December 2025 and asked that large loads connect quickly enough to pay their share of it. What the table shows is a median gap of six points between the jurisdictions where the market monitor says the transfer happens and the rest of the country.",
+    "The Energy Information Administration publishes August's figures in late October. The line to track is whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July. Four points is the line because a gap that closes by a third or more would put the work back on the fuel and wires every state shares. PJM's capacity auction for the year from June 2029, scheduled for December 9, is the second check: a clear below the price ceiling would say the scarcity is easing. The data for all of 2026 arrive in late February 2027 and carry the same four-point test.",
+    "What would prove DeepStack wrong is the gap falling below four points while PJM's data center load keeps growing, or a rule that makes large loads bring their own capacity followed by an auction that clears below the ceiling. A third exit sits in Texas: if household prices there rise as fast as PJM's, the cause lies in what both grids share. The Data Center Coalition noted on March 16 that PJM had proposed June 1, 2029, as the date its new transmission services for co-located loads take effect; until then, the market price is the bill.",
+    "The record answers Part thirteen's question in the order the bills arrive. The data center pays for its wire. The ratepayer pays for the scarcity."
+  ],
+  "chart": {
+    "title": "Household power prices, a year on",
+    "subtitle": "Average residential price per kilowatt-hour, August 2025 to July 2026 against the twelve months before, percent change; the first nine are the jurisdictions PJM serves wholly or largely",
+    "unit": "%",
+    "decimals": 1,
+    "source": "U.S. Energy Information Administration, EIA-861M, as first published Sep 24, 2026; DeepStack calculation (residential revenue divided by residential sales)",
+    "items": [
+      {
+        "label": "District of Columbia",
+        "value": 21.9
+      },
+      {
+        "label": "Maryland",
+        "value": 13.2
+      },
+      {
+        "label": "Pennsylvania",
+        "value": 12.8
+      },
+      {
+        "label": "New Jersey",
+        "value": 12.2
+      },
+      {
+        "label": "Ohio",
+        "value": 11.7
+      },
+      {
+        "label": "Virginia",
+        "value": 11.5
+      },
+      {
+        "label": "Illinois",
+        "value": 11.4
+      },
+      {
+        "label": "Delaware",
+        "value": 5.7
+      },
+      {
+        "label": "West Virginia",
+        "value": 0.6
+      },
+      {
+        "label": "United States",
+        "value": 6.6
+      },
+      {
+        "label": "Median of the other 42",
+        "value": 5.6
+      },
+      {
+        "label": "Texas",
+        "value": 4.8
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p13-t01",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "when": "Late October",
+      "whenLabel": "Oct 20, 2026",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p13-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p13-t02",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "when": "December 9",
+      "whenLabel": "Dec 9, 2026",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "PJM's capacity auction for the year from June 2029, as scheduled: whether it clears below the price ceiling, the second exit from the house's view.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read from PJM's published results report. Confirmed if the RTO-wide clearing price is below the cap in effect for the auction; refuted if it clears at the cap. This test decides only the price leg of the second exit from the house's view; the rule on large loads bringing their own capacity is read separately in the story.",
+        "question": "Does PJM's Base Residual Auction for the 2029/2030 delivery year, scheduled for December 9, 2026, clear the RTO-wide capacity price below the price cap in effect for that auction?",
+        "source": {
+          "label": "PJM Interconnection, Base Residual Auction results report for 2029/2030 (pjm.com, Reliability Pricing Model)",
+          "url": "https://www.pjm.com/markets-and-operations/rpm"
+        },
+        "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p13-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p13-t03",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "when": "Late February 2027",
+      "whenLabel": "Feb 22, 2027",
+      "date": "2027-02-22",
+      "precision": "window",
+      "event": "The federal data for all of 2026: the same four-point test, with Texas below the national change.",
+      "status": "pending",
+      "resultId": null,
+      "source": {
+        "kind": "label",
+        "ref": "Late February 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. Confirmed if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; refuted if the gap is below 4.0 points.",
+        "question": "In the EIA-861M data for calendar 2026, as first published, is the median change in the average household price per kilowatt-hour across PJM's nine jurisdictions against calendar 2025 at least four percentage points above the median of the other 42, with Texas's change below the national change?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
+        "specState": "approved"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p13-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "berkshire-hathaway",
+      "name": "Berkshire Hathaway",
+      "ticker": "BRK-A",
+      "url": "https://deepstack.ltd/companies/berkshire-hathaway/"
+    },
+    {
+      "kind": "company",
+      "slug": "exelon",
+      "name": "Exelon",
+      "ticker": "EXC",
+      "url": "https://deepstack.ltd/companies/exelon/"
+    },
+    {
+      "kind": "company",
+      "slug": "nrg-energy",
+      "name": "NRG Energy",
+      "ticker": "NRG",
+      "url": "https://deepstack.ltd/companies/nrg-energy/"
+    },
+    {
+      "kind": "person",
+      "slug": "amin-vahdat",
+      "name": "Amin Vahdat",
+      "role": null,
+      "url": "https://deepstack.ltd/people/amin-vahdat/"
+    },
+    {
+      "kind": "person",
+      "slug": "crusoe-energy",
+      "name": "Crusoe Energy",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/crusoe-energy/"
+    },
+    {
+      "kind": "person",
+      "slug": "data-center-coalition",
+      "name": "Data Center Coalition",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/data-center-coalition/"
+    },
+    {
+      "kind": "person",
+      "slug": "doug-arent",
+      "name": "Doug Arent",
+      "role": null,
+      "url": "https://deepstack.ltd/people/doug-arent/"
+    },
+    {
+      "kind": "person",
+      "slug": "earthjustice",
+      "name": "Earthjustice",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/earthjustice/"
+    },
+    {
+      "kind": "person",
+      "slug": "edf-power-solutions",
+      "name": "EDF Power Solutions",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/edf-power-solutions/"
+    },
+    {
+      "kind": "person",
+      "slug": "electric-reliability-council-of-texas",
+      "name": "Electric Reliability Council of Texas",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/electric-reliability-council-of-texas/"
+    },
+    {
+      "kind": "person",
+      "slug": "exelon",
+      "name": "Exelon",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/exelon/"
+    },
+    {
+      "kind": "person",
+      "slug": "google",
+      "name": "Google",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/google/"
+    },
+    {
+      "kind": "person",
+      "slug": "jason-bordoff",
+      "name": "Jason Bordoff",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jason-bordoff/"
+    },
+    {
+      "kind": "person",
+      "slug": "jeremie-eliahou-ontiveros",
+      "name": "Jeremie Eliahou Ontiveros",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/"
+    },
+    {
+      "kind": "person",
+      "slug": "kingswell",
+      "name": "Kingswell",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kingswell/"
+    },
+    {
+      "kind": "person",
+      "slug": "market-sentiment",
+      "name": "Market Sentiment",
+      "role": null,
+      "url": "https://deepstack.ltd/people/market-sentiment/"
+    },
+    {
+      "kind": "person",
+      "slug": "maryland-office-of-people-s-counsel",
+      "name": "Maryland Office of People's Counsel",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/"
+    },
+    {
+      "kind": "person",
+      "slug": "mia-silverio",
+      "name": "Mia Silverio",
+      "role": "Prof G Markets",
+      "url": "https://deepstack.ltd/people/mia-silverio/"
+    },
+    {
+      "kind": "person",
+      "slug": "monitoring-analytics-pjm-market-monitor",
+      "name": "Monitoring Analytics (PJM market monitor)",
+      "role": "Monitoring Analytics",
+      "url": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/"
+    },
+    {
+      "kind": "person",
+      "slug": "north-american-electric-reliability-corporation",
+      "name": "North American Electric Reliability Corporation",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/"
+    },
+    {
+      "kind": "person",
+      "slug": "nrg-energy",
+      "name": "NRG Energy",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/nrg-energy/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "reyk-knuhtsen",
+      "name": "Reyk Knuhtsen",
+      "role": null,
+      "url": "https://deepstack.ltd/people/reyk-knuhtsen/"
+    },
+    {
+      "kind": "person",
+      "slug": "robin-millican",
+      "name": "Robin Millican",
+      "role": null,
+      "url": "https://deepstack.ltd/people/robin-millican/"
+    },
+    {
+      "kind": "person",
+      "slug": "semianalysis",
+      "name": "SemiAnalysis",
+      "role": null,
+      "url": "https://deepstack.ltd/people/semianalysis/"
+    },
+    {
+      "kind": "person",
+      "slug": "sonya-huang",
+      "name": "Sonya Huang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/sonya-huang/"
+    },
+    {
+      "kind": "person",
+      "slug": "tscsw",
+      "name": "tscsw",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tscsw/"
+    },
+    {
+      "kind": "person",
+      "slug": "virginia-state-corporation-commission",
+      "name": "Virginia State Corporation Commission",
+      "role": "Research organization",
+      "url": "https://deepstack.ltd/people/virginia-state-corporation-commission/"
+    }
+  ]
+}

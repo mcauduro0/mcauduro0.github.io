@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "maryland-office-of-people-s-counsel",
+  "name": "Maryland Office of People's Counsel",
+  "role": "Research organization",
+  "url": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/maryland-office-of-people-s-counsel.json",
+  "summary": "Maryland Office of People's Counsel appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "$1.6B",
+      "label": "Added transmission cost on Maryland bills over 10 years",
+      "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
+      "part": 13,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "The bill no state can shield",
+      "excerpt": "The Maryland Office of People's Counsel put a number on the transmission side on June 11: $1.6 billion of added cost on Maryland bills over 10 years, from $2 billion of investment in PJM's three most recent cycles of regional projects that it says was misallocated to the state, projects it says data center growth outside Maryland drove.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Fixing cost allocation alone is insufficient if planning inputs remain corrupted by speculative and duplicative load forecasts, so a remedy must also reform the planning process to eliminate speculative load forecasts.",
+      "date": "2026-06-11",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Absent regional reform, state-level remedies such as large load tariffs may worsen the problem by magnifying the incentive to overbuild while shifting costs to customers elsewhere in PJM.",
+      "date": "2026-06-11",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 14,
+    "texts": 1,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}

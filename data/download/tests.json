@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:35:21.797Z",
+  "generatedAt": "2026-10-10T04:30:59.865Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -280,8 +280,8 @@
         "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
         "specState": "approved"
       },
-      "status": "pending",
-      "resultId": null
+      "status": "inconclusive",
+      "resultId": "p03-t04"
     },
     {
       "id": "p03-t05",
@@ -412,8 +412,8 @@
         "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
         "specState": "approved"
       },
-      "status": "pending",
-      "resultId": null
+      "status": "inconclusive",
+      "resultId": "p04-t04"
     },
     {
       "id": "p04-t05",
@@ -1467,6 +1467,90 @@
         "source": null,
         "ambiguity": "",
         "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t01",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 0,
+      "when": "Late October",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t02",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 1,
+      "when": "December 9",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "PJM's capacity auction for the year from June 2029, as scheduled: whether it clears below the price ceiling, the second exit from the house's view.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read from PJM's published results report. Confirmed if the RTO-wide clearing price is below the cap in effect for the auction; refuted if it clears at the cap. This test decides only the price leg of the second exit from the house's view; the rule on large loads bringing their own capacity is read separately in the story.",
+        "question": "Does PJM's Base Residual Auction for the 2029/2030 delivery year, scheduled for December 9, 2026, clear the RTO-wide capacity price below the price cap in effect for that auction?",
+        "source": {
+          "label": "PJM Interconnection, Base Residual Auction results report for 2029/2030 (pjm.com, Reliability Pricing Model)",
+          "url": "https://www.pjm.com/markets-and-operations/rpm"
+        },
+        "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t03",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 2,
+      "when": "Late February 2027",
+      "date": "2027-02-22",
+      "precision": "window",
+      "event": "The federal data for all of 2026: the same four-point test, with Texas below the national change.",
+      "source": {
+        "kind": "label",
+        "ref": "Late February 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. Confirmed if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; refuted if the gap is below 4.0 points.",
+        "question": "In the EIA-861M data for calendar 2026, as first published, is the median change in the average household price per kilowatt-hour across PJM's nine jurisdictions against calendar 2025 at least four percentage points above the median of the other 42, with Texas's change below the national change?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
+        "specState": "approved"
       },
       "status": "pending",
       "resultId": null

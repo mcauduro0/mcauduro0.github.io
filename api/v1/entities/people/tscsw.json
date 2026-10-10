@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-10-10T04:31:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "tscsw",
+  "name": "tscsw",
+  "role": null,
+  "url": "https://deepstack.ltd/people/tscsw/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/tscsw.json",
+  "summary": "tscsw appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 13,
+      "headline": "The Ratepayer Pays First",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "numbers": [
+    {
+      "value": "6,623 MW",
+      "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
+      "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
+      "part": 13,
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "mentions": [
+    {
+      "part": 13,
+      "section": "Lede",
+      "excerpt": "The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as tscsw recounted on August 11.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "section": "Lede",
+      "excerpt": "The auction for the year from June 2027, tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "section": "The plant is late",
+      "excerpt": "The strongest form of this side cuts against the house. tscsw's February 26 post held that if 15 to 20 gigawatts of data center load moves behind the meter by 2030, the grid's deficit and the scarcity premium paid to generators in PJM and ERCOT would shrink.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "Interconnection queues, turbine shortages, and permitting gridlock are preventing $33 billion offers from translating into actual megawatts of new capacity.",
+      "date": "2026-02-26",
+      "url": "https://tscsw.substack.com/p/there-is-no-power",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-bill-no-state-can-shield",
+      "sideLabel": "The bill no state can shield",
+      "claim": "The PJM capacity auction price for mid-Atlantic grid generation cleared at $269.92 per megawatt-day in July 2024, up 9x from the previous auction's $28.92, with all subsequent auctions clearing at administrative price caps.",
+      "date": "2026-08-11",
+      "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-plant-is-late",
+      "sideLabel": "The plant is late",
+      "claim": "PJM's 2027/2028 Base Residual Auction failed to meet the reliability requirement for the first time since the capacity market's creation in 2007, achieving only a 14.8% reserve margin against a 20.0% target, a shortfall of 6,623 MW.",
+      "date": "2026-02-26",
+      "url": "https://tscsw.substack.com/p/there-is-no-power",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 13,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The capacity price ninefold; the auction short; on-site power could shrink the gap.",
+      "date": null,
+      "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 950,
+    "texts": 74,
+    "asOf": "2026-10-10"
+  },
+  "lastUpdated": "2026-10-10"
+}
