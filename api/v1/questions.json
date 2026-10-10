@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:31:00Z",
+  "generatedAt": "2026-10-10T04:36:51Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
@@ -1676,7 +1676,19 @@
               "A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.",
               "Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share."
             ],
-            "version": 1,
+            "side": "The bill no state can shield",
+            "against": {
+              "name": "North American Electric Reliability Corporation",
+              "entity": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+              "claim": "Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…",
+              "date": "2026-02-24",
+              "url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf#p2",
+              "access": "public",
+              "answers": "tscsw",
+              "relation": "qualifies",
+              "dimension": "evidence"
+            },
+            "version": 2,
             "updatedOn": "2026-10-10",
             "history": [
               {
@@ -1690,6 +1702,19 @@
                 "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
                 "reason": "First call, with the story.",
                 "by": "DeepStack"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-10",
+                "stance": "The ratepayer pays first",
+                "tone": "split",
+                "toneLabel": "Mixed",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+                "side": "The bill no state can shield",
+                "reason": "Side named by the owner.",
+                "by": "Marco Cauduro"
               }
             ],
             "nextTest": {
