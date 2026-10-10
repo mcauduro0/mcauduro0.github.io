@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -102,7 +102,30 @@
       "label": "Anthropic quarterly growth",
       "context": "Quarter on quarter, Q2 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, quarter on quarter",
+        "universe": "Anthropic's revenue growth from the first to the second quarter of 2026, as Michael Spencer counted it from reported run-rates",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As published.",
+        "limits": "A private company; the figure is the voice's count from reported run-rates, not audited revenue.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n2",
@@ -110,7 +133,30 @@
       "label": "OpenAI quarterly growth",
       "context": "Quarter on quarter, Q2 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, quarter on quarter",
+        "universe": "OpenAI's revenue growth from the first to the second quarter of 2026, by the same count",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As published.",
+        "limits": "A private company; the figure is the voice's count from reported run-rates, not audited revenue.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n3",
@@ -118,7 +164,30 @@
       "label": "OpenAI 2025 loss",
       "context": "Steve Eisman; 2025",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "OpenAI's loss for calendar 2025, as Steve Eisman cited it",
+        "period": "Calendar 2025",
+        "source": {
+          "label": "Steve Eisman, September 11, 2026 (the voice's page on DeepStack)",
+          "url": "/people/steve-eisman/"
+        },
+        "asOf": "2026-09-11",
+        "transformation": "As cited by the voice.",
+        "limits": "A private company; the figure reached the public through reporting, not a filing, and later reporting of the 2025 loss used a different basis.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n4",
@@ -126,7 +195,30 @@
       "label": "Anthropic adjusted income",
       "context": "Michael Spencer; preliminary June quarter 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Anthropic's adjusted operating income, preliminary, as Michael Spencer reported it",
+        "period": "June quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As reported; adjusted on the company's basis as relayed.",
+        "limits": "Preliminary and unaudited; the adjustments are not itemized in what DeepStack read.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

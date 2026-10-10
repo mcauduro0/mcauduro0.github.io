@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
   "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
@@ -616,7 +616,23 @@
     "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "The machines will earn; the question is who carries the paper behind them. Nebius's own terms put compute in backwardation: buyers pay roughly twice as much for six months or less as for one to three years, $40 to 50 million against $20 to 25 million, a signal about duration that a lender cannot ignore. The 95 percent H100 re-let and a modeled 21 percent return keep the bull case credible, yet neither settles who bears depreciation when financing costs rise, and only 6 percent of the AI paper issued is investment grade. So the credit stack, not the demand, is where the buildout breaks first: if the short-term premium persists and the queued $50 to 60 billion of issuance needs wider concessions to clear, lenders are repricing the risk before the machines stop earning.",
+    "alternatives": [
+      "The hardware is holding its price: rents on six-year-old A100s are up more than 20 percent this year, a direct read on willingness to pay that the backwardation signal does not capture (the case Oguz Erkan makes).",
+      "Capacity is sold before it is built, so the borrowing is rational: $496 billion of backlog at AWS, $678 billion at Microsoft and $514 billion at Google Cloud (the case Market Sentiment makes).",
+      "Open and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces the race to the bottom that fiber ran after 1999 (the case Vitaliy Katsenelson makes)."
+    ],
+    "checks": {
+      "p03-t01": "the backwardation claim",
+      "p03-t02": "the durable-value claim",
+      "p03-t03": "the leverage claim",
+      "p03-t04": "the concession claim",
+      "p03-t05": "the market-calm claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

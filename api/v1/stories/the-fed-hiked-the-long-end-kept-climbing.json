@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -128,7 +128,30 @@
       "label": "10-year Treasury yield",
       "context": "FRED, six trading days after September 16",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, yield",
+        "universe": "The 10-year Treasury constant-maturity yield, from 5.01% on the day of the Fed's September 16 decision",
+        "period": "Close of September 24, 2026, six trading days after the decision",
+        "source": {
+          "label": "FRED, 10-year Treasury constant-maturity series (DGS10)",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "As published by FRED, daily close.",
+        "limits": "A constant-maturity series; the on-the-run note's yield can differ by a few basis points.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p07-t03",
+          "url": "https://deepstack.ltd/docket/#test-p07-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n2",
@@ -136,7 +159,30 @@
       "label": "Federal deficit",
       "context": "TSCS, cumulative through August 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The federal budget deficit, cumulative for the fiscal year",
+        "period": "October 2025 through August 2026",
+        "source": {
+          "label": "TSCS, August 29, 2026, citing the Monthly Treasury Statement (the voice's page on DeepStack)",
+          "url": "/people/tscs/"
+        },
+        "asOf": "2026-08-29",
+        "transformation": "As cited by the voice from the Treasury's monthly statement.",
+        "limits": "Eleven months of fiscal 2026; September completes the year.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p07-t03",
+          "url": "https://deepstack.ltd/docket/#test-p07-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n3",
@@ -144,7 +190,26 @@
       "label": "CleanSpark note coupon",
       "context": "JunkBondInvestor, September 18, 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, coupon",
+        "universe": "CleanSpark's $2.3 billion of five-year notes, sold two days after the Fed's move with about $10 billion of orders",
+        "period": "Priced September 18, 2026",
+        "source": {
+          "label": "JunkBondInvestor, Credit Weekly: who the hike hits, September 18, 2026",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As reported.",
+        "limits": "The new-issue coupon; secondary yields moved after pricing.",
+        "chart": null,
+        "test": {
+          "id": "p07-t04",
+          "url": "https://deepstack.ltd/docket/#test-p07-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n4",
@@ -152,7 +217,30 @@
       "label": "Hyperscaler backlog",
       "context": "Apollo via DeepValue Capital, September 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The contracted backlog of the hyperscalers, with OpenAI and Anthropic more than half of it, in Apollo's framing",
+        "period": "September 2026",
+        "source": {
+          "label": "Apollo, relayed by DeepValue Capital on September 18, 2026 (the voice's page on DeepStack)",
+          "url": "/people/deepvalue-capital/"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As relayed by the voice from an Apollo note.",
+        "limits": "Backlog definitions differ by company; most filings call it remaining performance obligations.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p07-t04",
+          "url": "https://deepstack.ltd/docket/#test-p07-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -127,7 +127,30 @@
       "label": "Wall Street-arranged chip facility",
       "context": "Headlines, August 12, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "A financing facility, arranged with Wall Street banks, behind purchases of Nvidia chips, as reported in headlines",
+        "period": "Reported August 11 to 12, 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026, on the reported facility (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported.",
+        "limits": "A headline figure; the borrower, the lenders and the terms were not disclosed in what DeepStack read.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t03",
+          "url": "https://deepstack.ltd/docket/#test-p03-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n2",
@@ -135,7 +158,30 @@
       "label": "Nvidia Ohio-campus guarantee",
       "context": "Vitaliy Katsenelson, August 6, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Lease and debt financing for an OpenAI data-center campus in Ohio that Nvidia was in talks to guarantee, beside up to $350 billion for OpenAI's chip purchases",
+        "period": "Talks reported August 6, 2026",
+        "source": {
+          "label": "Vitaliy Katsenelson, August 6, 2026 (the voice's page on DeepStack)",
+          "url": "/people/vitaliy-katsenelson/"
+        },
+        "asOf": "2026-08-06",
+        "transformation": "As reported by the voice.",
+        "limits": "Talks, not a signed guarantee; the split between leases and debt is not public.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t03",
+          "url": "https://deepstack.ltd/docket/#test-p03-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n3",
@@ -143,7 +189,30 @@
       "label": "Modeled compute internal return",
       "context": "Market Sentiment, August 8, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, internal rate of return",
+        "universe": "A modeled hyperscaler compute investment: $100 billion of annual capital spending producing about $160 billion of steady-state revenue, a 1.6 times multiple",
+        "period": "Model published August 8, 2026",
+        "source": {
+          "label": "Market Sentiment, is the capex sustainable, August 8, 2026",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+        },
+        "asOf": "2026-08-08",
+        "transformation": "The author's model; DeepStack reports its output, not its inputs.",
+        "limits": "A model with priced-in decay; the return moves with utilization, pricing and useful life.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t02",
+          "url": "https://deepstack.ltd/docket/#test-p03-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n4",
@@ -151,7 +220,26 @@
       "label": "AI paper investment-grade share",
       "context": "JunkBondInvestor, August 9, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of the index",
+        "universe": "AI-related bonds as a share of the US investment-grade corporate index",
+        "period": "Doubled in the year to August 2026",
+        "source": {
+          "label": "JunkBondInvestor, Credit Weekly, August 9, 2026",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "Which issuers count as AI-related is the author's classification.",
+        "chart": null,
+        "test": {
+          "id": "p03-t04",
+          "url": "https://deepstack.ltd/docket/#test-p03-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

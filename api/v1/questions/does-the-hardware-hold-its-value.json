@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -696,7 +696,24 @@
     "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "The S&P 500 trades at 19.0 times forward earnings, and the market looks cheaper because profits surged. Those profits depend on AI spending: capital spending becomes supplier revenue and reported profit, so the denominator of the multiple is partly the buildout itself, while about $250 billion of hyperscaler bonds issued through August compete for the savings that set the discount rate, with the 10-year Treasury at 5.31 percent on October 5. Whether the profits are real depends on whether the hardware holds its value: if used-chip prices fall once scarcity fades and server lives prove shorter than the schedules, depreciation grows faster than operating income and the earnings being capitalized belong to no one yet. The Call would change if chip values held, productivity turned higher and lab revenue compounded.",
+    "alternatives": [
+      "The hardware earns because it is used: GPUs are already running hot while the data says adoption and utilization are still early, so the capacity is not idle collateral (the case David George makes).",
+      "Old chips still rent at a price: contracted lease rates and second-hand prices have held for chips launched three to six years ago, and compute is about 60 percent of hyperscaler capex (the case JunkBondInvestor makes).",
+      "The checks are arriving: OpenAI's recurring revenue is nearing $70 billion, with enterprise sales more than doubled since July, so the earnings being capitalized have an owner (the case Tae Kim makes).",
+      "The rise is earnings, not multiples: tech's forward multiple is up about 14 percent since October 2022, against 250 percent in the run to March 2000, so this is not 1999 (the case Ren makes)."
+    ],
+    "checks": {
+      "p10-t01": "the depreciation claim",
+      "p10-t02": "the lab-revenue claim",
+      "p10-t03": "the discount-rate claim",
+      "p10-t04": "the hardware-value claim",
+      "p10-t05": "the productivity claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

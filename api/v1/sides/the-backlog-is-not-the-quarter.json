@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -71,7 +71,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
-      "stage": "open",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -80,11 +80,24 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months; 30% or less resolves confirmed (the book keeps drifting outward), above 30% resolves refuted (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is the owner's reading into the Result, not the verdict.",
+        "question": "Did Microsoft's quarterly report for the quarter ended September 30, 2026 put the share of its remaining performance obligations expected to be recognized as revenue within the next twelve months at 30% or less?",
+        "source": {
+          "label": "Microsoft Form 10-Q for the quarter ended September 30, 2026, revenue note on remaining performance obligations (SEC EDGAR, CIK 0000789019)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",

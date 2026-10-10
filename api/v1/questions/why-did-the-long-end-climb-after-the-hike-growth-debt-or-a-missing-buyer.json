@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -771,7 +771,23 @@
     "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "The Fed raised short rates on September 16 and the 10-year Treasury still yielded 5.18 percent six trading days later, because the long end is priced by supply rather than by the policy rate. The federal deficit ran $1.97 trillion through August 2026 and the hyperscaler backlog stands near $2.3 trillion, so extraordinary capital spending and federal borrowing lean on the same bond market, while the Fed's short rate reaches only the households and borrowers it touches directly. Growth explains why the move is orderly; it does not make the refinancing bill disappear, and CleanSpark's 8.25 percent coupon shows today's rates reaching AI's borrowers. The Call would change if long yields fell while growth, inflation and AI capital spending stayed firm, or if Japanese and other foreign buyers returned in size without a better hedge.",
+    "alternatives": [
+      "No buyer has gone missing: US term premia are broadly stable and recently lower, with no sign of rising against foreign equivalents, so the loss-of-confidence reading fails (the case Michael Howell makes).",
+      "The long end is pricing inflation, not the AI bill: inflation stopped decelerating in 2023, and supercore PCE now rises about two points faster than before the pandemic (the case Matthew C. Klein makes).",
+      "Yields are catching up with growth: with third-quarter GDP growth estimated at 5.1 percent plus inflation, a higher rate is no problem for an economy and for profits that grow faster than it (the case Kris makes).",
+      "It is the debt, not the buyer: a hike feeds an annual interest bill approaching $1 trillion and a cut at 3.4 percent inflation loses the long end too, so the Fed is trapped either way (the case TSCS makes)."
+    ],
+    "checks": {
+      "p07-t01": "the inflation claim",
+      "p07-t02": "the missing-buyer claim",
+      "p07-t03": "the growth-brake claim",
+      "p07-t04": "the refinancing-bill claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-10",
@@ -10,12 +10,12 @@
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
   "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty. From version 2 the resolver also carries specVersion, specUpdatedOn and specHistory. A row with sameAs is the same question as that test: its resolver is a copy, its status and resultId mirror the parent, and it has no result of its own. Since 10 October 2026 a resolver may carry callExpects (yes, no or either: the answer the Part's Call expected when the words were approved) and every row carries stage: pre (the words approved on or before the test's date), post (after it; such a test is counted and never rated) or open (no words yet).",
   "stages": {
-    "pre": 16,
+    "pre": 17,
     "post": 2,
-    "open": 40
+    "open": 38
   },
-  "specified": 18,
-  "folded": 1,
+  "specified": 19,
+  "folded": 2,
   "tests": [
     {
       "id": "p01-t01",
@@ -1628,7 +1628,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
-      "stage": "open",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1637,11 +1637,24 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months; 30% or less resolves confirmed (the book keeps drifting outward), above 30% resolves refuted (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is the owner's reading into the Result, not the verdict.",
+        "question": "Did Microsoft's quarterly report for the quarter ended September 30, 2026 put the share of its remaining performance obligations expected to be recognized as revenue within the next twelve months at 30% or less?",
+        "source": {
+          "label": "Microsoft Form 10-Q for the quarter ended September 30, 2026, revenue note on remaining performance obligations (SEC EDGAR, CIK 0000789019)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -1870,8 +1883,8 @@
       "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
       "status": "pending",
       "resultId": null,
-      "sameAs": null,
-      "stage": "open",
+      "sameAs": "p10-t02",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1879,11 +1892,25 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Anthropic filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+        },
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",

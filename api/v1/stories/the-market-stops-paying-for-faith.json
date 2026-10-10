@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -127,7 +127,30 @@
       "label": "Combined annual capex",
       "context": "Four companies, disclosed in late July",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The 2026 capital budgets of Amazon, Google, Microsoft and Meta, combined",
+        "period": "Calendar 2026, as guided in the last week of July",
+        "source": {
+          "label": "Prof G Markets, the August 4 capex tally",
+          "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "The sum of the four companies' guidance, as tallied by the publication.",
+        "limits": "Guidance, not spending; each company defines capital expenditure differently, finance leases in particular.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n2",
@@ -135,7 +158,30 @@
       "label": "Quarterly hyperscaler capex",
       "context": "Prof G Markets; three months, August 4",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Capital spending by Amazon, Google, Microsoft and Meta in the June quarter, up 87% from a year earlier",
+        "period": "Three months to June 2026",
+        "source": {
+          "label": "Prof G Markets, the August 4 capex tally",
+          "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "As tallied by Prof G Markets from the four companies' quarterly reports.",
+        "limits": "Cash capital expenditure as reported; some of the four exclude finance leases.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n3",
@@ -143,7 +189,30 @@
       "label": "Alphabet Q2 free cash flow",
       "context": "Hayden Capital; Q2, first negative since 2004 IPO",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Alphabet's free cash flow in the June quarter, its first negative quarter since the 2004 listing, as Hayden Capital read it",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "Hayden Capital, second-quarter 2026 letter (fiscal.ai)",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260"
+        },
+        "asOf": "2026-08-27",
+        "transformation": "Operating cash flow less capital expenditure, as the letter reads it.",
+        "limits": "A fund letter's reading; Alphabet's own definition of free cash flow can differ.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t01",
+          "url": "https://deepstack.ltd/docket/#test-p04-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n4",
@@ -151,7 +220,30 @@
       "label": "2026–30 hyperscaler capex",
       "context": "Oscar Hattink via Kevin Gee; 2026–2030",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Expected hyperscaler capital spending, cumulative, against about $863 billion of incremental annual AI revenue by 2030",
+        "period": "2026 through 2030",
+        "source": {
+          "label": "Oscar Hattink, relayed by Kevin Gee on August 4, 2026 (the voice's page on DeepStack)",
+          "url": "/people/oscar-hattink/"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "As relayed; a projection, not a disclosure.",
+        "limits": "A forecast; the revenue comparison depends on what counts as AI revenue.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

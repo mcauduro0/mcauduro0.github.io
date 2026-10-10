@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-writes-the-checks-for-the-buildout",
   "question": "Who writes the checks for the buildout?",
@@ -680,7 +680,23 @@
     "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Lenders are financing the capacity that will end the shortage they lend against. The spending has raced ahead of demonstrated revenue: the cash-flow forecasts behind the hyperscaler credit story need operating cash flow to roughly triple, from about $600 billion to $2 trillion, while off-balance-sheet commitments across five hyperscalers sit near $2.7 trillion and Oracle's free cash flow runs at negative $28.7 billion. Scarcity supports the collateral today, but every dollar lent adds the supply that erodes it, so a shortage of power, chips and capacity is a poor long-lived security against a fixed contract. The Call would change if September-quarter cash flow moved visibly toward $2 trillion, customer concentration fell sharply and the first Blackwell renewal held its price without new guarantees.",
+    "alternatives": [
+      "The checks are already written by customers: AWS has had more demand than it can serve despite large Nvidia orders and its own Trainium chips, the best kind of spending there is (the case Kris makes).",
+      "The spending pays for itself: next year's $1.2 trillion or more of AI capex should drive about $2 trillion of incremental revenue, a fraction of what AI generates as a business (the case Market Sentiment makes).",
+      "Capex is durable, not fragile: the largest spenders keep reaffirming it while their margins still rise, and the customer base is broadening beyond the hyperscalers (the case Aurelion Research makes)."
+    ],
+    "checks": {
+      "p08-t01": "the cash-flow tripling claim",
+      "p08-t02": "the permit-schedule claim",
+      "p08-t03": "the fuel-supply claim",
+      "p08-t04": "the scarce-compute value claim",
+      "p08-t05": "the public-financing claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

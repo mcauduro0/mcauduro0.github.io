@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 1,
   "slug": "nvidias-demand-insatiable-or-manufactured",
@@ -102,7 +102,30 @@
       "label": "Apollo debt",
       "context": "Apollo transaction in late May, described by Michael Burry",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Debt Apollo was raising in late May 2026 to put Google TPUs behind Anthropic, as Michael Burry described the transaction",
+        "period": "Late May 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of July 24, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-07-24",
+        "transformation": "As reported by the voice; DeepStack has not read the financing documents.",
+        "limits": "A second-hand figure; Apollo's own disclosures may describe the facility differently, and the amount drawn is not public.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t01",
+          "url": "https://deepstack.ltd/docket/#test-p01-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n2",
@@ -110,7 +133,30 @@
       "label": "AI XPU tranche",
       "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The first tranche Apollo and Blackstone were assembling for an AI XPU platform of Broadcom-designed compute",
+        "period": "Early August 2026, about ten weeks after the May transaction",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "A reported commitment, not drawn debt; later tranches and their terms are undisclosed.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n3",
@@ -118,7 +164,30 @@
       "label": "Broadcom compute",
       "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Broadcom-designed compute capacity promised under the AI XPU platform",
+        "period": "Through 2028",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "A capacity promise; delivery depends on chips, sites and power that are not yet built.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n4",
@@ -126,7 +195,30 @@
       "label": "Quarterly AI orders",
       "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "AI semiconductor orders Broadcom booked in one quarter, against $10.8 billion shipped",
+        "period": "One quarter of 2026, reported in August",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published; the shipped figure is the publication's comparison, not a DeepStack calculation.",
+        "limits": "Orders are not revenue; cancellations and delivery timing are not disclosed.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

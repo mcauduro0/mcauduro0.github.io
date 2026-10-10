@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -126,7 +126,30 @@
       "label": "Oracle five-year CDS",
       "context": "Record that week, according to Seeking Alpha",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "basis points a year",
+        "universe": "The five-year credit default swap on Oracle: the annual cost of protecting its debt, in hundredths of a percent of the amount covered",
+        "period": "The week of September 21, 2026, a record for the name",
+        "source": {
+          "label": "Seeking Alpha via TradingView, hyperscaler CDS spreads widen with Oracle at a record",
+          "url": "https://www.tradingview.com/news/seekingalpha:62ed2825e094b:0-hyperscaler-cds-spreads-widen-with-oracle-hitting-record-high/"
+        },
+        "asOf": "2026-09-26",
+        "transformation": "As reported.",
+        "limits": "CDS quotes come from dealers, not an exchange; levels differ by provider and by the day within the week.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n2",
@@ -134,7 +157,26 @@
       "label": "CCC spread over Treasuries",
       "context": "September 28, 2026; FRED",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "basis points",
+        "universe": "The ICE BofA CCC and lower US high-yield index option-adjusted spread over Treasuries; a 16.4% all-in yield",
+        "period": "September 28, 2026, the widest of the year",
+        "source": {
+          "label": "FRED, ICE BofA CCC and lower US high-yield option-adjusted spread (BAMLH0A3HYC)",
+          "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC"
+        },
+        "asOf": "2026-09-28",
+        "transformation": "As published by FRED.",
+        "limits": "An index of the riskiest rated issuers, not AI-specific.",
+        "chart": null,
+        "test": {
+          "id": "p08-t04",
+          "url": "https://deepstack.ltd/docket/#test-p08-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n3",
@@ -142,7 +184,30 @@
       "label": "Hyperscaler cash-flow target",
       "context": "Torsten Slok’s 2030 assumption",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars a year",
+        "universe": "Hyperscaler operating cash flow the credit market assumes by 2030, up from about $600 billion",
+        "period": "A 2030 assumption, stated in September 2026",
+        "source": {
+          "label": "Apollo (Torsten Slok), hyperscaler credit rests on one consensus assumption, September 21, 2026",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+        },
+        "asOf": "2026-09-21",
+        "transformation": "As stated in the Apollo note.",
+        "limits": "An assumption attributed to bond investors, not a forecast DeepStack tested.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n4",
@@ -150,7 +215,30 @@
       "label": "Off-balance-sheet commitments",
       "context": "Burry estimate across five hyperscalers",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Leases on data centers not yet in service plus non-cancellable purchase commitments across five hyperscalers, as Michael Burry totals them from their filings",
+        "period": "The latest filings as of September 2026",
+        "source": {
+          "label": "Michael Burry, September 19, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-19",
+        "transformation": "The voice's sum of the five companies' commitment notes; DeepStack did not re-add them.",
+        "limits": "Commitments span years and can be renegotiated; special-purpose vehicles, guarantees and backstops could add more.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

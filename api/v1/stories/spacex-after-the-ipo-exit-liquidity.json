@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -112,7 +112,30 @@
       "label": "IPO proceeds",
       "context": "Raised June 12 at near $1.75T valuation",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "What SpaceX raised in its listing of June 12, 2026, at a valuation near $1.75 trillion",
+        "period": "June 12, 2026",
+        "source": {
+          "label": "The listing terms as reported in the publications the Part cites (Potential Multibaggers, June 8, 2026)",
+          "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+        },
+        "asOf": "2026-06-12",
+        "transformation": "As reported; gross proceeds before fees.",
+        "limits": "DeepStack read the offer terms through the publications cited, not the prospectus.",
+        "chart": {
+          "id": "path",
+          "label": "SpaceX: it depends when you bought",
+          "url": "https://deepstack.ltd/data/#desk-path"
+        },
+        "test": {
+          "id": "p02-t04",
+          "url": "https://deepstack.ltd/docket/#test-p02-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n2",
@@ -120,7 +143,30 @@
       "label": "Peak-to-low drawdown",
       "context": "$225.64 to $104.83 by early August",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent",
+        "universe": "SpaceX's share price, from its post-listing high close to its early-August low",
+        "period": "June 12 to early August 2026",
+        "source": {
+          "label": "Daily closing prices (Financial Modeling Prep), the Part's chart",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-08-13",
+        "transformation": "The drop from $225.64 to $104.83 divided by $225.64, which is 53.5%, rounded to 54%.",
+        "limits": "Closing prices; intraday extremes differ, and the low moved after the Part was published.",
+        "chart": {
+          "id": "story",
+          "label": "Eight Weeks, Four Prices",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#story-chart-title"
+        },
+        "test": {
+          "id": "p02-t03",
+          "url": "https://deepstack.ltd/docket/#test-p02-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n3",
@@ -128,7 +174,30 @@
       "label": "Compute deployed",
       "context": "Kakashii’s first-quarter reading, August 2026",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Compute capacity SpaceX had actually deployed, by Kakashii's reading of the first-quarter figures",
+        "period": "First quarter of 2026, read in August",
+        "source": {
+          "label": "Kakashii, August 6, 2026 (the voice's page on DeepStack)",
+          "url": "/people/kakashii/"
+        },
+        "asOf": "2026-08-06",
+        "transformation": "As reported by the voice.",
+        "limits": "The voice's reading of company figures; SpaceX reports no operating gigawatts directly, and the plan it is measured against is roughly 10 GW by the end of 2027.",
+        "chart": {
+          "id": "path",
+          "label": "SpaceX: it depends when you bought",
+          "url": "https://deepstack.ltd/data/#desk-path"
+        },
+        "test": {
+          "id": "p02-t01",
+          "url": "https://deepstack.ltd/docket/#test-p02-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n4",
@@ -136,7 +205,26 @@
       "label": "Monthly Anthropic contract",
       "context": "Through May 2029, as documented by Kevin Gee",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars a month",
+        "universe": "Anthropic's contracted monthly payment to SpaceX for compute, as documented by Kevin Gee",
+        "period": "Through May 2029, roughly $45 billion in total",
+        "source": {
+          "label": "Kevin Gee, documented in August 2026 (the voice's page on DeepStack)",
+          "url": "/people/kevin-gee/"
+        },
+        "asOf": "2026-08-13",
+        "transformation": "As documented by the voice; the total is the monthly amount over the remaining months, rounded.",
+        "limits": "A contract reported second-hand; escalators, minimums and termination rights are not public.",
+        "chart": null,
+        "test": {
+          "id": "p02-t02",
+          "url": "https://deepstack.ltd/docket/#test-p02-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

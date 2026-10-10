@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "url": "https://deepstack.ltd/data/#every-number",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/numbers.json",
   "title": "The key numbers of The Buildout",
   "rule": "A key number carries its provenance once the owner approved it: the unit, the universe it counts, the period, the public source and the date it was read, the transformation applied, its limits, and the chart and the test it feeds. Until then the number prints with its label and context only.",
   "count": 52,
-  "withSource": 0,
+  "withSource": 52,
   "numbers": [
     {
       "id": "p01-n1",
@@ -17,7 +17,30 @@
       "label": "Apollo debt",
       "context": "Apollo transaction in late May, described by Michael Burry",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Debt Apollo was raising in late May 2026 to put Google TPUs behind Anthropic, as Michael Burry described the transaction",
+        "period": "Late May 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of July 24, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-07-24",
+        "transformation": "As reported by the voice; DeepStack has not read the financing documents.",
+        "limits": "A second-hand figure; Apollo's own disclosures may describe the facility differently, and the amount drawn is not public.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t01",
+          "url": "https://deepstack.ltd/docket/#test-p01-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n2",
@@ -28,7 +51,30 @@
       "label": "AI XPU tranche",
       "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The first tranche Apollo and Blackstone were assembling for an AI XPU platform of Broadcom-designed compute",
+        "period": "Early August 2026, about ten weeks after the May transaction",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "A reported commitment, not drawn debt; later tranches and their terms are undisclosed.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n3",
@@ -39,7 +85,30 @@
       "label": "Broadcom compute",
       "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Broadcom-designed compute capacity promised under the AI XPU platform",
+        "period": "Through 2028",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "A capacity promise; delivery depends on chips, sites and power that are not yet built.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p01-n4",
@@ -50,7 +119,30 @@
       "label": "Quarterly AI orders",
       "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#number-p01-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "AI semiconductor orders Broadcom booked in one quarter, against $10.8 billion shipped",
+        "period": "One quarter of 2026, reported in August",
+        "source": {
+          "label": "Invest In Assets, Broadcom AI financing and orders, August 9, 2026",
+          "url": "https://www.investinassets.net/p/broadcom-the-ai-arms-dealer-that"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published; the shipped figure is the publication's comparison, not a DeepStack calculation.",
+        "limits": "Orders are not revenue; cancellations and delivery timing are not disclosed.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p01-t02",
+          "url": "https://deepstack.ltd/docket/#test-p01-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n1",
@@ -61,7 +153,30 @@
       "label": "IPO proceeds",
       "context": "Raised June 12 at near $1.75T valuation",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "What SpaceX raised in its listing of June 12, 2026, at a valuation near $1.75 trillion",
+        "period": "June 12, 2026",
+        "source": {
+          "label": "The listing terms as reported in the publications the Part cites (Potential Multibaggers, June 8, 2026)",
+          "url": "https://www.potentialmultibaggers.com/p/when-good-news-is-bad-news"
+        },
+        "asOf": "2026-06-12",
+        "transformation": "As reported; gross proceeds before fees.",
+        "limits": "DeepStack read the offer terms through the publications cited, not the prospectus.",
+        "chart": {
+          "id": "path",
+          "label": "SpaceX: it depends when you bought",
+          "url": "https://deepstack.ltd/data/#desk-path"
+        },
+        "test": {
+          "id": "p02-t04",
+          "url": "https://deepstack.ltd/docket/#test-p02-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n2",
@@ -72,7 +187,30 @@
       "label": "Peak-to-low drawdown",
       "context": "$225.64 to $104.83 by early August",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent",
+        "universe": "SpaceX's share price, from its post-listing high close to its early-August low",
+        "period": "June 12 to early August 2026",
+        "source": {
+          "label": "Daily closing prices (Financial Modeling Prep), the Part's chart",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-08-13",
+        "transformation": "The drop from $225.64 to $104.83 divided by $225.64, which is 53.5%, rounded to 54%.",
+        "limits": "Closing prices; intraday extremes differ, and the low moved after the Part was published.",
+        "chart": {
+          "id": "story",
+          "label": "Eight Weeks, Four Prices",
+          "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#story-chart-title"
+        },
+        "test": {
+          "id": "p02-t03",
+          "url": "https://deepstack.ltd/docket/#test-p02-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n3",
@@ -83,7 +221,30 @@
       "label": "Compute deployed",
       "context": "Kakashii’s first-quarter reading, August 2026",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Compute capacity SpaceX had actually deployed, by Kakashii's reading of the first-quarter figures",
+        "period": "First quarter of 2026, read in August",
+        "source": {
+          "label": "Kakashii, August 6, 2026 (the voice's page on DeepStack)",
+          "url": "/people/kakashii/"
+        },
+        "asOf": "2026-08-06",
+        "transformation": "As reported by the voice.",
+        "limits": "The voice's reading of company figures; SpaceX reports no operating gigawatts directly, and the plan it is measured against is roughly 10 GW by the end of 2027.",
+        "chart": {
+          "id": "path",
+          "label": "SpaceX: it depends when you bought",
+          "url": "https://deepstack.ltd/data/#desk-path"
+        },
+        "test": {
+          "id": "p02-t01",
+          "url": "https://deepstack.ltd/docket/#test-p02-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p02-n4",
@@ -94,7 +255,26 @@
       "label": "Monthly Anthropic contract",
       "context": "Through May 2029, as documented by Kevin Gee",
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars a month",
+        "universe": "Anthropic's contracted monthly payment to SpaceX for compute, as documented by Kevin Gee",
+        "period": "Through May 2029, roughly $45 billion in total",
+        "source": {
+          "label": "Kevin Gee, documented in August 2026 (the voice's page on DeepStack)",
+          "url": "/people/kevin-gee/"
+        },
+        "asOf": "2026-08-13",
+        "transformation": "As documented by the voice; the total is the monthly amount over the remaining months, rounded.",
+        "limits": "A contract reported second-hand; escalators, minimums and termination rights are not public.",
+        "chart": null,
+        "test": {
+          "id": "p02-t02",
+          "url": "https://deepstack.ltd/docket/#test-p02-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n1",
@@ -105,7 +285,30 @@
       "label": "Wall Street-arranged chip facility",
       "context": "Headlines, August 12, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "A financing facility, arranged with Wall Street banks, behind purchases of Nvidia chips, as reported in headlines",
+        "period": "Reported August 11 to 12, 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026, on the reported facility (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported.",
+        "limits": "A headline figure; the borrower, the lenders and the terms were not disclosed in what DeepStack read.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t03",
+          "url": "https://deepstack.ltd/docket/#test-p03-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n2",
@@ -116,7 +319,30 @@
       "label": "Nvidia Ohio-campus guarantee",
       "context": "Vitaliy Katsenelson, August 6, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Lease and debt financing for an OpenAI data-center campus in Ohio that Nvidia was in talks to guarantee, beside up to $350 billion for OpenAI's chip purchases",
+        "period": "Talks reported August 6, 2026",
+        "source": {
+          "label": "Vitaliy Katsenelson, August 6, 2026 (the voice's page on DeepStack)",
+          "url": "/people/vitaliy-katsenelson/"
+        },
+        "asOf": "2026-08-06",
+        "transformation": "As reported by the voice.",
+        "limits": "Talks, not a signed guarantee; the split between leases and debt is not public.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t03",
+          "url": "https://deepstack.ltd/docket/#test-p03-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n3",
@@ -127,7 +353,30 @@
       "label": "Modeled compute internal return",
       "context": "Market Sentiment, August 8, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, internal rate of return",
+        "universe": "A modeled hyperscaler compute investment: $100 billion of annual capital spending producing about $160 billion of steady-state revenue, a 1.6 times multiple",
+        "period": "Model published August 8, 2026",
+        "source": {
+          "label": "Market Sentiment, is the capex sustainable, August 8, 2026",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+        },
+        "asOf": "2026-08-08",
+        "transformation": "The author's model; DeepStack reports its output, not its inputs.",
+        "limits": "A model with priced-in decay; the return moves with utilization, pricing and useful life.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p03-t02",
+          "url": "https://deepstack.ltd/docket/#test-p03-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p03-n4",
@@ -138,7 +387,26 @@
       "label": "AI paper investment-grade share",
       "context": "JunkBondInvestor, August 9, 2026",
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of the index",
+        "universe": "AI-related bonds as a share of the US investment-grade corporate index",
+        "period": "Doubled in the year to August 2026",
+        "source": {
+          "label": "JunkBondInvestor, Credit Weekly, August 9, 2026",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep"
+        },
+        "asOf": "2026-08-09",
+        "transformation": "As published.",
+        "limits": "Which issuers count as AI-related is the author's classification.",
+        "chart": null,
+        "test": {
+          "id": "p03-t04",
+          "url": "https://deepstack.ltd/docket/#test-p03-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n1",
@@ -149,7 +417,30 @@
       "label": "Combined annual capex",
       "context": "Four companies, disclosed in late July",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The 2026 capital budgets of Amazon, Google, Microsoft and Meta, combined",
+        "period": "Calendar 2026, as guided in the last week of July",
+        "source": {
+          "label": "Prof G Markets, the August 4 capex tally",
+          "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "The sum of the four companies' guidance, as tallied by the publication.",
+        "limits": "Guidance, not spending; each company defines capital expenditure differently, finance leases in particular.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n2",
@@ -160,7 +451,30 @@
       "label": "Quarterly hyperscaler capex",
       "context": "Prof G Markets; three months, August 4",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Capital spending by Amazon, Google, Microsoft and Meta in the June quarter, up 87% from a year earlier",
+        "period": "Three months to June 2026",
+        "source": {
+          "label": "Prof G Markets, the August 4 capex tally",
+          "url": "https://www.profgmedia.com/p/south-koreas-market-crash-cost-retail"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "As tallied by Prof G Markets from the four companies' quarterly reports.",
+        "limits": "Cash capital expenditure as reported; some of the four exclude finance leases.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n3",
@@ -171,7 +485,30 @@
       "label": "Alphabet Q2 free cash flow",
       "context": "Hayden Capital; Q2, first negative since 2004 IPO",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Alphabet's free cash flow in the June quarter, its first negative quarter since the 2004 listing, as Hayden Capital read it",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "Hayden Capital, second-quarter 2026 letter (fiscal.ai)",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260"
+        },
+        "asOf": "2026-08-27",
+        "transformation": "Operating cash flow less capital expenditure, as the letter reads it.",
+        "limits": "A fund letter's reading; Alphabet's own definition of free cash flow can differ.",
+        "chart": {
+          "id": "capex",
+          "label": "The capex clock",
+          "url": "https://deepstack.ltd/data/#desk-capex"
+        },
+        "test": {
+          "id": "p04-t01",
+          "url": "https://deepstack.ltd/docket/#test-p04-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p04-n4",
@@ -182,7 +519,30 @@
       "label": "2026–30 hyperscaler capex",
       "context": "Oscar Hattink via Kevin Gee; 2026–2030",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#number-p04-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Expected hyperscaler capital spending, cumulative, against about $863 billion of incremental annual AI revenue by 2030",
+        "period": "2026 through 2030",
+        "source": {
+          "label": "Oscar Hattink, relayed by Kevin Gee on August 4, 2026 (the voice's page on DeepStack)",
+          "url": "/people/oscar-hattink/"
+        },
+        "asOf": "2026-08-04",
+        "transformation": "As relayed; a projection, not a disclosure.",
+        "limits": "A forecast; the revenue comparison depends on what counts as AI revenue.",
+        "chart": {
+          "id": "hurdle",
+          "label": "The cloud revenue hurdle",
+          "url": "https://deepstack.ltd/data/#desk-hurdle"
+        },
+        "test": {
+          "id": "p04-t03",
+          "url": "https://deepstack.ltd/docket/#test-p04-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n1",
@@ -193,7 +553,30 @@
       "label": "Anthropic quarterly growth",
       "context": "Quarter on quarter, Q2 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, quarter on quarter",
+        "universe": "Anthropic's revenue growth from the first to the second quarter of 2026, as Michael Spencer counted it from reported run-rates",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As published.",
+        "limits": "A private company; the figure is the voice's count from reported run-rates, not audited revenue.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n2",
@@ -204,7 +587,30 @@
       "label": "OpenAI quarterly growth",
       "context": "Quarter on quarter, Q2 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, quarter on quarter",
+        "universe": "OpenAI's revenue growth from the first to the second quarter of 2026, by the same count",
+        "period": "Second quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As published.",
+        "limits": "A private company; the figure is the voice's count from reported run-rates, not audited revenue.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n3",
@@ -215,7 +621,30 @@
       "label": "OpenAI 2025 loss",
       "context": "Steve Eisman; 2025",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "OpenAI's loss for calendar 2025, as Steve Eisman cited it",
+        "period": "Calendar 2025",
+        "source": {
+          "label": "Steve Eisman, September 11, 2026 (the voice's page on DeepStack)",
+          "url": "/people/steve-eisman/"
+        },
+        "asOf": "2026-09-11",
+        "transformation": "As cited by the voice.",
+        "limits": "A private company; the figure reached the public through reporting, not a filing, and later reporting of the 2025 loss used a different basis.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p05-n4",
@@ -226,7 +655,30 @@
       "label": "Anthropic adjusted income",
       "context": "Michael Spencer; preliminary June quarter 2026",
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#number-p05-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Anthropic's adjusted operating income, preliminary, as Michael Spencer reported it",
+        "period": "June quarter of 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), the second-quarter lab revenue comparison, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        "asOf": "2026-08-20",
+        "transformation": "As reported; adjusted on the company's basis as relayed.",
+        "limits": "Preliminary and unaudited; the adjustments are not itemized in what DeepStack read.",
+        "chart": {
+          "id": "labs",
+          "label": "Two labs, two businesses",
+          "url": "https://deepstack.ltd/data/#desk-labs"
+        },
+        "test": {
+          "id": "p05-t01",
+          "url": "https://deepstack.ltd/docket/#test-p05-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n1",
@@ -237,7 +689,30 @@
       "label": "Nebius one-to-three-year price",
       "context": "Michael Burry, August 12 trading post",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per megawatt",
+        "universe": "What a customer signing for one to three years pays Nebius per megawatt, as Michael Burry read the company's commentary",
+        "period": "August 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported by the voice.",
+        "limits": "A range the voice read from company commentary; contract terms vary by site and by GPU generation.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t02",
+          "url": "https://deepstack.ltd/docket/#test-p06-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n2",
@@ -248,7 +723,30 @@
       "label": "Nebius six-month price",
       "context": "Michael Burry, August 12 trading post",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per megawatt",
+        "universe": "What a customer demanding delivery within six months pays Nebius per megawatt, by the same reading",
+        "period": "August 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported by the voice.",
+        "limits": "A range the voice read from company commentary; the premium narrows as capacity comes online.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t02",
+          "url": "https://deepstack.ltd/docket/#test-p06-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n3",
@@ -259,7 +757,30 @@
       "label": "NVL72 deployment need",
       "context": "Daniel Romero, 2027 estimate at full use",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Power needed to run the NVL72 systems Nvidia expects to ship, at 225 kilowatts each plus cooling, at full use",
+        "period": "A 2027 estimate",
+        "source": {
+          "label": "Daniel Romero, HyperTech Invest, August 28, 2026",
+          "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout"
+        },
+        "asOf": "2026-08-28",
+        "transformation": "The voice's arithmetic: systems times 225 kilowatts, plus cooling overhead; 204 terawatt-hours a year at full use.",
+        "limits": "An estimate at full utilization; real fleets run below it, and the shipment count is a forecast.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t01",
+          "url": "https://deepstack.ltd/docket/#test-p06-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n4",
@@ -270,7 +791,26 @@
       "label": "Construction ex-data centers",
       "context": "Michael Burry citing Apollo, June year over year",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "US private construction spending excluding data centers, as Apollo separated it and Michael Burry cited it",
+        "period": "June 2026 against June 2025",
+        "source": {
+          "label": "Apollo (Torsten Slok), cited by Michael Burry on August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As cited; the underlying series is the Census Bureau's construction spending, with data centers removed by Apollo.",
+        "limits": "Second-hand; the Census revises construction spending for several months after each release.",
+        "chart": null,
+        "test": {
+          "id": "p06-t03",
+          "url": "https://deepstack.ltd/docket/#test-p06-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n1",
@@ -281,7 +821,30 @@
       "label": "10-year Treasury yield",
       "context": "FRED, six trading days after September 16",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, yield",
+        "universe": "The 10-year Treasury constant-maturity yield, from 5.01% on the day of the Fed's September 16 decision",
+        "period": "Close of September 24, 2026, six trading days after the decision",
+        "source": {
+          "label": "FRED, 10-year Treasury constant-maturity series (DGS10)",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "As published by FRED, daily close.",
+        "limits": "A constant-maturity series; the on-the-run note's yield can differ by a few basis points.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p07-t03",
+          "url": "https://deepstack.ltd/docket/#test-p07-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n2",
@@ -292,7 +855,30 @@
       "label": "Federal deficit",
       "context": "TSCS, cumulative through August 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The federal budget deficit, cumulative for the fiscal year",
+        "period": "October 2025 through August 2026",
+        "source": {
+          "label": "TSCS, August 29, 2026, citing the Monthly Treasury Statement (the voice's page on DeepStack)",
+          "url": "/people/tscs/"
+        },
+        "asOf": "2026-08-29",
+        "transformation": "As cited by the voice from the Treasury's monthly statement.",
+        "limits": "Eleven months of fiscal 2026; September completes the year.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p07-t03",
+          "url": "https://deepstack.ltd/docket/#test-p07-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n3",
@@ -303,7 +889,26 @@
       "label": "CleanSpark note coupon",
       "context": "JunkBondInvestor, September 18, 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, coupon",
+        "universe": "CleanSpark's $2.3 billion of five-year notes, sold two days after the Fed's move with about $10 billion of orders",
+        "period": "Priced September 18, 2026",
+        "source": {
+          "label": "JunkBondInvestor, Credit Weekly: who the hike hits, September 18, 2026",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As reported.",
+        "limits": "The new-issue coupon; secondary yields moved after pricing.",
+        "chart": null,
+        "test": {
+          "id": "p07-t04",
+          "url": "https://deepstack.ltd/docket/#test-p07-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p07-n4",
@@ -314,7 +919,30 @@
       "label": "Hyperscaler backlog",
       "context": "Apollo via DeepValue Capital, September 2026",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#number-p07-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The contracted backlog of the hyperscalers, with OpenAI and Anthropic more than half of it, in Apollo's framing",
+        "period": "September 2026",
+        "source": {
+          "label": "Apollo, relayed by DeepValue Capital on September 18, 2026 (the voice's page on DeepStack)",
+          "url": "/people/deepvalue-capital/"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As relayed by the voice from an Apollo note.",
+        "limits": "Backlog definitions differ by company; most filings call it remaining performance obligations.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p07-t04",
+          "url": "https://deepstack.ltd/docket/#test-p07-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n1",
@@ -325,7 +953,30 @@
       "label": "Oracle five-year CDS",
       "context": "Record that week, according to Seeking Alpha",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "basis points a year",
+        "universe": "The five-year credit default swap on Oracle: the annual cost of protecting its debt, in hundredths of a percent of the amount covered",
+        "period": "The week of September 21, 2026, a record for the name",
+        "source": {
+          "label": "Seeking Alpha via TradingView, hyperscaler CDS spreads widen with Oracle at a record",
+          "url": "https://www.tradingview.com/news/seekingalpha:62ed2825e094b:0-hyperscaler-cds-spreads-widen-with-oracle-hitting-record-high/"
+        },
+        "asOf": "2026-09-26",
+        "transformation": "As reported.",
+        "limits": "CDS quotes come from dealers, not an exchange; levels differ by provider and by the day within the week.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n2",
@@ -336,7 +987,26 @@
       "label": "CCC spread over Treasuries",
       "context": "September 28, 2026; FRED",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "basis points",
+        "universe": "The ICE BofA CCC and lower US high-yield index option-adjusted spread over Treasuries; a 16.4% all-in yield",
+        "period": "September 28, 2026, the widest of the year",
+        "source": {
+          "label": "FRED, ICE BofA CCC and lower US high-yield option-adjusted spread (BAMLH0A3HYC)",
+          "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC"
+        },
+        "asOf": "2026-09-28",
+        "transformation": "As published by FRED.",
+        "limits": "An index of the riskiest rated issuers, not AI-specific.",
+        "chart": null,
+        "test": {
+          "id": "p08-t04",
+          "url": "https://deepstack.ltd/docket/#test-p08-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n3",
@@ -347,7 +1017,30 @@
       "label": "Hyperscaler cash-flow target",
       "context": "Torsten Slok’s 2030 assumption",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars a year",
+        "universe": "Hyperscaler operating cash flow the credit market assumes by 2030, up from about $600 billion",
+        "period": "A 2030 assumption, stated in September 2026",
+        "source": {
+          "label": "Apollo (Torsten Slok), hyperscaler credit rests on one consensus assumption, September 21, 2026",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+        },
+        "asOf": "2026-09-21",
+        "transformation": "As stated in the Apollo note.",
+        "limits": "An assumption attributed to bond investors, not a forecast DeepStack tested.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p08-n4",
@@ -358,7 +1051,30 @@
       "label": "Off-balance-sheet commitments",
       "context": "Burry estimate across five hyperscalers",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Leases on data centers not yet in service plus non-cancellable purchase commitments across five hyperscalers, as Michael Burry totals them from their filings",
+        "period": "The latest filings as of September 2026",
+        "source": {
+          "label": "Michael Burry, September 19, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-19",
+        "transformation": "The voice's sum of the five companies' commitment notes; DeepStack did not re-add them.",
+        "limits": "Commitments span years and can be renegotiated; special-purpose vehicles, guarantees and backstops could add more.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p08-t01",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n1",
@@ -369,7 +1085,30 @@
       "label": "Meta stock gain",
       "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change in share price",
+        "universe": "Meta's closing share price, from the day it launched its shopping agent to October 2",
+        "period": "September 8 to October 2, 2026",
+        "source": {
+          "label": "Financial Modeling Prep, daily closing prices (the Part's chart)",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The close on October 2 divided by the close on September 8, minus one, rounded.",
+        "limits": "Price only, no dividends; the window starts on the launch day, not the day before.",
+        "chart": {
+          "id": "story",
+          "label": "Stocks at the first checkout",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/#story-chart-title"
+        },
+        "test": {
+          "id": "p09-t01",
+          "url": "https://deepstack.ltd/docket/#test-p09-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n2",
@@ -380,7 +1119,30 @@
       "label": "AMD stock gain",
       "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change in share price",
+        "universe": "Advanced Micro Devices' closing share price over the same window",
+        "period": "September 8 to October 2, 2026",
+        "source": {
+          "label": "Financial Modeling Prep, daily closing prices (the Part's chart)",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The close on October 2 divided by the close on September 8, minus one, rounded.",
+        "limits": "Price only, no dividends; a single stock over four weeks carries news of its own.",
+        "chart": {
+          "id": "story",
+          "label": "Stocks at the first checkout",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/#story-chart-title"
+        },
+        "test": {
+          "id": "p09-t01",
+          "url": "https://deepstack.ltd/docket/#test-p09-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n3",
@@ -391,7 +1153,30 @@
       "label": "Paid consumer AI adoption",
       "context": "Moses Sternstein, first quarter estimate",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of consumers",
+        "universe": "The share of consumers paying for an AI product, by Moses Sternstein's estimate",
+        "period": "First quarter of 2026",
+        "source": {
+          "label": "Moses Sternstein, a16z News, charts of the week, September 18, 2026",
+          "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As estimated by the voice.",
+        "limits": "An estimate built from app and survey data; what counts as paid and as a consumer is the author's definition.",
+        "chart": {
+          "id": "checkout",
+          "label": "Winners and losers at the first checkout",
+          "url": "https://deepstack.ltd/data/#desk-checkout"
+        },
+        "test": {
+          "id": "p09-t04",
+          "url": "https://deepstack.ltd/docket/#test-p09-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n4",
@@ -402,7 +1187,30 @@
       "label": "Booking in AI recommendations",
       "context": "Oguz Erkan, September 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of recommendations",
+        "universe": "The share of AI travel recommendations in which Booking Holdings appears, by Oguz Erkan's count",
+        "period": "September 2026",
+        "source": {
+          "label": "Capitalist Letters (Oguz Erkan), Booking Holdings deep dive, September 13, 2026",
+          "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive"
+        },
+        "asOf": "2026-09-13",
+        "transformation": "As reported.",
+        "limits": "A sample the voice built; which assistants and prompts were counted is not stated.",
+        "chart": {
+          "id": "checkout",
+          "label": "Winners and losers at the first checkout",
+          "url": "https://deepstack.ltd/data/#desk-checkout"
+        },
+        "test": {
+          "id": "p09-t02",
+          "url": "https://deepstack.ltd/docket/#test-p09-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n1",
@@ -413,7 +1221,30 @@
       "label": "S&P 500 forward multiple",
       "context": "FactSet, as of Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "multiple of expected earnings",
+        "universe": "The S&P 500 forward 12-month price-to-earnings ratio",
+        "period": "As of October 2, 2026",
+        "source": {
+          "label": "FactSet, Earnings Insight, October 2, 2026",
+          "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "As published by FactSet: the index price divided by the next twelve months' consensus earnings.",
+        "limits": "Depends on consensus estimates that move with each earnings season.",
+        "chart": {
+          "id": "denominator",
+          "label": "Run the denominator",
+          "url": "https://deepstack.ltd/data/#desk-denominator"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n2",
@@ -424,7 +1255,30 @@
       "label": "Expected Q3 earnings growth",
       "context": "FactSet, as of Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, year over year",
+        "universe": "Expected S&P 500 earnings growth for the third quarter, with information technology up 65%",
+        "period": "Third quarter of 2026 against the third quarter of 2025",
+        "source": {
+          "label": "FactSet, Earnings Insight, October 2, 2026",
+          "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The bottom-up consensus, as published.",
+        "limits": "An estimate before the reporting season; the realized figure arrives through November.",
+        "chart": {
+          "id": "denominator",
+          "label": "Run the denominator",
+          "url": "https://deepstack.ltd/data/#desk-denominator"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n3",
@@ -435,7 +1289,30 @@
       "label": "Hyperscaler high-grade bonds",
       "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Investment-grade bonds sold by the hyperscalers in 2026, more than in the previous ten years combined, from an Apollo presentation Leyla Kunimoto relayed",
+        "period": "January through August 2026",
+        "source": {
+          "label": "Apollo, hyperscaler credit rests on one consensus assumption, September 21, 2026, as relayed by Leyla Kunimoto",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+        },
+        "asOf": "2026-09-21",
+        "transformation": "As relayed.",
+        "limits": "Second-hand from a presentation; which issuers count as hyperscalers is Apollo's choice.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n4",
@@ -446,7 +1323,30 @@
       "label": "10-year Treasury yield",
       "context": "CNBC, closing yield on Oct 5, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, yield",
+        "universe": "The 10-year Treasury yield at the close, the highest in about two decades",
+        "period": "October 5, 2026",
+        "source": {
+          "label": "CNBC, the 10-year Treasury yield at its highest in 19 years",
+          "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
+        },
+        "asOf": "2026-10-05",
+        "transformation": "As reported.",
+        "limits": "A closing level as reported; FRED's constant-maturity series can differ by a basis point or two.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p10-t03",
+          "url": "https://deepstack.ltd/docket/#test-p10-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n1",
@@ -457,7 +1357,30 @@
       "label": "Ciena's backlog floor at the end of fiscal 2026",
       "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Ciena's backlog at the end of fiscal 2026, the floor its management guided to, with supply secured through fiscal 2029",
+        "period": "Fiscal 2026 year-end (October 2026)",
+        "source": {
+          "label": "Gaetano, September 17, 2026, reporting Ciena management's guidance (the voice's page on DeepStack)",
+          "url": "/people/gaetano/"
+        },
+        "asOf": "2026-09-17",
+        "transformation": "As reported from management commentary.",
+        "limits": "Guidance; a backlog can be cancelled or stretched and is not revenue.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p11-t05",
+          "url": "https://deepstack.ltd/docket/#test-p11-t05"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n2",
@@ -468,7 +1391,30 @@
       "label": "Growth in Microsoft's backlog due beyond one year",
       "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "Microsoft's remaining performance obligations due beyond one year; the book due within a year grew 37%, and the share converting inside twelve months fell to 30% from 40%",
+        "period": "The latest annual filing, read September 24 to 26, 2026",
+        "source": {
+          "label": "Michael Burry, reading Microsoft's filing, September 24 and 26, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "The voice's reading of the filing's revenue note; DeepStack did not recompute it.",
+        "limits": "Remaining performance obligations mix contracts of many kinds; growth rates depend on the year-earlier base.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p11-t01",
+          "url": "https://deepstack.ltd/docket/#test-p11-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n3",
@@ -479,7 +1425,26 @@
       "label": "Nvidia's terms for its best-rated customers",
       "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "payment terms",
+        "universe": "The payment terms Nvidia extends to its best-rated customers, up from 90 days, as Steve Eisman described them",
+        "period": "September 2026",
+        "source": {
+          "label": "Steve Eisman with Ed Zitron, September 9, 2026 (the voice's page on DeepStack)",
+          "url": "/people/steve-eisman/"
+        },
+        "asOf": "2026-09-09",
+        "transformation": "As stated by the voice in conversation.",
+        "limits": "Nvidia does not disclose terms per customer; the Docket's test reads days sales outstanding instead.",
+        "chart": null,
+        "test": {
+          "id": "p11-t02",
+          "url": "https://deepstack.ltd/docket/#test-p11-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n4",
@@ -490,7 +1455,30 @@
       "label": "Meta's residual-value guarantee on its data-center venture",
       "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The residual-value guarantee Meta gives on its data-center joint venture, up to $28 billion on four-year initial terms; $10.8 billion moved to restricted cash",
+        "period": "The latest quarterly filing, read September 24, 2026",
+        "source": {
+          "label": "Michael Burry, reading Meta's filing, September 24, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "As read by the voice from the filing's commitments note.",
+        "limits": "A maximum exposure, not an expected payment; the venture's own financing is not consolidated.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p11-t03",
+          "url": "https://deepstack.ltd/docket/#test-p11-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n1",
@@ -501,7 +1489,30 @@
       "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
       "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per million input tokens",
+        "universe": "Anthropic's Opus 5.5 list price against OpenAI's GPT-6 Astra, as Charlie Hills compared them",
+        "period": "List prices on September 27, 2026",
+        "source": {
+          "label": "Charlie Hills, September 27, 2026 (the voice's page on DeepStack)",
+          "url": "/people/charlie-hills/"
+        },
+        "asOf": "2026-09-27",
+        "transformation": "As compared by the voice; 60% cheaper is one minus 4 divided by 10.",
+        "limits": "List prices; enterprise discounts, batch rates and output-token prices differ.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t05",
+          "url": "https://deepstack.ltd/docket/#test-p12-t05"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n2",
@@ -512,7 +1523,30 @@
       "label": "Chinese models' share of token usage on OpenRouter by September",
       "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of token usage",
+        "universe": "Chinese models' share of tokens served on the OpenRouter platform, as Michael Spencer counted it; Le Shrub counted 66% on September 22",
+        "period": "September 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), Gemini-4 Argon and the OpenRouter token count, October 1, 2026",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon"
+        },
+        "asOf": "2026-10-01",
+        "transformation": "As counted by the voice from OpenRouter's public rankings.",
+        "limits": "OpenRouter is one routing platform, weighted toward developers and open models; not the whole market.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t04",
+          "url": "https://deepstack.ltd/docket/#test-p12-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n3",
@@ -523,7 +1557,30 @@
       "label": "The gap between the Chinese open models and the frontier",
       "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "months",
+        "universe": "The lag between the best Chinese open-weight models and the frontier on the Epoch Capabilities Index",
+        "period": "The index as of July 2026",
+        "source": {
+          "label": "Apollo (Torsten Slok), Chinese models versus frontier models, July 16, 2026",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/chinese-models-vs-frontier-models"
+        },
+        "asOf": "2026-07-16",
+        "transformation": "As stated by Apollo from Epoch's index.",
+        "limits": "One benchmark index; capability gaps vary by task and the lag moves with each release.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t04",
+          "url": "https://deepstack.ltd/docket/#test-p12-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n4",
@@ -534,7 +1591,26 @@
       "label": "Share of Anthropic's 2025 revenue that came from two customers",
       "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "share of revenue",
+        "universe": "Anthropic's 2025 revenue from its two largest customers, by Mia Silverio's reading of the customer note; 47% of sales ran through Amazon and Google",
+        "period": "Calendar 2025",
+        "source": {
+          "label": "Prof G Markets (Mia Silverio), Anthropic wants $2 trillion anyway, October 5, 2026",
+          "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+        },
+        "asOf": "2026-10-05",
+        "transformation": "As reported from the customer note the voice read.",
+        "limits": "A leaked prospectus read second-hand; the audited filing may restate the customer breakdown.",
+        "chart": null,
+        "test": {
+          "id": "p12-t03",
+          "url": "https://deepstack.ltd/docket/#test-p12-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n1",
@@ -545,7 +1621,30 @@
       "label": "Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026",
       "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "The average residential price per kilowatt-hour in each of the nine jurisdictions PJM serves wholly or largely; the median of the nine",
+        "period": "August 2025 to July 2026 against the twelve months before",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M sales and revenue, first published September 24, 2026",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "Per jurisdiction, residential revenue divided by residential sales, summed over twelve months, against the prior twelve months; the median of the nine. The other 42 states' median is 5.6%.",
+        "limits": "First published monthly data, which the EIA revises for about a year; the median hides a spread from 21.9% in the District of Columbia to below the national change.",
+        "chart": {
+          "id": "story",
+          "label": "Household power prices, a year on",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#story-chart-title"
+        },
+        "test": {
+          "id": "p13-t01",
+          "url": "https://deepstack.ltd/docket/#test-p13-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n2",
@@ -556,7 +1655,30 @@
       "label": "The national household price per kilowatt-hour over the same twelve months",
       "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "The average US residential price per kilowatt-hour; Texas households paid 4.8% more",
+        "period": "August 2025 to July 2026 against the twelve months before",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M sales and revenue, first published September 24, 2026",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "National residential revenue divided by residential sales, twelve-month sums, against the prior twelve months.",
+        "limits": "First published monthly data, which the EIA revises for about a year.",
+        "chart": {
+          "id": "story",
+          "label": "Household power prices, a year on",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#story-chart-title"
+        },
+        "test": {
+          "id": "p13-t03",
+          "url": "https://deepstack.ltd/docket/#test-p13-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n3",
@@ -567,7 +1689,26 @@
       "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
       "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "megawatts",
+        "universe": "The shortfall of cleared capacity against PJM's reliability requirement in the auction for June 2027 to May 2028: a 14.8% reserve margin against a 20.0% target, the first miss since the market began in 2007",
+        "period": "Auction results published in February 2026",
+        "source": {
+          "label": "tscsw, February 26, 2026, relaying PJM's auction results (the voice's page on DeepStack)",
+          "url": "/people/tscsw/"
+        },
+        "asOf": "2026-02-26",
+        "transformation": "As relayed; the shortfall is PJM's requirement minus the megawatts that cleared.",
+        "limits": "The requirement and the cleared figures are PJM's; later incremental auctions can change the margin.",
+        "chart": null,
+        "test": {
+          "id": "p13-t02",
+          "url": "https://deepstack.ltd/docket/#test-p13-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n4",
@@ -578,7 +1719,26 @@
       "label": "Added transmission cost on Maryland bills over 10 years",
       "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Added transmission cost on Maryland retail bills, from $2 billion of investment in PJM's three most recent regional planning cycles",
+        "period": "Over ten years",
+        "source": {
+          "label": "Maryland Office of People's Counsel, motion at FERC (RM26-4), June 11, 2026",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8"
+        },
+        "asOf": "2026-06-11",
+        "transformation": "The Office's estimate as filed.",
+        "limits": "An advocate's estimate; how regional transmission costs are allocated to Maryland is contested at FERC.",
+        "chart": null,
+        "test": {
+          "id": "p13-t02",
+          "url": "https://deepstack.ltd/docket/#test-p13-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ]
 }

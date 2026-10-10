@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -848,7 +848,22 @@
     "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Data centers pay for what they cause at their own sites: Google funds its lines and upgrades, Texas asks large loads for $50,000 of security per megawatt, and a data center pays the capacity price on its own load. What none of them pays is the rise its demand causes in the price every other customer pays, and PJM's market monitor told FERC on December 5, 2025, that no state tariff can shield retail customers from it. Households in PJM's nine jurisdictions paid a median 11.7 percent more per kilowatt-hour over the year to July, against 5.6 percent elsewhere. Retail prices also move with fuel and with rate cases, so the gap is consistent with the transfer without proving it; the federal price data and the December auction are the test.",
+    "alternatives": [
+      "The capacity price answers a forecast, not a delivered load: large loads add volatility to the forecast because timelines move with construction, permitting and owner decisions (the case NERC makes).",
+      "Cost causation shields the household: assign every cost to the load that causes it, as Google asks ERCOT and the Commission to do, and the data center pays for its own lines and upgrades (the case Google makes).",
+      "Bring-your-own power removes the transfer: co-located generation, structured correctly, improves reliability, lowers ratepayer costs and speeds the buildout at once (the case Crusoe Energy makes).",
+      "The demand setting the price is partly phantom: ERCOT assessed more than 410 GW of large-load requests, 87 percent from data centers, against a Texas peak near 85 GW (the case Reyk Knuhtsen makes)."
+    ],
+    "checks": {
+      "p13-t01": "the household-price gap claim",
+      "p13-t02": "the capacity-price claim",
+      "p13-t03": "the full-year gap claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

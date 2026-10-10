@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-power-scarcity-a-warning-or-a-moat",
   "question": "Is power scarcity a warning, or a moat?",
@@ -540,7 +540,23 @@
     "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Electricity is the constraint, but the premium belongs to whoever can turn a contracted megawatt into revenue on time. Compute can be ordered faster than power can be delivered: NVL72 deployment at full use needs about 23 gigawatts by 2027, while grids, substations and transformers take years to expand, and Nebius quotes $40 to 50 million for six months of capacity against $20 to 25 million for one to three years. A megawatt generates rent only when it arrives on schedule; a GPU parked behind a late interconnection generates cost. That is why the Call reads scarcity as a moat for the permit and the interconnect rather than for the hardware, and why it would change if the premium narrowed while power stayed scarce or a hyperscaler canceled because compute was sufficient.",
+    "alternatives": [
+      "Permission is the asset politics can revoke: 70 to 75 percent of Americans oppose large data centers near their homes and more than half back a national moratorium (the case Michael Spencer makes).",
+      "Scarcity is the warning fiber gave in 1999: capacity built on the expectation that demand keeps outrunning supply goes dark once a technical step multiplies what each unit can carry (the case Gaetano makes).",
+      "The moat is financed, not owned: the builder's assets go obsolete faster than the buildings it leases, its largest customers are competing clouds and its only chip supplier is an investor (the case Kakashii makes)."
+    ],
+    "checks": {
+      "p06-t01": "the speculative-load claim",
+      "p06-t02": "the delivery claim",
+      "p06-t03": "the permitting-trend claim",
+      "p06-t04": "the overbuild claim",
+      "p06-t05": "the on-site power claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "how-fast-do-habits-break",
   "question": "How fast do habits break?",
@@ -634,7 +634,23 @@
     "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Meta's Muse has inserted itself between shoppers and sellers, and its economic position is what changes the bill. Muse is not merely answering; it chooses, pays and decides which seller is seen. A business paid by customer inertia, a forgotten subscription, a commodity brand, an ad-funded marketplace, loses the moment an agent makes comparison free, while trust, regulation, system-of-record status, distribution and compute remain defensible because the agent needs them to act. Paid consumer AI adoption is still about 3 percent, so the stock moves of September, Meta up 18 percent and AMD up 33 percent, are an early invoice rather than a finished income statement. The Call therefore backs the rails over the habit, and would change if Meta reported downloads without retained users, transaction volume or fees.",
+    "alternatives": [
+      "The habit is not breaking yet: AI has produced many more apps and few successful ones, and paid consumer adoption sits near 3 percent, growing but still small (the case Moses Sternstein makes).",
+      "The agent is not good enough to be chosen: a week of using Muse turned up quality and accuracy problems and no reason to prefer it over ChatGPT, and others will feel the same (the case Tae Kim makes).",
+      "The dramatic prediction is usually wrong: radiology was to be taken over by AI within five years and instead more radiologists are needed, so the incumbents keep more than the Call allows (the case Jensen Huang makes)."
+    ],
+    "checks": {
+      "p09-t01": "the retained-users claim",
+      "p09-t02": "the booking-ownership claim",
+      "p09-t03": "the human-choice claim",
+      "p09-t04": "the certainty-premium claim",
+      "p09-t05": "the advertising-pool claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

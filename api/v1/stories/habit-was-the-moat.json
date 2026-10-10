@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -127,7 +127,30 @@
       "label": "Meta stock gain",
       "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change in share price",
+        "universe": "Meta's closing share price, from the day it launched its shopping agent to October 2",
+        "period": "September 8 to October 2, 2026",
+        "source": {
+          "label": "Financial Modeling Prep, daily closing prices (the Part's chart)",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The close on October 2 divided by the close on September 8, minus one, rounded.",
+        "limits": "Price only, no dividends; the window starts on the launch day, not the day before.",
+        "chart": {
+          "id": "story",
+          "label": "Stocks at the first checkout",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/#story-chart-title"
+        },
+        "test": {
+          "id": "p09-t01",
+          "url": "https://deepstack.ltd/docket/#test-p09-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n2",
@@ -135,7 +158,30 @@
       "label": "AMD stock gain",
       "context": "Closing prices, Financial Modeling Prep, Sep 8-Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change in share price",
+        "universe": "Advanced Micro Devices' closing share price over the same window",
+        "period": "September 8 to October 2, 2026",
+        "source": {
+          "label": "Financial Modeling Prep, daily closing prices (the Part's chart)",
+          "url": "https://financialmodelingprep.com/"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The close on October 2 divided by the close on September 8, minus one, rounded.",
+        "limits": "Price only, no dividends; a single stock over four weeks carries news of its own.",
+        "chart": {
+          "id": "story",
+          "label": "Stocks at the first checkout",
+          "url": "https://deepstack.ltd/stories/habit-was-the-moat/#story-chart-title"
+        },
+        "test": {
+          "id": "p09-t01",
+          "url": "https://deepstack.ltd/docket/#test-p09-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n3",
@@ -143,7 +189,30 @@
       "label": "Paid consumer AI adoption",
       "context": "Moses Sternstein, first quarter estimate",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of consumers",
+        "universe": "The share of consumers paying for an AI product, by Moses Sternstein's estimate",
+        "period": "First quarter of 2026",
+        "source": {
+          "label": "Moses Sternstein, a16z News, charts of the week, September 18, 2026",
+          "url": "https://www.a16z.news/p/charts-of-the-week-so-many-apps-so"
+        },
+        "asOf": "2026-09-18",
+        "transformation": "As estimated by the voice.",
+        "limits": "An estimate built from app and survey data; what counts as paid and as a consumer is the author's definition.",
+        "chart": {
+          "id": "checkout",
+          "label": "Winners and losers at the first checkout",
+          "url": "https://deepstack.ltd/data/#desk-checkout"
+        },
+        "test": {
+          "id": "p09-t04",
+          "url": "https://deepstack.ltd/docket/#test-p09-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p09-n4",
@@ -151,7 +220,30 @@
       "label": "Booking in AI recommendations",
       "context": "Oguz Erkan, September 2026",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#number-p09-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of recommendations",
+        "universe": "The share of AI travel recommendations in which Booking Holdings appears, by Oguz Erkan's count",
+        "period": "September 2026",
+        "source": {
+          "label": "Capitalist Letters (Oguz Erkan), Booking Holdings deep dive, September 13, 2026",
+          "url": "https://www.capitalist-letters.com/p/booking-holdings-deep-dive-an-attractive"
+        },
+        "asOf": "2026-09-13",
+        "transformation": "As reported.",
+        "limits": "A sample the voice built; which assistants and prompts were counted is not stated.",
+        "chart": {
+          "id": "checkout",
+          "label": "Winners and losers at the first checkout",
+          "url": "https://deepstack.ltd/data/#desk-checkout"
+        },
+        "test": {
+          "id": "p09-t02",
+          "url": "https://deepstack.ltd/docket/#test-p09-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

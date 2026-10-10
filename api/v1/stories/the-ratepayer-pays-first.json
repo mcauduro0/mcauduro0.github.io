@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -127,7 +127,30 @@
       "label": "Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026",
       "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "The average residential price per kilowatt-hour in each of the nine jurisdictions PJM serves wholly or largely; the median of the nine",
+        "period": "August 2025 to July 2026 against the twelve months before",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M sales and revenue, first published September 24, 2026",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "Per jurisdiction, residential revenue divided by residential sales, summed over twelve months, against the prior twelve months; the median of the nine. The other 42 states' median is 5.6%.",
+        "limits": "First published monthly data, which the EIA revises for about a year; the median hides a spread from 21.9% in the District of Columbia to below the national change.",
+        "chart": {
+          "id": "story",
+          "label": "Household power prices, a year on",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#story-chart-title"
+        },
+        "test": {
+          "id": "p13-t01",
+          "url": "https://deepstack.ltd/docket/#test-p13-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n2",
@@ -135,7 +158,30 @@
       "label": "The national household price per kilowatt-hour over the same twelve months",
       "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "The average US residential price per kilowatt-hour; Texas households paid 4.8% more",
+        "period": "August 2025 to July 2026 against the twelve months before",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M sales and revenue, first published September 24, 2026",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "National residential revenue divided by residential sales, twelve-month sums, against the prior twelve months.",
+        "limits": "First published monthly data, which the EIA revises for about a year.",
+        "chart": {
+          "id": "story",
+          "label": "Household power prices, a year on",
+          "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#story-chart-title"
+        },
+        "test": {
+          "id": "p13-t03",
+          "url": "https://deepstack.ltd/docket/#test-p13-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n3",
@@ -143,7 +189,26 @@
       "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
       "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "megawatts",
+        "universe": "The shortfall of cleared capacity against PJM's reliability requirement in the auction for June 2027 to May 2028: a 14.8% reserve margin against a 20.0% target, the first miss since the market began in 2007",
+        "period": "Auction results published in February 2026",
+        "source": {
+          "label": "tscsw, February 26, 2026, relaying PJM's auction results (the voice's page on DeepStack)",
+          "url": "/people/tscsw/"
+        },
+        "asOf": "2026-02-26",
+        "transformation": "As relayed; the shortfall is PJM's requirement minus the megawatts that cleared.",
+        "limits": "The requirement and the cleared figures are PJM's; later incremental auctions can change the margin.",
+        "chart": null,
+        "test": {
+          "id": "p13-t02",
+          "url": "https://deepstack.ltd/docket/#test-p13-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p13-n4",
@@ -151,7 +216,26 @@
       "label": "Added transmission cost on Maryland bills over 10 years",
       "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Added transmission cost on Maryland retail bills, from $2 billion of investment in PJM's three most recent regional planning cycles",
+        "period": "Over ten years",
+        "source": {
+          "label": "Maryland Office of People's Counsel, motion at FERC (RM26-4), June 11, 2026",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8"
+        },
+        "asOf": "2026-06-11",
+        "transformation": "The Office's estimate as filed.",
+        "limits": "An advocate's estimate; how regional transmission costs are allocated to Maryland is contested at FERC.",
+        "chart": null,
+        "test": {
+          "id": "p13-t02",
+          "url": "https://deepstack.ltd/docket/#test-p13-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

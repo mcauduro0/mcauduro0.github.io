@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -126,7 +126,30 @@
       "label": "S&P 500 forward multiple",
       "context": "FactSet, as of Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "multiple of expected earnings",
+        "universe": "The S&P 500 forward 12-month price-to-earnings ratio",
+        "period": "As of October 2, 2026",
+        "source": {
+          "label": "FactSet, Earnings Insight, October 2, 2026",
+          "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "As published by FactSet: the index price divided by the next twelve months' consensus earnings.",
+        "limits": "Depends on consensus estimates that move with each earnings season.",
+        "chart": {
+          "id": "denominator",
+          "label": "Run the denominator",
+          "url": "https://deepstack.ltd/data/#desk-denominator"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n2",
@@ -134,7 +157,30 @@
       "label": "Expected Q3 earnings growth",
       "context": "FactSet, as of Oct 2, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, year over year",
+        "universe": "Expected S&P 500 earnings growth for the third quarter, with information technology up 65%",
+        "period": "Third quarter of 2026 against the third quarter of 2025",
+        "source": {
+          "label": "FactSet, Earnings Insight, October 2, 2026",
+          "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf"
+        },
+        "asOf": "2026-10-02",
+        "transformation": "The bottom-up consensus, as published.",
+        "limits": "An estimate before the reporting season; the realized figure arrives through November.",
+        "chart": {
+          "id": "denominator",
+          "label": "Run the denominator",
+          "url": "https://deepstack.ltd/data/#desk-denominator"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n3",
@@ -142,7 +188,30 @@
       "label": "Hyperscaler high-grade bonds",
       "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Investment-grade bonds sold by the hyperscalers in 2026, more than in the previous ten years combined, from an Apollo presentation Leyla Kunimoto relayed",
+        "period": "January through August 2026",
+        "source": {
+          "label": "Apollo, hyperscaler credit rests on one consensus assumption, September 21, 2026, as relayed by Leyla Kunimoto",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+        },
+        "asOf": "2026-09-21",
+        "transformation": "As relayed.",
+        "limits": "Second-hand from a presentation; which issuers count as hyperscalers is Apollo's choice.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p10-t01",
+          "url": "https://deepstack.ltd/docket/#test-p10-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p10-n4",
@@ -150,7 +219,30 @@
       "label": "10-year Treasury yield",
       "context": "CNBC, closing yield on Oct 5, 2026",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent, yield",
+        "universe": "The 10-year Treasury yield at the close, the highest in about two decades",
+        "period": "October 5, 2026",
+        "source": {
+          "label": "CNBC, the 10-year Treasury yield at its highest in 19 years",
+          "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
+        },
+        "asOf": "2026-10-05",
+        "transformation": "As reported.",
+        "limits": "A closing level as reported; FRED's constant-maturity series can differ by a basis point or two.",
+        "chart": {
+          "id": "ladder",
+          "label": "The 10-year ladder",
+          "url": "https://deepstack.ltd/data/#desk-ladder"
+        },
+        "test": {
+          "id": "p10-t03",
+          "url": "https://deepstack.ltd/docket/#test-p10-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

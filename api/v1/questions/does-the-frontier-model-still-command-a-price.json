@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-frontier-model-still-command-a-price",
   "question": "Does the frontier model still command a price?",
@@ -754,8 +754,8 @@
           "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
           "status": "pending",
           "resultId": null,
-          "sameAs": null,
-          "stage": "open",
+          "sameAs": "p10-t02",
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -763,11 +763,25 @@
           },
           "resolver": {
             "kind": "manual",
-            "rule": "",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+            "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+            "source": {
+              "label": "SEC EDGAR, Anthropic filings",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+            },
+            "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "either"
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t03",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -963,7 +977,24 @@
     "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "The token is cheap and getting cheaper. The gap between the Chinese open models and the frontier is about four months by Torsten Slok's reading of Epoch, a majority of tokens on the platforms that count them had moved to open or Chinese models by September, and Anthropic's Opus 5.5 lists at $4 per million input tokens against OpenAI's $10, a 60 percent undercut. What still commands a price is the lab: the completed job, the distribution, the dollars that have not yet followed the volume. But no audited figure for that price is on EDGAR; $50 billion, $65 billion and $70 billion are three run-rate readings on three dates, and only a registration statement puts them on one line. The Call expects the filing to show a lab that is paid, in part by its investors.",
+    "alternatives": [
+      "The labs' price shows in the capex they pull: $1.2 trillion or more of AI capex next year should drive about $2 trillion of incremental revenue, with no prospectus needed (the case Market Sentiment makes).",
+      "The frontier is still paid, and paid more each year: Anthropic's run-rate went from $1 billion at the end of 2024 to $9 billion a year later and almost $50 billion by May 2026 (the case Longriver makes).",
+      "No one commands a price, the lab included: OpenAI's price cut with a tenfold jump in usage looks like the start of a price war between Anthropic, OpenAI and the Chinese models (the case Steve Eisman makes).",
+      "One lab commands the price and the other does not: Anthropic is far ahead of OpenAI in model quality and ARR before its IPO, and the lead should widen with the proceeds (the case Michael Spencer makes)."
+    ],
+    "checks": {
+      "p12-t01": "the TPU-backlog claim",
+      "p12-t02": "the customer-concentration claim",
+      "p12-t03": "the audited-revenue claim",
+      "p12-t04": "the lab-as-customer claim",
+      "p12-t05": "the inference-margin claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

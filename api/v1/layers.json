@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "url": "https://deepstack.ltd/layers/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/layers.json",
@@ -200,7 +200,7 @@
           "precision": "day",
           "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
           "status": "pending",
-          "stage": "open",
+          "stage": "pre",
           "url": "https://deepstack.ltd/docket/#test-p11-t01"
         }
       ],
@@ -420,7 +420,7 @@
           "url": "https://deepstack.ltd/docket/#test-p05-t04"
         }
       ],
-      "tests": 10,
+      "tests": 9,
       "results": 0
     },
     {

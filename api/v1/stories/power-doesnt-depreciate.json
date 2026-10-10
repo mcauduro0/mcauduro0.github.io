@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -112,7 +112,30 @@
       "label": "Nebius one-to-three-year price",
       "context": "Michael Burry, August 12 trading post",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per megawatt",
+        "universe": "What a customer signing for one to three years pays Nebius per megawatt, as Michael Burry read the company's commentary",
+        "period": "August 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported by the voice.",
+        "limits": "A range the voice read from company commentary; contract terms vary by site and by GPU generation.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t02",
+          "url": "https://deepstack.ltd/docket/#test-p06-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n2",
@@ -120,7 +143,30 @@
       "label": "Nebius six-month price",
       "context": "Michael Burry, August 12 trading post",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per megawatt",
+        "universe": "What a customer demanding delivery within six months pays Nebius per megawatt, by the same reading",
+        "period": "August 2026",
+        "source": {
+          "label": "Michael Burry, Trading Post of August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As reported by the voice.",
+        "limits": "A range the voice read from company commentary; the premium narrows as capacity comes online.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t02",
+          "url": "https://deepstack.ltd/docket/#test-p06-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n3",
@@ -128,7 +174,30 @@
       "label": "NVL72 deployment need",
       "context": "Daniel Romero, 2027 estimate at full use",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "gigawatts",
+        "universe": "Power needed to run the NVL72 systems Nvidia expects to ship, at 225 kilowatts each plus cooling, at full use",
+        "period": "A 2027 estimate",
+        "source": {
+          "label": "Daniel Romero, HyperTech Invest, August 28, 2026",
+          "url": "https://hypertechinvest.com/p/the-safest-bet-in-the-ai-buildout"
+        },
+        "asOf": "2026-08-28",
+        "transformation": "The voice's arithmetic: systems times 225 kilowatts, plus cooling overhead; 204 terawatt-hours a year at full use.",
+        "limits": "An estimate at full utilization; real fleets run below it, and the shipment count is a forecast.",
+        "chart": {
+          "id": "power",
+          "label": "What power costs now",
+          "url": "https://deepstack.ltd/data/#desk-power"
+        },
+        "test": {
+          "id": "p06-t01",
+          "url": "https://deepstack.ltd/docket/#test-p06-t01"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p06-n4",
@@ -136,7 +205,26 @@
       "label": "Construction ex-data centers",
       "context": "Michael Burry citing Apollo, June year over year",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#number-p06-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "US private construction spending excluding data centers, as Apollo separated it and Michael Burry cited it",
+        "period": "June 2026 against June 2025",
+        "source": {
+          "label": "Apollo (Torsten Slok), cited by Michael Burry on August 12, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-08-12",
+        "transformation": "As cited; the underlying series is the Census Bureau's construction spending, with data centers removed by Apollo.",
+        "limits": "Second-hand; the Census revises construction spending for several months after each release.",
+        "chart": null,
+        "test": {
+          "id": "p06-t03",
+          "url": "https://deepstack.ltd/docket/#test-p06-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [

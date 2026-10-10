@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
   "question": "Is the capex spending defense, or is the return not there?",
@@ -621,7 +621,23 @@
     "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Hyperscaler capital budgets are still climbing, about $800 billion a year across the four, $165 billion in the latest quarter, and spending has crossed operating cash flow: Alphabet's second-quarter free cash flow was negative $6 billion, its first negative quarter since the 2004 IPO. Once capex exceeds internal cash, the buildout needs outside money, and creditors now demand a premium on hyperscaler paper. That is the mechanism that turns scale from a moat into a test: the market rewards cash-backed returns and charges for faith, so every new AI dollar has to out-earn its financing cost. The bullish case regains force only if Alphabet's larger 2027 budget lifts the stock, cash generation catches up with investment and the two leading labs fund growth on durable, non-circular revenue.",
+    "alternatives": [
+      "The spending is defense, so the return test is the wrong test: the risk of not investing is higher than the risk of overinvesting when a company's existence is at stake (the case Kris makes).",
+      "The hyperscalers fund the buildout from profitable core businesses in advertising, cloud and software, unlike the dot-com suppliers, so affordability was never the question (the case Quanta 72 makes).",
+      "The return is visible where the contracts are: Nebius, with multibillion-dollar deals with Microsoft and Meta, has a credible path to more than 4 GW of capacity by 2031 (the case Orbis Investments makes)."
+    ],
+    "checks": {
+      "p04-t01": "the defense claim",
+      "p04-t02": "the lab-revenue claim",
+      "p04-t03": "the cash-catch-up claim",
+      "p04-t04": "the absorption claim",
+      "p04-t05": "the productivity claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

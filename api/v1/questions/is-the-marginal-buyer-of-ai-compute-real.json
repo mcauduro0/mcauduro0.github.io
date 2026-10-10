@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-marginal-buyer-of-ai-compute-real",
   "question": "Is the marginal buyer of AI compute real?",
@@ -359,7 +359,21 @@
     "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Demand for Nvidia's chips is real today: Google paid roughly double the market rate for Nvidia capacity while cheaper TPUs were available, a costly revealed preference rather than paper demand. What makes the revenue less secure than the order book implies is how it is financed. Private credit funded the compute platform, a $38 billion Apollo transaction in late May and a $35 billion first tranche from Apollo and Blackstone, so part of the marginal buyer's spending rests on lenders rather than on end customers. Between the ordered chips and working compute sits a power bottleneck, and depreciation schedules may lag obsolescence. The Call therefore prices the revenue as financed, not recurring: once the bottleneck clears, the question is whether end customers keep absorbing capacity at market-rate financing.",
+    "alternatives": [
+      "The demand is structural, not financed: a visibility window that extends a full year across the customer base is harder to manufacture than one customer's beat (the case Invest in Assets makes).",
+      "Most of the marginal demand is not end-customer demand at all: future revenue is financed through a circular off-balance-sheet arrangement, so the orders overstate what customers will pay (the case Michael Burry makes).",
+      "The shortage is real and the financing is beside the point: Nvidia ramps production continuously and still cannot follow demand, so recurrence holds as long as supply lags (the case Kris makes)."
+    ],
+    "checks": {
+      "p01-t01": "the financed-demand claim",
+      "p01-t02": "the customer-visibility claim",
+      "p01-t03": "the depreciation-lag claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

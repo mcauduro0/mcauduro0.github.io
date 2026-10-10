@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
   "question": "What does a frontier lab sell: a commodity, or a premium?",
@@ -480,7 +480,23 @@
     "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
     "resultUrl": null
   },
-  "relations": null,
+  "relations": {
+    "mechanism": "Hyperscalers, lenders and investors have priced the two labs as one AI bet, and the revenue of the two behaves differently under pressure. OpenAI cut its API price by 80 percent as cheaper open and Chinese models took the routing, and lost $20.9 billion in 2025; Anthropic grew 142 percent quarter on quarter in the second quarter of 2026 against OpenAI's 18 percent, on enterprise coding that still monetizes, with $559 million of preliminary adjusted operating income for the June quarter. One revenue line holds when the token gets cheaper; the other has to be bought with price cuts. That is why the Call splits the trade rather than taking a side: what a lab sells depends on whether its margin survives the cluster's useful life, which only audited disclosure can show.",
+    "alternatives": [
+      "Neither lab keeps a premium: Chinese open-weight models went from under 2 percent of token traffic in late 2024 to a majority of usage among the top models in 2026 (the case Massif Capital makes).",
+      "The premium holds where the payoff is convex: commodity intelligence turns price-competitive in many applications, while finance and frontier research sustain premium pricing (the case Christian Catalini makes).",
+      "Neither revenue line is what it seems: the labs pay their bills with venture funding of which Big Tech supplies roughly 40 percent, so the revenue Big Tech books from them is partly recycled (the case Ed Elson makes)."
+    ],
+    "checks": {
+      "p05-t01": "the defensible-margin claim",
+      "p05-t02": "the cluster-margin claim",
+      "p05-t03": "the demand-evidence claim",
+      "p05-t04": "the return-on-capital claim",
+      "p05-t05": "the open-weights procurement claim"
+    },
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T22:58:16.892Z"
+  },
   "method": "How DeepStack settles a question",
   "timeline": [
     {

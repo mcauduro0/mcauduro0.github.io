@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -76,7 +76,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
-      "stage": "open",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -85,11 +85,24 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months; 30% or less resolves confirmed (the book keeps drifting outward), above 30% resolves refuted (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is the owner's reading into the Result, not the verdict.",
+        "question": "Did Microsoft's quarterly report for the quarter ended September 30, 2026 put the share of its remaining performance obligations expected to be recognized as revenue within the next twelve months at 30% or less?",
+        "source": {
+          "label": "Microsoft Form 10-Q for the quarter ended September 30, 2026, revenue note on remaining performance obligations (SEC EDGAR, CIK 0000789019)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
@@ -104,7 +117,30 @@
       "label": "Ciena's backlog floor at the end of fiscal 2026",
       "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Ciena's backlog at the end of fiscal 2026, the floor its management guided to, with supply secured through fiscal 2029",
+        "period": "Fiscal 2026 year-end (October 2026)",
+        "source": {
+          "label": "Gaetano, September 17, 2026, reporting Ciena management's guidance (the voice's page on DeepStack)",
+          "url": "/people/gaetano/"
+        },
+        "asOf": "2026-09-17",
+        "transformation": "As reported from management commentary.",
+        "limits": "Guidance; a backlog can be cancelled or stretched and is not revenue.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p11-t05",
+          "url": "https://deepstack.ltd/docket/#test-p11-t05"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n2",
@@ -112,7 +148,30 @@
       "label": "Growth in Microsoft's backlog due beyond one year",
       "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent change, year over year",
+        "universe": "Microsoft's remaining performance obligations due beyond one year; the book due within a year grew 37%, and the share converting inside twelve months fell to 30% from 40%",
+        "period": "The latest annual filing, read September 24 to 26, 2026",
+        "source": {
+          "label": "Michael Burry, reading Microsoft's filing, September 24 and 26, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "The voice's reading of the filing's revenue note; DeepStack did not recompute it.",
+        "limits": "Remaining performance obligations mix contracts of many kinds; growth rates depend on the year-earlier base.",
+        "chart": {
+          "id": "orders",
+          "label": "Orders outrun shipments",
+          "url": "https://deepstack.ltd/data/#desk-orders"
+        },
+        "test": {
+          "id": "p11-t01",
+          "url": "https://deepstack.ltd/docket/#test-p11-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n3",
@@ -120,7 +179,26 @@
       "label": "Nvidia's terms for its best-rated customers",
       "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "payment terms",
+        "universe": "The payment terms Nvidia extends to its best-rated customers, up from 90 days, as Steve Eisman described them",
+        "period": "September 2026",
+        "source": {
+          "label": "Steve Eisman with Ed Zitron, September 9, 2026 (the voice's page on DeepStack)",
+          "url": "/people/steve-eisman/"
+        },
+        "asOf": "2026-09-09",
+        "transformation": "As stated by the voice in conversation.",
+        "limits": "Nvidia does not disclose terms per customer; the Docket's test reads days sales outstanding instead.",
+        "chart": null,
+        "test": {
+          "id": "p11-t02",
+          "url": "https://deepstack.ltd/docket/#test-p11-t02"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p11-n4",
@@ -128,7 +206,30 @@
       "label": "Meta's residual-value guarantee on its data-center venture",
       "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#number-p11-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The residual-value guarantee Meta gives on its data-center joint venture, up to $28 billion on four-year initial terms; $10.8 billion moved to restricted cash",
+        "period": "The latest quarterly filing, read September 24, 2026",
+        "source": {
+          "label": "Michael Burry, reading Meta's filing, September 24, 2026 (the voice's page on DeepStack)",
+          "url": "/people/michael-burry/"
+        },
+        "asOf": "2026-09-24",
+        "transformation": "As read by the voice from the filing's commitments note.",
+        "limits": "A maximum exposure, not an expected payment; the venture's own financing is not consolidated.",
+        "chart": {
+          "id": "rebase",
+          "label": "Commitments versus cash",
+          "url": "https://deepstack.ltd/data/#desk-rebase"
+        },
+        "test": {
+          "id": "p11-t03",
+          "url": "https://deepstack.ltd/docket/#test-p11-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [
@@ -236,8 +337,8 @@
       "date": "2026-10-28",
       "whenLabel": "Oct 28, 2026",
       "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
-      "stage": "open",
-      "stageLabel": "Open question",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
       "status": "pending"
     }
   },
@@ -302,7 +403,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
-      "stage": "open",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -311,11 +412,24 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months; 30% or less resolves confirmed (the book keeps drifting outward), above 30% resolves refuted (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is the owner's reading into the Result, not the verdict.",
+        "question": "Did Microsoft's quarterly report for the quarter ended September 30, 2026 put the share of its remaining performance obligations expected to be recognized as revenue within the next twelve months at 30% or less?",
+        "source": {
+          "label": "Microsoft Form 10-Q for the quarter ended September 30, 2026, revenue note on remaining performance obligations (SEC EDGAR, CIK 0000789019)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p11-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",

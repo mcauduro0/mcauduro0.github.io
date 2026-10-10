@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:16:39Z",
+  "generatedAt": "2026-10-10T23:18:08Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -128,7 +128,30 @@
       "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
       "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n1",
-      "provenance": null
+      "provenance": {
+        "unit": "US dollars per million input tokens",
+        "universe": "Anthropic's Opus 5.5 list price against OpenAI's GPT-6 Astra, as Charlie Hills compared them",
+        "period": "List prices on September 27, 2026",
+        "source": {
+          "label": "Charlie Hills, September 27, 2026 (the voice's page on DeepStack)",
+          "url": "/people/charlie-hills/"
+        },
+        "asOf": "2026-09-27",
+        "transformation": "As compared by the voice; 60% cheaper is one minus 4 divided by 10.",
+        "limits": "List prices; enterprise discounts, batch rates and output-token prices differ.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t05",
+          "url": "https://deepstack.ltd/docket/#test-p12-t05"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n2",
@@ -136,7 +159,30 @@
       "label": "Chinese models' share of token usage on OpenRouter by September",
       "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n2",
-      "provenance": null
+      "provenance": {
+        "unit": "percent of token usage",
+        "universe": "Chinese models' share of tokens served on the OpenRouter platform, as Michael Spencer counted it; Le Shrub counted 66% on September 22",
+        "period": "September 2026",
+        "source": {
+          "label": "AI Supremacy (Michael Spencer), Gemini-4 Argon and the OpenRouter token count, October 1, 2026",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon"
+        },
+        "asOf": "2026-10-01",
+        "transformation": "As counted by the voice from OpenRouter's public rankings.",
+        "limits": "OpenRouter is one routing platform, weighted toward developers and open models; not the whole market.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t04",
+          "url": "https://deepstack.ltd/docket/#test-p12-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n3",
@@ -144,7 +190,30 @@
       "label": "The gap between the Chinese open models and the frontier",
       "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n3",
-      "provenance": null
+      "provenance": {
+        "unit": "months",
+        "universe": "The lag between the best Chinese open-weight models and the frontier on the Epoch Capabilities Index",
+        "period": "The index as of July 2026",
+        "source": {
+          "label": "Apollo (Torsten Slok), Chinese models versus frontier models, July 16, 2026",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/chinese-models-vs-frontier-models"
+        },
+        "asOf": "2026-07-16",
+        "transformation": "As stated by Apollo from Epoch's index.",
+        "limits": "One benchmark index; capability gaps vary by task and the lag moves with each release.",
+        "chart": {
+          "id": "taskcost",
+          "label": "The price of the same job",
+          "url": "https://deepstack.ltd/data/#desk-taskcost"
+        },
+        "test": {
+          "id": "p12-t04",
+          "url": "https://deepstack.ltd/docket/#test-p12-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     },
     {
       "id": "p12-n4",
@@ -152,7 +221,26 @@
       "label": "Share of Anthropic's 2025 revenue that came from two customers",
       "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n4",
-      "provenance": null
+      "provenance": {
+        "unit": "share of revenue",
+        "universe": "Anthropic's 2025 revenue from its two largest customers, by Mia Silverio's reading of the customer note; 47% of sales ran through Amazon and Google",
+        "period": "Calendar 2025",
+        "source": {
+          "label": "Prof G Markets (Mia Silverio), Anthropic wants $2 trillion anyway, October 5, 2026",
+          "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+        },
+        "asOf": "2026-10-05",
+        "transformation": "As reported from the customer note the voice read.",
+        "limits": "A leaked prospectus read second-hand; the audited filing may restate the customer breakdown.",
+        "chart": null,
+        "test": {
+          "id": "p12-t03",
+          "url": "https://deepstack.ltd/docket/#test-p12-t03"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-10T22:58:16.808Z"
+      }
     }
   ],
   "sources": [
@@ -439,8 +527,8 @@
       "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
       "status": "pending",
       "resultId": null,
-      "sameAs": null,
-      "stage": "open",
+      "sameAs": "p10-t02",
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -448,11 +536,25 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Anthropic filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+        },
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
