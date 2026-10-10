@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T05:15:07Z",
+  "generatedAt": "2026-10-10T05:54:31Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -123,7 +123,6 @@
       "template": "https://deepstack.ltd/assets/resolution/{id}.pdf",
       "ids": [
         "p03-t04",
-        "p04-t04",
         "p07-t01"
       ],
       "page": "https://deepstack.ltd/data/download/#packages"
