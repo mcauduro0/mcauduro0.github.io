@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
   "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -229,6 +230,31 @@
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#the-tests-ahead"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Who pays for the AI power bill?",
+      "url": "/questions/who-pays-for-the-ai-power-bill/"
+    },
+    "read": {
+      "stance": "The ratepayer pays first",
+      "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p13-t01",
+      "date": "2026-10-20",
+      "whenLabel": "Oct 20, 2026",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "A household in Maryland paid 13.2% more for each kilowatt-hour of electricity in the twelve months to July 2026 than in the twelve months before, by DeepStack's reading of the Energy Information Administration's monthly sales and revenue data, first published for July on September 24. The country paid 6.6% more. Rank all 50 states and Washington, D.C., by that change and seven of the nine jurisdictions PJM serves wholly or largely land in the top nine: the District at 21.9%, then Maryland, Pennsylvania at 12.8%, New Jersey at 12.2%, Ohio at 11.7%, Virginia at 11.5% and Illinois at 11.4%. Delaware rose 5.7% and West Virginia 0.6%. The median of the nine was 11.7%; the median of the other 42 was 5.6%. PJM runs the grid and the wholesale power market for all or part of 13 states and the District, and carries the country's densest cluster of data centers.",
     "The bill starts in an auction. PJM buys capacity, a plant's promise to be ready at the hour of peak demand, in an auction held before each delivery year, and the price reaches every customer's bill. The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as tscsw recounted on August 11. At $269.92, a 1,000-megawatt plant collects about $98.5 million a year for standing ready. The auction for the year from June 2027, tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short. Part six, on September 19, followed the price to the ceiling and relayed an estimate that data centers caused 63% of the first jump. Part thirteen asks who carries that bill under the rules.",

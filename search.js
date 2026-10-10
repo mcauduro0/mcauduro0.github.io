@@ -13,8 +13,9 @@
 // counts only when it carries more than half of the query's distinct terms (a majority) and one of
 // its hits is strong, a title term or the whole phrase in the title or the excerpt (for a one-word
 // query the word itself). A prefix counts as a match only from four characters on, so "me" does
-// not reach Meta nor "app" Apple. When nothing clears the floor the page says so, in one sentence,
-// points at the nearest canonical question DeepStack settles when the query lands on one
+// not reach Meta nor "app" Apple. When nothing clears the floor the page says so (noFormedSide:
+// "No results for" the query, then the house's sentence), points at the nearest canonical question
+// DeepStack settles when the query lands on one
 // (nearestQuestion, with a threshold of its own), and lists up to three loosely related entries as
 // nearest, never as results.
 
@@ -98,8 +99,9 @@ export function scoreEntry(entry, terms, phrase = phraseWords(terms.join(' '))) 
 // four), and one strong hit. Half is not enough: one title word must not carry a two-word query.
 export const clearsFloor = ({ matched, strong }, termCount) => matched * 2 > termCount && strong;
 
-// The sentence that stands for an absence, the same on the MCP endpoint.
-export const noFormedSide = (query) => `DeepStack has no formed side on ${String(query || '').replace(/\s+/g, ' ').trim()}. Nothing published argues it yet.`;
+// The empty state (UX-1.16): "No results for" the query first, then the house's sentence. The MCP
+// endpoint keeps its own one-sentence form (mcp-worker/src/lib.js), since an agent reads no page.
+export const noFormedSide = (query) => `No results for “${String(query || '').replace(/\s+/g, ' ').trim()}”. DeepStack has no formed side on it yet: nothing published argues it.`;
 export const NEAREST_LIMIT = 3;
 export const QUESTION_LABEL = 'The nearest question DeepStack settles:';
 
@@ -240,7 +242,7 @@ function init(doc, win) {
       if (questionBox) questionBox.hidden = !question;
       if (nearestList) nearestList.replaceChildren(...nearest.map(hit));
       if (nearestBox) nearestBox.hidden = !nearest.length;
-      say(`DeepStack has no formed side on “${q}”.`);
+      say(noFormedSide(q));
       return;
     }
     empty.hidden = true;

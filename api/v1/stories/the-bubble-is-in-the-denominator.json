@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
   "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -212,6 +213,31 @@
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#the-tests-ahead"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Does the hardware hold its value?",
+      "url": "/questions/does-the-hardware-hold-its-value/"
+    },
+    "read": {
+      "stance": "Cheap is conditional",
+      "line": "The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p10-t02",
+      "date": "2026-10-01",
+      "whenLabel": "October",
+      "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "stage": "post",
+      "stageLabel": "Specified after the date",
+      "status": "pending"
+    }
+  },
   "body": [
     "On October 2, the S&P 500 offered investors a strange bargain: 19.0 times the earnings analysts expect over the next twelve months. That was below its five-year average of 19.8, its ten-year average of 19.1 and the 20.4 it fetched at the end of June, according to FactSet. The index then set a record on October 6.",
     "The market was not getting cheaper because prices fell. Profits were outrunning them. Analysts expect third-quarter earnings to rise 29.5% from a year earlier, with information technology up 65%. The 10-year Treasury, meanwhile, closed at 5.31% on October 5, the highest in roughly two decades, according to CNBC. Inverting the S&P 500 multiple produces an earnings yield of about 5.26%, almost the same number.",

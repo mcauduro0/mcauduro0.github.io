@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
   "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -190,6 +191,31 @@
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#the-tests-ahead"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Do the orders turn into profit?",
+      "url": "/questions/do-the-orders-turn-into-profit/"
+    },
+    "read": {
+      "stance": "Revenue yes, margin not yet",
+      "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p11-t01",
+      "date": "2026-10-28",
+      "whenLabel": "Oct 28, 2026",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "stage": "open",
+      "stageLabel": "Open question",
+      "status": "pending"
+    }
+  },
   "body": [
     "Start with the order book. On September 17, Gaetano reported that Ciena's management expects to end fiscal 2026 with at least $10 billion of backlog, has secured the supply to grow revenue at least 30% in fiscal 2027 and believes that supply carries the same growth through fiscal 2029, when the target is roughly $14 billion of revenue. Turning those orders into shipments, Gaetano adds, is the step that remains. Twelve days later Gaetano counted Tower Semiconductor's $1.3 billion of contractual silicon photonics commitments for 2027, backed by about $290 million of customer prepayments.",
     "The buyers' books tell the same story at larger scale, with a wrinkle. Michael Burry, reading Microsoft's filing on September 24 and 26, notes that backlog due beyond one year grew 113% while backlog due within a year grew 37%, and that the share of the book turning into revenue inside twelve months fell to 30% from 40%. Amazon's book made the same migration by Burry's September 26 count: $200 billion with a weighted average life of 3.8 years in September 2025, $496 billion at 6.4 years nine months later. Kakashii, on September 24, reads Oracle's first fiscal quarter the other way: most of the $26 billion rise in remaining performance obligations came prepaid or with the customer's own hardware, so the new contracts need no incremental capital from Oracle. Who pays for the rest is the first collision. Torsten Slok of Apollo reported on September 21 the consensus that the hyperscalers' operating cash flow more than triples by 2030, outrunning their capital spending. Burry's September 24 reading of Amazon has free cash flow near negative $8 billion and long-term debt doubled in six months to $128.9 billion.",

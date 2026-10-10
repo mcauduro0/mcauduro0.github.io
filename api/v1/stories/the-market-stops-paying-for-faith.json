@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
   "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -203,6 +204,31 @@
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#the-tape-picks-winners"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Is the capex spending defense, or is the return not there?",
+      "url": "/questions/is-the-capex-spending-defense-or-is-the-return-not-there/"
+    },
+    "read": {
+      "stance": "Prove the return",
+      "line": "Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p04-t01",
+      "date": "2027-01-01",
+      "whenLabel": "Jan 1, 2027",
+      "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "Alphabet spent roughly $490 million a day on AI infrastructure last quarter. It reported the first negative free-cash-flow quarter in its history as a public company, lifted its capital budget for the year to as much as $205 billion, told analysts next year’s number would be higher, and watched its stock fall 7 percent that day. In June it sold $85 billion of equity, the largest raise ever by a listed corporation, after two decades of not knowing what to do with its cash. In August it sold $25 billion of bonds and paid a double-digit new-issue concession where in February it had paid nothing. Six weeks after that guidance, Alphabet traded 17 percent below its high. Meta was 22 percent below, Oracle 54 percent below. Nvidia sat within 3 percent of a record at $5.6 trillion, while Micron traded above $1,000 a share.",
     "That is the first clean price signal of the AI buildout: the money is still flowing, but faith is no longer free. Four companies disclosed capital budgets in the last week of July that will approach $800 billion this year. The evidence says the spending can be rational, even necessary, but the market has begun separating cash-backed returns from capital-intensive hope. The winners will not be the companies that spend most. They will be the ones that show who pays, and when.",

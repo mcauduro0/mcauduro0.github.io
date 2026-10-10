@@ -6,6 +6,9 @@ const esc = (value = '') => String(value).replace(/[&<>"']/g, (c) => ({ '&': '&a
 const MINUS = '\u2212';
 const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
 const pct = (v) => `${clamp(v, 0, 100).toFixed(2)}%`;
+// "Has the reader moved this?": numbers within rounding, anything else by text (a chip's "24" arrives
+// as a number after a click and as a string from the spec).
+const same = (a, b) => (typeof a === 'number' && typeof b === 'number' ? Math.abs(a - b) < 1e-9 : String(a) === String(b));
 
 export function num(value, decimals = 0) {
   return Math.abs(value).toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
@@ -77,9 +80,72 @@ export function windowed(points, range) {
 
 const segmented = (key, options, current, label) => `<div class="seg" role="group" aria-label="${esc(label)}">${options.map((o) => `<button type="button" data-set="${key}" data-value="${esc(o.id)}" aria-pressed="${String(o.id) === String(current)}">${esc(o.label)}</button>`).join('')}</div>`;
 
-const slider = ({ key, label, min, max, step, value, out, hint = '' }) => `<label class="slider"><span class="slider-top"><span>${esc(label)}</span><output data-out="${key}">${esc(out)}</output></span><input type="range" min="${min}" max="${max}" step="${step}" value="${value}" data-set="${key}" aria-valuetext="${esc(out)}">${hint ? `<span class="slider-hint">${hint}</span>` : ''}</label>`;
+// The label a type gives one value of one key ("−10%", "40% a year"); the raw number when it has none.
+const labelOf = (type, spec, s, key, value) => (type.labels && type.labels[key] ? type.labels[key]({ ...s, [key]: value }, spec) : String(value));
 
-const table = (head, rows) => `<div class="table-scroll"><table><thead><tr>${head.map((h) => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`)).join('')}</tr>`).join('')}</tbody></table></div>`;
+// UX-1.14: a slider shows its ends, its step and its base, and carries a typed twin, so nothing about
+// the control lives only in the DOM. Only the range input sits inside the label: a label may name one
+// control, and the twin names itself.
+const slider = (type, spec, s, { key, label, min, max, step, hint = '', stepLabel = null }) => {
+  const format = (v) => labelOf(type, spec, s, key, v);
+  const base = type.state(spec)[key];
+  const decimals = (String(step).split('.')[1] || '').length;
+  const value = Number(s[key]).toFixed(decimals);
+  const out = format(s[key]);
+  const stepText = `Step ${stepLabel || format(step).replace(/^[+−-]/, '')}`;
+  return `<div class="slider"><label class="slider-field"><span class="slider-top"><span>${esc(label)}</span><output data-out="${key}">${esc(out)}</output></span><input type="range" min="${min}" max="${max}" step="${step}" value="${value}" data-set="${key}" aria-valuetext="${esc(out)}"></label><span class="slider-ends"><span>${esc(format(min))}</span><span>${esc(format(max))}</span></span><div class="slider-meta"><span class="slider-hint">${esc(stepText)}${hint ? ` · ${hint}` : ''}</span><span class="slider-base" data-base-for="${key}" hidden>base ${esc(format(base))}</span><input type="number" class="slider-number" data-set-number="${key}" min="${min}" max="${max}" step="${step}" value="${value}" aria-label="${esc(label)}, as a number"></div></div>`;
+};
+
+// UX-1.19: the scroll wrapper is focusable so a keyboard can reach a wide table and scroll it.
+const table = (head, rows) => `<div class="table-scroll" tabindex="0" role="group" aria-label="Data table, scrolls sideways on small screens"><table><thead><tr>${head.map((h) => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`)).join('')}</tr>`).join('')}</tbody></table></div>`;
+
+// ---------- Controls as data ----------
+// The controls markup is the contract: the limits, steps and options a reader sees are the ones the
+// typed twin, the scenario hash and the "what changed" line obey, so all three read that markup back.
+// The helpers above write every slider and every chip group, so the shapes below are fixed.
+
+const unesc = (s) => String(s).replace(/&(amp|lt|gt|quot|#39);/g, (_, e) => ({ amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'" }[e]));
+const attrOf = (attrs, name) => { const m = String(attrs).match(new RegExp(`(?:^|\\s)${name}="([^"]*)"`)); return m ? unesc(m[1]) : null; };
+const textOf = (html) => unesc(String(html).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+
+export function fieldsOf(spec, type) {
+  const html = type.controls(spec, type.state(spec));
+  const sliders = {};
+  const choices = {};
+  for (const [, label, attrs] of html.matchAll(/<label class="slider-field"><span class="slider-top"><span>([^<]*)<\/span>[\s\S]*?<input\b([^>]*)>/g)) {
+    const key = attrOf(attrs, 'data-set');
+    if (key) sliders[key] = { key, label: unesc(label), min: Number(attrOf(attrs, 'min')), max: Number(attrOf(attrs, 'max')), step: Number(attrOf(attrs, 'step')) };
+  }
+  let group = null;
+  for (const [, divAttrs, buttonAttrs, inner] of html.matchAll(/<div\b([^>]*)>|<button\b([^>]*)>([\s\S]*?)<\/button>/g)) {
+    if (divAttrs !== undefined) { if (attrOf(divAttrs, 'role') === 'group') group = attrOf(divAttrs, 'aria-label'); continue; }
+    const key = attrOf(buttonAttrs, 'data-set');
+    if (!key) continue;
+    if (!choices[key]) choices[key] = { key, options: [] };
+    choices[key].options.push({ value: attrOf(buttonAttrs, 'data-value'), label: textOf(inner), group });
+  }
+  return { sliders, choices };
+}
+
+// A slider value clamped to its track and its step grid, at the step's own precision (3.5 plus 205
+// steps of 0.01 must read 5.55, not 5.550000000000001).
+const snap = (value, { min, max, step }) => {
+  const decimals = (String(step).split('.')[1] || '').length;
+  const v = clamp(Number(value), min, max);
+  const stepped = step > 0 ? min + Math.round((v - min) / step) * step : v;
+  return Number(clamp(stepped, min, max).toFixed(decimals));
+};
+
+// Slider keys in a patch obey their track and anything unreadable as a number is dropped; other keys pass.
+const constrain = (meta, patch) => {
+  const out = {};
+  for (const [key, value] of Object.entries(patch)) {
+    const track = meta.sliders[key];
+    if (!track) out[key] = value;
+    else if (value !== '' && Number.isFinite(Number(value))) out[key] = snap(value, track);
+  }
+  return out;
+};
 
 const impliedTag = '<span class="tag-implied">implied</span>';
 
@@ -87,6 +153,7 @@ const SHORT_MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'S
 const utcDate = (d) => new Date(Date.parse(`${d}T12:00:00Z`));
 const monthLabel = (d) => `${SHORT_MONTHS[utcDate(d).getUTCMonth()]} ’${String(utcDate(d).getUTCFullYear()).slice(2)}`;
 const monthLong = (d) => `${SHORT_MONTHS[utcDate(d).getUTCMonth()]} ${utcDate(d).getUTCFullYear()}`;
+const shortDate = (d) => `${SHORT_MONTHS[utcDate(d).getUTCMonth()]} ${utcDate(d).getUTCDate()}, ${utcDate(d).getUTCFullYear()}`;
 const qLabel = (d) => `Q${Math.floor(utcDate(d).getUTCMonth() / 3) + 1} ${utcDate(d).getUTCFullYear()}`;
 const qShort = (d) => `Q${Math.floor(utcDate(d).getUTCMonth() / 3) + 1} ’${String(utcDate(d).getUTCFullYear()).slice(2)}`;
 const pctVal = (v) => `${Number.isInteger(Math.round(v * 100) / 10) ? v.toFixed(1) : v.toFixed(2)}%`;
@@ -117,7 +184,7 @@ const liveLegend = (items) => `<p class="legend lc-legend">${items.map((i) => `<
 
 // ---------- Chart types ----------
 
-const TYPES = {};
+export const TYPES = {};
 
 // UX-0.9 (10 October 2026): the gap between the forward earnings yield and the 10-year Treasury yield
 // is a valuation sensitivity, not a cushion, a risk premium or a comparable return; the tool says so.
@@ -131,8 +198,8 @@ TYPES.denominator = {
   },
   controls(spec, s) {
     return `<div class="sliders">
-${slider({ key: 'eps', label: 'Change in forward earnings', min: -40, max: 20, step: 1, value: s.eps, out: this.labels.eps(s) })}
-${slider({ key: 'y', label: '10-year Treasury yield', min: 3.5, max: 6.5, step: 0.01, value: s.y.toFixed(2), out: this.labels.y(s) })}
+${slider(this, spec, s, { key: 'eps', label: 'Change in forward earnings', min: -40, max: 20, step: 1 })}
+${slider(this, spec, s, { key: 'y', label: '10-year Treasury yield', min: 3.5, max: 6.5, step: 0.01, stepLabel: '0.01 pt' })}
 </div>
 <div class="presets" role="group" aria-label="Scenarios">${spec.presets.map((p) => `<button type="button" data-preset="${esc(JSON.stringify({ eps: p.eps, y: p.y }))}" aria-pressed="${p.eps === s.eps && p.y === s.y}">${esc(p.label)}</button>`).join('')}</div>`;
   },
@@ -172,6 +239,8 @@ ${slider({ key: 'y', label: '10-year Treasury yield', min: 3.5, max: 6.5, step: 
 
 TYPES.ladder = {
   state: (spec) => ({ sel: spec.selected }),
+  labels: { sel: (s, spec) => (spec.markers.find((m) => m.id === s.sel) || spec.markers[0]).label },
+  names: { sel: 'level' },
   controls(spec, s) {
     const chip = (m) => `<button type="button" class="chip chip-${m.kind}" data-set="sel" data-value="${m.id}" aria-pressed="${m.id === s.sel}"><b>${m.kind === 'policy' ? `${m.range[0].toFixed(2)}–${m.range[1].toFixed(2)}%` : `${m.value.toFixed(2)}%`}</b><span>${esc(m.label)}</span></button>`;
     const observed = spec.markers.filter((m) => m.kind !== 'threshold');
@@ -292,7 +361,7 @@ TYPES.hurdle = {
   state: (spec) => ({ g: spec.growth }),
   labels: { g: (s) => `${s.g}% a year` },
   controls(spec, s) {
-    return `<div class="sliders">${slider({ key: 'g', label: 'Annual growth in cloud revenue', min: spec.min, max: spec.max, step: 1, value: s.g, out: this.labels.g(s) })}</div>`;
+    return `<div class="sliders">${slider(this, spec, s, { key: 'g', label: 'Annual growth in cloud revenue', min: spec.min, max: spec.max, step: 1 })}</div>`;
   },
   plot(spec, s) {
     const years = hurdleYears(spec.runRate, spec.needed, s.g);
@@ -362,10 +431,13 @@ TYPES.capex = {
 
 TYPES.taskcost = {
   state: (spec) => ({ scale: 'linear', vol: spec.volume }),
-  labels: { vol: (s, spec) => `${spec.volumes[s.vol].toLocaleString('en-US')} tasks a month` },
+  labels: { vol: (s, spec) => `${spec.volumes[s.vol].toLocaleString('en-US')} tasks a month`, scale: (s) => (s.scale === 'log' ? 'logarithmic' : 'linear') },
   controls(spec, s) {
+    // The slider walks the volume tiers; the step is worth naming only when every tier is the same multiple.
+    const ratios = spec.volumes.slice(1).map((v, i) => v / spec.volumes[i]);
+    const ratio = ratios.length && ratios.every((r) => r === ratios[0]) ? ratios[0] : null;
     return `${segmented('scale', [{ id: 'linear', label: 'Linear scale' }, { id: 'log', label: 'Log scale' }], s.scale, 'Scale')}
-<div class="sliders">${slider({ key: 'vol', label: 'Monthly volume', min: 0, max: spec.volumes.length - 1, step: 1, value: s.vol, out: this.labels.vol(s, spec) })}</div>`;
+<div class="sliders">${slider(this, spec, s, { key: 'vol', label: 'Monthly volume', min: 0, max: spec.volumes.length - 1, step: 1, stepLabel: ratio ? `${ratio}x the volume` : 'one tier' })}</div>`;
   },
   plot(spec, s) {
     const max = Math.max(...spec.items.map((i) => i.value));
@@ -442,6 +514,7 @@ TYPES.views = {
 
 TYPES.curve = {
   state: (spec) => ({ cmp: spec.selected }),
+  names: { cmp: 'comparison' },
   pick: (spec, s) => spec.compares.find((c) => c.id === s.cmp) || spec.compares[0],
   controls(spec, s) {
     return segmented('cmp', spec.compares.map((c) => ({ id: c.id, label: c.label })), s.cmp, 'Compare today with');
@@ -480,6 +553,7 @@ TYPES.realrates = {
     return { h: spec.selected, infl: first.id === 'market' ? this.priced(this.pick(spec, { h: spec.selected })) : first.infl };
   },
   labels: { infl: (s) => `${Number(s.infl).toFixed(2)}%` },
+  names: { infl: 'inflation assumption' },
   pick: (spec, s) => spec.horizons.find((h) => h.id === s.h) || spec.horizons[0],
   // Inflation priced at a maturity, rounded to the slider's 0.01 step.
   priced: (h) => Number((h.nominal - h.real).toFixed(2)),
@@ -499,7 +573,7 @@ TYPES.realrates = {
   },
   controls(spec, s) {
     return `${segmented('h', spec.horizons.map((h) => ({ id: h.id, label: `${h.id.replace('Y', '')}-year` })), s.h, 'Maturity')}
-<div class="sliders">${slider({ key: 'infl', label: 'Your inflation assumption, per year', min: 0.5, max: 5, step: 0.01, value: Number(s.infl).toFixed(2), out: this.labels.infl(s) })}</div>
+<div class="sliders">${slider(this, spec, s, { key: 'infl', label: 'Your inflation assumption, per year', min: 0.5, max: 5, step: 0.01, stepLabel: '0.01 pt' })}</div>
 <div class="presets" role="group" aria-label="Inflation assumptions">${spec.presets.map((p) => { const v = p.id === 'market' ? this.priced(this.pick(spec, s)) : p.infl; return `<button type="button"${p.id ? ` data-preset-id="${esc(p.id)}"` : ''} data-preset="${esc(JSON.stringify({ infl: v }))}" aria-pressed="${Math.abs(v - s.infl) < 1e-9}">${esc(p.label)} <b>${pctVal(v)}</b></button>`; }).join('')}</div>`;
   },
   plot(spec, s) {
@@ -572,6 +646,7 @@ TYPES.trend = {
 
 TYPES.indexed = {
   state: (spec) => ({ base: spec.selected }),
+  names: { base: 'index base' },
   controls(spec, s) {
     return segmented('base', spec.bases.map((b) => ({ id: b.id, label: `${b.label}, ${qLabel(b.id)}` })), s.base, 'Index to 100 at');
   },
@@ -606,6 +681,86 @@ TYPES.indexed = {
   }
 };
 
+// ---------- Temporal contract (UX-1.12) ----------
+// One line under the dek: when the numbers are from, how often they move, when the source published
+// them, when we read them, what kind of number they are and when the next release is due. Missing
+// items are left out, so nothing ever prints "null".
+
+const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
+const given = (v) => v !== null && v !== undefined && String(v).trim() !== '' && String(v).trim() !== 'null';
+const dayText = (v) => (ISO_DAY.test(String(v).trim()) ? shortDate(String(v).trim()) : String(v).trim());
+
+export function contractLine(contract) {
+  if (!contract || typeof contract !== 'object') return '';
+  const items = [];
+  if (given(contract.asOf)) items.push(`As of ${dayText(contract.asOf)}`);
+  if (given(contract.frequency)) items.push(String(contract.frequency).trim());
+  if (given(contract.sourcePublished)) items.push(`published ${dayText(contract.sourcePublished)}`);
+  if (given(contract.retrieved)) items.push(`read ${dayText(contract.retrieved)}`);
+  if (given(contract.kind)) items.push(String(contract.kind).trim());
+  if (given(contract.nextUpdate)) items.push(`next release ${dayText(contract.nextUpdate)}`);
+  return items.map((item) => `<span class="desk-contract-item">${esc(item)}</span>`).join(' · ');
+}
+
+// ---------- Scenario permalink and the "what changed" line (UX-1.14) ----------
+// `#desk-<id>` is the figure's anchor; `#desk-<id>?eps=-10&y=5.5` adds the keys that differ from the
+// base, so a reader can hand someone the exact scenario while the plain anchor keeps working.
+
+export function hashForState(spec, type, state) {
+  const base = type.state(spec);
+  const params = new URLSearchParams();
+  for (const key of Object.keys(base)) if (!same(state[key], base[key])) params.set(key, String(state[key]));
+  const query = params.toString();
+  return `#desk-${spec.id}${query ? `?${query}` : ''}`;
+}
+
+// The patch a hash asks for, or null when it does not address this figure with parameters. Unknown
+// keys and unknown chip values are ignored; sliders are clamped to their track.
+export function stateFromHash(spec, type, hash) {
+  const raw = String(hash || '').replace(/^#/, '');
+  const at = raw.indexOf('?');
+  if (at < 0 || raw.slice(0, at) !== `desk-${spec.id}`) return null;
+  const base = type.state(spec);
+  const meta = fieldsOf(spec, type);
+  const out = {};
+  for (const [key, value] of new URLSearchParams(raw.slice(at + 1))) {
+    if (!Object.prototype.hasOwnProperty.call(base, key)) continue;
+    const choice = meta.choices[key];
+    if (choice && !choice.options.some((o) => String(o.value) === value)) continue;
+    Object.assign(out, constrain(meta, { [key]: meta.sliders[key] ? value : parseValue(value) }));
+  }
+  return out;
+}
+
+// "You set the change in forward earnings to −10% (base 0%) and the 10-year Treasury yield to 5.50%
+// (base 5.31%)." A control is named by its slider label or its chip group unless the type names it
+// better (`names`); a value by the type's labels or the chip's text. Empty at base.
+const nounOf = (type, meta, key, value) => {
+  const track = meta.sliders[key];
+  const choice = meta.choices[key];
+  const option = choice && (choice.options.find((o) => same(o.value, value)) || choice.options[0]);
+  const raw = (type.names && type.names[key]) || (track && track.label) || (option && option.group) || key;
+  return raw.replace(/^[A-Z](?=[a-z])/, (c) => c.toLowerCase());
+};
+const valueOf = (type, spec, meta, s, key, value) => {
+  if (type.labels && type.labels[key]) return type.labels[key]({ ...s, [key]: value }, spec);
+  const choice = meta.choices[key];
+  const option = choice && choice.options.find((o) => same(o.value, value));
+  return option ? option.label : String(value);
+};
+
+export function changedSentence(spec, type, state, meta = fieldsOf(spec, type)) {
+  const base = type.state(spec);
+  const parts = Object.keys(base)
+    .filter((key) => !same(state[key], base[key]))
+    .map((key) => `the ${nounOf(type, meta, key, state[key])} to ${valueOf(type, spec, meta, state, key, state[key])} (base ${valueOf(type, spec, meta, base, key, base[key])})`);
+  if (!parts.length) return '';
+  return `You set ${parts.length > 1 ? `${parts.slice(0, -1).join(', ')} and ${parts[parts.length - 1]}` : parts[0]}.`;
+}
+
+export const COPY_DONE = 'Scenario link copied.';
+export const COPY_FAILED = 'Copy failed. Use the address bar to share.';
+
 // ---------- Figure ----------
 
 const pad = (n) => String(n).padStart(2, '0');
@@ -619,6 +774,13 @@ export function renderFigure(spec, { story, headingLevel = 3, context = 'desk' }
   const link = context === 'desk'
     ? `<a class="link-arrow" href="/stories/${story.slug}/">Read Part ${pad(story.part)}: ${esc(story.headline)}</a>`
     : `<a class="link-arrow" href="/data/#${id}">More in the Data Desk</a>`;
+  const controls = type.controls(spec, state);
+  const contract = spec.contract ? contractLine(spec.contract) : '';
+  // A figure with state can be shared as a scenario; one with sliders or presets can also go back to base.
+  const stateful = Object.keys(state).length > 0;
+  const actions = stateful
+    ? `<div class="desk-actions">${/data-set-number=|data-preset=/.test(controls) ? '<button type="button" class="desk-reset" data-reset aria-disabled="true">Reset to base</button>' : ''}<button type="button" class="desk-copy" data-copy-scenario>Copy this scenario</button><span class="desk-copy-status" role="status" aria-live="polite"></span></div>`
+    : '';
   return `<figure class="desk desk-${spec.type}" id="${id}" data-desk="${spec.type}" data-spec="${esc(JSON.stringify(spec))}" aria-labelledby="${id}-title">
 <div class="desk-inner">
   <div class="desk-side">
@@ -626,6 +788,7 @@ export function renderFigure(spec, { story, headingLevel = 3, context = 'desk' }
     <p class="kicker"><span class="kicker-series">Data Desk · ${spec.live ? 'Live · ' : ''}Part ${pad(story.part)}</span><span class="kicker-topic">${esc(story.section)}</span></p>
     <${h} id="${id}-title" class="desk-title">${esc(spec.title)}</${h}>
     <p class="desk-dek">${esc(spec.dek)}</p>
+    ${contract ? `<p class="desk-contract">${contract}</p>` : ''}
     ${spec.live ? `<p class="desk-asof"><span class="live-dot" aria-hidden="true"></span>Live data, updated ${esc(spec.live.asOf)}</p>` : ''}
   </header>
   <footer class="desk-foot">
@@ -635,9 +798,10 @@ export function renderFigure(spec, { story, headingLevel = 3, context = 'desk' }
     ${link}
   </footer>
   </div>
-  <div class="desk-controls">${type.controls(spec, state)}</div>
+  <div class="desk-controls">${controls}${actions}</div>
   <div class="desk-plot" data-plot>${type.plot(spec, state)}</div>
   <p class="desk-readout" data-readout aria-live="polite">${esc(type.readout(spec, state))}</p>
+  ${stateful ? '<p class="desk-changed" data-changed aria-live="polite"></p>' : ''}
 </div>
 </figure>`;
 }
@@ -652,9 +816,15 @@ export function mount(fig) {
   const spec = JSON.parse(fig.getAttribute('data-spec'));
   const type = TYPES[spec.type];
   if (!type) return;
-  let state = type.state(spec);
+  const base = type.state(spec);
+  const meta = fieldsOf(spec, type);
+  let state = { ...base };
+  const doc = fig.ownerDocument;
   const plotEl = fig.querySelector('[data-plot]');
   const readEl = fig.querySelector('[data-readout]');
+  const changedEl = fig.querySelector('[data-changed]');
+  const resetEl = fig.querySelector('[data-reset]');
+  const statusEl = fig.querySelector('.desk-copy-status');
   const sync = () => {
     if (type.sync) type.sync(fig, spec, state);
     fig.querySelectorAll('button[data-set]').forEach((b) => b.setAttribute('aria-pressed', String(String(state[b.dataset.set]) === b.dataset.value)));
@@ -667,25 +837,85 @@ export function mount(fig) {
       const out = fig.querySelector(`[data-out="${key}"]`);
       if (out) out.textContent = label;
     });
+    // The typed twin follows the state except while the reader is typing in it; `change` settles it.
+    fig.querySelectorAll('input[data-set-number]').forEach((input) => {
+      const key = input.dataset.setNumber;
+      if (doc.activeElement !== input && Number(input.value) !== state[key]) input.value = state[key];
+    });
+    fig.querySelectorAll('[data-base-for]').forEach((el) => { const key = el.dataset.baseFor; el.hidden = same(state[key], base[key]); });
+    const atBase = Object.keys(base).every((key) => same(state[key], base[key]));
+    if (resetEl) resetEl.setAttribute('aria-disabled', String(atBase));
+    if (changedEl) changedEl.textContent = changedSentence(spec, type, state, meta);
   };
   const render = () => {
     plotEl.innerHTML = type.plot(spec, state);
     readEl.textContent = type.readout(spec, state);
     sync();
   };
-  const set = (patch) => { if (type.adjust) patch = type.adjust(spec, state, patch); state = { ...state, ...patch }; render(); };
+  const apply = (patch) => {
+    patch = constrain(meta, patch);
+    if (type.adjust) patch = type.adjust(spec, state, patch);
+    state = { ...state, ...patch };
+    render();
+  };
+  // The address bar carries the scenario; replaceState keeps the back button out of it.
+  const writeHash = () => {
+    if (typeof location === 'undefined' || typeof history === 'undefined' || !history.replaceState) return;
+    const hash = hashForState(spec, type, state);
+    if (location.hash === hash) return;
+    try { history.replaceState(history.state, '', `${location.pathname}${location.search}${hash}`); } catch { /* a frame that forbids it still has a working figure */ }
+  };
+  const set = (patch) => { apply(patch); writeHash(); };
+  const say = (text) => {
+    if (!statusEl) return;
+    statusEl.textContent = text;
+    setTimeout(() => { if (statusEl.textContent === text) statusEl.textContent = ''; }, 3200);
+  };
+  const copyScenario = () => {
+    writeHash();
+    const page = typeof location === 'undefined' ? '' : `${location.origin}${location.pathname}`;
+    const clipboard = typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function' ? navigator.clipboard : null;
+    if (!clipboard) { say(COPY_FAILED); return; }
+    clipboard.writeText(page + hashForState(spec, type, state)).then(() => say(COPY_DONE), () => say(COPY_FAILED));
+  };
   fig.addEventListener('input', (event) => {
-    const input = event.target.closest && event.target.closest('input[data-set]');
-    if (input) set({ [input.dataset.set]: parseValue(input.value) });
+    const target = event.target;
+    if (!target || !target.closest) return;
+    const range = target.closest('input[data-set]');
+    if (range) { set({ [range.dataset.set]: parseValue(range.value) }); return; }
+    const twin = target.closest('input[data-set-number]');
+    if (twin && twin.value !== '' && Number.isFinite(Number(twin.value))) set({ [twin.dataset.setNumber]: Number(twin.value) });
+  });
+  fig.addEventListener('change', (event) => {
+    const twin = event.target && event.target.closest && event.target.closest('input[data-set-number]');
+    if (twin) twin.value = state[twin.dataset.setNumber];
   });
   fig.addEventListener('click', (event) => {
     const button = event.target.closest && event.target.closest('button');
     if (!button || !fig.contains(button)) return;
     if (button.dataset.set) set({ [button.dataset.set]: parseValue(button.dataset.value) });
     else if (button.dataset.preset) set(JSON.parse(button.dataset.preset));
+    else if ('reset' in button.dataset) { if (button.getAttribute('aria-disabled') !== 'true') set(type.state(spec)); }
+    else if ('copyScenario' in button.dataset) copyScenario();
   });
   if (type.mount) type.mount(fig, spec);
   fig.classList.add('is-live');
+  // A shared scenario is applied one key at a time, so a type's `adjust` sees each move as the reader
+  // made it. The figure is brought into view once the page has settled: the hash matches no element,
+  // so the browser does not do it, and at DOMContentLoaded the layout is still moving.
+  const win = doc.defaultView;
+  const reveal = () => { if (typeof fig.scrollIntoView === 'function') fig.scrollIntoView(); };
+  const follow = (hash) => {
+    const shared = stateFromHash(spec, type, hash);
+    if (!shared) return false;
+    for (const [key, value] of Object.entries(shared)) apply({ [key]: value });
+    return true;
+  };
+  if (win && win.location && follow(win.location.hash)) {
+    if (doc.readyState === 'complete') reveal(); else win.addEventListener('load', reveal, { once: true });
+  }
+  // The same page can receive a new scenario (a pasted link, a step back); our own replaceState never fires this.
+  if (win && typeof win.addEventListener === 'function') win.addEventListener('hashchange', () => { if (follow(win.location.hash)) reveal(); });
   sync();
 }
 

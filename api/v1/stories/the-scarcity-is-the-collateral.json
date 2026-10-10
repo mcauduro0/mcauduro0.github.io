@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
   "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -202,6 +203,31 @@
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#what-lenders-actually-own"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Who writes the checks for the buildout?",
+      "url": "/questions/who-writes-the-checks-for-the-buildout/"
+    },
+    "read": {
+      "stance": "Lenders are mispricing scarcity",
+      "line": "Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p08-t01",
+      "date": "2026-10-20",
+      "whenLabel": "Oct 20, 2026",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "On September 24, Oracle sent a letter to a unit of Blue Owl Capital about Project Jupiter, a 2.45-gigawatt New Mexico campus being built for the Stargate venture with OpenAI. The notice invokes force majeure and would let Oracle defer payments if the site misses its 2028 opening. A pipeline meant to supply its gas-fired fuel cells has slipped to February 2027 after regulators rejected its permits more than once. New Mexico has until November 23 to decide on the fuel cells’ air-quality permit. Oracle says the project is on schedule; Blue Owl says the notice changes none of the financial commitments. That week, Oracle’s five-year credit default swaps reached a record of about 227 basis points a year, according to Seeking Alpha’s report.",
     "The split in credit markets is stark. The extra yield on the ICE BofA index of U.S. corporate bonds was 83 basis points on September 28, near the middle of its range for the year. CCC bonds paid 1,146 basis points over Treasuries, the widest spread of 2026, for an all-in yield of 16.4%, according to FRED. AI builders sit between those two worlds: not distressed, but no longer priced like an untroubled expansion either.",

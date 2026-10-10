@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
   "api": "https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json",
   "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/",
+  "layer": null,
   "call": {
     "tone": "bull",
     "toneLabel": "Constructive",
@@ -206,6 +207,31 @@
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#the-test-is-demand"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Is power scarcity a warning, or a moat?",
+      "url": "/questions/is-power-scarcity-a-warning-or-a-moat/"
+    },
+    "read": {
+      "stance": "Long access, not hardware",
+      "line": "This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet.",
+      "tone": "bull",
+      "toneLabel": "Constructive",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p06-t01",
+      "date": "2026-12-10",
+      "whenLabel": "Dec 10, 2026",
+      "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "stage": "open",
+      "stageLabel": "Open question",
+      "status": "pending"
+    }
+  },
   "body": [
     "Nebius is selling the same megawatt at two prices. A customer signing for one to three years pays $20 million to $25 million per megawatt. A customer demanding delivery within six months pays $40 million to $50 million. The premium for the present is roughly double the price of the future.",
     "Michael Burry read that spread in an August 12 trading post and gave it a credit analyst’s name: backwardation. His question was more useful than the label. If power does not depreciate, what is losing value? His answer was the GPU, the customer, or both. Nebius has already stretched the assumed life of its servers from four years to five.",

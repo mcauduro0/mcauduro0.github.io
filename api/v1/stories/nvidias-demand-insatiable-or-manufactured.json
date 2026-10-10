@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 1,
   "slug": "nvidias-demand-insatiable-or-manufactured",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
   "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json",
   "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -168,6 +169,31 @@
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#what-breaks-first"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Is the marginal buyer of AI compute real?",
+      "url": "/questions/is-the-marginal-buyer-of-ai-compute-real/"
+    },
+    "read": {
+      "stance": "Bull on demand. Bear on the financing.",
+      "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p01-t01",
+      "date": null,
+      "whenLabel": "When the bottleneck clears",
+      "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+      "stage": "open",
+      "stageLabel": "Open question",
+      "status": "pending"
+    }
+  },
   "body": [
     "In late May, Apollo was raising $38 billion of debt to put Google’s TPUs, not Nvidia’s GPUs, behind Anthropic. The transaction put private credit between the chipmaker and its end demand. It turned a balance-sheet question into a semiconductor one: the payer sits several layers away from the chipmaker.",
     "Ten weeks later, Apollo and Blackstone were assembling a $35 billion first tranche of an “AI XPU platform”: twenty gigawatts of Broadcom-designed compute through 2028. The structure lets AI labs rent the future without carrying all of it on their own balance sheets. The same plumbing can look like proof of scarcity or a way to make future demand easier to finance than to verify.",

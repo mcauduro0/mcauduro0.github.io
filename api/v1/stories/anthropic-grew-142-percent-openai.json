@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
   "api": "https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json",
   "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -176,6 +177,31 @@
       "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#what-would-break-it"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "What does a frontier lab sell: a commodity, or a premium?",
+      "url": "/questions/what-does-a-frontier-lab-sell-a-commodity-or-a-premium/"
+    },
+    "read": {
+      "stance": "Split the trade",
+      "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p05-t04",
+      "date": "2028-01-03",
+      "whenLabel": "Jan 3, 2028",
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "stage": "open",
+      "stageLabel": "Open question",
+      "status": "pending"
+    }
+  },
   "body": [
     "In the second quarter, OpenAI grew revenue about 18 percent from the prior quarter. Anthropic grew 142 percent. The slow laboratory went from $5.7bn to $6.7bn, according to Michael Spencer; Anthropic reached $11.6bn. Steve Eisman reported the same gap a fortnight later, with a brutal addendum: OpenAI’s costs rose about $3bn against roughly $1bn of new revenue.",
     "The market has treated the two laboratories as one customer, one credit story and one AI trade. That is becoming a dangerous shortcut. OpenAI is showing the marks of a business being forced to sell intelligence more cheaply. Anthropic is still collecting a premium where enterprise coding turns model use into recurring work. The evidence says the pair should be separated before the numbers separate the investors for them.",

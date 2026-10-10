@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
   "api": "https://deepstack.ltd/api/v1/stories/the-fed-hiked-the-long-end-kept-climbing.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -204,6 +205,31 @@
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#what-settles-it"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
+      "url": "/questions/why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer/"
+    },
+    "read": {
+      "stance": "Supply sets the long end",
+      "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p07-t02",
+      "date": "2026-10-15",
+      "whenLabel": "Oct 15, 2026",
+      "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "The Federal Reserve moved its policy rate up a quarter point on September 16, to a range of 3.75% to 4%. Six trading days later, the 10-year Treasury yield had climbed from 5.01% to 5.18%, its highest level since 2007. The real yield on the 10-year inflation-protected note rose from 2.68% to 2.85%, while the 30-year bond reached 5.47%. The Fed tightened. The long end did the opposite of what a textbook transmission mechanism promises.",
     "At the press conference, Neil Irwin of Axios asked Kevin Warsh what the bond market was telling the Fed. Warsh called such moves “overdetermined”, listing a stronger economy, geopolitics and a scramble for capital in which “the so-called hyperscalers are out in the market raising funding”. The funding explanation matters most. The buildout of data centers, chips and power has moved from an equity story into the price of every new dollar borrowed.",

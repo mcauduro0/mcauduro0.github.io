@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
   "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -177,6 +178,31 @@
       "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#credit-gets-the-last-word"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
+      "url": "/questions/the-debt-behind-the-machines-1999-capex-2008-credit-or-neither/"
+    },
+    "read": {
+      "stance": "Bearish on the credit",
+      "line": "The machines will earn. The credit stack is where this buildout breaks first.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 4,
+      "convictionLabel": "High"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p03-t01",
+      "date": "2026-11-10",
+      "whenLabel": "Nov 10, 2026",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "On Wednesday, August 12, the market offered a neat picture of an untidy boom. July inflation came in tame and the S&P held near its record. CoreWeave rose 19 percent on what a bear called “banner revenue”. Nebius jumped 34 percent even though Michael Burry had just added it to his short book. Nvidia gained 3 percent, taking its market value to $5.4 trillion. Headlines put a roughly $500 billion facility, arranged with Wall Street banks, behind purchases of Nvidia chips.",
     "On CNBC, CoreWeave’s chief executive said the company was renting out 2020-vintage GPUs on contracts running to 2029 at full freight. That afternoon, Burry said, “Nebius is what the top of a boom looks like.” Both statements can be true. A market can reward demand that is real while quietly charging more to finance it.",

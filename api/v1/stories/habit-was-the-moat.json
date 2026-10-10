@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
   "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json",
   "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -219,6 +220,31 @@
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/#the-tollbooth-shifts"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "How fast do habits break?",
+      "url": "/questions/how-fast-do-habits-break/"
+    },
+    "read": {
+      "stance": "Sell habit, buy the rails",
+      "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p09-t01",
+      "date": "2026-10-28",
+      "whenLabel": "Oct 28, 2026",
+      "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "On September 8, Meta released Muse, an assistant designed to run errands rather than answer questions. It reads email, books travel, cancels subscriptions, calls businesses and, once a card is connected, buys things. The basic version is free; heavier users pay $20 or $100 a month, according to Reuters. Within two weeks Muse was Apple’s most downloaded free app. Amazon then blocked it from buying on Amazon, saying it stored customer credentials and scraped account data, according to CNBC.",
     "Meta responded with distribution. At its September 23 developer conference it announced an “official fast lane” of retail connectors, including Walmart, Gap, Sephora, Expedia, Wayfair, Best Buy and Instacart. Mark Zuckerberg said Meta would keep a small cut of each purchase. Five days later Meta announced an enterprise platform built on Muse and hired MongoDB’s chief executive to run it. MongoDB lost about a fifth of its value by the open; ServiceNow, Salesforce and Meta fell about 4% within minutes, according to 24/7 Wall St.. OpenAI answered the next day with an always-on assistant.",

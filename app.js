@@ -91,6 +91,28 @@
     });
   }
 
+  // UX-1.16: a second button shares the Call itself (the six lines of the thesis) rather than the
+  // address: the share sheet where the browser has one, the clipboard elsewhere. The status is the
+  // byline's own, found from the button, so both buttons speak through the same live region.
+  function initShareCall(win, doc) {
+    var button = doc.querySelector('[data-share-call]');
+    if (!button) return;
+    var byline = button.closest ? button.closest('.story-byline') : null;
+    var status = (byline && byline.querySelector('.share-status')) || doc.querySelector('.share-status');
+    button.addEventListener('click', function () {
+      var text = button.getAttribute('data-share-text') || '';
+      var title = button.getAttribute('data-share-title') || doc.title;
+      function say(t) { if (status) { status.textContent = t; win.setTimeout(function () { status.textContent = ''; }, 3200); } }
+      if (win.navigator.share) {
+        win.navigator.share({ title: title, text: text, url: win.location.href }).catch(function () {});
+      } else if (win.navigator.clipboard && win.navigator.clipboard.writeText) {
+        win.navigator.clipboard.writeText(text).then(function () { say('The Call copied.'); }, function () { say('Copy failed. Use the address bar to share.'); });
+      } else {
+        say('Copy failed. Use the address bar to share.');
+      }
+    });
+  }
+
   function initProgress(win, doc) {
     var bar = doc.querySelector('.progress span');
     var body = doc.querySelector('.story-body');
@@ -182,6 +204,7 @@
       initMenu(document);
       initNewsletter(document);
       initShare(window, document);
+      initShareCall(window, document);
       initProgress(window, document);
       initToc(window, document);
       initArchive(window, document);

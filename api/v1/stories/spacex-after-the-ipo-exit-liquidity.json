@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
   "api": "https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json",
   "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/",
+  "layer": null,
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -174,6 +175,31 @@
       "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#what-2027-must-prove"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "SpaceX after the IPO: exit liquidity, or the next ten-bagger?",
+      "url": "/questions/spacex-after-the-ipo-exit-liquidity-or-the-next-ten-bagger/"
+    },
+    "read": {
+      "stance": "Ahead of the evidence",
+      "line": "SpaceX’s AI build is credible. The stock has already paid for 10 gigawatts it has not built.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p02-t01",
+      "date": "2027-01-01",
+      "whenLabel": "Jan 1, 2027",
+      "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+      "stage": "open",
+      "stageLabel": "Open question",
+      "status": "pending"
+    }
+  },
   "body": [
     "$225.64 was SpaceX’s high-water mark. The stock had started life as a public company at $135 a share on June 12, when the rocket group raised $75 billion at a valuation near $1.75 trillion. By early August, it had fallen to $104.83, a 54 percent drawdown that carried it below the offer price. It closed Wednesday at $146.15, eleven dollars above its starting point, after a nearly 30 percent jump following its first earnings report.",
     "In eight weeks, volatility has forced one ticker to carry three stories: satellite cash generation, a capital-intensive launch business and an audacious bet on artificial-intelligence infrastructure.",

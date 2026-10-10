@@ -518,7 +518,7 @@ a.sn:hover { border-color: var(--ink); transform: translateY(-2px); }
 /* ---------- Data Desk: shared chart system ---------- */
 .desk { margin: 0; container-type: inline-size; overflow: hidden; border: 1px solid var(--rule); border-radius: 10px; background: linear-gradient(180deg, #FBF8F2 0%, var(--card) 100%); box-shadow: 0 1px 0 rgba(14, 26, 43, 0.03), 0 22px 44px -32px rgba(14, 26, 43, 0.35); }
 .desk + .desk { margin-top: 28px; }
-.desk-inner { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "controls" "plot" "readout" "foot"; gap: 18px; padding: clamp(18px, 3.4cqi, 34px); }
+.desk-inner { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "controls" "plot" "readout" "changed" "foot"; gap: 18px; padding: clamp(18px, 3.4cqi, 34px); }
 .desk-head { grid-area: head; }
 .desk-controls { grid-area: controls; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
 .desk-controls:empty { display: none; }
@@ -527,7 +527,7 @@ a.sn:hover { border-color: var(--ink); transform: translateY(-2px); }
 .desk-foot { grid-area: foot; display: flex; flex-direction: column; align-items: flex-start; gap: 12px; min-width: 0; }
 .desk-side { display: contents; }
 @container (min-width: 860px) {
-  .desk-inner { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.55fr); grid-template-areas: "side controls" "side plot" "side readout" "side ."; grid-template-rows: auto auto auto 1fr; column-gap: clamp(32px, 4.4cqi, 60px); }
+  .desk-inner { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.55fr); grid-template-areas: "side controls" "side plot" "side readout" "side changed" "side ."; grid-template-rows: auto auto auto auto 1fr; column-gap: clamp(32px, 4.4cqi, 60px); }
   .desk-side { grid-area: side; display: flex; flex-direction: column; gap: 22px; }
 }
 .desk .kicker { margin-bottom: 10px; font-size: 10.5px; }
@@ -1648,3 +1648,73 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 .newsletter-sample { white-space: nowrap; }
 .dn-note { margin: 10px 0 0; }
 @media (max-width: 640px) { .orient-inner { flex-direction: column; align-items: flex-start; } }
+
+/* Sprint UX-1 (10 October 2026): the orientation strip, the glossary terms, the layers, the tape's end, the wire's stamp, the notes' why, the Weekly's changes, the Call share, the touch targets. Additive to the base. */
+.orient-strip { margin-top: 18px; padding: 16px 0 14px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.orient-strip > .label { margin-bottom: 10px; }
+.orient-strip-list { display: grid; grid-template-columns: 1fr; gap: 10px 0; margin: 0; }
+.orient-strip-list > div { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 0 18px; align-items: baseline; }
+.orient-strip-list dt { font: 700 11px/1.5 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber-ink); }
+.orient-strip-list dd { margin: 0; font: 400 15.5px/1.5 var(--serif); color: var(--ink-2); }
+.orient-strip-list dd strong { color: var(--ink); }
+.orient-strip-list .call-tone { margin-right: 6px; }
+.orient-strip-conviction { font: 500 12px/1.5 var(--mono); color: var(--muted); margin-left: 6px; white-space: nowrap; }
+.orient-strip-items { margin: 0; padding-left: 18px; }
+.orient-strip-items li { margin: 0 0 4px; }
+.orient-strip-jumps { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 14px 0 0; font: 600 13px/1.5 var(--sans); }
+.orient-strip-jumps a { color: var(--amber-ink); text-decoration: none; }
+.orient-strip-jumps a:hover { text-decoration: underline; }
+@media (max-width: 760px) { .orient-strip-list > div { grid-template-columns: 1fr; gap: 2px 0; } }
+.term { font-style: normal; position: relative; }
+.term-link { color: inherit; text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+.term-def { position: absolute; left: 0; bottom: calc(100% + 6px); z-index: 20; width: min(34ch, 80vw); padding: 10px 12px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); box-shadow: 0 10px 28px rgba(14, 26, 43, 0.12); font: 400 13.5px/1.45 var(--sans); color: var(--ink-2); opacity: 0; visibility: hidden; transition: opacity .12s ease; }
+.term:hover .term-def, .term:focus-within .term-def, .term.is-open .term-def { opacity: 1; visibility: visible; }
+.term-more { display: inline-block; margin-left: 4px; font: 600 12px/1.4 var(--sans); color: var(--amber-ink); text-decoration: none; }
+@media (hover: none) { .term:hover .term-def { opacity: 0; visibility: hidden; } .term.is-open .term-def { opacity: 1; visibility: visible; } }
+.glossary-list { margin: 0; display: grid; grid-template-columns: 1fr; gap: 22px 0; }
+.glossary-term { padding-top: 14px; border-top: 1px solid var(--rule); }
+.glossary-term dt { font: 700 20px/1.25 var(--serif); color: var(--ink); }
+.glossary-aliases { display: inline-block; margin-left: 10px; font: 400 12.5px/1.4 var(--sans); color: var(--muted); }
+.glossary-term dd { margin: 8px 0 0; max-width: 72ch; }
+.glossary-term dd p { margin: 0 0 6px; font: 400 16px/1.55 var(--serif); color: var(--ink-2); }
+.glossary-where { font: 500 12.5px/1.5 var(--sans) !important; color: var(--muted) !important; }
+.archive-layers { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 14px; }
+.archive-layers > .label { margin-right: 6px; }
+.archive-layers button { min-height: 34px; padding: 0 12px; border: 1px solid var(--rule); border-radius: 999px; background: transparent; font: 600 12.5px/1 var(--sans); color: var(--ink-2); cursor: pointer; }
+.archive-layers button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--on-navy); }
+.archive-layers .layer-count { margin-left: 4px; font: 500 11px/1 var(--mono); color: inherit; opacity: .75; }
+.archive-layers [data-layer-count] { margin-left: auto; }
+.card-facts { margin: 8px 0 0; font: 500 12.5px/1.5 var(--sans); color: var(--muted); }
+.card-layer { font: 700 11px/1.5 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber-ink); }
+.card-sm .card-facts { margin-top: 6px; font-size: 11.5px; }
+.tape-count { margin-left: 6px; color: var(--on-navy-muted); }
+.tape-all a { background: var(--navy-2); }
+.tape-all .tape-label { color: var(--amber); }
+@media (max-width: 640px) { .tape-list a { max-width: 76vw; } .tape-list a .tape-label { white-space: normal; } }
+.wire-refresh { margin-left: 8px; font: 500 11px/1.5 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+@media (max-width: 640px) { .wire-refresh { display: none; } }
+.live-why { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; margin: 12px 0 0; padding: 10px 0 0; border-top: 1px dotted var(--rule); }
+.live-why > div { min-width: 0; }
+.live-why dt { font: 700 10.5px/1.5 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.live-why dd { margin: 2px 0 0; font: 400 13px/1.45 var(--sans); color: var(--ink-2); }
+@media (max-width: 560px) { .live-why { grid-template-columns: 1fr; } }
+.weekly-changes-list { margin: 8px 0 0; padding-left: 18px; font: 400 15px/1.5 var(--serif); color: var(--ink-2); }
+.share-call { margin-left: 6px; }
+@media (pointer: coarse) { .archive-bar button, .archive-layers button, .order button, .presets button, .seg button, .chip, .tape-list a, .term-link, .nav-cta, .orient-strip-jumps a { min-height: 44px; display: inline-flex; align-items: center; } }
+.table-scroll:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+/* UX-1.14 and UX-1.12 (10 October 2026): the Data Desk controls (limits, step, numeric twin, base marker, reset, scenario link, what changed) and the temporal contract line. Additive. */
+.slider-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.slider-ends { display: flex; justify-content: space-between; gap: 12px; margin-top: -4px; font: 500 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.slider-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; font: 500 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.slider-base { color: var(--ink-2); }
+.slider-number { margin-left: auto; width: 7.5ch; min-height: 28px; padding: 2px 6px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); font: 600 13px/1.2 var(--mono); color: var(--ink); letter-spacing: 0; text-transform: none; }
+.slider-number:focus-visible { outline: 2px solid var(--amber-ink); outline-offset: 1px; }
+.desk-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+.desk-reset, .desk-copy { display: inline-flex; align-items: center; gap: 8px; padding: 0 0 3px; border: 0; border-bottom: 1.5px solid var(--amber); border-radius: 0; background: transparent; font: 650 13.5px/1.3 var(--sans); color: var(--ink); cursor: pointer; }
+.desk-reset[aria-disabled="true"] { color: var(--muted); border-bottom-color: var(--rule); cursor: default; }
+.desk-copy-status { font: 500 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.desk-copy-status:empty { display: none; }
+.desk-changed { grid-area: changed; margin: -6px 0 0; font: 400 13.5px/1.5 var(--sans); color: var(--muted); }
+.desk-changed:empty { display: none; }
+.desk-contract { margin-top: 10px; font: 500 11px/1.6 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+@media (pointer: coarse) { .desk-reset, .desk-copy, .slider-number { min-height: 44px; } }

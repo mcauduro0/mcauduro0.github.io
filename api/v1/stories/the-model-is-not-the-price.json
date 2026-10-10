@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:41:38Z",
+  "generatedAt": "2026-10-10T18:20:37Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -12,6 +12,7 @@
   "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
   "api": "https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/",
+  "layer": null,
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -242,6 +243,31 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#the-tests-ahead"
     }
   ],
+  "orientation": {
+    "question": {
+      "text": "Does the frontier model still command a price?",
+      "url": "/questions/does-the-frontier-model-still-command-a-price/"
+    },
+    "read": {
+      "stance": "The price has left the model",
+      "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+      "tone": "split",
+      "toneLabel": "Mixed",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [],
+    "uncertain": [],
+    "next": {
+      "id": "p12-t01",
+      "date": "2026-10-28",
+      "whenLabel": "Oct 28, 2026",
+      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending"
+    }
+  },
   "body": [
     "Start with three numbers. On September 27, Charlie Hills put Anthropic's Opus 5.5 at $4 per million input tokens against $10 for OpenAI's GPT-6 Astra, 60% cheaper. On October 1, Michael Spencer counted Chinese models at 57% to 67% of token usage on the OpenRouter platform by September. On October 2, Tae Kim reported OpenAI at $70 billion of annualized revenue. The frontier got cheaper and the open models took the volume. The lab's revenue, on Kim's October 2 figure, grew anyway.",
     "The lab's price is a different number. Longriver Investment Partners Limited, in its July 20 letter, relayed an annualized run-rate at Anthropic of $1 billion at the end of 2024, $9 billion at the end of 2025 and almost $50 billion in May, as proof that customers pay for agentic work. Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google. Distillate Capital Partners LLC, on July 15, counted roughly $180 billion committed by the hyperscalers and Nvidia to the two labs, about $1.1 trillion of compute pledged back, and $53 billion of first-quarter hyperscaler net income, 34% of the total, booked as non-cash marks on those stakes.",
