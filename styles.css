@@ -1667,10 +1667,14 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 @media (max-width: 760px) { .orient-strip-list > div { grid-template-columns: 1fr; gap: 2px 0; } }
 .term { font-style: normal; position: relative; }
 .term-link { color: inherit; text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--amber); text-underline-offset: 3px; }
-.term-def { position: absolute; left: 0; bottom: calc(100% + 6px); z-index: 20; width: min(34ch, 80vw); padding: 10px 12px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); box-shadow: 0 10px 28px rgba(14, 26, 43, 0.12); font: 400 13.5px/1.45 var(--sans); color: var(--ink-2); opacity: 0; visibility: hidden; transition: opacity .12s ease; }
-.term:hover .term-def, .term:focus-within .term-def, .term.is-open .term-def { opacity: 1; visibility: visible; }
+.term-def { position: absolute; left: 0; bottom: calc(100% + 6px); z-index: 20; width: min(300px, calc(100vw - 32px)); padding: 10px 12px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); box-shadow: 0 10px 28px rgba(14, 26, 43, 0.12); font: 400 13.5px/1.45 var(--sans); color: var(--ink-2); display: none; }
+.term:hover .term-def, .term:focus-within .term-def, .term.is-open .term-def { display: block; }
+.term-def::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 8px; }
+.term.term-flip .term-def { left: auto; right: 0; }
 .term-more { display: inline-block; margin-left: 4px; font: 600 12px/1.4 var(--sans); color: var(--amber-ink); text-decoration: none; }
-@media (hover: none) { .term:hover .term-def { opacity: 0; visibility: hidden; } .term.is-open .term-def { opacity: 1; visibility: visible; } }
+@media (hover: none) { .term:hover .term-def { display: none; } .term:focus-within .term-def, .term.is-open .term-def { display: block; } }
+@media (max-width: 640px) { .term-def, .term.term-flip .term-def { position: fixed; left: 16px; right: 16px; bottom: 16px; width: auto; max-height: 50vh; overflow: auto; box-shadow: 0 -8px 28px rgba(14, 26, 43, 0.18); } .term-def::after { display: none; } }
+.orient-strip-fine { margin: 10px 0 0; }
 .glossary-list { margin: 0; display: grid; grid-template-columns: 1fr; gap: 22px 0; }
 .glossary-term { padding-top: 14px; border-top: 1px solid var(--rule); }
 .glossary-term dt { font: 700 20px/1.25 var(--serif); color: var(--ink); }

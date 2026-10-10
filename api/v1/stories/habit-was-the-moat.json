@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
   "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json",
   "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
-  "layer": null,
+  "layer": {
+    "id": "distribution",
+    "label": "Distribution and applications"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -233,8 +236,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Meta rose 18% and AMD 33% between September 8 and October 2 (Financial Modeling Prep closing prices).",
+      "Paid consumer AI adoption is about 3% (Moses Sternstein); 61% to 70% of bookings begin in AI recommendations (Oguz Erkan, September 2026).",
+      "Muse does not only answer: it chooses, pays and decides which seller is seen."
+    ],
+    "uncertain": [
+      "Whether Meta reports Muse users, volume or fees on October 28 (test p09-t01).",
+      "Whether Booking keeps room nights and its direct share (test p09-t02).",
+      "Whether households still pay Intuit for certainty in the first tax season with agents."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p09-t01",
       "date": "2026-10-28",

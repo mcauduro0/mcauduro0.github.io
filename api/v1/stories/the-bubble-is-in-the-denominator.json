@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
   "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/",
-  "layer": null,
+  "layer": {
+    "id": "markets",
+    "label": "Markets and rates"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -226,8 +229,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "The S&P 500 trades at 19.0 times forward earnings, with third-quarter earnings growth expected at 29.5% (FactSet, October 2).",
+      "The 10-year Treasury closed at 5.31% on October 5 (CNBC), above the forward earnings yield.",
+      "Hyperscalers issued about $250 billion of high-grade bonds through August (Apollo presentation via Leyla Kunimoto)."
+    ],
+    "uncertain": [
+      "Whether depreciation grows faster than operating income at the four hyperscalers (test p10-t01).",
+      "Whether used-chip values and server lives hold after scarcity fades.",
+      "Whether productivity rises enough for the rest of the economy to write the checks."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p10-t02",
       "date": "2026-10-01",

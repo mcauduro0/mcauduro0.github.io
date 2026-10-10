@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
   "api": "https://deepstack.ltd/api/v1/stories/the-debt-behind-the-machines.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-debt-behind-the-machines/",
-  "layer": null,
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -191,8 +194,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Nebius prices six months of compute at roughly twice its one-to-three-year rate, $40 to 50 million against $20 to 25 million (Michael Burry, August 12).",
+      "A $500 billion Wall Street-arranged chip facility and a $250 billion Nvidia guarantee on the Ohio campus were reported in August (headlines; Vitaliy Katsenelson).",
+      "H100 re-lets near 95% and a modeled 21% return keep the bull case credible (Market Sentiment); only 6% of AI paper is investment grade (JunkBondInvestor)."
+    ],
+    "uncertain": [
+      "Who bears depreciation when financing costs rise.",
+      "Whether the short-term premium persists or collapses toward long-term rates (test p03-t01).",
+      "Whether the queued $50 to 60 billion of issuance clears without wider concessions."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p03-t01",
       "date": "2026-11-10",

@@ -8,6 +8,17 @@
   function closeAll(except) {
     Array.prototype.forEach.call(doc.querySelectorAll('.term.is-open'), function (el) { if (el !== except) { el.classList.remove('is-open'); var a = el.querySelector('.term-link'); if (a) a.setAttribute('aria-expanded', 'false'); } });
   }
+  // A definition opens above its term, 300px wide at most; where that would spill past the right
+  // edge the term gets .term-flip and the definition hangs from its right edge instead. Under 640px
+  // the stylesheet shows the definition as a sheet at the bottom of the screen, so nothing is placed.
+  function place() {
+    var vw = doc.documentElement.clientWidth;
+    var w = Math.min(300, vw - 32);
+    Array.prototype.forEach.call(doc.querySelectorAll('.term'), function (el) {
+      var r = el.getBoundingClientRect();
+      el.classList.toggle('term-flip', vw > 640 && r.left + w > vw - 16 && r.right - w >= 16);
+    });
+  }
   function init() {
     var terms = doc.querySelectorAll('.term');
     if (!terms.length) return;
@@ -25,6 +36,8 @@
     });
     doc.addEventListener('click', function (event) { if (!(event.target.closest && event.target.closest('.term'))) closeAll(null); });
     doc.addEventListener('keydown', function (event) { if (event.key === 'Escape') closeAll(null); });
+    place();
+    window.addEventListener('resize', place);
   }
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', init); else init();
 })();

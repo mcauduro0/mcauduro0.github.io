@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
   "api": "https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
-  "layer": null,
+  "layer": {
+    "id": "energy",
+    "label": "Energy and infrastructure"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -243,8 +246,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Household prices per kilowatt-hour rose a median 11.7% across PJM's nine jurisdictions in the year to July, against 5.6% across the other 42 (EIA-861M, first published September 24; DeepStack calculation).",
+      "PJM's auction for the year from June 2027 cleared 6,623 MW short of its reliability requirement, the first shortfall since 2007 (PJM results, as relayed by tscsw).",
+      "Maryland's Office of People's Counsel put $1.6 billion of added transmission cost on Maryland bills over ten years (FERC filing, June 11)."
+    ],
+    "uncertain": [
+      "Whether the gap stays at least four points in the August data (test p13-t01) and in the full 2026 data (test p13-t03).",
+      "Whether the December 9 auction clears below the price cap (test p13-t02).",
+      "Whether a rule makes large loads bring their own capacity."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p13-t01",
       "date": "2026-10-20",

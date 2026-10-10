@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
   "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/",
-  "layer": null,
+  "layer": {
+    "id": "chips",
+    "label": "Chips and suppliers"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -204,8 +207,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Ciena guides to at least $10 billion of backlog at the end of fiscal 2026 with supply secured through fiscal 2029 (Gaetano, September 17).",
+      "Microsoft's backlog due beyond a year grew 113% while the book due within a year grew 37% (filing, as read by Michael Burry).",
+      "Nvidia's terms for its best-rated customers stretched from 90 days to a year (Steve Eisman), and Meta carries a $28 billion residual-value guarantee on its data-center venture (filing, as read by Burry)."
+    ],
+    "uncertain": [
+      "Whether Microsoft's within-a-year share of backlog rises above 30% on October 28.",
+      "Nvidia's days sales outstanding and customer concentration on November 18.",
+      "Whether Perma-Pipe and Ciena convert backlog at the margins their managements gave."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p11-t01",
       "date": "2026-10-28",

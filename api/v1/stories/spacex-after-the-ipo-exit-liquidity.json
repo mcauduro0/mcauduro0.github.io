@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/",
   "api": "https://deepstack.ltd/api/v1/stories/spacex-after-the-ipo-exit-liquidity.json",
   "sidesUrl": "https://deepstack.ltd/sides/spacex-after-the-ipo-exit-liquidity/",
-  "layer": null,
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -188,8 +191,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "SpaceX raised $75 billion on June 12 at a valuation near $1.75 trillion and fell 54% from the peak by early August.",
+      "0.4 GW of compute is deployed against a site plan near 10 GW by the end of 2027 (Kakashii's first-quarter reading; SemiAnalysis).",
+      "Anthropic's $1.25 billion monthly contract runs through May 2029 (Kevin Gee), and Starlink's $4.4 billion of operating income carries the build."
+    ],
+    "uncertain": [
+      "Whether deployed gigawatts reach the plan's pace quarter by quarter.",
+      "Whether contracted AI demand keeps paying when the Anthropic commitment lapses.",
+      "Whether lenders keep pricing Starlink as cover for AI spending."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p02-t01",
       "date": "2027-01-01",

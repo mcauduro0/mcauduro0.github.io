@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
   "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/",
-  "layer": null,
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -216,8 +219,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Oracle's five-year CDS reached a record 227 basis points, and its free cash flow was negative $28.7 billion.",
+      "Off-balance-sheet commitments across five hyperscalers are estimated near $2.7 trillion (Michael Burry); Torsten Slok's path needs operating cash flow to triple to $2 trillion by 2030.",
+      "The CCC spread over Treasuries stood at 1,146 basis points on September 28 (FRED)."
+    ],
+    "uncertain": [
+      "Whether September-quarter cash flow moves visibly toward $2 trillion (test p08-t01).",
+      "Whether New Mexico approves the fuel-cell permit by November 23 (test p08-t02).",
+      "Whether the first Blackwell renewal holds its price without new guarantees."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p08-t01",
       "date": "2026-10-20",

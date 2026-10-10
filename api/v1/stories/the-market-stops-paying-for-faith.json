@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
   "api": "https://deepstack.ltd/api/v1/stories/the-market-stops-paying-for-faith.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/",
-  "layer": null,
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -217,8 +220,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "The four hyperscalers' combined annual capex is about $800 billion, $165 billion in the latest quarter (Prof G Markets, August 4).",
+      "Alphabet's second-quarter free cash flow was negative $6 billion, the first negative quarter since its 2004 IPO (Hayden Capital).",
+      "Creditors now demand a premium on hyperscaler paper, and 2026 to 2030 capex is projected at $3.5 trillion (Oscar Hattink via Kevin Gee)."
+    ],
+    "uncertain": [
+      "Whether operating cash flow catches capex growth, which would make external funding temporary.",
+      "How the market prices Alphabet's larger 2027 budget (test p04-t01).",
+      "Whether lab revenue decelerates rather than declines, the trigger for a reflexive break."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p04-t01",
       "date": "2027-01-01",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
   "api": "https://deepstack.ltd/api/v1/stories/the-fed-hiked-the-long-end-kept-climbing.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/",
-  "layer": null,
+  "layer": {
+    "id": "markets",
+    "label": "Markets and rates"
+  },
   "call": {
     "tone": "bear",
     "toneLabel": "Skeptical",
@@ -218,8 +221,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "The 10-year Treasury yielded 5.18% six trading days after the September 16 decision (FRED).",
+      "The federal deficit ran $1.97 trillion cumulative through August 2026 (TSCS), and the hyperscaler backlog stands near $2.3 trillion (Apollo via DeepValue Capital).",
+      "CleanSpark priced a note at an 8.25% coupon on September 18 (JunkBondInvestor): today's rates are reaching AI's borrowers."
+    ],
+    "uncertain": [
+      "Whether the Fed moves again on October 28 (test p07-t01).",
+      "Whether Japanese and other foreign buyers return in size (test p07-t02).",
+      "Whether long yields fall while growth, inflation and AI capital spending stay firm, the flip the Call names."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p07-t02",
       "date": "2026-10-15",

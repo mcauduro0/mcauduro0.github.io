@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
   "api": "https://deepstack.ltd/api/v1/stories/power-doesnt-depreciate.json",
   "sidesUrl": "https://deepstack.ltd/sides/power-doesnt-depreciate/",
-  "layer": null,
+  "layer": {
+    "id": "energy",
+    "label": "Energy and infrastructure"
+  },
   "call": {
     "tone": "bull",
     "toneLabel": "Constructive",
@@ -220,8 +223,18 @@
       "conviction": 4,
       "convictionLabel": "High"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Nebius quotes $40 to 50 million for six months of capacity and $20 to 25 million for one to three years (Michael Burry, August 12).",
+      "NVL72 deployment at full use needs about 23 GW by 2027 (Daniel Romero); construction outside data centers fell 7.9% year over year (Apollo, via Burry).",
+      "Bloom's 55-day timeline and the gap between contracted and connected power put the premium on permitted, delivered megawatts."
+    ],
+    "uncertain": [
+      "Whether ERCOT's first large-load batch study weeds out speculators or rations power.",
+      "Whether Nebius turns 800 MW to 1 GW connected, against 5 GW contracted, into Vineland revenue on schedule.",
+      "Whether blocked projects become a permitting trend."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p06-t01",
       "date": "2026-12-10",

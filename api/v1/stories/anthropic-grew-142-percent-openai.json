@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
   "api": "https://deepstack.ltd/api/v1/stories/anthropic-grew-142-percent-openai.json",
   "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
-  "layer": null,
+  "layer": {
+    "id": "labs",
+    "label": "Labs and models"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -190,8 +193,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Anthropic grew 142% quarter on quarter in the second quarter of 2026 against OpenAI's 18%.",
+      "OpenAI cut prices 80% and lost $20.9 billion in 2025 (Steve Eisman); Anthropic reported $559 million of preliminary adjusted operating income for the June quarter (Michael Spencer).",
+      "Hyperscalers, lenders and investors have priced the two labs as one bet."
+    ],
+    "uncertain": [
+      "Audited margins, customer concentration and investor-linked revenue, which only a listing would show.",
+      "Whether first-year GPU margins survive across the cluster under realistic useful lives (Daniel Romero's objection).",
+      "Whether open-weight models change procurement behavior."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p05-t04",
       "date": "2028-01-03",

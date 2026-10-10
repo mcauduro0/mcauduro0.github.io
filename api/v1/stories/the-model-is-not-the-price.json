@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
   "api": "https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json",
   "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/",
-  "layer": null,
+  "layer": {
+    "id": "labs",
+    "label": "Labs and models"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -256,8 +259,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Anthropic's Opus 5.5 lists at $4 per million input tokens against OpenAI's $10 (Charlie Hills, September 27).",
+      "Chinese models carried 57% to 67% of token usage on OpenRouter by September (Michael Spencer; Le Shrub).",
+      "The open-weight gap to the frontier is about four months (Torsten Slok, citing Epoch), and a quarter of Anthropic's 2025 revenue came from two customers (Mia Silverio)."
+    ],
+    "uncertain": [
+      "Whether Alphabet sizes the TPU contracts inside Cloud's backlog (test p12-t01) and whether AWS discloses its concentration (test p12-t02).",
+      "Whether Nvidia names the labs among its largest customers (test p12-t04).",
+      "The prospectus itself: the gross margin on inference and the revenue tied to investors."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p12-t01",
       "date": "2026-10-28",

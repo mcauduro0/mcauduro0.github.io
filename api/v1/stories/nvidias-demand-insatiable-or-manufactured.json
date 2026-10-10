@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:20:37Z",
+  "generatedAt": "2026-10-10T18:40:59Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 1,
   "slug": "nvidias-demand-insatiable-or-manufactured",
@@ -12,7 +12,10 @@
   "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
   "api": "https://deepstack.ltd/api/v1/stories/nvidias-demand-insatiable-or-manufactured.json",
   "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
-  "layer": null,
+  "layer": {
+    "id": "compute",
+    "label": "Compute and cloud"
+  },
   "call": {
     "tone": "split",
     "toneLabel": "Mixed",
@@ -182,8 +185,18 @@
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
-    "established": [],
-    "uncertain": [],
+    "established": [
+      "Google paid roughly double the market rate for Nvidia capacity while cheaper TPUs were available, a costly revealed preference (Part 01 sources).",
+      "Broadcom booked about $30 billion of AI orders in one quarter and has promised 20 GW of designed compute through 2028 (Invest In Assets, mid-2026).",
+      "Private credit financed the compute platform: a $38 billion Apollo transaction in late May and a $35 billion first tranche from Apollo and Blackstone (Michael Burry; Invest In Assets)."
+    ],
+    "uncertain": [
+      "How much of the ordered capacity becomes working compute, and when.",
+      "Whether depreciation schedules keep pace with obsolescence.",
+      "Whether end demand survives market-rate financing once private credit steps back."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-10T18:28:41.601Z",
     "next": {
       "id": "p01-t01",
       "date": null,
