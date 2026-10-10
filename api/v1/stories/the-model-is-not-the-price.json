@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T23:26:45Z",
+  "generatedAt": "2026-10-10T02:35:22Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -41,8 +41,8 @@
       "relation": "contradicts",
       "dimension": "evidence"
     },
-    "version": 1,
-    "updatedOn": "2026-10-09",
+    "version": 2,
+    "updatedOn": "2026-10-10",
     "history": [
       {
         "version": 1,
@@ -53,9 +53,21 @@
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
-        "side": "The filing sets the price",
         "reason": "First call, with the story.",
         "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-10",
+        "stance": "The price has left the model",
+        "tone": "split",
+        "toneLabel": "Mixed",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
+        "side": "The filing sets the price",
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
       }
     ],
     "nextTest": {
