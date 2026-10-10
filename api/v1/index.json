@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -42,6 +42,7 @@
         "the-ratepayer-pays-first"
       ]
     },
+    "numbers": "https://deepstack.ltd/api/v1/numbers.json",
     "docket": "https://deepstack.ltd/api/v1/docket.json",
     "results": "https://deepstack.ltd/api/v1/results.json",
     "result": {
@@ -108,6 +109,7 @@
         "who-pays-for-the-ai-power-bill"
       ]
     },
+    "layers": "https://deepstack.ltd/api/v1/layers.json",
     "companies": "https://deepstack.ltd/api/v1/entities/companies.json",
     "people": "https://deepstack.ltd/api/v1/entities/people.json",
     "entity": {
@@ -118,6 +120,39 @@
       ]
     },
     "tape": "https://deepstack.ltd/api/v1/tape.json",
+    "dataset": {
+      "page": "https://deepstack.ltd/data/download/",
+      "index": "https://deepstack.ltd/data/download/index.json",
+      "current": {
+        "asOf": "2026-10-10",
+        "files": {
+          "tests": {
+            "csv": "https://deepstack.ltd/data/download/tests-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/tests-2026-10-10.json"
+          },
+          "results": {
+            "csv": "https://deepstack.ltd/data/download/results-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/results-2026-10-10.json"
+          },
+          "sides": {
+            "csv": "https://deepstack.ltd/data/download/sides-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/sides-2026-10-10.json"
+          },
+          "companies": {
+            "csv": "https://deepstack.ltd/data/download/companies-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/companies-2026-10-10.json"
+          },
+          "people": {
+            "csv": "https://deepstack.ltd/data/download/people-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/people-2026-10-10.json"
+          },
+          "tape": {
+            "csv": "https://deepstack.ltd/data/download/tape-2026-10-10.csv",
+            "json": "https://deepstack.ltd/data/download/tape-2026-10-10.json"
+          }
+        }
+      }
+    },
     "weekly": "https://deepstack.ltd/api/v1/weekly.json",
     "resolutionPackages": {
       "template": "https://deepstack.ltd/assets/resolution/{id}.pdf",

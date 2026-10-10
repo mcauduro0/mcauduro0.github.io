@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-power-scarcity-a-warning-or-a-moat",
   "question": "Is power scarcity a warning, or a moat?",
@@ -540,5 +540,32 @@
     "storyUrl": "https://deepstack.ltd/stories/power-doesnt-depreciate/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 6,
+      "date": "2026-09-19",
+      "kind": "published",
+      "text": "Part 06 published; the Call: Long access, not hardware.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/",
+      "by": null
+    },
+    {
+      "part": 6,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Long access, not hardware. This is a power-access trade before it is a chip trade. Own the permit and the interconnect, not the loudest fleet. Our Call takes the side “Scarcity as a moat”.",
+      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 6,
+      "date": "2026-12-10",
+      "kind": "next",
+      "text": "Next: Dec 10, 2026, ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "url": "https://deepstack.ltd/docket/#test-p06-t01",
+      "by": null
+    }
+  ]
 }

@@ -919,6 +919,9 @@ export function mount(fig) {
   sync();
 }
 
+// The filter permalink of the explorer (UX-2.22): `#explorer=<theme id>` on the Data Desk address.
+export const EXPLORER_HASH = /^#explorer=([a-z0-9-]+)$/;
+export const explorerHash = (theme) => (theme === 'all' ? '' : `#explorer=${theme}`);
 export function initExplorer(root) {
   const chips = root.querySelectorAll('[data-filter]');
   const search = root.querySelector('[data-search]');
@@ -936,9 +939,27 @@ export function initExplorer(root) {
     chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.filter === theme)));
     if (count) count.textContent = `${shown} of ${items.length} numbers`;
   };
-  chips.forEach((c) => c.addEventListener('click', () => { theme = c.dataset.filter; apply(); }));
+  // UX-2.22: the address bar carries the theme the way src/layers.js carries a layer. A pasted
+  // `#explorer=<theme>` selects the chip on load and brings the explorer into view; a click writes it
+  // back with replaceState (the back button stays out of it) and "all" clears it.
+  const win = root.ownerDocument && root.ownerDocument.defaultView;
+  const known = (id) => Boolean(id) && Array.prototype.some.call(chips, (c) => c.dataset.filter === id);
+  const writeHash = () => {
+    if (!win || !win.location || !win.history || !win.history.replaceState) return;
+    const hash = explorerHash(theme);
+    if ((win.location.hash || '') === hash) return;
+    try { win.history.replaceState(win.history.state, '', `${win.location.pathname}${win.location.search}${hash}`); } catch { /* the filter still works without the address */ }
+  };
+  const fromHash = () => { const id = win && win.location ? (EXPLORER_HASH.exec(win.location.hash || '') || [])[1] : null; return known(id) ? id : null; };
+  const reveal = () => { if (typeof root.scrollIntoView === 'function') root.scrollIntoView(); };
+  chips.forEach((c) => c.addEventListener('click', () => { theme = c.dataset.filter; apply(); writeHash(); }));
   if (search) search.addEventListener('input', apply);
+  const shared = fromHash();
+  if (shared) theme = shared;
   apply();
+  if (shared && win) { if (root.ownerDocument.readyState === 'complete') reveal(); else win.addEventListener('load', reveal, { once: true }); }
+  // A new permalink on the same page (a pasted link, a step back); our own replaceState never fires this.
+  if (win && typeof win.addEventListener === 'function') win.addEventListener('hashchange', () => { const next = fromHash(); if (next && next !== theme) { theme = next; apply(); reveal(); } });
 }
 
 export function init(doc) {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "how-fast-do-habits-break",
   "question": "How fast do habits break?",
@@ -634,5 +634,32 @@
     "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 9,
+      "date": "2026-10-03",
+      "kind": "published",
+      "text": "Part 09 published; the Call: Sell habit, buy the rails.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "by": null
+    },
+    {
+      "part": 9,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Sell habit, buy the rails. Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription. Our Call takes the side “Eighteen months, or less”.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 9,
+      "date": "2026-10-28",
+      "kind": "next",
+      "text": "Next: Oct 28, 2026, Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "url": "https://deepstack.ltd/docket/#test-p09-t01",
+      "by": null
+    }
+  ]
 }

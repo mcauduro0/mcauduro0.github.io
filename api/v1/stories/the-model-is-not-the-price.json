@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -123,24 +123,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p12-n1",
       "value": "$4 vs $10",
       "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
-      "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%"
+      "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n1",
+      "provenance": null
     },
     {
+      "id": "p12-n2",
       "value": "57% to 67%",
       "label": "Chinese models' share of token usage on OpenRouter by September",
-      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22"
+      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n2",
+      "provenance": null
     },
     {
+      "id": "p12-n3",
       "value": "4 months",
       "label": "The gap between the Chinese open models and the frontier",
-      "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026"
+      "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n3",
+      "provenance": null
     },
     {
+      "id": "p12-n4",
       "value": "A quarter",
       "label": "Share of Anthropic's 2025 revenue that came from two customers",
-      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google"
+      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#number-p12-n4",
+      "provenance": null
     }
   ],
   "sources": [

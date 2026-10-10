@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
   "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
@@ -616,5 +616,40 @@
     "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 3,
+      "date": "2026-08-15",
+      "kind": "published",
+      "text": "Part 03 published; the Call: Bearish on the credit.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/",
+      "by": null
+    },
+    {
+      "part": 3,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Bearish on the credit. The machines will earn. The credit stack is where this buildout breaks first. Our Call takes the side “1999 capex plus 2008 credit”.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 3,
+      "date": "2026-10-10",
+      "kind": "result",
+      "text": "The answer was no. The Call expected no: the result supports it.",
+      "url": "https://deepstack.ltd/results/p03-t04/",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 3,
+      "date": "2026-11-10",
+      "kind": "next",
+      "text": "Next: Nov 10, 2026, Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "url": "https://deepstack.ltd/docket/#test-p03-t01",
+      "by": null
+    }
+  ]
 }

@@ -1,0 +1,323 @@
+{
+  "url": "https://deepstack.ltd/data/download/",
+  "generatedAt": "2026-10-10T20:16:38Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
+  "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
+  "current": {
+    "asOf": "2026-10-10",
+    "latestVersion": "2026-10-10",
+    "files": [
+      {
+        "name": "tests",
+        "csv": "https://deepstack.ltd/data/download/tests-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/tests-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/tests.csv",
+          "json": "https://deepstack.ltd/data/download/tests.json"
+        },
+        "rows": 59,
+        "columns": [
+          "id",
+          "part",
+          "story_slug",
+          "story_headline",
+          "index",
+          "when",
+          "date",
+          "precision",
+          "status",
+          "result_id",
+          "event",
+          "source_kind",
+          "source_ref",
+          "source_url",
+          "resolver_kind",
+          "resolver_rule"
+        ]
+      },
+      {
+        "name": "results",
+        "csv": "https://deepstack.ltd/data/download/results-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/results-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/results.csv",
+          "json": "https://deepstack.ltd/data/download/results.json"
+        },
+        "rows": 1,
+        "columns": [
+          "id",
+          "test_id",
+          "part",
+          "story_slug",
+          "resolved_on",
+          "verdict",
+          "headline",
+          "body",
+          "evidence",
+          "call_update",
+          "approved_at"
+        ]
+      },
+      {
+        "name": "sides",
+        "csv": "https://deepstack.ltd/data/download/sides-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/sides-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/sides.csv",
+          "json": "https://deepstack.ltd/data/download/sides.json"
+        },
+        "rows": 316,
+        "columns": [
+          "part",
+          "story_slug",
+          "question_id",
+          "question",
+          "side_id",
+          "side_label",
+          "voice",
+          "entity_slug",
+          "date",
+          "claim",
+          "url",
+          "access",
+          "link_verified"
+        ]
+      },
+      {
+        "name": "companies",
+        "csv": "https://deepstack.ltd/data/download/companies-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/companies-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/companies.csv",
+          "json": "https://deepstack.ltd/data/download/companies.json"
+        },
+        "rows": 48,
+        "columns": [
+          "slug",
+          "name",
+          "ticker",
+          "parts",
+          "summary",
+          "reported_figures",
+          "mentions",
+          "positions",
+          "last_updated"
+        ]
+      },
+      {
+        "name": "people",
+        "csv": "https://deepstack.ltd/data/download/people-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/people-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/people.csv",
+          "json": "https://deepstack.ltd/data/download/people.json"
+        },
+        "rows": 96,
+        "columns": [
+          "slug",
+          "name",
+          "role",
+          "parts",
+          "summary",
+          "reported_figures",
+          "mentions",
+          "positions",
+          "last_updated"
+        ]
+      },
+      {
+        "name": "tape",
+        "csv": "https://deepstack.ltd/data/download/tape-2026-10-10.csv",
+        "json": "https://deepstack.ltd/data/download/tape-2026-10-10.json",
+        "plain": {
+          "csv": "https://deepstack.ltd/data/download/tape.csv",
+          "json": "https://deepstack.ltd/data/download/tape.json"
+        },
+        "rows": 52,
+        "columns": [
+          "part",
+          "story_slug",
+          "story_headline",
+          "published",
+          "value",
+          "label",
+          "context"
+        ]
+      }
+    ]
+  },
+  "versions": [
+    {
+      "asOf": "2026-10-10",
+      "generatedAt": "2026-10-10T19:49:37.386Z",
+      "current": true,
+      "files": [
+        {
+          "name": "tests",
+          "csv": "https://deepstack.ltd/data/download/tests-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/tests-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/tests.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/tests.json"
+          },
+          "rows": 59,
+          "columns": [
+            "id",
+            "part",
+            "story_slug",
+            "story_headline",
+            "index",
+            "when",
+            "date",
+            "precision",
+            "status",
+            "result_id",
+            "event",
+            "source_kind",
+            "source_ref",
+            "source_url",
+            "resolver_kind",
+            "resolver_rule"
+          ],
+          "bytes": 23365,
+          "sha256": "5f65fc6a9458ee18205771877caddb1417c7b1c9fa28a7ae3ebc773755b99e94",
+          "jsonBytes": 65183,
+          "jsonSha256": "c5f93e610271bc8a6fae90c6afe73efb0b59e9476abfcf2058a9f0923055e609"
+        },
+        {
+          "name": "results",
+          "csv": "https://deepstack.ltd/data/download/results-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/results-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/results.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/results.json"
+          },
+          "rows": 1,
+          "columns": [
+            "id",
+            "test_id",
+            "part",
+            "story_slug",
+            "resolved_on",
+            "verdict",
+            "headline",
+            "body",
+            "evidence",
+            "call_update",
+            "approved_at"
+          ],
+          "bytes": 2002,
+          "sha256": "383b5078f5014bd020e94b60caaad27273dc174b744ba437e76f4d7b1231e188",
+          "jsonBytes": 11404,
+          "jsonSha256": "5bf4d17b6e0fd8997a8448148e1bcc2b8eec7759677831a944d1c5980d1ec54e"
+        },
+        {
+          "name": "sides",
+          "csv": "https://deepstack.ltd/data/download/sides-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/sides-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/sides.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/sides.json"
+          },
+          "rows": 316,
+          "columns": [
+            "part",
+            "story_slug",
+            "question_id",
+            "question",
+            "side_id",
+            "side_label",
+            "voice",
+            "entity_slug",
+            "date",
+            "claim",
+            "url",
+            "access",
+            "link_verified"
+          ],
+          "bytes": 140845,
+          "sha256": "1a000f363cf0c7b4ab91fba7aac9c28a47e22e1e80dc5de500df5dac53d946ae",
+          "jsonBytes": 257971,
+          "jsonSha256": "2ccfbf134af6e2562f5bfd50553d74b144ccd648efd01187460a49f2cd3a5f75"
+        },
+        {
+          "name": "companies",
+          "csv": "https://deepstack.ltd/data/download/companies-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/companies-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/companies.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/companies.json"
+          },
+          "rows": 48,
+          "columns": [
+            "slug",
+            "name",
+            "ticker",
+            "parts",
+            "summary",
+            "reported_figures",
+            "mentions",
+            "positions",
+            "last_updated"
+          ],
+          "bytes": 12305,
+          "sha256": "afa6d3f17d565cf5202f25c46adfa85a44f9cd9ee95bb07d36cc35e00d41ba37",
+          "jsonBytes": 178686,
+          "jsonSha256": "1e7525579e675984e5d929738194d63d56df8979794b9ee0918e1ffe8e4b54ba"
+        },
+        {
+          "name": "people",
+          "csv": "https://deepstack.ltd/data/download/people-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/people-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/people.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/people.json"
+          },
+          "rows": 96,
+          "columns": [
+            "slug",
+            "name",
+            "role",
+            "parts",
+            "summary",
+            "reported_figures",
+            "mentions",
+            "positions",
+            "last_updated"
+          ],
+          "bytes": 29344,
+          "sha256": "0c5fb381d6405b36a6ea213847ec0fe81a6130c805321736928db74dc5a60d9b",
+          "jsonBytes": 289034,
+          "jsonSha256": "87ea80862f51db6f46bda2364980ca4afcb01991de94fd93100f1999afcfb6c2"
+        },
+        {
+          "name": "tape",
+          "csv": "https://deepstack.ltd/data/download/tape-2026-10-10.csv",
+          "json": "https://deepstack.ltd/data/download/tape-2026-10-10.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-10/tape.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-10/tape.json"
+          },
+          "rows": 52,
+          "columns": [
+            "part",
+            "story_slug",
+            "story_headline",
+            "published",
+            "value",
+            "label",
+            "context"
+          ],
+          "bytes": 9268,
+          "sha256": "f9a4b23b5028adf26c304ea8f8a39809c4e3c562024d885f6cb1631addabe884",
+          "jsonBytes": 16183,
+          "jsonSha256": "93e818819901e3f3c8b8fa1e76da59d2c476a6954c69281e64cf87aa0f8fd733"
+        }
+      ],
+      "changes": [
+        "First version: tests (59 rows), results (1 row), sides (316 rows), companies (48 rows), people (96 rows), tape (52 rows)."
+      ]
+    }
+  ]
+}

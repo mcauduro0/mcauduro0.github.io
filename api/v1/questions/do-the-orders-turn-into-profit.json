@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -894,5 +894,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 11,
+      "date": "2026-10-08",
+      "kind": "published",
+      "text": "Part 11 published; the Call: Revenue yes, margin not yet.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "by": null
+    },
+    {
+      "part": 11,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Revenue yes, margin not yet. The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss. Our Call takes the side “Shipping is not earning”.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 11,
+      "date": "2026-10-28",
+      "kind": "next",
+      "text": "Next: Oct 28, 2026, Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "url": "https://deepstack.ltd/docket/#test-p11-t01",
+      "by": null
+    }
+  ]
 }

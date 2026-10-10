@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -121,24 +121,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p10-n1",
       "value": "19.0x",
       "label": "S&P 500 forward multiple",
-      "context": "FactSet, as of Oct 2, 2026"
+      "context": "FactSet, as of Oct 2, 2026",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n1",
+      "provenance": null
     },
     {
+      "id": "p10-n2",
       "value": "29.5%",
       "label": "Expected Q3 earnings growth",
-      "context": "FactSet, as of Oct 2, 2026"
+      "context": "FactSet, as of Oct 2, 2026",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n2",
+      "provenance": null
     },
     {
+      "id": "p10-n3",
       "value": "$250B",
       "label": "Hyperscaler high-grade bonds",
-      "context": "Apollo presentation via Leyla Kunimoto, through August 2026"
+      "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n3",
+      "provenance": null
     },
     {
+      "id": "p10-n4",
       "value": "5.31%",
       "label": "10-year Treasury yield",
-      "context": "CNBC, closing yield on Oct 5, 2026"
+      "context": "CNBC, closing yield on Oct 5, 2026",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#number-p10-n4",
+      "provenance": null
     }
   ],
   "sources": [

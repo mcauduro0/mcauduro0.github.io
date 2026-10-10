@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -848,5 +848,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 13,
+      "date": "2026-10-10",
+      "kind": "published",
+      "text": "Part 13 published; the Call: The ratepayer pays first.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "by": null
+    },
+    {
+      "part": 13,
+      "date": "2026-10-10",
+      "kind": "call",
+      "text": "The Call: The ratepayer pays first. Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill. Our Call takes the side “The bill no state can shield”.",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 13,
+      "date": "2026-10-20",
+      "kind": "next",
+      "text": "Next: Oct 20, 2026, The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "url": "https://deepstack.ltd/docket/#test-p13-t01",
+      "by": null
+    }
+  ]
 }

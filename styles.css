@@ -1722,3 +1722,99 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 .desk-changed:empty { display: none; }
 .desk-contract { margin-top: 10px; font: 500 11px/1.6 var(--mono); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
 @media (pointer: coarse) { .desk-reset, .desk-copy, .slider-number { min-height: 44px; } }
+/* ---------- Sprint UX-2 (10 October 2026): traceability. Each lane adds its code under its own line and above the next. ---------- */
+/* UX-2.20 (numbers with provenance): below this line. */
+/* UX-2.20 (10 October 2026): a key number with an approved source is a button; "Where this number comes from" folds under it. Additive. */
+.number-open { display: block; margin: 0; padding: 0 0 2px; border: 0; border-bottom: 1.5px dotted var(--amber); background: transparent; text-align: left; cursor: pointer; }
+.number-open:hover { border-bottom-style: solid; }
+.number-open:focus-visible { outline: 2px solid var(--amber-ink); outline-offset: 3px; }
+.number-open-hint { display: inline-block; margin-left: 8px; vertical-align: 0.35em; font: 700 10.5px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-ink); }
+li.is-open .number-open { border-bottom-color: var(--ink); }
+li.is-open .number-open-hint { color: var(--ink); }
+.numbers-hint { margin: -2px 0 6px; }
+.number-source { margin: 10px 0 2px; padding: 12px 14px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); }
+.number-source[hidden] { display: none; }
+.number-source-title { margin: 0 0 8px; font: 700 11px/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-ink); }
+.number-source dl { display: grid; grid-template-columns: 1fr; gap: 6px 0; margin: 0; }
+.number-source dl > div { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 0 12px; }
+.number-source dt { font: 700 10.5px/1.6 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.number-source dd { margin: 0; min-width: 0; font: 400 13px/1.45 var(--sans); color: var(--ink-2); overflow-wrap: anywhere; }
+.number-source dd a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 2px; }
+.number-source-fine { margin: 10px 0 0; }
+.explorer-list li .number-source { margin-top: 6px; }
+.call-numbers { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin: 12px 0 0; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.18); font: 600 14px/1.3 var(--mono); }
+.call-numbers-label { font: 700 10.5px/1.5 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--on-navy-muted); }
+.call-numbers a { color: var(--amber); text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+@media (max-width: 480px) { .number-source dl > div { grid-template-columns: 1fr; } }
+@media (pointer: coarse) { .number-open { min-height: 44px; } }
+
+
+/* UX-2.21 (question relations and /layers/): below this line. */
+/* UX-2.21 (10 October 2026): the mechanism, the alternative explanations and the checks phrase on the question pages (only with the owner's stamp), the "What changed" record of each Part, the link to /layers/ in the archive bar and the /layers/ page. Additive; tokens from :root; the label, chip and section grammar of docs/design-grammar.md. */
+.question-mechanism { padding: clamp(20px, 3vw, 36px) 0 clamp(16px, 2.4vw, 28px); border-bottom: 1px solid var(--rule); }
+.question-mechanism > .label { margin-bottom: 10px; color: var(--amber-ink); }
+.question-mechanism-text { max-width: 680px; margin: 0; font: 400 20px/1.6 var(--serif); color: var(--ink-2); }
+.question-mechanism-fine { margin-top: 12px; }
+.question-alternatives { padding-block: clamp(24px, 3.4vw, 44px); }
+.question-alternatives-list { max-width: 72ch; margin: 0; padding: 0 0 0 1.8em; list-style: none; counter-reset: alt; }
+.question-alternatives-list li { position: relative; padding: 14px 0; border-top: 1px solid var(--rule); font: 400 18px/1.55 var(--serif); color: var(--ink-2); counter-increment: alt; }
+.question-alternatives-list li:last-child { border-bottom: 1px solid var(--rule); }
+.question-alternatives-list li::before { content: counter(alt); position: absolute; left: -1.8em; top: 17px; font: 700 12px/1 var(--mono); color: var(--amber-ink); }
+.test-checks { font: 600 12.5px/1.4 var(--sans); color: var(--ink-2); }
+.test-checks::before { content: ''; display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: var(--amber); vertical-align: middle; }
+.question-changed { padding-block: clamp(24px, 3.4vw, 44px); }
+.question-timeline { list-style: none; margin: 0; padding: 0; }
+.question-timeline-item { display: grid; grid-template-columns: 112px 120px minmax(0, 1fr); gap: 6px 18px; align-items: baseline; padding: 12px 0; border-top: 1px solid var(--rule); }
+.question-timeline-item:last-child { border-bottom: 1px solid var(--rule); }
+.question-timeline-item time, .question-timeline-undated { font: 500 12.5px/1.5 var(--mono); color: var(--muted); white-space: nowrap; }
+.question-timeline-kind { font: 700 11px/1.5 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber-ink); }
+.question-timeline-text { font: 400 16px/1.55 var(--serif); color: var(--ink-2); }
+.question-timeline-text a { color: var(--ink); text-decoration: none; }
+.question-timeline-text a:hover { text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+.question-timeline-text .status, .question-timeline-text .docket-stage { margin: 0 0 0 4px; vertical-align: middle; }
+.question-timeline-by { font: 500 12px/1.5 var(--sans); color: var(--muted); white-space: nowrap; }
+@media (max-width: 760px) { .question-timeline-item { grid-template-columns: 1fr; gap: 2px 0; } }
+.archive-layers .layers-about { margin-left: 12px; font-size: 13px; }
+.layer-block { padding-block: clamp(24px, 3.4vw, 44px); }
+.layer-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 32px; }
+.layer-col { min-width: 0; }
+.layer-col > .label { margin-bottom: 10px; }
+.layer-list { list-style: none; margin: 0; padding: 0; }
+.layer-list li { padding: 8px 0; border-top: 1px solid var(--rule); font: 400 15px/1.5 var(--serif); color: var(--ink-2); }
+.layer-list li:last-child { border-bottom: 1px solid var(--rule); }
+.layer-list a { color: var(--ink); text-decoration: none; }
+.layer-list a:hover { text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+.layer-list time, .layer-next-when, .layer-part-ref { font: 500 12px/1.5 var(--mono); color: var(--muted); white-space: nowrap; }
+.layer-value { font: 700 17px/1.3 var(--mono); letter-spacing: -0.01em; color: var(--ink); }
+.layer-indicator-label { font: 400 14px/1.45 var(--sans); color: var(--ink-2); }
+.layer-next .docket-stage, .layer-next .status { margin: 0 4px 0 0; vertical-align: middle; }
+.layer-none, .layer-empty { margin: 0; font: italic 400 15px/1.5 var(--serif); color: var(--muted); }
+.layer-all { margin-top: 20px; }
+@media (max-width: 1000px) { .layer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .layer-grid { grid-template-columns: 1fr; } }
+
+
+/* UX-2.22 (dataset versions and permalinks): below this line. */
+/* The Versions section of /data/download/ (the changelog lines, the dated file links as a grid) and the as-of stamp in the archive bar. Additive. */
+.download-asof time { font: 600 13px/1.4 var(--mono); color: var(--ink); }
+.version-item .download-head h2 { font-size: clamp(22px, 2.2vw, 28px); }
+.version-item .download-head h2 time { font: inherit; }
+.version-changes { margin: 10px 0 0; padding-left: 18px; max-width: 70ch; font: 400 15px/1.5 var(--serif); color: var(--ink-2); }
+.version-changes li + li { margin-top: 4px; }
+.version-files { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 6px 24px; margin: 14px 0 0; padding: 0; list-style: none; font: 500 12.5px/1.6 var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.version-files a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+.version-files a:hover { text-decoration-color: var(--ink); }
+@media (pointer: coarse) { .version-files a { display: inline-block; padding-block: 6px; } }
+
+
+/* UX-2.23 (Weekly and Result as changelog, the follow line): below this line. */
+/* The Docket bar's follow line sits on its own row under the counts and the actions; the Follow box's note is the base's. Additive. */
+.docket-follow-line { flex-basis: 100%; margin: 0; }
+.docket-follow-line a { color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+
+
+/* UX-2.24 (focus, zoom and performance): below this line. */
+/* The "Specified after the date" chip (UX-0) read 4.46:1 on the page: the amber ink on an 18% amber tint. A 10% tint keeps the ink and clears 4.5:1 on paper and on a card. */
+.docket-stage-post { background: color-mix(in srgb, var(--amber) 10%, transparent); }
+
+

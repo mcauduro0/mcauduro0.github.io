@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-10T18:40:59Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-10T20:16:39Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -109,6 +109,27 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Story"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/numbers.json": {
+      "get": {
+        "summary": "The key numbers",
+        "operationId": "the_key_numbers",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "Every key number of the series with its provenance once the owner approved it: unit, universe, period, source, as of, transformation, limits, chart and test.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Numbers"
                 }
               }
             }
@@ -364,11 +385,32 @@
         ],
         "responses": {
           "200": {
-            "description": "One question in full: the Call with its history, the sides with the strongest case against each, the crossings, the dated tests with their specification, the results and the sources.",
+            "description": "One question in full: the Call with its history, the sides with the strongest case against each, the crossings, the dated tests with their specification, the results and the sources; since UX-2.21 the relations (null until approved) and the record of what changed.",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Question"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/layers.json": {
+      "get": {
+        "summary": "The layers",
+        "operationId": "the_layers",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The layers of the AI value chain: the question each asks, its Parts, their canonical questions, the indicator each Part leads with and the next test of each; the archive filters by them.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Layers"
                 }
               }
             }
@@ -477,6 +519,27 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Tape"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/download/index.json": {
+      "get": {
+        "summary": "The dataset versions",
+        "operationId": "the_dataset_versions",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The index of the dataset at /data/download/: the current build’s dated files and every version cut, each with the rows, the sha256 of each file and what changed since the version before.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatasetIndex"
                 }
               }
             }
@@ -929,14 +992,104 @@
           }
         }
       },
+      "Provenance": {
+        "type": "object",
+        "required": [
+          "unit",
+          "universe",
+          "period",
+          "source",
+          "asOf",
+          "transformation",
+          "limits",
+          "chart",
+          "test",
+          "call",
+          "approvedBy",
+          "approvedAt"
+        ],
+        "properties": {
+          "unit": {
+            "type": "string"
+          },
+          "universe": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "source": {
+            "$ref": "#/components/schemas/Source"
+          },
+          "asOf": {
+            "type": "string",
+            "format": "date"
+          },
+          "transformation": {
+            "type": "string"
+          },
+          "limits": {
+            "type": "string"
+          },
+          "chart": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "test": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "call": {
+            "type": "boolean"
+          },
+          "approvedBy": {
+            "type": "string"
+          },
+          "approvedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
       "KeyNumber": {
         "type": "object",
         "required": [
+          "id",
           "value",
           "label",
-          "context"
+          "context",
+          "url",
+          "provenance"
         ],
         "properties": {
+          "id": {
+            "type": "string"
+          },
           "value": {
             "type": "string"
           },
@@ -945,6 +1098,122 @@
           },
           "context": {
             "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "provenance": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Provenance"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The unit, the universe, the period, the source, the date read, the transformation, the limits, the chart and the test; null until the owner approved it (UX-2.20)."
+          }
+        }
+      },
+      "NumberRow": {
+        "type": "object",
+        "required": [
+          "id",
+          "part",
+          "slug",
+          "index",
+          "value",
+          "label",
+          "context",
+          "url",
+          "provenance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "provenance": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Provenance"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "Numbers": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "title",
+          "rule",
+          "count",
+          "withSource",
+          "numbers"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "withSource": {
+            "type": "integer"
+          },
+          "numbers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NumberRow"
+            }
           }
         }
       },
@@ -2437,7 +2706,8 @@
           "api",
           "aliases",
           "parts",
-          "nextTest"
+          "nextTest",
+          "relations"
         ],
         "properties": {
           "slug": {
@@ -2487,6 +2757,10 @@
                 "type": "null"
               }
             ]
+          },
+          "relations": {
+            "type": "boolean",
+            "description": "Whether the owner approved the page’s relations: the mechanism, the alternative explanations and what each test checks (UX-2.21)."
           }
         }
       },
@@ -2504,7 +2778,9 @@
           "aliases",
           "method",
           "parts",
-          "nextTest"
+          "nextTest",
+          "relations",
+          "timeline"
         ],
         "properties": {
           "generatedAt": {
@@ -2658,6 +2934,24 @@
                 "type": "null"
               }
             ]
+          },
+          "relations": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/QuestionRelations"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The relations as the page prints them, null until the owner approved them."
+          },
+          "timeline": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TimelineEntry"
+            },
+            "description": "What changed: the Part’s publication, every Call version above the first, every result and the next dated test, oldest first per Part; never a reason, a specification version or an earlier wording."
           }
         }
       },
@@ -2704,6 +2998,369 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/QuestionSummary"
+            }
+          }
+        }
+      },
+      "QuestionRelations": {
+        "type": "object",
+        "required": [
+          "mechanism",
+          "alternatives",
+          "checks",
+          "approvedBy",
+          "approvedAt"
+        ],
+        "properties": {
+          "mechanism": {
+            "type": "string",
+            "description": "One paragraph: the causal chain the Part argues, in the house voice."
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Two to four alternative explanations, one per line, drawn from the sides’ cases against the Call."
+          },
+          "checks": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Per test id, the piece of the argument the test verifies (\"the margin claim\")."
+          },
+          "approvedBy": {
+            "type": "string"
+          },
+          "approvedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "TimelineEntry": {
+        "type": "object",
+        "required": [
+          "part",
+          "date",
+          "kind",
+          "text",
+          "url",
+          "by"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "published",
+              "call",
+              "result",
+              "next"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "LayerPart": {
+        "type": "object",
+        "required": [
+          "part",
+          "headline",
+          "date",
+          "url",
+          "api"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "LayerQuestion": {
+        "type": "object",
+        "required": [
+          "slug",
+          "headline",
+          "question",
+          "url",
+          "api"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "LayerIndicator": {
+        "type": "object",
+        "required": [
+          "part",
+          "value",
+          "label",
+          "context",
+          "url"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "context": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "LayerNextTest": {
+        "type": "object",
+        "required": [
+          "part",
+          "id",
+          "label",
+          "when",
+          "date",
+          "precision",
+          "event",
+          "status",
+          "stage",
+          "url"
+        ],
+        "properties": {
+          "part": {
+            "type": "integer"
+          },
+          "id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "when": {
+            "type": "string"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "precision": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "event": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "confirmed",
+              "refuted",
+              "inconclusive"
+            ]
+          },
+          "stage": {
+            "type": "string",
+            "enum": [
+              "open",
+              "pre",
+              "post"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Layer": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "question",
+          "url",
+          "archiveUrl",
+          "parts",
+          "questions",
+          "indicators",
+          "nextTests",
+          "tests",
+          "results"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "archiveUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "The archive filtered to this layer (/stories/#layer=<id>)."
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LayerPart"
+            }
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LayerQuestion"
+            }
+          },
+          "indicators": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LayerIndicator"
+            },
+            "description": "The first key number of each Part in the layer."
+          },
+          "nextTests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LayerNextTest"
+            },
+            "description": "The next test of each Part, soonest first."
+          },
+          "tests": {
+            "type": "integer"
+          },
+          "results": {
+            "type": "integer"
+          }
+        }
+      },
+      "Layers": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "approvedBy",
+          "approvedAt",
+          "count",
+          "about",
+          "layers"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "approvedBy": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approvedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "count": {
+            "type": "integer"
+          },
+          "about": {
+            "type": "string"
+          },
+          "layers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Layer"
             }
           }
         }
@@ -3606,6 +4263,225 @@
           },
           "note": {
             "type": "string"
+          }
+        }
+      },
+      "DatasetFile": {
+        "type": "object",
+        "required": [
+          "name",
+          "csv",
+          "json",
+          "rows",
+          "columns"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "tests",
+              "results",
+              "sides",
+              "companies",
+              "people",
+              "tape"
+            ]
+          },
+          "csv": {
+            "type": "string",
+            "format": "uri",
+            "description": "The dated CSV, <name>-<asOf>.csv: the address to cite."
+          },
+          "json": {
+            "type": "string",
+            "format": "uri",
+            "description": "The dated JSON twin."
+          },
+          "rows": {
+            "type": "integer"
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "DatasetVersion": {
+        "type": "object",
+        "required": [
+          "asOf",
+          "generatedAt",
+          "current",
+          "files",
+          "changes"
+        ],
+        "properties": {
+          "asOf": {
+            "type": "string",
+            "format": "date"
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "current": {
+            "type": "boolean",
+            "description": "True when the version was cut on the day of the current build."
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/components/schemas/DatasetFile"
+                },
+                {
+                  "type": "object",
+                  "required": [
+                    "snapshot",
+                    "bytes",
+                    "sha256",
+                    "jsonBytes",
+                    "jsonSha256"
+                  ],
+                  "properties": {
+                    "snapshot": {
+                      "type": "object",
+                      "required": [
+                        "csv",
+                        "json"
+                      ],
+                      "properties": {
+                        "csv": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "json": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      }
+                    },
+                    "bytes": {
+                      "type": "integer"
+                    },
+                    "sha256": {
+                      "type": "string"
+                    },
+                    "jsonBytes": {
+                      "type": "integer"
+                    },
+                    "jsonSha256": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "changes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "What changed since the version before, one plain sentence per file."
+          }
+        }
+      },
+      "DatasetIndex": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "license",
+          "about",
+          "current",
+          "versions"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "license": {
+            "type": "string"
+          },
+          "about": {
+            "type": "string"
+          },
+          "current": {
+            "type": "object",
+            "required": [
+              "asOf",
+              "latestVersion",
+              "files"
+            ],
+            "properties": {
+              "asOf": {
+                "type": "string",
+                "format": "date"
+              },
+              "latestVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "files": {
+                "type": "array",
+                "items": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/DatasetFile"
+                    },
+                    {
+                      "type": "object",
+                      "required": [
+                        "plain"
+                      ],
+                      "properties": {
+                        "plain": {
+                          "type": "object",
+                          "required": [
+                            "csv",
+                            "json"
+                          ],
+                          "properties": {
+                            "csv": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "json": {
+                              "type": "string",
+                              "format": "uri"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "versions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DatasetVersion"
+            },
+            "description": "Every cut of content/dataset/versions.json, newest first."
           }
         }
       },

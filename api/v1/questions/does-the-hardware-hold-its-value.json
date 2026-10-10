@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -696,5 +696,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 10,
+      "date": "2026-10-07",
+      "kind": "published",
+      "text": "Part 10 published; the Call: Cheap is conditional.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "by": null
+    },
+    {
+      "part": 10,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Cheap is conditional. The market is not cheap. It is capitalizing AI earnings before anyone knows who owns them. Our Call takes the side “A model, not a price”.",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 10,
+      "date": "2026-10-01",
+      "kind": "next",
+      "text": "Next: October, Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "url": "https://deepstack.ltd/docket/#test-p10-t02",
+      "by": null
+    }
+  ]
 }

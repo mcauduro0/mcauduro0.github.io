@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -107,24 +107,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p02-n1",
       "value": "$75B",
       "label": "IPO proceeds",
-      "context": "Raised June 12 at near $1.75T valuation"
+      "context": "Raised June 12 at near $1.75T valuation",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n1",
+      "provenance": null
     },
     {
+      "id": "p02-n2",
       "value": "54%",
       "label": "Peak-to-low drawdown",
-      "context": "$225.64 to $104.83 by early August"
+      "context": "$225.64 to $104.83 by early August",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n2",
+      "provenance": null
     },
     {
+      "id": "p02-n3",
       "value": "0.4 GW",
       "label": "Compute deployed",
-      "context": "Kakashii’s first-quarter reading, August 2026"
+      "context": "Kakashii’s first-quarter reading, August 2026",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n3",
+      "provenance": null
     },
     {
+      "id": "p02-n4",
       "value": "$1.25B",
       "label": "Monthly Anthropic contract",
-      "context": "Through May 2029, as documented by Kevin Gee"
+      "context": "Through May 2029, as documented by Kevin Gee",
+      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/#number-p02-n4",
+      "provenance": null
     }
   ],
   "sources": [

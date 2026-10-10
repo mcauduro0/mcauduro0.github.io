@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "what-does-a-frontier-lab-sell-a-commodity-or-a-premium",
   "question": "What does a frontier lab sell: a commodity, or a premium?",
@@ -480,5 +480,32 @@
     "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 5,
+      "date": "2026-09-11",
+      "kind": "published",
+      "text": "Part 05 published; the Call: Split the trade.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
+      "by": null
+    },
+    {
+      "part": 5,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Split the trade. Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought. Our Call takes neither side alone.",
+      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 5,
+      "date": "2028-01-03",
+      "kind": "next",
+      "text": "Next: Jan 3, 2028, Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "url": "https://deepstack.ltd/docket/#test-p05-t04",
+      "by": null
+    }
+  ]
 }

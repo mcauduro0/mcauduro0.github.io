@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -771,5 +771,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 7,
+      "date": "2026-09-27",
+      "kind": "published",
+      "text": "Part 07 published; the Call: Supply sets the long end.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
+      "by": null
+    },
+    {
+      "part": 7,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Supply sets the long end. The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year. Our Call takes the side “A missing buyer”.",
+      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 7,
+      "date": "2026-10-15",
+      "kind": "next",
+      "text": "Next: Oct 15, 2026, Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+      "url": "https://deepstack.ltd/docket/#test-p07-t02",
+      "by": null
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -122,24 +122,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p13-n1",
       "value": "+11.7%",
       "label": "Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026",
-      "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42"
+      "context": "EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n1",
+      "provenance": null
     },
     {
+      "id": "p13-n2",
       "value": "+6.6%",
       "label": "The national household price per kilowatt-hour over the same twelve months",
-      "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%"
+      "context": "EIA-861M, first published Sep 24, 2026; Texas +4.8%",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n2",
+      "provenance": null
     },
     {
+      "id": "p13-n3",
       "value": "6,623 MW",
       "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
-      "context": "PJM auction results as relayed by tscsw, Feb 26, 2026"
+      "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n3",
+      "provenance": null
     },
     {
+      "id": "p13-n4",
       "value": "$1.6B",
       "label": "Added transmission cost on Maryland bills over 10 years",
-      "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026"
+      "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
+      "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n4",
+      "provenance": null
     }
   ],
   "sources": [

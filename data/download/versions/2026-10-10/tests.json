@@ -1,0 +1,1790 @@
+{
+  "generatedAt": "2026-10-10T19:49:37.386Z",
+  "tests": [
+    {
+      "id": "p01-t01",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "index": 0,
+      "when": "When the bottleneck clears",
+      "date": null,
+      "precision": "signal",
+      "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
+      "source": {
+        "kind": "label",
+        "ref": "When the bottleneck clears",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p01-t02",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "index": 1,
+      "when": "As capacity ramps",
+      "date": null,
+      "precision": "signal",
+      "event": "Order cancellations would erode year-long customer visibility; continued bookings would support the scarcity case.",
+      "source": {
+        "kind": "label",
+        "ref": "As capacity ramps",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p01-t03",
+      "part": 1,
+      "slug": "nvidias-demand-insatiable-or-manufactured",
+      "index": 2,
+      "when": "Next depreciation tests",
+      "date": null,
+      "precision": "signal",
+      "event": "Schedules that lag obsolescence flatter earnings; schedules that catch up would strengthen the bears.",
+      "source": {
+        "kind": "label",
+        "ref": "Next depreciation tests",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p02-t01",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "index": 0,
+      "when": "2027 buildout",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
+      "source": {
+        "kind": "label",
+        "ref": "2027 buildout",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p02-t02",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "index": 1,
+      "when": "May 2029",
+      "date": "2029-05-01",
+      "precision": "month",
+      "event": "Anthropic’s $1.25B monthly commitment expires; payment durability will test contracted AI demand.",
+      "source": {
+        "kind": "label",
+        "ref": "May 2029",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p02-t03",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "index": 2,
+      "when": "Next bond tranche",
+      "date": null,
+      "precision": "signal",
+      "event": "Bond pricing will show whether lenders still trust Starlink to carry AI spending.",
+      "source": {
+        "kind": "label",
+        "ref": "Next bond tranche",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p02-t04",
+      "part": 2,
+      "slug": "spacex-after-the-ipo-exit-liquidity",
+      "index": 3,
+      "when": "OpenAI IPO window",
+      "date": null,
+      "precision": "signal",
+      "event": "A third trillion-dollar cash-burning listing would test Kevin Gee’s market-capacity concern.",
+      "source": {
+        "kind": "label",
+        "ref": "OpenAI IPO window",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p03-t01",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "index": 0,
+      "when": "Next Nebius disclosure",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NBIS",
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
+        "source": {
+          "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
+        },
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p03-t02",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "index": 1,
+      "when": "Next H100 batches",
+      "date": null,
+      "precision": "signal",
+      "event": "Re-lets near 95 percent support durable value; faster decay would expose a gap in the economics.",
+      "source": {
+        "kind": "label",
+        "ref": "Next H100 batches",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p03-t03",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "index": 2,
+      "when": "2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Resilient hyperscaler free cash flow would ease leverage fears; negative cash flow would validate Erkan’s tripwire.",
+      "source": {
+        "kind": "label",
+        "ref": "2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p03-t04",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "index": 3,
+      "when": "After Labor Day",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "BAMLC0A0CM",
+        "provider": "FRED",
+        "rule": "on - baseline <= -0.03 => yes; on - baseline >= 0.03 => no",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "read": {
+          "on": "2026-10-02",
+          "baseline": [
+            "2026-08-01",
+            "2026-08-31"
+          ]
+        },
+        "question": "Did the investment-grade corporate bond spread (ICE BofA US Corporate Index option-adjusted spread, FRED series BAMLC0A0CM) read tighter on October 2, 2026, the end of the four weeks after Labor Day, than its August 2026 average?",
+        "source": {
+          "label": "FRED, ICE BofA US Corporate Index option-adjusted spread (BAMLC0A0CM)",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+        },
+        "ambiguity": "A series that is late, revised after the reading or silent for the window is inconclusive, reviewed by the owner, and the Result says what was read, what was missing and the next step. A difference inside the 3 basis point band is inconclusive and closes the test.",
+        "specState": "approved",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-10",
+            "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "refuted",
+      "resultId": "p03-t04"
+    },
+    {
+      "id": "p03-t05",
+      "part": 3,
+      "slug": "the-debt-behind-the-machines",
+      "index": 4,
+      "when": "When the streak ends",
+      "date": null,
+      "precision": "signal",
+      "event": "The 182-day run ending would test whether unusual market calm is breaking; repetition would extend the signal.",
+      "source": {
+        "kind": "label",
+        "ref": "When the streak ends",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p04-t01",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "index": 0,
+      "when": "2027 budget",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "source": {
+        "kind": "label",
+        "ref": "2027 budget",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
+        "source": {
+          "label": "Alphabet investor relations, quarterly earnings release and call",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p04-t02",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "index": 1,
+      "when": "Next lab financing",
+      "date": null,
+      "precision": "signal",
+      "event": "OpenAI and Anthropic revenue and funding terms emerge; deceleration, not decline, is the trigger for a reflexive break.",
+      "source": {
+        "kind": "label",
+        "ref": "Next lab financing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p04-t03",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "index": 2,
+      "when": "Through 2027",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "Hyperscaler free cash flow shows whether operating cash flow catches capex growth; a catch-up makes external funding temporary.",
+      "source": {
+        "kind": "label",
+        "ref": "Through 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p04-t04",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "index": 3,
+      "when": "After Labor Day",
+      "date": "2026-09-08",
+      "precision": "window",
+      "event": "$50B–60B of queued paper prices; narrower concessions support absorption, wider spreads signal borrower scrutiny.",
+      "source": {
+        "kind": "label",
+        "ref": "After Labor Day",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "BAMLC0A0CM",
+        "provider": "FRED",
+        "rule": "on - baseline <= -0.03 => yes; on - baseline >= 0.03 => no",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "read": {
+          "on": "2026-10-02",
+          "baseline": [
+            "2026-08-01",
+            "2026-08-31"
+          ]
+        },
+        "question": "Did the investment-grade corporate bond spread (ICE BofA US Corporate Index option-adjusted spread, FRED series BAMLC0A0CM) read tighter on October 2, 2026, the end of the four weeks after Labor Day, than its August 2026 average?",
+        "source": {
+          "label": "FRED, ICE BofA US Corporate Index option-adjusted spread (BAMLC0A0CM)",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+        },
+        "ambiguity": "A series that is late, revised after the reading or silent for the window is inconclusive, reviewed by the owner, and the Result says what was read, what was missing and the next step. A difference inside the 3 basis point band is inconclusive and closes the test.",
+        "specState": "approved",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-10",
+            "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "refuted",
+      "resultId": "p03-t04",
+      "sameAs": "p03-t04"
+    },
+    {
+      "id": "p04-t05",
+      "part": 4,
+      "slug": "the-market-stops-paying-for-faith",
+      "index": 4,
+      "when": "Token and productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "Prices, volumes and productivity move together; sustained volume growth over price and a visible productivity surge support the bulls.",
+      "source": {
+        "kind": "label",
+        "ref": "Token and productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p05-t01",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "index": 0,
+      "when": "Next prospectus",
+      "date": null,
+      "precision": "signal",
+      "event": "An audited listing reveals margins, customer concentration and investor-linked revenue; clean disclosure would support separation, weak economics would reunite the risks.",
+      "source": {
+        "kind": "label",
+        "ref": "Next prospectus",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p05-t02",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "index": 1,
+      "when": "Next disclosures",
+      "date": null,
+      "precision": "signal",
+      "event": "Useful-life assumptions show whether first-year GPU margins survive across the cluster; Romero’s accounting would gain force if they do not.",
+      "source": {
+        "kind": "label",
+        "ref": "Next disclosures",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p05-t03",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "index": 2,
+      "when": "DeepSeek repricing",
+      "date": null,
+      "precision": "signal",
+      "event": "A quiet reversal would weaken Erkan’s demand evidence; sustained higher prices would support the view that demand remains structurally strong.",
+      "source": {
+        "kind": "label",
+        "ref": "DeepSeek repricing",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p05-t04",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "index": 3,
+      "when": "2028",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
+      "source": {
+        "kind": "label",
+        "ref": "2028",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p05-t05",
+      "part": 5,
+      "slug": "anthropic-grew-142-percent-openai",
+      "index": 4,
+      "when": "A second revocation",
+      "date": null,
+      "precision": "signal",
+      "event": "Another model suspension would turn Massif’s signal into procurement policy, showing that open weights are changing buying behavior.",
+      "source": {
+        "kind": "label",
+        "ref": "A second revocation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p06-t01",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "index": 0,
+      "when": "Dec 10",
+      "date": "2026-12-10",
+      "precision": "day",
+      "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
+      "source": {
+        "kind": "label",
+        "ref": "Dec 10",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p06-t02",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "index": 1,
+      "when": "Year-end",
+      "date": "2026-12-31",
+      "precision": "month",
+      "event": "Nebius must turn 800MW–1GW connected against 5GW contracted into Vineland revenue; commissioning and GPU fill test execution.",
+      "source": {
+        "kind": "label",
+        "ref": "Year-end",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p06-t03",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "index": 2,
+      "when": "Next quarterly count",
+      "date": null,
+      "precision": "signal",
+      "event": "A second quarter near 26 blocked projects would turn a single data point into a permitting trend.",
+      "source": {
+        "kind": "label",
+        "ref": "Next quarterly count",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p06-t04",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "index": 3,
+      "when": "First cancellation",
+      "date": null,
+      "precision": "signal",
+      "event": "A hyperscaler cancelling for sufficient compute would turn the fiber analogy into evidence of overbuild.",
+      "source": {
+        "kind": "label",
+        "ref": "First cancellation",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p06-t05",
+      "part": 6,
+      "slug": "power-doesnt-depreciate",
+      "index": 4,
+      "when": "2029–30 order books",
+      "date": "2029-01-01",
+      "precision": "window",
+      "event": "Bloom staying sold out while FuelCell Energy keeps signing would show scarcity has moved from the grid to factories.",
+      "source": {
+        "kind": "label",
+        "ref": "2029–30 order books",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p07-t01",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "index": 0,
+      "when": "Oct 28",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DFEDTARU",
+        "provider": "FRED",
+        "rule": "value after date > value before date => hike",
+        "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+        "question": "Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?",
+        "source": {
+          "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
+          "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        },
+        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+        "specState": "approved"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p07-t02",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "index": 1,
+      "when": "Mid-October",
+      "date": "2026-10-15",
+      "precision": "window",
+      "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+      "source": {
+        "kind": "label",
+        "ref": "Mid-October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "release",
+        "release": "Treasury International Capital",
+        "provider": "Treasury",
+        "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+        "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+        "source": {
+          "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+        },
+        "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p07-t03",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "index": 2,
+      "when": "10-year at 5.5%",
+      "date": null,
+      "precision": "signal",
+      "event": "Howell expects a major bond opportunity; failure to turn would keep the growth brake unproven.",
+      "source": {
+        "kind": "label",
+        "ref": "10-year at 5.5%",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DGS10",
+        "provider": "FRED",
+        "rule": "value after date >= 5.5 => reached",
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p07-t04",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "index": 3,
+      "when": "2028 refinancing wave",
+      "date": "2028-01-03",
+      "precision": "window",
+      "event": "Leveraged-loan and corporate maturities arrive; stress would show today’s rates are reaching AI’s borrowers.",
+      "source": {
+        "kind": "label",
+        "ref": "2028 refinancing wave",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p08-t01",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "index": 0,
+      "when": "Late October",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+        "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
+        "source": {
+          "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p08-t02",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "index": 1,
+      "when": "Nov 23",
+      "date": "2026-11-23",
+      "precision": "day",
+      "event": "New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Yes if the department publishes a final permit approval, with or without conditions, on or before November 23, 2026; the test resolves confirmed on yes and refuted on a published denial.",
+        "question": "Did the New Mexico Environment Department approve the air-quality permit for the fuel cells at the Project Jupiter campus in Doña Ana County by November 23, 2026?",
+        "source": {
+          "label": "New Mexico Environment Department, Air Quality Bureau permit decisions",
+          "url": "https://www.env.nm.gov/air-quality/"
+        },
+        "ambiguity": "A decision deferred past November 23, a permit withdrawn by the applicant, or an approval under appeal on that date is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p08-t03",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "index": 2,
+      "when": "Feb 1, 2027",
+      "date": "2027-02-01",
+      "precision": "day",
+      "event": "Pipeline in-service date tests whether Project Jupiter can secure fuel for its planned campus.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p08-t04",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "index": 3,
+      "when": "First Blackwell renewal",
+      "date": null,
+      "precision": "signal",
+      "event": "Contract repricing shows whether scarce compute retains value or lenders face faster obsolescence.",
+      "source": {
+        "kind": "label",
+        "ref": "First Blackwell renewal",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p08-t05",
+      "part": 8,
+      "slug": "the-scarcity-is-the-collateral",
+      "index": 4,
+      "when": "Fluidstack terms",
+      "date": null,
+      "precision": "signal",
+      "event": "Government-loan terms reveal the price Washington assigns to financing bottlenecks it wants to remove.",
+      "source": {
+        "kind": "label",
+        "ref": "Fluidstack terms",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p09-t01",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "index": 0,
+      "when": "Late October",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
+        "source": {
+          "label": "Meta investor relations, third-quarter 2026 results",
+          "url": "https://investor.atmeta.com/"
+        },
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p09-t02",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "index": 1,
+      "when": "Early November",
+      "date": "2026-11-03",
+      "precision": "day",
+      "event": "Booking reports room nights and direct mix; the result tests whether the agent or the incumbent owns the booking.",
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "BKNG",
+        "rule": "Read room nights and the direct mix from the release and the call; room nights above the year-earlier quarter and a direct share at or above the year-earlier share resolves confirmed, a decline in either resolves refuted.",
+        "question": "Did Booking Holdings report September-quarter room nights above the September quarter of 2025, with a direct-channel share of bookings no lower than the share it reported a year earlier?",
+        "source": {
+          "label": "Booking Holdings investor relations, third-quarter 2026 results",
+          "url": "https://ir.bookingholdings.com/"
+        },
+        "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p09-t03",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "index": 2,
+      "when": "Nov 16-17",
+      "date": "2026-11-16",
+      "precision": "day",
+      "event": "Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; the test resolves confirmed on yes and refuted on no. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is the owner's reading from the same materials and goes in the Result, not in the verdict.",
+        "question": "Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?",
+        "source": {
+          "label": "Nike investor relations, investor day presentation and press release",
+          "url": "https://investors.nike.com/"
+        },
+        "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p09-t04",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "index": 3,
+      "when": "January-April",
+      "date": "2027-01-01",
+      "precision": "window",
+      "event": "The first tax season with agents tests whether households still pay Intuit for certainty or ask an agent.",
+      "source": {
+        "kind": "label",
+        "ref": "January-April",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p09-t05",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "index": 4,
+      "when": "Amazon standoff",
+      "date": null,
+      "precision": "signal",
+      "event": "Amazon allowing agent checkout would show the advertising pool beginning to move; continued resistance shows its value remains protected.",
+      "source": {
+        "kind": "label",
+        "ref": "Amazon standoff",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p10-t01",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "index": 0,
+      "when": "Late October",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "source": {
+        "kind": "fmp-earnings",
+        "ref": "Company earnings calendar, date via Financial Modeling Prep",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
+        "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
+        "source": {
+          "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p10-t02",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "index": 1,
+      "when": "October",
+      "date": "2026-10-01",
+      "precision": "month",
+      "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
+      "source": {
+        "kind": "label",
+        "ref": "October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Anthropic filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
+        },
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p10-t03",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "index": 2,
+      "when": "At 5.5% 10-year",
+      "date": null,
+      "precision": "signal",
+      "event": "A 5.5% Treasury yield tests Howell’s turning-point history against TSCS’s warning that the long end will keep rising.",
+      "source": {
+        "kind": "label",
+        "ref": "At 5.5% 10-year",
+        "url": null
+      },
+      "resolver": {
+        "kind": "series",
+        "series": "DGS10",
+        "provider": "FRED",
+        "rule": "value after date >= 5.5 => reached",
+        "url": "https://fred.stlouisfed.org/series/DGS10",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p10-t04",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "index": 3,
+      "when": "Next used-GPU print",
+      "date": null,
+      "precision": "signal",
+      "event": "Three-year-old chip rents and resale prices show whether scarcity or durable economics supports hardware values.",
+      "source": {
+        "kind": "label",
+        "ref": "Next used-GPU print",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p10-t05",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "index": 4,
+      "when": "Productivity data",
+      "date": null,
+      "precision": "signal",
+      "event": "A rise in total factor productivity would show the rest of the economy can write the checks; a flat reading leaves bondholders exposed.",
+      "source": {
+        "kind": "label",
+        "ref": "Productivity data",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p11-t01",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "index": 0,
+      "when": "October 28",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "MSFT",
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p11-t02",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "index": 1,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: days sales outstanding after the move to a year of payment terms, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p11-t03",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "index": 2,
+      "when": "December 9",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "results reported => read the print",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p11-t04",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "index": 3,
+      "when": "December",
+      "date": "2026-12-01",
+      "precision": "month",
+      "event": "Perma-Pipe's third quarter: 40% to 50% of the $142.3 million backlog converting, $57 million to $71 million, with gross margin moving toward 30% and no second receivable write-off.",
+      "source": {
+        "kind": "label",
+        "ref": "December",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p11-t05",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "index": 4,
+      "when": "The optics ramp",
+      "date": null,
+      "precision": "signal",
+      "event": "Ciena's $10 billion backlog into shipments, Lumentum's path to $11.1 billion of fiscal 2028 revenue and Coherent's statement that it sells everything it can make, each measured against the margin the company targets.",
+      "source": {
+        "kind": "label",
+        "ref": "The optics ramp",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p12-t01",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "index": 0,
+      "when": "October 28",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+        "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
+        "source": {
+          "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
+        },
+        "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p12-t02",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "index": 1,
+      "when": "October 29",
+      "date": "2026-10-29",
+      "precision": "day",
+      "event": "Amazon reports: it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's October 5 count of 47% of Anthropic's sales through Amazon and Google.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "AMZN",
+        "rule": "Confirmed if the concentration note of the 10-Q, the release or the call names a customer or a group of customers at 10% or more of AWS revenue, or states Anthropic's share of AWS sales; refuted if the quarter is reported with no such disclosure. The figure is read against Silverio's October 5 count of 47% of Anthropic's sales running through Amazon and Google.",
+        "question": "Did Amazon, in its third-quarter 2026 results of October 29, 2026 (the earnings release, the 10-Q or the call), disclose a customer or a group of customers at 10% or more of AWS revenue, or quantify Anthropic's share of AWS sales?",
+        "source": {
+          "label": "Amazon Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1018724)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-Q"
+        },
+        "ambiguity": "A concentration disclosure given only for Amazon as a whole, without an AWS figure, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p12-t03",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "index": 2,
+      "when": "October 31",
+      "date": "2026-10-31",
+      "precision": "day",
+      "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p12-t04",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "index": 3,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether it names the labs among its largest customers, against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue from the two.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Confirmed if the concentration note of the 10-Q, the release or the call names either lab as a direct or indirect customer at 10% or more of revenue, or states a share of revenue for the two labs together; refuted if the customers at 10% or more are described without naming either lab and no share for the labs is given. The figure is read against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue coming from the two labs.",
+        "question": "Did Nvidia, in its third-quarter fiscal 2027 results of November 18, 2026 (the earnings release, the 10-Q or the call), name OpenAI or Anthropic as a customer at 10% or more of revenue, or state the two labs' share of its revenue?",
+        "source": {
+          "label": "Nvidia Q3 FY2027 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1045810)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "A disclosure that names a lab only as an indirect end customer without a share is inconclusive, reviewed by the owner. A report delayed past December 15, 2026 is inconclusive.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p12-t05",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "index": 4,
+      "when": "When it files",
+      "date": null,
+      "precision": "signal",
+      "event": "The prospectus: the gross margin on inference, customer concentration against Silverio's October 5 count of a quarter from two customers, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back.",
+      "source": {
+        "kind": "label",
+        "ref": "When it files",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t01",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 0,
+      "when": "Late October",
+      "date": "2026-10-20",
+      "precision": "window",
+      "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
+      "source": {
+        "kind": "label",
+        "ref": "Late October",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t02",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 1,
+      "when": "December 9",
+      "date": "2026-12-09",
+      "precision": "day",
+      "event": "PJM's capacity auction for the year from June 2029, as scheduled: whether it clears below the price ceiling, the second exit from the house's view.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read from PJM's published results report. Confirmed if the RTO-wide clearing price is below the cap in effect for the auction; refuted if it clears at the cap. This test decides only the price leg of the second exit from the house's view; the rule on large loads bringing their own capacity is read separately in the story.",
+        "question": "Does PJM's Base Residual Auction for the 2029/2030 delivery year, scheduled for December 9, 2026, clear the RTO-wide capacity price below the price cap in effect for that auction?",
+        "source": {
+          "label": "PJM Interconnection, Base Residual Auction results report for 2029/2030 (pjm.com, Reliability Pricing Model)",
+          "url": "https://www.pjm.com/markets-and-operations/rpm"
+        },
+        "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p13-t03",
+      "part": 13,
+      "slug": "the-ratepayer-pays-first",
+      "index": 2,
+      "when": "Late February 2027",
+      "date": "2027-02-22",
+      "precision": "window",
+      "event": "The federal data for all of 2026: the same four-point test, with Texas below the national change.",
+      "source": {
+        "kind": "label",
+        "ref": "Late February 2027",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. Confirmed if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; refuted if the gap is below 4.0 points.",
+        "question": "In the EIA-861M data for calendar 2026, as first published, is the median change in the average household price per kilowatt-hour across PJM's nine jurisdictions against calendar 2025 at least four percentage points above the median of the other 42, with Texas's change below the national change?",
+        "source": {
+          "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
+          "url": "https://www.eia.gov/electricity/data/eia861m/"
+        },
+        "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -121,24 +121,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p08-n1",
       "value": "227 bps",
       "label": "Oracle five-year CDS",
-      "context": "Record that week, according to Seeking Alpha"
+      "context": "Record that week, according to Seeking Alpha",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n1",
+      "provenance": null
     },
     {
+      "id": "p08-n2",
       "value": "1,146 bps",
       "label": "CCC spread over Treasuries",
-      "context": "September 28, 2026; FRED"
+      "context": "September 28, 2026; FRED",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n2",
+      "provenance": null
     },
     {
+      "id": "p08-n3",
       "value": "$2T",
       "label": "Hyperscaler cash-flow target",
-      "context": "Torsten Slok’s 2030 assumption"
+      "context": "Torsten Slok’s 2030 assumption",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n3",
+      "provenance": null
     },
     {
+      "id": "p08-n4",
       "value": "$2.7T",
       "label": "Off-balance-sheet commitments",
-      "context": "Burry estimate across five hyperscalers"
+      "context": "Burry estimate across five hyperscalers",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#number-p08-n4",
+      "provenance": null
     }
   ],
   "sources": [

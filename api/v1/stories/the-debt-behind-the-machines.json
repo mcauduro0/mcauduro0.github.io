@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -122,24 +122,36 @@
   },
   "keyNumbers": [
     {
+      "id": "p03-n1",
       "value": "$500B",
       "label": "Wall Street-arranged chip facility",
-      "context": "Headlines, August 12, 2026"
+      "context": "Headlines, August 12, 2026",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n1",
+      "provenance": null
     },
     {
+      "id": "p03-n2",
       "value": "$250B",
       "label": "Nvidia Ohio-campus guarantee",
-      "context": "Vitaliy Katsenelson, August 6, 2026"
+      "context": "Vitaliy Katsenelson, August 6, 2026",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n2",
+      "provenance": null
     },
     {
+      "id": "p03-n3",
       "value": "21%",
       "label": "Modeled compute internal return",
-      "context": "Market Sentiment, August 8, 2026"
+      "context": "Market Sentiment, August 8, 2026",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n3",
+      "provenance": null
     },
     {
+      "id": "p03-n4",
       "value": "6%",
       "label": "AI paper investment-grade share",
-      "context": "JunkBondInvestor, August 9, 2026"
+      "context": "JunkBondInvestor, August 9, 2026",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#number-p03-n4",
+      "provenance": null
     }
   ],
   "sources": [

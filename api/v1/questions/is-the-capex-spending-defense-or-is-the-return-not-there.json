@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
   "question": "Is the capex spending defense, or is the return not there?",
@@ -621,5 +621,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 4,
+      "date": "2026-09-04",
+      "kind": "published",
+      "text": "Part 04 published; the Call: Prove the return.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
+      "by": null
+    },
+    {
+      "part": 4,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Prove the return. Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost. Our Call takes the side “The return is not there”.",
+      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 4,
+      "date": "2027-01-01",
+      "kind": "next",
+      "text": "Next: Jan 1, 2027, Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
+      "url": "https://deepstack.ltd/docket/#test-p04-t01",
+      "by": null
+    }
+  ]
 }

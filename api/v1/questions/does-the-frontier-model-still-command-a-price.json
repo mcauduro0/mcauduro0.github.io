@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-frontier-model-still-command-a-price",
   "question": "Does the frontier model still command a price?",
@@ -963,5 +963,32 @@
     "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 12,
+      "date": "2026-10-09",
+      "kind": "published",
+      "text": "Part 12 published; the Call: The price has left the model.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "by": null
+    },
+    {
+      "part": 12,
+      "date": "2026-10-10",
+      "kind": "call",
+      "text": "The Call: The price has left the model. A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth. Our Call takes the side “The filing sets the price”.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#call-history",
+      "by": "Marco Cauduro"
+    },
+    {
+      "part": 12,
+      "date": "2026-10-28",
+      "kind": "next",
+      "text": "Next: Oct 28, 2026, Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "url": "https://deepstack.ltd/docket/#test-p12-t01",
+      "by": null
+    }
+  ]
 }

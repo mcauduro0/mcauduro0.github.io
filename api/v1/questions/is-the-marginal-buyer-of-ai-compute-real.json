@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:40:59Z",
+  "generatedAt": "2026-10-10T20:16:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-marginal-buyer-of-ai-compute-real",
   "question": "Is the marginal buyer of AI compute real?",
@@ -359,5 +359,24 @@
     "storyUrl": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#watch",
     "resultUrl": null
   },
-  "method": "How DeepStack settles a question"
+  "relations": null,
+  "method": "How DeepStack settles a question",
+  "timeline": [
+    {
+      "part": 1,
+      "date": "2026-08-10",
+      "kind": "published",
+      "text": "Part 01 published; the Call: Bull on demand. Bear on the financing..",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/",
+      "by": null
+    },
+    {
+      "part": 1,
+      "date": "2026-10-09",
+      "kind": "call",
+      "text": "The Call: Bull on demand. Bear on the financing.. Nvidia’s orders are real. Price its revenue as financed, not recurring. Our Call takes neither side alone.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/#call-history",
+      "by": "Marco Cauduro"
+    }
+  ]
 }
