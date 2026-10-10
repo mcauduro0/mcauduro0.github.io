@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-frontier-model-still-command-a-price",
   "question": "Does the frontier model still command a price?",
@@ -86,6 +86,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -663,6 +664,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -706,6 +708,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -749,6 +752,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -778,6 +782,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[3].date",
@@ -821,6 +826,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "When it files",
@@ -920,6 +926,7 @@
     "status": "pending",
     "resultId": null,
     "sameAs": null,
+    "stage": "pre",
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

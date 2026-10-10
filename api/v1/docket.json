@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-10",
@@ -8,7 +8,12 @@
   "count": 59,
   "dated": 35,
   "precision": "day: an ISO date; month: the month is known; window: the first business day of a window; signal: no date, the test resolves on a signal.",
-  "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty. From version 2 the resolver also carries specVersion, specUpdatedOn and specHistory. A row with sameAs is the same question as that test: its resolver is a copy, its status and resultId mirror the parent, and it has no result of its own.",
+  "specification": "resolver.specState approved: the resolver carries question (one binary question), source {label, url} (the official public place the answer appears), rule (how the answer resolves the test) and ambiguity (what happens if the source is late, revised or silent), approved by the owner, or derived for a dated series test from the series and the expression it evaluates; confirmed means the answer to the question is yes; pending: the words are not yet written and those fields are empty. From version 2 the resolver also carries specVersion, specUpdatedOn and specHistory. A row with sameAs is the same question as that test: its resolver is a copy, its status and resultId mirror the parent, and it has no result of its own. Since 10 October 2026 a resolver may carry callExpects (yes, no or either: the answer the Part's Call expected when the words were approved) and every row carries stage: pre (the words approved on or before the test's date), post (after it; such a test is counted and never rated) or open (no words yet).",
+  "stages": {
+    "pre": 16,
+    "post": 2,
+    "open": 40
+  },
   "specified": 18,
   "folded": 1,
   "tests": [
@@ -24,6 +29,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "When the bottleneck clears",
@@ -53,6 +59,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "As capacity ramps",
@@ -82,6 +89,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next depreciation tests",
@@ -111,6 +119,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -140,6 +149,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "May 2029",
@@ -169,6 +179,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next bond tranche",
@@ -198,6 +209,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "OpenAI IPO window",
@@ -227,6 +239,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -270,6 +283,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next H100 batches",
@@ -299,6 +313,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2027",
@@ -328,6 +343,7 @@
       "status": "refuted",
       "resultId": "p03-t04",
       "sameAs": null,
+      "stage": "post",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -386,6 +402,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "When the streak ends",
@@ -415,6 +432,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -458,6 +476,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next lab financing",
@@ -487,6 +506,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Through 2027",
@@ -516,6 +536,7 @@
       "status": "refuted",
       "resultId": "p03-t04",
       "sameAs": "p03-t04",
+      "stage": "post",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -574,6 +595,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Token and productivity data",
@@ -603,6 +625,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next prospectus",
@@ -632,6 +655,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next disclosures",
@@ -661,6 +685,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "DeepSeek repricing",
@@ -690,6 +715,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2028",
@@ -719,6 +745,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "A second revocation",
@@ -748,6 +775,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -777,6 +805,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Year-end",
@@ -806,6 +835,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next quarterly count",
@@ -835,6 +865,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "First cancellation",
@@ -864,6 +895,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2029–30 order books",
@@ -893,6 +925,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -928,6 +961,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -972,6 +1006,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "10-year at 5.5%",
@@ -1004,6 +1039,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2028 refinancing wave",
@@ -1033,6 +1069,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -1075,6 +1112,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1117,6 +1155,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1146,6 +1185,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "First Blackwell renewal",
@@ -1175,6 +1215,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Fluidstack terms",
@@ -1204,6 +1245,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1247,6 +1289,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1290,6 +1333,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1332,6 +1376,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -1361,6 +1406,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",
@@ -1390,6 +1436,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1433,6 +1480,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "post",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -1475,6 +1523,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -1507,6 +1556,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -1536,6 +1586,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -1565,6 +1616,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1595,6 +1647,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1625,6 +1678,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1655,6 +1709,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "December",
@@ -1684,6 +1739,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "The optics ramp",
@@ -1713,6 +1769,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1756,6 +1813,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1799,6 +1857,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1828,6 +1887,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -1871,6 +1931,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "When it files",
@@ -1900,6 +1961,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -1942,6 +2004,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1984,6 +2047,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Late February 2027",

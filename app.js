@@ -26,12 +26,27 @@
     var toggle = doc.querySelector('.menu-toggle');
     var nav = doc.getElementById('site-nav');
     if (!toggle || !nav) return;
-    function set(open) {
+    var links = function () { return Array.prototype.slice.call(nav.querySelectorAll('a[href]')); };
+    function set(open, focusFirst) {
       toggle.setAttribute('aria-expanded', String(open));
       toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       nav.classList.toggle('is-open', open);
+      // UX-0.5 (10 October 2026): the nav sits before the button in the DOM, so Tab from the open
+      // button used to skip the links. Opening by the button moves the focus to the first link;
+      // Tab from the last link closes the menu and lands on the button, from where Tab goes on to
+      // the page; Shift+Tab from the first link returns to the button. No focus trap: the menu is
+      // not modal, and Escape still closes it and returns the focus.
+      if (open && focusFirst) { var first = links()[0]; if (first) first.focus(); }
     }
-    toggle.addEventListener('click', function () { set(toggle.getAttribute('aria-expanded') !== 'true'); });
+    toggle.addEventListener('click', function () { var open = toggle.getAttribute('aria-expanded') !== 'true'; set(open, open); });
+    nav.addEventListener('keydown', function (event) {
+      if (event.key !== 'Tab' || toggle.getAttribute('aria-expanded') !== 'true') return;
+      var all = links();
+      var i = all.indexOf(doc.activeElement);
+      if (i < 0) return;
+      if (!event.shiftKey && i === all.length - 1) { event.preventDefault(); set(false); toggle.focus(); }
+      else if (event.shiftKey && i === 0) { event.preventDefault(); toggle.focus(); }
+    });
     nav.addEventListener('click', function (event) { if (event.target.closest && event.target.closest('a')) set(false); });
     doc.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { set(false); toggle.focus(); }

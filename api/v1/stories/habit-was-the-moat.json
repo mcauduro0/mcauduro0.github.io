@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -81,6 +81,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -299,6 +300,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -342,6 +344,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -385,6 +388,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -427,6 +431,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -456,6 +461,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",

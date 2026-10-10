@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
   "question": "Is the capex spending defense, or is the return not there?",
@@ -85,6 +85,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "label",
             "ref": "2027 budget",
@@ -353,6 +354,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "label",
             "ref": "2027 budget",
@@ -396,6 +398,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "Next lab financing",
@@ -425,6 +428,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "Through 2027",
@@ -454,6 +458,7 @@
           "status": "refuted",
           "resultId": "p03-t04",
           "sameAs": "p03-t04",
+          "stage": "post",
           "source": {
             "kind": "label",
             "ref": "After Labor Day",
@@ -512,6 +517,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "Token and productivity data",
@@ -579,6 +585,7 @@
     "status": "pending",
     "resultId": null,
     "sameAs": null,
+    "stage": "pre",
     "source": {
       "kind": "label",
       "ref": "2027 budget",

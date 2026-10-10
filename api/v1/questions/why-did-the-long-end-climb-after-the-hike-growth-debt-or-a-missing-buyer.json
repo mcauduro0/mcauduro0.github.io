@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -85,6 +85,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -552,6 +553,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -587,6 +589,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -631,6 +634,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "10-year at 5.5%",
@@ -663,6 +667,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "2028 refinancing wave",
@@ -730,6 +735,7 @@
     "status": "pending",
     "resultId": null,
     "sameAs": null,
+    "stage": "pre",
     "source": {
       "kind": "label",
       "ref": "Mid-October",

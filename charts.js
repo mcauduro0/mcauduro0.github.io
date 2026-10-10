@@ -119,6 +119,10 @@ const liveLegend = (items) => `<p class="legend lc-legend">${items.map((i) => `<
 
 const TYPES = {};
 
+// UX-0.9 (10 October 2026): the gap between the forward earnings yield and the 10-year Treasury yield
+// is a valuation sensitivity, not a cushion, a risk premium or a comparable return; the tool says so.
+export const DENOMINATOR_GAP_LABEL = 'Forward earnings yield minus 10-year Treasury yield';
+export const DENOMINATOR_NOTE = 'This is a valuation sensitivity, not a risk-adjusted return comparison. Earnings are not contractual distributions, and the two assets differ in duration, growth, inflation exposure and risk.';
 TYPES.denominator = {
   state: (spec) => ({ eps: 0, y: spec.treasury }),
   labels: {
@@ -142,7 +146,7 @@ ${slider({ key: 'y', label: '10-year Treasury yield', min: 3.5, max: 6.5, step: 
     return `<div class="dn-stats">
   <p class="dn-stat"><span class="dn-label">Multiple at today’s prices</span><span class="dn-value">${pe.toFixed(1)}x</span></p>
   <p class="dn-stat"><span class="dn-label">Stocks’ earnings yield</span><span class="dn-value">${ey.toFixed(2)}%</span></p>
-  <p class="dn-stat dn-${tone}"><span class="dn-label">Cushion over Treasuries</span><span class="dn-value">${fmt(gap, { suffix: ' bp', signed: true })}</span></p>
+  <p class="dn-stat dn-${tone}"><span class="dn-label">${DENOMINATOR_GAP_LABEL}</span><span class="dn-value">${fmt(gap, { suffix: ' bp', signed: true })}</span></p>
 </div>
 <div class="dn-bars" aria-hidden="true">
   <div class="dn-row"><span>S&amp;P 500 earnings yield</span><span class="track"><span class="bar bar-amber" style="width:${pct((ey / scaleMax) * 100)}"></span></span><b>${ey.toFixed(2)}%</b></div>
@@ -152,16 +156,17 @@ ${slider({ key: 'y', label: '10-year Treasury yield', min: 3.5, max: 6.5, step: 
   <span class="pe-track">${spec.benchmarks.map((b) => `<span class="pe-tick" style="left:${pct(pePos(b.pe))}"></span>`).join('')}<span class="pe-marker" style="left:${pct(pePos(pe))}"><span>${pe.toFixed(1)}x</span></span></span>
   <span class="pe-ends"><span>${peMin}x</span><span>${peMax}x</span></span>
 </div>
-<ul class="pe-bench">${spec.benchmarks.map((b) => { const d = pe - b.pe; return `<li><span>${esc(b.label)}</span><b>${b.pe.toFixed(1)}x</b><em class="${d > 0 ? 'neg' : 'pos'}">${Math.abs(d) < 0.05 ? 'same as today' : `today ${Math.abs(d).toFixed(1)}x ${d > 0 ? 'richer' : 'cheaper'}`}</em></li>`; }).join('')}</ul>`;
+<ul class="pe-bench">${spec.benchmarks.map((b) => { const d = pe - b.pe; return `<li><span>${esc(b.label)}</span><b>${b.pe.toFixed(1)}x</b><em class="${d > 0 ? 'neg' : 'pos'}">${Math.abs(d) < 0.05 ? 'same as today' : `today ${Math.abs(d).toFixed(1)}x ${d > 0 ? 'richer' : 'cheaper'}`}</em></li>`; }).join('')}</ul>
+<p class="fine dn-note">${DENOMINATOR_NOTE}</p>`;
   },
   readout(spec, s) {
     const { pe, ey, gap } = denominatorMath(spec, s);
-    const verdict = gap < 0 ? `Treasuries pay ${Math.abs(gap)} basis points more than stocks. The cushion is gone.` : gap === 0 ? 'Stocks and Treasuries pay the same. There is no cushion.' : `Stocks pay ${gap} basis points more than Treasuries.`;
+    const verdict = gap < 0 ? `The 10-year Treasury yields ${Math.abs(gap)} basis points more than the forward earnings yield.` : gap === 0 ? 'The forward earnings yield and the 10-year Treasury yield are equal.' : `The forward earnings yield is ${gap} basis points above the 10-year Treasury yield.`;
     return `At ${pe.toFixed(1)}x, stocks yield ${ey.toFixed(2)}% on forward profits against ${s.y.toFixed(2)}% on the 10-year. ${verdict}`;
   },
   table(spec) {
     const rows = spec.presets.map((p) => { const m = denominatorMath(spec, p); return [p.label, fmt(p.eps, { suffix: '%', signed: true }), `${p.y.toFixed(2)}%`, `${m.pe.toFixed(1)}x`, `${m.ey.toFixed(2)}%`, fmt(m.gap, { suffix: ' bp', signed: true })]; });
-    return table(['Scenario', 'Earnings change', '10-year yield', 'Multiple', 'Earnings yield', 'Cushion'], rows);
+    return table(['Scenario', 'Earnings change', '10-year yield', 'Multiple', 'Earnings yield', 'Yield gap'], rows);
   }
 };
 

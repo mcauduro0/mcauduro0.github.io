@@ -1624,3 +1624,27 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 .result-missing strong { color: var(--ink); }
 .result-next-action { font: 600 11px/1.6 var(--mono); color: var(--amber-ink); text-transform: uppercase; letter-spacing: 0.04em; }
 .scorecard-inconclusive { margin-top: 10px; }
+/* UX-0 (10 October 2026): the orientation block under the nameplate, the stage and effect chips beside the status, the count notes and the denominator note. Additive to the base. */
+.orient { padding: 14px 0 4px; }
+.orient-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
+.orient-line { margin: 0; max-width: 64ch; font: 400 17px/1.45 var(--serif); color: var(--ink-2); }
+.orient-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; margin: 0; }
+.orient-primary { min-height: 44px; padding: 0 18px; }
+.orient-compact { padding-top: 0; }
+.orient-compact .orient-inner { padding-bottom: 12px; }
+.docket-stage { display: inline-block; margin-left: 8px; padding: 3px 8px; border: 1px solid var(--rule); border-radius: 999px; font: 600 10.5px/1.4 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); vertical-align: middle; white-space: nowrap; }
+.docket-stage-pre { border-color: transparent; background: color-mix(in srgb, var(--green) 10%, transparent); color: var(--green); }
+.docket-stage-post { border-color: transparent; background: color-mix(in srgb, var(--amber) 18%, transparent); color: var(--amber-ink); }
+.effect { margin: 0 0 0 6px; white-space: nowrap; }
+.effect-supports { border-color: transparent; background: color-mix(in srgb, var(--green) 12%, transparent); color: var(--green); }
+.effect-weakens { border-color: transparent; background: color-mix(in srgb, var(--brick) 12%, transparent); color: var(--brick); }
+.effect-informs { border-color: transparent; background: color-mix(in srgb, var(--ink) 8%, transparent); color: var(--ink-2); }
+.result-rule-stage { margin: 0 0 10px; }
+.result-rule-stage .docket-stage { margin-left: 0; }
+.result-rule-note { margin-left: 8px; font: 400 13px/1.5 var(--sans); color: var(--muted); }
+.count-note { flex-basis: 100%; margin: 0; }
+.sides-bar { margin-top: 18px; }
+.scorecard-hit-rate { margin-top: 10px; }
+.newsletter-sample { white-space: nowrap; }
+.dn-note { margin: 10px 0 0; }
+@media (max-width: 640px) { .orient-inner { flex-direction: column; align-items: flex-start; } }

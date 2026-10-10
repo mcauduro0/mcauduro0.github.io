@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -81,6 +81,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -243,6 +244,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -278,6 +280,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -322,6 +325,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "10-year at 5.5%",
@@ -354,6 +358,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "2028 refinancing wave",

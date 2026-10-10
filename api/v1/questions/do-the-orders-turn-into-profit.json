@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -76,6 +76,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -679,6 +680,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -709,6 +711,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -739,6 +742,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -769,6 +773,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "December",
@@ -798,6 +803,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "The optics ramp",
@@ -869,6 +875,7 @@
     "status": "pending",
     "resultId": null,
     "sameAs": null,
+    "stage": "open",
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "how-fast-do-habits-break",
   "question": "How fast do habits break?",
@@ -85,6 +85,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -351,6 +352,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -394,6 +396,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -437,6 +440,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "pre",
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -479,6 +483,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "January-April",
@@ -508,6 +513,7 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
+          "stage": "open",
           "source": {
             "kind": "label",
             "ref": "Amazon standoff",
@@ -591,6 +597,7 @@
     "status": "pending",
     "resultId": null,
     "sameAs": null,
+    "stage": "pre",
     "source": {
       "kind": "fmp-earnings",
       "ref": "Company earnings calendar, date via Financial Modeling Prep",

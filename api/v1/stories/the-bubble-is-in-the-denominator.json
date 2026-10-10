@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -81,6 +81,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "post",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -276,6 +277,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "pre",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -319,6 +321,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "post",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -361,6 +364,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -393,6 +397,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -422,6 +427,7 @@
       "status": "pending",
       "resultId": null,
       "sameAs": null,
+      "stage": "open",
       "source": {
         "kind": "label",
         "ref": "Productivity data",

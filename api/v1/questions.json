@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:03:04Z",
+  "generatedAt": "2026-10-10T17:31:39Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
@@ -82,6 +82,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "open",
               "source": {
                 "kind": "label",
                 "ref": "When the bottleneck clears",
@@ -115,6 +116,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "open",
         "source": {
           "kind": "label",
           "ref": "When the bottleneck clears",
@@ -218,6 +220,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "open",
               "source": {
                 "kind": "label",
                 "ref": "2027 buildout",
@@ -251,6 +254,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "open",
         "source": {
           "kind": "label",
           "ref": "2027 buildout",
@@ -354,6 +358,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "fmp-earnings",
                 "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -401,6 +406,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "fmp-earnings",
           "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -518,6 +524,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "label",
                 "ref": "2027 budget",
@@ -565,6 +572,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "label",
           "ref": "2027 budget",
@@ -672,6 +680,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "open",
               "source": {
                 "kind": "label",
                 "ref": "2028",
@@ -705,6 +714,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "open",
         "source": {
           "kind": "label",
           "ref": "2028",
@@ -808,6 +818,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "open",
               "source": {
                 "kind": "label",
                 "ref": "Dec 10",
@@ -841,6 +852,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "open",
         "source": {
           "kind": "label",
           "ref": "Dec 10",
@@ -944,6 +956,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "label",
                 "ref": "Mid-October",
@@ -992,6 +1005,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "label",
           "ref": "Mid-October",
@@ -1110,6 +1124,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "label",
                 "ref": "Late October",
@@ -1156,6 +1171,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "label",
           "ref": "Late October",
@@ -1272,6 +1288,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "fmp-earnings",
                 "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1319,6 +1336,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "fmp-earnings",
           "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1436,6 +1454,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "post",
               "source": {
                 "kind": "label",
                 "ref": "October",
@@ -1482,6 +1501,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "post",
         "source": {
           "kind": "label",
           "ref": "October",
@@ -1589,6 +1609,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "open",
               "source": {
                 "kind": "story",
                 "ref": "watchlist[0].date",
@@ -1623,6 +1644,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "open",
         "source": {
           "kind": "story",
           "ref": "watchlist[0].date",
@@ -1728,6 +1750,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "story",
                 "ref": "watchlist[0].date",
@@ -1775,6 +1798,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "story",
           "ref": "watchlist[0].date",
@@ -1893,6 +1917,7 @@
               "status": "pending",
               "resultId": null,
               "sameAs": null,
+              "stage": "pre",
               "source": {
                 "kind": "label",
                 "ref": "Late October",
@@ -1939,6 +1964,7 @@
         "status": "pending",
         "resultId": null,
         "sameAs": null,
+        "stage": "pre",
         "source": {
           "kind": "label",
           "ref": "Late October",
