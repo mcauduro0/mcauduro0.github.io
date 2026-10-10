@@ -1816,5 +1816,11 @@ li.is-open .number-open-hint { color: var(--ink); }
 /* UX-2.24 (focus, zoom and performance): below this line. */
 /* The "Specified after the date" chip (UX-0) read 4.46:1 on the page: the amber ink on an 18% amber tint. A 10% tint keeps the ink and clears 4.5:1 on paper and on a card. */
 .docket-stage-post { background: color-mix(in srgb, var(--amber) 10%, transparent); }
-
-
+/* D-UX10 (10 October 2026): accessibility corrections to the Manus base, approved by the owner; the axe findings of UX-2.24 that the base owned (scripts/a11y-known.json, now empty). Overrides appended here, the base rules untouched. */
+.docket .label-amber, .docket .docket-list a { color: #7A4C08; } /* amber ink darkened on the paper-2 band: 5.8:1 against 4.5:1 before */
+.test-refuted { color: color-mix(in srgb, var(--brick) 70%, var(--ink)); } /* the Refuted chip's text on its tint, on paper and on the Weekly's band: above 5:1 */
+.wire-list:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; } /* the wire scrolls sideways and now takes keyboard focus */
+.archive-num::before { content: attr(data-num); } /* the archive numeral is generated content: decorative, outside the accessibility tree, same ink */
+.entity-numbers .n-context a { text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 2px; } /* a link in a text block is underlined, not color alone */
+.call-meter { flex-wrap: wrap; row-gap: 8px; } /* at 320px the conviction label wraps instead of being clipped by the band */
+.weekly-results .wnote-tag span.test-refuted { color: color-mix(in srgb, var(--brick) 70%, var(--ink)); } /* the Weekly's tag line paints its spans muted; the Refuted chip keeps its own ink there too */
