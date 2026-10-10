@@ -1613,3 +1613,25 @@ a.proof-cell:hover, a.proof-cell:focus-visible { background: rgba(250, 247, 241,
 .partners-form.is-done input, .partners-form.is-done textarea, .partners-form.is-done select { opacity: 0.55; }
 @media (max-width: 1000px) { .landing-proof { grid-template-columns: 1fr; } .landing-how-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } .partners-numbers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .landing-how-list { grid-template-columns: 1fr; } .partners-numbers { grid-template-columns: 1fr; } .landing-footer .wrap { flex-direction: column; } .landing-form .field-row { flex-direction: column; } }
+/* Specification versions, the same-test fold and the inconclusive contract (10 October 2026): additive to the Docket row, the story's "What to watch", the Result page and the scorecard. */
+.docket-spec-version { margin: 12px 0 0; font: 500 12px/1.5 var(--mono); color: var(--amber-ink); }
+.docket-spec-version + .docket-spec { margin-top: 8px; }
+.docket-spec-history { margin: 10px 0 0; font: 400 13.5px/1.5 var(--sans); color: var(--ink-2); }
+.docket-spec-history summary { cursor: pointer; font: 600 11px/1.6 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.docket-spec-earlier { margin: 8px 0 0; padding-left: 18px; }
+.docket-spec-earlier-head { margin: 6px 0 0; font: 500 12px/1.5 var(--mono); color: var(--muted); }
+.docket-spec-earlier-words { margin-top: 6px; padding-top: 0; border-top: 0; }
+.docket-spec-earlier-none { margin: 4px 0 0; font: 400 13px/1.5 var(--sans); color: var(--muted); }
+.docket-same-as { margin: 10px 0 0; font: 500 13px/1.5 var(--sans); color: var(--ink-2); }
+.docket-same-as a { color: var(--amber-ink); text-decoration: underline; text-decoration-color: var(--amber); }
+.docket-same-anchor { display: block; height: 0; }
+.result-sub { margin-top: 18px; }
+.result-sub > .label { margin-bottom: 6px; }
+.result-sub .evidence { margin-top: 8px; }
+.result-missing, .result-next { margin: 6px 0 0; font: 400 15.5px/1.5 var(--sans); color: var(--ink-2); }
+.result-missing strong { color: var(--ink); }
+.result-next-action { font: 600 11px/1.6 var(--mono); color: var(--amber-ink); text-transform: uppercase; letter-spacing: 0.04em; }
+.result-earlier { margin-top: 18px; padding-top: 12px; border-top: 1px dotted var(--rule); }
+.result-earlier-list { margin: 6px 0 0; padding-left: 18px; font: 400 14px/1.5 var(--sans); color: var(--ink-2); }
+.result-rule-version { margin: 6px 0 0; font: 400 14px/1.5 var(--sans); color: var(--muted); }
+.scorecard-inconclusive { margin-top: 10px; }

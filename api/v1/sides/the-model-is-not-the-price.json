@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -80,6 +80,7 @@
       "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -95,7 +96,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
         },
         "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -79,6 +79,7 @@
       "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -94,7 +95,17 @@
           "url": "https://abc.xyz/investor/"
         },
         "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",

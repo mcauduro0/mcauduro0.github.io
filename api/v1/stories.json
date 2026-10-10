@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
@@ -76,6 +76,7 @@
           "event": "If end demand survives market-rate financing, the financed-demand warning weakens; if recurrence falls, private-credit risk moves to the front.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "When the bottleneck clears",
@@ -218,6 +219,7 @@
           "event": "Quarterly deployed gigawatts will test the roughly 10 GW site plan against 0.4 GW operating now.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "2027 buildout",
@@ -356,6 +358,7 @@
           "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -371,7 +374,17 @@
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
             },
             "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p03-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -498,6 +511,7 @@
           "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "2027 budget",
@@ -513,7 +527,17 @@
               "url": "https://abc.xyz/investor/"
             },
             "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -650,6 +674,7 @@
           "event": "Return on invested capital should be visible by Romero’s deadline; failure would turn today’s extraordinary economics into a first-year illusion.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "2028",
@@ -800,6 +825,7 @@
           "event": "ERCOT is due to verify its first large-load batch study; the cleared list shows whether Texas weeds out speculators or rations power.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Dec 10",
@@ -970,6 +996,7 @@
           "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -986,7 +1013,17 @@
               "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
             },
             "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -1133,6 +1170,7 @@
           "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -1147,7 +1185,17 @@
               "url": "https://www.sec.gov/edgar/search/"
             },
             "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p08-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -1294,6 +1342,7 @@
           "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1309,7 +1358,17 @@
               "url": "https://investor.atmeta.com/"
             },
             "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p09-t01",
           "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1472,6 +1531,7 @@
           "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "October",
@@ -1486,7 +1546,17 @@
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
             },
             "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p10-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1628,6 +1698,7 @@
           "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -1792,6 +1863,7 @@
           "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -1807,7 +1879,17 @@
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
             },
             "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -1987,6 +2069,7 @@
           "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -2001,7 +2084,17 @@
               "url": "https://www.eia.gov/electricity/data/eia861m/"
             },
             "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-10",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p13-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",

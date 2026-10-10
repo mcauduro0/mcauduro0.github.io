@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51.212Z",
+  "generatedAt": "2026-10-10T05:09:07.356Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -200,7 +200,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
         },
         "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -270,17 +280,43 @@
         "url": null
       },
       "resolver": {
-        "kind": "manual",
-        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
-        "question": "Did investment-grade borrowers pay narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026 (September 8 to October 2) than on August's deals?",
-        "source": {
-          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
-          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        "kind": "series",
+        "series": "BAMLC0A0CM",
+        "provider": "FRED",
+        "rule": "on - baseline <= -0.03 => yes; on - baseline >= 0.03 => no",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "read": {
+          "on": "2026-10-02",
+          "baseline": [
+            "2026-08-01",
+            "2026-08-31"
+          ]
         },
-        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "question": "Did the investment-grade corporate bond spread (ICE BofA US Corporate Index option-adjusted spread, FRED series BAMLC0A0CM) read tighter on October 2, 2026, the end of the four weeks after Labor Day, than its August 2026 average?",
+        "source": {
+          "label": "FRED, ICE BofA US Corporate Index option-adjusted spread (BAMLC0A0CM)",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+        },
+        "ambiguity": "A series that is late, revised after the reading or silent for the window is inconclusive, reviewed by the owner, and the Result says what was read, what was missing and the next step. A difference inside the 3 basis point band is inconclusive and closes the test.",
+        "specState": "approved",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-10",
+            "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
-      "status": "inconclusive",
+      "status": "refuted",
       "resultId": "p03-t04"
     },
     {
@@ -332,7 +368,17 @@
           "url": "https://abc.xyz/investor/"
         },
         "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -402,18 +448,45 @@
         "url": null
       },
       "resolver": {
-        "kind": "manual",
-        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
-        "question": "Did the $50 billion to $60 billion of investment-grade paper queued for after Labor Day 2026 price by October 2 with narrower new-issue concessions than August's deals?",
-        "source": {
-          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
-          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        "kind": "series",
+        "series": "BAMLC0A0CM",
+        "provider": "FRED",
+        "rule": "on - baseline <= -0.03 => yes; on - baseline >= 0.03 => no",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "read": {
+          "on": "2026-10-02",
+          "baseline": [
+            "2026-08-01",
+            "2026-08-31"
+          ]
         },
-        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "question": "Did the investment-grade corporate bond spread (ICE BofA US Corporate Index option-adjusted spread, FRED series BAMLC0A0CM) read tighter on October 2, 2026, the end of the four weeks after Labor Day, than its August 2026 average?",
+        "source": {
+          "label": "FRED, ICE BofA US Corporate Index option-adjusted spread (BAMLC0A0CM)",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+        },
+        "ambiguity": "A series that is late, revised after the reading or silent for the window is inconclusive, reviewed by the owner, and the Result says what was read, what was missing and the next step. A difference inside the 3 basis point band is inconclusive and closes the test.",
+        "specState": "approved",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-10",
+            "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
-      "status": "inconclusive",
-      "resultId": "p04-t04"
+      "status": "refuted",
+      "resultId": "p03-t04",
+      "sameAs": "p03-t04"
     },
     {
       "id": "p04-t05",
@@ -746,7 +819,17 @@
           "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
         },
         "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -827,7 +910,17 @@
           "url": "https://www.sec.gov/edgar/search/"
         },
         "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -855,7 +948,17 @@
           "url": "https://www.env.nm.gov/air-quality/"
         },
         "ambiguity": "A decision deferred past November 23, a permit withdrawn by the applicant, or an approval under appeal on that date is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -959,7 +1062,17 @@
           "url": "https://investor.atmeta.com/"
         },
         "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -988,7 +1101,17 @@
           "url": "https://ir.bookingholdings.com/"
         },
         "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1016,7 +1139,17 @@
           "url": "https://investors.nike.com/"
         },
         "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1095,7 +1228,17 @@
           "url": "https://www.sec.gov/edgar/search/"
         },
         "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1123,7 +1266,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
         },
         "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1358,7 +1511,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
         },
         "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1387,7 +1550,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-Q"
         },
         "ambiguity": "A concentration disclosure given only for Amazon as a whole, without an AWS figure, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1441,7 +1614,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
         },
         "ambiguity": "A disclosure that names a lab only as an indirect end customer without a share is inconclusive, reviewed by the owner. A report delayed past December 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1494,7 +1677,17 @@
           "url": "https://www.eia.gov/electricity/data/eia861m/"
         },
         "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1522,7 +1715,17 @@
           "url": "https://www.pjm.com/markets-and-operations/rpm"
         },
         "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null
@@ -1550,7 +1753,17 @@
           "url": "https://www.eia.gov/electricity/data/eia861m/"
         },
         "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-10",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "status": "pending",
       "resultId": null

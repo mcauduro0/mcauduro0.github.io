@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -80,6 +80,7 @@
       "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -95,7 +96,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
         },
         "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -198,6 +209,7 @@
       "event": "Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -213,7 +225,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
         },
         "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -230,6 +252,7 @@
       "event": "Re-lets near 95 percent support durable value; faster decay would expose a gap in the economics.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "Next H100 batches",
@@ -258,6 +281,7 @@
       "event": "Resilient hyperscaler free cash flow would ease leverage fears; negative cash flow would validate Erkan’s tripwire.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "2027",
@@ -284,23 +308,50 @@
       "date": "2026-09-08",
       "precision": "window",
       "event": "The next $50B-$60B issuance will show whether new-issue concessions keep widening or start to normalize.",
-      "status": "inconclusive",
+      "status": "refuted",
       "resultId": "p03-t04",
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
         "url": null
       },
       "resolver": {
-        "kind": "manual",
-        "rule": "Yes if September's investment-grade issuance reached $50 billion and the average new-issue concession on those deals, as the dealer figures cited in JunkBondInvestor's Credit Weekly report it, was below the double-digit basis points paid in August; the test resolves confirmed on yes and refuted if concessions held or widened.",
-        "question": "Did investment-grade borrowers pay narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026 (September 8 to October 2) than on August's deals?",
-        "source": {
-          "label": "SIFMA, US corporate bond issuance statistics (September 2026)",
-          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/"
+        "kind": "series",
+        "series": "BAMLC0A0CM",
+        "provider": "FRED",
+        "rule": "on - baseline <= -0.03 => yes; on - baseline >= 0.03 => no",
+        "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "read": {
+          "on": "2026-10-02",
+          "baseline": [
+            "2026-08-01",
+            "2026-08-31"
+          ]
         },
-        "ambiguity": "If no public concession figure covers the window, or issuance fell short of $50 billion, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "question": "Did the investment-grade corporate bond spread (ICE BofA US Corporate Index option-adjusted spread, FRED series BAMLC0A0CM) read tighter on October 2, 2026, the end of the four weeks after Labor Day, than its August 2026 average?",
+        "source": {
+          "label": "FRED, ICE BofA US Corporate Index option-adjusted spread (BAMLC0A0CM)",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM"
+        },
+        "ambiguity": "A series that is late, revised after the reading or silent for the window is inconclusive, reviewed by the owner, and the Result says what was read, what was missing and the next step. A difference inside the 3 basis point band is inconclusive and closes the test.",
+        "specState": "approved",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-10",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-10",
+            "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -317,6 +368,7 @@
       "event": "The 182-day run ending would test whether unusual market calm is breaking; repetition would extend the signal.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "When the streak ends",
@@ -342,28 +394,77 @@
       "part": 3,
       "slug": "the-debt-behind-the-machines",
       "story": "The Machines Will Work. The Debt Might Not.",
-      "resolvedOn": "2026-10-08",
-      "verdict": "inconclusive",
-      "headline": "Inconclusive: no public figure covers the September concessions",
+      "resolvedOn": "2026-10-10",
+      "verdict": "refuted",
+      "headline": "Refuted: the investment-grade spread ended the window five basis points wider than August's average.",
       "body": [
-        "The test asked whether investment-grade borrowers paid narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026, September 8 to October 2, than on August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
-        "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+        "The ICE BofA US Corporate Index option-adjusted spread read 0.85% on October 2, 2026, the end of the four weeks after Labor Day, against an average of 0.80% over August's 21 daily readings (FRED series BAMLC0A0CM). The difference is +0.05%, five basis points, outside the 3 basis point band the rule names, so the answer to the question is no: the market did not price the window tighter than August.",
+        "What the series does not show, the press did. On September 22 Reuters reported spreads on AI-related issuers near 115 basis points against 78 for the broader investment-grade market, Alphabet paying a large concession on its August sale, and Aon's $13.5 billion financing drawing $65 billion of orders with its 30-year tranche tightening 35 basis points. Concessions normalized away from the AI complex and stayed wide inside it. That split is evidence here, not the rule.",
+        "The Call of Part 03, bearish on the credit of the buildout, expected the spread to widen, so a refuted test on this question is the market agreeing with the Call. Version 1 of this specification, approved on October 9 for a test already past, named a source that covered half the rule and a figure no public series reports; its reading of October 8 stays below under Earlier readings."
       ],
       "evidence": [
         {
-          "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
-          "value": "No public figure; dealer estimates are not published as a series",
-          "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
-          "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
-          "asOf": "2026-10-09"
+          "label": "ICE BofA US Corporate Index option-adjusted spread, average 2026-08-01 to 2026-08-31",
+          "value": "0.80%",
+          "source": "FRED BAMLC0A0CM",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+          "asOf": "2026-08-31"
+        },
+        {
+          "label": "ICE BofA US Corporate Index option-adjusted spread, 2026-10-02",
+          "value": "0.85%",
+          "source": "FRED BAMLC0A0CM",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+          "asOf": "2026-10-02"
+        },
+        {
+          "label": "ICE BofA US Corporate Index option-adjusted spread, reading less average",
+          "value": "+0.05%",
+          "source": "FRED BAMLC0A0CM",
+          "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+          "asOf": "2026-10-02"
+        },
+        {
+          "label": "Spreads on AI-related issuers against the broader investment-grade market, as Reuters reported on September 22, 2026",
+          "value": "about 115 basis points against 78",
+          "source": "Reuters, Corporate bond buyers get picky with flood of AI debt",
+          "url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/",
+          "asOf": "2026-09-22"
         }
       ],
       "callUpdate": {
         "stance": null,
         "conviction": null,
-        "note": "Conviction unchanged; the Call stands as written."
+        "note": "Conviction unchanged: a wider spread at the end of the window is what the Call expected of the credit stack."
       },
-      "approvedAt": "2026-10-09T03:49:26Z",
+      "approvedAt": "2026-10-10T05:07:34Z",
+      "specVersion": 2,
+      "version": 2,
+      "history": [
+        {
+          "version": 1,
+          "specVersion": 1,
+          "verdict": "inconclusive",
+          "resolvedOn": "2026-10-08",
+          "headline": "Inconclusive: no public figure covers the September concessions",
+          "body": [
+            "The test asked whether investment-grade borrowers paid narrower new-issue concessions on the $50 billion to $60 billion of paper priced in the four weeks after Labor Day 2026, September 8 to October 2, than on August's deals. The specification names SIFMA's issuance statistics as the public source and the dealer figures cited in JunkBondInvestor's Credit Weekly for the concession reading.",
+            "No public statistic reports an average new-issue concession for the window, and the dealer figures are not published as a series. Under the specification's own ambiguity rule the test is inconclusive. The Call stands as written."
+          ],
+          "evidence": [
+            {
+              "label": "Average new-issue concession on investment-grade deals priced Sept. 8 to Oct. 2, 2026",
+              "value": "No public figure; dealer estimates are not published as a series",
+              "source": "SIFMA, US corporate bond issuance statistics (September 2026)",
+              "url": "https://www.sifma.org/resources/research/statistics/us-corporate-bonds-statistics/",
+              "asOf": "2026-10-09"
+            }
+          ],
+          "approvedAt": "2026-10-09T03:49:26Z"
+        }
+      ],
+      "missing": null,
+      "next": null,
       "url": "https://deepstack.ltd/results/p03-t04/",
       "anchorUrl": "https://deepstack.ltd/results/#result-p03-t04",
       "api": "https://deepstack.ltd/api/v1/results/p03-t04.json",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -84,6 +84,7 @@
           "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "October",
@@ -98,7 +99,17 @@
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
             },
             "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p10-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -426,6 +437,7 @@
           "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -441,7 +453,17 @@
               "url": "https://www.sec.gov/edgar/search/"
             },
             "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p10-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -458,6 +480,7 @@
           "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "October",
@@ -472,7 +495,17 @@
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
             },
             "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p10-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -489,6 +522,7 @@
           "event": "A 5.5% Treasury yield tests Howell’s turning-point history against TSCS’s warning that the long end will keep rising.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "At 5.5% 10-year",
@@ -520,6 +554,7 @@
           "event": "Three-year-old chip rents and resale prices show whether scarcity or durable economics supports hardware values.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Next used-GPU print",
@@ -548,6 +583,7 @@
           "event": "A rise in total factor productivity would show the rest of the economy can write the checks; a flat reading leaves bondholders exposed.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Productivity data",
@@ -618,6 +654,7 @@
     "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
     "status": "pending",
     "resultId": null,
+    "sameAs": null,
     "source": {
       "kind": "label",
       "ref": "October",
@@ -632,7 +669,17 @@
         "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
       },
       "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
-      "specState": "approved"
+      "specState": "approved",
+      "specVersion": 1,
+      "specUpdatedOn": "2026-10-09",
+      "specHistory": [
+        {
+          "version": 1,
+          "date": "2026-10-09",
+          "reason": "First specification.",
+          "by": "Marco Cauduro"
+        }
+      ]
     },
     "url": "https://deepstack.ltd/docket/#test-p10-t02",
     "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",

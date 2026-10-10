@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -84,6 +84,7 @@
           "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -100,7 +101,17 @@
               "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
             },
             "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -540,6 +551,7 @@
           "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -574,6 +586,7 @@
           "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -590,7 +603,17 @@
               "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
             },
             "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-09",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-09",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -607,6 +630,7 @@
           "event": "Howell expects a major bond opportunity; failure to turn would keep the growth brake unproven.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "10-year at 5.5%",
@@ -638,6 +662,7 @@
           "event": "Leveraged-loan and corporate maturities arrive; stress would show today’s rates are reaching AI’s borrowers.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "2028 refinancing wave",
@@ -704,6 +729,7 @@
     "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
     "status": "pending",
     "resultId": null,
+    "sameAs": null,
     "source": {
       "kind": "label",
       "ref": "Mid-October",
@@ -720,7 +746,17 @@
         "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
       },
       "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
-      "specState": "approved"
+      "specState": "approved",
+      "specVersion": 1,
+      "specUpdatedOn": "2026-10-09",
+      "specHistory": [
+        {
+          "version": 1,
+          "date": "2026-10-09",
+          "reason": "First specification.",
+          "by": "Marco Cauduro"
+        }
+      ]
     },
     "url": "https://deepstack.ltd/docket/#test-p07-t02",
     "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",

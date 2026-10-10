@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -81,6 +81,7 @@
       "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -96,7 +97,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
         },
         "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -285,6 +296,7 @@
       "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -300,7 +312,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
         },
         "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -317,6 +339,7 @@
       "event": "Amazon reports: it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's October 5 count of 47% of Anthropic's sales through Amazon and Google.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -332,7 +355,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-Q"
         },
         "ambiguity": "A concentration disclosure given only for Amazon as a whole, without an AWS figure, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -349,6 +382,7 @@
       "event": "Anthropic's listing, Part 10's test as the Docket states it: a registration statement with audited revenue, net loss and customer concentration public on EDGAR, or shares trading; a confidential draft without an EDGAR filing is inconclusive.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -377,6 +411,7 @@
       "event": "Nvidia reports: whether it names the labs among its largest customers, against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue from the two.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -392,7 +427,17 @@
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
         },
         "ambiguity": "A disclosure that names a lab only as an indirect end customer without a share is inconclusive, reviewed by the owner. A report delayed past December 15, 2026 is inconclusive.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -409,6 +454,7 @@
       "event": "The prospectus: the gross margin on inference, customer concentration against Silverio's October 5 count of a quarter from two customers, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "When it files",

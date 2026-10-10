@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -85,6 +85,7 @@
           "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -99,7 +100,17 @@
               "url": "https://www.eia.gov/electricity/data/eia861m/"
             },
             "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-10",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p13-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -612,6 +623,7 @@
           "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -626,7 +638,17 @@
               "url": "https://www.eia.gov/electricity/data/eia861m/"
             },
             "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-10",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p13-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -643,6 +665,7 @@
           "event": "PJM's capacity auction for the year from June 2029, as scheduled: whether it clears below the price ceiling, the second exit from the house's view.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -657,7 +680,17 @@
               "url": "https://www.pjm.com/markets-and-operations/rpm"
             },
             "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-10",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p13-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -674,6 +707,7 @@
           "event": "The federal data for all of 2026: the same four-point test, with Texas below the national change.",
           "status": "pending",
           "resultId": null,
+          "sameAs": null,
           "source": {
             "kind": "label",
             "ref": "Late February 2027",
@@ -688,7 +722,17 @@
               "url": "https://www.eia.gov/electricity/data/eia861m/"
             },
             "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-10",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-10",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ]
           },
           "url": "https://deepstack.ltd/docket/#test-p13-t03",
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -763,6 +807,7 @@
     "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
     "status": "pending",
     "resultId": null,
+    "sameAs": null,
     "source": {
       "kind": "label",
       "ref": "Late October",
@@ -777,7 +822,17 @@
         "url": "https://www.eia.gov/electricity/data/eia861m/"
       },
       "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
-      "specState": "approved"
+      "specState": "approved",
+      "specVersion": 1,
+      "specUpdatedOn": "2026-10-10",
+      "specHistory": [
+        {
+          "version": 1,
+          "date": "2026-10-10",
+          "reason": "First specification.",
+          "by": "Marco Cauduro"
+        }
+      ]
     },
     "url": "https://deepstack.ltd/docket/#test-p13-t01",
     "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",

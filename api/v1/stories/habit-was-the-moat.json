@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -80,6 +80,7 @@
       "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -95,7 +96,17 @@
           "url": "https://investor.atmeta.com/"
         },
         "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -287,6 +298,7 @@
       "event": "Meta reports its September quarter; users, transaction volume and fees would show whether downloads are becoming a business.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -302,7 +314,17 @@
           "url": "https://investor.atmeta.com/"
         },
         "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -319,6 +341,7 @@
       "event": "Booking reports room nights and direct mix; the result tests whether the agent or the incumbent owns the booking.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -334,7 +357,17 @@
           "url": "https://ir.bookingholdings.com/"
         },
         "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -351,6 +384,7 @@
       "event": "Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -365,7 +399,17 @@
           "url": "https://investors.nike.com/"
         },
         "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -382,6 +426,7 @@
       "event": "The first tax season with agents tests whether households still pay Intuit for certainty or ask an agent.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -410,6 +455,7 @@
       "event": "Amazon allowing agent checkout would show the advertising pool beginning to move; continued resistance shows its value remains protected.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",

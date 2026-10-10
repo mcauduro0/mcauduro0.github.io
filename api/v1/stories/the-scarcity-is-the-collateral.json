@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:36:51Z",
+  "generatedAt": "2026-10-10T05:09:07Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -80,6 +80,7 @@
       "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -94,7 +95,17 @@
           "url": "https://www.sec.gov/edgar/search/"
         },
         "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -229,6 +240,7 @@
       "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -243,7 +255,17 @@
           "url": "https://www.sec.gov/edgar/search/"
         },
         "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -260,6 +282,7 @@
       "event": "New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -274,7 +297,17 @@
           "url": "https://www.env.nm.gov/air-quality/"
         },
         "ambiguity": "A decision deferred past November 23, a permit withdrawn by the applicant, or an approval under appeal on that date is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-09",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-09",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ]
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -291,6 +324,7 @@
       "event": "Pipeline in-service date tests whether Project Jupiter can secure fuel for its planned campus.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -319,6 +353,7 @@
       "event": "Contract repricing shows whether scarce compute retains value or lenders face faster obsolescence.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "First Blackwell renewal",
@@ -347,6 +382,7 @@
       "event": "Government-loan terms reveal the price Washington assigns to financing bottlenecks it wants to remove.",
       "status": "pending",
       "resultId": null,
+      "sameAs": null,
       "source": {
         "kind": "label",
         "ref": "Fluidstack terms",
