@@ -42,6 +42,7 @@
         "asOf": "2026-09-22"
       }
     ],
+    "effect": "supports",
     "callUpdate": {
       "stance": null,
       "conviction": null,
@@ -74,7 +75,6 @@
     ],
     "approvedBy": "Marco Cauduro",
     "approvedAt": "2026-10-10T05:07:34Z",
-    "effect": null,
     "slug": "the-debt-behind-the-machines",
     "headline_story": "The Machines Will Work. The Debt Might Not.",
     "test": {
@@ -125,7 +125,8 @@
             "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "sameAs": null,
       "specRecord": {
@@ -181,7 +182,10 @@
           }
         ],
         "approvedBy": "Marco Cauduro",
-        "approvedAt": "2026-10-10T05:06:15Z"
+        "approvedAt": "2026-10-10T05:06:15Z",
+        "callExpects": "no",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z"
       }
     }
   }

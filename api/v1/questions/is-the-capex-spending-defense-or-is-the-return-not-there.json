@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-capex-spending-defense-or-is-the-return-not-there",
   "question": "Is the capex spending defense, or is the return not there?",
@@ -111,7 +111,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -380,7 +381,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -499,7 +501,8 @@
                 "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p04-t04",
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -611,7 +614,8 @@
           "reason": "First specification.",
           "by": "Marco Cauduro"
         }
-      ]
+      ],
+      "callExpects": "no"
     },
     "url": "https://deepstack.ltd/docket/#test-p04-t01",
     "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",

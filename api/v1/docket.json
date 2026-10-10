@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-10",
@@ -265,7 +265,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -384,7 +385,8 @@
             "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p03-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#watch",
@@ -458,7 +460,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -577,7 +580,8 @@
             "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p04-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/#watch",
@@ -988,7 +992,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -1094,7 +1099,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -1137,7 +1143,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -1271,7 +1278,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1315,7 +1323,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1358,7 +1367,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -1462,7 +1472,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1505,7 +1516,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -1795,7 +1807,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -1839,7 +1852,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -1913,7 +1927,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p12-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -1986,7 +2001,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p13-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -2029,7 +2045,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p13-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",
@@ -2072,7 +2089,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p13-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#watch",

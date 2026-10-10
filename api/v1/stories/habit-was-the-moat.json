@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -107,7 +107,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -326,7 +327,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t01",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -370,7 +372,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t02",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",
@@ -413,7 +416,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p09-t03",
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/#watch",

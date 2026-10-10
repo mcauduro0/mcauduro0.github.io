@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -106,7 +106,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -267,7 +268,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",
@@ -310,7 +312,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p08-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#watch",

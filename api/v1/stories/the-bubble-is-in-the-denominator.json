@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -106,7 +106,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -303,7 +304,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
@@ -346,7 +348,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",

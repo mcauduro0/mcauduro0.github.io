@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -112,7 +112,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -616,7 +617,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -762,7 +764,8 @@
           "reason": "First specification.",
           "by": "Marco Cauduro"
         }
-      ]
+      ],
+      "callExpects": "no"
     },
     "url": "https://deepstack.ltd/docket/#test-p07-t02",
     "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",

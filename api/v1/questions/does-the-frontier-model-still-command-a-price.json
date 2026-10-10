@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39Z",
+  "generatedAt": "2026-10-10T17:41:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-frontier-model-still-command-a-price",
   "question": "Does the frontier model still command a price?",
@@ -112,7 +112,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -690,7 +691,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -734,7 +736,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -808,7 +811,8 @@
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "no"
           },
           "url": "https://deepstack.ltd/docket/#test-p12-t04",
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",
@@ -952,7 +956,8 @@
           "reason": "First specification.",
           "by": "Marco Cauduro"
         }
-      ]
+      ],
+      "callExpects": "no"
     },
     "url": "https://deepstack.ltd/docket/#test-p12-t01",
     "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/#watch",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:31:39.163Z",
+  "generatedAt": "2026-10-10T17:41:37.852Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -210,7 +210,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -314,7 +315,8 @@
             "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "refuted",
       "resultId": "p03-t04"
@@ -378,7 +380,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -482,7 +485,8 @@
             "reason": "Version 1 named a source that covered half the rule and a figure no public series reports; the question now reads the public spread series on FRED, and the market split enters as evidence.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "refuted",
       "resultId": "p03-t04",
@@ -829,7 +833,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -920,7 +925,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "status": "pending",
       "resultId": null
@@ -958,7 +964,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -1072,7 +1079,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -1111,7 +1119,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -1149,7 +1158,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "status": "pending",
       "resultId": null
@@ -1238,7 +1248,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -1276,7 +1287,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "either"
       },
       "status": "pending",
       "resultId": null
@@ -1521,7 +1533,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -1560,7 +1573,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -1624,7 +1638,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -1687,7 +1702,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -1725,7 +1741,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null
@@ -1763,7 +1780,8 @@
             "reason": "First specification.",
             "by": "Marco Cauduro"
           }
-        ]
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
