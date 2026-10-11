@@ -1882,3 +1882,10 @@ li.is-open .number-open-hint { color: var(--ink); }
 .tape[data-tape="ticker"] .tape-list li { scroll-snap-align: none; }
 @media (max-width: 640px) { .tape[data-tape="ticker"] .tape-list a { max-width: none; } .tape[data-tape="ticker"] .tape-list a .tape-label { white-space: nowrap; } }
 @media (max-width: 760px) { .tape-inner { gap: 10px; } .tape-pause { margin-right: var(--pad); } }
+
+/* ---------- D-UX15 (11 October 2026, the owner's decision): a Result is read against the Call. The chip is the status chip of the base (Confirmed in green, Refuted in brick, Inconclusive in amber); the fourth reading, a result the Call staked no direction on, takes the ink tint. ---------- */
+.test-informed { border-color: transparent; background: color-mix(in srgb, var(--ink) 8%, transparent); color: var(--ink-2); }
+/* The Weekly's tag line paints its spans muted (D-UX10 kept the Refuted chip's ink there); the other readings keep their own ink too, above 4.5:1 on their tints. */
+.weekly-results .wnote-tag span.test-confirmed { color: var(--green); }
+.weekly-results .wnote-tag span.test-inconclusive { color: var(--amber-ink); }
+.weekly-results .wnote-tag span.test-informed { color: var(--ink-2); }

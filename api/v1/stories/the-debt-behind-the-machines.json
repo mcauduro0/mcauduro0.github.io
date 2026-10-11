@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T02:31:14Z",
+  "generatedAt": "2026-10-11T03:35:54Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -564,9 +564,11 @@
       "verdict": "refuted",
       "effect": "supports",
       "effectLabel": "Supports the Call",
-      "headline": "Refuted: the investment-grade spread ended the window five basis points wider than August's average.",
+      "callVerdict": "confirmed",
+      "callVerdictLabel": "Confirmed",
+      "headline": "Confirmed: the investment-grade spread ended the window five basis points wider than August's average, as the Call expected.",
       "body": [
-        "The ICE BofA US Corporate Index option-adjusted spread read 0.85% on October 2, 2026, the end of the four weeks after Labor Day, against an average of 0.80% over August's 21 daily readings (FRED series BAMLC0A0CM). The difference is +0.05%, five basis points, outside the 3 basis point band the rule names, so the answer to the question is no: the market did not price the window tighter than August.",
+        "The ICE BofA US Corporate Index option-adjusted spread read 0.85% on October 2, 2026, the end of the four weeks after Labor Day, against an average of 0.80% over August's 21 daily readings (FRED series BAMLC0A0CM). The difference is +0.05%, five basis points, outside the 3 basis point band the rule names, so the answer to the question is no: the market did not price the window tighter than August. That is the outcome the Call expected of the credit stack.",
         "What the series does not show, the press did. On September 22 Reuters reported spreads on AI-related issuers near 115 basis points against 78 for the broader investment-grade market, Alphabet paying a large concession on its August sale, and Aon's $13.5 billion financing drawing $65 billion of orders with its 30-year tranche tightening 35 basis points. Concessions normalized away from the AI complex and stayed wide inside it. That split is evidence here, not the rule.",
         "The Call of Part 03, bearish on the credit of the buildout, expected the spread to widen, so a refuted test on this question is the market agreeing with the Call."
       ],

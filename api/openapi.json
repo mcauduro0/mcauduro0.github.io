@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-11T02:31:14Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-11T03:35:54Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -1450,6 +1450,8 @@
           "resolvedOn",
           "verdict",
           "effect",
+          "callVerdict",
+          "callVerdictLabel",
           "effectLabel",
           "headline",
           "body",
@@ -1500,6 +1502,25 @@
               "weakens",
               "informs",
               null
+            ]
+          },
+          "callVerdict": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "refuted",
+              "inconclusive",
+              "informed"
+            ],
+            "description": "The reading against the Call (D-UX15): confirmed when the result is the one the Call expected, refuted when it is not, informed when the Call expected either, inconclusive when the source did not settle it; verdict is the answer to the test’s own question."
+          },
+          "callVerdictLabel": {
+            "type": "string",
+            "enum": [
+              "Confirmed",
+              "Refuted",
+              "Inconclusive",
+              "Informs the Call"
             ]
           },
           "effectLabel": {
@@ -1668,6 +1689,8 @@
           "resolvedOn",
           "verdict",
           "effect",
+          "callVerdict",
+          "callVerdictLabel",
           "effectLabel",
           "headline",
           "body",
@@ -1731,6 +1754,24 @@
               "weakens",
               "informs",
               null
+            ]
+          },
+          "callVerdict": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "refuted",
+              "inconclusive",
+              "informed"
+            ]
+          },
+          "callVerdictLabel": {
+            "type": "string",
+            "enum": [
+              "Confirmed",
+              "Refuted",
+              "Inconclusive",
+              "Informs the Call"
             ]
           },
           "effectLabel": {
@@ -4316,8 +4357,10 @@
           "api",
           "rule",
           "hitRateRule",
+          "callVerdictRule",
           "count",
           "counts",
+          "callVerdicts",
           "effects",
           "hitRate",
           "results"
@@ -4346,6 +4389,10 @@
             "type": "string",
             "description": "What the hit rate counts, in the words the scorecard prints."
           },
+          "callVerdictRule": {
+            "type": "string",
+            "description": "How a result is read against the Call (D-UX15), in the words the site prints."
+          },
           "count": {
             "type": "integer"
           },
@@ -4367,6 +4414,30 @@
                 "type": "integer"
               }
             }
+          },
+          "callVerdicts": {
+            "type": "object",
+            "required": [
+              "confirmed",
+              "refuted",
+              "inconclusive",
+              "informed"
+            ],
+            "properties": {
+              "confirmed": {
+                "type": "integer"
+              },
+              "refuted": {
+                "type": "integer"
+              },
+              "inconclusive": {
+                "type": "integer"
+              },
+              "informed": {
+                "type": "integer"
+              }
+            },
+            "description": "The results counted as they are read, against the Call."
           },
           "effects": {
             "type": "object",
