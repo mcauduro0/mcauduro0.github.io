@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -90,8 +90,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 82,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -366,7 +366,8 @@
       "event": "The federal price data for August: whether the median twelve-month rise in household prices across PJM's nine jurisdictions stays at least four points above the median of the other 42, from 11.7% against 5.6% in July.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": 82
     }
   },
   "body": [
@@ -464,8 +465,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 82,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -513,8 +514,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 20,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -562,8 +563,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 70,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late February 2027",

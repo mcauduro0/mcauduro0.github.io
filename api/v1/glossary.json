@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "url": "https://deepstack.ltd/glossary/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/glossary.json",
   "approvedBy": "Marco Cauduro",
-  "approvedAt": "2026-10-10T18:28:41.702Z",
-  "count": 31,
+  "approvedAt": "2026-10-11T19:48:01.903Z",
+  "count": 33,
   "terms": [
     {
       "id": "remaining-performance-obligations",
@@ -224,6 +224,18 @@
       "url": "https://deepstack.ltd/glossary/#real-yield"
     },
     {
+      "id": "the-call-s-number",
+      "term": "the Call’s number",
+      "aliases": [
+        "Call’s number",
+        "callProbability"
+      ],
+      "short": "The chance, from 0 to 100, that the Call gives the yes answer to a test’s question, recorded before the test’s date.",
+      "long": "Every pre-specified test on the Docket can carry the Call’s number: the chance the house gives the yes answer to the test’s question, written into the record with the words of the test and before its date, so it cannot be set in hindsight. It prints on the Docket, in the Part’s list of tests, on the home strip and on the Result, on one line from 0 (no) to 100 (yes), with the readers’ share beside it once 25 have clicked. It is DeepStack’s reading, not a market price and not advice; from the tenth result it feeds the Brier score.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#the-call-s-number"
+    },
+    {
       "id": "interconnection",
       "term": "interconnection",
       "aliases": [
@@ -392,6 +404,17 @@
         13
       ],
       "url": "https://deepstack.ltd/glossary/#large-load"
+    },
+    {
+      "id": "brier-score",
+      "term": "Brier score",
+      "aliases": [
+        "Brier"
+      ],
+      "short": "The mean of the squared gap between the chance the Call gave the yes answer and what happened; 0 is perfect and 0.25 is what a coin flip earns.",
+      "long": "DeepStack prints the Brier score on the Scorecard from the tenth result whose test carried a number recorded before the date. For each such result the gap is the Call’s number as a fraction minus one when the answer was yes, or minus zero when it was no, squared; the score is the mean of the gaps. A Call that said 85% and was right adds 0.02; one that said 15% and was wrong adds 0.72. Lower is better, 0.25 is what a coin flip earns, and the score punishes confidence the source did not reward.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#brier-score"
     },
     {
       "id": "backlog",

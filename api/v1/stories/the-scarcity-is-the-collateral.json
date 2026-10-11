@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -89,8 +89,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 80,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -343,7 +343,8 @@
       "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": 80
     }
   },
   "body": [
@@ -391,8 +392,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 80,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -440,8 +441,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 55,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",

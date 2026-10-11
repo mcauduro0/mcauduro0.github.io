@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-11T17:18:24Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-11T20:09:41Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -1491,6 +1491,9 @@
           "callVerdict",
           "callVerdictLabel",
           "effectLabel",
+          "callProbability",
+          "answer",
+          "brierGap",
           "headline",
           "body",
           "evidence",
@@ -1573,6 +1576,34 @@
               null
             ],
             "description": "The effect in the words the scorecard prints (UX-3.27); null with no effect."
+          },
+          "callProbability": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100,
+            "description": "The Call’s number: the chance, 0 to 100, the Call gave the yes answer, counted only when recorded on a specification approved before the date and stamped on or before it; null otherwise."
+          },
+          "answer": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "yes",
+              "no",
+              null
+            ],
+            "description": "The answer the result gave to the test’s question: yes for confirmed, no for refuted, null for inconclusive."
+          },
+          "brierGap": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "The squared gap between the Call’s number as a fraction and the answer (one for yes, zero for no); the Brier score is the mean of these; null without a number or an answer."
           },
           "headline": {
             "type": "string"
@@ -1739,6 +1770,7 @@
           "api",
           "storyUrl",
           "resolutionPackage",
+          "number",
           "page",
           "card"
         ],
@@ -1866,6 +1898,50 @@
               "null"
             ],
             "format": "uri"
+          },
+          "number": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "value": {
+                "type": "integer"
+              },
+              "expects": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "yes",
+                  "no",
+                  "either",
+                  null
+                ]
+              },
+              "line": {
+                "type": "string"
+              },
+              "answer": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "yes",
+                  "no",
+                  null
+                ]
+              },
+              "gap": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "description": "The Call’s number as it stood before the date, the sentence the page prints, the answer and the Brier gap; null when no number counts."
           },
           "page": {
             "type": "object",
@@ -3323,6 +3399,13 @@
               },
               "status": {
                 "type": "string"
+              },
+              "callNumber": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "The Call’s number for the next test (the chance, 0 to 100, the Call gives the yes answer, recorded before the date), or null."
               }
             },
             "description": "The next test the Part names, with the stage of its specification, or null."

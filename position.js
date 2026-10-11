@@ -55,6 +55,36 @@
     });
   }
 
+  // The Call's number (11 October 2026): the readers' mark on the line above the control moves with
+  // the Worker's totals, and appears from the same floor the build applies (READERS_FLOOR clicks).
+  var READERS_FLOOR = 25;
+  function updateRuler(doc, box, answer) {
+    var yes = Math.max(0, Math.trunc(Number(answer && answer.yes) || 0));
+    var no = Math.max(0, Math.trunc(Number(answer && answer.no) || 0));
+    var n = yes + no;
+    var holder = box.parentNode;
+    var ruler = holder && holder.querySelector ? holder.querySelector('svg.call-ruler') : null;
+    if (n < READERS_FLOOR || !ruler) return;
+    var pct = Math.round((yes / n) * 100);
+    var tick = ruler.querySelector('.call-ruler-readers');
+    if (!tick) {
+      tick = doc.createElementNS(ruler.namespaceURI, 'rect');
+      tick.setAttribute('class', 'call-ruler-readers');
+      tick.setAttribute('y', '0');
+      tick.setAttribute('width', '0.6');
+      tick.setAttribute('height', '8');
+      ruler.appendChild(tick);
+    }
+    tick.setAttribute('x', Math.max(0, Math.min(99.4, pct - 0.3)).toFixed(1));
+    ruler.setAttribute('data-readers', String(pct));
+    var axis = holder.querySelector('.call-ruler-axis');
+    if (axis) {
+      var line = axis.querySelector('.call-ruler-readers-line');
+      if (!line) { line = doc.createElement('span'); line.className = 'call-ruler-readers-line'; axis.insertBefore(line, axis.lastElementChild); }
+      line.textContent = 'Readers so far: ' + pct + '% yes · n=' + n;
+    }
+  }
+
   function settle(box, buttons, status, side, line) {
     Array.prototype.forEach.call(buttons, function (b) {
       b.disabled = true;
@@ -86,6 +116,7 @@
             var line = aggregateLine(answer);
             writeLock(win, testId, side, line);
             settle(box, buttons, status, side, line);
+            updateRuler(doc, box, answer);
           }).catch(function () {
             Array.prototype.forEach.call(buttons, function (b) { b.disabled = false; });
             status.textContent = 'Your position could not be counted. Try again in a moment.';
@@ -95,7 +126,7 @@
     });
   }
 
-  var api = { payload: payload, aggregateLine: aggregateLine, storageKey: storageKey, PREFIX: PREFIX };
+  var api = { payload: payload, aggregateLine: aggregateLine, storageKey: storageKey, updateRuler: updateRuler, READERS_FLOOR: READERS_FLOOR, PREFIX: PREFIX };
   if (typeof globalThis !== 'undefined') globalThis.DeepStackPosition = api;
 
   if (typeof window !== 'undefined' && typeof document !== 'undefined') {

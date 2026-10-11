@@ -1,6 +1,6 @@
 {
   "url": "https://deepstack.ltd/data/download/",
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:40Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
   "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
@@ -167,7 +167,7 @@
   "versions": [
     {
       "asOf": "2026-10-11",
-      "generatedAt": "2026-10-11T17:15:20.268Z",
+      "generatedAt": "2026-10-11T19:57:42.341Z",
       "current": true,
       "files": [
         {
@@ -199,10 +199,10 @@
             "call_expects",
             "call_probability"
           ],
-          "bytes": 24418,
-          "sha256": "0c9a6400cc4aaf237e47d437d496bf418f7e7285a8345feed2a83e016e0f2ddb",
-          "jsonBytes": 67714,
-          "jsonSha256": "a00e3dbfd62ac5b48f5cfe8ffbd357353768490527f662fe3516f6a720b8cc55"
+          "bytes": 24458,
+          "sha256": "e24b6dcad816be2cb2ee470d0258b6633e4c0b73d380d03d882a06feeba693ee",
+          "jsonBytes": 68012,
+          "jsonSha256": "dda8d801dcd98b37fe40e89297d575c5f9d81621a7ef42d2b18df712582e9846"
         },
         {
           "name": "results",
@@ -259,7 +259,7 @@
           "bytes": 140849,
           "sha256": "77586ff89d253c5d019c05389a7d41ae19b76f9b8cce824da184415cb7b3fce5",
           "jsonBytes": 257984,
-          "jsonSha256": "824aa6d9fedad8219264ee35231c6c7592fc7f024d421473501d4e0776050321"
+          "jsonSha256": "57f7522e042cb29f1bc78b456b515cccad247c36a1416559094c7f3e2b622206"
         },
         {
           "name": "companies",

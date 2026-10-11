@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -357,7 +357,8 @@
       "event": "Anthropic filing or listing reveals audited revenue, losses and concentration, testing the $400B revenue milestone.",
       "stage": "post",
       "stageLabel": "Specified after the date",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": null
     }
   },
   "body": [
@@ -430,8 +431,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 75,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",

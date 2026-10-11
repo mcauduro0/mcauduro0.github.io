@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-11",
@@ -281,8 +281,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 60,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -501,8 +501,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 45,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -1068,11 +1068,11 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
-      "callExpects": null,
-      "callExpectsBy": null,
-      "callExpectsAt": null,
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-11T19:37:44Z",
+      "callProbability": 40,
+      "callProbabilityAt": "2026-10-11T19:37:44Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1090,7 +1090,18 @@
           "url": "https://fred.stlouisfed.org/series/DFEDTARU"
         },
         "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-11",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-11",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -1112,8 +1123,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 35,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -1236,8 +1247,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 80,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -1285,8 +1296,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 55,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1439,8 +1450,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 55,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1489,8 +1500,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 65,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1539,8 +1550,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 60,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1658,8 +1669,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 75,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1865,8 +1876,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 45,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -2056,8 +2067,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 20,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -2106,8 +2117,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 15,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -2205,8 +2216,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 15,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -2290,8 +2301,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 82,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -2339,8 +2350,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 20,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -2388,8 +2399,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 70,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Late February 2027",

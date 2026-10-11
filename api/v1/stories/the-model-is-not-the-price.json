@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -90,8 +90,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 20,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -383,7 +383,8 @@
       "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": 20
     }
   },
   "body": [
@@ -447,8 +448,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 20,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -497,8 +498,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 15,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -596,8 +597,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 15,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",

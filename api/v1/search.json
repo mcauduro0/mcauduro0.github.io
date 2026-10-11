@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "url": "https://deepstack.ltd/api/v1/search.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/search.json",
-  "count": 275,
+  "count": 277,
   "kinds": {
     "story": 13,
     "question": 13,
@@ -11,7 +11,7 @@
     "company": 48,
     "person": 91,
     "test": 59,
-    "term": 31,
+    "term": 33,
     "layer": 7
   },
   "docs": [
@@ -530,6 +530,17 @@
     },
     {
       "kind": "term",
+      "id": "the-call-s-number",
+      "title": "the Call’s number",
+      "text": "Call’s number callProbability The chance, from 0 to 100, that the Call gives the yes answer to a test’s question, recorded before the test’s date. Every pre-specified test on the Docket can carry the Call’s number: the chance the house gives the yes answer to the test’s question, written into the record with the words of the test and before its date, so it cannot be set in hindsight. It prints on the Docket, in the Part’s list of tests, on the home strip and on the Result, on one line from 0 (no) to 100 (yes), with the readers’ share beside it once 25 have clicked. It is DeepStack’s reading, not a market price and not advice; from the tenth result it feeds the Brier score.",
+      "url": "https://deepstack.ltd/glossary/#the-call-s-number",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
       "id": "interconnection",
       "title": "interconnection",
       "text": "grid connection interconnections The physical and contractual link that lets a site draw power from the grid; the queue to get one can take years. Interconnection is the connection of a load or a generator to the transmission grid, with the studies, upgrades and approvals it requires. A contracted megawatt is not a connected megawatt until the interconnection is energized, which is why Parts 06 and 13 separate the two.",
@@ -691,6 +702,17 @@
         "parts": [
           13
         ]
+      }
+    },
+    {
+      "kind": "term",
+      "id": "brier-score",
+      "title": "Brier score",
+      "text": "Brier The mean of the squared gap between the chance the Call gave the yes answer and what happened; 0 is perfect and 0.25 is what a coin flip earns. DeepStack prints the Brier score on the Scorecard from the tenth result whose test carried a number recorded before the date. For each such result the gap is the Call’s number as a fraction minus one when the answer was yes, or minus zero when it was no, squared; the score is the mean of the gaps. A Call that said 85% and was right adds 0.02; one that said 15% and was wrong adds 0.72. Lower is better, 0.25 is what a coin flip earns, and the score punishes confidence the source did not reward.",
+      "url": "https://deepstack.ltd/glossary/#brier-score",
+      "date": null,
+      "meta": {
+        "parts": []
       }
     },
     {

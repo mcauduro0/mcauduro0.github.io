@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -89,8 +89,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 45,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -348,7 +348,8 @@
       "event": "Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": 45
     }
   },
   "body": [
@@ -418,8 +419,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 45,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "2027 budget",

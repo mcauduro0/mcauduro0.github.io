@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:15:20.268Z",
+  "generatedAt": "2026-10-11T19:57:42.341Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -793,7 +793,18 @@
           "url": "https://fred.stlouisfed.org/series/DFEDTARU"
         },
         "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-11",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-11",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
       },
       "status": "pending",
       "resultId": null

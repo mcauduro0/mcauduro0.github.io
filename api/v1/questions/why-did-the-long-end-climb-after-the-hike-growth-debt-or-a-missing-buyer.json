@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -89,8 +89,8 @@
           "callExpects": "no",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
-          "callProbability": null,
-          "callProbabilityAt": null,
+          "callProbability": 35,
+          "callProbabilityAt": "2026-10-11T19:37:45Z",
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -560,11 +560,11 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
-          "callExpects": null,
-          "callExpectsBy": null,
-          "callExpectsAt": null,
-          "callProbability": null,
-          "callProbabilityAt": null,
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-11T19:37:44Z",
+          "callProbability": 40,
+          "callProbabilityAt": "2026-10-11T19:37:44Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -582,7 +582,18 @@
               "url": "https://fred.stlouisfed.org/series/DFEDTARU"
             },
             "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
-            "specState": "approved"
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-11",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-11",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "either"
           },
           "url": "https://deepstack.ltd/docket/#test-p07-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -604,8 +615,8 @@
           "callExpects": "no",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
-          "callProbability": null,
-          "callProbabilityAt": null,
+          "callProbability": 35,
+          "callProbabilityAt": "2026-10-11T19:37:45Z",
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -766,8 +777,8 @@
     "callExpects": "no",
     "callExpectsBy": "Marco Cauduro",
     "callExpectsAt": "2026-10-10T17:40:22Z",
-    "callProbability": null,
-    "callProbabilityAt": null,
+    "callProbability": 35,
+    "callProbabilityAt": "2026-10-11T19:37:45Z",
     "source": {
       "kind": "label",
       "ref": "Mid-October",

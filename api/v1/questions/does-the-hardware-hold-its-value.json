@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -449,8 +449,8 @@
           "callExpects": "yes",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
-          "callProbability": null,
-          "callProbabilityAt": null,
+          "callProbability": 75,
+          "callProbabilityAt": "2026-10-11T19:37:45Z",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",

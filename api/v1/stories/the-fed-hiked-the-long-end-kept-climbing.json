@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:18:24Z",
+  "generatedAt": "2026-10-11T20:09:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -89,8 +89,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 35,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -345,7 +345,8 @@
       "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
-      "status": "pending"
+      "status": "pending",
+      "callNumber": 35
     }
   },
   "body": [
@@ -390,11 +391,11 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
-      "callExpects": null,
-      "callExpectsBy": null,
-      "callExpectsAt": null,
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-11T19:37:44Z",
+      "callProbability": 40,
+      "callProbabilityAt": "2026-10-11T19:37:44Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -412,7 +413,18 @@
           "url": "https://fred.stlouisfed.org/series/DFEDTARU"
         },
         "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
-        "specState": "approved"
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-11",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-11",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
       },
       "url": "https://deepstack.ltd/docket/#test-p07-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#watch",
@@ -434,8 +446,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": null,
-      "callProbabilityAt": null,
+      "callProbability": 35,
+      "callProbabilityAt": "2026-10-11T19:37:45Z",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
