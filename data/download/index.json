@@ -1,6 +1,6 @@
 {
   "url": "https://deepstack.ltd/data/download/",
-  "generatedAt": "2026-10-11T16:54:11Z",
+  "generatedAt": "2026-10-11T17:18:24Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
   "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
@@ -167,7 +167,7 @@
   "versions": [
     {
       "asOf": "2026-10-11",
-      "generatedAt": "2026-10-11T16:53:54.827Z",
+      "generatedAt": "2026-10-11T17:15:20.268Z",
       "current": true,
       "files": [
         {
@@ -202,7 +202,7 @@
           "bytes": 24418,
           "sha256": "0c9a6400cc4aaf237e47d437d496bf418f7e7285a8345feed2a83e016e0f2ddb",
           "jsonBytes": 67714,
-          "jsonSha256": "ab7d9d0340d3720fe196bdb9bb17850c7ce4d8c8915a4e884f489677e180e32e"
+          "jsonSha256": "a00e3dbfd62ac5b48f5cfe8ffbd357353768490527f662fe3516f6a720b8cc55"
         },
         {
           "name": "results",
@@ -256,10 +256,10 @@
             "access",
             "link_verified"
           ],
-          "bytes": 140845,
-          "sha256": "1a000f363cf0c7b4ab91fba7aac9c28a47e22e1e80dc5de500df5dac53d946ae",
-          "jsonBytes": 257971,
-          "jsonSha256": "2ccfbf134af6e2562f5bfd50553d74b144ccd648efd01187460a49f2cd3a5f75"
+          "bytes": 140849,
+          "sha256": "77586ff89d253c5d019c05389a7d41ae19b76f9b8cce824da184415cb7b3fce5",
+          "jsonBytes": 257984,
+          "jsonSha256": "824aa6d9fedad8219264ee35231c6c7592fc7f024d421473501d4e0776050321"
         },
         {
           "name": "companies",
@@ -308,8 +308,8 @@
           ],
           "bytes": 27645,
           "sha256": "bc0a7ef965ecc8fa3101cda237e8d4cb41458f47d48065ed4a2d0424e498b5bb",
-          "jsonBytes": 277631,
-          "jsonSha256": "f3a5ff0fbe7c106fde0a6af5c820ae5e61bae30742553f27090949ffd2fe63ed"
+          "jsonBytes": 277646,
+          "jsonSha256": "fec4e5cbe210211cfe5bbcdc6af44d3be25b89864a3a6f16a8300054c65ca49e"
         },
         {
           "name": "tape",
@@ -354,6 +354,7 @@
         "tests: 59 rows changed (p01-t01, p01-t02, p01-t03, p02-t01, p02-t02 and 54 more).",
         "results: the columns changed, from 11 to 12.",
         "results: 1 row changed (p03-t04).",
+        "sides: 2 rows added (Part 13, Alphabet, Part 13, TSCS), 2 removed (Part 13, Google, Part 13, tscsw).",
         "companies: 48 rows changed (alibaba, alphabet, amazon, amd, anthropic and 43 more).",
         "people: 5 rows removed (behind-the-balance-sheet, exelon, google, nrg-energy, tscsw), 91 changed (abhi-yadav, alasdair-mann, alex-immerman, alex-karp, amin-vahdat and 86 more).",
         "tape: 4 rows changed (Part 13, Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026, Part 13, The national household price per kilowatt-hour over the same twelve months, Part 13, Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007, Part 13, Added transmission cost on Maryland bills over 10 years)."
