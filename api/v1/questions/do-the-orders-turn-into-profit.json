@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -80,6 +80,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -700,6 +702,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -747,6 +751,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -781,6 +787,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -815,6 +823,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "December",
@@ -848,6 +858,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "The optics ramp",
@@ -923,6 +935,8 @@
     "callExpects": null,
     "callExpectsBy": null,
     "callExpectsAt": null,
+    "callProbability": null,
+    "callProbabilityAt": null,
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

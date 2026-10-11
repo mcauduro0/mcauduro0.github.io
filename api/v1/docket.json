@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-11",
@@ -16,6 +16,7 @@
   },
   "stageRule": "Pre-specified means the words were approved on or before the test’s date. Specified after the date means they were written afterwards: such a test is counted and shown, and never rated. An open question has no words yet.",
   "callExpectsRule": "callExpects records which answer the Call expected when the words of a test were approved: yes, no, or either when the Call stakes nothing on the answer; a result supports the Call when the answer was the one expected, weakens it when it was the other, and informs it when either answer was foreseen.",
+  "callProbabilityRule": "callProbability is the chance, from 0 to 100, that the Call gave the yes answer when the words were approved, recorded before the date; null when none is recorded.",
   "specified": 19,
   "folded": 2,
   "tests": [
@@ -35,6 +36,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "When the bottleneck clears",
@@ -68,6 +71,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "As capacity ramps",
@@ -101,6 +106,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next depreciation tests",
@@ -134,6 +141,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -167,6 +176,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "May 2029",
@@ -200,6 +211,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next bond tranche",
@@ -233,6 +246,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "OpenAI IPO window",
@@ -266,6 +281,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -314,6 +331,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next H100 batches",
@@ -347,6 +366,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027",
@@ -380,6 +401,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -443,6 +466,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "When the streak ends",
@@ -476,6 +501,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -524,6 +551,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next lab financing",
@@ -557,6 +586,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Through 2027",
@@ -590,6 +621,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -653,6 +686,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Token and productivity data",
@@ -686,6 +721,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next prospectus",
@@ -719,6 +756,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next disclosures",
@@ -752,6 +791,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "DeepSeek repricing",
@@ -785,6 +826,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2028",
@@ -818,6 +861,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "A second revocation",
@@ -851,6 +896,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -884,6 +931,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Year-end",
@@ -917,6 +966,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next quarterly count",
@@ -950,6 +1001,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "First cancellation",
@@ -983,6 +1036,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2029–30 order books",
@@ -1016,6 +1071,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1055,6 +1112,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -1104,6 +1163,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "10-year at 5.5%",
@@ -1140,6 +1201,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2028 refinancing wave",
@@ -1173,6 +1236,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -1220,6 +1285,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1267,6 +1334,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1300,6 +1369,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "First Blackwell renewal",
@@ -1333,6 +1404,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Fluidstack terms",
@@ -1366,6 +1439,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1414,6 +1489,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1462,6 +1539,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1509,6 +1588,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -1542,6 +1623,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",
@@ -1575,6 +1658,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1623,6 +1708,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "October",
@@ -1670,6 +1757,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -1706,6 +1795,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -1739,6 +1830,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -1772,6 +1865,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1819,6 +1914,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1853,6 +1950,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1887,6 +1986,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "December",
@@ -1920,6 +2021,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "The optics ramp",
@@ -1953,6 +2056,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -2001,6 +2106,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -2049,6 +2156,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -2096,6 +2205,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -2144,6 +2255,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "When it files",
@@ -2177,6 +2290,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -2224,6 +2339,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -2271,6 +2388,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Late February 2027",

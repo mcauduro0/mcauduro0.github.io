@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "url": "https://deepstack.ltd/data/#every-number",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/numbers.json",
@@ -1641,9 +1641,9 @@
           "id": "p13-t01",
           "url": "https://deepstack.ltd/docket/#test-p13-t01"
         },
-        "call": true,
+        "call": false,
         "approvedBy": "Marco Cauduro",
-        "approvedAt": "2026-10-10T22:58:16.808Z"
+        "approvedAt": "2026-10-11T16:29:37.910Z"
       }
     },
     {
@@ -1677,7 +1677,7 @@
         },
         "call": false,
         "approvedBy": "Marco Cauduro",
-        "approvedAt": "2026-10-10T22:58:16.808Z"
+        "approvedAt": "2026-10-11T16:29:37.910Z"
       }
     },
     {
@@ -1687,18 +1687,18 @@
       "index": 2,
       "value": "6,623 MW",
       "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
-      "context": "PJM auction results as relayed by tscsw, Feb 26, 2026",
+      "context": "PJM auction results, Dec 17, 2025; first read in tscsw, Feb 26, 2026",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/#number-p13-n3",
       "provenance": {
         "unit": "megawatts",
         "universe": "The shortfall of cleared capacity against PJM's reliability requirement in the auction for June 2027 to May 2028: a 14.8% reserve margin against a 20.0% target, the first miss since the market began in 2007",
-        "period": "Auction results published in February 2026",
+        "period": "Auction results announced by PJM on December 17, 2025, for the 2027/2028 delivery year",
         "source": {
-          "label": "tscsw, February 26, 2026, relaying PJM's auction results (the voice's page on DeepStack)",
-          "url": "/people/tscsw/"
+          "label": "PJM, 2027/2028 Base Residual Auction report and news release of December 17, 2025",
+          "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/2027-2028-bra-report.pdf"
         },
-        "asOf": "2026-02-26",
-        "transformation": "As relayed; the shortfall is PJM's requirement minus the megawatts that cleared.",
+        "asOf": "2025-12-17",
+        "transformation": "The shortfall is PJM's reliability requirement minus the capacity that cleared, as PJM reported it: a 14.8% reserve margin against a 20.0% target. First read in tscsw, February 26, 2026.",
         "limits": "The requirement and the cleared figures are PJM's; later incremental auctions can change the margin.",
         "chart": null,
         "test": {
@@ -1707,7 +1707,7 @@
         },
         "call": false,
         "approvedBy": "Marco Cauduro",
-        "approvedAt": "2026-10-10T22:58:16.808Z"
+        "approvedAt": "2026-10-11T16:29:37.910Z"
       }
     },
     {
@@ -1737,7 +1737,7 @@
         },
         "call": false,
         "approvedBy": "Marco Cauduro",
-        "approvedAt": "2026-10-10T22:58:16.808Z"
+        "approvedAt": "2026-10-11T16:29:37.910Z"
       }
     }
   ]

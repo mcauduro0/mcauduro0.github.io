@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 5,
   "slug": "anthropic-grew-142-percent-openai",
@@ -79,6 +79,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2028",
@@ -364,6 +366,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next prospectus",
@@ -397,6 +401,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next disclosures",
@@ -430,6 +436,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "DeepSeek repricing",
@@ -463,6 +471,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2028",
@@ -496,6 +506,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "A second revocation",
@@ -620,13 +632,6 @@
       "name": "Geo Chen",
       "role": null,
       "url": "https://deepstack.ltd/people/geo-chen/"
-    },
-    {
-      "kind": "person",
-      "slug": "google",
-      "name": "Google",
-      "role": "Research organization",
-      "url": "https://deepstack.ltd/people/google/"
     },
     {
       "kind": "person",

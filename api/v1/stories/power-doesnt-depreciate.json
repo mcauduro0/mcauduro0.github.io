@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -89,6 +89,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -395,6 +397,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -428,6 +432,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Year-end",
@@ -461,6 +467,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next quarterly count",
@@ -494,6 +502,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "First cancellation",
@@ -527,6 +537,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2029–30 order books",
@@ -660,10 +672,10 @@
       "url": "https://deepstack.ltd/people/ed-zitron/"
     },
     {
-      "kind": "person",
+      "kind": "organization",
       "slug": "edelbridge-alpha",
       "name": "Edelbridge Alpha",
-      "role": "Research organization",
+      "role": null,
       "url": "https://deepstack.ltd/people/edelbridge-alpha/"
     },
     {
@@ -672,13 +684,6 @@
       "name": "Gaetano",
       "role": null,
       "url": "https://deepstack.ltd/people/gaetano/"
-    },
-    {
-      "kind": "person",
-      "slug": "google",
-      "name": "Google",
-      "role": "Research organization",
-      "url": "https://deepstack.ltd/people/google/"
     },
     {
       "kind": "person",

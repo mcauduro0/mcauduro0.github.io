@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -89,6 +89,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -386,6 +388,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -419,6 +423,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "May 2029",
@@ -452,6 +458,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next bond tranche",
@@ -485,6 +493,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "OpenAI IPO window",
@@ -539,13 +549,6 @@
       "name": "SpaceX",
       "ticker": null,
       "url": "https://deepstack.ltd/companies/spacex/"
-    },
-    {
-      "kind": "person",
-      "slug": "behind-the-balance-sheet",
-      "name": "Behind the Balance Sheet",
-      "role": null,
-      "url": "https://deepstack.ltd/people/behind-the-balance-sheet/"
     },
     {
       "kind": "person",

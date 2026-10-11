@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-11T03:35:54Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-11T16:54:11Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -448,7 +448,7 @@
         ],
         "responses": {
           "200": {
-            "description": "96 people with what each argued; no score or ranking.",
+            "description": "91 people with what each argued; no score or ranking.",
             "content": {
               "application/json": {
                 "schema": {
@@ -582,6 +582,27 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Notes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/search.json": {
+      "get": {
+        "summary": "Search index",
+        "operationId": "search_index",
+        "tags": [
+          "DeepStack"
+        ],
+        "responses": {
+          "200": {
+            "description": "The search index the MCP tool reads, one document per story, question, sides page, company, person, test, glossary term and layer.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchIndex"
                 }
               }
             }
@@ -728,6 +749,8 @@
           "resultId",
           "sameAs",
           "callExpects",
+          "callProbability",
+          "callProbabilityAt",
           "callExpectsBy",
           "callExpectsAt",
           "source",
@@ -812,6 +835,21 @@
               null
             ],
             "description": "The answer the Part’s Call expected when the words were approved, from the approved specification (UX-3.27); null when none is recorded."
+          },
+          "callProbability": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100,
+            "description": "The chance, from 0 to 100, the Call gave the yes answer when the words were approved (B4, 11 October 2026); null when none is recorded."
+          },
+          "callProbabilityAt": {
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "callExpectsBy": {
             "type": [
@@ -2042,7 +2080,8 @@
             "type": "string",
             "enum": [
               "company",
-              "person"
+              "person",
+              "organization"
             ]
           },
           "slug": {
@@ -3678,6 +3717,98 @@
           }
         }
       },
+      "SearchIndex": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "url",
+          "disclaimer",
+          "api",
+          "count",
+          "kinds",
+          "docs"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "disclaimer": {
+            "type": "string",
+            "const": "Analysis and opinion, not investment advice."
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "kinds": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "description": "How many documents of each kind."
+          },
+          "docs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "id",
+                "title",
+                "text",
+                "url",
+                "date",
+                "meta"
+              ],
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "story",
+                    "question",
+                    "sides",
+                    "company",
+                    "person",
+                    "test",
+                    "term",
+                    "layer"
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "meta": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      },
       "MarketSnapshot": {
         "type": "object",
         "required": [
@@ -3836,7 +3967,8 @@
             "type": "string",
             "enum": [
               "company",
-              "person"
+              "person",
+              "organization"
             ]
           },
           "slug": {
@@ -4265,6 +4397,7 @@
           "stages",
           "stageRule",
           "callExpectsRule",
+          "callProbabilityRule",
           "specified",
           "folded",
           "tests"
@@ -4334,6 +4467,9 @@
             "type": "string",
             "description": "What callExpects records and how a result’s effect follows from it, in one sentence (UX-3.27)."
           },
+          "callProbabilityRule": {
+            "type": "string"
+          },
           "specified": {
             "type": "integer"
           },
@@ -4357,6 +4493,8 @@
           "api",
           "rule",
           "hitRateRule",
+          "brierRule",
+          "brier",
           "callVerdictRule",
           "count",
           "counts",
@@ -4388,6 +4526,31 @@
           "hitRateRule": {
             "type": "string",
             "description": "What the hit rate counts, in the words the scorecard prints."
+          },
+          "brierRule": {
+            "type": "string"
+          },
+          "brier": {
+            "type": "object",
+            "required": [
+              "floor",
+              "scored",
+              "score"
+            ],
+            "properties": {
+              "floor": {
+                "type": "integer"
+              },
+              "scored": {
+                "type": "integer"
+              },
+              "score": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
           },
           "callVerdictRule": {
             "type": "string",
@@ -4621,7 +4784,8 @@
           },
           "kind": {
             "type": "string",
-            "const": "person"
+            "const": "person",
+            "description": "The collection: people and the organizations that contribute argument (each row carries its own kind)"
           },
           "count": {
             "type": "integer"

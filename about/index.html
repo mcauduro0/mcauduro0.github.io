@@ -12,17 +12,16 @@
 <meta property="og:url" content="https://deepstack.ltd/about/">
 <meta property="og:title" content="About DeepStack — Standards, formats and partnerships">
 <meta property="og:description" content="DeepStack is an independent publication on the money behind AI. How our stories are built, the formats in development, and how to partner with us.">
-<meta property="og:image" content="https://deepstack.ltd/assets/avatar.png">
+<meta property="og:image" content="https://deepstack.ltd/assets/og-default.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="About DeepStack — Standards, formats and partnerships">
 <meta name="twitter:description" content="DeepStack is an independent publication on the money behind AI. How our stories are built, the formats in development, and how to partner with us.">
-<meta name="twitter:image" content="https://deepstack.ltd/assets/avatar.png">
+<meta name="twitter:image" content="https://deepstack.ltd/assets/og-default.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="DeepStack" href="/feed.xml">
 <link rel="alternate" type="text/calendar" title="The DeepStack Docket" href="/docket.ics">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&display=swap">
+<link rel="preload" href="/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 <script src="/app.js" defer></script>
 <script src="/subscribe.js" defer></script>
@@ -76,9 +75,9 @@
 </section>
 <section id="governance" class="governance wrap" aria-labelledby="governance-title">
   <div class="section-head"><div><p class="label">Governance</p><h2 id="governance-title">Who decides what.</h2></div><p>One person signs what this site asserts; a model drafts; the record of both is public.</p></div>
-  <dl class="governance-roles"><div><dt>The owner</dt><dd>Approves every specification, every Call and the side it takes, every Result and every line of copy a model drafted, before any of it prints, and signs each approval with his name and the date.</dd></div><div><dt>The model</dt><dd>Drafts: the story file from the judged evidence, the specifications, the results read from the public source, the glossary, the orientation lines, the relations of a question and the provenance of a number. Nothing it drafts publishes on its own.</dd></div><div><dt>The record</dt><dd>Is public. Each approval carries a name and a date on the page and in the API; the Docket says whether a test&#39;s words were approved before or after its date; a Result says what the Call expected and whether the answer supported it, weakened it or only informed it.</dd></div></dl>
+  <dl class="governance-roles"><div><dt>The owner</dt><dd>Approves every specification, every Call and the side it takes, every Result and every line of copy a model drafted, before any of it prints, and signs each approval with his name and the date. Each Call takes a side and a conviction from 1 to 5, the whole scale; the Scorecard counts the tones and the convictions of every Part.</dd></div><div><dt>The model</dt><dd>Drafts: the story file from the judged evidence, the specifications, the results read from the public source, the glossary, the orientation lines, the relations of a question and the provenance of a number. Nothing it drafts publishes on its own.</dd></div><div><dt>The record</dt><dd>Is public. Each approval carries a name and a date on the page and in the API; the Docket says whether a test&#39;s words were approved before or after its date; a Result says what the Call expected and whether the answer supported it, weakened it or only informed it.</dd></div></dl>
   <div class="governance-grid">
-    <div class="governance-block"><h3>Conflicts</h3><p>DeepStack is owned by one person, Marco Cauduro, who writes the Calls and signs each approval. He discloses here any position he holds in a company named in The Buildout: none at this date. No sponsor or partner reads a Call before it prints, and none reviews a verdict.</p></div>
+    <div class="governance-block"><h3>Conflicts</h3><p>DeepStack is owned by one person, Marco Cauduro, who writes the Calls and signs each approval. He is also a partner in Goldenbird, the company whose research platform DeepStack runs on. He discloses here any position he or Goldenbird holds in a company named in The Buildout: none at this date. A Call that could bear on a Goldenbird interest says so on the page. No sponsor or partner reads a Call before it prints, and none reviews a verdict.</p></div>
     <div class="governance-block"><h3>Corrections</h3><p>When we get a fact wrong, we correct it in place and say so at the top of the story, with the date of the change. The register of corrections is public, and it is empty today. <a href="/corrections/">The register <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></p></div>
   </div>
   <p class="fine governance-fine">Every approval is signed on the page it governs: a specification and a Result on the Docket and the Results pages, the Call’s side on the story, the orientation lines under the art, the glossary, the relations of a question, the provenance of a number, and this declaration. Approved by Marco Cauduro on October 11, 2026..</p>
@@ -118,7 +117,7 @@
   <h2 id="privacy-title" class="label">Privacy</h2>
   <div class="about-prose small">
     <p>Email sign-up runs on DeepStack’s own list. The address you enter is stored by DeepStack, in a database it controls, only to send The Weekly and dated results; it is confirmed by one opt-in email, is never shared or sold, and the first unsubscribe click ends every edition and every follow. An address never confirmed is deleted after thirty days; an unsubscribed one stays up to ninety days, with the page it was entered on, its dates and its followed topics, as the record of your consent, and is deleted by the list’s own retention run after that. Each edition is delivered by Resend, which keeps its own delivery log under its own terms. Reply to any edition to ask what is held about you or to have it deleted at once.</p>
-    <p>There are no advertising trackers. Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id, the name and version the calling program gives itself, the time the call took and a short digest of its arguments, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next. A click on a Docket test is kept only as a count per test and day, never with who clicked. A click on a control that carries a name is counted once per day per page, as a number, never with who clicked; the address is used for the rate limit and not kept. Fonts are served by Google Fonts. The full policy, covering email sign-up, the contact form, audience counts and the MCP tools, is at <a href="/privacy/">deepstack.ltd/privacy/</a>.</p>
+    <p>There are no advertising trackers. Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id, the name and version the calling program gives itself, the time the call took and a short digest of its arguments, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next. A click on a Docket test is kept only as a count per test and day, never with who clicked. A click on a control that carries a name is counted once per day per page, as a number, never with who clicked; the address is used for the rate limit and not kept. Fonts are served from deepstack.ltd, from DeepStack’s own files; no request goes to a third party for a font. The full policy, covering email sign-up, the contact form, audience counts and the MCP tools, is at <a href="/privacy/">deepstack.ltd/privacy/</a>.</p>
     <p>DeepStack publishes analysis and opinion. Nothing on this site is investment advice.</p>
   </div>
 </section>

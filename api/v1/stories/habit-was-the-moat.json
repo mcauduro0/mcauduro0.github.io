@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -89,6 +89,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -451,6 +453,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -499,6 +503,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -547,6 +553,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -594,6 +602,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -627,6 +637,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",
@@ -821,13 +833,6 @@
       "name": "Deborah Folloni",
       "role": null,
       "url": "https://deepstack.ltd/people/deborah-folloni/"
-    },
-    {
-      "kind": "person",
-      "slug": "google",
-      "name": "Google",
-      "role": "Research organization",
-      "url": "https://deepstack.ltd/people/google/"
     },
     {
       "kind": "person",

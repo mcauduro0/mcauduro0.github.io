@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-the-marginal-buyer-of-ai-compute-real",
   "question": "Is the marginal buyer of AI compute real?",
@@ -79,6 +79,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "When the bottleneck clears",
@@ -236,6 +238,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "When the bottleneck clears",
@@ -269,6 +273,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "As capacity ramps",
@@ -302,6 +308,8 @@
           "callExpects": null,
           "callExpectsBy": null,
           "callExpectsAt": null,
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "Next depreciation tests",
@@ -357,6 +365,8 @@
     "callExpects": null,
     "callExpectsBy": null,
     "callExpectsAt": null,
+    "callProbability": null,
+    "callProbabilityAt": null,
     "source": {
       "kind": "label",
       "ref": "When the bottleneck clears",

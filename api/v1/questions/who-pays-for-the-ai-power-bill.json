@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -90,6 +90,8 @@
           "callExpects": "yes",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -138,7 +140,7 @@
             },
             {
               "name": "Google",
-              "entity": "https://deepstack.ltd/people/google/",
+              "entity": null,
               "claim": "Citing ERCOT's October 2025 reporting, over 200 gigawatts of large loads have requested interconnection through the interim process, yet less than 4% have been granted approval to energize and about another 7% are eligible to seek energization…",
               "date": "2025-12-18",
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
@@ -146,7 +148,7 @@
             },
             {
               "name": "Google",
-              "entity": "https://deepstack.ltd/people/google/",
+              "entity": null,
               "claim": "The Joint Commenters recommend the Commission adopt a unifying framework aligning all related rulemakings and ERCOT protocol revisions, advancing cost-causation-based cost assignment that shields residential and small commercial customers from cost…",
               "date": "2025-12-18",
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
@@ -186,7 +188,7 @@
             },
             {
               "name": "NRG Energy",
-              "entity": "https://deepstack.ltd/people/nrg-energy/",
+              "entity": "https://deepstack.ltd/companies/nrg-energy/",
               "claim": "NRG argues that because the funding a large load customer must supply to bring new generation greatly exceeds the $50,000/MW security amount, concerns about whether the large load can meet financial commitments are easily satisfied under BYOG…",
               "date": "2026-04-17",
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
@@ -194,7 +196,7 @@
             },
             {
               "name": "NRG Energy",
-              "entity": "https://deepstack.ltd/people/nrg-energy/",
+              "entity": "https://deepstack.ltd/companies/nrg-energy/",
               "claim": "NRG states the ERCOT region faces unprecedented load growth over the next five years, which it says will bring both grid challenges and significant business development opportunities in Texas, making it critical to get the large load…",
               "date": "2026-04-17",
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
@@ -291,7 +293,7 @@
             },
             {
               "name": "Exelon",
-              "entity": "https://deepstack.ltd/people/exelon/",
+              "entity": "https://deepstack.ltd/companies/exelon/",
               "claim": "Because the transmission system is not a one-and-done investment but evolves and requires maintenance at a cost, a model where initial investment absolves co-located loads of ongoing contributions leaves other customers holding the bag and creates…",
               "date": "2026-01-16",
               "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7",
@@ -299,7 +301,7 @@
             },
             {
               "name": "tscsw",
-              "entity": "https://deepstack.ltd/people/tscsw/",
+              "entity": null,
               "claim": "Interconnection queues, turbine shortages, and permitting gridlock are preventing $33 billion offers from translating into actual megawatts of new capacity.",
               "date": "2026-02-26",
               "url": "https://tscsw.substack.com/p/there-is-no-power",
@@ -307,7 +309,7 @@
             },
             {
               "name": "tscsw",
-              "entity": "https://deepstack.ltd/people/tscsw/",
+              "entity": null,
               "claim": "The PJM capacity auction price for mid-Atlantic grid generation cleared at $269.92 per megawatt-day in July 2024, up 9x from the previous auction's $28.92, with all subsequent auctions clearing at administrative price caps.",
               "date": "2026-08-11",
               "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
@@ -412,7 +414,7 @@
             },
             {
               "name": "tscsw",
-              "entity": "https://deepstack.ltd/people/tscsw/",
+              "entity": null,
               "claim": "PJM's 2027/2028 Base Residual Auction failed to meet the reliability requirement for the first time since the capacity market's creation in 2007, achieving only a 14.8% reserve margin against a 20.0% target, a shortfall of 6,623 MW.",
               "date": "2026-02-26",
               "url": "https://tscsw.substack.com/p/there-is-no-power",
@@ -435,7 +437,7 @@
             },
             {
               "name": "tscsw",
-              "entity": "https://deepstack.ltd/people/tscsw/",
+              "entity": null,
               "claim": "The capacity price ninefold; the auction short; on-site power could shrink the gap.",
               "date": null,
               "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
@@ -443,7 +445,7 @@
             },
             {
               "name": "NRG Energy",
-              "entity": "https://deepstack.ltd/people/nrg-energy/",
+              "entity": "https://deepstack.ltd/companies/nrg-energy/",
               "claim": "Own generation answers affordability; the influx of large loads threatens bills.",
               "date": null,
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
@@ -451,7 +453,7 @@
             },
             {
               "name": "Google",
-              "entity": "https://deepstack.ltd/people/google/",
+              "entity": null,
               "claim": "Shield households by cost causation; $24B of Texas lines need loads that connect.",
               "date": null,
               "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58317&itemNumber=11",
@@ -633,6 +635,8 @@
           "callExpects": "yes",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -680,6 +684,8 @@
           "callExpects": "no",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -727,6 +733,8 @@
           "callExpects": "yes",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-10T17:40:22Z",
+          "callProbability": null,
+          "callProbabilityAt": null,
           "source": {
             "kind": "label",
             "ref": "Late February 2027",
@@ -832,6 +840,8 @@
     "callExpects": "yes",
     "callExpectsBy": "Marco Cauduro",
     "callExpectsAt": "2026-10-10T17:40:22Z",
+    "callProbability": null,
+    "callProbabilityAt": null,
     "source": {
       "kind": "label",
       "ref": "Late October",

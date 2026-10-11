@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
-  "kind": "person",
+  "kind": "organization",
   "slug": "north-american-electric-reliability-corporation",
   "name": "North American Electric Reliability Corporation",
-  "role": "Research organization",
+  "role": null,
   "url": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
-  "api": "https://deepstack.ltd/api/v1/entities/people/north-american-electric-reliability-corporation.json",
+  "api": "https://deepstack.ltd/api/v1/entities/undefined/north-american-electric-reliability-corporation.json",
   "summary": "North American Electric Reliability Corporation appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
   "parts": [
     {
@@ -54,7 +54,7 @@
     "creators": 0,
     "claims": 45,
     "texts": 3,
-    "asOf": "2026-10-10"
+    "asOf": "2026-10-11"
   },
-  "lastUpdated": "2026-10-10"
+  "lastUpdated": "2026-10-11"
 }

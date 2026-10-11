@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -89,6 +89,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -416,6 +418,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -464,6 +468,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next lab financing",
@@ -497,6 +503,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Through 2027",
@@ -530,6 +538,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -593,6 +603,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Token and productivity data",
@@ -738,13 +750,6 @@
       "name": "First Pacific Advisors",
       "role": null,
       "url": "https://deepstack.ltd/people/first-pacific-advisors/"
-    },
-    {
-      "kind": "person",
-      "slug": "google",
-      "name": "Google",
-      "role": "Research organization",
-      "url": "https://deepstack.ltd/people/google/"
     },
     {
       "kind": "person",

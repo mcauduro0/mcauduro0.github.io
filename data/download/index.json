@@ -1,6 +1,6 @@
 {
   "url": "https://deepstack.ltd/data/download/",
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
   "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
@@ -33,7 +33,9 @@
           "source_ref",
           "source_url",
           "resolver_kind",
-          "resolver_rule"
+          "resolver_rule",
+          "call_expects",
+          "call_probability"
         ]
       },
       {
@@ -114,7 +116,7 @@
           "csv": "https://deepstack.ltd/data/download/people.csv",
           "json": "https://deepstack.ltd/data/download/people.json"
         },
-        "rows": 96,
+        "rows": 91,
         "columns": [
           "slug",
           "name",
@@ -165,7 +167,7 @@
   "versions": [
     {
       "asOf": "2026-10-11",
-      "generatedAt": "2026-10-11T03:26:08.674Z",
+      "generatedAt": "2026-10-11T16:53:54.827Z",
       "current": true,
       "files": [
         {
@@ -193,12 +195,14 @@
             "source_ref",
             "source_url",
             "resolver_kind",
-            "resolver_rule"
+            "resolver_rule",
+            "call_expects",
+            "call_probability"
           ],
-          "bytes": 24210,
-          "sha256": "6dac87f385ce9f29a3cdbf80b3f19fe51a7ae39b3a6db6b5f2bd332b80717690",
+          "bytes": 24418,
+          "sha256": "0c9a6400cc4aaf237e47d437d496bf418f7e7285a8345feed2a83e016e0f2ddb",
           "jsonBytes": 67714,
-          "jsonSha256": "df3b08368eec17e699a7157c9099eb6cd47d415ef3787713aab4587f9aa9be4a"
+          "jsonSha256": "ab7d9d0340d3720fe196bdb9bb17850c7ce4d8c8915a4e884f489677e180e32e"
         },
         {
           "name": "results",
@@ -223,10 +227,10 @@
             "call_update",
             "approved_at"
           ],
-          "bytes": 2110,
-          "sha256": "10cdcdadb8beec4dca3fc79860be850c637a1221c818cf341262437ab0c2465e",
-          "jsonBytes": 11487,
-          "jsonSha256": "299a602609afd730a0e089ed0398d9f5e044f4f11641477710c84ca09d7a2282"
+          "bytes": 2067,
+          "sha256": "425f5ca73e912c00a05834c9c0a2e791e166a1f781663ddc5368494be018516a",
+          "jsonBytes": 11444,
+          "jsonSha256": "eaf318bec7e8f30092b8bd880a11b7bfba47f121044e05d370548212c52e4d29"
         },
         {
           "name": "sides",
@@ -278,9 +282,9 @@
             "last_updated"
           ],
           "bytes": 12305,
-          "sha256": "afa6d3f17d565cf5202f25c46adfa85a44f9cd9ee95bb07d36cc35e00d41ba37",
+          "sha256": "67a6a0c762c5d02cae4b593c58b59494f685734a87f06222c3593aa5a07b40a1",
           "jsonBytes": 178686,
-          "jsonSha256": "1e7525579e675984e5d929738194d63d56df8979794b9ee0918e1ffe8e4b54ba"
+          "jsonSha256": "f41393a4c97a840b9b79e2fc091963061c0f9a8cceee054997123a3b12287d5f"
         },
         {
           "name": "people",
@@ -290,7 +294,7 @@
             "csv": "https://deepstack.ltd/data/download/versions/2026-10-11/people.csv",
             "json": "https://deepstack.ltd/data/download/versions/2026-10-11/people.json"
           },
-          "rows": 96,
+          "rows": 91,
           "columns": [
             "slug",
             "name",
@@ -302,10 +306,10 @@
             "positions",
             "last_updated"
           ],
-          "bytes": 29344,
-          "sha256": "0c5fb381d6405b36a6ea213847ec0fe81a6130c805321736928db74dc5a60d9b",
-          "jsonBytes": 289034,
-          "jsonSha256": "87ea80862f51db6f46bda2364980ca4afcb01991de94fd93100f1999afcfb6c2"
+          "bytes": 27645,
+          "sha256": "bc0a7ef965ecc8fa3101cda237e8d4cb41458f47d48065ed4a2d0424e498b5bb",
+          "jsonBytes": 277631,
+          "jsonSha256": "f3a5ff0fbe7c106fde0a6af5c820ae5e61bae30742553f27090949ffd2fe63ed"
         },
         {
           "name": "tape",
@@ -339,15 +343,20 @@
             "approved_by",
             "approved_at"
           ],
-          "bytes": 36002,
-          "sha256": "ca5c26664cfda9bbc59535eb8f3beb1d83c4c720b94182eb545be0e0bcafe82e",
-          "jsonBytes": 56338,
-          "jsonSha256": "44c08142701a72fcbef751be7eab9b8c2ecd29ba5c62f9661a686f8d251e0798"
+          "bytes": 36249,
+          "sha256": "5e02960aad93a13c3c5e524a0919fa35bbe6cda6f244fa0a6b892e915a804644",
+          "jsonBytes": 56581,
+          "jsonSha256": "9e3b6063725e2fbe3d102bbfbd3c72a516cb929e6c4aa7e9db5cb34c0e3fa61e"
         }
       ],
       "changes": [
+        "tests: the columns changed, from 16 to 18.",
+        "tests: 59 rows changed (p01-t01, p01-t02, p01-t03, p02-t01, p02-t02 and 54 more).",
         "results: the columns changed, from 11 to 12.",
-        "results: 1 row changed (p03-t04)."
+        "results: 1 row changed (p03-t04).",
+        "companies: 48 rows changed (alibaba, alphabet, amazon, amd, anthropic and 43 more).",
+        "people: 5 rows removed (behind-the-balance-sheet, exelon, google, nrg-energy, tscsw), 91 changed (abhi-yadav, alasdair-mann, alex-immerman, alex-karp, amin-vahdat and 86 more).",
+        "tape: 4 rows changed (Part 13, Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026, Part 13, The national household price per kilowatt-hour over the same twelve months, Part 13, Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007, Part 13, Added transmission cost on Maryland bills over 10 years)."
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -89,6 +89,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "October",
@@ -428,6 +430,8 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -476,6 +480,8 @@
       "callExpects": "either",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "October",
@@ -523,6 +529,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -559,6 +567,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -592,6 +602,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -726,13 +738,6 @@
     },
     {
       "kind": "person",
-      "slug": "google",
-      "name": "Google",
-      "role": "Research organization",
-      "url": "https://deepstack.ltd/people/google/"
-    },
-    {
-      "kind": "person",
       "slug": "jensen-huang",
       "name": "Jensen Huang",
       "role": null,
@@ -840,7 +845,7 @@
       "kind": "person",
       "slug": "tscs",
       "name": "TSCS",
-      "role": null,
+      "role": "tscsw",
       "url": "https://deepstack.ltd/people/tscs/"
     },
     {

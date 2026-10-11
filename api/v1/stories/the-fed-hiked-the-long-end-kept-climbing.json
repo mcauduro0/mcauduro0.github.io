@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:35:54Z",
+  "generatedAt": "2026-10-11T16:54:11Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -89,6 +89,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -391,6 +393,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -430,6 +434,8 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -479,6 +485,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "10-year at 5.5%",
@@ -515,6 +523,8 @@
       "callExpects": null,
       "callExpectsBy": null,
       "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
       "source": {
         "kind": "label",
         "ref": "2028 refinancing wave",
@@ -686,7 +696,7 @@
       "kind": "person",
       "slug": "tscs",
       "name": "TSCS",
-      "role": null,
+      "role": "tscsw",
       "url": "https://deepstack.ltd/people/tscs/"
     },
     {
