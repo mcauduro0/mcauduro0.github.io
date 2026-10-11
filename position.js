@@ -70,12 +70,14 @@
     if (!tick) {
       tick = doc.createElementNS(ruler.namespaceURI, 'rect');
       tick.setAttribute('class', 'call-ruler-readers');
-      tick.setAttribute('y', '0');
-      tick.setAttribute('width', '0.6');
-      tick.setAttribute('height', '8');
-      ruler.appendChild(tick);
+      tick.setAttribute('y', '7');
+      tick.setAttribute('width', '2');
+      tick.setAttribute('height', '16');
+      tick.setAttribute('transform', 'translate(-1 0)');
+      var dot = ruler.querySelector('.call-ruler-dot');
+      if (dot) ruler.insertBefore(tick, dot); else ruler.appendChild(tick);
     }
-    tick.setAttribute('x', Math.max(0, Math.min(99.4, pct - 0.3)).toFixed(1));
+    tick.setAttribute('x', pct + '%');
     ruler.setAttribute('data-readers', String(pct));
     var axis = holder.querySelector('.call-ruler-axis');
     if (axis) {
