@@ -31,6 +31,12 @@
     return fetch(endpoint, { method: 'POST', body: JSON.stringify(payload), keepalive: true, credentials: 'omit', headers: { 'Content-Type': 'text/plain' } });
   }
 
+  // UX-3.28: a follow that went through is confirmed to src/events.js when the page loads it
+  // (window.deepstackEvent, named by content/site.json eventEndpoint); without it nothing happens.
+  function confirmEvent(name) {
+    try { if (typeof window !== 'undefined' && typeof window.deepstackEvent === 'function') window.deepstackEvent(name); } catch (e) { /* the count is a courtesy */ }
+  }
+
   // ---------- the visit's origin ----------
 
   var ARRIVAL_KEY = 'ds_arrival';
@@ -296,6 +302,7 @@
           form.classList.add('is-done');
           input.value = '';
           status.textContent = 'Check your inbox: one confirmation email from DeepStack starts the follow when you open its link.';
+          confirmEvent('follow_submit');
         }).catch(function () {
           status.textContent = 'The follow could not be sent. Try again in a moment.';
         }).then(function () { button.disabled = false; });

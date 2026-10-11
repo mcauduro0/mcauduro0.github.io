@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-hardware-hold-its-value",
   "question": "Does the hardware hold its value?",
@@ -86,6 +86,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "post",
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "October",
@@ -441,6 +444,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -486,6 +492,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "post",
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "October",
@@ -530,6 +539,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "At 5.5% 10-year",
@@ -563,6 +575,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "Next used-GPU print",
@@ -593,6 +608,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "Productivity data",
@@ -665,6 +683,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "post",
+    "callExpects": "either",
+    "callExpectsBy": "Marco Cauduro",
+    "callExpectsAt": "2026-10-10T17:40:22Z",
     "source": {
       "kind": "label",
       "ref": "October",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -86,6 +86,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "post",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -422,6 +425,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -467,6 +473,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "post",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -511,6 +520,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -544,6 +556,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -574,6 +589,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -831,6 +849,68 @@
       "name": "Vitaliy Katsenelson",
       "role": null,
       "url": "https://deepstack.ltd/people/vitaliy-katsenelson/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "earnings-yield",
+      "term": "earnings yield",
+      "short": "Expected earnings divided by price: the inverse of the forward multiple, comparable in shape to a bond yield.",
+      "url": "https://deepstack.ltd/glossary/#earnings-yield"
+    },
+    {
+      "id": "capital-spending",
+      "term": "capital spending",
+      "short": "Cash a company spends on long-lived assets: data centers, chips, networks, power.",
+      "url": "https://deepstack.ltd/glossary/#capital-spending"
+    },
+    {
+      "id": "forward-multiple",
+      "term": "forward multiple",
+      "short": "The share price divided by the next twelve months' expected earnings per share.",
+      "url": "https://deepstack.ltd/glossary/#forward-multiple"
+    },
+    {
+      "id": "hyperscaler",
+      "term": "hyperscaler",
+      "short": "One of the largest cloud and platform companies that build data centers at continental scale.",
+      "url": "https://deepstack.ltd/glossary/#hyperscaler"
+    },
+    {
+      "id": "megawatt",
+      "term": "megawatt",
+      "short": "A unit of power: a megawatt serves a few hundred homes, a gigawatt a city; data centers are sized in both.",
+      "url": "https://deepstack.ltd/glossary/#megawatt"
+    },
+    {
+      "id": "depreciation",
+      "term": "depreciation",
+      "short": "The accounting charge that spreads an asset's cost over the years it is assumed to last.",
+      "url": "https://deepstack.ltd/glossary/#depreciation"
+    },
+    {
+      "id": "token",
+      "term": "token",
+      "short": "The unit a language model is priced by: a fragment of text, roughly three quarters of a word.",
+      "url": "https://deepstack.ltd/glossary/#token"
+    },
+    {
+      "id": "real-yield",
+      "term": "real yield",
+      "short": "The yield on a Treasury whose principal rises with inflation: the price of money after inflation.",
+      "url": "https://deepstack.ltd/glossary/#real-yield"
+    },
+    {
+      "id": "spread",
+      "term": "spread",
+      "short": "The extra yield a borrower pays above a Treasury of the same maturity, in basis points.",
+      "url": "https://deepstack.ltd/glossary/#spread"
+    },
+    {
+      "id": "basis-point",
+      "term": "basis point",
+      "short": "One hundredth of a percentage point: 25 basis points is 0.25%.",
+      "url": "https://deepstack.ltd/glossary/#basis-point"
     }
   ]
 }

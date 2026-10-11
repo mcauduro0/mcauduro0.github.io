@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
@@ -83,6 +83,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "open",
+              "callExpects": null,
+              "callExpectsBy": null,
+              "callExpectsAt": null,
               "source": {
                 "kind": "label",
                 "ref": "When the bottleneck clears",
@@ -117,6 +120,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "open",
+        "callExpects": null,
+        "callExpectsBy": null,
+        "callExpectsAt": null,
         "source": {
           "kind": "label",
           "ref": "When the bottleneck clears",
@@ -222,6 +228,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "open",
+              "callExpects": null,
+              "callExpectsBy": null,
+              "callExpectsAt": null,
               "source": {
                 "kind": "label",
                 "ref": "2027 buildout",
@@ -256,6 +265,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "open",
+        "callExpects": null,
+        "callExpectsBy": null,
+        "callExpectsAt": null,
         "source": {
           "kind": "label",
           "ref": "2027 buildout",
@@ -361,6 +373,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "fmp-earnings",
                 "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -410,6 +425,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "fmp-earnings",
           "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -530,6 +548,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "no",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "label",
                 "ref": "2027 budget",
@@ -579,6 +600,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "no",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "label",
           "ref": "2027 budget",
@@ -689,6 +713,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "open",
+              "callExpects": null,
+              "callExpectsBy": null,
+              "callExpectsAt": null,
               "source": {
                 "kind": "label",
                 "ref": "2028",
@@ -723,6 +750,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "open",
+        "callExpects": null,
+        "callExpectsBy": null,
+        "callExpectsAt": null,
         "source": {
           "kind": "label",
           "ref": "2028",
@@ -828,6 +858,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "open",
+              "callExpects": null,
+              "callExpectsBy": null,
+              "callExpectsAt": null,
               "source": {
                 "kind": "label",
                 "ref": "Dec 10",
@@ -862,6 +895,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "open",
+        "callExpects": null,
+        "callExpectsBy": null,
+        "callExpectsAt": null,
         "source": {
           "kind": "label",
           "ref": "Dec 10",
@@ -967,6 +1003,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "no",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "label",
                 "ref": "Mid-October",
@@ -1017,6 +1056,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "no",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "label",
           "ref": "Mid-October",
@@ -1138,6 +1180,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "either",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "label",
                 "ref": "Late October",
@@ -1186,6 +1231,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "either",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "label",
           "ref": "Late October",
@@ -1305,6 +1353,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "fmp-earnings",
                 "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1354,6 +1405,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "fmp-earnings",
           "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1474,6 +1528,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "post",
+              "callExpects": "either",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "label",
                 "ref": "October",
@@ -1522,6 +1579,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "post",
+        "callExpects": "either",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "label",
           "ref": "October",
@@ -1632,6 +1692,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": null,
+              "callExpectsBy": null,
+              "callExpectsAt": null,
               "source": {
                 "kind": "story",
                 "ref": "watchlist[0].date",
@@ -1680,6 +1743,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": null,
+        "callExpectsBy": null,
+        "callExpectsAt": null,
         "source": {
           "kind": "story",
           "ref": "watchlist[0].date",
@@ -1800,6 +1866,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "no",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "story",
                 "ref": "watchlist[0].date",
@@ -1849,6 +1918,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "no",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "story",
           "ref": "watchlist[0].date",
@@ -1970,6 +2042,9 @@
               "resultId": null,
               "sameAs": null,
               "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-10T17:40:22Z",
               "source": {
                 "kind": "label",
                 "ref": "Late October",
@@ -2018,6 +2093,9 @@
         "resultId": null,
         "sameAs": null,
         "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-10T17:40:22Z",
         "source": {
           "kind": "label",
           "ref": "Late October",

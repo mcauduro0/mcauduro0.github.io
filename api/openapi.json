@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-10T23:33:18Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-11T00:26:09Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -726,6 +726,10 @@
           "event",
           "status",
           "resultId",
+          "sameAs",
+          "callExpects",
+          "callExpectsBy",
+          "callExpectsAt",
           "source",
           "resolver",
           "url",
@@ -788,6 +792,41 @@
               "string",
               "null"
             ]
+          },
+          "sameAs": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The id of the test this row is the same question as (another Part’s), or null."
+          },
+          "callExpects": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "yes",
+              "no",
+              "either",
+              null
+            ],
+            "description": "The answer the Part’s Call expected when the words were approved, from the approved specification (UX-3.27); null when none is recorded."
+          },
+          "callExpectsBy": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Who recorded the expected answer; null when none is recorded."
+          },
+          "callExpectsAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time",
+            "description": "When it was recorded; null when none is recorded."
           },
           "source": {
             "type": [
@@ -1311,6 +1350,7 @@
           "url",
           "api",
           "sidesUrl",
+          "layer",
           "call",
           "keyNumbers",
           "sources",
@@ -1358,6 +1398,17 @@
             ],
             "format": "uri"
           },
+          "layer": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/StoryLayer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The layer of the AI value chain the Part belongs to (UX-1.17); null until the owner approved the layers."
+          },
           "call": {
             "$ref": "#/components/schemas/Call"
           },
@@ -1399,6 +1450,7 @@
           "resolvedOn",
           "verdict",
           "effect",
+          "effectLabel",
           "headline",
           "body",
           "evidence",
@@ -1449,6 +1501,19 @@
               "informs",
               null
             ]
+          },
+          "effectLabel": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "Supports the Call",
+              "Weakens the Call",
+              "Informs the Call",
+              null
+            ],
+            "description": "The effect in the words the scorecard prints (UX-3.27); null with no effect."
           },
           "headline": {
             "type": "string"
@@ -1603,6 +1668,7 @@
           "resolvedOn",
           "verdict",
           "effect",
+          "effectLabel",
           "headline",
           "body",
           "evidence",
@@ -1664,6 +1730,18 @@
               "supports",
               "weakens",
               "informs",
+              null
+            ]
+          },
+          "effectLabel": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "Supports the Call",
+              "Weakens the Call",
+              "Informs the Call",
               null
             ]
           },
@@ -1954,6 +2032,7 @@
           "readingMinutes",
           "api",
           "sidesUrl",
+          "layer",
           "call",
           "keyNumbers",
           "sources",
@@ -1963,11 +2042,13 @@
           "pullQuote",
           "verdict",
           "sections",
+          "orientation",
           "body",
           "chart",
           "tests",
           "results",
-          "entities"
+          "entities",
+          "glossaryTerms"
         ],
         "properties": {
           "generatedAt": {
@@ -2017,6 +2098,16 @@
               "null"
             ],
             "format": "uri"
+          },
+          "layer": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/StoryLayer"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "call": {
             "$ref": "#/components/schemas/Call"
@@ -2081,6 +2172,10 @@
               }
             }
           },
+          "orientation": {
+            "$ref": "#/components/schemas/Orientation",
+            "description": "Where the Part stands, as the strip prints it (UX-1.10): the question, the current read, what is established and what remains uncertain (empty until the owner approved them), the next test with its stage."
+          },
           "body": {
             "type": "array",
             "items": {
@@ -2111,6 +2206,13 @@
             "items": {
               "$ref": "#/components/schemas/EntityRef"
             }
+          },
+          "glossaryTerms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GlossaryTerm"
+            },
+            "description": "The glossary terms the page marks in this Part, in the order marked, each with its short definition and its anchor on /glossary/ (UX-3.27); empty without an approved glossary."
           }
         }
       },
@@ -2999,6 +3101,176 @@
             "items": {
               "$ref": "#/components/schemas/QuestionSummary"
             }
+          }
+        }
+      },
+      "StoryLayer": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Orientation": {
+        "type": "object",
+        "required": [
+          "question",
+          "read",
+          "established",
+          "uncertain",
+          "approvedBy",
+          "approvedAt",
+          "next"
+        ],
+        "properties": {
+          "question": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "description": "The canonical question page the Part belongs to, or null."
+          },
+          "read": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "stance": {
+                "type": "string"
+              },
+              "line": {
+                "type": "string"
+              },
+              "tone": {
+                "type": "string",
+                "enum": [
+                  "bull",
+                  "bear",
+                  "split"
+                ]
+              },
+              "toneLabel": {
+                "type": "string"
+              },
+              "conviction": {
+                "type": "integer"
+              },
+              "convictionLabel": {
+                "type": "string"
+              }
+            },
+            "description": "The Call as the strip prints it."
+          },
+          "established": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uncertain": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "approvedBy": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approvedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "next": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "whenLabel": {
+                "type": "string"
+              },
+              "event": {
+                "type": "string"
+              },
+              "stage": {
+                "type": "string",
+                "enum": [
+                  "open",
+                  "pre",
+                  "post"
+                ]
+              },
+              "stageLabel": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              }
+            },
+            "description": "The next test the Part names, with the stage of its specification, or null."
+          }
+        }
+      },
+      "GlossaryTerm": {
+        "type": "object",
+        "required": [
+          "id",
+          "term",
+          "short",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "term": {
+            "type": "string"
+          },
+          "short": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "The term on /glossary/."
           }
         }
       },
@@ -3949,7 +4221,11 @@
           "dated",
           "precision",
           "specification",
+          "stages",
+          "stageRule",
+          "callExpectsRule",
           "specified",
+          "folded",
           "tests"
         ],
         "properties": {
@@ -3989,7 +4265,38 @@
           "specification": {
             "type": "string"
           },
+          "stages": {
+            "type": "object",
+            "required": [
+              "pre",
+              "post",
+              "open"
+            ],
+            "properties": {
+              "pre": {
+                "type": "integer"
+              },
+              "post": {
+                "type": "integer"
+              },
+              "open": {
+                "type": "integer"
+              }
+            },
+            "description": "How many tests stand at each stage (a test that is the same as another Part’s counts once)."
+          },
+          "stageRule": {
+            "type": "string",
+            "description": "What the three stages mean, in the words the Docket page prints (UX-3.27)."
+          },
+          "callExpectsRule": {
+            "type": "string",
+            "description": "What callExpects records and how a result’s effect follows from it, in one sentence (UX-3.27)."
+          },
           "specified": {
+            "type": "integer"
+          },
+          "folded": {
             "type": "integer"
           },
           "tests": {
@@ -4008,8 +4315,11 @@
           "disclaimer",
           "api",
           "rule",
+          "hitRateRule",
           "count",
           "counts",
+          "effects",
+          "hitRate",
           "results"
         ],
         "properties": {
@@ -4032,6 +4342,10 @@
           "rule": {
             "type": "string"
           },
+          "hitRateRule": {
+            "type": "string",
+            "description": "What the hit rate counts, in the words the scorecard prints."
+          },
           "count": {
             "type": "integer"
           },
@@ -4053,6 +4367,53 @@
                 "type": "integer"
               }
             }
+          },
+          "effects": {
+            "type": "object",
+            "required": [
+              "supports",
+              "weakens",
+              "informs"
+            ],
+            "properties": {
+              "supports": {
+                "type": "integer"
+              },
+              "weakens": {
+                "type": "integer"
+              },
+              "informs": {
+                "type": "integer"
+              }
+            },
+            "description": "How many results supported, weakened or informed the Call."
+          },
+          "hitRate": {
+            "type": "object",
+            "required": [
+              "floor",
+              "rated",
+              "held",
+              "rate"
+            ],
+            "properties": {
+              "floor": {
+                "type": "integer"
+              },
+              "rated": {
+                "type": "integer"
+              },
+              "held": {
+                "type": "integer"
+              },
+              "rate": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "description": "The hit rate over pre-specified tests: the floor (ten results), how many were rated, how many supported the Call, and the rate in whole percent, null below the floor."
           },
           "results": {
             "type": "array",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-10",
@@ -14,6 +14,8 @@
     "post": 2,
     "open": 38
   },
+  "stageRule": "Pre-specified means the words were approved on or before the test’s date. Specified after the date means they were written afterwards: such a test is counted and shown, and never rated. An open question has no words yet.",
+  "callExpectsRule": "callExpects records which answer the Call expected when the words of a test were approved: yes, no, or either when the Call stakes nothing on the answer; a result supports the Call when the answer was the one expected, weakens it when it was the other, and informs it when either answer was foreseen.",
   "specified": 19,
   "folded": 2,
   "tests": [
@@ -30,6 +32,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "When the bottleneck clears",
@@ -60,6 +65,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "As capacity ramps",
@@ -90,6 +98,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next depreciation tests",
@@ -120,6 +131,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -150,6 +164,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "May 2029",
@@ -180,6 +197,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next bond tranche",
@@ -210,6 +230,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "OpenAI IPO window",
@@ -240,6 +263,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -285,6 +311,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next H100 batches",
@@ -315,6 +344,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2027",
@@ -345,6 +377,9 @@
       "resultId": "p03-t04",
       "sameAs": null,
       "stage": "post",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -405,6 +440,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "When the streak ends",
@@ -435,6 +473,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "2027 budget",
@@ -480,6 +521,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next lab financing",
@@ -510,6 +554,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Through 2027",
@@ -540,6 +587,9 @@
       "resultId": "p03-t04",
       "sameAs": "p03-t04",
       "stage": "post",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "After Labor Day",
@@ -600,6 +650,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Token and productivity data",
@@ -630,6 +683,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next prospectus",
@@ -660,6 +716,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next disclosures",
@@ -690,6 +749,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "DeepSeek repricing",
@@ -720,6 +782,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2028",
@@ -750,6 +815,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "A second revocation",
@@ -780,6 +848,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -810,6 +881,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Year-end",
@@ -840,6 +914,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next quarterly count",
@@ -870,6 +947,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "First cancellation",
@@ -900,6 +980,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2029–30 order books",
@@ -930,6 +1013,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -966,6 +1052,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Mid-October",
@@ -1012,6 +1101,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "10-year at 5.5%",
@@ -1045,6 +1137,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2028 refinancing wave",
@@ -1075,6 +1170,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -1119,6 +1217,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1163,6 +1264,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1193,6 +1297,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "First Blackwell renewal",
@@ -1223,6 +1330,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Fluidstack terms",
@@ -1253,6 +1363,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1298,6 +1411,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1343,6 +1459,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1387,6 +1506,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -1417,6 +1539,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",
@@ -1447,6 +1572,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1492,6 +1620,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "post",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "October",
@@ -1536,6 +1667,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -1569,6 +1703,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -1599,6 +1736,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -1629,6 +1769,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1673,6 +1816,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1704,6 +1850,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1735,6 +1884,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "December",
@@ -1765,6 +1917,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "The optics ramp",
@@ -1795,6 +1950,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1840,6 +1998,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -1885,6 +2046,9 @@
       "resultId": null,
       "sameAs": "p10-t02",
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -1929,6 +2093,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -1974,6 +2141,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "When it files",
@@ -2004,6 +2174,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -2048,6 +2221,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -2092,6 +2268,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late February 2027",

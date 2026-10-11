@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -77,6 +77,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -694,6 +697,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -738,6 +744,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -769,6 +778,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -800,6 +812,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "December",
@@ -830,6 +845,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "The optics ramp",
@@ -902,6 +920,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "pre",
+    "callExpects": null,
+    "callExpectsBy": null,
+    "callExpectsAt": null,
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

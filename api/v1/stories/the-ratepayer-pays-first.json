@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -87,6 +87,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -456,6 +459,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -500,6 +506,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -544,6 +553,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late February 2027",
@@ -780,6 +792,44 @@
       "name": "Virginia State Corporation Commission",
       "role": "Research organization",
       "url": "https://deepstack.ltd/people/virginia-state-corporation-commission/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "pjm",
+      "term": "PJM",
+      "short": "The grid operator for thirteen states and the District of Columbia, from New Jersey to Illinois.",
+      "url": "https://deepstack.ltd/glossary/#pjm"
+    },
+    {
+      "id": "megawatt",
+      "term": "megawatt",
+      "short": "A unit of power: a megawatt serves a few hundred homes, a gigawatt a city; data centers are sized in both.",
+      "url": "https://deepstack.ltd/glossary/#megawatt"
+    },
+    {
+      "id": "ratepayer",
+      "term": "ratepayer",
+      "short": "A customer who pays a regulated electricity bill; in the AI buildout, the household that pays first.",
+      "url": "https://deepstack.ltd/glossary/#ratepayer"
+    },
+    {
+      "id": "large-load",
+      "term": "large load",
+      "short": "A customer, typically a data center, whose demand is big enough to need its own grid rules.",
+      "url": "https://deepstack.ltd/glossary/#large-load"
+    },
+    {
+      "id": "capacity-auction",
+      "term": "capacity auction",
+      "short": "The auction in which a grid operator buys commitments to be available in a future year; its clearing price lands on every bill.",
+      "url": "https://deepstack.ltd/glossary/#capacity-auction"
+    },
+    {
+      "id": "spread",
+      "term": "spread",
+      "short": "The extra yield a borrower pays above a Treasury of the same maturity, in basis points.",
+      "url": "https://deepstack.ltd/glossary/#spread"
     }
   ]
 }

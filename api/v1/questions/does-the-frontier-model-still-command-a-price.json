@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "does-the-frontier-model-still-command-a-price",
   "question": "Does the frontier model still command a price?",
@@ -87,6 +87,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -666,6 +669,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -711,6 +717,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -756,6 +765,9 @@
           "resultId": null,
           "sameAs": "p10-t02",
           "stage": "pre",
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -800,6 +812,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[3].date",
@@ -845,6 +860,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "When it files",
@@ -945,6 +963,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "pre",
+    "callExpects": "no",
+    "callExpectsBy": "Marco Cauduro",
+    "callExpectsAt": "2026-10-10T17:40:22Z",
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

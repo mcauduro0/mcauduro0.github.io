@@ -760,6 +760,9 @@ export function changedSentence(spec, type, state, meta = fieldsOf(spec, type)) 
 
 export const COPY_DONE = 'Scenario link copied.';
 export const COPY_FAILED = 'Copy failed. Use the address bar to share.';
+// UX-3.28: a scenario link copied is confirmed to src/events.js when the page loads it
+// (window.deepstackEvent, named by content/site.json eventEndpoint); without it nothing happens.
+export const confirmEvent = (name) => { try { if (typeof window !== 'undefined' && typeof window.deepstackEvent === 'function') window.deepstackEvent(name); } catch { /* the count is a courtesy */ } };
 
 // ---------- Figure ----------
 
@@ -876,7 +879,7 @@ export function mount(fig) {
     const page = typeof location === 'undefined' ? '' : `${location.origin}${location.pathname}`;
     const clipboard = typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function' ? navigator.clipboard : null;
     if (!clipboard) { say(COPY_FAILED); return; }
-    clipboard.writeText(page + hashForState(spec, type, state)).then(() => say(COPY_DONE), () => say(COPY_FAILED));
+    clipboard.writeText(page + hashForState(spec, type, state)).then(() => { say(COPY_DONE); confirmEvent('scenario_share'); }, () => say(COPY_FAILED));
   };
   fig.addEventListener('input', (event) => {
     const target = event.target;

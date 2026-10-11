@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 2,
   "slug": "spacex-after-the-ipo-exit-liquidity",
@@ -86,6 +86,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -380,6 +383,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "2027 buildout",
@@ -410,6 +416,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "May 2029",
@@ -440,6 +449,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Next bond tranche",
@@ -470,6 +482,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "OpenAI IPO window",
@@ -601,6 +616,14 @@
       "name": "Trey Henninger",
       "role": null,
       "url": "https://deepstack.ltd/people/trey-henninger/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "megawatt",
+      "term": "megawatt",
+      "short": "A unit of power: a megawatt serves a few hundred homes, a gigawatt a city; data centers are sized in both.",
+      "url": "https://deepstack.ltd/glossary/#megawatt"
     }
   ]
 }

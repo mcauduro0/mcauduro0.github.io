@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
   "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
@@ -86,6 +86,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -286,6 +289,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -331,6 +337,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "Next H100 batches",
@@ -361,6 +370,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "2027",
@@ -391,6 +403,9 @@
           "resultId": "p03-t04",
           "sameAs": null,
           "stage": "post",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "After Labor Day",
@@ -451,6 +466,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "When the streak ends",
@@ -479,6 +497,7 @@
           "resolvedOn": "2026-10-10",
           "verdict": "refuted",
           "effect": "supports",
+          "effectLabel": "Supports the Call",
           "headline": "Refuted: the investment-grade spread ended the window five basis points wider than August's average.",
           "body": [
             "The ICE BofA US Corporate Index option-adjusted spread read 0.85% on October 2, 2026, the end of the four weeks after Labor Day, against an average of 0.80% over August's 21 daily readings (FRED series BAMLC0A0CM). The difference is +0.05%, five basis points, outside the 3 basis point band the rule names, so the answer to the question is no: the market did not price the window tighter than August.",
@@ -584,6 +603,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "pre",
+    "callExpects": "yes",
+    "callExpectsBy": "Marco Cauduro",
+    "callExpectsAt": "2026-10-10T17:40:22Z",
     "source": {
       "kind": "fmp-earnings",
       "ref": "Company earnings calendar, date via Financial Modeling Prep",

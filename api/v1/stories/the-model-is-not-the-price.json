@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -87,6 +87,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -439,6 +442,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -484,6 +490,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -529,6 +538,9 @@
       "resultId": null,
       "sameAs": "p10-t02",
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -573,6 +585,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -618,6 +633,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "When it files",
@@ -889,6 +907,38 @@
       "name": "Wyndo",
       "role": null,
       "url": "https://deepstack.ltd/people/wyndo/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "token",
+      "term": "token",
+      "short": "The unit a language model is priced by: a fragment of text, roughly three quarters of a word.",
+      "url": "https://deepstack.ltd/glossary/#token"
+    },
+    {
+      "id": "hyperscaler",
+      "term": "hyperscaler",
+      "short": "One of the largest cloud and platform companies that build data centers at continental scale.",
+      "url": "https://deepstack.ltd/glossary/#hyperscaler"
+    },
+    {
+      "id": "open-weights",
+      "term": "open weights",
+      "short": "A model whose trained parameters are published, so anyone can run it without paying the lab.",
+      "url": "https://deepstack.ltd/glossary/#open-weights"
+    },
+    {
+      "id": "backlog",
+      "term": "backlog",
+      "short": "Orders a company has accepted but not yet delivered or recognized as revenue.",
+      "url": "https://deepstack.ltd/glossary/#backlog"
+    },
+    {
+      "id": "capital-spending",
+      "term": "capital spending",
+      "short": "Cash a company spends on long-lived assets: data centers, chips, networks, power.",
+      "url": "https://deepstack.ltd/glossary/#capital-spending"
     }
   ]
 }

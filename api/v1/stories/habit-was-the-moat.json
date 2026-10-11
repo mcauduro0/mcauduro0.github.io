@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -86,6 +86,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -445,6 +448,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -490,6 +496,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -535,6 +544,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -579,6 +591,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -609,6 +624,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",
@@ -922,6 +940,20 @@
       "name": "Torsten Slok",
       "role": "Apollo",
       "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "free-cash-flow",
+      "term": "free cash flow",
+      "short": "Operating cash flow minus capital spending: the cash left after the company has paid for its own buildout.",
+      "url": "https://deepstack.ltd/glossary/#free-cash-flow"
+    },
+    {
+      "id": "token",
+      "term": "token",
+      "short": "The unit a language model is priced by: a fragment of text, roughly three quarters of a word.",
+      "url": "https://deepstack.ltd/glossary/#token"
     }
   ]
 }

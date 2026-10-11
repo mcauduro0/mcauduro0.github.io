@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -86,6 +86,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -383,6 +386,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "label",
         "ref": "Late October",
@@ -427,6 +433,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-10T17:40:22Z",
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -471,6 +480,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -501,6 +513,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "First Blackwell renewal",
@@ -531,6 +546,9 @@
       "resultId": null,
       "sameAs": null,
       "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
       "source": {
         "kind": "label",
         "ref": "Fluidstack terms",
@@ -739,6 +757,56 @@
       "name": "Torsten Slok",
       "role": "Apollo",
       "url": "https://deepstack.ltd/people/torsten-slok/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "basis-point",
+      "term": "basis point",
+      "short": "One hundredth of a percentage point: 25 basis points is 0.25%.",
+      "url": "https://deepstack.ltd/glossary/#basis-point"
+    },
+    {
+      "id": "spread",
+      "term": "spread",
+      "short": "The extra yield a borrower pays above a Treasury of the same maturity, in basis points.",
+      "url": "https://deepstack.ltd/glossary/#spread"
+    },
+    {
+      "id": "ccc",
+      "term": "CCC",
+      "short": "The lowest rating tier of bonds that still trade actively; the riskiest corner of the credit market.",
+      "url": "https://deepstack.ltd/glossary/#ccc"
+    },
+    {
+      "id": "token",
+      "term": "token",
+      "short": "The unit a language model is priced by: a fragment of text, roughly three quarters of a word.",
+      "url": "https://deepstack.ltd/glossary/#token"
+    },
+    {
+      "id": "capital-spending",
+      "term": "capital spending",
+      "short": "Cash a company spends on long-lived assets: data centers, chips, networks, power.",
+      "url": "https://deepstack.ltd/glossary/#capital-spending"
+    },
+    {
+      "id": "hyperscaler",
+      "term": "hyperscaler",
+      "short": "One of the largest cloud and platform companies that build data centers at continental scale.",
+      "url": "https://deepstack.ltd/glossary/#hyperscaler"
+    },
+    {
+      "id": "residual-value-guarantee",
+      "term": "residual-value guarantee",
+      "short": "A promise to make up the difference if an asset is worth less than expected at the end of a lease.",
+      "url": "https://deepstack.ltd/glossary/#residual-value-guarantee"
+    },
+    {
+      "id": "free-cash-flow",
+      "term": "free cash flow",
+      "short": "Operating cash flow minus capital spending: the cash left after the company has paid for its own buildout.",
+      "url": "https://deepstack.ltd/glossary/#free-cash-flow"
     }
   ]
 }

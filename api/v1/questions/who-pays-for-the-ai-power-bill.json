@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -87,6 +87,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -627,6 +630,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -671,6 +677,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -715,6 +724,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "Late February 2027",
@@ -817,6 +829,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "pre",
+    "callExpects": "yes",
+    "callExpectsBy": "Marco Cauduro",
+    "callExpectsAt": "2026-10-10T17:40:22Z",
     "source": {
       "kind": "label",
       "ref": "Late October",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-writes-the-checks-for-the-buildout",
   "question": "Who writes the checks for the buildout?",
@@ -86,6 +86,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -433,6 +436,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "either",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -477,6 +483,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-10T17:40:22Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -521,6 +530,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -551,6 +563,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "First Blackwell renewal",
@@ -581,6 +596,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "open",
+          "callExpects": null,
+          "callExpectsBy": null,
+          "callExpectsAt": null,
           "source": {
             "kind": "label",
             "ref": "Fluidstack terms",
@@ -649,6 +667,9 @@
     "resultId": null,
     "sameAs": null,
     "stage": "pre",
+    "callExpects": "either",
+    "callExpectsBy": "Marco Cauduro",
+    "callExpectsAt": "2026-10-10T17:40:22Z",
     "source": {
       "kind": "label",
       "ref": "Late October",

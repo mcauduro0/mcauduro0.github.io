@@ -1,6 +1,6 @@
 {
   "url": "https://deepstack.ltd/data/download/",
-  "generatedAt": "2026-10-10T23:33:18Z",
+  "generatedAt": "2026-10-11T00:26:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
   "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
@@ -136,13 +136,27 @@
         },
         "rows": 52,
         "columns": [
+          "id",
           "part",
           "story_slug",
           "story_headline",
           "published",
           "value",
           "label",
-          "context"
+          "context",
+          "unit",
+          "universe",
+          "period",
+          "source_label",
+          "source_url",
+          "as_of",
+          "transformation",
+          "limits",
+          "chart",
+          "test",
+          "behind_the_call",
+          "approved_by",
+          "approved_at"
         ]
       }
     ]
@@ -150,7 +164,7 @@
   "versions": [
     {
       "asOf": "2026-10-10",
-      "generatedAt": "2026-10-10T19:49:37.386Z",
+      "generatedAt": "2026-10-10T23:43:35.401Z",
       "current": true,
       "files": [
         {
@@ -180,10 +194,10 @@
             "resolver_kind",
             "resolver_rule"
           ],
-          "bytes": 23365,
-          "sha256": "5f65fc6a9458ee18205771877caddb1417c7b1c9fa28a7ae3ebc773755b99e94",
-          "jsonBytes": 65183,
-          "jsonSha256": "c5f93e610271bc8a6fae90c6afe73efb0b59e9476abfcf2058a9f0923055e609"
+          "bytes": 24210,
+          "sha256": "6dac87f385ce9f29a3cdbf80b3f19fe51a7ae39b3a6db6b5f2bd332b80717690",
+          "jsonBytes": 67714,
+          "jsonSha256": "a9eb48aa0c0d598e46e481e1be1e81884a1587fa9ec2610af4e7ebd366887b8e"
         },
         {
           "name": "results",
@@ -301,18 +315,32 @@
           },
           "rows": 52,
           "columns": [
+            "id",
             "part",
             "story_slug",
             "story_headline",
             "published",
             "value",
             "label",
-            "context"
+            "context",
+            "unit",
+            "universe",
+            "period",
+            "source_label",
+            "source_url",
+            "as_of",
+            "transformation",
+            "limits",
+            "chart",
+            "test",
+            "behind_the_call",
+            "approved_by",
+            "approved_at"
           ],
-          "bytes": 9268,
-          "sha256": "f9a4b23b5028adf26c304ea8f8a39809c4e3c562024d885f6cb1631addabe884",
-          "jsonBytes": 16183,
-          "jsonSha256": "93e818819901e3f3c8b8fa1e76da59d2c476a6954c69281e64cf87aa0f8fd733"
+          "bytes": 36002,
+          "sha256": "ca5c26664cfda9bbc59535eb8f3beb1d83c4c720b94182eb545be0e0bcafe82e",
+          "jsonBytes": 56338,
+          "jsonSha256": "44c08142701a72fcbef751be7eab9b8c2ecd29ba5c62f9661a686f8d251e0798"
         }
       ],
       "changes": [

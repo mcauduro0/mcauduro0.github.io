@@ -26,6 +26,8 @@
 <link rel="stylesheet" href="/styles.css">
 <script src="/app.js" defer></script>
 <script src="/subscribe.js" defer></script>
+<meta name="deepstack-events" content="https://mcp.deepstack.ltd/event">
+<script src="/events.js" defer></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"3fbcb0373d194f38bfc42e5db1d680fe"}'></script>
 
 </head>
@@ -72,6 +74,7 @@
     <li><span class="p-num">04</span><h3>What to watch</h3><p>The dated events that will prove us right or wrong, gathered across the site in The Docket.</p></li>
   </ol>
 </section>
+
 <section class="formats wrap" aria-labelledby="formats-title">
   <div class="section-head"><div><p class="label">Formats</p><h2 id="formats-title">Read now. Watch and listen next.</h2></div><p>The written investigation is the core of DeepStack. Two new formats are in development; nothing here pretends they have launched.</p></div>
   <div class="format-grid">
@@ -99,7 +102,7 @@
   <h2 id="elsewhere-title" class="label">Elsewhere</h2>
   <div class="elsewhere">
     <a class="elsewhere-link" href="/feed.xml"><strong>RSS</strong><span>Every story and Weekly edition, in any reader</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
-    <a class="elsewhere-link" href="/docket.ics"><strong>Docket calendar</strong><span>The dated tests, as an .ics subscription</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+    <a class="elsewhere-link" href="/docket.ics" data-event="ics_download"><strong>Docket calendar</strong><span>The dated tests, as an .ics subscription</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
     <a class="elsewhere-link" href="https://t.me/deepstack_ltd" target="_blank" rel="noopener noreferrer"><strong>Telegram</strong><span>@deepstack_ltd, the house channel</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
   </div>
 </section>
@@ -107,7 +110,7 @@
   <h2 id="privacy-title" class="label">Privacy</h2>
   <div class="about-prose small">
     <p>Email sign-up runs on DeepStack’s own list. The address you enter is stored by DeepStack, in a database it controls, only to send The Weekly and dated results; it is confirmed by one opt-in email, is never shared or sold, and the first unsubscribe click ends every edition and every follow. An address never confirmed is deleted after thirty days; an unsubscribed one stays up to ninety days, with the page it was entered on, its dates and its followed topics, as the record of your consent, and is deleted by the list’s own retention run after that. Each edition is delivered by Resend, which keeps its own delivery log under its own terms. Reply to any edition to ask what is held about you or to have it deleted at once.</p>
-    <p>There are no advertising trackers. Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id, the name and version the calling program gives itself, the time the call took and a short digest of its arguments, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next. A click on a Docket test is kept only as a count per test and day, never with who clicked. Fonts are served by Google Fonts. The full policy, covering email sign-up, the contact form, audience counts and the MCP tools, is at <a href="/privacy/">deepstack.ltd/privacy/</a>.</p>
+    <p>There are no advertising trackers. Questions typed into the search box or asked through the MCP tools are kept as text with the date, the tool used, the number of results, a session id, the name and version the calling program gives itself, the time the call took and a short digest of its arguments, and nothing that identifies you: no address, no user agent, no cookie. They are kept to decide what DeepStack covers next. A click on a Docket test is kept only as a count per test and day, never with who clicked. A click on a control that carries a name is counted once per day per page, as a number, never with who clicked; the address is used for the rate limit and not kept. Fonts are served by Google Fonts. The full policy, covering email sign-up, the contact form, audience counts and the MCP tools, is at <a href="/privacy/">deepstack.ltd/privacy/</a>.</p>
     <p>DeepStack publishes analysis and opinion. Nothing on this site is investment advice.</p>
   </div>
 </section>
@@ -160,7 +163,7 @@
       <div class="footer-brand"><a class="logo logo-lg" href="/"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path d="M19 21H81M50 21V85M19 21 50 43M81 21 50 43M22 43H78M22 43 50 66M78 43 50 66M29 66H71M29 66 50 85M71 66 50 85" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor"><circle cx="19" cy="21" r="6"/><circle cx="50" cy="21" r="6"/><circle cx="81" cy="21" r="6"/><circle cx="22" cy="43" r="6"/><circle cx="78" cy="43" r="6"/><circle cx="29" cy="66" r="6"/><circle cx="50" cy="66" r="5"/><circle cx="71" cy="66" r="6"/><circle cx="50" cy="85" r="6"/></g><circle class="mark-core" cx="50" cy="43" r="8" stroke="currentColor" stroke-width="2.6"/></svg><span>DeepStack</span></a><p>The money behind the machine.</p></div>
       <nav class="footer-col" aria-label="Read"><p class="label">Read</p><a href="/stories/">The Buildout</a><a href="/data/">The Data Desk</a><a href="/editorial-notes/#live">The notes, tested live</a><a href="/weekly/">The Weekly</a><a href="/docket/">The Docket</a><a href="/results/">Results</a><a href="/companies/">Companies</a><a href="/people/">People</a><a href="/stories/?order=first">Start from Part 01</a></nav>
       <nav class="footer-col" aria-label="DeepStack"><p class="label">DeepStack</p><a href="/about/">About</a><a href="/editorial-notes/">Editorial Notes</a><a href="/corrections/">Corrections</a><a href="/about/#standards">Standards</a><a href="/about/#partner">Partner with us</a><a href="/about/#privacy">Privacy</a></nav>
-      <nav class="footer-col" aria-label="Elsewhere"><p class="label">Elsewhere</p><a href="/feed.xml">RSS feed</a><a href="/docket.ics">Docket calendar</a><a href="/api/v1/index.json">API</a><a href="https://t.me/deepstack_ltd" target="_blank" rel="noopener noreferrer">Telegram <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg></a></nav>
+      <nav class="footer-col" aria-label="Elsewhere"><p class="label">Elsewhere</p><a href="/feed.xml">RSS feed</a><a href="/docket.ics" data-event="ics_download">Docket calendar</a><a href="/api/v1/index.json">API</a><a href="https://t.me/deepstack_ltd" target="_blank" rel="noopener noreferrer">Telegram <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg></a></nav>
     </div>
     <div class="footer-bottom"><p>© 2026 DeepStack. Published by Marco Cauduro.</p><p class="footer-legal" aria-label="Documentation, terms, privacy and contact"><a href="/mcp/">MCP</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a></p><p>Analysis and opinion, not investment advice. Figures are as of the dates cited in each story.</p></div>
   </div>
