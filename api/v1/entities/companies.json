@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
@@ -19,7 +19,7 @@
       "ticker": "BABA",
       "url": "https://deepstack.ltd/companies/alibaba/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/alibaba.json",
-      "summary": "Alibaba appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+      "summary": "Alibaba is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
       "parts": [
         {
           "part": 5,
@@ -91,7 +91,7 @@
       "ticker": "GOOGL",
       "url": "https://deepstack.ltd/companies/alphabet/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-      "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
+      "summary": "Alphabet is named in 11 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
       "parts": [
         {
           "part": 1,
@@ -156,13 +156,6 @@
           "context": "Hayden Capital; Q2, first negative since 2004 IPO",
           "part": 4,
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
-        },
-        {
-          "value": "A quarter",
-          "label": "Share of Anthropic's 2025 revenue that came from two customers",
-          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-          "part": 12,
-          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "mentions": [
@@ -437,10 +430,10 @@
           "question": null,
           "side": "the-load-pays-its-way",
           "sideLabel": "The load pays its way",
-          "claim": "Vahdat: Google pays for its own lines.",
-          "date": null,
-          "url": null,
-          "linkVerified": false,
+          "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+          "date": "2026-10-06",
+          "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+          "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
           "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
         }
@@ -474,7 +467,7 @@
       "ticker": "AMZN",
       "url": "https://deepstack.ltd/companies/amazon/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-      "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Amazon is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 3,
@@ -517,15 +510,7 @@
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
-      "numbers": [
-        {
-          "value": "A quarter",
-          "label": "Share of Anthropic's 2025 revenue that came from two customers",
-          "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-          "part": 12,
-          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
-        }
-      ],
+      "numbers": [],
       "mentions": [
         {
           "part": 3,
@@ -775,7 +760,7 @@
       "ticker": "AMD",
       "url": "https://deepstack.ltd/companies/amd/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/amd.json",
-      "summary": "AMD appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "AMD is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -830,7 +815,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/anthropic/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/anthropic.json",
-      "summary": "Anthropic appears in Part 1, Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
+      "summary": "Anthropic is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 1,
@@ -1331,7 +1316,7 @@
       "ticker": "APO",
       "url": "https://deepstack.ltd/companies/apollo-global-management/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-      "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 1,
@@ -1386,41 +1371,6 @@
           "context": "Apollo transaction in late May, described by Michael Burry",
           "part": 1,
           "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-        },
-        {
-          "value": "$35B",
-          "label": "AI XPU tranche",
-          "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-          "part": 1,
-          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-        },
-        {
-          "value": "-7.9%",
-          "label": "Construction ex-data centers",
-          "context": "Michael Burry citing Apollo, June year over year",
-          "part": 6,
-          "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
-        },
-        {
-          "value": "$2.3T",
-          "label": "Hyperscaler backlog",
-          "context": "Apollo via DeepValue Capital, September 2026",
-          "part": 7,
-          "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
-        },
-        {
-          "value": "$250B",
-          "label": "Hyperscaler high-grade bonds",
-          "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
-          "part": 10,
-          "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
-        },
-        {
-          "value": "4 months",
-          "label": "The gap between the Chinese open models and the frontier",
-          "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
-          "part": 12,
-          "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
         }
       ],
       "mentions": [
@@ -1540,7 +1490,7 @@
       "ticker": "AAPL",
       "url": "https://deepstack.ltd/companies/apple/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/apple.json",
-      "summary": "Apple appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Apple is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 4,
@@ -1611,7 +1561,7 @@
       "ticker": "BAC",
       "url": "https://deepstack.ltd/companies/bank-of-america/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/bank-of-america.json",
-      "summary": "Bank of America appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Bank of America is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -1658,7 +1608,7 @@
       "ticker": "BRK-A",
       "url": "https://deepstack.ltd/companies/berkshire-hathaway/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/berkshire-hathaway.json",
-      "summary": "Berkshire Hathaway appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "summary": "Berkshire Hathaway is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
       "parts": [
         {
           "part": 13,
@@ -1705,7 +1655,7 @@
       "ticker": "BX",
       "url": "https://deepstack.ltd/companies/blackstone/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/blackstone.json",
-      "summary": "Blackstone appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+      "summary": "Blackstone is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
       "parts": [
         {
           "part": 1,
@@ -1713,15 +1663,7 @@
           "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
         }
       ],
-      "numbers": [
-        {
-          "value": "$35B",
-          "label": "AI XPU tranche",
-          "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-          "part": 1,
-          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-        }
-      ],
+      "numbers": [],
       "mentions": [
         {
           "part": 1,
@@ -1766,7 +1708,7 @@
       "ticker": "OBDC",
       "url": "https://deepstack.ltd/companies/blue-owl-capital/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/blue-owl-capital.json",
-      "summary": "Blue Owl Capital appears in Part 8 of The Buildout. Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "Blue Owl Capital is named in 1 Part of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
       "parts": [
         {
           "part": 8,
@@ -1813,7 +1755,7 @@
       "ticker": "AVGO",
       "url": "https://deepstack.ltd/companies/broadcom/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/broadcom.json",
-      "summary": "Broadcom appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+      "summary": "Broadcom is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
       "parts": [
         {
           "part": 1,
@@ -1826,13 +1768,6 @@
           "value": "20GW",
           "label": "Broadcom compute",
           "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
-          "part": 1,
-          "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-        },
-        {
-          "value": "$30B",
-          "label": "Quarterly AI orders",
-          "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
           "part": 1,
           "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
         }
@@ -1894,7 +1829,7 @@
       "ticker": "CIEN",
       "url": "https://deepstack.ltd/companies/ciena/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/ciena.json",
-      "summary": "Ciena appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Ciena is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -1974,7 +1909,7 @@
       "ticker": "CSCO",
       "url": "https://deepstack.ltd/companies/cisco/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/cisco.json",
-      "summary": "Cisco appears in Part 4, Part 9, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Cisco is named in 3 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 4,
@@ -2043,7 +1978,7 @@
       "ticker": "CLSK",
       "url": "https://deepstack.ltd/companies/cleanspark/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/cleanspark.json",
-      "summary": "CleanSpark appears in Part 7, Part 8 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "CleanSpark is named in 2 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
       "parts": [
         {
           "part": 7,
@@ -2109,7 +2044,7 @@
       "ticker": "COHR",
       "url": "https://deepstack.ltd/companies/coherent/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/coherent.json",
-      "summary": "Coherent appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Coherent is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -2168,7 +2103,7 @@
       "ticker": "CMCSA",
       "url": "https://deepstack.ltd/companies/comcast/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/comcast.json",
-      "summary": "Comcast appears in Part 3, Part 9, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+      "summary": "Comcast is named in 3 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
       "parts": [
         {
           "part": 3,
@@ -2186,15 +2121,7 @@
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
         }
       ],
-      "numbers": [
-        {
-          "value": "5.31%",
-          "label": "10-year Treasury yield",
-          "context": "CNBC, closing yield on Oct 5, 2026",
-          "part": 10,
-          "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
-        }
-      ],
+      "numbers": [],
       "mentions": [
         {
           "part": 3,
@@ -2251,7 +2178,7 @@
       "ticker": "CRWV",
       "url": "https://deepstack.ltd/companies/coreweave/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/coreweave.json",
-      "summary": "CoreWeave appears in Part 3, Part 5, Part 6, Part 7, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "CoreWeave is named in 5 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
       "parts": [
         {
           "part": 3,
@@ -2409,7 +2336,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/deepseek/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/deepseek.json",
-      "summary": "DeepSeek appears in Part 3, Part 5 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business.",
+      "summary": "DeepSeek is named in 2 Parts of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
       "parts": [
         {
           "part": 3,
@@ -2491,7 +2418,7 @@
       "ticker": "DELL",
       "url": "https://deepstack.ltd/companies/dell/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/dell.json",
-      "summary": "Dell appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+      "summary": "Dell is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
       "parts": [
         {
           "part": 10,
@@ -2551,7 +2478,7 @@
       "ticker": "DASH",
       "url": "https://deepstack.ltd/companies/doordash/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/doordash.json",
-      "summary": "DoorDash appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "DoorDash is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -2611,7 +2538,7 @@
       "ticker": "EXC",
       "url": "https://deepstack.ltd/companies/exelon/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/exelon.json",
-      "summary": "Exelon appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "summary": "Exelon is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
       "parts": [
         {
           "part": 13,
@@ -2658,7 +2585,7 @@
       "ticker": "FN",
       "url": "https://deepstack.ltd/companies/fabrinet/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/fabrinet.json",
-      "summary": "Fabrinet appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Fabrinet is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -2742,7 +2669,7 @@
       "ticker": "FICO",
       "url": "https://deepstack.ltd/companies/fair-isaac/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/fair-isaac.json",
-      "summary": "Fair Isaac appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Fair Isaac is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -2789,7 +2716,7 @@
       "ticker": "GFS",
       "url": "https://deepstack.ltd/companies/globalfoundries/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/globalfoundries.json",
-      "summary": "GLOBALFOUNDRIES appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "GLOBALFOUNDRIES is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -2836,7 +2763,7 @@
       "ticker": "GS",
       "url": "https://deepstack.ltd/companies/goldman-sachs/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/goldman-sachs.json",
-      "summary": "Goldman Sachs appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+      "summary": "Goldman Sachs is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
       "parts": [
         {
           "part": 10,
@@ -2902,7 +2829,7 @@
       "ticker": "INTU",
       "url": "https://deepstack.ltd/companies/intuit/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/intuit.json",
-      "summary": "Intuit appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Intuit is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -2974,7 +2901,7 @@
       "ticker": "LITE",
       "url": "https://deepstack.ltd/companies/lumentum/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/lumentum.json",
-      "summary": "Lumentum appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Lumentum is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -3033,7 +2960,7 @@
       "ticker": "META",
       "url": "https://deepstack.ltd/companies/meta/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/meta.json",
-      "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Meta is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 4,
@@ -3370,7 +3297,7 @@
       "ticker": "MU",
       "url": "https://deepstack.ltd/companies/micron-technology/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/micron-technology.json",
-      "summary": "Micron Technology appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+      "summary": "Micron Technology is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
       "parts": [
         {
           "part": 4,
@@ -3423,7 +3350,7 @@
       "ticker": "MSFT",
       "url": "https://deepstack.ltd/companies/microsoft/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-      "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Microsoft is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 2,
@@ -3657,7 +3584,7 @@
       "ticker": "MDB",
       "url": "https://deepstack.ltd/companies/mongodb/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/mongodb.json",
-      "summary": "MongoDB appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "MongoDB is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -3710,7 +3637,7 @@
       "ticker": "MS",
       "url": "https://deepstack.ltd/companies/morgan-stanley/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/morgan-stanley.json",
-      "summary": "Morgan Stanley appears in Part 3, Part 4, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Morgan Stanley is named in 3 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 3,
@@ -3779,7 +3706,7 @@
       "ticker": "NBIS",
       "url": "https://deepstack.ltd/companies/nebius/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nebius.json",
-      "summary": "Nebius appears in Part 3, Part 4, Part 6 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+      "summary": "Nebius is named in 3 Parts of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
       "parts": [
         {
           "part": 3,
@@ -3924,7 +3851,7 @@
       "ticker": "NFLX",
       "url": "https://deepstack.ltd/companies/netflix/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/netflix.json",
-      "summary": "Netflix appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Netflix is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 4,
@@ -3988,7 +3915,7 @@
       "ticker": "NKE",
       "url": "https://deepstack.ltd/companies/nike/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nike.json",
-      "summary": "Nike appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Nike is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -4035,7 +3962,7 @@
       "ticker": "NRG",
       "url": "https://deepstack.ltd/companies/nrg-energy/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nrg-energy.json",
-      "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+      "summary": "NRG Energy is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
       "parts": [
         {
           "part": 13,
@@ -4082,7 +4009,7 @@
       "ticker": "NVDA",
       "url": "https://deepstack.ltd/companies/nvidia/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nvidia.json",
-      "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "Nvidia is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 1,
@@ -4539,7 +4466,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/openai/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/openai.json",
-      "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+      "summary": "OpenAI is named in 10 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
       "parts": [
         {
           "part": 2,
@@ -5115,7 +5042,7 @@
       "ticker": "ORCL",
       "url": "https://deepstack.ltd/companies/oracle/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-      "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Oracle is named in 6 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 3,
@@ -5322,7 +5249,7 @@
       "ticker": "PLTR",
       "url": "https://deepstack.ltd/companies/palantir/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/palantir.json",
-      "summary": "Palantir appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+      "summary": "Palantir is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
       "parts": [
         {
           "part": 5,
@@ -5375,7 +5302,7 @@
       "ticker": "CRM",
       "url": "https://deepstack.ltd/companies/salesforce/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/salesforce.json",
-      "summary": "Salesforce appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Salesforce is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -5422,7 +5349,7 @@
       "ticker": "NOW",
       "url": "https://deepstack.ltd/companies/servicenow/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/servicenow.json",
-      "summary": "ServiceNow appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "ServiceNow is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -5469,7 +5396,7 @@
       "ticker": "SHOP",
       "url": "https://deepstack.ltd/companies/shopify/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/shopify.json",
-      "summary": "Shopify appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+      "summary": "Shopify is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
       "parts": [
         {
           "part": 9,
@@ -5547,7 +5474,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/spacex/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/spacex.json",
-      "summary": "SpaceX appears in Part 2 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof.",
+      "summary": "SpaceX is named in 1 Part of The Buildout, most recently Part 2: SpaceX Is Funding an AI Bet Before the Proof.",
       "parts": [
         {
           "part": 2,
@@ -5702,7 +5629,7 @@
       "ticker": "NYT",
       "url": "https://deepstack.ltd/companies/the-new-york-times/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/the-new-york-times.json",
-      "summary": "The New York Times appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+      "summary": "The New York Times is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
       "parts": [
         {
           "part": 6,
@@ -5749,7 +5676,7 @@
       "ticker": "TSM",
       "url": "https://deepstack.ltd/companies/tsmc/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/tsmc.json",
-      "summary": "TSMC appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+      "summary": "TSMC is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 11,
@@ -5809,7 +5736,7 @@
       "ticker": "VRT",
       "url": "https://deepstack.ltd/companies/vertiv/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/vertiv.json",
-      "summary": "Vertiv appears in Part 4, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Vertiv is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
       "parts": [
         {
           "part": 4,

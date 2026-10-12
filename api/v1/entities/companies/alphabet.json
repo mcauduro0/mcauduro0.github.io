@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "alphabet",
@@ -7,7 +7,7 @@
   "ticker": "GOOGL",
   "url": "https://deepstack.ltd/companies/alphabet/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-  "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
+  "summary": "Alphabet is named in 11 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
   "parts": [
     {
       "part": 1,
@@ -72,13 +72,6 @@
       "context": "Hayden Capital; Q2, first negative since 2004 IPO",
       "part": 4,
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
-    },
-    {
-      "value": "A quarter",
-      "label": "Share of Anthropic's 2025 revenue that came from two customers",
-      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "mentions": [
@@ -353,10 +346,10 @@
       "question": null,
       "side": "the-load-pays-its-way",
       "sideLabel": "The load pays its way",
-      "claim": "Vahdat: Google pays for its own lines.",
-      "date": null,
-      "url": null,
-      "linkVerified": false,
+      "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+      "date": "2026-10-06",
+      "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+      "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
       "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
     }

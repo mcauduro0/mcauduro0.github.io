@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-spencer",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/michael-spencer/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-spencer.json",
-  "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
+  "summary": "Michael Spencer is named in 5 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 5,
@@ -35,22 +35,7 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [
-    {
-      "value": "$559M",
-      "label": "Anthropic adjusted income",
-      "context": "Michael Spencer; preliminary June quarter 2026",
-      "part": 5,
-      "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
-    },
-    {
-      "value": "57% to 67%",
-      "label": "Chinese models' share of token usage on OpenRouter by September",
-      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 5,

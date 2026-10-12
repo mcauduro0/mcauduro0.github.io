@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kevin-gee",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kevin-gee/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kevin-gee.json",
-  "summary": "Kevin Gee appears in Part 2, Part 4, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
+  "summary": "Kevin Gee is named in 3 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 2,
@@ -25,22 +25,7 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [
-    {
-      "value": "$1.25B",
-      "label": "Monthly Anthropic contract",
-      "context": "Through May 2029, as documented by Kevin Gee",
-      "part": 2,
-      "url": "https://deepstack.ltd/stories/spacex-after-the-ipo-exit-liquidity/"
-    },
-    {
-      "value": "$3.5T",
-      "label": "2026–30 hyperscaler capex",
-      "context": "Oscar Hattink via Kevin Gee; 2026–2030",
-      "part": 4,
-      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 2,

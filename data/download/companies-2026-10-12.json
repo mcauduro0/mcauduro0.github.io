@@ -4,7 +4,7 @@
     "slug": "alibaba",
     "name": "Alibaba",
     "ticker": "BABA",
-    "summary": "Alibaba appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+    "summary": "Alibaba is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
     "parts": [
       5
     ],
@@ -53,7 +53,7 @@
     "slug": "alphabet",
     "name": "Alphabet",
     "ticker": "GOOGL",
-    "summary": "Alphabet appears in Part 1, Part 3, Part 4, Part 5, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
+    "summary": "Alphabet is named in 11 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       1,
       3,
@@ -73,12 +73,6 @@
         "label": "Alphabet Q2 free cash flow",
         "context": "Hayden Capital; Q2, first negative since 2004 IPO",
         "part": 4
-      },
-      {
-        "value": "A quarter",
-        "label": "Share of Anthropic's 2025 revenue that came from two customers",
-        "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-        "part": 12
       }
     ],
     "mentions": [
@@ -325,11 +319,11 @@
         "question": null,
         "side": "the-load-pays-its-way",
         "sideLabel": "The load pays its way",
-        "voice": "Sonya Huang",
-        "claim": "Vahdat: Google pays for its own lines.",
-        "date": null,
-        "url": null,
-        "linkVerified": false
+        "voice": "Amin Vahdat",
+        "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+        "date": "2026-10-06",
+        "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -345,7 +339,7 @@
     "slug": "amazon",
     "name": "Amazon",
     "ticker": "AMZN",
-    "summary": "Amazon appears in Part 3, Part 4, Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Amazon is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       3,
       4,
@@ -356,14 +350,7 @@
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "A quarter",
-        "label": "Share of Anthropic's 2025 revenue that came from two customers",
-        "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 3,
@@ -573,7 +560,7 @@
     "slug": "amd",
     "name": "AMD",
     "ticker": "AMD",
-    "summary": "AMD appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "AMD is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -606,7 +593,7 @@
     "slug": "anthropic",
     "name": "Anthropic",
     "ticker": null,
-    "summary": "Anthropic appears in Part 1, Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
+    "summary": "Anthropic is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       1,
       2,
@@ -1024,7 +1011,7 @@
     "slug": "apollo-global-management",
     "name": "Apollo Global Management",
     "ticker": "APO",
-    "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       1,
       4,
@@ -1042,36 +1029,6 @@
         "label": "Apollo debt",
         "context": "Apollo transaction in late May, described by Michael Burry",
         "part": 1
-      },
-      {
-        "value": "$35B",
-        "label": "AI XPU tranche",
-        "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-        "part": 1
-      },
-      {
-        "value": "-7.9%",
-        "label": "Construction ex-data centers",
-        "context": "Michael Burry citing Apollo, June year over year",
-        "part": 6
-      },
-      {
-        "value": "$2.3T",
-        "label": "Hyperscaler backlog",
-        "context": "Apollo via DeepValue Capital, September 2026",
-        "part": 7
-      },
-      {
-        "value": "$250B",
-        "label": "Hyperscaler high-grade bonds",
-        "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
-        "part": 10
-      },
-      {
-        "value": "4 months",
-        "label": "The gap between the Chinese open models and the frontier",
-        "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
-        "part": 12
       }
     ],
     "mentions": [
@@ -1162,7 +1119,7 @@
     "slug": "apple",
     "name": "Apple",
     "ticker": "AAPL",
-    "summary": "Apple appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Apple is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       4,
       9
@@ -1206,7 +1163,7 @@
     "slug": "bank-of-america",
     "name": "Bank of America",
     "ticker": "BAC",
-    "summary": "Bank of America appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Bank of America is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -1232,7 +1189,7 @@
     "slug": "berkshire-hathaway",
     "name": "Berkshire Hathaway",
     "ticker": "BRK-A",
-    "summary": "Berkshire Hathaway appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "Berkshire Hathaway is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -1258,18 +1215,11 @@
     "slug": "blackstone",
     "name": "Blackstone",
     "ticker": "BX",
-    "summary": "Blackstone appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+    "summary": "Blackstone is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
     "parts": [
       1
     ],
-    "numbers": [
-      {
-        "value": "$35B",
-        "label": "AI XPU tranche",
-        "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-        "part": 1
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 1,
@@ -1296,7 +1246,7 @@
     "slug": "blue-owl-capital",
     "name": "Blue Owl Capital",
     "ticker": "OBDC",
-    "summary": "Blue Owl Capital appears in Part 8 of The Buildout. Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "summary": "Blue Owl Capital is named in 1 Part of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
     "parts": [
       8
     ],
@@ -1322,7 +1272,7 @@
     "slug": "broadcom",
     "name": "Broadcom",
     "ticker": "AVGO",
-    "summary": "Broadcom appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+    "summary": "Broadcom is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
     "parts": [
       1
     ],
@@ -1331,12 +1281,6 @@
         "value": "20GW",
         "label": "Broadcom compute",
         "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
-        "part": 1
-      },
-      {
-        "value": "$30B",
-        "label": "Quarterly AI orders",
-        "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
         "part": 1
       }
     ],
@@ -1378,7 +1322,7 @@
     "slug": "ciena",
     "name": "Ciena",
     "ticker": "CIEN",
-    "summary": "Ciena appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Ciena is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -1433,7 +1377,7 @@
     "slug": "cisco",
     "name": "Cisco",
     "ticker": "CSCO",
-    "summary": "Cisco appears in Part 4, Part 9, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Cisco is named in 3 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       4,
       9,
@@ -1471,7 +1415,7 @@
     "slug": "cleanspark",
     "name": "CleanSpark",
     "ticker": "CLSK",
-    "summary": "CleanSpark appears in Part 7, Part 8 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "summary": "CleanSpark is named in 2 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
     "parts": [
       7,
       8
@@ -1510,7 +1454,7 @@
     "slug": "coherent",
     "name": "Coherent",
     "ticker": "COHR",
-    "summary": "Coherent appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Coherent is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -1546,20 +1490,13 @@
     "slug": "comcast",
     "name": "Comcast",
     "ticker": "CMCSA",
-    "summary": "Comcast appears in Part 3, Part 9, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator.",
+    "summary": "Comcast is named in 3 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
     "parts": [
       3,
       9,
       10
     ],
-    "numbers": [
-      {
-        "value": "5.31%",
-        "label": "10-year Treasury yield",
-        "context": "CNBC, closing yield on Oct 5, 2026",
-        "part": 10
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 3,
@@ -1596,7 +1533,7 @@
     "slug": "coreweave",
     "name": "CoreWeave",
     "ticker": "CRWV",
-    "summary": "CoreWeave appears in Part 3, Part 5, Part 6, Part 7, Part 8 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "summary": "CoreWeave is named in 5 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
     "parts": [
       3,
       5,
@@ -1705,7 +1642,7 @@
     "slug": "deepseek",
     "name": "DeepSeek",
     "ticker": null,
-    "summary": "DeepSeek appears in Part 3, Part 5 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business.",
+    "summary": "DeepSeek is named in 2 Parts of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
     "parts": [
       3,
       5
@@ -1770,7 +1707,7 @@
     "slug": "dell",
     "name": "Dell",
     "ticker": "DELL",
-    "summary": "Dell appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+    "summary": "Dell is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
     "parts": [
       10
     ],
@@ -1808,7 +1745,7 @@
     "slug": "doordash",
     "name": "DoorDash",
     "ticker": "DASH",
-    "summary": "DoorDash appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "DoorDash is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -1846,7 +1783,7 @@
     "slug": "exelon",
     "name": "Exelon",
     "ticker": "EXC",
-    "summary": "Exelon appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "Exelon is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -1872,7 +1809,7 @@
     "slug": "fabrinet",
     "name": "Fabrinet",
     "ticker": "FN",
-    "summary": "Fabrinet appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Fabrinet is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -1932,7 +1869,7 @@
     "slug": "fair-isaac",
     "name": "Fair Isaac",
     "ticker": "FICO",
-    "summary": "Fair Isaac appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Fair Isaac is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -1958,7 +1895,7 @@
     "slug": "globalfoundries",
     "name": "GLOBALFOUNDRIES",
     "ticker": "GFS",
-    "summary": "GLOBALFOUNDRIES appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "GLOBALFOUNDRIES is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -1984,7 +1921,7 @@
     "slug": "goldman-sachs",
     "name": "Goldman Sachs",
     "ticker": "GS",
-    "summary": "Goldman Sachs appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+    "summary": "Goldman Sachs is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
     "parts": [
       10
     ],
@@ -2027,7 +1964,7 @@
     "slug": "intuit",
     "name": "Intuit",
     "ticker": "INTU",
-    "summary": "Intuit appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Intuit is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -2075,7 +2012,7 @@
     "slug": "lumentum",
     "name": "Lumentum",
     "ticker": "LITE",
-    "summary": "Lumentum appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Lumentum is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -2111,7 +2048,7 @@
     "slug": "meta",
     "name": "Meta",
     "ticker": "META",
-    "summary": "Meta appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Meta is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       4,
       5,
@@ -2368,7 +2305,7 @@
     "slug": "micron-technology",
     "name": "Micron Technology",
     "ticker": "MU",
-    "summary": "Micron Technology appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "Micron Technology is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
     "parts": [
       4
     ],
@@ -2399,7 +2336,7 @@
     "slug": "microsoft",
     "name": "Microsoft",
     "ticker": "MSFT",
-    "summary": "Microsoft appears in Part 2, Part 3, Part 4, Part 5, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Microsoft is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       2,
       3,
@@ -2562,7 +2499,7 @@
     "slug": "mongodb",
     "name": "MongoDB",
     "ticker": "MDB",
-    "summary": "MongoDB appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "MongoDB is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -2593,7 +2530,7 @@
     "slug": "morgan-stanley",
     "name": "Morgan Stanley",
     "ticker": "MS",
-    "summary": "Morgan Stanley appears in Part 3, Part 4, Part 9 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Morgan Stanley is named in 3 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       3,
       4,
@@ -2631,7 +2568,7 @@
     "slug": "nebius",
     "name": "Nebius",
     "ticker": "NBIS",
-    "summary": "Nebius appears in Part 3, Part 4, Part 6 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Nebius is named in 3 Parts of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       3,
       4,
@@ -2736,7 +2673,7 @@
     "slug": "netflix",
     "name": "Netflix",
     "ticker": "NFLX",
-    "summary": "Netflix appears in Part 4, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Netflix is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       4,
       9
@@ -2773,7 +2710,7 @@
     "slug": "nike",
     "name": "Nike",
     "ticker": "NKE",
-    "summary": "Nike appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Nike is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -2799,7 +2736,7 @@
     "slug": "nrg-energy",
     "name": "NRG Energy",
     "ticker": "NRG",
-    "summary": "NRG Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "NRG Energy is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -2825,7 +2762,7 @@
     "slug": "nvidia",
     "name": "Nvidia",
     "ticker": "NVDA",
-    "summary": "Nvidia appears in Part 1, Part 2, Part 3, Part 4, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Nvidia is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       1,
       2,
@@ -3192,7 +3129,7 @@
     "slug": "openai",
     "name": "OpenAI",
     "ticker": null,
-    "summary": "OpenAI appears in Part 2, Part 3, Part 4, Part 5, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "OpenAI is named in 10 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       2,
       3,
@@ -3676,7 +3613,7 @@
     "slug": "oracle",
     "name": "Oracle",
     "ticker": "ORCL",
-    "summary": "Oracle appears in Part 3, Part 4, Part 5, Part 6, Part 8, Part 11 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Oracle is named in 6 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       3,
       4,
@@ -3825,7 +3762,7 @@
     "slug": "palantir",
     "name": "Palantir",
     "ticker": "PLTR",
-    "summary": "Palantir appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business.",
+    "summary": "Palantir is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
     "parts": [
       5
     ],
@@ -3856,7 +3793,7 @@
     "slug": "salesforce",
     "name": "Salesforce",
     "ticker": "CRM",
-    "summary": "Salesforce appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Salesforce is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -3882,7 +3819,7 @@
     "slug": "servicenow",
     "name": "ServiceNow",
     "ticker": "NOW",
-    "summary": "ServiceNow appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "ServiceNow is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -3908,7 +3845,7 @@
     "slug": "shopify",
     "name": "Shopify",
     "ticker": "SHOP",
-    "summary": "Shopify appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Shopify is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -3962,7 +3899,7 @@
     "slug": "spacex",
     "name": "SpaceX",
     "ticker": null,
-    "summary": "SpaceX appears in Part 2 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof.",
+    "summary": "SpaceX is named in 1 Part of The Buildout, most recently Part 2: SpaceX Is Funding an AI Bet Before the Proof.",
     "parts": [
       2
     ],
@@ -4098,7 +4035,7 @@
     "slug": "the-new-york-times",
     "name": "The New York Times",
     "ticker": "NYT",
-    "summary": "The New York Times appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "The New York Times is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -4124,7 +4061,7 @@
     "slug": "tsmc",
     "name": "TSMC",
     "ticker": "TSM",
-    "summary": "TSMC appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter.",
+    "summary": "TSMC is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       11
     ],
@@ -4162,7 +4099,7 @@
     "slug": "vertiv",
     "name": "Vertiv",
     "ticker": "VRT",
-    "summary": "Vertiv appears in Part 4, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Vertiv is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       4,
       11

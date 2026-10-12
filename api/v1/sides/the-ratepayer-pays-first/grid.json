@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -26,8 +26,8 @@
   ],
   "rows": [
     {
-      "name": "Sonya Huang",
-      "entity": "https://deepstack.ltd/people/sonya-huang/",
+      "name": "Amin Vahdat",
+      "entity": "https://deepstack.ltd/people/amin-vahdat/",
       "positions": [
         {
           "question": "main",
@@ -35,9 +35,9 @@
           "label": "The load pays its way",
           "claims": [
             {
-              "claim": "Vahdat: Google pays for its own lines.",
-              "date": null,
-              "url": null
+              "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+              "date": "2026-10-06",
+              "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3"
             }
           ]
         }

@@ -4,7 +4,7 @@
     "slug": "abhi-yadav",
     "name": "Abhi Yadav",
     "role": null,
-    "summary": "Abhi Yadav appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Abhi Yadav is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -30,7 +30,7 @@
     "slug": "alasdair-mann",
     "name": "Alasdair Mann",
     "role": null,
-    "summary": "Alasdair Mann appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Alasdair Mann is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -56,7 +56,7 @@
     "slug": "alex-immerman",
     "name": "Alex Immerman",
     "role": null,
-    "summary": "Alex Immerman appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The inertia businesses), Part 9 (The rails and the atoms).",
+    "summary": "Alex Immerman is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The inertia businesses), Part 9 (The rails and the atoms).",
     "parts": [
       9
     ],
@@ -116,7 +116,7 @@
     "slug": "alex-karp",
     "name": "Alex Karp",
     "role": null,
-    "summary": "Alex Karp appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price.",
+    "summary": "Alex Karp is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       12
     ],
@@ -142,7 +142,7 @@
     "slug": "amin-vahdat",
     "name": "Amin Vahdat",
     "role": null,
-    "summary": "Amin Vahdat appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "Amin Vahdat is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
     "parts": [
       13
     ],
@@ -154,7 +154,19 @@
         "excerpt": "Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 13,
+        "question": null,
+        "side": "the-load-pays-its-way",
+        "sideLabel": "The load pays its way",
+        "voice": "Amin Vahdat",
+        "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+        "date": "2026-10-06",
+        "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 0,
       "claims": 0,
@@ -168,7 +180,7 @@
     "slug": "andrew-walker",
     "name": "Andrew Walker",
     "role": "Yet Another Value Blog",
-    "summary": "Andrew Walker appears in Part 7, Part 9 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (Eighteen months, or less), Part 9 (Not every habit), Part 9 (The inertia businesses), Part 9 (Voices that cross sides).",
+    "summary": "Andrew Walker is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (Eighteen months, or less), Part 9 (Not every habit), Part 9 (The inertia businesses), Part 9 (Voices that cross sides).",
     "parts": [
       7,
       9
@@ -289,7 +301,7 @@
     "slug": "aswath-damodaran",
     "name": "Aswath Damodaran",
     "role": null,
-    "summary": "Aswath Damodaran appears in Part 10, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price.",
+    "summary": "Aswath Damodaran is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       10,
       12
@@ -321,7 +333,7 @@
     "slug": "aurelion-research",
     "name": "Aurelion Research",
     "role": null,
-    "summary": "Aurelion Research appears in Part 4, Part 8, Part 10, Part 11 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Aurelion Research is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
     "parts": [
       4,
       8,
@@ -426,7 +438,7 @@
     "slug": "ben-horowitz",
     "name": "Ben Horowitz",
     "role": null,
-    "summary": "Ben Horowitz appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Ben Horowitz is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -452,18 +464,11 @@
     "slug": "charlie-hills",
     "name": "Charlie Hills",
     "role": null,
-    "summary": "Charlie Hills appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
+    "summary": "Charlie Hills is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
     "parts": [
       12
     ],
-    "numbers": [
-      {
-        "value": "$4 vs $10",
-        "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
-        "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 12,
@@ -497,7 +502,7 @@
     "slug": "christian-catalini",
     "name": "Christian Catalini",
     "role": null,
-    "summary": "Christian Catalini appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Anthropic: not yet).",
+    "summary": "Christian Catalini is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Anthropic: not yet).",
     "parts": [
       5
     ],
@@ -546,7 +551,7 @@
     "slug": "clark-tang",
     "name": "Clark Tang",
     "role": null,
-    "summary": "Clark Tang appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Clark Tang is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -572,7 +577,7 @@
     "slug": "crusoe-energy",
     "name": "Crusoe Energy",
     "role": null,
-    "summary": "Crusoe Energy appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+    "summary": "Crusoe Energy is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
     "parts": [
       13
     ],
@@ -621,7 +626,7 @@
     "slug": "daniel-romero",
     "name": "Daniel Romero",
     "role": "HyperTech Invest",
-    "summary": "Daniel Romero appears in Part 5, Part 6, Part 7, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Daniel Romero is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
     "parts": [
       5,
       6,
@@ -631,14 +636,7 @@
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "23 GW",
-        "label": "NVL72 deployment need",
-        "context": "Daniel Romero, 2027 estimate at full use",
-        "part": 6
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 5,
@@ -805,7 +803,7 @@
     "slug": "data-center-coalition",
     "name": "Data Center Coalition",
     "role": null,
-    "summary": "Data Center Coalition appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+    "summary": "Data Center Coalition is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
     "parts": [
       13
     ],
@@ -854,7 +852,7 @@
     "slug": "david-george",
     "name": "David George",
     "role": "a16z",
-    "summary": "David George appears in Part 9, Part 10, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices), Part 12 (Voices that cross sides).",
+    "summary": "David George is named in 3 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Still renting at January prices), Part 12 (Voices that cross sides).",
     "parts": [
       9,
       10,
@@ -969,7 +967,7 @@
     "slug": "deborah-folloni",
     "name": "Deborah Folloni",
     "role": null,
-    "summary": "Deborah Folloni appears in Part 9, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
+    "summary": "Deborah Folloni is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
     "parts": [
       9,
       12
@@ -1008,20 +1006,13 @@
     "slug": "deepvalue-capital",
     "name": "DeepValue Capital",
     "role": "DeepValue Capital by Kyler",
-    "summary": "DeepValue Capital appears in Part 5, Part 6, Part 7 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "DeepValue Capital is named in 3 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
     "parts": [
       5,
       6,
       7
     ],
-    "numbers": [
-      {
-        "value": "$2.3T",
-        "label": "Hyperscaler backlog",
-        "context": "Apollo via DeepValue Capital, September 2026",
-        "part": 7
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 5,
@@ -1063,7 +1054,7 @@
     "slug": "distillate-capital-partners-llc",
     "name": "Distillate Capital Partners LLC",
     "role": null,
-    "summary": "Distillate Capital Partners LLC appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (The filing sets the price).",
+    "summary": "Distillate Capital Partners LLC is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (The filing sets the price).",
     "parts": [
       12
     ],
@@ -1101,7 +1092,7 @@
     "slug": "doug-arent",
     "name": "Doug Arent",
     "role": null,
-    "summary": "Doug Arent appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "Doug Arent is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -1127,7 +1118,7 @@
     "slug": "earthjustice",
     "name": "Earthjustice",
     "role": null,
-    "summary": "Earthjustice appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+    "summary": "Earthjustice is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
     "parts": [
       13
     ],
@@ -1165,7 +1156,7 @@
     "slug": "ed-elson",
     "name": "Ed Elson",
     "role": null,
-    "summary": "Ed Elson appears in Part 5 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+    "summary": "Ed Elson is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
     "parts": [
       5
     ],
@@ -1214,21 +1205,14 @@
     "slug": "ed-zitron",
     "name": "Ed Zitron",
     "role": null,
-    "summary": "Ed Zitron appears in Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (A closed loop).",
+    "summary": "Ed Zitron is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (A closed loop).",
     "parts": [
       6,
       8,
       10,
       11
     ],
-    "numbers": [
-      {
-        "value": "1 year",
-        "label": "Nvidia's terms for its best-rated customers",
-        "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
-        "part": 11
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 6,
@@ -1277,7 +1261,7 @@
     "slug": "edelbridge-alpha",
     "name": "Edelbridge Alpha",
     "role": null,
-    "summary": "Edelbridge Alpha appears in Part 6, Part 11 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Edelbridge Alpha is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
     "parts": [
       6,
       11
@@ -1370,7 +1354,7 @@
     "slug": "edf-power-solutions",
     "name": "EDF Power Solutions",
     "role": null,
-    "summary": "EDF Power Solutions appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+    "summary": "EDF Power Solutions is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
     "parts": [
       13
     ],
@@ -1419,7 +1403,7 @@
     "slug": "electric-reliability-council-of-texas",
     "name": "Electric Reliability Council of Texas",
     "role": null,
-    "summary": "Electric Reliability Council of Texas appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+    "summary": "Electric Reliability Council of Texas is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
     "parts": [
       13
     ],
@@ -1468,7 +1452,7 @@
     "slug": "first-pacific-advisors",
     "name": "First Pacific Advisors",
     "role": null,
-    "summary": "First Pacific Advisors appears in Part 4, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
+    "summary": "First Pacific Advisors is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
     "parts": [
       4,
       12
@@ -1523,21 +1507,14 @@
     "slug": "gaetano",
     "name": "Gaetano",
     "role": null,
-    "summary": "Gaetano appears in Part 6, Part 8, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
+    "summary": "Gaetano is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
     "parts": [
       6,
       8,
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "$10B",
-        "label": "Ciena's backlog floor at the end of fiscal 2026",
-        "context": "Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029",
-        "part": 11
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 6,
@@ -1721,7 +1698,7 @@
     "slug": "geo-chen",
     "name": "Geo Chen",
     "role": null,
-    "summary": "Geo Chen appears in Part 5, Part 8 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 8: AI Lenders Are Financing the End of Scarcity.",
+    "summary": "Geo Chen is named in 2 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
     "parts": [
       5,
       8
@@ -1753,18 +1730,11 @@
     "slug": "hayden-capital",
     "name": "Hayden Capital",
     "role": null,
-    "summary": "Hayden Capital appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (Voices that cross sides).",
+    "summary": "Hayden Capital is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (Voices that cross sides).",
     "parts": [
       4
     ],
-    "numbers": [
-      {
-        "value": "-$6B",
-        "label": "Alphabet Q2 free cash flow",
-        "context": "Hayden Capital; Q2, first negative since 2004 IPO",
-        "part": 4
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 4,
@@ -1809,7 +1779,7 @@
     "slug": "hugh-vuillier",
     "name": "Hugh Vuillier",
     "role": null,
-    "summary": "Hugh Vuillier appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "Hugh Vuillier is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
     "parts": [
       7
     ],
@@ -1835,31 +1805,12 @@
     "slug": "invest-in-assets",
     "name": "Invest in Assets",
     "role": "Invest in Quality",
-    "summary": "Invest in Assets appears in Part 1, Part 9 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 1 (Insatiable), Part 9 (Not every habit).",
+    "summary": "Invest in Assets is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 1 (Insatiable), Part 9 (Not every habit).",
     "parts": [
       1,
       9
     ],
-    "numbers": [
-      {
-        "value": "$35B",
-        "label": "AI XPU tranche",
-        "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-        "part": 1
-      },
-      {
-        "value": "20GW",
-        "label": "Broadcom compute",
-        "context": "Broadcom-designed capacity promised through 2028; Invest In Assets",
-        "part": 1
-      },
-      {
-        "value": "$30B",
-        "label": "Quarterly AI orders",
-        "context": "Broadcom orders booked in one quarter; Invest In Assets, mid-2026",
-        "part": 1
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 1,
@@ -1925,7 +1876,7 @@
     "slug": "james-bulltard",
     "name": "James Bulltard",
     "role": null,
-    "summary": "James Bulltard appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "James Bulltard is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
     "parts": [
       4
     ],
@@ -1951,7 +1902,7 @@
     "slug": "jason-bordoff",
     "name": "Jason Bordoff",
     "role": null,
-    "summary": "Jason Bordoff appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (Voices that cross sides).",
+    "summary": "Jason Bordoff is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (Voices that cross sides).",
     "parts": [
       13
     ],
@@ -1989,7 +1940,7 @@
     "slug": "jensen-huang",
     "name": "Jensen Huang",
     "role": null,
-    "summary": "Jensen Huang appears in Part 10, Part 11, Part 12 of The Buildout. Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+    "summary": "Jensen Huang is named in 3 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
     "parts": [
       10,
       11,
@@ -2027,7 +1978,7 @@
     "slug": "jeremie-eliahou-ontiveros",
     "name": "Jeremie Eliahou Ontiveros",
     "role": null,
-    "summary": "Jeremie Eliahou Ontiveros appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
+    "summary": "Jeremie Eliahou Ontiveros is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
     "parts": [
       2,
       5,
@@ -2104,7 +2055,7 @@
     "slug": "jessica-tarlov",
     "name": "Jessica Tarlov",
     "role": null,
-    "summary": "Jessica Tarlov appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Jessica Tarlov is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -2130,7 +2081,7 @@
     "slug": "junkbondinvestor",
     "name": "JunkBondInvestor",
     "role": null,
-    "summary": "JunkBondInvestor appears in Part 2, Part 3, Part 4, Part 7, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise).",
+    "summary": "JunkBondInvestor is named in 7 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise).",
     "parts": [
       2,
       3,
@@ -2140,20 +2091,7 @@
       10,
       11
     ],
-    "numbers": [
-      {
-        "value": "6%",
-        "label": "AI paper investment-grade share",
-        "context": "JunkBondInvestor, August 9, 2026",
-        "part": 3
-      },
-      {
-        "value": "8.25%",
-        "label": "CleanSpark note coupon",
-        "context": "JunkBondInvestor, September 18, 2026",
-        "part": 7
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 2,
@@ -2309,7 +2247,7 @@
     "slug": "kakashii",
     "name": "Kakashii",
     "role": null,
-    "summary": "Kakashii appears in Part 2, Part 6, Part 8, Part 10, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
+    "summary": "Kakashii is named in 5 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
     "parts": [
       2,
       6,
@@ -2317,14 +2255,7 @@
       10,
       11
     ],
-    "numbers": [
-      {
-        "value": "0.4 GW",
-        "label": "Compute deployed",
-        "context": "Kakashii’s first-quarter reading, August 2026",
-        "part": 2
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 2,
@@ -2465,27 +2396,14 @@
     "slug": "kevin",
     "name": "Kevin",
     "role": null,
-    "summary": "Kevin appears in Part 2, Part 4, Part 7, Part 11 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (A backlog is a promise).",
+    "summary": "Kevin is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (A backlog is a promise).",
     "parts": [
       2,
       4,
       7,
       11
     ],
-    "numbers": [
-      {
-        "value": "$1.25B",
-        "label": "Monthly Anthropic contract",
-        "context": "Through May 2029, as documented by Kevin Gee",
-        "part": 2
-      },
-      {
-        "value": "$3.5T",
-        "label": "2026–30 hyperscaler capex",
-        "context": "Oscar Hattink via Kevin Gee; 2026–2030",
-        "part": 4
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 2,
@@ -2550,26 +2468,13 @@
     "slug": "kevin-gee",
     "name": "Kevin Gee",
     "role": null,
-    "summary": "Kevin Gee appears in Part 2, Part 4, Part 12 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
+    "summary": "Kevin Gee is named in 3 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 2 (Voices that cross sides), Part 4 (The return is not there), Part 12 (Open weights set the price).",
     "parts": [
       2,
       4,
       12
     ],
-    "numbers": [
-      {
-        "value": "$1.25B",
-        "label": "Monthly Anthropic contract",
-        "context": "Through May 2029, as documented by Kevin Gee",
-        "part": 2
-      },
-      {
-        "value": "$3.5T",
-        "label": "2026–30 hyperscaler capex",
-        "context": "Oscar Hattink via Kevin Gee; 2026–2030",
-        "part": 4
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 2,
@@ -2646,7 +2551,7 @@
     "slug": "kevin-warsh",
     "name": "Kevin Warsh",
     "role": null,
-    "summary": "Kevin Warsh appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "Kevin Warsh is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
     "parts": [
       7
     ],
@@ -2672,7 +2577,7 @@
     "slug": "kingswell",
     "name": "Kingswell",
     "role": null,
-    "summary": "Kingswell appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+    "summary": "Kingswell is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
     "parts": [
       13
     ],
@@ -2710,7 +2615,7 @@
     "slug": "kris",
     "name": "Kris",
     "role": "Potential Multibaggers",
-    "summary": "Kris appears in Part 1, Part 2, Part 4, Part 7, Part 8, Part 10, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 4: AI Spending Has Met Its First Real Bill; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
+    "summary": "Kris is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
     "parts": [
       1,
       2,
@@ -2897,18 +2802,11 @@
     "slug": "le-shrub",
     "name": "Le Shrub",
     "role": null,
-    "summary": "Le Shrub appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
+    "summary": "Le Shrub is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
     "parts": [
       12
     ],
-    "numbers": [
-      {
-        "value": "57% to 67%",
-        "label": "Chinese models' share of token usage on OpenRouter by September",
-        "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 12,
@@ -2963,18 +2861,11 @@
     "slug": "leyla-kunimoto",
     "name": "Leyla Kunimoto",
     "role": null,
-    "summary": "Leyla Kunimoto appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+    "summary": "Leyla Kunimoto is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
     "parts": [
       10
     ],
-    "numbers": [
-      {
-        "value": "$250B",
-        "label": "Hyperscaler high-grade bonds",
-        "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
-        "part": 10
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 10,
@@ -2996,7 +2887,7 @@
     "slug": "longriver",
     "name": "Longriver",
     "role": null,
-    "summary": "Longriver appears in Part 1, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 12: The Model Is Not the Price. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid).",
+    "summary": "Longriver is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid).",
     "parts": [
       1,
       12
@@ -3061,7 +2952,7 @@
     "slug": "m-v-cunha",
     "name": "M. V. Cunha",
     "role": null,
-    "summary": "M. V. Cunha appears in Part 6 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "M. V. Cunha is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
     "parts": [
       6
     ],
@@ -3081,7 +2972,7 @@
     "slug": "mark-zuckerberg",
     "name": "Mark Zuckerberg",
     "role": null,
-    "summary": "Mark Zuckerberg appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Mark Zuckerberg is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -3107,7 +2998,7 @@
     "slug": "market-sentiment",
     "name": "Market Sentiment",
     "role": null,
-    "summary": "Market Sentiment appears in Part 3, Part 8, Part 9, Part 12, Part 13 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
+    "summary": "Market Sentiment is named in 5 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
     "parts": [
       3,
       8,
@@ -3115,14 +3006,7 @@
       12,
       13
     ],
-    "numbers": [
-      {
-        "value": "21%",
-        "label": "Modeled compute internal return",
-        "context": "Market Sentiment, August 8, 2026",
-        "part": 3
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 3,
@@ -3241,18 +3125,11 @@
     "slug": "maryland-office-of-people-s-counsel",
     "name": "Maryland Office of People's Counsel",
     "role": null,
-    "summary": "Maryland Office of People's Counsel appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+    "summary": "Maryland Office of People's Counsel is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
     "parts": [
       13
     ],
-    "numbers": [
-      {
-        "value": "$1.6B",
-        "label": "Added transmission cost on Maryland bills over 10 years",
-        "context": "Maryland Office of People's Counsel at FERC, Jun 11, 2026",
-        "part": 13
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 13,
@@ -3297,7 +3174,7 @@
     "slug": "massif-capital",
     "name": "Massif Capital",
     "role": null,
-    "summary": "Massif Capital appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (OpenAI: commoditized), Part 12 (Open weights set the price).",
+    "summary": "Massif Capital is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (OpenAI: commoditized), Part 12 (Open weights set the price).",
     "parts": [
       5,
       12
@@ -3358,7 +3235,7 @@
     "slug": "matthew-c-klein",
     "name": "Matthew C. Klein",
     "role": null,
-    "summary": "Matthew C. Klein appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (Growth: yields are catching up).",
+    "summary": "Matthew C. Klein is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (Growth: yields are catching up).",
     "parts": [
       7
     ],
@@ -3401,7 +3278,7 @@
     "slug": "mia-silverio",
     "name": "Mia Silverio",
     "role": "Prof G Markets",
-    "summary": "Mia Silverio appears in Part 7, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+    "summary": "Mia Silverio is named in 6 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
     "parts": [
       7,
       9,
@@ -3410,14 +3287,7 @@
       12,
       13
     ],
-    "numbers": [
-      {
-        "value": "A quarter",
-        "label": "Share of Anthropic's 2025 revenue that came from two customers",
-        "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 9,
@@ -3547,7 +3417,7 @@
     "slug": "michael-burry",
     "name": "Michael Burry",
     "role": "Cassandra Unchained",
-    "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+    "summary": "Michael Burry is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
     "parts": [
       1,
       2,
@@ -3558,44 +3428,7 @@
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "$38B",
-        "label": "Apollo debt",
-        "context": "Apollo transaction in late May, described by Michael Burry",
-        "part": 1
-      },
-      {
-        "value": "$20–25M",
-        "label": "Nebius one-to-three-year price",
-        "context": "Michael Burry, August 12 trading post",
-        "part": 6
-      },
-      {
-        "value": "$40–50M",
-        "label": "Nebius six-month price",
-        "context": "Michael Burry, August 12 trading post",
-        "part": 6
-      },
-      {
-        "value": "-7.9%",
-        "label": "Construction ex-data centers",
-        "context": "Michael Burry citing Apollo, June year over year",
-        "part": 6
-      },
-      {
-        "value": "113%",
-        "label": "Growth in Microsoft's backlog due beyond one year",
-        "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
-        "part": 11
-      },
-      {
-        "value": "$28B",
-        "label": "Meta's residual-value guarantee on its data-center venture",
-        "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
-        "part": 11
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 1,
@@ -3833,7 +3666,7 @@
     "slug": "michael-howell",
     "name": "Michael Howell",
     "role": "Capital Wars",
-    "summary": "Michael Howell appears in Part 7, Part 10 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator. Argued in Part 7 (Growth: yields are catching up), Part 10 (A growth signal near a peak).",
+    "summary": "Michael Howell is named in 2 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator. Argued in Part 7 (Growth: yields are catching up), Part 10 (A growth signal near a peak).",
     "parts": [
       7,
       10
@@ -3920,7 +3753,7 @@
     "slug": "michael-spencer",
     "name": "Michael Spencer",
     "role": null,
-    "summary": "Michael Spencer appears in Part 5, Part 6, Part 9, Part 10, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
+    "summary": "Michael Spencer is named in 5 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
     "parts": [
       5,
       6,
@@ -3928,20 +3761,7 @@
       10,
       12
     ],
-    "numbers": [
-      {
-        "value": "$559M",
-        "label": "Anthropic adjusted income",
-        "context": "Michael Spencer; preliminary June quarter 2026",
-        "part": 5
-      },
-      {
-        "value": "57% to 67%",
-        "label": "Chinese models' share of token usage on OpenRouter by September",
-        "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 5,
@@ -4143,7 +3963,7 @@
     "slug": "michael-w-green",
     "name": "Michael W. Green",
     "role": null,
-    "summary": "Michael W. Green appears in Part 7 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (A missing buyer).",
+    "summary": "Michael W. Green is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (A missing buyer).",
     "parts": [
       7
     ],
@@ -4186,7 +4006,7 @@
     "slug": "monitoring-analytics-pjm-market-monitor",
     "name": "Monitoring Analytics (PJM market monitor)",
     "role": "Monitoring Analytics",
-    "summary": "Monitoring Analytics (PJM market monitor) appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+    "summary": "Monitoring Analytics (PJM market monitor) is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
     "parts": [
       13
     ],
@@ -4235,20 +4055,13 @@
     "slug": "moses-sternstein",
     "name": "Moses Sternstein",
     "role": null,
-    "summary": "Moses Sternstein appears in Part 4, Part 6, Part 9 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 4 (The spending is defense), Part 9 (Still a demo).",
+    "summary": "Moses Sternstein is named in 3 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 4 (The spending is defense), Part 9 (Still a demo).",
     "parts": [
       4,
       6,
       9
     ],
-    "numbers": [
-      {
-        "value": "3%",
-        "label": "Paid consumer AI adoption",
-        "context": "Moses Sternstein, first quarter estimate",
-        "part": 9
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 4,
@@ -4325,7 +4138,7 @@
     "slug": "multibagger-ideas",
     "name": "Multibagger Ideas",
     "role": null,
-    "summary": "Multibagger Ideas appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Multibagger Ideas is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
     "parts": [
       11
     ],
@@ -4385,7 +4198,7 @@
     "slug": "north-american-electric-reliability-corporation",
     "name": "North American Electric Reliability Corporation",
     "role": null,
-    "summary": "North American Electric Reliability Corporation appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+    "summary": "North American Electric Reliability Corporation is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
     "parts": [
       13
     ],
@@ -4434,7 +4247,7 @@
     "slug": "nzs-capital",
     "name": "NZS Capital",
     "role": null,
-    "summary": "NZS Capital appears in Part 1 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
+    "summary": "NZS Capital is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.. Argued in Part 1 (Voices that cross sides).",
     "parts": [
       1
     ],
@@ -4472,21 +4285,14 @@
     "slug": "oguz-erkan",
     "name": "Oguz Erkan",
     "role": null,
-    "summary": "Oguz Erkan appears in Part 3, Part 5, Part 9, Part 12 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
+    "summary": "Oguz Erkan is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
     "parts": [
       3,
       5,
       9,
       12
     ],
-    "numbers": [
-      {
-        "value": "61%-70%",
-        "label": "Booking in AI recommendations",
-        "context": "Oguz Erkan, September 2026",
-        "part": 9
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 3,
@@ -4579,7 +4385,7 @@
     "slug": "orbis-investments",
     "name": "Orbis Investments",
     "role": "Orbis Investment Management",
-    "summary": "Orbis Investments appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "Orbis Investments is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
     "parts": [
       4
     ],
@@ -4605,18 +4411,11 @@
     "slug": "oscar-hattink",
     "name": "Oscar Hattink",
     "role": null,
-    "summary": "Oscar Hattink appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "Oscar Hattink is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
     "parts": [
       4
     ],
-    "numbers": [
-      {
-        "value": "$3.5T",
-        "label": "2026–30 hyperscaler capex",
-        "context": "Oscar Hattink via Kevin Gee; 2026–2030",
-        "part": 4
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 4,
@@ -4638,7 +4437,7 @@
     "slug": "prof-g-markets",
     "name": "Prof G Markets",
     "role": null,
-    "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
+    "summary": "Prof G Markets is named in 7 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       4,
       6,
@@ -4648,20 +4447,7 @@
       12,
       13
     ],
-    "numbers": [
-      {
-        "value": "$165B",
-        "label": "Quarterly hyperscaler capex",
-        "context": "Prof G Markets; three months, August 4",
-        "part": 4
-      },
-      {
-        "value": "A quarter",
-        "label": "Share of Anthropic's 2025 revenue that came from two customers",
-        "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 4,
@@ -4718,7 +4504,7 @@
     "slug": "quanta-72",
     "name": "Quanta 72",
     "role": null,
-    "summary": "Quanta 72 appears in Part 1, Part 4 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The spending is defense).",
+    "summary": "Quanta 72 is named in 2 Parts of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The spending is defense).",
     "parts": [
       1,
       4
@@ -4773,7 +4559,7 @@
     "slug": "ren",
     "name": "Ren",
     "role": null,
-    "summary": "Ren appears in Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
+    "summary": "Ren is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
     "parts": [
       6,
       7,
@@ -4960,7 +4746,7 @@
     "slug": "reyk-knuhtsen",
     "name": "Reyk Knuhtsen",
     "role": null,
-    "summary": "Reyk Knuhtsen appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
+    "summary": "Reyk Knuhtsen is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The plant is late).",
     "parts": [
       13
     ],
@@ -5009,7 +4795,7 @@
     "slug": "robin-millican",
     "name": "Robin Millican",
     "role": null,
-    "summary": "Robin Millican appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+    "summary": "Robin Millican is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -5035,7 +4821,7 @@
     "slug": "ruben-dominguez",
     "name": "Ruben Dominguez",
     "role": null,
-    "summary": "Ruben Dominguez appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It..",
+    "summary": "Ruben Dominguez is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It..",
     "parts": [
       9
     ],
@@ -5061,7 +4847,7 @@
     "slug": "sam-badri",
     "name": "Sam Badri",
     "role": null,
-    "summary": "Sam Badri appears in Part 9, Part 11 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Sam Badri is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
     "parts": [
       9,
       11
@@ -5093,7 +4879,7 @@
     "slug": "schwar-capital-research",
     "name": "Schwar Capital Research",
     "role": "Schwar Capital",
-    "summary": "Schwar Capital Research appears in Part 11 of The Buildout. Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (Shipping is not earning).",
+    "summary": "Schwar Capital Research is named in 1 Part of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 11 (Shipping is not earning).",
     "parts": [
       11
     ],
@@ -5142,7 +4928,7 @@
     "slug": "scott-galloway",
     "name": "Scott Galloway",
     "role": null,
-    "summary": "Scott Galloway appears in Part 10 of The Buildout. Part 10: The Bubble Is in the Denominator.",
+    "summary": "Scott Galloway is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
     "parts": [
       10
     ],
@@ -5168,7 +4954,7 @@
     "slug": "semianalysis",
     "name": "SemiAnalysis",
     "role": null,
-    "summary": "SemiAnalysis appears in Part 2, Part 5, Part 13 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 13: The Ratepayer Pays First.",
+    "summary": "SemiAnalysis is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       2,
       5,
@@ -5216,7 +5002,7 @@
     "slug": "sonya-huang",
     "name": "Sonya Huang",
     "role": null,
-    "summary": "Sonya Huang appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+    "summary": "Sonya Huang is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First.",
     "parts": [
       13
     ],
@@ -5228,19 +5014,7 @@
         "excerpt": "Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires."
       }
     ],
-    "sides": [
-      {
-        "part": 13,
-        "question": null,
-        "side": "the-load-pays-its-way",
-        "sideLabel": "The load pays its way",
-        "voice": "Sonya Huang",
-        "claim": "Vahdat: Google pays for its own lines.",
-        "date": null,
-        "url": null,
-        "linkVerified": false
-      }
-    ],
+    "sides": [],
     "coverage": {
       "creators": 0,
       "claims": 22,
@@ -5254,7 +5028,7 @@
     "slug": "sound-shore-management",
     "name": "Sound Shore Management",
     "role": null,
-    "summary": "Sound Shore Management appears in Part 4 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill.",
+    "summary": "Sound Shore Management is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill.",
     "parts": [
       4
     ],
@@ -5280,7 +5054,7 @@
     "slug": "stephen-clapham",
     "name": "Stephen Clapham",
     "role": "Behind the Balance Sheet",
-    "summary": "Stephen Clapham appears in Part 1, Part 2, Part 6, Part 7, Part 8, Part 9 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 7 (Debt: 99% of GDP, up from 35%), Part 9 (The rails and the atoms).",
+    "summary": "Stephen Clapham is named in 6 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 7 (Debt: 99% of GDP, up from 35%), Part 9 (The rails and the atoms).",
     "parts": [
       1,
       2,
@@ -5381,7 +5155,7 @@
     "slug": "steve-eisman",
     "name": "Steve Eisman",
     "role": "Steven Eisman",
-    "summary": "Steve Eisman appears in Part 4, Part 5, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
+    "summary": "Steve Eisman is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
     "parts": [
       4,
       5,
@@ -5393,20 +5167,7 @@
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "$20.9B",
-        "label": "OpenAI 2025 loss",
-        "context": "Steve Eisman; 2025",
-        "part": 5
-      },
-      {
-        "value": "1 year",
-        "label": "Nvidia's terms for its best-rated customers",
-        "context": "From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026",
-        "part": 11
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 4,
@@ -5649,7 +5410,7 @@
     "slug": "tae-kim",
     "name": "Tae Kim",
     "role": null,
-    "summary": "Tae Kim appears in Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
+    "summary": "Tae Kim is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
     "parts": [
       9,
       10,
@@ -5824,7 +5585,7 @@
     "slug": "the-vc-corner",
     "name": "The VC Corner",
     "role": null,
-    "summary": "The VC Corner appears in Part 9 of The Buildout. Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The rails and the atoms).",
+    "summary": "The VC Corner is named in 1 Part of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 9 (The rails and the atoms).",
     "parts": [
       9
     ],
@@ -5873,7 +5634,7 @@
     "slug": "torsten-slok",
     "name": "Torsten Slok",
     "role": "Apollo",
-    "summary": "Torsten Slok appears in Part 6, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
+    "summary": "Torsten Slok is named in 6 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
     "parts": [
       6,
       8,
@@ -5882,20 +5643,7 @@
       11,
       12
     ],
-    "numbers": [
-      {
-        "value": "$2T",
-        "label": "Hyperscaler cash-flow target",
-        "context": "Torsten Slok’s 2030 assumption",
-        "part": 8
-      },
-      {
-        "value": "4 months",
-        "label": "The gap between the Chinese open models and the frontier",
-        "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
-        "part": 12
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 6,
@@ -6041,7 +5789,7 @@
     "slug": "trey-henninger",
     "name": "Trey Henninger",
     "role": null,
-    "summary": "Trey Henninger appears in Part 2 of The Buildout. Part 2: SpaceX Is Funding an AI Bet Before the Proof. Argued in Part 2 (Voices that cross sides).",
+    "summary": "Trey Henninger is named in 1 Part of The Buildout, most recently Part 2: SpaceX Is Funding an AI Bet Before the Proof. Argued in Part 2 (Voices that cross sides).",
     "parts": [
       2
     ],
@@ -6079,26 +5827,13 @@
     "slug": "tscs",
     "name": "TSCS",
     "role": "tscsw",
-    "summary": "TSCS appears in Part 7, Part 10, Part 13 of The Buildout. Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator; Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
+    "summary": "TSCS is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
     "parts": [
       7,
       10,
       13
     ],
-    "numbers": [
-      {
-        "value": "$1.97T",
-        "label": "Federal deficit",
-        "context": "TSCS, cumulative through August 2026",
-        "part": 7
-      },
-      {
-        "value": "6,623 MW",
-        "label": "Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007",
-        "context": "PJM auction results, Dec 17, 2025; first read in tscsw, Feb 26, 2026",
-        "part": 13
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 7,
@@ -6266,7 +6001,7 @@
     "slug": "virginia-state-corporation-commission",
     "name": "Virginia State Corporation Commission",
     "role": null,
-    "summary": "Virginia State Corporation Commission appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
+    "summary": "Virginia State Corporation Commission is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The bill no state can shield).",
     "parts": [
       13
     ],
@@ -6315,20 +6050,13 @@
     "slug": "vitaliy-katsenelson",
     "name": "Vitaliy Katsenelson",
     "role": null,
-    "summary": "Vitaliy Katsenelson appears in Part 3, Part 7, Part 10 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 10: The Bubble Is in the Denominator. Argued in Part 3 (1999 capex plus 2008 credit), Part 7 (Debt: 99% of GDP, up from 35%).",
+    "summary": "Vitaliy Katsenelson is named in 3 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator. Argued in Part 3 (1999 capex plus 2008 credit), Part 7 (Debt: 99% of GDP, up from 35%).",
     "parts": [
       3,
       7,
       10
     ],
-    "numbers": [
-      {
-        "value": "$250B",
-        "label": "Nvidia Ohio-campus guarantee",
-        "context": "Vitaliy Katsenelson, August 6, 2026",
-        "part": 3
-      }
-    ],
+    "numbers": [],
     "mentions": [
       {
         "part": 3,
@@ -6389,7 +6117,7 @@
     "slug": "voss-capital",
     "name": "Voss Capital",
     "role": null,
-    "summary": "Voss Capital appears in Part 4, Part 5 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 5: OpenAI and Anthropic Are Not the Same Business.",
+    "summary": "Voss Capital is named in 2 Parts of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business.",
     "parts": [
       4,
       5
@@ -6421,7 +6149,7 @@
     "slug": "vp-research",
     "name": "VP Research",
     "role": "Variant Perception",
-    "summary": "VP Research appears in Part 3, Part 7 of The Buildout. Part 3: The Machines Will Work. The Debt Might Not.; Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "VP Research is named in 2 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
     "parts": [
       3,
       7
@@ -6458,7 +6186,7 @@
     "slug": "warden-capital",
     "name": "Warden Capital",
     "role": null,
-    "summary": "Warden Capital appears in Part 4, Part 12 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
+    "summary": "Warden Capital is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
     "parts": [
       4,
       12
@@ -6513,7 +6241,7 @@
     "slug": "wyndo",
     "name": "Wyndo",
     "role": null,
-    "summary": "Wyndo appears in Part 5, Part 12 of The Buildout. Part 5: OpenAI and Anthropic Are Not the Same Business; Part 12: The Model Is Not the Price. Argued in Part 5 (Voices that cross sides), Part 12 (The frontier is still paid).",
+    "summary": "Wyndo is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (Voices that cross sides), Part 12 (The frontier is still paid).",
     "parts": [
       5,
       12

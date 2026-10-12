@@ -795,7 +795,7 @@ export function renderFigure(spec, { story, headingLevel = 3, context = 'desk' }
     ${spec.live ? `<p class="desk-asof"><span class="live-dot" aria-hidden="true"></span>Live data, updated ${esc(spec.live.asOf)}</p>` : ''}
   </header>
   <footer class="desk-foot">
-    <p class="desk-read"><strong>The DeepStack read.</strong> ${esc(spec.read)}</p>
+    <p class="desk-read"><strong>What the chart says.</strong> ${esc(spec.read)}</p>
     <p class="desk-source">Source: ${esc(spec.source)}</p>
     <details class="desk-table"><summary>Show the data table</summary>${type.table(spec)}</details>
     ${link}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "amin-vahdat",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/amin-vahdat/",
   "api": "https://deepstack.ltd/api/v1/entities/people/amin-vahdat.json",
-  "summary": "Amin Vahdat appears in Part 13 of The Buildout. Part 13: The Ratepayer Pays First.",
+  "summary": "Amin Vahdat is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
   "parts": [
     {
       "part": 13,
@@ -24,7 +24,20 @@
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 13,
+      "question": null,
+      "side": "the-load-pays-its-way",
+      "sideLabel": "The load pays its way",
+      "claim": "Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.",
+      "date": "2026-10-06",
+      "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    }
+  ],
   "coverage": {
     "creators": 0,
     "claims": 0,

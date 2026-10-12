@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "prof-g-markets",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/prof-g-markets/",
   "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-  "summary": "Prof G Markets appears in Part 4, Part 6, Part 9, Part 10, Part 11, Part 12, Part 13 of The Buildout. Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price; Part 13: The Ratepayer Pays First.",
+  "summary": "Prof G Markets is named in 7 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
   "parts": [
     {
       "part": 4,
@@ -45,22 +45,7 @@
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
     }
   ],
-  "numbers": [
-    {
-      "value": "$165B",
-      "label": "Quarterly hyperscaler capex",
-      "context": "Prof G Markets; three months, August 4",
-      "part": 4,
-      "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
-    },
-    {
-      "value": "A quarter",
-      "label": "Share of Anthropic's 2025 revenue that came from two customers",
-      "context": "Mia Silverio of Prof G Markets, Oct 5, 2026; 47% of sales ran through Amazon and Google",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 4,

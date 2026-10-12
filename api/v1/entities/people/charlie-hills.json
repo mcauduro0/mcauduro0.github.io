@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "charlie-hills",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/charlie-hills/",
   "api": "https://deepstack.ltd/api/v1/entities/people/charlie-hills.json",
-  "summary": "Charlie Hills appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
+  "summary": "Charlie Hills is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price).",
   "parts": [
     {
       "part": 12,
@@ -15,15 +15,7 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [
-    {
-      "value": "$4 vs $10",
-      "label": "Anthropic's Opus 5.5 list price per million input tokens, against OpenAI's GPT-6 Astra",
-      "context": "Charlie Hills, Sep 27, 2026; the frontier undercut by 60%",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 12,

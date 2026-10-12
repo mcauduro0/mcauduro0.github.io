@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "le-shrub",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/le-shrub/",
   "api": "https://deepstack.ltd/api/v1/entities/people/le-shrub.json",
-  "summary": "Le Shrub appears in Part 12 of The Buildout. Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
+  "summary": "Le Shrub is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (Open weights set the price), Part 12 (Voices that cross sides).",
   "parts": [
     {
       "part": 12,
@@ -15,15 +15,7 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [
-    {
-      "value": "57% to 67%",
-      "label": "Chinese models' share of token usage on OpenRouter by September",
-      "context": "As counted by Michael Spencer, Oct 1, 2026; Le Shrub had 66% on Sep 22",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 12,

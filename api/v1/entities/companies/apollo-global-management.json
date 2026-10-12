@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "apollo-global-management",
@@ -7,7 +7,7 @@
   "ticker": "APO",
   "url": "https://deepstack.ltd/companies/apollo-global-management/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-  "summary": "Apollo Global Management appears in Part 1, Part 4, Part 6, Part 7, Part 8, Part 9, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 4: AI Spending Has Met Its First Real Bill; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 7: The Fed Hiked. The Long End Still Climbed.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 9: Habit Was the Moat. Agents Are Draining It.; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price.",
+  "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
   "parts": [
     {
       "part": 1,
@@ -62,41 +62,6 @@
       "context": "Apollo transaction in late May, described by Michael Burry",
       "part": 1,
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-    },
-    {
-      "value": "$35B",
-      "label": "AI XPU tranche",
-      "context": "Apollo and Blackstone first tranche; Invest In Assets, ten weeks later",
-      "part": 1,
-      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-    },
-    {
-      "value": "-7.9%",
-      "label": "Construction ex-data centers",
-      "context": "Michael Burry citing Apollo, June year over year",
-      "part": 6,
-      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
-    },
-    {
-      "value": "$2.3T",
-      "label": "Hyperscaler backlog",
-      "context": "Apollo via DeepValue Capital, September 2026",
-      "part": 7,
-      "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
-    },
-    {
-      "value": "$250B",
-      "label": "Hyperscaler high-grade bonds",
-      "context": "Apollo presentation via Leyla Kunimoto, through August 2026",
-      "part": 10,
-      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
-    },
-    {
-      "value": "4 months",
-      "label": "The gap between the Chinese open models and the frontier",
-      "context": "Torsten Slok of Apollo, citing the Epoch Capabilities Index, Jul 16, 2026",
-      "part": 12,
-      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
   "mentions": [

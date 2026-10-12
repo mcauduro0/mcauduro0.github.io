@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:34:46Z",
+  "generatedAt": "2026-10-12T16:52:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry appears in Part 1, Part 2, Part 3, Part 6, Part 8, Part 10, Part 11, Part 12 of The Buildout. Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile.; Part 2: SpaceX Is Funding an AI Bet Before the Proof; Part 3: The Machines Will Work. The Debt Might Not.; Part 6: Power Doesn’t Depreciate. Its Premium Moves.; Part 8: AI Lenders Are Financing the End of Scarcity; Part 10: The Bubble Is in the Denominator; Part 11: The Backlog Is Not the Quarter; Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+  "summary": "Michael Burry is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
   "parts": [
     {
       "part": 1,
@@ -50,50 +50,7 @@
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
     }
   ],
-  "numbers": [
-    {
-      "value": "$38B",
-      "label": "Apollo debt",
-      "context": "Apollo transaction in late May, described by Michael Burry",
-      "part": 1,
-      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
-    },
-    {
-      "value": "$20–25M",
-      "label": "Nebius one-to-three-year price",
-      "context": "Michael Burry, August 12 trading post",
-      "part": 6,
-      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
-    },
-    {
-      "value": "$40–50M",
-      "label": "Nebius six-month price",
-      "context": "Michael Burry, August 12 trading post",
-      "part": 6,
-      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
-    },
-    {
-      "value": "-7.9%",
-      "label": "Construction ex-data centers",
-      "context": "Michael Burry citing Apollo, June year over year",
-      "part": 6,
-      "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
-    },
-    {
-      "value": "113%",
-      "label": "Growth in Microsoft's backlog due beyond one year",
-      "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
-      "part": 11,
-      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
-    },
-    {
-      "value": "$28B",
-      "label": "Meta's residual-value guarantee on its data-center venture",
-      "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
-      "part": 11,
-      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
-    }
-  ],
+  "numbers": [],
   "mentions": [
     {
       "part": 1,
