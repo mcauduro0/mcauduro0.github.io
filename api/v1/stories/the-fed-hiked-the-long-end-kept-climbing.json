@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T18:40:47Z",
+  "generatedAt": "2026-10-12T22:20:04Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 7,
   "slug": "the-fed-hiked-the-long-end-kept-climbing",
@@ -292,7 +292,7 @@
   "corrections": [],
   "wordCount": 1953,
   "pullQuote": "The price of duration is being set by the marginal buyer, not by the Fed’s policy rate.",
-  "verdict": "The DeepStack view is that the bond market is repricing the cost of the AI buildout, not forecasting its immediate collapse. The single most important reason is the financing mix: extraordinary capital spending and federal borrowing are leaning on markets even as the Fed’s short rate reaches only the households and borrowers it can touch directly. Growth explains why the move is orderly; it does not make the eventual refinancing bill disappear. We would change our mind if long yields fell while nominal growth, inflation and AI capital spending stayed firm, or if Japanese and other foreign buyers returned in size without a better hedge. That would show demand and Fed control mattered more than supply.",
+  "verdict": "The DeepStack Call is that the bond market is repricing the cost of the AI buildout, not forecasting its immediate collapse. The single most important reason is the financing mix: extraordinary capital spending and federal borrowing are leaning on markets even as the Fed’s short rate reaches only the households and borrowers it can touch directly. Growth explains why the move is orderly; it does not make the eventual refinancing bill disappear. We would change our mind if long yields fell while nominal growth, inflation and AI capital spending stayed firm, or if Japanese and other foreign buyers returned in size without a better hedge. That would show demand and Fed control mattered more than supply.",
   "sections": [
     {
       "id": "the-calm-is-real",
@@ -418,15 +418,21 @@
           "label": "FRED, Fed funds target, upper bound (DFEDTARU)",
           "url": "https://fred.stlouisfed.org/series/DFEDTARU"
         },
-        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, reviewed by the owner.",
+        "ambiguity": "FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-11",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-11",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],

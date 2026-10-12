@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T18:40:47Z",
+  "generatedAt": "2026-10-12T22:20:04Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
@@ -2866,9 +2866,9 @@
           "resultId": null,
           "sameAs": null,
           "stage": "pre",
-          "callExpects": null,
-          "callExpectsBy": null,
-          "callExpectsAt": null,
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-12T18:56:43Z",
           "callProbability": 45,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
           "source": {
@@ -2879,24 +2879,31 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "MSFT",
-            "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months; 30% or less resolves confirmed (the book keeps drifting outward), above 30% resolves refuted (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is the owner's reading into the Result, not the verdict.",
+            "rule": "Read the sentence in the 10-Q's revenue note that gives the percentage of revenue allocated to remaining performance obligations Microsoft expects to recognize over the next twelve months. The answer is yes if the share is 30% or less (the book keeps drifting outward); no if it is above 30% (the near book is catching up). The growth of the near and far portions against last year's 37% and 113% is DeepStack's reading into the Result, not the answer.",
             "question": "Did Microsoft's quarterly report for the quarter ended September 30, 2026 put the share of its remaining performance obligations expected to be recognized as revenue within the next twelve months at 30% or less?",
             "source": {
               "label": "Microsoft Form 10-Q for the quarter ended September 30, 2026, revenue note on remaining performance obligations (SEC EDGAR, CIK 0000789019)",
               "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q"
             },
-            "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, reviewed by the owner.",
+            "ambiguity": "If the 10-Q is not public on EDGAR by November 15, 2026, or states no twelve-month percentage, the test is inconclusive, and the Result says what was read and what was missing.",
             "specState": "approved",
-            "specVersion": 1,
-            "specUpdatedOn": "2026-10-10",
+            "specVersion": 2,
+            "specUpdatedOn": "2026-10-12",
             "specHistory": [
               {
                 "version": 1,
                 "date": "2026-10-10",
                 "reason": "First specification.",
                 "by": "Marco Cauduro"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-12",
+                "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
+                "by": "Marco Cauduro"
               }
-            ]
+            ],
+            "callExpects": "yes"
           },
           "url": "https://deepstack.ltd/docket/#test-p11-t01",
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",

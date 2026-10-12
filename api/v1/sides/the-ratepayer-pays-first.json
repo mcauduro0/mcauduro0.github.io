@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T18:40:47Z",
+  "generatedAt": "2026-10-12T22:20:04Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -651,5 +651,161 @@
     "csv": "https://deepstack.ltd/sides/the-ratepayer-pays-first/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/the-ratepayer-pays-first/grid.json"
   },
-  "editorial": null
+  "editorial": {
+    "version": 1,
+    "approvedOn": "2026-10-12",
+    "sides": [
+      {
+        "id": "the-load-pays-its-way",
+        "label": "The load pays its way",
+        "voices": 12,
+        "lead": [
+          {
+            "name": "Amin Vahdat",
+            "entity": "https://deepstack.ltd/people/amin-vahdat/",
+            "date": "2026-10-06",
+            "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
+            "line": "Google pays for the transmission lines, upgrades and substations its load needs, so a utility building for Google does not raise other customers’ rates."
+          },
+          {
+            "name": "Kingswell",
+            "entity": "https://deepstack.ltd/people/kingswell/",
+            "date": "2026-05-11",
+            "url": "https://www.kingswell.io/p/10-things-about-berkshire-hathaways",
+            "line": "Berkshire Hathaway Energy joins a data-center buildout only when the hyperscaler bears the full construction and operating cost, which keeps the risk off its other customers."
+          },
+          {
+            "name": "NRG Energy",
+            "entity": "https://deepstack.ltd/companies/nrg-energy/",
+            "date": "2026-04-17",
+            "url": "https://interchange.puc.texas.gov/search/documents?controlNumber=58481&itemNumber=173",
+            "line": "A large load that must fund the new generation it needs puts up far more than the $50,000 per megawatt security deposit, so its ability to meet its commitments is not in doubt."
+          }
+        ],
+        "against": {
+          "name": "Exelon",
+          "entity": "https://deepstack.ltd/companies/exelon/",
+          "date": "2026-01-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260116-5200#p7",
+          "line": "The transmission system is not a one-time investment; a model where an initial payment absolves a co-located load of ongoing contributions leaves other customers holding the maintenance bill.",
+          "why": "This side’s case is about who pays to connect. Exelon’s point is who pays to keep the system running afterward, which a connection payment does not cover."
+        }
+      },
+      {
+        "id": "the-bill-no-state-can-shield",
+        "label": "The bill no state can shield",
+        "voices": 11,
+        "lead": [
+          {
+            "name": "Monitoring Analytics (PJM market monitor)",
+            "entity": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+            "date": "2025-12-05",
+            "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+            "line": "The failure to impose a reliability requirement on large loads has already raised capacity prices, and energy prices and transmission costs with them."
+          },
+          {
+            "name": "TSCS",
+            "entity": "https://deepstack.ltd/people/tscs/",
+            "date": "2026-08-11",
+            "url": "https://tscsw.substack.com/p/its-not-the-poor-its-you",
+            "line": "PJM’s capacity price for the mid-Atlantic cleared at $269.92 per megawatt-day in July 2024, nine times the prior auction’s $28.92, and every auction since has cleared at the administrative cap."
+          },
+          {
+            "name": "Maryland Office of People's Counsel",
+            "entity": "https://deepstack.ltd/people/maryland-office-of-people-s-counsel/",
+            "date": "2026-06-11",
+            "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260611-5156#p8",
+            "line": "Without regional reform, state-level large-load tariffs can make things worse: they sharpen the incentive to overbuild and shift the cost to customers elsewhere in PJM."
+          }
+        ],
+        "against": {
+          "name": "Crusoe Energy",
+          "entity": "https://deepstack.ltd/people/crusoe-energy/",
+          "date": "2026-03-16",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20260316-5379",
+          "line": "Co-located generation, structured correctly, improves grid reliability, lowers ratepayer costs and speeds the AI buildout at the same time.",
+          "why": "If the load brings its own plant behind the meter, the wholesale scarcity this side describes is relieved rather than passed on to households."
+        }
+      },
+      {
+        "id": "the-plant-is-late",
+        "label": "The plant is late",
+        "voices": 9,
+        "lead": [
+          {
+            "name": "North American Electric Reliability Corporation",
+            "entity": "https://deepstack.ltd/people/north-american-electric-reliability-corporation/",
+            "date": "2026-04-23",
+            "url": "https://www.nerc.com/globalassets/our-work/assessments/2025-ltra-sensitivity-miso-eras.pdf#p2",
+            "line": "Two years of NERC’s long-term assessments show resource growth projections outrunning what gets built, with supply chains, permitting and project owners’ decisions slowing interconnection."
+          },
+          {
+            "name": "Electric Reliability Council of Texas",
+            "entity": "https://deepstack.ltd/people/electric-reliability-council-of-texas/",
+            "date": "2026-05-24",
+            "url": "https://www.ercot.com/files/docs/2026/05/24/8-Interconnection-and-Grid-Analysis-Update.pdf",
+            "line": "ERCOT is tracking roughly 438 gigawatts of large-load interconnection requests and roughly 452 gigawatts of generation requests, most of the former with no study submitted."
+          },
+          {
+            "name": "Mia Silverio",
+            "entity": "https://deepstack.ltd/people/mia-silverio/",
+            "date": "2026-09-28",
+            "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
+            "line": "An estimated 30 to 50 percent of the data-center capacity planned for this year will be delayed by grid connections, power equipment shortages and rising costs."
+          }
+        ],
+        "against": {
+          "name": "Monitoring Analytics (PJM market monitor)",
+          "entity": "https://deepstack.ltd/people/monitoring-analytics-pjm-market-monitor/",
+          "date": "2025-12-05",
+          "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20251205-5219",
+          "line": "The central issue facing PJM is that there is not enough generating capacity to reliably serve the large loads that want to be online quickly.",
+          "why": "The shortfall is real whether or not the queue is phantom. The auction has already priced the plants that are not there."
+        }
+      }
+    ],
+    "expansions": [
+      {
+        "term": "PJM",
+        "expansion": "PJM Interconnection, the grid operator for 13 states and the District of Columbia, from Illinois to New Jersey."
+      },
+      {
+        "term": "ERCOT",
+        "expansion": "Electric Reliability Council of Texas, the grid operator for most of Texas."
+      },
+      {
+        "term": "NERC",
+        "expansion": "North American Electric Reliability Corporation, which sets and assesses the reliability standards of the grid."
+      },
+      {
+        "term": "FERC",
+        "expansion": "Federal Energy Regulatory Commission, the federal regulator of wholesale power and transmission."
+      },
+      {
+        "term": "ANOPR",
+        "expansion": "Advance notice of proposed rulemaking, the step before FERC drafts a rule."
+      },
+      {
+        "term": "NOPR",
+        "expansion": "Notice of proposed rulemaking, FERC’s draft of a rule, open to comment."
+      },
+      {
+        "term": "BTMG",
+        "expansion": "Behind-the-meter generation, a plant on the customer’s side of the meter that serves the load directly."
+      },
+      {
+        "term": "LTRA",
+        "expansion": "NERC’s Long-Term Reliability Assessment, its yearly ten-year outlook for supply and demand."
+      },
+      {
+        "term": "VSCC",
+        "expansion": "Virginia State Corporation Commission, Virginia’s utility regulator."
+      },
+      {
+        "term": "CIR",
+        "expansion": "Capacity interconnection rights, PJM’s grant of transmission capability to a generator."
+      }
+    ],
+    "excluded": 0
+  }
 }
