@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T20:41:33Z",
+  "generatedAt": "2026-10-12T10:34:46Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "exelon",
@@ -29,8 +29,21 @@
     "creators": 2,
     "claims": 2,
     "texts": 2,
-    "asOf": "2026-10-11"
+    "asOf": "2026-10-12"
   },
-  "lastUpdated": "2026-10-11",
-  "market": null
+  "lastUpdated": "2026-10-12",
+  "market": {
+    "price": 41.76,
+    "change": 0.03,
+    "changePercent": 0.0719,
+    "marketCap": 43023405077,
+    "pe": 15.2409,
+    "nextEarnings": "2026-10-30",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "asOf": "2026-10-09T20:00:01.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }
