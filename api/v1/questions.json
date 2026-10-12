@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
@@ -25,7 +25,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/nvidias-demand-insatiable-or-manufactured/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "Bull on demand. Bear on the financing.",
             "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
             "conviction": 3,
@@ -49,7 +49,7 @@
                 "date": "2026-08-10",
                 "stance": "Bull on demand. Bear on the financing.",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
@@ -61,7 +61,7 @@
                 "date": "2026-10-09",
                 "stance": "Bull on demand. Bear on the financing.",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Nvidia’s orders are real. Price its revenue as financed, not recurring.",
@@ -394,21 +394,27 @@
               "resolver": {
                 "kind": "earnings",
                 "symbol": "NBIS",
-                "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+                "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms. The answer is yes if the short-term price is at or above 1.5 times the long-term price (the premium persists), and no if the ratio is below 1.5 (the premium collapsed toward long-term rates).",
                 "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
                 "source": {
                   "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
                   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
                 },
-                "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+                "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -448,21 +454,27 @@
         "resolver": {
           "kind": "earnings",
           "symbol": "NBIS",
-          "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+          "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms. The answer is yes if the short-term price is at or above 1.5 times the long-term price (the premium persists), and no if the ratio is below 1.5 (the premium collapsed toward long-term rates).",
           "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
           "source": {
             "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
             "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
           },
-          "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+          "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -573,21 +585,27 @@
               "resolver": {
                 "kind": "earnings",
                 "symbol": "GOOGL",
-                "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+                "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before. The answer is yes if the 2027 budget is above 2026's and the close is higher; no if the close is lower or unchanged.",
                 "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
                 "source": {
                   "label": "Alphabet investor relations, quarterly earnings release and call",
                   "url": "https://abc.xyz/investor/"
                 },
-                "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+                "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -627,21 +645,27 @@
         "resolver": {
           "kind": "earnings",
           "symbol": "GOOGL",
-          "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+          "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before. The answer is yes if the 2027 budget is above 2026's and the close is higher; no if the close is lower or unchanged.",
           "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
           "source": {
             "label": "Alphabet investor relations, quarterly earnings release and call",
             "url": "https://abc.xyz/investor/"
           },
-          "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+          "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -671,7 +695,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "Split the trade",
             "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
             "conviction": 3,
@@ -695,7 +719,7 @@
                 "date": "2026-09-11",
                 "stance": "Split the trade",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
@@ -707,7 +731,7 @@
                 "date": "2026-10-09",
                 "stance": "Split the trade",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Stop pricing OpenAI and Anthropic as one bet. One revenue line holds under pressure; the other has to be bought.",
@@ -1041,21 +1065,27 @@
                 "kind": "release",
                 "release": "Treasury International Capital",
                 "provider": "Treasury",
-                "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+                "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table. The answer is yes if the August figure is higher; no if it is equal or lower.",
                 "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
                 "source": {
                   "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
                   "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
                 },
-                "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+                "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -1096,21 +1126,27 @@
           "kind": "release",
           "release": "Treasury International Capital",
           "provider": "Treasury",
-          "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table; a higher August figure resolves confirmed, an equal or lower figure resolves refuted.",
+          "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table. The answer is yes if the August figure is higher; no if it is equal or lower.",
           "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
           "source": {
             "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
             "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
           },
-          "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, reviewed by the owner.",
+          "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -1220,21 +1256,27 @@
               },
               "resolver": {
                 "kind": "manual",
-                "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+                "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter. The answer is yes if the September sum is higher; no if it is equal or lower. Whether maintenance capital spending or shorter server lives entered the accounting is DeepStack's reading from the same filings and goes in the Result, not in the answer.",
                 "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
                 "source": {
                   "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
                   "url": "https://www.sec.gov/edgar/search/"
                 },
-                "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+                "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -1273,21 +1315,27 @@
         },
         "resolver": {
           "kind": "manual",
-          "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+          "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter. The answer is yes if the September sum is higher; no if it is equal or lower. Whether maintenance capital spending or shorter server lives entered the accounting is DeepStack's reading from the same filings and goes in the Result, not in the answer.",
           "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
           "source": {
             "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
             "url": "https://www.sec.gov/edgar/search/"
           },
-          "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+          "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -1317,7 +1365,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "Sell habit, buy the rails",
             "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
             "conviction": 3,
@@ -1351,7 +1399,7 @@
                 "date": "2026-10-03",
                 "stance": "Sell habit, buy the rails",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -1363,7 +1411,7 @@
                 "date": "2026-10-09",
                 "stance": "Sell habit, buy the rails",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -1398,21 +1446,27 @@
               "resolver": {
                 "kind": "earnings",
                 "symbol": "META",
-                "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+                "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site. The answer is yes if they state a count of monthly or weekly Muse users, a transaction volume, or a figure for fee revenue or recurring revenue from Muse; no if they give download or install counts alone, or no Muse figure.",
                 "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
                 "source": {
                   "label": "Meta investor relations, third-quarter 2026 results",
                   "url": "https://investor.atmeta.com/"
                 },
-                "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+                "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -1452,21 +1506,27 @@
         "resolver": {
           "kind": "earnings",
           "symbol": "META",
-          "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+          "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site. The answer is yes if they state a count of monthly or weekly Muse users, a transaction volume, or a figure for fee revenue or recurring revenue from Muse; no if they give download or install counts alone, or no Muse figure.",
           "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
           "source": {
             "label": "Meta investor relations, third-quarter 2026 results",
             "url": "https://investor.atmeta.com/"
           },
-          "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+          "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -1576,21 +1636,27 @@
               },
               "resolver": {
                 "kind": "manual",
-                "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+                "rule": "The answer is yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; no otherwise. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are DeepStack's reading into the Result.",
                 "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
                 "source": {
                   "label": "SEC EDGAR, Anthropic filings",
                   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
                 },
-                "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+                "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -1629,21 +1695,27 @@
         },
         "resolver": {
           "kind": "manual",
-          "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+          "rule": "The answer is yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; no otherwise. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are DeepStack's reading into the Result.",
           "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
           "source": {
             "label": "SEC EDGAR, Anthropic filings",
             "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
           },
-          "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+          "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -1673,7 +1745,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "Revenue yes, margin not yet",
             "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
             "conviction": 3,
@@ -1698,7 +1770,7 @@
                 "date": "2026-10-08",
                 "stance": "Revenue yes, margin not yet",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
@@ -1710,7 +1782,7 @@
                 "date": "2026-10-09",
                 "stance": "Revenue yes, margin not yet",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
@@ -1841,7 +1913,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "The price has left the model",
             "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
             "conviction": 3,
@@ -1876,7 +1948,7 @@
                 "date": "2026-10-09",
                 "stance": "The price has left the model",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
@@ -1888,7 +1960,7 @@
                 "date": "2026-10-10",
                 "stance": "The price has left the model",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
@@ -1923,21 +1995,27 @@
               "resolver": {
                 "kind": "earnings",
                 "symbol": "GOOGL",
-                "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+                "rule": "The answer is yes if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; no if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
                 "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
                 "source": {
                   "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
                   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
                 },
-                "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+                "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, and the Result says what was read and what was missing. A report delayed past November 15, 2026 is inconclusive.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-09",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-09",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -1977,21 +2055,27 @@
         "resolver": {
           "kind": "earnings",
           "symbol": "GOOGL",
-          "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+          "rule": "The answer is yes if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; no if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
           "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
           "source": {
             "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
             "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
           },
-          "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+          "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, and the Result says what was read and what was missing. A report delayed past November 15, 2026 is inconclusive.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-09",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-09",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],
@@ -2021,7 +2105,7 @@
           "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/",
           "call": {
             "tone": "split",
-            "toneLabel": "Mixed",
+            "toneLabel": "Split",
             "stance": "The ratepayer pays first",
             "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
             "conviction": 3,
@@ -2056,7 +2140,7 @@
                 "date": "2026-10-10",
                 "stance": "The ratepayer pays first",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
@@ -2068,7 +2152,7 @@
                 "date": "2026-10-10",
                 "stance": "The ratepayer pays first",
                 "tone": "split",
-                "toneLabel": "Mixed",
+                "toneLabel": "Split",
                 "conviction": 3,
                 "convictionLabel": "Moderate",
                 "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
@@ -2102,21 +2186,27 @@
               },
               "resolver": {
                 "kind": "manual",
-                "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+                "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). The answer is yes if the PJM median minus the median of the other 42 is 4.0 points or more; no if it is below 4.0 points.",
                 "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
                 "source": {
                   "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
                   "url": "https://www.eia.gov/electricity/data/eia861m/"
                 },
-                "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+                "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, and the Result says what was read and what was missing.",
                 "specState": "approved",
-                "specVersion": 1,
-                "specUpdatedOn": "2026-10-10",
+                "specVersion": 2,
+                "specUpdatedOn": "2026-10-12",
                 "specHistory": [
                   {
                     "version": 1,
                     "date": "2026-10-10",
                     "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  },
+                  {
+                    "version": 2,
+                    "date": "2026-10-12",
+                    "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
                     "by": "Marco Cauduro"
                   }
                 ],
@@ -2155,21 +2245,27 @@
         },
         "resolver": {
           "kind": "manual",
-          "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+          "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). The answer is yes if the PJM median minus the median of the other 42 is 4.0 points or more; no if it is below 4.0 points.",
           "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
           "source": {
             "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
             "url": "https://www.eia.gov/electricity/data/eia861m/"
           },
-          "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+          "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, and the Result says what was read and what was missing.",
           "specState": "approved",
-          "specVersion": 1,
-          "specUpdatedOn": "2026-10-10",
+          "specVersion": 2,
+          "specUpdatedOn": "2026-10-12",
           "specHistory": [
             {
               "version": 1,
               "date": "2026-10-10",
               "reason": "First specification.",
+              "by": "Marco Cauduro"
+            },
+            {
+              "version": 2,
+              "date": "2026-10-12",
+              "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
               "by": "Marco Cauduro"
             }
           ],

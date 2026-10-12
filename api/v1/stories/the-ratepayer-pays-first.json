@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 13,
   "slug": "the-ratepayer-pays-first",
@@ -18,7 +18,7 @@
   },
   "call": {
     "tone": "split",
-    "toneLabel": "Mixed",
+    "toneLabel": "Split",
     "stance": "The ratepayer pays first",
     "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
     "conviction": 3,
@@ -53,7 +53,7 @@
         "date": "2026-10-10",
         "stance": "The ratepayer pays first",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
@@ -65,7 +65,7 @@
         "date": "2026-10-10",
         "stance": "The ratepayer pays first",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
@@ -99,21 +99,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). The answer is yes if the PJM median minus the median of the other 42 is 4.0 points or more; no if it is below 4.0 points.",
         "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
         "source": {
           "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
           "url": "https://www.eia.gov/electricity/data/eia861m/"
         },
-        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-10",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-10",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -343,7 +349,7 @@
       "stance": "The ratepayer pays first",
       "line": "Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.",
       "tone": "split",
-      "toneLabel": "Mixed",
+      "toneLabel": "Split",
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
@@ -372,8 +378,8 @@
   },
   "body": [
     "A household in Maryland paid 13.2% more for each kilowatt-hour of electricity in the twelve months to July 2026 than in the twelve months before, by DeepStack's reading of the Energy Information Administration's monthly sales and revenue data, first published for July on September 24. The country paid 6.6% more. Rank all 50 states and Washington, D.C., by that change and seven of the nine jurisdictions PJM serves wholly or largely land in the top nine: the District at 21.9%, then Maryland, Pennsylvania at 12.8%, New Jersey at 12.2%, Ohio at 11.7%, Virginia at 11.5% and Illinois at 11.4%. Delaware rose 5.7% and West Virginia 0.6%. The median of the nine was 11.7%; the median of the other 42 was 5.6%. PJM runs the grid and the wholesale power market for all or part of 13 states and the District, and carries the country's densest cluster of data centers.",
-    "The bill starts in an auction. PJM buys capacity, a plant's promise to be ready at the hour of peak demand, in an auction held before each delivery year, and the price reaches every customer's bill. The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as tscsw recounted on August 11. At $269.92, a 1,000-megawatt plant collects about $98.5 million a year for standing ready. The auction for the year from June 2027, tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short. Part six, on September 19, followed the price to the ceiling and relayed an estimate that data centers caused 63% of the first jump. Part thirteen asks who carries that bill under the rules.",
-    "DeepStack read 92 filings, posts and episodes by 60 voices across two clusters of its vault, among them the regulatory record: briefs at the Federal Energy Regulatory Commission and the Texas commission, and the grid planners' reliability assessments. It verified 106 agreements and 70 disagreements, 10 of them direct contradictions.",
+    "The bill starts in an auction. PJM buys capacity, a plant's promise to be ready at the hour of peak demand, in an auction held before each delivery year, and the price reaches every customer's bill. The auction of July 2024 set it at $269.92 per megawatt-day for the year from June 2025, nine times the $28.92 of the auction before, and every auction since has cleared at the price ceiling, as PJM's auction reports show and tscsw recounted on August 11. At $269.92, a 1,000-megawatt plant collects about $98.5 million a year for standing ready. The auction for the year from June 2027, PJM reported on December 17, 2025 and tscsw wrote on February 26, was the first since the market began in 2007 to miss PJM's reliability requirement: a reserve margin, the cushion of plants above expected peak demand, of 14.8% against a 20.0% target, 6,623 megawatts short. Part six, on September 19, followed the price to the ceiling and relayed an estimate that data centers caused 63% of the first jump. Part thirteen asks who carries that bill under the rules.",
+    "DeepStack read 92 filings, posts and episodes by 60 voices, among them the regulatory record: briefs at the Federal Energy Regulatory Commission and the Texas commission, and the grid planners' reliability assessments. It verified 106 agreements and 70 disagreements, 10 of them direct contradictions.",
     "The first reading holds that the data center pays for what it causes. Amin Vahdat, who runs Google's AI infrastructure, told Sonya Huang on Sequoia's Training Data on October 6 that a utility building lines and plants for Google could in principle lift other customers' rates because of how billing works, so Google pays for the transmission lines, upgrades and added utility stations it requires. Google and Lancium made the same case to the Texas commission on December 18, 2025: assign costs to whoever causes them, with minimum transmission charges large enough that households and small businesses are shielded from shifts. Crusoe Energy told FERC on March 16 that co-located generation, a power plant built beside the data center it feeds, lowers ratepayer costs when it is set up correctly. EDF Power Solutions said the same day that such plants can ease congestion and cut the network upgrades the grid would otherwise need.",
     "Utilities and generators describe the same contract from the other side. NRG Energy told the Texas commission on April 17 that a large load, the regulators' term for the biggest new customers, spends far more bringing its own generation than the $50,000 per megawatt of security the proposed rule demands, and asked that such projects be encouraged as an answer to affordability. Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
     "DeepStack's reading is that this side pays for what it causes at its own site, from the substation to the deposit that holds its place in line. A data center also pays the capacity price on its own load, like any customer. What none of these filings offers to pay is the rise its demand causes in the price every other customer pays on the same kilowatt-hours as last year. The closest any comes is bringing its own new generation, which NRG and Crusoe propose.",
@@ -474,21 +480,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). Confirmed if the PJM median minus the median of the other 42 is 4.0 points or more; refuted if it is below 4.0 points.",
+        "rule": "The price is residential revenue divided by residential sales over September 2025 to August 2026, against September 2024 to August 2025, for each of the 51 jurisdictions, as the Part computes it for the year to July (11.7% against 5.6%). The answer is yes if the PJM median minus the median of the other 42 is 4.0 points or more; no if it is below 4.0 points.",
         "question": "In the EIA-861M data through August 2026, as first published, is the median twelve-month change in the average household price per kilowatt-hour across the nine jurisdictions PJM serves (Delaware, the District of Columbia, Illinois, Maryland, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia) at least four percentage points above the median change across the other 42?",
         "source": {
           "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
           "url": "https://www.eia.gov/electricity/data/eia861m/"
         },
-        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "Data for August not published by November 15, 2026 is inconclusive. Figures are read as first published in that release; later revisions do not reopen the test. If EIA withholds the residential figures for more than two of the nine PJM jurisdictions, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-10",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-10",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -523,21 +535,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Read from PJM's published results report. Confirmed if the RTO-wide clearing price is below the cap in effect for the auction; refuted if it clears at the cap. This test decides only the price leg of the second exit from the house's view; the rule on large loads bringing their own capacity is read separately in the story.",
+        "rule": "Read from PJM's published results report. The answer is yes if the RTO-wide clearing price is below the cap in effect for the auction; no if it clears at the cap. This test decides only the price leg of the second exit from the house's view; the rule on large loads bringing their own capacity is read separately in the story.",
         "question": "Does PJM's Base Residual Auction for the 2029/2030 delivery year, scheduled for December 9, 2026, clear the RTO-wide capacity price below the price cap in effect for that auction?",
         "source": {
           "label": "PJM Interconnection, Base Residual Auction results report for 2029/2030 (pjm.com, Reliability Pricing Model)",
           "url": "https://www.pjm.com/markets-and-operations/rpm"
         },
-        "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, reviewed by the owner.",
+        "ambiguity": "An auction postponed past January 31, 2027, or results not posted by that date, is inconclusive. A clearing below the cap only because the cap or the demand curve was changed after October 10, 2026 is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-10",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-10",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -572,21 +590,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. Confirmed if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; refuted if the gap is below 4.0 points.",
+        "rule": "Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. The answer is yes if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; no if the gap is below 4.0 points.",
         "question": "In the EIA-861M data for calendar 2026, as first published, is the median change in the average household price per kilowatt-hour across PJM's nine jurisdictions against calendar 2025 at least four percentage points above the median of the other 42, with Texas's change below the national change?",
         "source": {
           "label": "U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested)",
           "url": "https://www.eia.gov/electricity/data/eia861m/"
         },
-        "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, reviewed by the owner. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
+        "ambiguity": "A gap of 4.0 points or more with Texas at or above the national change is inconclusive, and the Result says what was read and what was missing. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-10",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-10",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],

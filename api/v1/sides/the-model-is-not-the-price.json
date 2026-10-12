@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -13,7 +13,7 @@
   "question": "Does the frontier model still command a price?",
   "call": {
     "tone": "split",
-    "toneLabel": "Mixed",
+    "toneLabel": "Split",
     "stance": "The price has left the model",
     "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
     "conviction": 3,
@@ -48,7 +48,7 @@
         "date": "2026-10-09",
         "stance": "The price has left the model",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
@@ -60,7 +60,7 @@
         "date": "2026-10-10",
         "stance": "The price has left the model",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "A frontier model no longer commands a price per token for long. The lab still does, and only a prospectus says what that price is worth.",
@@ -95,21 +95,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "Confirmed if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; refuted if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
+        "rule": "The answer is yes if the release, the 10-Q or the call transcript gives a dollar amount, or a share of the Cloud backlog, for TPU system sales contracts or for the Anthropic contracts; no if the quarter is reported with no such figure. Google Cloud's growth rate is read alongside (the Part watches whether it holds near the second quarter's 82% without those contracts) but does not decide the test.",
         "question": "Did Alphabet, in its third-quarter 2026 results of October 28, 2026 (the earnings release, the 10-Q or the call), state a size for the TPU system sales contracts inside Google Cloud's backlog?",
         "source": {
           "label": "Alphabet Q3 2026 earnings release, call transcript and Form 10-Q (SEC EDGAR, CIK 1652044)",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q"
         },
-        "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, reviewed by the owner. A report delayed past November 15, 2026 is inconclusive.",
+        "ambiguity": "A size given only as a range wider than two to one, or given for a period other than the backlog at quarter end, is inconclusive, and the Result says what was read and what was missing. A report delayed past November 15, 2026 is inconclusive.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -699,5 +705,6 @@
     "url": "https://deepstack.ltd/sides/the-model-is-not-the-price/grid/",
     "csv": "https://deepstack.ltd/sides/the-model-is-not-the-price/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/the-model-is-not-the-price/grid.json"
-  }
+  },
+  "editorial": null
 }

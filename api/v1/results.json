@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "url": "https://deepstack.ltd/results/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/results.json",
   "rule": "No hit rate is shown until ten results exist, and no person is ever scored or ranked.",
-  "hitRateRule": "The hit rate counts only tests whose words were approved before the date and whose result confirmed or refuted the Call; Confirmed means the result the Call expected, whatever the test’s question asked.",
+  "hitRateRule": "The hit rate counts only tests whose words were approved before the date and whose result held or missed the Call; a Call held means the result the Call expected, whatever the test’s question asked.",
   "brierRule": "From the tenth result whose specification carried a probability before the date, the Scorecard prints the Brier score: the mean of the squared gap between the probability the Call gave the yes answer and what happened, where 0 is perfect and 0.25 is a coin flip; a public consensus is printed beside it where one exists.",
   "brier": {
     "floor": 10,
     "scored": 0,
     "score": null
   },
-  "callVerdictRule": "A result is read against the Call: Confirmed when the result is the one the Call expected, Refuted when it is the one the Call did not expect, Informs the Call when the Call expected either, Inconclusive when the source did not settle the question. The test’s own answer to its question is the verdict field of the record.",
+  "callVerdictRule": "A result is read against the Call: Call held when the result is the one the Call expected, Call missed when it is the one the Call did not expect, Call informed when the Call expected either, Inconclusive when the source did not settle the question. The test’s own answer to its question wears the Answer chip beside it and is the verdict field of the record.",
   "count": 1,
   "counts": {
     "confirmed": 0,
@@ -47,7 +47,7 @@
       "effect": "supports",
       "effectLabel": "Supports the Call",
       "callVerdict": "confirmed",
-      "callVerdictLabel": "Confirmed",
+      "callVerdictLabel": "Call held",
       "callProbability": null,
       "answer": "no",
       "brierGap": null,

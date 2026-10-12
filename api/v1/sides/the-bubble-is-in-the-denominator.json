@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -93,21 +93,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "rule": "The answer is yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; no otherwise. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are DeepStack's reading into the Result.",
         "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
         "source": {
           "label": "SEC EDGAR, Anthropic filings",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
         },
-        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -757,5 +763,6 @@
     "url": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid/",
     "csv": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/the-bubble-is-in-the-denominator/grid.json"
-  }
+  },
+  "editorial": null
 }

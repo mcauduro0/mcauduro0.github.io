@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -99,21 +99,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms. The answer is yes if the short-term price is at or above 1.5 times the long-term price (the premium persists), and no if the ratio is below 1.5 (the premium collapsed toward long-term rates).",
         "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
         "source": {
           "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
         },
-        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -371,21 +377,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NBIS",
-        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms; a short-term price at or above 1.5 times the long-term price resolves confirmed (the premium persists), a ratio below 1.5 resolves refuted (the premium collapsed toward long-term rates).",
+        "rule": "Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms. The answer is yes if the short-term price is at or above 1.5 times the long-term price (the premium persists), and no if the ratio is below 1.5 (the premium collapsed toward long-term rates).",
         "question": "Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?",
         "source": {
           "label": "Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K)",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K"
         },
-        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -578,7 +590,7 @@
       "effect": "supports",
       "effectLabel": "Supports the Call",
       "callVerdict": "confirmed",
-      "callVerdictLabel": "Confirmed",
+      "callVerdictLabel": "Call held",
       "callProbability": null,
       "answer": "no",
       "brierGap": null,

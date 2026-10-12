@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 4,
   "slug": "the-market-stops-paying-for-faith",
@@ -99,21 +99,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before. The answer is yes if the 2027 budget is above 2026's and the close is higher; no if the close is lower or unchanged.",
         "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
         "source": {
           "label": "Alphabet investor relations, quarterly earnings release and call",
           "url": "https://abc.xyz/investor/"
         },
-        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -429,21 +435,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "GOOGL",
-        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before; a 2027 budget above 2026's with a higher close resolves confirmed, with a lower or unchanged close resolves refuted.",
+        "rule": "Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before. The answer is yes if the 2027 budget is above 2026's and the close is higher; no if the close is lower or unchanged.",
         "question": "Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?",
         "source": {
           "label": "Alphabet investor relations, quarterly earnings release and call",
           "url": "https://abc.xyz/investor/"
         },
-        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],

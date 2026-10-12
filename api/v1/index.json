@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -10,8 +10,8 @@
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
     "stories": 13,
-    "tests": 59,
-    "datedTests": 35,
+    "tests": 61,
+    "datedTests": 36,
     "results": 1,
     "corrections": 0,
     "sides": 13,

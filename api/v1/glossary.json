@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "url": "https://deepstack.ltd/glossary/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/glossary.json",
   "approvedBy": "Marco Cauduro",
-  "approvedAt": "2026-10-11T19:48:01.903Z",
-  "count": 33,
+  "approvedAt": "2026-10-12T17:16:00.481Z",
+  "count": 37,
   "terms": [
     {
       "id": "remaining-performance-obligations",
@@ -324,6 +324,15 @@
       "url": "https://deepstack.ltd/glossary/#eia-861m"
     },
     {
+      "id": "call-informed",
+      "term": "Call informed",
+      "aliases": [],
+      "short": "A result on a test where the Call expected either answer: the result informs the Call and is not scored.",
+      "long": "When a specification records that either answer fits the Call, the result is read as Call informed: it changes what the Call knows without counting as held or missed. The Call’s number on such a test still prints and still enters the Brier score.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#call-informed"
+    },
+    {
       "id": "hyperscaler",
       "term": "hyperscaler",
       "aliases": [
@@ -417,6 +426,15 @@
       "url": "https://deepstack.ltd/glossary/#brier-score"
     },
     {
+      "id": "call-missed",
+      "term": "Call missed",
+      "aliases": [],
+      "short": "A result that came in against what the Call expected.",
+      "long": "The reading against the Call when the answer is the one the Call did not expect. It sits beside the test’s own answer (yes or no) and counts in the hit rate from the tenth result.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#call-missed"
+    },
+    {
       "id": "backlog",
       "term": "backlog",
       "aliases": [
@@ -467,6 +485,15 @@
       "url": "https://deepstack.ltd/glossary/#ratepayer"
     },
     {
+      "id": "split-call",
+      "term": "split Call",
+      "aliases": [],
+      "short": "A Call whose tone is neither constructive nor skeptical: it takes a side on the question without a bullish or bearish lean on the trade.",
+      "long": "A split Call is one of the three tones a DeepStack Call can carry, with constructive and skeptical. The tone says how the Call leans on the trade; the side says what the Call holds on the question. A split Call still takes a side on the question (Part 13 holds that the ratepayer pays first) while staking no direction on the market. The Scorecard counts the tones of every Call.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#split-call"
+    },
+    {
       "id": "megawatt",
       "term": "megawatt",
       "aliases": [
@@ -488,6 +515,15 @@
         13
       ],
       "url": "https://deepstack.ltd/glossary/#megawatt"
+    },
+    {
+      "id": "call-held",
+      "term": "Call held",
+      "aliases": [],
+      "short": "A result that came in the way the Call expected, whatever the test’s question asked.",
+      "long": "Each pre-specified test records the answer the Call expected (yes, no, or either). When the test resolves, the result is read against that expectation: Call held when the answer is the one the Call expected, Call missed when it is the one the Call did not expect. The test’s own answer wears its own chip beside the reading, so a rule that says “yes if” and the seal never share a word. The hit rate counts Calls held among pre-specified tests, from the tenth result.",
+      "parts": [],
+      "url": "https://deepstack.ltd/glossary/#call-held"
     },
     {
       "id": "duration",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -13,7 +13,7 @@
   "question": "Do the orders turn into profit?",
   "call": {
     "tone": "split",
-    "toneLabel": "Mixed",
+    "toneLabel": "Split",
     "stance": "Revenue yes, margin not yet",
     "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
     "conviction": 3,
@@ -38,7 +38,7 @@
         "date": "2026-10-08",
         "stance": "Revenue yes, margin not yet",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
@@ -50,7 +50,7 @@
         "date": "2026-10-09",
         "stance": "Revenue yes, margin not yet",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "The orders will ship. The profit comes later, and a margin that lags the ramp will be reported as a demand miss.",
@@ -727,5 +727,6 @@
     "url": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/grid/",
     "csv": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/the-backlog-is-not-the-quarter/grid.json"
-  }
+  },
+  "editorial": null
 }

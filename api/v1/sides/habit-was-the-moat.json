@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -13,7 +13,7 @@
   "question": "How fast do habits break?",
   "call": {
     "tone": "split",
-    "toneLabel": "Mixed",
+    "toneLabel": "Split",
     "stance": "Sell habit, buy the rails",
     "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
     "conviction": 3,
@@ -47,7 +47,7 @@
         "date": "2026-10-03",
         "stance": "Sell habit, buy the rails",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -59,7 +59,7 @@
         "date": "2026-10-09",
         "stance": "Sell habit, buy the rails",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -94,21 +94,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site. The answer is yes if they state a count of monthly or weekly Muse users, a transaction volume, or a figure for fee revenue or recurring revenue from Muse; no if they give download or install counts alone, or no Muse figure.",
         "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
         "source": {
           "label": "Meta investor relations, third-quarter 2026 results",
           "url": "https://investor.atmeta.com/"
         },
-        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -674,5 +680,6 @@
     "url": "https://deepstack.ltd/sides/habit-was-the-moat/grid/",
     "csv": "https://deepstack.ltd/sides/habit-was-the-moat/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/habit-was-the-moat/grid.json"
-  }
+  },
+  "editorial": null
 }

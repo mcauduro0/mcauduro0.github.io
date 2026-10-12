@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "url": "https://deepstack.ltd/api/v1/search.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/search.json",
-  "count": 277,
+  "count": 283,
   "kinds": {
     "story": 13,
     "question": 13,
     "sides": 13,
     "company": 48,
     "person": 91,
-    "test": 59,
-    "term": 33,
+    "test": 61,
+    "term": 37,
     "layer": 7
   },
   "docs": [
@@ -629,6 +629,17 @@
     },
     {
       "kind": "term",
+      "id": "call-informed",
+      "title": "Call informed",
+      "text": "A result on a test where the Call expected either answer: the result informs the Call and is not scored. When a specification records that either answer fits the Call, the result is read as Call informed: it changes what the Call knows without counting as held or missed. The Call’s number on such a test still prints and still enters the Brier score.",
+      "url": "https://deepstack.ltd/glossary/#call-informed",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
       "id": "hyperscaler",
       "title": "hyperscaler",
       "text": "hyperscalers One of the largest cloud and platform companies that build data centers at continental scale. A hyperscaler is one of the handful of companies, Microsoft, Alphabet, Amazon, Meta and Oracle among them, that build and run data centers at a scale measured in gigawatts and tens of billions of dollars a quarter. Their capital budgets, backlogs and cash flows are the largest single inputs to the AI economy.",
@@ -717,6 +728,17 @@
     },
     {
       "kind": "term",
+      "id": "call-missed",
+      "title": "Call missed",
+      "text": "A result that came in against what the Call expected. The reading against the Call when the answer is the one the Call did not expect. It sits beside the test’s own answer (yes or no) and counts in the hit rate from the tenth result.",
+      "url": "https://deepstack.ltd/glossary/#call-missed",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
       "id": "backlog",
       "title": "backlog",
       "text": "order book backlogs Orders a company has accepted but not yet delivered or recognized as revenue. A backlog is the stock of orders a company has accepted but not yet delivered. It is a promise of revenue, not revenue: it converts at the pace of capacity, and the part due within a year is worth more to the quarter than the part due later. Filings split the two, which is why DeepStack reads the near book and the far book separately.",
@@ -765,6 +787,17 @@
     },
     {
       "kind": "term",
+      "id": "split-call",
+      "title": "split Call",
+      "text": "A Call whose tone is neither constructive nor skeptical: it takes a side on the question without a bullish or bearish lean on the trade. A split Call is one of the three tones a DeepStack Call can carry, with constructive and skeptical. The tone says how the Call leans on the trade; the side says what the Call holds on the question. A split Call still takes a side on the question (Part 13 holds that the ratepayer pays first) while staking no direction on the market. The Scorecard counts the tones of every Call.",
+      "url": "https://deepstack.ltd/glossary/#split-call",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
       "id": "megawatt",
       "title": "megawatt",
       "text": "MW gigawatt GW megawatts gigawatts A unit of power: a megawatt serves a few hundred homes, a gigawatt a city; data centers are sized in both. A megawatt is a million watts of power; a gigawatt is a thousand megawatts. Data centers are sized by the power they draw because electricity is the binding constraint: a gigawatt campus needs its own substation, its own interconnection and, increasingly, its own generation.",
@@ -780,6 +813,17 @@
           10,
           13
         ]
+      }
+    },
+    {
+      "kind": "term",
+      "id": "call-held",
+      "title": "Call held",
+      "text": "A result that came in the way the Call expected, whatever the test’s question asked. Each pre-specified test records the answer the Call expected (yes, no, or either). When the test resolves, the result is read against that expectation: Call held when the answer is the one the Call expected, Call missed when it is the one the Call did not expect. The test’s own answer wears its own chip beside the reading, so a rule that says “yes if” and the seal never share a word. The hit rate counts Calls held among pre-specified tests, from the tenth result.",
+      "url": "https://deepstack.ltd/glossary/#call-held",
+      "date": null,
+      "meta": {
+        "parts": []
       }
     },
     {
@@ -2906,6 +2950,17 @@
     },
     {
       "kind": "test",
+      "id": "p10-t06",
+      "title": "Test p10-t06 · Jul 12, 2027",
+      "text": "The record holds or breaks: whether the Thrift Savings Plan's C Fund, which holds the S&P 500 with dividends reinvested, closes above its October 6 high of $126.18 on any day through July 12, 2027. The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/docket/#test-p10-t06",
+      "date": "2027-07-12",
+      "meta": {
+        "part": 10
+      }
+    },
+    {
+      "kind": "test",
       "id": "p11-t01",
       "title": "Test p11-t01 · Oct 28, 2026",
       "text": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted. The Backlog Is Not the Quarter",
@@ -3007,8 +3062,19 @@
       "kind": "test",
       "id": "p12-t05",
       "title": "Test p12-t05 · When it files",
-      "text": "The prospectus: the gross margin on inference, customer concentration against Silverio's October 5 count of a quarter from two customers, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back. The Model Is Not the Price",
+      "text": "The prospectus: whether the gross margin clears half of revenue, and revenue tied to investors against Distillate's July 15 count of $180 billion committed and $1.1 trillion pledged back. The Model Is Not the Price",
       "url": "https://deepstack.ltd/docket/#test-p12-t05",
+      "date": null,
+      "meta": {
+        "part": 12
+      }
+    },
+    {
+      "kind": "test",
+      "id": "p12-t06",
+      "title": "Test p12-t06 · When it files",
+      "text": "The prospectus's customer note: whether the customers at a tenth of sales or more add up to a fifth of revenue, against Silverio's October 5 count of a quarter from two customers. The Model Is Not the Price",
+      "url": "https://deepstack.ltd/docket/#test-p12-t06",
       "date": null,
       "meta": {
         "part": 12

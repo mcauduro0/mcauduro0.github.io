@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -18,7 +18,7 @@
   },
   "call": {
     "tone": "split",
-    "toneLabel": "Mixed",
+    "toneLabel": "Split",
     "stance": "Sell habit, buy the rails",
     "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
     "conviction": 3,
@@ -52,7 +52,7 @@
         "date": "2026-10-03",
         "stance": "Sell habit, buy the rails",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -64,7 +64,7 @@
         "date": "2026-10-09",
         "stance": "Sell habit, buy the rails",
         "tone": "split",
-        "toneLabel": "Mixed",
+        "toneLabel": "Split",
         "conviction": 3,
         "convictionLabel": "Moderate",
         "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
@@ -99,21 +99,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site. The answer is yes if they state a count of monthly or weekly Muse users, a transaction volume, or a figure for fee revenue or recurring revenue from Muse; no if they give download or install counts alone, or no Muse figure.",
         "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
         "source": {
           "label": "Meta investor relations, third-quarter 2026 results",
           "url": "https://investor.atmeta.com/"
         },
-        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -341,7 +347,7 @@
       "stance": "Sell habit, buy the rails",
       "line": "Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.",
       "tone": "split",
-      "toneLabel": "Mixed",
+      "toneLabel": "Split",
       "conviction": 3,
       "convictionLabel": "Moderate"
     },
@@ -464,21 +470,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "META",
-        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site; a stated count of monthly or weekly Muse users, a transaction volume or a fee or subscription revenue figure resolves confirmed, download or install counts alone, or no Muse figure, resolves refuted.",
+        "rule": "Read the release, the slides and the call transcript on Meta's investor-relations site. The answer is yes if they state a count of monthly or weekly Muse users, a transaction volume, or a figure for fee revenue or recurring revenue from Muse; no if they give download or install counts alone, or no Muse figure.",
         "question": "Did Meta's September-quarter release, slides or earnings call state a number of users, a transaction volume or a fee revenue for Muse, beyond download or install counts?",
         "source": {
           "label": "Meta investor relations, third-quarter 2026 results",
           "url": "https://investor.atmeta.com/"
         },
-        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Meta reports after November 30, 2026, or restates the quarter, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -514,21 +526,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "BKNG",
-        "rule": "Read room nights and the direct mix from the release and the call; room nights above the year-earlier quarter and a direct share at or above the year-earlier share resolves confirmed, a decline in either resolves refuted.",
+        "rule": "Read room nights and the direct mix from the release and the call. The answer is yes if room nights are above the year-earlier quarter and the direct share is at or above the year-earlier share; no if either declined.",
         "question": "Did Booking Holdings report September-quarter room nights above the September quarter of 2025, with a direct-channel share of bookings no lower than the share it reported a year earlier?",
         "source": {
           "label": "Booking Holdings investor relations, third-quarter 2026 results",
           "url": "https://ir.bookingholdings.com/"
         },
-        "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If Booking gives no direct-mix figure for the quarter, or reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -563,21 +581,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; the test resolves confirmed on yes and refuted on no. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is the owner's reading from the same materials and goes in the Result, not in the verdict.",
+        "rule": "The answer is yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; no otherwise. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is DeepStack's reading from the same materials and goes in the Result, not in the answer.",
         "question": "Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?",
         "source": {
           "label": "Nike investor relations, investor day presentation and press release",
           "url": "https://investors.nike.com/"
         },
-        "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 8,
   "slug": "the-scarcity-is-the-collateral",
@@ -93,21 +93,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter; a higher sum resolves confirmed, an equal or lower sum resolves refuted. Whether maintenance capital spending or shorter server lives entered the accounting is the owner's reading from the same filings and goes in the Result, not in the verdict.",
+        "rule": "Sum the net cash from operating activities each of the four states for the September quarter and compare it with the same sum for the June quarter. The answer is yes if the September sum is higher; no if it is equal or lower. Whether maintenance capital spending or shorter server lives entered the accounting is DeepStack's reading from the same filings and goes in the Result, not in the answer.",
         "question": "Did the combined net cash from operating activities of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined figure for the quarter ended June 30, 2026?",
         "source": {
           "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
           "url": "https://www.sec.gov/edgar/search/"
         },
-        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates its June quarter, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -631,5 +637,6 @@
     "url": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid/",
     "csv": "https://deepstack.ltd/sides/the-scarcity-is-the-collateral/grid.csv",
     "api": "https://deepstack.ltd/api/v1/sides/the-scarcity-is-the-collateral/grid.json"
-  }
+  },
+  "editorial": null
 }

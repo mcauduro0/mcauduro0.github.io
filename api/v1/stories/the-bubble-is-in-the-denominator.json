@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:52:13Z",
+  "generatedAt": "2026-10-12T18:40:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -98,21 +98,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "rule": "The answer is yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; no otherwise. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are DeepStack's reading into the Result.",
         "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
         "source": {
           "label": "SEC EDGAR, Anthropic filings",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
         },
-        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -441,21 +447,27 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "MSFT",
-        "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q; a year-over-year growth rate for depreciation above the rate for operating income resolves confirmed, equal or below resolves refuted. A change to server useful lives disclosed in the same filings is the owner's reading into the Result, not the verdict.",
+        "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q. The answer is yes if the year-over-year growth rate of depreciation is above the rate of operating income; no if it is equal or below. A change to server useful lives disclosed in the same filings is DeepStack's reading into the Result, not the answer.",
         "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
         "source": {
           "label": "SEC EDGAR, the four companies' earnings releases (Form 8-K) and quarterly reports (Form 10-Q)",
           "url": "https://www.sec.gov/edgar/search/"
         },
-        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, reviewed by the owner.",
+        "ambiguity": "If any of the four has not reported by November 7, 2026, or restates the year-earlier quarter, the test is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -490,21 +502,27 @@
       },
       "resolver": {
         "kind": "manual",
-        "rule": "Yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; the test resolves confirmed on yes and refuted on no. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are the owner's reading into the Result.",
+        "rule": "The answer is yes if a registration statement for Anthropic carrying audited revenue, net loss and customer-concentration disclosures is public on EDGAR by October 31, 2026, or its shares begin trading by that date; no otherwise. The audited figures against the $400 billion run-rate line Romero named for the end of 2027, and the two-customer share Silverio cited, are DeepStack's reading into the Result.",
         "question": "Did Anthropic file a registration statement (Form S-1 or equivalent) with audited financial statements on SEC EDGAR, or begin trading, by October 31, 2026?",
         "source": {
           "label": "SEC EDGAR, Anthropic filings",
           "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic&type=S-1"
         },
-        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, reviewed by the owner.",
+        "ambiguity": "A confidential draft filing reported in the press but not public on EDGAR, or a filing without audited statements, is inconclusive, and the Result says what was read and what was missing.",
         "specState": "approved",
-        "specVersion": 1,
-        "specUpdatedOn": "2026-10-09",
+        "specVersion": 2,
+        "specUpdatedOn": "2026-10-12",
         "specHistory": [
           {
             "version": 1,
             "date": "2026-10-09",
             "reason": "First specification.",
+            "by": "Marco Cauduro"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-12",
+            "reason": "Vocabulary pass of 12 October 2026: the rule says what makes the answer yes and what makes it no, and DeepStack's reading replaces the owner's.",
             "by": "Marco Cauduro"
           }
         ],
@@ -619,6 +637,55 @@
         "specState": "pending"
       },
       "url": "https://deepstack.ltd/docket/#test-p10-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p10-t06",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "when": "By July 12, 2027",
+      "whenLabel": "Jul 12, 2027",
+      "date": "2027-07-12",
+      "precision": "day",
+      "event": "The record holds or breaks: whether the Thrift Savings Plan's C Fund, which holds the S&P 500 with dividends reinvested, closes above its October 6 high of $126.18 on any day through July 12, 2027.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-12T18:16:54Z",
+      "callProbability": 88,
+      "callProbabilityAt": "2026-10-12T18:16:54Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[5].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read the C Fund's daily share prices from October 13, 2026 through July 12, 2027 in the plan's share price history. The answer is yes if any of them is above $126.1817, the highest close through October 12, 2026 (October 6; the plan posted no price on October 12, a federal holiday); no if every one is at or below it. The fund holds the stocks of the S&P 500 and reinvests their dividends, so its share price is the record the test reads.",
+        "question": "Does the C Fund of the Thrift Savings Plan, the federal employees' S&P 500 index fund, close above $126.1817, its highest share price through October 12, 2026 (set on October 6, 2026), on any business day from October 13, 2026 through July 12, 2027?",
+        "source": {
+          "label": "Thrift Savings Plan, share price history of the C Fund (daily closing share prices, tsp.gov)",
+          "url": "https://www.tsp.gov/share-price-history/"
+        },
+        "ambiguity": "If the plan has not posted the prices through July 12, 2027 by July 19, 2027, the test is inconclusive, and the Result says what was read, what was missing and the day of the next reading. A price the plan corrects is read as corrected.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p10-t06",
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#watch",
       "resultUrl": null
     }
