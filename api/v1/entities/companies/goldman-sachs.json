@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "goldman-sachs",
@@ -45,22 +45,22 @@
     }
   ],
   "coverage": {
-    "creators": 40,
-    "claims": 88,
-    "texts": 75,
-    "asOf": "2026-10-12"
+    "creators": 41,
+    "claims": 91,
+    "texts": 76,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 895.32,
-    "change": 12.73,
-    "changePercent": 1.4424,
-    "marketCap": 264125667240,
-    "pe": 13.6399,
+    "price": 893.95,
+    "change": -1.37,
+    "changePercent": -0.153,
+    "marketCap": 263721507650,
+    "pe": 13.619,
     "nextEarnings": "2026-10-13",
     "exchange": "NYSE",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:03.000Z",
+    "asOf": "2026-10-12T20:00:02.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

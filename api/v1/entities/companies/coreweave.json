@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "coreweave",
@@ -137,22 +137,22 @@
     }
   ],
   "coverage": {
-    "creators": 33,
-    "claims": 161,
-    "texts": 82,
-    "asOf": "2026-10-12"
+    "creators": 35,
+    "claims": 165,
+    "texts": 84,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 82.08,
-    "change": 0.5,
-    "changePercent": 0.6129,
-    "marketCap": 44780417447,
-    "pe": -22.4877,
+    "price": 80.26,
+    "change": -1.82,
+    "changePercent": -2.2174,
+    "marketCap": 43787479341,
+    "pe": -21.989,
     "nextEarnings": "2026-11-09",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:01.000Z",
+    "asOf": "2026-10-12T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

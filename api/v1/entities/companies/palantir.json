@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "palantir",
@@ -32,22 +32,22 @@
   ],
   "sides": [],
   "coverage": {
-    "creators": 29,
-    "claims": 111,
-    "texts": 61,
-    "asOf": "2026-10-12"
+    "creators": 32,
+    "claims": 116,
+    "texts": 65,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 209.05,
-    "change": 10.27,
-    "changePercent": 5.1665,
-    "marketCap": 479993433500,
-    "pe": 165.9127,
+    "price": 209,
+    "change": -0.05,
+    "changePercent": -0.0239,
+    "marketCap": 479878630000,
+    "pe": 165.873,
     "nextEarnings": "2026-11-02",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:00.000Z",
+    "asOf": "2026-10-12T20:00:00.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

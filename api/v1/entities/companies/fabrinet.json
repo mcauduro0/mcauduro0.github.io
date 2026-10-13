@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "fabrinet",
@@ -63,22 +63,22 @@
     }
   ],
   "coverage": {
-    "creators": 6,
-    "claims": 44,
-    "texts": 13,
-    "asOf": "2026-10-12"
+    "creators": 8,
+    "claims": 49,
+    "texts": 17,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 486.28,
-    "change": -1.05,
-    "changePercent": -0.2155,
-    "marketCap": 17423266516,
-    "pe": 36.8115,
+    "price": 456.4,
+    "change": -29.88,
+    "changePercent": -6.1446,
+    "marketCap": 16352675080,
+    "pe": 34.5496,
     "nextEarnings": "2026-11-02",
     "exchange": "NYSE",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:03.000Z",
+    "asOf": "2026-10-12T20:00:02.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

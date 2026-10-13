@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "broadcom",
@@ -53,22 +53,22 @@
     }
   ],
   "coverage": {
-    "creators": 33,
-    "claims": 125,
-    "texts": 78,
-    "asOf": "2026-10-12"
+    "creators": 38,
+    "claims": 139,
+    "texts": 87,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 361.54,
-    "change": 1.4,
-    "changePercent": 0.3887,
-    "marketCap": 1720055473200,
-    "pe": 44.8561,
+    "price": 354.73,
+    "change": -6.81,
+    "changePercent": -1.8836,
+    "marketCap": 1687656353400,
+    "pe": 44.0112,
     "nextEarnings": "2026-12-09",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:01.000Z",
+    "asOf": "2026-10-12T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

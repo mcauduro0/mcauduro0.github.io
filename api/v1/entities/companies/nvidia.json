@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "nvidia",
@@ -436,22 +436,22 @@
     }
   ],
   "coverage": {
-    "creators": 121,
-    "claims": 1216,
-    "texts": 576,
-    "asOf": "2026-10-12"
+    "creators": 137,
+    "claims": 1332,
+    "texts": 644,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 229.28,
-    "change": -1.2,
-    "changePercent": -0.5206,
-    "marketCap": 5553390880000,
-    "pe": 28.8403,
+    "price": 226.32,
+    "change": -2.96,
+    "changePercent": -1.291,
+    "marketCap": 5464949040000,
+    "pe": 28.4679,
     "nextEarnings": "2026-11-18",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:00.000Z",
+    "asOf": "2026-10-12T20:00:00.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

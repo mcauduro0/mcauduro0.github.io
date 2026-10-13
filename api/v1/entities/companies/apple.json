@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "apple",
@@ -50,22 +50,22 @@
     }
   ],
   "coverage": {
-    "creators": 82,
-    "claims": 961,
-    "texts": 499,
-    "asOf": "2026-10-12"
+    "creators": 88,
+    "claims": 978,
+    "texts": 514,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 336.64,
-    "change": -3.78,
-    "changePercent": -1.1104,
-    "marketCap": 4944351523840,
-    "pe": 38.4292,
+    "price": 340.97,
+    "change": 4.33,
+    "changePercent": 1.2862,
+    "marketCap": 5007947775320,
+    "pe": 38.9235,
     "nextEarnings": "2026-11-02",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:00.000Z",
+    "asOf": "2026-10-12T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

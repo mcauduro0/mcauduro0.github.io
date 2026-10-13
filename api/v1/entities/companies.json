@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
@@ -8,7 +8,7 @@
   "market": {
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
-    "asOf": "2026-10-12T10:31:10.240Z",
+    "asOf": "2026-10-13T10:31:18.606Z",
     "note": "Delayed quotes; shown on company pages only, never as evidence for a result."
   },
   "companies": [
@@ -63,22 +63,22 @@
         }
       ],
       "coverage": {
-        "creators": 26,
-        "claims": 156,
-        "texts": 85,
-        "asOf": "2026-10-12"
+        "creators": 33,
+        "claims": 170,
+        "texts": 96,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 111.37,
-        "change": 5.67,
-        "changePercent": 5.3642,
-        "marketCap": 266939647670,
-        "pe": 23.8403,
+        "price": 110.81,
+        "change": -0.5598,
+        "changePercent": -0.5027,
+        "marketCap": 265597399285,
+        "pe": 23.6228,
         "nextEarnings": "2026-11-24",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:02:19.000Z",
+        "asOf": "2026-10-12T19:59:59.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -439,22 +439,22 @@
         }
       ],
       "coverage": {
-        "creators": 185,
-        "claims": 2957,
-        "texts": 1378,
-        "asOf": "2026-10-12"
+        "creators": 203,
+        "claims": 3094,
+        "texts": 1456,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 351.66,
-        "change": 3.37,
-        "changePercent": 0.9676,
-        "marketCap": 4255828454835,
-        "pe": 17.2721,
+        "price": 352.72,
+        "change": 1.06,
+        "changePercent": 0.3014,
+        "marketCap": 4268656692798,
+        "pe": 17.3272,
         "nextEarnings": "2026-10-28",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -732,22 +732,22 @@
         }
       ],
       "coverage": {
-        "creators": 117,
-        "claims": 838,
-        "texts": 509,
-        "asOf": "2026-10-12"
+        "creators": 134,
+        "claims": 899,
+        "texts": 555,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 262.43,
-        "change": 8.37,
-        "changePercent": 3.2945,
-        "marketCap": 2822985753000,
-        "pe": 20.8278,
+        "price": 259.53,
+        "change": -2.9,
+        "changePercent": -1.1051,
+        "marketCap": 2791790163000,
+        "pe": 20.5976,
         "nextEarnings": "2026-10-29",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -787,22 +787,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 42,
-        "claims": 345,
-        "texts": 175,
-        "asOf": "2026-10-12"
+        "creators": 49,
+        "claims": 370,
+        "texts": 192,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 608.1,
-        "change": -12.58,
-        "changePercent": -2.0268,
-        "marketCap": 991567860000,
-        "pe": 154.3401,
+        "price": 594.24,
+        "change": -13.86,
+        "changePercent": -2.2792,
+        "marketCap": 968967744000,
+        "pe": 150.8223,
         "nextEarnings": "2026-11-03",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1301,12 +1301,12 @@
         }
       ],
       "coverage": {
-        "creators": 123,
-        "claims": 2087,
-        "texts": 758,
-        "asOf": "2026-10-12"
+        "creators": 132,
+        "claims": 2179,
+        "texts": 801,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": null
     },
     {
@@ -1465,19 +1465,19 @@
         "creators": 37,
         "claims": 273,
         "texts": 210,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 118.65,
-        "change": 3.35,
-        "changePercent": 2.9055,
-        "marketCap": 68339053002,
-        "pe": 25.6818,
+        "price": 119.22,
+        "change": 0.57,
+        "changePercent": 0.4804,
+        "marketCap": 68667356923,
+        "pe": 25.8052,
         "nextEarnings": "2026-11-03",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1533,22 +1533,22 @@
         }
       ],
       "coverage": {
-        "creators": 82,
-        "claims": 961,
-        "texts": 499,
-        "asOf": "2026-10-12"
+        "creators": 88,
+        "claims": 978,
+        "texts": 514,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 336.64,
-        "change": -3.78,
-        "changePercent": -1.1104,
-        "marketCap": 4944351523840,
-        "pe": 38.4292,
+        "price": 340.97,
+        "change": 4.33,
+        "changePercent": 1.2862,
+        "marketCap": 5007947775320,
+        "pe": 38.9235,
         "nextEarnings": "2026-11-02",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1580,22 +1580,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 24,
-        "claims": 109,
-        "texts": 90,
-        "asOf": "2026-10-12"
+        "creators": 25,
+        "claims": 111,
+        "texts": 92,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 54.32,
-        "change": 0.71,
-        "changePercent": 1.3244,
-        "marketCap": 385486768800,
-        "pe": 12.3175,
+        "price": 54.58,
+        "change": 0.26,
+        "changePercent": 0.4787,
+        "marketCap": 387331882200,
+        "pe": 12.3764,
         "nextEarnings": "2026-10-14",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:03.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1628,21 +1628,21 @@
       "sides": [],
       "coverage": {
         "creators": 44,
-        "claims": 1997,
-        "texts": 537,
-        "asOf": "2026-10-12"
+        "claims": 2001,
+        "texts": 539,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 774299.6,
-        "change": 7417.63,
-        "changePercent": 0.9673,
-        "marketCap": 1113596136121,
-        "pe": 12.9794,
+        "price": 777355,
+        "change": 3060,
+        "changePercent": 0.3952,
+        "marketCap": 1117990406290,
+        "pe": 13.0306,
         "nextEarnings": "2026-11-07",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T19:59:51.000Z",
+        "asOf": "2026-10-12T20:00:39.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1680,22 +1680,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 20,
-        "claims": 62,
-        "texts": 50,
-        "asOf": "2026-10-12"
+        "creators": 21,
+        "claims": 63,
+        "texts": 51,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 114.31,
-        "change": 1.63,
-        "changePercent": 1.4466,
-        "marketCap": 138085659254,
-        "pe": 25.4022,
+        "price": 114.775,
+        "change": 0.485,
+        "changePercent": 0.4244,
+        "marketCap": 138647375916,
+        "pe": 25.5056,
         "nextEarnings": "2026-10-22",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T19:59:59.000Z",
+        "asOf": "2026-10-12T19:59:59.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1730,19 +1730,19 @@
         "creators": 7,
         "claims": 9,
         "texts": 8,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 10.11,
-        "change": -0.06,
-        "changePercent": -0.59,
-        "marketCap": 5017647837,
-        "pe": 18.0536,
+        "price": 10.12,
+        "change": 0.01,
+        "changePercent": 0.0989,
+        "marketCap": 5022610891,
+        "pe": 18.0714,
         "nextEarnings": "2026-11-04",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1801,22 +1801,22 @@
         }
       ],
       "coverage": {
-        "creators": 33,
-        "claims": 125,
-        "texts": 78,
-        "asOf": "2026-10-12"
+        "creators": 38,
+        "claims": 139,
+        "texts": 87,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 361.54,
-        "change": 1.4,
-        "changePercent": 0.3887,
-        "marketCap": 1720055473200,
-        "pe": 44.8561,
+        "price": 354.73,
+        "change": -6.81,
+        "changePercent": -1.8836,
+        "marketCap": 1687656353400,
+        "pe": 44.0112,
         "nextEarnings": "2026-12-09",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1882,21 +1882,21 @@
       ],
       "coverage": {
         "creators": 5,
-        "claims": 82,
-        "texts": 24,
-        "asOf": "2026-10-12"
+        "claims": 85,
+        "texts": 26,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 449.77,
-        "change": 23.84,
-        "changePercent": 5.5972,
-        "marketCap": 63666257728,
-        "pe": 97.3528,
+        "price": 405.01,
+        "change": -44.76,
+        "changePercent": -9.9518,
+        "marketCap": 57330348939,
+        "pe": 87.6645,
         "nextEarnings": "2026-12-10",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -1950,22 +1950,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 30,
-        "claims": 71,
-        "texts": 53,
-        "asOf": "2026-10-12"
+        "creators": 32,
+        "claims": 80,
+        "texts": 58,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 118.39,
-        "change": 3.5,
-        "changePercent": 3.0464,
-        "marketCap": 466626449989,
-        "pe": 35.2351,
+        "price": 115.34,
+        "change": -3.05,
+        "changePercent": -2.5762,
+        "marketCap": 454605074261,
+        "pe": 34.3274,
         "nextEarnings": "2026-11-11",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2019,19 +2019,19 @@
         "creators": 3,
         "claims": 5,
         "texts": 4,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 10.495,
-        "change": -0.135,
-        "changePercent": -1.27,
-        "marketCap": 2693107320,
-        "pe": -2.8027,
+        "price": 10.3,
+        "change": -0.195,
+        "changePercent": -1.858,
+        "marketCap": 2643068642,
+        "pe": -2.7506,
         "nextEarnings": "2026-11-24",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2078,19 +2078,19 @@
         "creators": 9,
         "claims": 172,
         "texts": 57,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 312.62,
-        "change": 10.27,
-        "changePercent": 3.3967,
-        "marketCap": 61160764531,
-        "pe": 71.8667,
+        "price": 288.02,
+        "change": -24.6,
+        "changePercent": -7.869,
+        "marketCap": 56348037234,
+        "pe": 66.2115,
         "nextEarnings": "2026-11-04",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:03.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2150,22 +2150,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 16,
-        "claims": 61,
-        "texts": 48,
-        "asOf": "2026-10-12"
+        "creators": 18,
+        "claims": 63,
+        "texts": 50,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 20.66,
-        "change": -0.55,
-        "changePercent": -2.5931,
-        "marketCap": 73314832425,
-        "pe": 6.7078,
+        "price": 20.68,
+        "change": 0.02,
+        "changePercent": 0.0968,
+        "marketCap": 73385805157,
+        "pe": 6.7143,
         "nextEarnings": "2026-10-22",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2308,22 +2308,22 @@
         }
       ],
       "coverage": {
-        "creators": 33,
-        "claims": 161,
-        "texts": 82,
-        "asOf": "2026-10-12"
+        "creators": 35,
+        "claims": 165,
+        "texts": 84,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 82.08,
-        "change": 0.5,
-        "changePercent": 0.6129,
-        "marketCap": 44780417447,
-        "pe": -22.4877,
+        "price": 80.26,
+        "change": -1.82,
+        "changePercent": -2.2174,
+        "marketCap": 43787479341,
+        "pe": -21.989,
         "nextEarnings": "2026-11-09",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2403,12 +2403,12 @@
         }
       ],
       "coverage": {
-        "creators": 43,
-        "claims": 201,
-        "texts": 90,
-        "asOf": "2026-10-12"
+        "creators": 49,
+        "claims": 217,
+        "texts": 102,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": null
     },
     {
@@ -2450,22 +2450,22 @@
         }
       ],
       "coverage": {
-        "creators": 20,
-        "claims": 44,
-        "texts": 31,
-        "asOf": "2026-10-12"
+        "creators": 22,
+        "claims": 46,
+        "texts": 33,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 586.28,
-        "change": 11.73,
-        "changePercent": 2.0416,
-        "marketCap": 389437042862,
-        "pe": 33.5209,
+        "price": 576.16,
+        "change": -9.9,
+        "changePercent": -1.6892,
+        "marketCap": 382714823319,
+        "pe": 32.9423,
         "nextEarnings": "2026-11-24",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T19:59:59.000Z",
+        "asOf": "2026-10-12T20:00:00.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2510,22 +2510,22 @@
         }
       ],
       "coverage": {
-        "creators": 17,
-        "claims": 55,
-        "texts": 25,
-        "asOf": "2026-10-12"
+        "creators": 20,
+        "claims": 65,
+        "texts": 32,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 196.5,
-        "change": 4.79,
-        "changePercent": 2.4986,
-        "marketCap": 85618726908,
-        "pe": 101.2887,
+        "price": 194.24,
+        "change": -2.26,
+        "changePercent": -1.1501,
+        "marketCap": 84634002619,
+        "pe": 100.1237,
         "nextEarnings": "2026-11-04",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2560,19 +2560,19 @@
         "creators": 2,
         "claims": 2,
         "texts": 2,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 41.76,
-        "change": 0.03,
-        "changePercent": 0.0719,
-        "marketCap": 43023405077,
-        "pe": 15.2409,
+        "price": 42.12,
+        "change": 0.36,
+        "changePercent": 0.8621,
+        "marketCap": 43394296500,
+        "pe": 15.3723,
         "nextEarnings": "2026-10-30",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2641,22 +2641,22 @@
         }
       ],
       "coverage": {
-        "creators": 6,
-        "claims": 44,
-        "texts": 13,
-        "asOf": "2026-10-12"
+        "creators": 8,
+        "claims": 49,
+        "texts": 17,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 486.28,
-        "change": -1.05,
-        "changePercent": -0.2155,
-        "marketCap": 17423266516,
-        "pe": 36.8115,
+        "price": 456.4,
+        "change": -29.88,
+        "changePercent": -6.1446,
+        "marketCap": 16352675080,
+        "pe": 34.5496,
         "nextEarnings": "2026-11-02",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2688,22 +2688,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 13,
-        "claims": 86,
-        "texts": 38,
-        "asOf": "2026-10-12"
+        "creators": 14,
+        "claims": 88,
+        "texts": 40,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 667.58,
-        "change": -39.85,
-        "changePercent": -5.6331,
-        "marketCap": 14418149841,
-        "pe": 19.1778,
+        "price": 740,
+        "change": 72.42,
+        "changePercent": 10.8481,
+        "marketCap": 15982250640,
+        "pe": 21.2583,
         "nextEarnings": "2026-11-04",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2738,19 +2738,19 @@
         "creators": 3,
         "claims": 33,
         "texts": 11,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 48.24,
-        "change": -1.12,
-        "changePercent": -2.269,
-        "marketCap": 26469328184,
-        "pe": 37.3953,
+        "price": 48.34,
+        "change": 0.1,
+        "changePercent": 0.2073,
+        "marketCap": 26524198267,
+        "pe": 37.4729,
         "nextEarnings": "2026-11-04",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2801,22 +2801,22 @@
         }
       ],
       "coverage": {
-        "creators": 40,
-        "claims": 88,
-        "texts": 75,
-        "asOf": "2026-10-12"
+        "creators": 41,
+        "claims": 91,
+        "texts": 76,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 895.32,
-        "change": 12.73,
-        "changePercent": 1.4424,
-        "marketCap": 264125667240,
-        "pe": 13.6399,
+        "price": 893.95,
+        "change": -1.37,
+        "changePercent": -0.153,
+        "marketCap": 263721507650,
+        "pe": 13.619,
         "nextEarnings": "2026-10-13",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2873,22 +2873,22 @@
         }
       ],
       "coverage": {
-        "creators": 13,
-        "claims": 45,
-        "texts": 23,
-        "asOf": "2026-10-12"
+        "creators": 15,
+        "claims": 55,
+        "texts": 29,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 302.75,
-        "change": -1.13,
-        "changePercent": -0.3719,
-        "marketCap": 82813326750,
-        "pe": 18.3152,
+        "price": 305.99,
+        "change": 3.24,
+        "changePercent": 1.0702,
+        "marketCap": 83699586630,
+        "pe": 18.5112,
         "nextEarnings": "2026-11-19",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -2933,21 +2933,21 @@
       "sides": [],
       "coverage": {
         "creators": 7,
-        "claims": 162,
-        "texts": 61,
-        "asOf": "2026-10-12"
+        "claims": 163,
+        "texts": 62,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 1103.355,
-        "change": 54.755,
-        "changePercent": 5.2217,
-        "marketCap": 85841019000,
-        "pe": -11.8691,
+        "price": 995.41,
+        "change": -107.945,
+        "changePercent": -9.7833,
+        "marketCap": 77442898000,
+        "pe": -10.7079,
         "nextEarnings": "2026-11-05",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3269,22 +3269,22 @@
         }
       ],
       "coverage": {
-        "creators": 127,
-        "claims": 1944,
-        "texts": 810,
-        "asOf": "2026-10-12"
+        "creators": 146,
+        "claims": 1993,
+        "texts": 843,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 718.67,
-        "change": -2.22,
-        "changePercent": -0.308,
-        "marketCap": 1830802173262,
-        "pe": 26.7064,
+        "price": 742.96,
+        "change": 24.29,
+        "changePercent": 3.3798,
+        "marketCap": 1892680622047,
+        "pe": 27.6091,
         "nextEarnings": "2026-10-28",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3322,22 +3322,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 33,
-        "claims": 183,
-        "texts": 93,
-        "asOf": "2026-10-12"
+        "creators": 48,
+        "claims": 238,
+        "texts": 130,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 1029,
-        "change": -6.84,
-        "changePercent": -0.6603,
-        "marketCap": 1162142310000,
-        "pe": 13.6635,
+        "price": 989.04,
+        "change": -39.96,
+        "changePercent": -3.8834,
+        "marketCap": 1117011885600,
+        "pe": 13.1329,
         "nextEarnings": "2026-12-23",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3556,22 +3556,22 @@
         }
       ],
       "coverage": {
-        "creators": 120,
-        "claims": 831,
-        "texts": 505,
-        "asOf": "2026-10-12"
+        "creators": 136,
+        "claims": 889,
+        "texts": 548,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 535.07,
-        "change": 12.46,
-        "changePercent": 2.3842,
-        "marketCap": 3973189038500,
-        "pe": 29.7261,
+        "price": 541.15,
+        "change": 6.08,
+        "changePercent": 1.1363,
+        "marketCap": 4018336382500,
+        "pe": 30.0639,
         "nextEarnings": "2026-10-28",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3609,22 +3609,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 4,
-        "claims": 4,
-        "texts": 4,
-        "asOf": "2026-10-12"
+        "creators": 6,
+        "claims": 7,
+        "texts": 7,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 385.93,
-        "change": 14.58,
-        "changePercent": 3.9262,
-        "marketCap": 31041093587,
-        "pe": 528.3094,
+        "price": 381.29,
+        "change": -4.64,
+        "changePercent": -1.2023,
+        "marketCap": 30667889446,
+        "pe": 521.9576,
         "nextEarnings": "2026-12-07",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:01.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3678,22 +3678,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 36,
-        "claims": 91,
-        "texts": 68,
-        "asOf": "2026-10-12"
+        "creators": 37,
+        "claims": 93,
+        "texts": 70,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
         "price": 190.02,
-        "change": 2.58,
-        "changePercent": 1.3764,
+        "change": 0,
+        "changePercent": 0,
         "marketCap": 299714745600,
         "pe": 15.2749,
         "nextEarnings": "2026-10-14",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3823,22 +3823,22 @@
         }
       ],
       "coverage": {
-        "creators": 19,
-        "claims": 285,
-        "texts": 79,
-        "asOf": "2026-10-12"
+        "creators": 21,
+        "claims": 288,
+        "texts": 82,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 221.07,
-        "change": 1.36,
-        "changePercent": 0.619,
-        "marketCap": 53056800000,
-        "pe": 850.2692,
+        "price": 210.06,
+        "change": -11.01,
+        "changePercent": -4.9803,
+        "marketCap": 57115575315,
+        "pe": 807.9231,
         "nextEarnings": "2026-11-10",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:01.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3887,22 +3887,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 51,
-        "claims": 224,
-        "texts": 130,
-        "asOf": "2026-10-12"
+        "creators": 55,
+        "claims": 229,
+        "texts": 135,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 70.3,
-        "change": -1.27,
-        "changePercent": -1.7745,
-        "marketCap": 292724981930,
-        "pe": 21.7647,
+        "price": 70.61,
+        "change": 0.31,
+        "changePercent": 0.441,
+        "marketCap": 294015803329,
+        "pe": 21.8607,
         "nextEarnings": "2026-10-20",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:00.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3934,22 +3934,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 19,
-        "claims": 89,
-        "texts": 34,
-        "asOf": "2026-10-12"
+        "creators": 22,
+        "claims": 94,
+        "texts": 38,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 34.71,
-        "change": -0.03,
-        "changePercent": -0.0864,
-        "marketCap": 51364247620,
-        "pe": 16.6077,
+        "price": 35.35,
+        "change": 0.64,
+        "changePercent": 1.8438,
+        "marketCap": 52311326804,
+        "pe": 16.9139,
         "nextEarnings": "2026-12-17",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -3984,19 +3984,19 @@
         "creators": 1,
         "claims": 1,
         "texts": 1,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 107.97,
-        "change": 1.65,
-        "changePercent": 1.5519,
-        "marketCap": 22780158420,
-        "pe": 28.4132,
+        "price": 106.37,
+        "change": -1.6,
+        "changePercent": -1.4819,
+        "marketCap": 22442580820,
+        "pe": 27.9921,
         "nextEarnings": "2026-11-05",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -4438,22 +4438,22 @@
         }
       ],
       "coverage": {
-        "creators": 121,
-        "claims": 1216,
-        "texts": 576,
-        "asOf": "2026-10-12"
+        "creators": 137,
+        "claims": 1332,
+        "texts": 644,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 229.28,
-        "change": -1.2,
-        "changePercent": -0.5206,
-        "marketCap": 5553390880000,
-        "pe": 28.8403,
+        "price": 226.32,
+        "change": -2.96,
+        "changePercent": -1.291,
+        "marketCap": 5464949040000,
+        "pe": 28.4679,
         "nextEarnings": "2026-11-18",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:00.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5027,12 +5027,12 @@
         }
       ],
       "coverage": {
-        "creators": 148,
-        "claims": 2071,
-        "texts": 919,
-        "asOf": "2026-10-12"
+        "creators": 161,
+        "claims": 2163,
+        "texts": 970,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": null
     },
     {
@@ -5221,22 +5221,22 @@
         }
       ],
       "coverage": {
-        "creators": 64,
-        "claims": 213,
-        "texts": 136,
-        "asOf": "2026-10-12"
+        "creators": 72,
+        "claims": 237,
+        "texts": 153,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 141.53,
-        "change": 6.34,
-        "changePercent": 4.6897,
-        "marketCap": 407672919100,
-        "pe": 21.841,
+        "price": 137.395,
+        "change": -4.005,
+        "changePercent": -2.8324,
+        "marketCap": 395762175650,
+        "pe": 21.2029,
         "nextEarnings": "2026-12-09",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T19:59:59.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5274,22 +5274,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 29,
-        "claims": 111,
-        "texts": 61,
-        "asOf": "2026-10-12"
+        "creators": 32,
+        "claims": 116,
+        "texts": 65,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 209.05,
-        "change": 10.27,
-        "changePercent": 5.1665,
-        "marketCap": 479993433500,
-        "pe": 165.9127,
+        "price": 209,
+        "change": -0.05,
+        "changePercent": -0.0239,
+        "marketCap": 479878630000,
+        "pe": 165.873,
         "nextEarnings": "2026-11-02",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:00.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5321,22 +5321,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 49,
-        "claims": 141,
-        "texts": 103,
-        "asOf": "2026-10-12"
+        "creators": 52,
+        "claims": 161,
+        "texts": 117,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 229.13,
-        "change": 1.33,
-        "changePercent": 0.5838,
-        "marketCap": 187657470000,
-        "pe": 20.83,
+        "price": 233.92,
+        "change": 4.79,
+        "changePercent": 2.0905,
+        "marketCap": 191580480000,
+        "pe": 21.2655,
         "nextEarnings": "2026-12-02",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:03.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5368,22 +5368,22 @@
       ],
       "sides": [],
       "coverage": {
-        "creators": 23,
-        "claims": 48,
-        "texts": 33,
-        "asOf": "2026-10-12"
+        "creators": 24,
+        "claims": 49,
+        "texts": 34,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 140.86,
-        "change": 1.11,
-        "changePercent": 0.7943,
-        "marketCap": 145629801320,
-        "pe": 87.4907,
+        "price": 140.32,
+        "change": -0.54,
+        "changePercent": -0.3834,
+        "marketCap": 145071515840,
+        "pe": 87.1553,
         "nextEarnings": "2026-10-28",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:03.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5446,22 +5446,22 @@
         }
       ],
       "coverage": {
-        "creators": 31,
-        "claims": 102,
-        "texts": 66,
-        "asOf": "2026-10-12"
+        "creators": 33,
+        "claims": 113,
+        "texts": 77,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 170.85,
-        "change": 6.29,
-        "changePercent": 3.8223,
-        "marketCap": 221704302591,
-        "pe": 114.6644,
+        "price": 179.22,
+        "change": 8.37,
+        "changePercent": 4.899,
+        "marketCap": 232565672287,
+        "pe": 120.2819,
         "nextEarnings": "2026-11-03",
         "exchange": "NASDAQ",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:00.000Z",
+        "asOf": "2026-10-12T20:00:00.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5614,12 +5614,12 @@
         }
       ],
       "coverage": {
-        "creators": 74,
-        "claims": 395,
-        "texts": 203,
-        "asOf": "2026-10-12"
+        "creators": 83,
+        "claims": 425,
+        "texts": 220,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": null
     },
     {
@@ -5651,19 +5651,19 @@
         "creators": 5,
         "claims": 5,
         "texts": 5,
-        "asOf": "2026-10-12"
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 66.32,
-        "change": -0.28,
-        "changePercent": -0.4204,
-        "marketCap": 10770433590,
-        "pe": 27.405,
+        "price": 66.08,
+        "change": -0.24,
+        "changePercent": -0.3619,
+        "marketCap": 10731457353,
+        "pe": 27.3058,
         "nextEarnings": "2026-11-04",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5708,22 +5708,22 @@
         }
       ],
       "coverage": {
-        "creators": 42,
-        "claims": 248,
-        "texts": 135,
-        "asOf": "2026-10-12"
+        "creators": 52,
+        "claims": 344,
+        "texts": 198,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 453.31,
-        "change": -4.68,
-        "changePercent": -1.0219,
-        "marketCap": 2351083248800,
-        "pe": 29.4424,
+        "price": 444.35,
+        "change": -8.96,
+        "changePercent": -1.9766,
+        "marketCap": 2304612388000,
+        "pe": 28.8629,
         "nextEarnings": "2026-10-15",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:02.000Z",
+        "asOf": "2026-10-12T20:00:02.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
@@ -5785,22 +5785,22 @@
         }
       ],
       "coverage": {
-        "creators": 10,
-        "claims": 20,
-        "texts": 11,
-        "asOf": "2026-10-12"
+        "creators": 12,
+        "claims": 23,
+        "texts": 14,
+        "asOf": "2026-10-13"
       },
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "market": {
-        "price": 242.78,
-        "change": -0.95,
-        "changePercent": -0.3898,
-        "marketCap": 93467386640,
-        "pe": 53.7124,
+        "price": 239.36,
+        "change": -3.42,
+        "changePercent": -1.4087,
+        "marketCap": 92150727680,
+        "pe": 52.9558,
         "nextEarnings": "2026-10-28",
         "exchange": "NYSE",
         "currency": "USD",
-        "asOf": "2026-10-09T20:00:03.000Z",
+        "asOf": "2026-10-12T20:00:03.000Z",
         "source": "Financial Modeling Prep",
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."

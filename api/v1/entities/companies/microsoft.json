@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "microsoft",
@@ -213,22 +213,22 @@
     }
   ],
   "coverage": {
-    "creators": 120,
-    "claims": 831,
-    "texts": 505,
-    "asOf": "2026-10-12"
+    "creators": 136,
+    "claims": 889,
+    "texts": 548,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 535.07,
-    "change": 12.46,
-    "changePercent": 2.3842,
-    "marketCap": 3973189038500,
-    "pe": 29.7261,
+    "price": 541.15,
+    "change": 6.08,
+    "changePercent": 1.1363,
+    "marketCap": 4018336382500,
+    "pe": 30.0639,
     "nextEarnings": "2026-10-28",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:01.000Z",
+    "asOf": "2026-10-12T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

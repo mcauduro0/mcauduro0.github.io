@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "alibaba",
@@ -51,22 +51,22 @@
     }
   ],
   "coverage": {
-    "creators": 26,
-    "claims": 156,
-    "texts": 85,
-    "asOf": "2026-10-12"
+    "creators": 33,
+    "claims": 170,
+    "texts": 96,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 111.37,
-    "change": 5.67,
-    "changePercent": 5.3642,
-    "marketCap": 266939647670,
-    "pe": 23.8403,
+    "price": 110.81,
+    "change": -0.5598,
+    "changePercent": -0.5027,
+    "marketCap": 265597399285,
+    "pe": 23.6228,
     "nextEarnings": "2026-11-24",
     "exchange": "NYSE",
     "currency": "USD",
-    "asOf": "2026-10-09T20:02:19.000Z",
+    "asOf": "2026-10-12T19:59:59.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

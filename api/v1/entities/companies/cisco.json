@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T03:58:01Z",
+  "generatedAt": "2026-10-13T10:32:47Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "cisco",
@@ -48,22 +48,22 @@
   ],
   "sides": [],
   "coverage": {
-    "creators": 30,
-    "claims": 71,
-    "texts": 53,
-    "asOf": "2026-10-12"
+    "creators": 32,
+    "claims": 80,
+    "texts": 58,
+    "asOf": "2026-10-13"
   },
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "market": {
-    "price": 118.39,
-    "change": 3.5,
-    "changePercent": 3.0464,
-    "marketCap": 466626449989,
-    "pe": 35.2351,
+    "price": 115.34,
+    "change": -3.05,
+    "changePercent": -2.5762,
+    "marketCap": 454605074261,
+    "pe": 34.3274,
     "nextEarnings": "2026-11-11",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-09T20:00:01.000Z",
+    "asOf": "2026-10-12T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."
