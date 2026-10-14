@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+  "summary": "Michael Burry is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
   "parts": [
     {
       "part": 1,
@@ -48,6 +48,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -117,6 +122,12 @@
       "section": "The filing sets the price",
       "excerpt": "Michael Burry, on September 24, read Google Cloud's 112% backlog growth as suspect because a category of unknown size, TPU system sales contracts, entered the book in the last six months, and one of the largest TPU customers is Anthropic, in which Alphabet holds 14% and agreed in April to invest up to $40 billion.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The bill has moved to debt",
+      "excerpt": "Michael Burry counted on September 19 roughly $2.7 trillion of uncommenced leases and purchase commitments across five hyperscalers, off the balance sheet, against combined earnings below $400 billion over the past year.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [

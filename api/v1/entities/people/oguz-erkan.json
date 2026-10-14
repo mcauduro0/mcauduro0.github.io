@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "oguz-erkan",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/oguz-erkan/",
   "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-  "summary": "Oguz Erkan is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
+  "summary": "Oguz Erkan is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides).",
   "parts": [
     {
       "part": 3,
@@ -28,6 +28,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -55,6 +60,12 @@
       "section": "The frontier is still paid",
       "excerpt": "Oguz Erkan, on September 13, drew the Part's line: OpenAI and Anthropic take the lion's share of token dollars while their share of token volume declines.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The cash still covers it",
+      "excerpt": "Oguz Erkan argued on August 23 that Meta's committed capital already earns a return in the core business and that internal deployments can be delayed or cancelled.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -117,6 +128,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Oguz Erkan does not regard the AI capex fear as valid for this cycle: capex went from $28 billion in 2023 to $72 billion last year and is expected at $130-$145 billion this year and $202 billion by 2030, but committed capital is already earning ROI…",
+      "date": "2026-08-23",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+      "date": "2026-08-06",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

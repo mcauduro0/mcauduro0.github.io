@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "dylan-patel",
+  "name": "Dylan Patel",
+  "role": null,
+  "url": "https://deepstack.ltd/people/dylan-patel/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/dylan-patel.json",
+  "summary": "Dylan Patel is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides).",
+  "parts": [
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "Headline AI CapEx figures of $40-50 billion cover only critical IT such as servers, networking, fiber, transceivers and optics, not the data center shells or power plants, which must be built ahead of time, so a 100-gigawatt-a-year build is much…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Labs have not yet reached the point where their own cash flows can fund the scale of CapEx required, since labs are projected to generate hundreds of billions in revenue next year while total CapEx across the compute supply chain will be well north…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "His current modeling has $5 trillion of credit-funded and $6 trillion of cash-funded infrastructure investment through 2029, and this is not enough compute relative to projected AI demand growth, so revenue per megawatt has to keep rising.",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    }
+  ],
+  "coverage": {
+    "creators": 5,
+    "claims": 886,
+    "texts": 90,
+    "asOf": "2026-10-14"
+  },
+  "lastUpdated": "2026-10-14"
+}

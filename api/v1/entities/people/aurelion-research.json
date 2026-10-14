@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "aurelion-research",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/aurelion-research/",
   "api": "https://deepstack.ltd/api/v1/entities/people/aurelion-research.json",
-  "summary": "Aurelion Research is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+  "summary": "Aurelion Research is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it).",
   "parts": [
     {
       "part": 4,
@@ -28,6 +28,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -61,6 +66,12 @@
       "section": "Shipping is not earning",
       "excerpt": "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "section": "The cash still covers it",
+      "excerpt": "Aurelion Research noted on September 11 that the spenders' operating margins were still rising, giving them room to keep paying.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -123,6 +134,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Hyperscaler capex has come in more than 56% above what the market was forecasting a year ago, with spending estimates continuing to be revised upward without signs of slowing.",
+      "date": "2026-08-21",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

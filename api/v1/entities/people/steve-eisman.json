@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "steve-eisman",
@@ -7,7 +7,7 @@
   "role": "Steven Eisman",
   "url": "https://deepstack.ltd/people/steve-eisman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-  "summary": "Steve Eisman is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
+  "summary": "Steve Eisman is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
   "parts": [
     {
       "part": 4,
@@ -53,6 +53,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
   "description": "A running series of investigations into who pays for the AI build-out, who profits, and what breaks first.",
-  "count": 13,
+  "count": 14,
   "stories": [
     {
       "part": 1,
@@ -3072,7 +3072,13 @@
         }
       ],
       "earlierVersion": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
-      "corrections": []
+      "corrections": [
+        {
+          "date": "2026-10-14",
+          "text": "An earlier version dated Oracle's second-quarter report December 9, 2026, the day of the Fed's December decision. Oracle's investor relations page dates it December 14, 2026.",
+          "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#correction-1"
+        }
+      ]
     },
     {
       "part": 12,
@@ -3701,6 +3707,346 @@
         }
       ],
       "earlierVersion": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
+      "corrections": []
+    },
+    {
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "headline": "The Cash Arrives Unevenly",
+      "dek": "Microsoft, Alphabet, Amazon and Meta spent 96 cents on property and equipment for each dollar of operating cash in the second quarter of 2026, up from 65 cents across 2025, by DeepStack's reading of SEC filings. Microsoft still pays from its own cash. Amazon spent $1.38 per dollar in the first half.",
+      "summary": "Microsoft pays for its data centers from its own cash with room to spare. Alphabet and Meta now spend most of theirs and Amazon more than all of it; Alphabet and Amazon have covered the gap with stock and bonds. DeepStack reads the filings company by company and names the October 28 report that tests the view.",
+      "section": "Markets",
+      "date": "2026-10-14",
+      "readingMinutes": 10,
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/",
+      "layer": {
+        "id": "capital",
+        "label": "Capital and credit"
+      },
+      "call": {
+        "tone": "split",
+        "toneLabel": "Split",
+        "stance": "Only Microsoft pays with room to spare",
+        "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Divide capital spending by operating cash, company by company: in the first half of 2026 Microsoft spent 65.3%, Amazon 137.8%.",
+          "Hold free cash flow to one ruler: Meta's own measure gave $784 million for the June quarter of 2026; cash less purchases, $1.7 billion.",
+          "Read the financing section beside the spending line: Alphabet sold $49.6 billion of stock in June 2026, and Meta borrowed $24.9 billion."
+        ],
+        "flips": [
+          "Alphabet spends under 80 cents of each operating dollar in the September quarter: its cash is catching up with its build.",
+          "Microsoft's purchases pass 85% of its operating cash in the September quarter: even the strongest cloud stops paying its way.",
+          "The four's purchases top their operating cash for the September quarter or for 2026: the group stops paying, toward the debt side."
+        ],
+        "side": null,
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-14",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-14",
+            "stance": "Only Microsoft pays with room to spare",
+            "tone": "split",
+            "toneLabel": "Split",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+            "reason": "First call, with the story.",
+            "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-14",
+            "stance": "Only Microsoft pays with room to spare",
+            "tone": "split",
+            "toneLabel": "Split",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+            "side": null,
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "nextTest": {
+          "id": "p14-t01",
+          "part": 14,
+          "slug": "the-cash-arrives-unevenly",
+          "when": "October 28",
+          "whenLabel": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+          "status": "pending",
+          "resultId": null,
+          "sameAs": null,
+          "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-12T22:25:10Z",
+          "callProbability": 70,
+          "callProbabilityAt": "2026-10-12T22:25:10Z",
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "GOOGL",
+            "rule": "Take the three-month figures from the statement of cash flows in Alphabet's earnings release; if the release gives only year-to-date figures, use the nine-month figure less the six-month figure from the Form 10-Q. Divide purchases of property and equipment by net cash provided by operating activities. The answer is yes if the ratio is 80.0% or more; no if it is below 80.0%. Alphabet's own free cash flow line, finance leases and its spending guidance for the year are read alongside and do not decide the test.",
+            "question": "Did Alphabet's purchases of property and equipment for the quarter ended September 30, 2026 equal 80% or more of its net cash provided by operating activities for the same quarter?",
+            "source": {
+              "label": "SEC EDGAR, Alphabet filings (the earnings release on Form 8-K and the Form 10-Q for the quarter), CIK 0001652044",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+            },
+            "ambiguity": "Alphabet has scheduled the release for October 28, 2026. If neither the release nor a Form 10-Q states the quarter's cash flow figures on EDGAR by November 9, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a later amendment does not reopen the test.",
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-12",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-12",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "yes"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p14-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#verdict"
+      },
+      "keyNumbers": [
+        {
+          "id": "p14-n1",
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n1",
+          "provenance": {
+            "unit": "percent of operating cash",
+            "universe": "Microsoft, Alphabet, Amazon and Meta combined: purchases of property and equipment against net cash provided by operating activities (Amazon's gross purchases line); Oracle left out",
+            "period": "April to June 2026 (the calendar second quarter; Microsoft's fiscal fourth quarter of 2026)",
+            "source": {
+              "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for the four companies",
+              "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "The four purchases ($165.1B) divided by the four operating figures ($171.8B); a quarter given only year to date is the later cumulative figure less the earlier one.",
+            "limits": "Purchases exclude finance leases; Amazon's gross line runs above its own net measure; one quarter, and the September quarter usually brings in more cash. 64.8% across 2025.",
+            "chart": {
+              "id": "story",
+              "label": "Cents of each operating dollar spent on the build",
+              "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+            },
+            "test": {
+              "id": "p14-t02",
+              "url": "https://deepstack.ltd/docket/#test-p14-t02"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:25:33.467Z"
+          }
+        },
+        {
+          "id": "p14-n2",
+          "value": "137.8%",
+          "label": "Amazon's purchases of property and equipment against its operating cash, first half of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n2",
+          "provenance": {
+            "unit": "percent of operating cash",
+            "universe": "Amazon: purchases of property and equipment, gross of proceeds from sales and incentives, against net cash provided by operating activities",
+            "period": "January to June 2026",
+            "source": {
+              "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for Amazon",
+              "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "Purchases of $98.4B divided by operating cash of $71.4B, six months to June 30, 2026.",
+            "limits": "Amazon's own measure nets out equipment sales and incentives and shows a smaller gap; finance leases are not counted. 94.5% across 2025.",
+            "chart": {
+              "id": "story",
+              "label": "Cents of each operating dollar spent on the build",
+              "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+            },
+            "test": {
+              "id": "p14-t02",
+              "url": "https://deepstack.ltd/docket/#test-p14-t02"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:25:33.467Z"
+          }
+        },
+        {
+          "id": "p14-n3",
+          "value": "$35.4B",
+          "label": "Microsoft's operating cash left after purchases of property and equipment, first half of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n3",
+          "provenance": {
+            "unit": "US dollars",
+            "universe": "Microsoft: net cash provided by operating activities less purchases of property and equipment",
+            "period": "January to June 2026 (Microsoft's fiscal third and fourth quarters of 2026)",
+            "source": {
+              "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for Microsoft",
+              "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "Operating cash of $102.1B less purchases of $66.7B; each fiscal quarter the later cumulative figure less the earlier one.",
+            "limits": "Purchases exclude finance leases, which Microsoft also uses for data centers; 65.3 cents spent per operating dollar.",
+            "chart": {
+              "id": "story",
+              "label": "Cents of each operating dollar spent on the build",
+              "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+            },
+            "test": null,
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:25:33.467Z"
+          }
+        },
+        {
+          "id": "p14-n4",
+          "value": "-$5.9B",
+          "label": "Alphabet's free cash flow, second quarter of 2026",
+          "context": "Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n4",
+          "provenance": {
+            "unit": "US dollars",
+            "universe": "Alphabet: net cash provided by operating activities less purchases of property and equipment, the free cash flow definition Alphabet uses",
+            "period": "April to June 2026",
+            "source": {
+              "label": "Alphabet, second quarter 2026 results, Form 8-K Exhibit 99.1, July 22, 2026",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+            },
+            "asOf": "2026-07-22",
+            "transformation": "Operating cash of $39.1B less purchases of $44.9B, as published.",
+            "limits": "One quarter; the first quarter of 2026 was positive at $10.1B, and the September quarter usually brings in more cash.",
+            "chart": null,
+            "test": {
+              "id": "p14-t01",
+              "url": "https://deepstack.ltd/docket/#test-p14-t01"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:25:33.467Z"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Market Sentiment - Is the capex sustainable?",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable"
+        },
+        {
+          "label": "Hayden Capital - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260"
+        },
+        {
+          "label": "U.S. Securities and Exchange Commission - EDGAR XBRL company data",
+          "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+        },
+        {
+          "label": "Alphabet - Second quarter 2026 results (Form 8-K, Exhibit 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+        },
+        {
+          "label": "Amazon - Second quarter 2026 results",
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report"
+        },
+        {
+          "label": "Microsoft - Fourth quarter fiscal 2026 results",
+          "url": "https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4/"
+        },
+        {
+          "label": "Aurelion Research - In Conversation: NVIDIA",
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia"
+        },
+        {
+          "label": "Oguz Erkan, Capitalist Letters - META Deep Dive: Opportunity or a Trap?",
+          "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap"
+        },
+        {
+          "label": "Invest In Assets - Factsheet July 2026",
+          "url": "https://www.investinassets.net/p/factsheet-july-2026"
+        },
+        {
+          "label": "Invest In Assets - Why I'm Bullish on Amazon",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon"
+        },
+        {
+          "label": "Ed Elson, Prof G Markets - Plastic Surgery",
+          "url": "https://www.profgmedia.com/p/plastic-surgery"
+        },
+        {
+          "label": "Meta - Second quarter 2026 results",
+          "url": "https://www.prnewswire.com/news-releases/meta-reports-second-quarter-2026-results-302838214.html"
+        },
+        {
+          "label": "JunkBondInvestor - Credit Weekly: What If They Just Keep Borrowing?",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep"
+        },
+        {
+          "label": "Torsten Slok, Apollo - From a Savings Glut to a Savings Shortage",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage"
+        },
+        {
+          "label": "Torsten Slok, Apollo - Tech's Trillion-Dollar Internal Inconsistency",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency"
+        },
+        {
+          "label": "Torsten Slok, Apollo - Hyperscaler Credit Rests on One Consensus Assumption",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption"
+        },
+        {
+          "label": "Market Sentiment - The next great AI trade is everything that isn't AI",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything"
+        },
+        {
+          "label": "Daniel Romero, HyperTech Invest - The Math Behind the Next AI Rally",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+        },
+        {
+          "label": "Michael Spencer, AI Supremacy - AI off the Charts II",
+          "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary"
+        },
+        {
+          "label": "Longriver Investment Partners - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683"
+        },
+        {
+          "label": "First Pacific Advisors - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/first-pacific-advisors-lp-q2-2026-fscl_document_9KDV3DNH810"
+        },
+        {
+          "label": "Kingswell - The Berkshire Beat: July 24, 2026",
+          "url": "https://www.kingswell.io/p/the-berkshire-beat-july-24-2026"
+        },
+        {
+          "label": "Oguz Erkan, Capitalist Letters - It's Time To Be Bullish On Compute, Again",
+          "url": "https://www.capitalist-letters.com/p/its-time-to-be-bullish-on-compute"
+        },
+        {
+          "label": "Alphabet - Date of third quarter 2026 results",
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+        },
+        {
+          "label": "Microsoft - Quarterly earnings release date",
+          "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/"
+        }
+      ],
+      "earlierVersion": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "corrections": []
     }
   ]

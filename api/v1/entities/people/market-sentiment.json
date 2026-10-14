@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "market-sentiment",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/market-sentiment/",
   "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-  "summary": "Market Sentiment is named in 5 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
+  "summary": "Market Sentiment is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
   "parts": [
     {
       "part": 3,
@@ -33,6 +33,11 @@
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -78,6 +83,18 @@
       "section": "The bill no state can shield",
       "excerpt": "Market Sentiment, on July 10, read two moves of January 2026 as the end of the best case it had modeled for the power companies it follows: the governors of all 13 PJM states declared with the administration that data centers pay their grid costs, and the auction's price ceiling was extended to 2030.",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "section": "Lede",
+      "excerpt": "On August 8, Market Sentiment set the bar for the three largest clouds: roughly $600 billion of capital spending in 2026 needs about $960 billion of cloud revenue, against a combined run-rate it put near $380 billion and growing more than 40% a year.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "section": "The buyers have not paid yet",
+      "excerpt": "Market Sentiment read the gap the other way on September 17: next year's $1.2 trillion or more of AI spending should drive about $2 trillion of incremental revenue.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [

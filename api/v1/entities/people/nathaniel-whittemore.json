@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "nathaniel-whittemore",
+  "name": "Nathaniel Whittemore",
+  "role": null,
+  "url": "https://deepstack.ltd/people/nathaniel-whittemore/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/nathaniel-whittemore.json",
+  "summary": "Nathaniel Whittemore is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The buyers have not paid yet).",
+  "parts": [
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 54,
+    "texts": 6,
+    "asOf": "2026-10-14"
+  },
+  "lastUpdated": "2026-10-14"
+}

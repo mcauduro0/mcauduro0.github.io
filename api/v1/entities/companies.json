@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
@@ -91,7 +91,7 @@
       "ticker": "GOOGL",
       "url": "https://deepstack.ltd/companies/alphabet/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-      "summary": "Alphabet is named in 11 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
+      "summary": "Alphabet is named in 12 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 1,
@@ -147,6 +147,11 @@
           "part": 13,
           "headline": "The Ratepayer Pays First",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -156,6 +161,20 @@
           "context": "Hayden Capital; Q2, first negative since 2004 IPO",
           "part": 4,
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "-$5.9B",
+          "label": "Alphabet's free cash flow, second quarter of 2026",
+          "context": "Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "mentions": [
@@ -436,6 +455,66 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
           "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -467,7 +546,7 @@
       "ticker": "AMZN",
       "url": "https://deepstack.ltd/companies/amazon/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-      "summary": "Amazon is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "Amazon is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 3,
@@ -508,9 +587,29 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
-      "numbers": [],
+      "numbers": [
+        {
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "137.8%",
+          "label": "Amazon's purchases of property and equipment against its operating cash, first half of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
       "mentions": [
         {
           "part": 3,
@@ -729,6 +828,90 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
+          "date": "2026-08-11",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscaler capex for 2027 tracks as high as 1.2 trillion dollars with about 400 billion of debt issuance penciled for next year; AI-related paper doubled from about 3 percent to 6 percent of the investment-grade index in a year, Amazon became the…",
+          "date": "2026-08-09",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -815,7 +998,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/anthropic/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/anthropic.json",
-      "summary": "Anthropic is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "Anthropic is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 1,
@@ -861,6 +1044,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -1298,6 +1486,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -1316,7 +1516,7 @@
       "ticker": "APO",
       "url": "https://deepstack.ltd/companies/apollo-global-management/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-      "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "Apollo Global Management is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 1,
@@ -1362,6 +1562,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -1459,6 +1664,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -2305,6 +2522,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+          "date": "2026-08-06",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -2960,7 +3189,7 @@
       "ticker": "META",
       "url": "https://deepstack.ltd/companies/meta/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/meta.json",
-      "summary": "Meta is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "Meta is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 4,
@@ -3006,6 +3235,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -3022,6 +3256,13 @@
           "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
           "part": 11,
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "mentions": [
@@ -3266,6 +3507,66 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Meta is moving toward the upper end of its $130-145bn capex range, fueling broader market concerns about negative free cash flow and the lack of clear returns on massive AI investments.",
+          "date": "2026-08-01",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -3350,7 +3651,7 @@
       "ticker": "MSFT",
       "url": "https://deepstack.ltd/companies/microsoft/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-      "summary": "Microsoft is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "Microsoft is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 2,
@@ -3396,6 +3697,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -3405,6 +3711,20 @@
           "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
           "part": 11,
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "$35.4B",
+          "label": "Microsoft's operating cash left after purchases of property and equipment, first half of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar",
+          "part": 14,
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "mentions": [
@@ -3553,6 +3873,54 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -4466,7 +4834,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/openai/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/openai.json",
-      "summary": "OpenAI is named in 10 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+      "summary": "OpenAI is named in 11 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 2,
@@ -4517,6 +4885,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -5024,6 +5397,54 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Kakashii estimates that after excluding roughly 200B of legacy and non-AI RPO (including ByteDance's U.S. datacenter deal), Oracle's remaining RPO of 464B is attributable to AI Compute Cloud, of which close to 300B-350B is attributed to OpenAI…",
+          "date": "2026-09-24",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+          "date": "2026-10-09",
+          "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+          "date": "2026-10-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+          "date": "2026-10-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -5042,7 +5463,7 @@
       "ticker": "ORCL",
       "url": "https://deepstack.ltd/companies/oracle/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-      "summary": "Oracle is named in 6 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
+      "summary": "Oracle is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 3,
@@ -5073,6 +5494,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [
@@ -5218,6 +5644,54 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Given the cost for compute, Meta's free cash flow is going to crater in 2027 to a very suspect degree, and like Oracle, betting on a product tied to accelerating compute demand at any cost is borderline insane to Michael Spencer.",
+          "date": "2026-09-29",
+          "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+          "date": "2026-08-06",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -5611,6 +6085,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Although SpaceX reports AI infrastructure payback periods of less than one year, maintaining a one-year payback across the entire hypothetical 2027 buildout would require $1.9-2.28 trillion in annual compute payments, and if AI labs footed that…",
+          "date": "2026-09-21",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {

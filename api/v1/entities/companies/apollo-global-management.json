@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "apollo-global-management",
@@ -7,7 +7,7 @@
   "ticker": "APO",
   "url": "https://deepstack.ltd/companies/apollo-global-management/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-  "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+  "summary": "Apollo Global Management is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
   "parts": [
     {
       "part": 1,
@@ -53,6 +53,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [
@@ -150,6 +155,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

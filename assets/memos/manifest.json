@@ -75,11 +75,11 @@
     "habit-was-the-moat": {
       "part": 9,
       "slug": "habit-was-the-moat",
-      "hash": "c2201684c9b0db74bee73e9e342a4945610947efc2403e8faea7a4e050b4ec4f",
-      "bytes": 336137,
+      "hash": "77aa1c166f4f36ea9ffb9fc36becb2d584e1f6796ae9adef0068894af3ba7f65",
+      "bytes": 336134,
       "pages": 10,
       "paper": "letter",
-      "printedOn": "2026-10-13"
+      "printedOn": "2026-10-14"
     },
     "the-bubble-is-in-the-denominator": {
       "part": 10,
@@ -93,11 +93,11 @@
     "the-backlog-is-not-the-quarter": {
       "part": 11,
       "slug": "the-backlog-is-not-the-quarter",
-      "hash": "557bb915ba664728a0227a633e28d704099c19a835b812dd45efbcf94c4d52d0",
-      "bytes": 329501,
+      "hash": "d99d81c4685e5ce1dcdf78e8e9b05c65bea1b68a0937a3959a1169c977144d4f",
+      "bytes": 329304,
       "pages": 10,
       "paper": "letter",
-      "printedOn": "2026-10-13"
+      "printedOn": "2026-10-14"
     },
     "the-model-is-not-the-price": {
       "part": 12,
@@ -116,6 +116,15 @@
       "pages": 10,
       "paper": "letter",
       "printedOn": "2026-10-13"
+    },
+    "the-cash-arrives-unevenly": {
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "hash": "ad8099a6a342b1e6334181421d5fc110fff63727eeb9715f03ead308c355e0ce",
+      "bytes": 377770,
+      "pages": 13,
+      "paper": "letter",
+      "printedOn": "2026-10-14"
     }
   },
   "generatedBy": "scripts/memo.mjs"

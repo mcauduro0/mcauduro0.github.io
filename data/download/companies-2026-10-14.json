@@ -53,7 +53,7 @@
     "slug": "alphabet",
     "name": "Alphabet",
     "ticker": "GOOGL",
-    "summary": "Alphabet is named in 11 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
+    "summary": "Alphabet is named in 12 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       1,
       3,
@@ -65,7 +65,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ],
     "numbers": [
       {
@@ -73,6 +74,18 @@
         "label": "Alphabet Q2 free cash flow",
         "context": "Hayden Capital; Q2, first negative since 2004 IPO",
         "part": 4
+      },
+      {
+        "value": "96.1%",
+        "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+        "part": 14
+      },
+      {
+        "value": "-$5.9B",
+        "label": "Alphabet's free cash flow, second quarter of 2026",
+        "context": "Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases",
+        "part": 14
       }
     ],
     "mentions": [
@@ -324,6 +337,61 @@
         "date": "2026-10-06",
         "url": "https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai#p3",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Hayden Capital",
+        "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+        "date": "2026-08-27",
+        "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Dylan Patel",
+        "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+        "date": "2026-08-25",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Ed Elson",
+        "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+        "date": "2026-08-11",
+        "url": "https://www.profgmedia.com/p/plastic-surgery",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -339,7 +407,7 @@
     "slug": "amazon",
     "name": "Amazon",
     "ticker": "AMZN",
-    "summary": "Amazon is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Amazon is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       3,
       4,
@@ -348,9 +416,23 @@
       9,
       10,
       11,
-      12
+      12,
+      14
     ],
-    "numbers": [],
+    "numbers": [
+      {
+        "value": "96.1%",
+        "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+        "part": 14
+      },
+      {
+        "value": "137.8%",
+        "label": "Amazon's purchases of property and equipment against its operating cash, first half of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
+        "part": 14
+      }
+    ],
     "mentions": [
       {
         "part": 3,
@@ -545,6 +627,83 @@
         "date": "2026-10-05",
         "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Invest in Assets",
+        "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
+        "date": "2026-08-11",
+        "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Hayden Capital",
+        "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+        "date": "2026-08-27",
+        "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Dylan Patel",
+        "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+        "date": "2026-08-25",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Ed Elson",
+        "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+        "date": "2026-08-11",
+        "url": "https://www.profgmedia.com/p/plastic-surgery",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "JunkBondInvestor",
+        "claim": "Hyperscaler capex for 2027 tracks as high as 1.2 trillion dollars with about 400 billion of debt issuance penciled for next year; AI-related paper doubled from about 3 percent to 6 percent of the investment-grade index in a year, Amazon became the…",
+        "date": "2026-08-09",
+        "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -593,7 +752,7 @@
     "slug": "anthropic",
     "name": "Anthropic",
     "ticker": null,
-    "summary": "Anthropic is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Anthropic is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       1,
       2,
@@ -603,7 +762,8 @@
       7,
       8,
       10,
-      12
+      12,
+      14
     ],
     "numbers": [
       {
@@ -996,6 +1156,17 @@
         "date": "2026-09-11",
         "url": "https://www.ai-supremacy.com/p/ai-insights-is-ai-adoption-slowing-down-ai-risk-debate",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -1011,7 +1182,7 @@
     "slug": "apollo-global-management",
     "name": "Apollo Global Management",
     "ticker": "APO",
-    "summary": "Apollo Global Management is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Apollo Global Management is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       1,
       4,
@@ -1021,7 +1192,8 @@
       9,
       10,
       11,
-      12
+      12,
+      14
     ],
     "numbers": [
       {
@@ -1099,6 +1271,17 @@
         "question": null,
         "side": "funded-not-forecast",
         "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
         "voice": "Torsten Slok",
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
@@ -1627,6 +1810,17 @@
         "date": "2026-09-28",
         "url": "https://michaeljburry.substack.com/p/short-thoughts-a-wall-street-titan",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Oguz Erkan",
+        "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+        "date": "2026-08-06",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -2048,7 +2242,7 @@
     "slug": "meta",
     "name": "Meta",
     "ticker": "META",
-    "summary": "Meta is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Meta is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       4,
       5,
@@ -2058,7 +2252,8 @@
       9,
       10,
       11,
-      12
+      12,
+      14
     ],
     "numbers": [
       {
@@ -2072,6 +2267,12 @@
         "label": "Meta's residual-value guarantee on its data-center venture",
         "context": "Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash",
         "part": 11
+      },
+      {
+        "value": "96.1%",
+        "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+        "part": 14
       }
     ],
     "mentions": [
@@ -2290,6 +2491,61 @@
         "date": "2026-09-20",
         "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Hayden Capital",
+        "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+        "date": "2026-08-27",
+        "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Dylan Patel",
+        "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+        "date": "2026-08-25",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Guinness Global Investors",
+        "claim": "Meta is moving toward the upper end of its $130-145bn capex range, fueling broader market concerns about negative free cash flow and the lack of clear returns on massive AI investments.",
+        "date": "2026-08-01",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -2336,7 +2592,7 @@
     "slug": "microsoft",
     "name": "Microsoft",
     "ticker": "MSFT",
-    "summary": "Microsoft is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Microsoft is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       2,
       3,
@@ -2346,7 +2602,8 @@
       8,
       10,
       11,
-      12
+      12,
+      14
     ],
     "numbers": [
       {
@@ -2354,6 +2611,18 @@
         "label": "Growth in Microsoft's backlog due beyond one year",
         "context": "Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%",
         "part": 11
+      },
+      {
+        "value": "96.1%",
+        "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+        "part": 14
+      },
+      {
+        "value": "$35.4B",
+        "label": "Microsoft's operating cash left after purchases of property and equipment, first half of 2026",
+        "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar",
+        "part": 14
       }
     ],
     "mentions": [
@@ -2479,6 +2748,50 @@
         "question": null,
         "side": "funded-not-forecast",
         "sideLabel": "Funded, not forecast",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Hayden Capital",
+        "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+        "date": "2026-08-27",
+        "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Dylan Patel",
+        "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+        "date": "2026-08-25",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
         "voice": "Torsten Slok",
         "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
         "date": "2026-09-21",
@@ -3129,7 +3442,7 @@
     "slug": "openai",
     "name": "OpenAI",
     "ticker": null,
-    "summary": "OpenAI is named in 10 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "OpenAI is named in 11 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       2,
       3,
@@ -3140,7 +3453,8 @@
       9,
       10,
       11,
-      12
+      12,
+      14
     ],
     "numbers": [
       {
@@ -3598,6 +3912,50 @@
         "date": null,
         "url": "https://www.shrubstack.com/p/uncomfortable-truths",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Kakashii",
+        "claim": "Kakashii estimates that after excluding roughly 200B of legacy and non-AI RPO (including ByteDance's U.S. datacenter deal), Oracle's remaining RPO of 464B is attributable to AI Compute Cloud, of which close to 300B-350B is attributed to OpenAI…",
+        "date": "2026-09-24",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Michael Spencer",
+        "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+        "date": "2026-10-09",
+        "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Nathaniel Whittemore",
+        "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+        "date": "2026-10-09",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Nathaniel Whittemore",
+        "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+        "date": "2026-10-09",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -3613,14 +3971,15 @@
     "slug": "oracle",
     "name": "Oracle",
     "ticker": "ORCL",
-    "summary": "Oracle is named in 6 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter.",
+    "summary": "Oracle is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
     "parts": [
       3,
       4,
       5,
       6,
       8,
-      11
+      11,
+      14
     ],
     "numbers": [
       {
@@ -3747,6 +4106,50 @@
         "date": "2026-09-11",
         "url": "https://realeismanplaybook.substack.com/p/ai-terminator-fears-grow-and-rates",
         "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-cash-still-covers-it",
+        "sideLabel": "The cash still covers it",
+        "voice": "Harley Bassman",
+        "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-bill-has-moved-to-debt",
+        "sideLabel": "The bill has moved to debt",
+        "voice": "Michael Spencer",
+        "claim": "Given the cost for compute, Meta's free cash flow is going to crater in 2027 to a very suspect degree, and like Oracle, betting on a product tied to accelerating compute demand at any cost is borderline insane to Michael Spencer.",
+        "date": "2026-09-29",
+        "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
+        "voice": "Torsten Slok",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Oguz Erkan",
+        "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+        "date": "2026-08-06",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -4015,6 +4418,17 @@
         "question": null,
         "side": "the-filing-sets-the-price",
         "sideLabel": "The filing sets the price",
+        "voice": "Daniel Romero",
+        "claim": "Although SpaceX reports AI infrastructure payback periods of less than one year, maintaining a one-year payback across the entire hypothetical 2027 buildout would require $1.9-2.28 trillion in annual compute payments, and if AI labs footed that…",
+        "date": "2026-09-21",
+        "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+        "linkVerified": true
+      },
+      {
+        "part": 14,
+        "question": null,
+        "side": "the-buyers-have-not-paid-yet",
+        "sideLabel": "The buyers have not paid yet",
         "voice": "Daniel Romero",
         "claim": "Although SpaceX reports AI infrastructure payback periods of less than one year, maintaining a one-year payback across the entire hypothetical 2027 buildout would require $1.9-2.28 trillion in annual compute payments, and if AI labs footed that…",
         "date": "2026-09-21",

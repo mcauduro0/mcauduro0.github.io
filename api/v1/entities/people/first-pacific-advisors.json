@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "first-pacific-advisors",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/first-pacific-advisors/",
   "api": "https://deepstack.ltd/api/v1/entities/people/first-pacific-advisors.json",
-  "summary": "First Pacific Advisors is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
+  "summary": "First Pacific Advisors is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (The return is not there), Part 14 (The buyers have not paid yet).",
   "parts": [
     {
       "part": 4,
@@ -18,6 +18,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -33,6 +38,12 @@
       "section": "The filing sets the price",
       "excerpt": "First Pacific Advisors LP, on July 30, projected global AI spending of $2.59 trillion in 2026 and counted $207 billion a year of after-tax income for even a low return, which its managers call improbable.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The buyers have not paid yet",
+      "excerpt": "First Pacific Advisors counted on July 30 that $2.59 trillion of AI spending in 2026 would need $207 billion a year of after-tax income from the start to earn even a low return.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -59,6 +70,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
       "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "They are uncertain about the sustainability of the current and projected level of AI capital spending and the prospect of it generating reasonable returns on the aggregate investment.",
+      "date": "2026-08-17",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

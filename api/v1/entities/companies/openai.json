@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "openai",
@@ -7,7 +7,7 @@
   "ticker": null,
   "url": "https://deepstack.ltd/companies/openai/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/openai.json",
-  "summary": "OpenAI is named in 10 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+  "summary": "OpenAI is named in 11 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
   "parts": [
     {
       "part": 2,
@@ -58,6 +58,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [
@@ -565,6 +570,54 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Kakashii estimates that after excluding roughly 200B of legacy and non-AI RPO (including ByteDance's U.S. datacenter deal), Oracle's remaining RPO of 464B is attributable to AI Compute Cloud, of which close to 300B-350B is attributed to OpenAI…",
+      "date": "2026-09-24",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+      "date": "2026-10-09",
+      "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

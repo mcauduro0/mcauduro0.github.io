@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "bronte-capital",
+  "name": "Bronte Capital",
+  "role": "Bronte Capital Management Pty Limited",
+  "url": "https://deepstack.ltd/people/bronte-capital/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/bronte-capital.json",
+  "summary": "Bronte Capital is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The buyers have not paid yet).",
+  "parts": [
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "They say it remains uncertain to them how likely it is that AI spending dramatically slows as Wall Street and the AI funders realise they cannot get a return.",
+      "date": "2026-09-08",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "They conclude either the AI companies will not earn a return on the trillions they are spending, or they will earn it at the cost of very large short-term unemployment, or most likely a combination of both.",
+      "date": "2026-09-08",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 62,
+    "texts": 6,
+    "asOf": "2026-10-14"
+  },
+  "lastUpdated": "2026-10-14"
+}

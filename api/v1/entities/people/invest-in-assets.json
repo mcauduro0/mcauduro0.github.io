@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "invest-in-assets",
@@ -7,7 +7,7 @@
   "role": "Invest in Quality",
   "url": "https://deepstack.ltd/people/invest-in-assets/",
   "api": "https://deepstack.ltd/api/v1/entities/people/invest-in-assets.json",
-  "summary": "Invest in Assets is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 1 (Insatiable), Part 9 (Not every habit).",
+  "summary": "Invest in Assets is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it).",
   "parts": [
     {
       "part": 1,
@@ -18,6 +18,11 @@
       "part": 9,
       "headline": "Habit Was the Moat. Agents Are Draining It.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -39,6 +44,18 @@
       "section": "What software keeps",
       "excerpt": "Intuit is the test: Invest in Assets says its moat is “trust, compliance complexity, and habit, not just software,” because a tax mistake costs more than the software.",
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+    },
+    {
+      "part": 14,
+      "section": "The cash still covers it",
+      "excerpt": "Invest In Assets read the market on August 5 as rewarding Amazon's raised guidance of roughly $220 billion, because Amazon was showing returns on what it spends.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "section": "Four wallets, one ruler",
+      "excerpt": "The roughly $220 billion Invest In Assets cited for Amazon on August 5 leaves more than $120 billion after $98.4 billion, against about $130 billion of operating cash at its first-half growth of 44%.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -77,6 +94,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
       "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Citing management's account of two distinct capital cycles, roughly two years of data center construction before any revenue against 30-plus years of monetization, and about three years to break even on servers with a five to six year life, Invest…",
+      "date": "2026-08-11",
+      "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
+      "date": "2026-08-11",
+      "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

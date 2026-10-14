@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "guinness-global-investors",
+  "name": "Guinness Global Investors",
+  "role": null,
+  "url": "https://deepstack.ltd/people/guinness-global-investors/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/guinness-global-investors.json",
+  "summary": "Guinness Global Investors is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt).",
+  "parts": [
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "The AI investment cycle is entering a new phase focused on economic returns rather than just capital expenditure.",
+      "date": "2026-08-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "Meta is moving toward the upper end of its $130-145bn capex range, fueling broader market concerns about negative free cash flow and the lack of clear returns on massive AI investments.",
+      "date": "2026-08-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 645,
+    "texts": 72,
+    "asOf": "2026-10-14"
+  },
+  "lastUpdated": "2026-10-14"
+}

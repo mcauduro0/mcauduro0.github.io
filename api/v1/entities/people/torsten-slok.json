@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "torsten-slok",
@@ -7,7 +7,7 @@
   "role": "Apollo",
   "url": "https://deepstack.ltd/people/torsten-slok/",
   "api": "https://deepstack.ltd/api/v1/entities/people/torsten-slok.json",
-  "summary": "Torsten Slok is named in 6 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
+  "summary": "Torsten Slok is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides).",
   "parts": [
     {
       "part": 6,
@@ -38,6 +38,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -89,6 +94,12 @@
       "section": "Open weights set the price",
       "excerpt": "Torsten Slok of Apollo put the gap at about four months on July 16, citing the Epoch Capabilities Index.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The bill has moved to debt",
+      "excerpt": "Torsten Slok of Apollo wrote on September 12 that the spenders had raised every dollar they sought, at a rising price: spreads on their longest bonds had widened, and most of their 2026 issues traded wider than at sale.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -187,6 +198,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-buyers-have-not-paid-yet",
+      "sideLabel": "The buyers have not paid yet",
+      "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "In the data center buildout, hyperscalers have been able to raise all the capital they have asked for, but they are paying more for it: spreads on their longest-dated bonds have widened, and most 2026-issued paper trades wider today than where it…",
+      "date": "2026-09-12",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The credit story for hyperscalers depends on a single consensus assumption that operating cash flow triples from $600 billion to $2 trillion.",
+      "date": "2026-09-21",
+      "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

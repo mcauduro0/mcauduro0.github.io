@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/data/#every-number",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/numbers.json",
   "title": "The key numbers of The Buildout",
   "rule": "A key number carries its provenance once the owner approved it: the unit, the universe it counts, the period, the public source and the date it was read, the transformation applied, its limits, and the chart and the test it feeds. Until then the number prints with its label and context only.",
-  "count": 52,
-  "withSource": 52,
+  "count": 56,
+  "withSource": 56,
   "numbers": [
     {
       "id": "p01-n1",
@@ -1738,6 +1738,135 @@
         "call": false,
         "approvedBy": "Marco Cauduro",
         "approvedAt": "2026-10-11T16:29:37.910Z"
+      }
+    },
+    {
+      "id": "p14-n1",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 0,
+      "value": "96.1%",
+      "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+      "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n1",
+      "provenance": {
+        "unit": "percent of operating cash",
+        "universe": "Microsoft, Alphabet, Amazon and Meta combined: purchases of property and equipment against net cash provided by operating activities (Amazon's gross purchases line); Oracle left out",
+        "period": "April to June 2026 (the calendar second quarter; Microsoft's fiscal fourth quarter of 2026)",
+        "source": {
+          "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for the four companies",
+          "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "The four purchases ($165.1B) divided by the four operating figures ($171.8B); a quarter given only year to date is the later cumulative figure less the earlier one.",
+        "limits": "Purchases exclude finance leases; Amazon's gross line runs above its own net measure; one quarter, and the September quarter usually brings in more cash. 64.8% across 2025.",
+        "chart": {
+          "id": "story",
+          "label": "Cents of each operating dollar spent on the build",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+        },
+        "test": {
+          "id": "p14-t02",
+          "url": "https://deepstack.ltd/docket/#test-p14-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-12T22:25:33.467Z"
+      }
+    },
+    {
+      "id": "p14-n2",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 1,
+      "value": "137.8%",
+      "label": "Amazon's purchases of property and equipment against its operating cash, first half of 2026",
+      "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n2",
+      "provenance": {
+        "unit": "percent of operating cash",
+        "universe": "Amazon: purchases of property and equipment, gross of proceeds from sales and incentives, against net cash provided by operating activities",
+        "period": "January to June 2026",
+        "source": {
+          "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for Amazon",
+          "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "Purchases of $98.4B divided by operating cash of $71.4B, six months to June 30, 2026.",
+        "limits": "Amazon's own measure nets out equipment sales and incentives and shows a smaller gap; finance leases are not counted. 94.5% across 2025.",
+        "chart": {
+          "id": "story",
+          "label": "Cents of each operating dollar spent on the build",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+        },
+        "test": {
+          "id": "p14-t02",
+          "url": "https://deepstack.ltd/docket/#test-p14-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-12T22:25:33.467Z"
+      }
+    },
+    {
+      "id": "p14-n3",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 2,
+      "value": "$35.4B",
+      "label": "Microsoft's operating cash left after purchases of property and equipment, first half of 2026",
+      "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n3",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Microsoft: net cash provided by operating activities less purchases of property and equipment",
+        "period": "January to June 2026 (Microsoft's fiscal third and fourth quarters of 2026)",
+        "source": {
+          "label": "U.S. Securities and Exchange Commission, EDGAR XBRL company data for Microsoft",
+          "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "Operating cash of $102.1B less purchases of $66.7B; each fiscal quarter the later cumulative figure less the earlier one.",
+        "limits": "Purchases exclude finance leases, which Microsoft also uses for data centers; 65.3 cents spent per operating dollar.",
+        "chart": {
+          "id": "story",
+          "label": "Cents of each operating dollar spent on the build",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#story-chart-title"
+        },
+        "test": null,
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-12T22:25:33.467Z"
+      }
+    },
+    {
+      "id": "p14-n4",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 3,
+      "value": "-$5.9B",
+      "label": "Alphabet's free cash flow, second quarter of 2026",
+      "context": "Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#number-p14-n4",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "Alphabet: net cash provided by operating activities less purchases of property and equipment, the free cash flow definition Alphabet uses",
+        "period": "April to June 2026",
+        "source": {
+          "label": "Alphabet, second quarter 2026 results, Form 8-K Exhibit 99.1, July 22, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+        },
+        "asOf": "2026-07-22",
+        "transformation": "Operating cash of $39.1B less purchases of $44.9B, as published.",
+        "limits": "One quarter; the first quarter of 2026 was positive at $10.1B, and the September quarter usually brings in more cash.",
+        "chart": null,
+        "test": {
+          "id": "p14-t01",
+          "url": "https://deepstack.ltd/docket/#test-p14-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-12T22:25:33.467Z"
       }
     }
   ]

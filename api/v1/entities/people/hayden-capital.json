@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "hayden-capital",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/hayden-capital/",
   "api": "https://deepstack.ltd/api/v1/entities/people/hayden-capital.json",
-  "summary": "Hayden Capital is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (Voices that cross sides).",
+  "summary": "Hayden Capital is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides).",
   "parts": [
     {
       "part": 4,
       "headline": "AI Spending Has Met Its First Real Bill",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "The tape picks winners",
       "excerpt": "Hayden Capital’s second-quarter letter explains why the vote changed.",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 14,
+      "section": "Lede",
+      "excerpt": "Nineteen days later, Hayden Capital put the four largest spenders close to $800 billion for 2026 and wrote in its August 27 letter that their capital spending was about to overtake their internal cash flow, so that for the first time the gap would need outside capital.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [

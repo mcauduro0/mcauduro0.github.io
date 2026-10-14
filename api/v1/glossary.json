@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/glossary/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/glossary.json",
@@ -16,7 +16,8 @@
       "short": "Contracted revenue a company has not yet recognized; the filing's name for backlog.",
       "long": "Remaining performance obligations are the revenue a company is contracted to deliver but has not yet recognized. Filings split them into the part due within twelve months and the part due later; the split is the near book and the far book of Part 11.",
       "parts": [
-        11
+        11,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#remaining-performance-obligations"
     },
@@ -123,7 +124,8 @@
         3,
         5,
         6,
-        10
+        10,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#depreciation"
     },
@@ -162,7 +164,8 @@
         8,
         10,
         11,
-        12
+        12,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#capital-spending"
     },
@@ -264,7 +267,8 @@
         5,
         8,
         9,
-        11
+        11,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#free-cash-flow"
     },
@@ -308,7 +312,8 @@
         7,
         8,
         10,
-        13
+        13,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#spread"
     },
@@ -350,7 +355,8 @@
         8,
         10,
         11,
-        12
+        12,
+        14
       ],
       "url": "https://deepstack.ltd/glossary/#hyperscaler"
     },

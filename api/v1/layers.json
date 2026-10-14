@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/layers/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/layers.json",
@@ -42,6 +42,13 @@
           "date": "2026-09-29",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/",
           "api": "https://deepstack.ltd/api/v1/stories/the-scarcity-is-the-collateral.json"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "date": "2026-10-14",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json"
         }
       ],
       "questions": [
@@ -72,6 +79,13 @@
           "question": "Who writes the checks for the buildout?",
           "url": "https://deepstack.ltd/questions/who-writes-the-checks-for-the-buildout/",
           "api": "https://deepstack.ltd/api/v1/questions/who-writes-the-checks-for-the-buildout.json"
+        },
+        {
+          "slug": "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
+          "headline": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+          "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+          "url": "https://deepstack.ltd/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out/",
+          "api": "https://deepstack.ltd/api/v1/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out.json"
         }
       ],
       "indicators": [
@@ -102,6 +116,13 @@
           "label": "Oracle five-year CDS",
           "context": "Record that week, according to Seeking Alpha",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/#numbers"
+        },
+        {
+          "part": 14,
+          "value": "96.1%",
+          "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
+          "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#numbers"
         }
       ],
       "nextTests": [
@@ -116,6 +137,18 @@
           "status": "pending",
           "stage": "pre",
           "url": "https://deepstack.ltd/docket/#test-p08-t01"
+        },
+        {
+          "part": 14,
+          "id": "p14-t01",
+          "label": "Next test",
+          "when": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p14-t01"
         },
         {
           "part": 3,
@@ -154,7 +187,7 @@
           "url": "https://deepstack.ltd/docket/#test-p04-t01"
         }
       ],
-      "tests": 18,
+      "tests": 22,
       "results": 1
     },
     {

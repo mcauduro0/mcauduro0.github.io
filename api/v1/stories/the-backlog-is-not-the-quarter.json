@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -283,7 +283,13 @@
     }
   ],
   "earlierVersion": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2026-10-14",
+      "text": "An earlier version dated Oracle's second-quarter report December 9, 2026, the day of the Fed's December decision. Oracle's investor relations page dates it December 14, 2026.",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#correction-1"
+    }
+  ],
   "wordCount": 2428,
   "pullQuote": "The backlog is not the quarter. It is the list of quarters still to be earned.",
   "verdict": "DeepStack's view is that the orders are real and the near book will ship. Prepaid and supply-constrained demand converts into revenue at the pace of capacity, and nothing in these reports suggests capacity will sit idle in the third quarter. The single most important reason for caution is that profit arrives later than revenue. Between the order and the margin sit ramps absorbing fixed costs ahead of volume, payment terms stretched to a year, revenue deferred until a deployment is complete, a far book outgrowing the near one three to one, and assets whose life the buyers' own lenders now cover with guarantees. DeepStack expects the third-quarter reports to confirm the shipments and to show margin lagging the ramp; the margin reading is the house's, drawn from the suppliers' own targets and from Burry's case on asset life against Tae Kim's and Slok's. The view changes if Microsoft's within-a-year backlog grows as fast as the beyond-a-year book, if Nvidia's days sales outstanding give back the 14 days Eisman counted or its terms for investment-grade customers return to 90 days, or if Perma-Pipe, Lumentum and Coherent report their ramps at target margin. The first answer arrives October 28.",
@@ -374,7 +380,7 @@
     "This side's verified collisions sit on the life of the asset. Tae Kim's account of Huang has the GPU as durable. Burry's September 19 guide has a duration mismatch: data centers take three to five years to build while chips change their power and cooling requirements every 12 to 18 months, so today's scarcity pricing carries no guarantee that demand lasts long enough to justify it. Burry adds that purpose-built capacity has no deep resale market, so capacity that is not needed gets written down, as Meta's 2022 charges show; Gaetano's September 15 answer is Meta's 2023 arithmetic, operating cash flow from $50.5 billion to $71.1 billion while capital spending fell, an example he says is not about AI. Burry's September 26 reading of Meta's chief financial officer, Susan Li, who called the assets long-lived and therefore flexible, is that they are far shorter-lived than the telecom grid that doomed the CLECs; the consensus Slok reports needs the assets to earn through 2030. Tae Kim's Huang has Nvidia harvesting cash from the buildout for buybacks. Eisman, on September 25, has the customers' side of the ledger: something like $700 billion of capex this year, free cash flow disappearing, and S&P cutting Oracle to BBB-minus.",
     "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit. Eisman says the same about the market: an inflection will come at which the results have to carry the proof. Gaetano's Marvell notes of September 12 give the funded side its timetable: near-packaged and co-packaged optics revenue begins in calendar 2027, with the large ramp in 2028 and 2029. Burry's point is that the customers at the end of it may not raise the money. Between the supplier's secured capacity and the lender's out-year commitment sit the third-quarter reports.",
     "October 28 supplies the first hard check. Microsoft, Alphabet, Meta and Vertiv report, and the Fed decides the same day. The number to track is the share of Microsoft's backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%. At Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted. Amazon follows on October 29 with the weighted life of its $496 billion book and free cash flow against the new debt.",
-    "Nvidia reports on November 18. Its days sales outstanding will show what a year of payment terms costs, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives. Oracle reports on December 9, the day of the Fed's last decision of the year: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028. Perma-Pipe's third quarter, in December, is the cleanest line of all: 40% to 50% of the backlog converting, gross margin moving toward 30%, no second write-off. The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time.",
+    "Nvidia reports on November 18. Its days sales outstanding will show what a year of payment terms costs, whether five customers still carry 70% of receivables, and whether guidance near 70% moves toward the unconstrained figure as supply arrives. Oracle reports on December 14: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028. Perma-Pipe's third quarter, in December, is the cleanest line of all: 40% to 50% of the backlog converting, gross margin moving toward 30%, no second write-off. The optics ramp has no date yet; Ciena, Lumentum and Coherent will each report in their own time.",
     "What would prove DeepStack wrong is a near book growing as fast as the far one, Nvidia's days sales outstanding giving back the 14 days Eisman counted or its terms returning to 90 days, and ramps reporting at target margin.",
     "Part eleven asks whether the orders turn into profit, and finds the answer on the calendar: the near book will ship, while the far book remains a promise. The margin comes after both. The backlog is not the quarter. It is the list of quarters still to be earned."
   ],
@@ -500,11 +506,11 @@
       "id": "p11-t03",
       "part": 11,
       "slug": "the-backlog-is-not-the-quarter",
-      "when": "December 9",
-      "whenLabel": "Dec 9, 2026",
-      "date": "2026-12-09",
+      "when": "December 14",
+      "whenLabel": "Dec 14, 2026",
+      "date": "2026-12-14",
       "precision": "day",
-      "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+      "event": "Oracle reports: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
       "status": "pending",
       "resultId": null,
       "sameAs": null,

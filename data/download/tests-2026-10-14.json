@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12.290Z",
+  "generatedAt": "2026-10-14T16:41:00.502Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -1564,10 +1564,10 @@
       "part": 11,
       "slug": "the-backlog-is-not-the-quarter",
       "index": 2,
-      "when": "December 9",
-      "date": "2026-12-09",
+      "when": "December 14",
+      "date": "2026-12-14",
       "precision": "day",
-      "event": "Oracle reports, on the day of the Fed's December decision: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
+      "event": "Oracle reports: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for a capex peak in fiscal 2027 and 2028.",
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -2028,6 +2028,163 @@
           }
         ],
         "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p14-t01",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 0,
+      "when": "October 28",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Take the three-month figures from the statement of cash flows in Alphabet's earnings release; if the release gives only year-to-date figures, use the nine-month figure less the six-month figure from the Form 10-Q. Divide purchases of property and equipment by net cash provided by operating activities. The answer is yes if the ratio is 80.0% or more; no if it is below 80.0%. Alphabet's own free cash flow line, finance leases and its spending guidance for the year are read alongside and do not decide the test.",
+        "question": "Did Alphabet's purchases of property and equipment for the quarter ended September 30, 2026 equal 80% or more of its net cash provided by operating activities for the same quarter?",
+        "source": {
+          "label": "SEC EDGAR, Alphabet filings (the earnings release on Form 8-K and the Form 10-Q for the quarter), CIK 0001652044",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+        },
+        "ambiguity": "Alphabet has scheduled the release for October 28, 2026. If neither the release nor a Form 10-Q states the quarter's cash flow figures on EDGAR by November 9, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p14-t02",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 1,
+      "when": "November 10",
+      "date": "2026-11-10",
+      "precision": "day",
+      "event": "The four's September-quarter reports on EDGAR: whether combined purchases of property and equipment topped combined operating cash, after 96.1% in the June quarter of 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read each company's statement of cash flows for the quarter; where a Form 10-Q gives only year-to-date figures, the quarter is the later cumulative figure less the earlier one from the same fiscal year (for Microsoft, the first quarter of its fiscal 2027). For Amazon, purchases are the gross line, before proceeds from sales and incentives. Sum the four purchases and the four operating figures. The answer is yes if combined purchases exceed combined net cash provided by operating activities; no if they are equal or lower. Each company's own ratio and free cash flow measure are read alongside and do not decide the test.",
+        "question": "Did the combined purchases of property and equipment of Microsoft, Alphabet, Amazon and Meta for the quarter ended September 30, 2026 exceed their combined net cash provided by operating activities for the same quarter?",
+        "source": {
+          "label": "SEC EDGAR, the Forms 10-Q of Microsoft, Alphabet, Amazon and Meta for the quarter (statements of cash flows; XBRL company facts)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the four Forms 10-Q is not on EDGAR by November 9, 2026, the filing deadline for large companies, the test is inconclusive on November 10, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a restated earlier quarter in the same filings is named in the Result and does not change the reading.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p14-t03",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 2,
+      "when": "February 12, 2027",
+      "date": "2027-02-12",
+      "precision": "day",
+      "event": "The 2027 budgets of Alphabet, Amazon and Meta: whether the midpoints sum to at least 25% more than the three spent in 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Each company's 2026 capital expenditures and its 2027 guidance are read as that company defines capital expenditures in the release or on the call that gives the guidance (for Meta, including principal payments on finance leases). A range counts at its midpoint; a single figure counts as given; a floor stated as at least or more than a figure counts at that figure. The answer is yes if the three 2027 figures sum to 1.25 times the three 2026 figures or more; no if the sum is below that. Microsoft gives no calendar-year figure and is not part of the test.",
+        "question": "Do the midpoints of the 2027 capital expenditure guidance that Alphabet, Amazon and Meta give with their fourth-quarter 2026 results sum to at least 25% more than the three companies' 2026 capital expenditures?",
+        "source": {
+          "label": "Investor-relations pages of Alphabet (abc.xyz/investor), Amazon (ir.aboutamazon.com) and Meta (investor.atmeta.com): fourth-quarter 2026 earnings releases and call transcripts",
+          "url": "https://abc.xyz/investor/"
+        },
+        "ambiguity": "If any of the three gives no 2027 figure by February 12, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is that company's first-quarter 2027 results, by May 15, 2027. Guidance revised after the first statement does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p14-t04",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "index": 3,
+      "when": "February 16, 2027",
+      "date": "2027-02-16",
+      "precision": "day",
+      "event": "The full year: whether the four's purchases topped their operating cash across calendar 2026, after 91.4% in the first half.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Sum, for each company, January 1 to December 31, 2026: Alphabet, Amazon and Meta from their annual statements of cash flows; Microsoft from the four quarters of its fiscal 2026 and 2027 that fall in the calendar year, each the later cumulative figure less the earlier one. For Amazon, purchases are the gross line, before proceeds from sales and incentives. The answer is yes if combined purchases exceed combined net cash provided by operating activities; no if they are equal or lower. Each company's own free cash flow measure is read alongside and does not decide the test.",
+        "question": "Did the combined purchases of property and equipment of Microsoft, Alphabet, Amazon and Meta for the four calendar quarters of 2026 exceed their combined net cash provided by operating activities for the same quarters?",
+        "source": {
+          "label": "SEC EDGAR, the 2026 annual reports (Form 10-K) of Alphabet, Amazon and Meta and Microsoft's Forms 10-K and 10-Q covering January to December 2026 (statements of cash flows; XBRL company facts)",
+          "url": "https://www.sec.gov/edgar/search/"
+        },
+        "ambiguity": "If any of the filings is not on EDGAR on February 16, 2027, the reading waits; if one is still missing on March 1, 2027, the annual-report deadline for large companies, the test is inconclusive, and the Result says what was read and what was missing; the next reading is March 15, 2027. Figures are read as first filed; a restated quarter is named in the Result and does not change the reading.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
       },
       "status": "pending",
       "resultId": null

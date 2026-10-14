@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "prof-g-markets",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/prof-g-markets/",
   "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-  "summary": "Prof G Markets is named in 7 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
+  "summary": "Prof G Markets is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
   "parts": [
     {
       "part": 4,
@@ -43,6 +43,11 @@
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -94,6 +99,12 @@
       "section": "The plant is late",
       "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "section": "The bill has moved to debt",
+      "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [],

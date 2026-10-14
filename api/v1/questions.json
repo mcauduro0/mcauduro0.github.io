@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
   "method": "How DeepStack settles a question",
   "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
-  "count": 13,
+  "count": 14,
   "questions": [
     {
       "slug": "is-the-marginal-buyer-of-ai-compute-real",
@@ -2290,6 +2290,176 @@
         "resultUrl": null
       },
       "relations": true
+    },
+    {
+      "slug": "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
+      "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+      "title": null,
+      "headline": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+      "url": "https://deepstack.ltd/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out/",
+      "api": "https://deepstack.ltd/api/v1/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Split",
+            "stance": "Only Microsoft pays with room to spare",
+            "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Divide capital spending by operating cash, company by company: in the first half of 2026 Microsoft spent 65.3%, Amazon 137.8%.",
+              "Hold free cash flow to one ruler: Meta's own measure gave $784 million for the June quarter of 2026; cash less purchases, $1.7 billion.",
+              "Read the financing section beside the spending line: Alphabet sold $49.6 billion of stock in June 2026, and Meta borrowed $24.9 billion."
+            ],
+            "flips": [
+              "Alphabet spends under 80 cents of each operating dollar in the September quarter: its cash is catching up with its build.",
+              "Microsoft's purchases pass 85% of its operating cash in the September quarter: even the strongest cloud stops paying its way.",
+              "The four's purchases top their operating cash for the September quarter or for 2026: the group stops paying, toward the debt side."
+            ],
+            "side": null,
+            "against": null,
+            "version": 2,
+            "updatedOn": "2026-10-14",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-14",
+                "stance": "Only Microsoft pays with room to spare",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-14",
+                "stance": "Only Microsoft pays with room to spare",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+                "side": null,
+                "reason": "Side named by the owner.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "nextTest": {
+              "id": "p14-t01",
+              "part": 14,
+              "slug": "the-cash-arrives-unevenly",
+              "when": "October 28",
+              "whenLabel": "Oct 28, 2026",
+              "date": "2026-10-28",
+              "precision": "day",
+              "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+              "status": "pending",
+              "resultId": null,
+              "sameAs": null,
+              "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-12T22:25:10Z",
+              "callProbability": 70,
+              "callProbabilityAt": "2026-10-12T22:25:10Z",
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "GOOGL",
+                "rule": "Take the three-month figures from the statement of cash flows in Alphabet's earnings release; if the release gives only year-to-date figures, use the nine-month figure less the six-month figure from the Form 10-Q. Divide purchases of property and equipment by net cash provided by operating activities. The answer is yes if the ratio is 80.0% or more; no if it is below 80.0%. Alphabet's own free cash flow line, finance leases and its spending guidance for the year are read alongside and do not decide the test.",
+                "question": "Did Alphabet's purchases of property and equipment for the quarter ended September 30, 2026 equal 80% or more of its net cash provided by operating activities for the same quarter?",
+                "source": {
+                  "label": "SEC EDGAR, Alphabet filings (the earnings release on Form 8-K and the Form 10-Q for the quarter), CIK 0001652044",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+                },
+                "ambiguity": "Alphabet has scheduled the release for October 28, 2026. If neither the release nor a Form 10-Q states the quarter's cash flow figures on EDGAR by November 9, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a later amendment does not reopen the test.",
+                "specState": "approved",
+                "specVersion": 1,
+                "specUpdatedOn": "2026-10-12",
+                "specHistory": [
+                  {
+                    "version": 1,
+                    "date": "2026-10-12",
+                    "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  }
+                ],
+                "callExpects": "yes"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p14-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p14-t01",
+        "part": 14,
+        "slug": "the-cash-arrives-unevenly",
+        "when": "October 28",
+        "whenLabel": "Oct 28, 2026",
+        "date": "2026-10-28",
+        "precision": "day",
+        "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+        "status": "pending",
+        "resultId": null,
+        "sameAs": null,
+        "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-12T22:25:10Z",
+        "callProbability": 70,
+        "callProbabilityAt": "2026-10-12T22:25:10Z",
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[0].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "GOOGL",
+          "rule": "Take the three-month figures from the statement of cash flows in Alphabet's earnings release; if the release gives only year-to-date figures, use the nine-month figure less the six-month figure from the Form 10-Q. Divide purchases of property and equipment by net cash provided by operating activities. The answer is yes if the ratio is 80.0% or more; no if it is below 80.0%. Alphabet's own free cash flow line, finance leases and its spending guidance for the year are read alongside and do not decide the test.",
+          "question": "Did Alphabet's purchases of property and equipment for the quarter ended September 30, 2026 equal 80% or more of its net cash provided by operating activities for the same quarter?",
+          "source": {
+            "label": "SEC EDGAR, Alphabet filings (the earnings release on Form 8-K and the Form 10-Q for the quarter), CIK 0001652044",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+          },
+          "ambiguity": "Alphabet has scheduled the release for October 28, 2026. If neither the release nor a Form 10-Q states the quarter's cash flow figures on EDGAR by November 9, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a later amendment does not reopen the test.",
+          "specState": "approved",
+          "specVersion": 1,
+          "specUpdatedOn": "2026-10-12",
+          "specHistory": [
+            {
+              "version": 1,
+              "date": "2026-10-12",
+              "reason": "First specification.",
+              "by": "Marco Cauduro"
+            }
+          ],
+          "callExpects": "yes"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p14-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch",
+        "resultUrl": null
+      },
+      "relations": false
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/people/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/people.json",
   "kind": "person",
-  "count": 91,
+  "count": 96,
   "note": "What each person argued, attributed and dated. No score, ranking or accuracy figure exists for anyone.",
   "people": [
     {
@@ -414,7 +414,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/aurelion-research/",
       "api": "https://deepstack.ltd/api/v1/entities/people/aurelion-research.json",
-      "summary": "Aurelion Research is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+      "summary": "Aurelion Research is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it).",
       "parts": [
         {
           "part": 4,
@@ -435,6 +435,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -468,6 +473,12 @@
           "section": "Shipping is not earning",
           "excerpt": "Aurelion Research's September 24 note on Fabrinet draws the side's line: the next step is converting new roles in near-packaged and co-packaged optics into volume, and the open question is whether the work becomes profit.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "section": "The cash still covers it",
+          "excerpt": "Aurelion Research noted on September 11 that the spenders' operating margins were still rising, giving them room to keep paying.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -530,6 +541,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Hyperscaler capex has come in more than 56% above what the market was forecasting a year ago, with spending estimates continuing to be revised upward without signs of slowing.",
+          "date": "2026-08-21",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -569,6 +592,57 @@
         "creators": 5,
         "claims": 43,
         "texts": 5,
+        "asOf": "2026-10-14"
+      },
+      "lastUpdated": "2026-10-14"
+    },
+    {
+      "kind": "person",
+      "slug": "bronte-capital",
+      "name": "Bronte Capital",
+      "role": "Bronte Capital Management Pty Limited",
+      "url": "https://deepstack.ltd/people/bronte-capital/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/bronte-capital.json",
+      "summary": "Bronte Capital is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The buyers have not paid yet).",
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "They say it remains uncertain to them how likely it is that AI spending dramatically slows as Wall Street and the AI funders realise they cannot get a return.",
+          "date": "2026-09-08",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "They conclude either the AI companies will not earn a return on the trillions they are spending, or they will earn it at the cost of very large short-term unemployment, or most likely a combination of both.",
+          "date": "2026-09-08",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 62,
+        "texts": 6,
         "asOf": "2026-10-14"
       },
       "lastUpdated": "2026-10-14"
@@ -775,7 +849,7 @@
       "role": "HyperTech Invest",
       "url": "https://deepstack.ltd/people/daniel-romero/",
       "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
-      "summary": "Daniel Romero is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+      "summary": "Daniel Romero is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
       "parts": [
         {
           "part": 5,
@@ -811,6 +885,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -874,6 +953,12 @@
           "section": "The filing sets the price",
           "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "Daniel Romero counted on September 21 that a one-year payback on a hypothetical 2027 buildout would take $1.9 trillion to $2.28 trillion a year in compute payments.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -1390,6 +1475,81 @@
       "lastUpdated": "2026-10-14"
     },
     {
+      "kind": "person",
+      "slug": "dylan-patel",
+      "name": "Dylan Patel",
+      "role": null,
+      "url": "https://deepstack.ltd/people/dylan-patel/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/dylan-patel.json",
+      "summary": "Dylan Patel is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides).",
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Headline AI CapEx figures of $40-50 billion cover only critical IT such as servers, networking, fiber, transceivers and optics, not the data center shells or power plants, which must be built ahead of time, so a 100-gigawatt-a-year build is much…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Labs have not yet reached the point where their own cash flows can fund the scale of CapEx required, since labs are projected to generate hundreds of billions in revenue next year while total CapEx across the compute supply chain will be well north…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "His current modeling has $5 trillion of credit-funded and $6 trillion of cash-funded infrastructure investment through 2029, and this is not enough compute relative to projected AI demand growth, so revenue per megawatt has to keep rising.",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        }
+      ],
+      "coverage": {
+        "creators": 5,
+        "claims": 886,
+        "texts": 90,
+        "asOf": "2026-10-14"
+      },
+      "lastUpdated": "2026-10-14"
+    },
+    {
       "kind": "organization",
       "slug": "earthjustice",
       "name": "Earthjustice",
@@ -1442,12 +1602,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/ed-elson/",
       "api": "https://deepstack.ltd/api/v1/entities/people/ed-elson.json",
-      "summary": "Ed Elson is named in 1 Part of The Buildout, most recently Part 5: OpenAI and Anthropic Are Not the Same Business. Argued in Part 5 (Voices that cross sides).",
+      "summary": "Ed Elson is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt).",
       "parts": [
         {
           "part": 5,
           "headline": "OpenAI and Anthropic Are Not the Same Business",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -1457,6 +1622,12 @@
           "section": "Cheap intelligence arrives",
           "excerpt": "Ed Elson’s view of unsustainable Big Tech growth requires frontier labs to remain structurally loss-making.",
           "url": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 14,
+          "section": "The bill has moved to debt",
+          "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -1483,6 +1654,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/anthropic-grew-142-percent-openai/",
           "sidesUrl": "https://deepstack.ltd/sides/anthropic-grew-142-percent-openai/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -1806,7 +1989,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/first-pacific-advisors/",
       "api": "https://deepstack.ltd/api/v1/entities/people/first-pacific-advisors.json",
-      "summary": "First Pacific Advisors is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (The return is not there).",
+      "summary": "First Pacific Advisors is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (The return is not there), Part 14 (The buyers have not paid yet).",
       "parts": [
         {
           "part": 4,
@@ -1817,6 +2000,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -1832,6 +2020,12 @@
           "section": "The filing sets the price",
           "excerpt": "First Pacific Advisors LP, on July 30, projected global AI spending of $2.59 trillion in 2026 and counted $207 billion a year of after-tax income for even a low return, which its managers call improbable.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "First Pacific Advisors counted on July 30 that $2.59 trillion of AI spending in 2026 would need $207 billion a year of after-tax income from the start to earn even a low return.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -1858,6 +2052,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
           "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "They are uncertain about the sustainability of the current and projected level of AI capital spending and the prospect of it generating reasonable returns on the aggregate investment.",
+          "date": "2026-08-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -2143,17 +2349,112 @@
     },
     {
       "kind": "person",
+      "slug": "guinness-global-investors",
+      "name": "Guinness Global Investors",
+      "role": null,
+      "url": "https://deepstack.ltd/people/guinness-global-investors/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/guinness-global-investors.json",
+      "summary": "Guinness Global Investors is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt).",
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "The AI investment cycle is entering a new phase focused on economic returns rather than just capital expenditure.",
+          "date": "2026-08-01",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Meta is moving toward the upper end of its $130-145bn capex range, fueling broader market concerns about negative free cash flow and the lack of clear returns on massive AI investments.",
+          "date": "2026-08-01",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 645,
+        "texts": 72,
+        "asOf": "2026-10-14"
+      },
+      "lastUpdated": "2026-10-14"
+    },
+    {
+      "kind": "person",
+      "slug": "harley-bassman",
+      "name": "Harley Bassman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/harley-bassman/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/harley-bassman.json",
+      "summary": "Harley Bassman is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The cash still covers it).",
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        }
+      ],
+      "coverage": {
+        "creators": 1,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-14"
+      },
+      "lastUpdated": "2026-10-14"
+    },
+    {
+      "kind": "person",
       "slug": "hayden-capital",
       "name": "Hayden Capital",
       "role": null,
       "url": "https://deepstack.ltd/people/hayden-capital/",
       "api": "https://deepstack.ltd/api/v1/entities/people/hayden-capital.json",
-      "summary": "Hayden Capital is named in 1 Part of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (Voices that cross sides).",
+      "summary": "Hayden Capital is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides).",
       "parts": [
         {
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -2163,6 +2464,12 @@
           "section": "The tape picks winners",
           "excerpt": "Hayden Capital’s second-quarter letter explains why the vote changed.",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 14,
+          "section": "Lede",
+          "excerpt": "Nineteen days later, Hayden Capital put the four largest spenders close to $800 billion for 2026 and wrote in its August 27 letter that their capital spending was about to overtake their internal cash flow, so that for the first time the gap would need outside capital.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -2239,7 +2546,7 @@
       "role": "Invest in Quality",
       "url": "https://deepstack.ltd/people/invest-in-assets/",
       "api": "https://deepstack.ltd/api/v1/entities/people/invest-in-assets.json",
-      "summary": "Invest in Assets is named in 2 Parts of The Buildout, most recently Part 9: Habit Was the Moat. Agents Are Draining It.. Argued in Part 1 (Insatiable), Part 9 (Not every habit).",
+      "summary": "Invest in Assets is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it).",
       "parts": [
         {
           "part": 1,
@@ -2250,6 +2557,11 @@
           "part": 9,
           "headline": "Habit Was the Moat. Agents Are Draining It.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -2271,6 +2583,18 @@
           "section": "What software keeps",
           "excerpt": "Intuit is the test: Invest in Assets says its moat is “trust, compliance complexity, and habit, not just software,” because a tax mistake costs more than the software.",
           "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
+        },
+        {
+          "part": 14,
+          "section": "The cash still covers it",
+          "excerpt": "Invest In Assets read the market on August 5 as rewarding Amazon's raised guidance of roughly $220 billion, because Amazon was showing returns on what it spends.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "section": "Four wallets, one ruler",
+          "excerpt": "The roughly $220 billion Invest In Assets cited for Amazon on August 5 leaves more than $120 billion after $98.4 billion, against about $130 billion of operating cash at its first-half growth of 44%.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -2309,6 +2633,30 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
           "sidesUrl": "https://deepstack.ltd/sides/habit-was-the-moat/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Citing management's account of two distinct capital cycles, roughly two years of data center construction before any revenue against 30-plus years of monetization, and about three years to break even on servers with a five to six year life, Invest…",
+          "date": "2026-08-11",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
+          "date": "2026-08-11",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -2591,7 +2939,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/junkbondinvestor/",
       "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-      "summary": "JunkBondInvestor is named in 7 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise).",
+      "summary": "JunkBondInvestor is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt).",
       "parts": [
         {
           "part": 2,
@@ -2627,6 +2975,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -2690,6 +3043,12 @@
           "section": "A backlog is a promise",
           "excerpt": "JunkBondInvestor's credit note of September 20 draws the line that matters for the far book: a borrower with a strategic counterparty such as Meta or Alphabet and lenders competing for the mandate can keep paying up, while an AI developer on an unhedged floating-rate construction loan with no revenue until 2027 is the squeezed borrower.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "section": "The bill has moved to debt",
+          "excerpt": "JunkBondInvestor counted on August 9 about $400 billion of hyperscaler debt issuance penciled in for 2027, with AI-related paper at about 6% of the investment-grade index, double its share a year earlier.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -2788,6 +3147,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "Hyperscaler capex for 2027 tracks as high as 1.2 trillion dollars with about 400 billion of debt issuance penciled for next year; AI-related paper doubled from about 3 percent to 6 percent of the investment-grade index in a year, Amazon became the…",
+          "date": "2026-08-09",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -2805,7 +3176,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/kakashii/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kakashii.json",
-      "summary": "Kakashii is named in 5 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
+      "summary": "Kakashii is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
       "parts": [
         {
           "part": 2,
@@ -2831,6 +3202,11 @@
           "part": 11,
           "headline": "The Backlog Is Not the Quarter",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -2874,7 +3250,7 @@
         {
           "part": 11,
           "section": "The tests ahead",
-          "excerpt": "Oracle reports on December 9, the day of the Fed's last decision of the year: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028.",
+          "excerpt": "Oracle reports on December 14: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028.",
           "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
         }
       ],
@@ -3225,12 +3601,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/kingswell/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kingswell.json",
-      "summary": "Kingswell is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+      "summary": "Kingswell is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 13 (The load pays its way).",
       "parts": [
         {
           "part": 13,
           "headline": "The Ratepayer Pays First",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -3240,6 +3621,12 @@
           "section": "The load pays its way",
           "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "section": "Four wallets, one ruler",
+          "excerpt": "Alphabet's $195 billion to $205 billion for the year, as Kingswell reported it on July 24, leaves $114 billion to $124 billion after $80.6 billion in the first half.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -3612,7 +3999,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/longriver/",
       "api": "https://deepstack.ltd/api/v1/entities/people/longriver.json",
-      "summary": "Longriver is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid).",
+      "summary": "Longriver is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid), Part 14 (The buyers have not paid yet).",
       "parts": [
         {
           "part": 1,
@@ -3623,6 +4010,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -3650,6 +4042,12 @@
           "section": "Four run-rates, three dates",
           "excerpt": "Longriver's Anthropic run-rate was almost $50 billion in May.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "Longriver Investment Partners warned in its July 20 letter that AI can transform business and still fail its builders, because revenue can arrive well before owner earnings.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -3676,6 +4074,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "He states it is equally possible that AI transforms business and society yet fails to earn an adequate return for the companies that built it, since revenue can arrive well before owner earnings if depreciation understates obsolescence or…",
+          "date": "2026-07-20",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -3752,7 +4162,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/market-sentiment/",
       "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-      "summary": "Market Sentiment is named in 5 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
+      "summary": "Market Sentiment is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
       "parts": [
         {
           "part": 3,
@@ -3778,6 +4188,11 @@
           "part": 13,
           "headline": "The Ratepayer Pays First",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -3823,6 +4238,18 @@
           "section": "The bill no state can shield",
           "excerpt": "Market Sentiment, on July 10, read two moves of January 2026 as the end of the best case it had modeled for the power companies it follows: the governors of all 13 PJM states declared with the administration that data centers pay their grid costs, and the auction's price ceiling was extended to 2030.",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "section": "Lede",
+          "excerpt": "On August 8, Market Sentiment set the bar for the three largest clouds: roughly $600 billion of capital spending in 2026 needs about $960 billion of cloud revenue, against a combined run-rate it put near $380 billion and growing more than 40% a year.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "Market Sentiment read the gap the other way on September 17: next year's $1.2 trillion or more of AI spending should drive about $2 trillion of incremental revenue.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -4277,7 +4704,7 @@
       "role": "Cassandra Unchained",
       "url": "https://deepstack.ltd/people/michael-burry/",
       "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-      "summary": "Michael Burry is named in 8 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+      "summary": "Michael Burry is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
       "parts": [
         {
           "part": 1,
@@ -4318,6 +4745,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -4387,6 +4819,12 @@
           "section": "The filing sets the price",
           "excerpt": "Michael Burry, on September 24, read Google Cloud's 112% backlog growth as suspect because a category of unknown size, TPU system sales contracts, entered the book in the last six months, and one of the largest TPU customers is Anthropic, in which Alphabet holds 14% and agreed in April to invest up to $40 billion.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The bill has moved to debt",
+          "excerpt": "Michael Burry counted on September 19 roughly $2.7 trillion of uncommenced leases and purchase commitments across five hyperscalers, off the balance sheet, against combined earnings below $400 billion over the past year.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -4691,7 +5129,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/michael-spencer/",
       "api": "https://deepstack.ltd/api/v1/entities/people/michael-spencer.json",
-      "summary": "Michael Spencer is named in 5 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
+      "summary": "Michael Spencer is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price), Part 14 (The bill has moved to debt).",
       "parts": [
         {
           "part": 5,
@@ -4717,6 +5155,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -4756,6 +5199,12 @@
           "section": "Lede",
           "excerpt": "On October 1, Michael Spencer counted Chinese models at 57% to 67% of token usage on the OpenRouter platform by September.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -4926,6 +5375,18 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-bill-has-moved-to-debt",
+          "sideLabel": "The bill has moved to debt",
+          "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+          "date": "2026-10-09",
+          "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -5220,6 +5681,57 @@
       "lastUpdated": "2026-10-14"
     },
     {
+      "kind": "person",
+      "slug": "nathaniel-whittemore",
+      "name": "Nathaniel Whittemore",
+      "role": null,
+      "url": "https://deepstack.ltd/people/nathaniel-whittemore/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/nathaniel-whittemore.json",
+      "summary": "Nathaniel Whittemore is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The buyers have not paid yet).",
+      "parts": [
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+          "date": "2026-10-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+          "date": "2026-10-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 54,
+        "texts": 6,
+        "asOf": "2026-10-14"
+      },
+      "lastUpdated": "2026-10-14"
+    },
+    {
       "kind": "organization",
       "slug": "north-american-electric-reliability-corporation",
       "name": "North American Electric Reliability Corporation",
@@ -5330,7 +5842,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/oguz-erkan/",
       "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-      "summary": "Oguz Erkan is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides).",
+      "summary": "Oguz Erkan is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides).",
       "parts": [
         {
           "part": 3,
@@ -5351,6 +5863,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -5378,6 +5895,12 @@
           "section": "The frontier is still paid",
           "excerpt": "Oguz Erkan, on September 13, drew the Part's line: OpenAI and Anthropic take the lion's share of token dollars while their share of token volume declines.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The cash still covers it",
+          "excerpt": "Oguz Erkan argued on August 23 that Meta's committed capital already earns a return in the core business and that internal deployments can be delayed or cancelled.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -5440,6 +5963,30 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
           "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Oguz Erkan does not regard the AI capex fear as valid for this cycle: capex went from $28 billion in 2023 to $72 billion last year and is expected at $130-$145 billion this year and $202 billion by 2030, but committed capital is already earning ROI…",
+          "date": "2026-08-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+          "date": "2026-08-06",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -5523,7 +6070,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/prof-g-markets/",
       "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-      "summary": "Prof G Markets is named in 7 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
+      "summary": "Prof G Markets is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
       "parts": [
         {
           "part": 4,
@@ -5559,6 +6106,11 @@
           "part": 13,
           "headline": "The Ratepayer Pays First",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -5610,6 +6162,12 @@
           "section": "The plant is late",
           "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 14,
+          "section": "The bill has moved to debt",
+          "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [],
@@ -5697,7 +6255,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/ren/",
       "api": "https://deepstack.ltd/api/v1/entities/people/ren.json",
-      "summary": "Ren is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
+      "summary": "Ren is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides).",
       "parts": [
         {
           "part": 6,
@@ -5733,6 +6291,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -5918,6 +6481,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "A cracking labor market is a real risk for anything tied to the consumer, and the AI buildout being funded by hyperscaler cash flows and multi-year contracts is why, for now, it stays on the watchlist and doesn't change the thesis.",
+          "date": "2026-10-05",
+          "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-cash-still-covers-it",
+          "sideLabel": "The cash still covers it",
+          "claim": "Because every cloud and hardware dollar traces back to someone paying for AI at the top, the application and model boxes are the demand test for the whole map; in 2030 the stack would spend $3-4T a year on hardware while apps and models bring in…",
+          "date": "2026-10-06",
+          "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "That gap can hold for a while because hyperscalers fund capex from non-AI businesses, debt covers part of it and hardware is paid off over several years, but eventually it has to close from the top, and if the $2.1T arrives late every floor…",
+          "date": "2026-10-06",
+          "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {
@@ -6464,7 +7063,7 @@
       "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/",
       "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-      "summary": "Steve Eisman is named in 9 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
+      "summary": "Steve Eisman is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
       "parts": [
         {
           "part": 4,
@@ -6510,6 +7109,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -6784,7 +7388,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/tae-kim/",
       "api": "https://deepstack.ltd/api/v1/entities/people/tae-kim.json",
-      "summary": "Tae Kim is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
+      "summary": "Tae Kim is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
       "parts": [
         {
           "part": 9,
@@ -6805,6 +7409,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -6856,6 +7465,12 @@
           "section": "Lede",
           "excerpt": "On October 2, Tae Kim reported OpenAI at $70 billion of annualized revenue.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The buyers have not paid yet",
+          "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -7053,7 +7668,7 @@
       "role": "Apollo",
       "url": "https://deepstack.ltd/people/torsten-slok/",
       "api": "https://deepstack.ltd/api/v1/entities/people/torsten-slok.json",
-      "summary": "Torsten Slok is named in 6 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast).",
+      "summary": "Torsten Slok is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides).",
       "parts": [
         {
           "part": 6,
@@ -7084,6 +7699,11 @@
           "part": 12,
           "headline": "The Model Is Not the Price",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "headline": "The Cash Arrives Unevenly",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "numbers": [],
@@ -7135,6 +7755,12 @@
           "section": "Open weights set the price",
           "excerpt": "Torsten Slok of Apollo put the gap at about four months on July 16, citing the Epoch Capabilities Index.",
           "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+        },
+        {
+          "part": 14,
+          "section": "The bill has moved to debt",
+          "excerpt": "Torsten Slok of Apollo wrote on September 12 that the spenders had raised every dollar they sought, at a rising price: spreads on their longest bonds had widened, and most of their 2026 issues traded wider than at sale.",
+          "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
         }
       ],
       "sides": [
@@ -7233,6 +7859,42 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
           "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "the-buyers-have-not-paid-yet",
+          "sideLabel": "The buyers have not paid yet",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "In the data center buildout, hyperscalers have been able to raise all the capital they have asked for, but they are paying more for it: spreads on their longest-dated bonds have widened, and most 2026-issued paper trades wider today than where it…",
+          "date": "2026-09-12",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 14,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The credit story for hyperscalers depends on a single consensus assumption that operating cash flow triples from $600 billion to $2 trillion.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
         }
       ],
       "coverage": {

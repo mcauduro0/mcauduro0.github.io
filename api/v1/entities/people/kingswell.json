@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kingswell",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kingswell/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kingswell.json",
-  "summary": "Kingswell is named in 1 Part of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 13 (The load pays its way).",
+  "summary": "Kingswell is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 13 (The load pays its way).",
   "parts": [
     {
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "The load pays its way",
       "excerpt": "Kingswell, on May 11, credited Berkshire Hathaway Energy with joining the buildout only where the largest cloud companies carry the full cost of building and running it.",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 14,
+      "section": "Four wallets, one ruler",
+      "excerpt": "Alphabet's $195 billion to $205 billion for the year, as Kingswell reported it on July 24, leaves $114 billion to $124 billion after $80.6 billion in the first half.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [

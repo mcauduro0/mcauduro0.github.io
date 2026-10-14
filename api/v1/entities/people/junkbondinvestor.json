@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "junkbondinvestor",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/junkbondinvestor/",
   "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-  "summary": "JunkBondInvestor is named in 7 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise).",
+  "summary": "JunkBondInvestor is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt).",
   "parts": [
     {
       "part": 2,
@@ -43,6 +43,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -106,6 +111,12 @@
       "section": "A backlog is a promise",
       "excerpt": "JunkBondInvestor's credit note of September 20 draws the line that matters for the far book: a borrower with a strategic counterparty such as Meta or Alphabet and lenders competing for the mandate can keep paying up, while an AI developer on an unhedged floating-rate construction loan with no revenue until 2027 is the squeezed borrower.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "section": "The bill has moved to debt",
+      "excerpt": "JunkBondInvestor counted on August 9 about $400 billion of hyperscaler debt issuance penciled in for 2027, with AI-related paper at about 6% of the investment-grade index, double its share a year earlier.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -204,6 +215,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "Hyperscaler capex for 2027 tracks as high as 1.2 trillion dollars with about 400 billion of debt issuance penciled for next year; AI-related paper doubled from about 3 percent to 6 percent of the investment-grade index in a year, Amazon became the…",
+      "date": "2026-08-09",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

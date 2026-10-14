@@ -1,0 +1,775 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 14,
+  "slug": "the-cash-arrives-unevenly",
+  "url": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/",
+  "card": "https://deepstack.ltd/embed/sides/the-cash-arrives-unevenly/card.svg",
+  "story": {
+    "headline": "The Cash Arrives Unevenly",
+    "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+    "api": "https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json"
+  },
+  "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
+  "call": {
+    "tone": "split",
+    "toneLabel": "Split",
+    "stance": "Only Microsoft pays with room to spare",
+    "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Divide capital spending by operating cash, company by company: in the first half of 2026 Microsoft spent 65.3%, Amazon 137.8%.",
+      "Hold free cash flow to one ruler: Meta's own measure gave $784 million for the June quarter of 2026; cash less purchases, $1.7 billion.",
+      "Read the financing section beside the spending line: Alphabet sold $49.6 billion of stock in June 2026, and Meta borrowed $24.9 billion."
+    ],
+    "flips": [
+      "Alphabet spends under 80 cents of each operating dollar in the September quarter: its cash is catching up with its build.",
+      "Microsoft's purchases pass 85% of its operating cash in the September quarter: even the strongest cloud stops paying its way.",
+      "The four's purchases top their operating cash for the September quarter or for 2026: the group stops paying, toward the debt side."
+    ],
+    "side": null,
+    "against": null,
+    "version": 2,
+    "updatedOn": "2026-10-14",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-14",
+        "stance": "Only Microsoft pays with room to spare",
+        "tone": "split",
+        "toneLabel": "Split",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-14",
+        "stance": "Only Microsoft pays with room to spare",
+        "tone": "split",
+        "toneLabel": "Split",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.",
+        "side": null,
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
+      }
+    ],
+    "nextTest": {
+      "id": "p14-t01",
+      "part": 14,
+      "slug": "the-cash-arrives-unevenly",
+      "when": "October 28",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
+      "precision": "day",
+      "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-12T22:25:10Z",
+      "callProbability": 70,
+      "callProbabilityAt": "2026-10-12T22:25:10Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Take the three-month figures from the statement of cash flows in Alphabet's earnings release; if the release gives only year-to-date figures, use the nine-month figure less the six-month figure from the Form 10-Q. Divide purchases of property and equipment by net cash provided by operating activities. The answer is yes if the ratio is 80.0% or more; no if it is below 80.0%. Alphabet's own free cash flow line, finance leases and its spending guidance for the year are read alongside and do not decide the test.",
+        "question": "Did Alphabet's purchases of property and equipment for the quarter ended September 30, 2026 equal 80% or more of its net cash provided by operating activities for the same quarter?",
+        "source": {
+          "label": "SEC EDGAR, Alphabet filings (the earnings release on Form 8-K and the Form 10-Q for the quarter), CIK 0001652044",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+        },
+        "ambiguity": "Alphabet has scheduled the release for October 28, 2026. If neither the release nor a Form 10-Q states the quarter's cash flow figures on EDGAR by November 9, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is November 16, 2026. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p14-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#verdict"
+  },
+  "sides": [
+    {
+      "id": "the-cash-still-covers-it",
+      "label": "The cash still covers it",
+      "voices": [
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…",
+          "date": "2026-09-17",
+          "url": "https://www.marketsentiment.co/p/the-next-great-ai-trade-is-everything",
+          "access": "public"
+        },
+        {
+          "name": "Market Sentiment",
+          "entity": "https://deepstack.ltd/people/market-sentiment/",
+          "claim": "Modeled bottom-up, 100 billion dollars of annual data-center capex sustains roughly 160 billion of steady-state annual revenue, a 1.6x revenue-to-capex multiple and about a 21 percent IRR, even assuming a five-year chip life and a one-third annual…",
+          "date": "2026-08-08",
+          "url": "https://www.marketsentiment.co/p/is-the-capex-sustainable",
+          "access": "public"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "A cracking labor market is a real risk for anything tied to the consumer, and the AI buildout being funded by hyperscaler cash flows and multi-year contracts is why, for now, it stays on the watchlist and doesn't change the thesis.",
+          "date": "2026-10-05",
+          "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+          "access": "paid"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "Because every cloud and hardware dollar traces back to someone paying for AI at the top, the application and model boxes are the demand test for the whole map; in 2030 the stack would spend $3-4T a year on hardware while apps and models bring in…",
+          "date": "2026-10-06",
+          "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+          "access": "public"
+        },
+        {
+          "name": "Harley Bassman",
+          "entity": "https://deepstack.ltd/people/harley-bassman/",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Aurelion Research",
+          "entity": "https://deepstack.ltd/people/aurelion-research/",
+          "claim": "Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.",
+          "date": "2026-09-11",
+          "url": "https://read.aurelionresearch.com/p/in-conversation-nvidia",
+          "access": "public"
+        },
+        {
+          "name": "Aurelion Research",
+          "entity": "https://deepstack.ltd/people/aurelion-research/",
+          "claim": "Hyperscaler capex has come in more than 56% above what the market was forecasting a year ago, with spending estimates continuing to be revised upward without signs of slowing.",
+          "date": "2026-08-21",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Invest in Assets",
+          "entity": "https://deepstack.ltd/people/invest-in-assets/",
+          "claim": "Citing management's account of two distinct capital cycles, roughly two years of data center construction before any revenue against 30-plus years of monetization, and about three years to break even on servers with a five to six year life, Invest…",
+          "date": "2026-08-11",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+          "access": "licensed"
+        },
+        {
+          "name": "Invest in Assets",
+          "entity": "https://deepstack.ltd/people/invest-in-assets/",
+          "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
+          "date": "2026-08-11",
+          "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+          "access": "licensed"
+        },
+        {
+          "name": "Kakashii",
+          "entity": "https://deepstack.ltd/people/kakashii/",
+          "claim": "Because Oracle could not keep funding the AI buildout on its own without loading hundreds of billions in debt that could endanger the company once the AI boom cools, Oracle shifted to a 'saving move' in which customers either bring their own GPUs…",
+          "date": "2026-09-24",
+          "url": null,
+          "access": "paid"
+        },
+        {
+          "name": "Kakashii",
+          "entity": "https://deepstack.ltd/people/kakashii/",
+          "claim": "Kakashii estimates that after excluding roughly 200B of legacy and non-AI RPO (including ByteDance's U.S. datacenter deal), Oracle's remaining RPO of 464B is attributable to AI Compute Cloud, of which close to 300B-350B is attributed to OpenAI…",
+          "date": "2026-09-24",
+          "url": null,
+          "access": "paid"
+        },
+        {
+          "name": "Tae Kim",
+          "entity": "https://deepstack.ltd/people/tae-kim/",
+          "claim": "Axios reported, and the Financial Times later confirmed the same day, that OpenAI's annual recurring revenue is nearing $70 billion, with enterprise sales more than doubled since July according to sources familiar with the financials.",
+          "date": "2026-10-02",
+          "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+          "access": "paid"
+        },
+        {
+          "name": "Tae Kim",
+          "entity": "https://deepstack.ltd/people/tae-kim/",
+          "claim": "Tae Kim believes that if OpenAI were public, its stock would have gapped up 30% or more on hitting $70 billion in ARR, a blowout versus expectations on the level of Nvidia in May 2023, and that the figure proves his August report that OpenAI's ARR…",
+          "date": "2026-10-02",
+          "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
+          "access": "paid"
+        }
+      ],
+      "against": {
+        "name": "Torsten Slok",
+        "entity": "https://deepstack.ltd/people/torsten-slok/",
+        "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+        "date": "2026-09-29",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+        "access": "public",
+        "answers": "Market Sentiment",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
+    },
+    {
+      "id": "the-bill-has-moved-to-debt",
+      "label": "The bill has moved to debt",
+      "voices": [
+        {
+          "name": "Hayden Capital",
+          "entity": "https://deepstack.ltd/people/hayden-capital/",
+          "claim": "The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "access": "public"
+        },
+        {
+          "name": "Hayden Capital",
+          "entity": "https://deepstack.ltd/people/hayden-capital/",
+          "claim": "The sustainability and predictability of incremental returns on invested capital in hyperscaler AI projects matters more to valuations than the absolute level of those returns, because the market values certainty.",
+          "date": "2026-08-27",
+          "url": "https://fiscal.ai/fund-letters/hayden-capital-q2-2026-fscl_document_4UXZ6MTS260",
+          "access": "public"
+        },
+        {
+          "name": "Dylan Patel",
+          "entity": "https://deepstack.ltd/people/dylan-patel/",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon and Meta funded more than half of compute growth so far but now do not generate cash, spending everything on CapEx and raising debt on top, so for a roughly $3 or $4 trillion 2028 CapEx level the…",
+          "date": "2026-08-25",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Dylan Patel",
+          "entity": "https://deepstack.ltd/people/dylan-patel/",
+          "claim": "Headline AI CapEx figures of $40-50 billion cover only critical IT such as servers, networking, fiber, transceivers and optics, not the data center shells or power plants, which must be built ahead of time, so a 100-gigawatt-a-year build is much…",
+          "date": "2026-08-25",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Ed Elson",
+          "entity": "https://deepstack.ltd/people/ed-elson/",
+          "claim": "Google spent $45 billion and Amazon $54 billion on capital expenditures in a single quarter, and both ended up with negative cash flows despite huge cash intake.",
+          "date": "2026-08-11",
+          "url": "https://www.profgmedia.com/p/plastic-surgery",
+          "access": "public"
+        },
+        {
+          "name": "Guinness Global Investors",
+          "entity": "https://deepstack.ltd/people/guinness-global-investors/",
+          "claim": "The AI investment cycle is entering a new phase focused on economic returns rather than just capital expenditure.",
+          "date": "2026-08-01",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Guinness Global Investors",
+          "entity": "https://deepstack.ltd/people/guinness-global-investors/",
+          "claim": "Meta is moving toward the upper end of its $130-145bn capex range, fueling broader market concerns about negative free cash flow and the lack of clear returns on massive AI investments.",
+          "date": "2026-08-01",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Across the five hyperscalers, uncommenced, non-cancelable data-center leases and purchase commitments together total roughly $2.7 trillion in off-balance-sheet contractual commitments as of the disclosed filing dates, with the total potentially…",
+          "date": "2026-09-19",
+          "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+          "access": "paid"
+        },
+        {
+          "name": "Michael Burry",
+          "entity": "https://deepstack.ltd/people/michael-burry/",
+          "claim": "Most analysts covering the former software/social-media/AdTech companies now recast as hyperscalers have never had to model maintenance capital expenditure, and most still are not doing it, or not doing it well.",
+          "date": "2026-09-19",
+          "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+          "access": "paid"
+        },
+        {
+          "name": "JunkBondInvestor",
+          "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+          "claim": "Hyperscaler capex for 2027 tracks as high as 1.2 trillion dollars with about 400 billion of debt issuance penciled for next year; AI-related paper doubled from about 3 percent to 6 percent of the investment-grade index in a year, Amazon became the…",
+          "date": "2026-08-09",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
+          "access": "public"
+        },
+        {
+          "name": "JunkBondInvestor",
+          "entity": "https://deepstack.ltd/people/junkbondinvestor/",
+          "claim": "A $5 billion Pentagon loan to an $18 billion company signals that government is done leaving the pace of AI investment to private hurdle rates, and while private capital keeps working, it is now being joined by capital priced to different…",
+          "date": "2026-09-13",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "Given the cost for compute, Meta's free cash flow is going to crater in 2027 to a very suspect degree, and like Oracle, betting on a product tied to accelerating compute demand at any cost is borderline insane to Michael Spencer.",
+          "date": "2026-09-29",
+          "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+          "access": "public"
+        },
+        {
+          "name": "Michael Spencer",
+          "entity": "https://deepstack.ltd/people/michael-spencer/",
+          "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+          "date": "2026-10-09",
+          "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+          "access": "paid"
+        }
+      ],
+      "against": {
+        "name": "Torsten Slok",
+        "entity": "https://deepstack.ltd/people/torsten-slok/",
+        "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+        "date": "2026-09-21",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+        "access": "public",
+        "answers": "Michael Burry",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
+    },
+    {
+      "id": "the-buyers-have-not-paid-yet",
+      "label": "The buyers have not paid yet",
+      "voices": [
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "Analysts covering tech expect the sector's operating cash flow to more than double to roughly $2.4 trillion by 2028, an increase of over $1.2 trillion, while analysts covering the other S&P 500 sectors, which are tech's customers, expect those…",
+          "date": "2026-09-29",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/tech-trillion-dollar-internal-inconsistency",
+          "access": "public"
+        },
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "Consensus expects hyperscalers' operating cash flow to more than triple by 2030, outpacing the sharp increase in AI-driven capex, based on FactSet and Apollo Chief Economist sources for Google, Meta, Amazon, Microsoft and Oracle.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "access": "public"
+        },
+        {
+          "name": "Daniel Romero",
+          "entity": "https://deepstack.ltd/people/daniel-romero/",
+          "claim": "Daniel Romero states they are not arguing the buildout is unsustainable, but that one-year compute paybacks will probably become the exception rather than a baseline assumption, possibly dependent on specific timing and shortages, and that 2026…",
+          "date": "2026-09-21",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+          "access": "paid"
+        },
+        {
+          "name": "Daniel Romero",
+          "entity": "https://deepstack.ltd/people/daniel-romero/",
+          "claim": "Although SpaceX reports AI infrastructure payback periods of less than one year, maintaining a one-year payback across the entire hypothetical 2027 buildout would require $1.9-2.28 trillion in annual compute payments, and if AI labs footed that…",
+          "date": "2026-09-21",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally",
+          "access": "paid"
+        },
+        {
+          "name": "Nathaniel Whittemore",
+          "entity": "https://deepstack.ltd/people/nathaniel-whittemore/",
+          "claim": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, a fairly large gap from the $68 billion figure widely reported the prior month.",
+          "date": "2026-10-09",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Nathaniel Whittemore",
+          "entity": "https://deepstack.ltd/people/nathaniel-whittemore/",
+          "claim": "OpenAI also told investors it achieved 77% run-rate growth in the third quarter and 107% growth in its enterprise business, but even that growth was completely overshadowed by the $20 billion gap in revenue, with Wall Street reacting in many ways…",
+          "date": "2026-10-09",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Steve Eisman",
+          "entity": "https://deepstack.ltd/people/steve-eisman/",
+          "claim": "The AI trade's foundations are shaky because roughly seventy percent of the hyperscalers' AI revenue traces back to just two customers, OpenAI and Anthropic, both of which are burning enormous amounts of cash, so if either stumbles the entire…",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "access": "paid"
+        },
+        {
+          "name": "Steve Eisman",
+          "entity": "https://deepstack.ltd/people/steve-eisman/",
+          "claim": "George Noble's bear case for AI rests on the question of actual return on investment; he argues that Nvidia announcing massive funding packages just to keep customers like OpenAI able to keep buying chips shows the money underneath the boom is not…",
+          "date": "2026-09-21",
+          "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
+          "access": "paid"
+        },
+        {
+          "name": "First Pacific Advisors",
+          "entity": "https://deepstack.ltd/people/first-pacific-advisors/",
+          "claim": "They are uncertain about the sustainability of the current and projected level of AI capital spending and the prospect of it generating reasonable returns on the aggregate investment.",
+          "date": "2026-08-17",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "First Pacific Advisors",
+          "entity": "https://deepstack.ltd/people/first-pacific-advisors/",
+          "claim": "Global AI spending is projected to reach 2.59 trillion dollars in 2026, and to achieve even a relatively low unlevered return on investment would require 207 billion dollars in after-tax income per year starting immediately, which the portfolio…",
+          "date": "2026-07-30",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Longriver",
+          "entity": "https://deepstack.ltd/people/longriver/",
+          "claim": "He states it is equally possible that AI transforms business and society yet fails to earn an adequate return for the companies that built it, since revenue can arrive well before owner earnings if depreciation understates obsolescence or…",
+          "date": "2026-07-20",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+          "access": "public"
+        },
+        {
+          "name": "Longriver",
+          "entity": "https://deepstack.ltd/people/longriver/",
+          "claim": "AI capex has become a prisoner's dilemma financed increasingly by leases, purchase commitments, debt and in one case an equity raise: each firm may invest rationally to protect existing businesses while the industry collectively commits too much…",
+          "date": "2026-07-20",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+          "access": "public"
+        },
+        {
+          "name": "Bronte Capital",
+          "entity": "https://deepstack.ltd/people/bronte-capital/",
+          "claim": "They say it remains uncertain to them how likely it is that AI spending dramatically slows as Wall Street and the AI funders realise they cannot get a return.",
+          "date": "2026-09-08",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Bronte Capital",
+          "entity": "https://deepstack.ltd/people/bronte-capital/",
+          "claim": "They conclude either the AI companies will not earn a return on the trillions they are spending, or they will earn it at the cost of very large short-term unemployment, or most likely a combination of both.",
+          "date": "2026-09-08",
+          "url": null,
+          "access": "public"
+        }
+      ],
+      "against": {
+        "name": "Michael Spencer",
+        "entity": "https://deepstack.ltd/people/michael-spencer/",
+        "claim": "Given the cost for compute, Meta's free cash flow is going to crater in 2027 to a very suspect degree, and like Oracle, betting on a product tied to accelerating compute demand at any cost is borderline insane to Michael Spencer.",
+        "date": "2026-09-29",
+        "url": "https://www.ai-supremacy.com/p/the-era-of-personal-super-intelligent-agents-muse-2026",
+        "access": "public",
+        "answers": "Torsten Slok",
+        "relation": "contradicts",
+        "dimension": "evidence"
+      }
+    },
+    {
+      "id": "crossing",
+      "label": "Voices that cross sides",
+      "voices": [
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "That gap can hold for a while because hyperscalers fund capex from non-AI businesses, debt covers part of it and hardware is paid off over several years, but eventually it has to close from the top, and if the $2.1T arrives late every floor…",
+          "date": "2026-10-06",
+          "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+          "access": "public"
+        },
+        {
+          "name": "Ren",
+          "entity": "https://deepstack.ltd/people/ren/",
+          "claim": "AGI is not the investable trade; compute is, because Astra adds a second, inference-driven demand chain (more capable models, more agents, more delegated work, longer inference trajectories, more tokens, more compute) alongside the existing…",
+          "date": "2026-09-15",
+          "url": null,
+          "access": "paid"
+        },
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "In the data center buildout, hyperscalers have been able to raise all the capital they have asked for, but they are paying more for it: spreads on their longest-dated bonds have widened, and most 2026-issued paper trades wider today than where it…",
+          "date": "2026-09-12",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage",
+          "access": "public"
+        },
+        {
+          "name": "Torsten Slok",
+          "entity": "https://deepstack.ltd/people/torsten-slok/",
+          "claim": "The credit story for hyperscalers depends on a single consensus assumption that operating cash flow triples from $600 billion to $2 trillion.",
+          "date": "2026-09-21",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
+          "access": "public"
+        },
+        {
+          "name": "Oguz Erkan",
+          "entity": "https://deepstack.ltd/people/oguz-erkan/",
+          "claim": "Oguz Erkan does not regard the AI capex fear as valid for this cycle: capex went from $28 billion in 2023 to $72 billion last year and is expected at $130-$145 billion this year and $202 billion by 2030, but committed capital is already earning ROI…",
+          "date": "2026-08-23",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Oguz Erkan",
+          "entity": "https://deepstack.ltd/people/oguz-erkan/",
+          "claim": "The loop's binding constraint is capex finance: hyperscaler free cash flow may go negative in 2027 and investors dislike leverage contingent on speculative returns, as the depressed valuations of Oracle and CoreWeave show, so continued spending…",
+          "date": "2026-08-06",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Dylan Patel",
+          "entity": "https://deepstack.ltd/people/dylan-patel/",
+          "claim": "Labs have not yet reached the point where their own cash flows can fund the scale of CapEx required, since labs are projected to generate hundreds of billions in revenue next year while total CapEx across the compute supply chain will be well north…",
+          "date": "2026-08-25",
+          "url": null,
+          "access": "public"
+        },
+        {
+          "name": "Dylan Patel",
+          "entity": "https://deepstack.ltd/people/dylan-patel/",
+          "claim": "His current modeling has $5 trillion of credit-funded and $6 trillion of cash-funded infrastructure investment through 2029, and this is not enough compute relative to projected AI demand growth, so revenue per megawatt has to keep rising.",
+          "date": "2026-08-25",
+          "url": null,
+          "access": "public"
+        }
+      ],
+      "against": null
+    }
+  ],
+  "questions": [],
+  "crossings": [
+    {
+      "from": "Ren",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Ren qualifies Michael Spencer on mechanism."
+    },
+    {
+      "from": "Guinness Global Investors",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Guinness Global Investors qualifies Torsten Slok on evidence."
+    },
+    {
+      "from": "Guinness Global Investors",
+      "to": "Torsten Slok",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Guinness Global Investors contradicts Torsten Slok on premise."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Torsten Slok",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Michael Spencer qualifies Torsten Slok on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Hayden Capital",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies Hayden Capital on mechanism."
+    },
+    {
+      "from": "Steve Eisman",
+      "to": "Michael Burry",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "Steve Eisman contradicts Michael Burry on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Longriver",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Torsten Slok qualifies Longriver on mechanism."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Ren",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Michael Spencer qualifies Ren on condition."
+    },
+    {
+      "from": "Ren",
+      "to": "Nathaniel Whittemore",
+      "relation": "contradicts",
+      "dimension": "premise",
+      "note": "Ren contradicts Nathaniel Whittemore on premise."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Steve Eisman",
+      "relation": "contradicts",
+      "dimension": "mechanism",
+      "note": "Michael Spencer contradicts Steve Eisman on mechanism."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "First Pacific Advisors",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Torsten Slok qualifies First Pacific Advisors on evidence."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Michael Burry qualifies JunkBondInvestor on mechanism."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Ren",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Michael Spencer qualifies Ren on evidence."
+    },
+    {
+      "from": "Bronte Capital",
+      "to": "Kakashii",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Bronte Capital qualifies Kakashii on condition."
+    },
+    {
+      "from": "Michael Spencer",
+      "to": "Ren",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Michael Spencer qualifies Ren on mechanism."
+    },
+    {
+      "from": "Michael Burry",
+      "to": "Steve Eisman",
+      "relation": "refutes",
+      "dimension": "mechanism",
+      "note": "Michael Burry refutes Steve Eisman on mechanism."
+    },
+    {
+      "from": "Bronte Capital",
+      "to": "JunkBondInvestor",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Bronte Capital qualifies JunkBondInvestor on condition."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Steve Eisman",
+      "relation": "qualifies",
+      "dimension": "evidence",
+      "note": "Torsten Slok qualifies Steve Eisman on evidence."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Hayden Capital",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Torsten Slok qualifies Hayden Capital on condition."
+    },
+    {
+      "from": "Torsten Slok",
+      "to": "Market Sentiment",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Torsten Slok qualifies Market Sentiment on condition."
+    },
+    {
+      "from": "Bronte Capital",
+      "to": "Market Sentiment",
+      "relation": "qualifies",
+      "dimension": "condition",
+      "note": "Bronte Capital qualifies Market Sentiment on condition."
+    },
+    {
+      "from": "Hayden Capital",
+      "to": "Michael Spencer",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Hayden Capital qualifies Michael Spencer on mechanism."
+    },
+    {
+      "from": "Guinness Global Investors",
+      "to": "Invest in Assets",
+      "relation": "qualifies",
+      "dimension": "mechanism",
+      "note": "Guinness Global Investors qualifies Invest in Assets on mechanism."
+    },
+    {
+      "from": "Aurelion Research",
+      "to": "Michael Burry",
+      "relation": "refutes",
+      "dimension": "evidence",
+      "note": "Aurelion Research refutes Michael Burry on evidence."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The thread",
+      "text": "Part 4 said the bill had arrived; Part 8, that the cash must triple. Part 14 reads, company by company, who still pays in cash."
+    }
+  ],
+  "settles": [
+    {
+      "id": null,
+      "when": "October 28",
+      "date": "2026-10-28",
+      "event": "Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch"
+    },
+    {
+      "id": null,
+      "when": "November 10",
+      "date": "2026-11-10",
+      "event": "The four's September-quarter reports on EDGAR: whether combined purchases of property and equipment topped combined operating cash, after 96.1% in the June quarter of 2026.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch"
+    },
+    {
+      "id": null,
+      "when": "February 12, 2027",
+      "date": "2027-02-12",
+      "event": "The 2027 budgets of Alphabet, Amazon and Meta: whether the midpoints sum to at least 25% more than the three spent in 2026.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch"
+    },
+    {
+      "id": null,
+      "when": "February 16, 2027",
+      "date": "2027-02-16",
+      "event": "The full year: whether the four's purchases topped their operating cash across calendar 2026, after 91.4% in the first half.",
+      "status": "pending",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch"
+    }
+  ],
+  "grid": {
+    "url": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/grid/",
+    "csv": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/grid.csv",
+    "api": "https://deepstack.ltd/api/v1/sides/the-cash-arrives-unevenly/grid.json"
+  },
+  "editorial": null
+}

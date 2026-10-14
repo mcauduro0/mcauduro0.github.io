@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "daniel-romero",
@@ -7,7 +7,7 @@
   "role": "HyperTech Invest",
   "url": "https://deepstack.ltd/people/daniel-romero/",
   "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
-  "summary": "Daniel Romero is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+  "summary": "Daniel Romero is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
   "parts": [
     {
       "part": 5,
@@ -43,6 +43,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -106,6 +111,12 @@
       "section": "The filing sets the price",
       "excerpt": "Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The buyers have not paid yet",
+      "excerpt": "Daniel Romero counted on September 21 that a one-year payback on a hypothetical 2027 buildout would take $1.9 trillion to $2.28 trillion a year in compute payments.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [

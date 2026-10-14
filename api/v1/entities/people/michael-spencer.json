@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-spencer",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/michael-spencer/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-spencer.json",
-  "summary": "Michael Spencer is named in 5 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price).",
+  "summary": "Michael Spencer is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price), Part 14 (The bill has moved to debt).",
   "parts": [
     {
       "part": 5,
@@ -33,6 +33,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -72,6 +77,12 @@
       "section": "Lede",
       "excerpt": "On October 1, Michael Spencer counted Chinese models at 57% to 67% of token usage on the OpenRouter platform by September.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "section": "The buyers have not paid yet",
+      "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion.",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "sides": [
@@ -242,6 +253,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-bill-has-moved-to-debt",
+      "sideLabel": "The bill has moved to debt",
+      "claim": "A Financial Times report found OpenAI's annualized revenue as of late September 2026 was approximately $50 billion, roughly $20 billion lower than the $70 billion figure that had previously circulated in financial media.",
+      "date": "2026-10-09",
+      "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {

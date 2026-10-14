@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "url": "https://deepstack.ltd/corrections/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/corrections.json",
   "policy": "When we get a fact wrong, we correct it in place and say so at the top of the story, with the date of the change.",
-  "count": 0,
-  "stories": 0,
-  "corrections": []
+  "count": 1,
+  "stories": 1,
+  "corrections": [
+    {
+      "date": "2026-10-14",
+      "text": "An earlier version dated Oracle's second-quarter report December 9, 2026, the day of the Fed's December decision. Oracle's investor relations page dates it December 14, 2026.",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "story": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#correction-1",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json"
+    }
+  ]
 }

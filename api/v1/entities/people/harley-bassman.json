@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-14T16:41:00Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "harley-bassman",
+  "name": "Harley Bassman",
+  "role": null,
+  "url": "https://deepstack.ltd/people/harley-bassman/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/harley-bassman.json",
+  "summary": "Harley Bassman is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The cash still covers it).",
+  "parts": [
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+      "date": "2026-09-17",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-14"
+  },
+  "lastUpdated": "2026-10-14"
+}

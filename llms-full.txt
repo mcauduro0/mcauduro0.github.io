@@ -1,6 +1,6 @@
 # DeepStack: The Buildout, every story and its Call
 
-The money behind the machine. Generated 2026-10-14T10:33:12Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+The money behind the machine. Generated 2026-10-14T16:41:00Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
 
 ## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
 URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
@@ -228,6 +228,7 @@ No case against our call has cleared DeepStack’s bar yet.
 Next test: Oct 28, 2026 (pending): Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted. https://deepstack.ltd/docket/#test-p11-t01
 Key numbers: $10B Ciena's backlog floor at the end of fiscal 2026 (Ciena management, as reported by Gaetano, Sep 17, 2026; supply secured through fiscal 2029); 113% Growth in Microsoft's backlog due beyond one year (Microsoft filing, as read by Michael Burry, Sep 24 to 26, 2026; the book due within a year grew 37%); 1 year Nvidia's terms for its best-rated customers (From 90 days; Steve Eisman with Ed Zitron, Sep 9, 2026); $28B Meta's residual-value guarantee on its data-center venture (Meta filing, as read by Michael Burry, Sep 24, 2026; $10.8 billion moved to restricted cash)
 Who is on each side: https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/
+Corrections: 2026-10-14: An earlier version dated Oracle's second-quarter report December 9, 2026, the day of the Fed's December decision. Oracle's investor relations page dates it December 14, 2026.
 JSON: https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json
 
 ## Part 12: The Model Is Not the Price
@@ -273,5 +274,25 @@ Next test: Oct 20, 2026 (pending): The federal price data for August: whether th
 Key numbers: +11.7% Median rise in the household price per kilowatt-hour across the nine jurisdictions PJM serves, year to July 2026 (EIA-861M, first published Sep 24, 2026; DeepStack calculation; +5.6% for the other 42); +6.6% The national household price per kilowatt-hour over the same twelve months (EIA-861M, first published Sep 24, 2026; Texas +4.8%); 6,623 MW Shortfall against PJM's reliability requirement in the auction for the year from June 2027, the first since 2007 (PJM auction results, Dec 17, 2025; first read in tscsw, Feb 26, 2026); $1.6B Added transmission cost on Maryland bills over 10 years (Maryland Office of People's Counsel at FERC, Jun 11, 2026)
 Who is on each side: https://deepstack.ltd/sides/the-ratepayer-pays-first/
 JSON: https://deepstack.ltd/api/v1/stories/the-ratepayer-pays-first.json
+
+## Part 14: The Cash Arrives Unevenly
+URL: https://deepstack.ltd/stories/the-cash-arrives-unevenly/
+Published: 2026-10-14 · Markets · 10 min read
+Dek: Microsoft, Alphabet, Amazon and Meta spent 96 cents on property and equipment for each dollar of operating cash in the second quarter of 2026, up from 65 cents across 2025, by DeepStack's reading of SEC filings. Microsoft still pays from its own cash. Amazon spent $1.38 per dollar in the first half.
+Summary: Microsoft pays for its data centers from its own cash with room to spare. Alphabet and Meta now spend most of theirs and Amazon more than all of it; Alphabet and Amazon have covered the gap with stock and bonds. DeepStack reads the filings company by company and names the October 28 report that tests the view.
+The DeepStack Call (Split; conviction 3/5, Moderate): Only Microsoft pays with room to spare
+Call: Microsoft pays for its build from its own cash. Alphabet and Meta spend most of theirs; Amazon spends more than its operations bring in.
+What to do with this:
+1. Divide capital spending by operating cash, company by company: in the first half of 2026 Microsoft spent 65.3%, Amazon 137.8%.
+2. Hold free cash flow to one ruler: Meta's own measure gave $784 million for the June quarter of 2026; cash less purchases, $1.7 billion.
+3. Read the financing section beside the spending line: Alphabet sold $49.6 billion of stock in June 2026, and Meta borrowed $24.9 billion.
+What would change the call:
+- Alphabet spends under 80 cents of each operating dollar in the September quarter: its cash is catching up with its build.
+- Microsoft's purchases pass 85% of its operating cash in the September quarter: even the strongest cloud stops paying its way.
+- The four's purchases top their operating cash for the September quarter or for 2026: the group stops paying, toward the debt side.
+Next test: Oct 28, 2026 (pending): Alphabet's September quarter: whether capital spending takes 80 cents or more of each dollar of operating cash, after 49.5 cents a year earlier and 95.0 cents in the first half of 2026. https://deepstack.ltd/docket/#test-p14-t01
+Key numbers: 96.1% Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025); 137.8% Amazon's purchases of property and equipment against its operating cash, first half of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025); $35.4B Microsoft's operating cash left after purchases of property and equipment, first half of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar); -$5.9B Alphabet's free cash flow, second quarter of 2026 (Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases)
+Who is on each side: https://deepstack.ltd/sides/the-cash-arrives-unevenly/
+JSON: https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json
 
 Analysis and opinion, not investment advice.

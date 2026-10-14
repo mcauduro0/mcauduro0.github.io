@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:33:12Z",
+  "generatedAt": "2026-10-14T16:41:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ren",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ren/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ren.json",
-  "summary": "Ren is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast).",
+  "summary": "Ren is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides).",
   "parts": [
     {
       "part": 6,
@@ -43,6 +43,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 14,
+      "headline": "The Cash Arrives Unevenly",
+      "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
     }
   ],
   "numbers": [],
@@ -228,6 +233,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "A cracking labor market is a real risk for anything tied to the consumer, and the AI buildout being funded by hyperscaler cash flows and multi-year contracts is why, for now, it stays on the watchlist and doesn't change the thesis.",
+      "date": "2026-10-05",
+      "url": "https://renstocks.substack.com/p/early-october-portfolio-update-the",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "the-cash-still-covers-it",
+      "sideLabel": "The cash still covers it",
+      "claim": "Because every cloud and hardware dollar traces back to someone paying for AI at the top, the application and model boxes are the demand test for the whole map; in 2030 the stack would spend $3-4T a year on hardware while apps and models bring in…",
+      "date": "2026-10-06",
+      "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 14,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "That gap can hold for a while because hyperscalers fund capex from non-AI businesses, debt covers part of it and hardware is paid off over several years, but eventually it has to close from the top, and if the $2.1T arrives late every floor…",
+      "date": "2026-10-06",
+      "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
     }
   ],
   "coverage": {
