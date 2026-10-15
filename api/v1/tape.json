@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T16:41:00Z",
+  "generatedAt": "2026-10-15T10:33:22Z",
   "url": "https://deepstack.ltd/data/#theme-live",
   "disclaimer": "Analysis and opinion, not investment advice.",
-  "asOf": "2026-10-14T10:30:01.279Z",
+  "asOf": "2026-10-15T10:30:01.690Z",
   "api": "https://deepstack.ltd/api/v1/tape.json",
   "source": "U.S. Treasury; BLS; Federal Reserve H.15, Federal Reserve Board, BLS, BEA, DOL, Census Bureau, University of Michigan, OMB, S&P Dow Jones Indices, Cboe, EIA and IMF via FRED; Trading Economics for household inflation expectations, European gas, European power, uranium, lithium and forecast paths",
   "sourceUrl": "https://deepstack.ltd/data/",
@@ -11,48 +11,48 @@
     {
       "id": "ten",
       "label": "10-year Treasury",
-      "value": "5.21%",
-      "change": "−6 bp this week",
+      "value": "5.19%",
+      "change": "−9 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "two",
       "label": "2-year Treasury",
-      "value": "4.79%",
-      "change": "0 bp this week",
+      "value": "4.82%",
+      "change": "+5 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "thirty",
       "label": "30-year Treasury",
-      "value": "5.56%",
-      "change": "−8 bp this week",
+      "value": "5.52%",
+      "change": "−15 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "real",
       "label": "10-year real yield",
-      "value": "2.88%",
-      "change": "−3 bp this week",
+      "value": "2.84%",
+      "change": "−8 bp this week",
       "source": "U.S. Treasury",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,805",
-      "change": "−0.2% this week",
+      "value": "7,719",
+      "change": "−1.1% this week",
       "source": "S&P Dow Jones Indices via FRED",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
     {
       "id": "vix",
       "label": "VIX",
-      "value": "15.2",
-      "change": "−2% this week",
+      "value": "15.3",
+      "change": "+2% this week",
       "source": "Cboe via FRED",
       "url": "https://deepstack.ltd/data/#theme-live"
     },
@@ -82,9 +82,9 @@
     },
     {
       "id": "cpi",
-      "label": "CPI, Aug",
-      "value": "3.4%",
-      "change": "Core 2.4%",
+      "label": "CPI, Sep",
+      "value": "3.7%",
+      "change": "Core 2.6%",
       "source": "BLS",
       "url": "https://deepstack.ltd/data/#theme-live"
     },

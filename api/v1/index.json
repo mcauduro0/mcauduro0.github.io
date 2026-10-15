@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:41:00Z",
+  "generatedAt": "2026-10-15T10:33:22Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -128,31 +128,31 @@
       "page": "https://deepstack.ltd/data/download/",
       "index": "https://deepstack.ltd/data/download/index.json",
       "current": {
-        "asOf": "2026-10-14",
+        "asOf": "2026-10-15",
         "files": {
           "tests": {
-            "csv": "https://deepstack.ltd/data/download/tests-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/tests-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/tests-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/tests-2026-10-15.json"
           },
           "results": {
-            "csv": "https://deepstack.ltd/data/download/results-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/results-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/results-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/results-2026-10-15.json"
           },
           "sides": {
-            "csv": "https://deepstack.ltd/data/download/sides-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/sides-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/sides-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/sides-2026-10-15.json"
           },
           "companies": {
-            "csv": "https://deepstack.ltd/data/download/companies-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/companies-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/companies-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/companies-2026-10-15.json"
           },
           "people": {
-            "csv": "https://deepstack.ltd/data/download/people-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/people-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/people-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/people-2026-10-15.json"
           },
           "tape": {
-            "csv": "https://deepstack.ltd/data/download/tape-2026-10-14.csv",
-            "json": "https://deepstack.ltd/data/download/tape-2026-10-14.json"
+            "csv": "https://deepstack.ltd/data/download/tape-2026-10-15.csv",
+            "json": "https://deepstack.ltd/data/download/tape-2026-10-15.json"
           }
         }
       }
