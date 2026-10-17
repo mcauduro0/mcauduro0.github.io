@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-10-15T10:33:22Z",
+  "generatedAt": "2026-10-17T11:04:00Z",
   "url": "https://deepstack.ltd/weekly/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/weekly.json",
-  "count": 2,
-  "latest": "2026-10-10",
+  "count": 3,
+  "latest": "2026-10-17",
   "editions": [
+    {
+      "id": "2026-10-17",
+      "number": 3,
+      "date": "2026-10-17",
+      "subject": "DeepStack Weekly No. 3: The Cash Arrives Unevenly",
+      "preheader": "Microsoft pays for its data centers from its own cash with room to spare. Alphabet and Meta now spend most of theirs and Amazon more than all of it; Alphabet and Amazon have covered the gap with stock and bonds. DeepStack reads the filings company by company and names the October 28 report that tests the view. 10-year Treasury at 5.09%.",
+      "url": "https://deepstack.ltd/weekly/2026-10-17/"
+    },
     {
       "id": "2026-10-10",
       "number": 2,

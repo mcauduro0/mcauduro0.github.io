@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:33:22Z",
+  "generatedAt": "2026-10-17T11:04:00Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "berkshire-hathaway",
@@ -29,19 +29,19 @@
     "creators": 44,
     "claims": 2001,
     "texts": 539,
-    "asOf": "2026-10-15"
+    "asOf": "2026-10-16"
   },
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-10-16",
   "market": {
-    "price": 789838.5,
-    "change": 9488.5,
-    "changePercent": 1.2159,
-    "marketCap": 1127210116890,
-    "pe": 13.2398,
+    "price": 789486,
+    "change": -99.01,
+    "changePercent": -0.0125,
+    "marketCap": 1126706260554,
+    "pe": 13.2339,
     "nextEarnings": "2026-11-07",
     "exchange": "NYSE",
     "currency": "USD",
-    "asOf": "2026-10-14T19:59:45.000Z",
+    "asOf": "2026-10-15T20:00:15.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."
