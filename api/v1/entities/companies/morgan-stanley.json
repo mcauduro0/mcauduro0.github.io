@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T11:04:00Z",
+  "generatedAt": "2026-10-19T10:33:31Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "morgan-stanley",
@@ -51,19 +51,19 @@
     "creators": 37,
     "claims": 93,
     "texts": 70,
-    "asOf": "2026-10-16"
+    "asOf": "2026-10-19"
   },
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-19",
   "market": {
-    "price": 182.105,
-    "change": 0.595,
-    "changePercent": 0.3278,
-    "marketCap": 287231451600,
-    "pe": 14.3616,
+    "price": 180.54,
+    "change": -1.56,
+    "changePercent": -0.8567,
+    "marketCap": 284763000861,
+    "pe": 14.2382,
     "nextEarnings": "2027-01-14",
     "exchange": "NYSE",
     "currency": "USD",
-    "asOf": "2026-10-15T19:59:59.000Z",
+    "asOf": "2026-10-16T19:59:59.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."

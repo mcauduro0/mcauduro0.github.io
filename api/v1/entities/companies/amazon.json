@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T11:04:00Z",
+  "generatedAt": "2026-10-19T10:33:31Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "amazon",
@@ -379,19 +379,19 @@
     "creators": 134,
     "claims": 899,
     "texts": 555,
-    "asOf": "2026-10-16"
+    "asOf": "2026-10-19"
   },
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-19",
   "market": {
-    "price": 254.76,
-    "change": 0.68,
-    "changePercent": 0.2676,
-    "marketCap": 2747917788000,
-    "pe": 20.219,
+    "price": 250,
+    "change": -4.76,
+    "changePercent": -1.8684,
+    "marketCap": 2696575000000,
+    "pe": 19.8413,
     "nextEarnings": "2026-10-29",
     "exchange": "NASDAQ",
     "currency": "USD",
-    "asOf": "2026-10-15T20:00:01.000Z",
+    "asOf": "2026-10-16T20:00:01.000Z",
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
     "note": "Delayed quotes."
