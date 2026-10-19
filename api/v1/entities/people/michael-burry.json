@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+  "summary": "Michael Burry is named in 11 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
   "parts": [
     {
       "part": 1,
@@ -53,6 +53,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -310,6 +320,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "Interest rates are rising due to inflation and increased competition with Treasuries from more debt issuance (hyperscaler debt, Japan, or elsewhere), and higher rates can be a catalyst for the AI buildout financing chain to come apart.",
+      "date": "2026-09-28",
+      "url": "https://michaeljburry.substack.com/p/trading-post-september-28-2026",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+      "date": "2026-07-09",
+      "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "Michael Burry characterises Nvidia's November 2025 defence that its strategic investments in customers were a minimal portion of revenue as evasive, because it referred only to revenue already booked rather than to future revenue.",
+      "date": "2026-07-23",
+      "url": "https://michaeljburry.substack.com/p/trading-post-july-23-2026-3-stock",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

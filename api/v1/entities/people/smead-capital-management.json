@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "smead-capital-management",
+  "name": "Smead Capital Management",
+  "role": null,
+  "url": "https://deepstack.ltd/people/smead-capital-management/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/smead-capital-management.json",
+  "summary": "Smead Capital Management is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Despite recent price volatility, structural supply constraints and geopolitical risk have raised the through-cycle oil price to around $80, which will allow APA Corp's oil holdings, which break even near $40, to generate significant free cash flow…",
+      "date": "2026-09-22",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Oil prices are around $70 a barrel amid fears of demand destruction, but strong crack spreads suggest demand remains robust, and the manager believes the market is misreading the situation similarly to past cycles, expecting higher oil prices…",
+      "date": "2026-07-15",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 114,
+    "texts": 21,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "microsoft",
@@ -7,7 +7,7 @@
   "ticker": "MSFT",
   "url": "https://deepstack.ltd/companies/microsoft/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-  "summary": "Microsoft is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+  "summary": "Microsoft is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 2,
@@ -58,6 +58,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [
@@ -277,6 +287,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "Back-end AI can only look profitable while unusually rich and irrational customers burn billions with no return; Ed Elson estimates OpenAI and Anthropic alone account for 60-80% of AI revenues at Amazon, Google and Microsoft and, per The…",
+      "date": "2026-07-07",
+      "url": "https://www.profgmedia.com/p/two-red-flags",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Anthropic and OpenAI together account for roughly 70% of hyperscaler AI revenue and 25-35% of total cloud revenue, with Microsoft, Amazon, and Google's growth substantially dependent on these two companies.",
+      "date": "2026-08-14",
+      "url": "https://realeismanplaybook.substack.com/p/the-ai-achilles-heel-why-everything",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

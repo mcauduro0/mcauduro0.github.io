@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "matthew-c-klein",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/matthew-c-klein/",
   "api": "https://deepstack.ltd/api/v1/entities/people/matthew-c-klein.json",
-  "summary": "Matthew C. Klein is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (Growth: yields are catching up).",
+  "summary": "Matthew C. Klein is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (Growth: yields are catching up), Part 15 (The boom pays the rate), Part 15 (Voices that cross sides).",
   "parts": [
     {
       "part": 7,
       "headline": "The Fed Hiked. The Long End Still Climbed.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -41,6 +46,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/",
       "sidesUrl": "https://deepstack.ltd/sides/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "Matthew C. Klein has been making for years the point that prices most sensitive to domestic demand and least exposed to mismeasurement or other idiosyncrasies have consistently been rising 1-2pp faster than in the years immediately before the…",
+      "date": "2026-09-24",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Current long-term Treasury yields are still low relative to reasonable expectations of inflation and growth, and are only obviously too high if inflation and growth are both set to slow sharply from current levels.",
+      "date": "2026-09-01",
+      "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "coverage": {

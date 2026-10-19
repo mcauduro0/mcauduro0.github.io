@@ -1,12 +1,12 @@
 {
   "url": "https://deepstack.ltd/data/download/",
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "license": "CC BY 4.0 for DeepStack’s own fields (attribution: DeepStack, deepstack.ltd).",
   "about": "The dataset behind deepstack.ltd, as the current build wrote it and as every version was cut. The plain files change with every build; a dated file is kept as long as its version is listed. Cite the dated file name.",
   "current": {
     "asOf": "2026-10-19",
-    "latestVersion": "2026-10-14",
+    "latestVersion": "2026-10-19",
     "files": [
       {
         "name": "tests",
@@ -16,7 +16,7 @@
           "csv": "https://deepstack.ltd/data/download/tests.csv",
           "json": "https://deepstack.ltd/data/download/tests.json"
         },
-        "rows": 65,
+        "rows": 74,
         "columns": [
           "id",
           "part",
@@ -70,7 +70,7 @@
           "csv": "https://deepstack.ltd/data/download/sides.csv",
           "json": "https://deepstack.ltd/data/download/sides.json"
         },
-        "rows": 364,
+        "rows": 447,
         "columns": [
           "part",
           "story_slug",
@@ -116,7 +116,7 @@
           "csv": "https://deepstack.ltd/data/download/people.csv",
           "json": "https://deepstack.ltd/data/download/people.json"
         },
-        "rows": 96,
+        "rows": 106,
         "columns": [
           "slug",
           "name",
@@ -137,7 +137,7 @@
           "csv": "https://deepstack.ltd/data/download/tape.csv",
           "json": "https://deepstack.ltd/data/download/tape.json"
         },
-        "rows": 56,
+        "rows": 64,
         "columns": [
           "id",
           "part",
@@ -165,6 +165,198 @@
     ]
   },
   "versions": [
+    {
+      "asOf": "2026-10-19",
+      "generatedAt": "2026-10-19T15:14:33.841Z",
+      "current": true,
+      "files": [
+        {
+          "name": "tests",
+          "csv": "https://deepstack.ltd/data/download/tests-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/tests-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/tests.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/tests.json"
+          },
+          "rows": 74,
+          "columns": [
+            "id",
+            "part",
+            "story_slug",
+            "story_headline",
+            "index",
+            "when",
+            "date",
+            "precision",
+            "status",
+            "result_id",
+            "event",
+            "source_kind",
+            "source_ref",
+            "source_url",
+            "resolver_kind",
+            "resolver_rule",
+            "call_expects",
+            "call_probability"
+          ],
+          "bytes": 37049,
+          "sha256": "b8814eefa7dcc476e227cc69a809b6375240b998501a422baebcdfd1a4dcf76c",
+          "jsonBytes": 111226,
+          "jsonSha256": "28c501c8d82d47e14667f1bfbeae4abf21f92769d02418757964edcccd9ac96c"
+        },
+        {
+          "name": "results",
+          "csv": "https://deepstack.ltd/data/download/results-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/results-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/results.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/results.json"
+          },
+          "rows": 1,
+          "columns": [
+            "id",
+            "test_id",
+            "part",
+            "story_slug",
+            "resolved_on",
+            "verdict",
+            "call_verdict",
+            "headline",
+            "body",
+            "evidence",
+            "call_update",
+            "approved_at"
+          ],
+          "bytes": 2067,
+          "sha256": "425f5ca73e912c00a05834c9c0a2e791e166a1f781663ddc5368494be018516a",
+          "jsonBytes": 11444,
+          "jsonSha256": "eaf318bec7e8f30092b8bd880a11b7bfba47f121044e05d370548212c52e4d29"
+        },
+        {
+          "name": "sides",
+          "csv": "https://deepstack.ltd/data/download/sides-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/sides-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/sides.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/sides.json"
+          },
+          "rows": 447,
+          "columns": [
+            "part",
+            "story_slug",
+            "question_id",
+            "question",
+            "side_id",
+            "side_label",
+            "voice",
+            "entity_slug",
+            "date",
+            "claim",
+            "url",
+            "access",
+            "link_verified"
+          ],
+          "bytes": 207774,
+          "sha256": "b7dedec4964c3f49f7b37986d53b6caf5d447ae2af2fa61e79605c1dab65e830",
+          "jsonBytes": 353394,
+          "jsonSha256": "f75d5c142caa7d15f6dc9b84a40f25373da2462cd5c16f22a11793f78b86de0a"
+        },
+        {
+          "name": "companies",
+          "csv": "https://deepstack.ltd/data/download/companies-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/companies-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/companies.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/companies.json"
+          },
+          "rows": 48,
+          "columns": [
+            "slug",
+            "name",
+            "ticker",
+            "parts",
+            "summary",
+            "reported_figures",
+            "mentions",
+            "positions",
+            "last_updated"
+          ],
+          "bytes": 7895,
+          "sha256": "110f1b2adfbcd19b18df0d13b7f304a9e6445fe0d0af8dd07268272d1dacc098",
+          "jsonBytes": 225275,
+          "jsonSha256": "5214d05ae50584b39c6b404948b835b9be24d9f0d3fbaa3420a39b66060351c7"
+        },
+        {
+          "name": "people",
+          "csv": "https://deepstack.ltd/data/download/people-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/people-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/people.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/people.json"
+          },
+          "rows": 106,
+          "columns": [
+            "slug",
+            "name",
+            "role",
+            "parts",
+            "summary",
+            "reported_figures",
+            "mentions",
+            "positions",
+            "last_updated"
+          ],
+          "bytes": 27150,
+          "sha256": "c7d5062f418d3d9d19f2e7812cd351d97797a48d6eda0e61b03b99f5a2a8a21b",
+          "jsonBytes": 337960,
+          "jsonSha256": "4515ab48d0c85e05739f390307c46de4312f9d3f91c4333e4ddd9f5c7ed28975"
+        },
+        {
+          "name": "tape",
+          "csv": "https://deepstack.ltd/data/download/tape-2026-10-19.csv",
+          "json": "https://deepstack.ltd/data/download/tape-2026-10-19.json",
+          "snapshot": {
+            "csv": "https://deepstack.ltd/data/download/versions/2026-10-19/tape.csv",
+            "json": "https://deepstack.ltd/data/download/versions/2026-10-19/tape.json"
+          },
+          "rows": 64,
+          "columns": [
+            "id",
+            "part",
+            "story_slug",
+            "story_headline",
+            "published",
+            "value",
+            "label",
+            "context",
+            "unit",
+            "universe",
+            "period",
+            "source_label",
+            "source_url",
+            "as_of",
+            "transformation",
+            "limits",
+            "chart",
+            "test",
+            "behind_the_call",
+            "approved_by",
+            "approved_at"
+          ],
+          "bytes": 47015,
+          "sha256": "d9050b67546774414d7024763cbbe2e3764dd2a6717d59a88bfb7c95e0548765",
+          "jsonBytes": 72043,
+          "jsonSha256": "fb3b4266d8f706ece64361757f1df511ae0a0cb6b0b85751f8e089b818174b25"
+        }
+      ],
+      "changes": [
+        "tests: 9 rows added (p15-t01, p15-t02, p15-t03, p15-t04, p16-t01 and 4 more), 1 changed (p11-t02).",
+        "sides: 41 rows added (Part 15, Michael Howell, Part 15, Andrew Sheets, Part 15, Matthew C. Klein, Part 15, Luke Kawa, Part 15, Kris and 36 more).",
+        "companies: 48 rows changed (alibaba, alphabet, amazon, amd, anthropic and 43 more).",
+        "people: 10 rows added (andrew-sheets, artisan-partners, blue-tower-asset-management-llc, daniel-nishball, david-rosenberg and 5 more), 96 changed (abhi-yadav, alasdair-mann, alex-immerman, alex-karp, amin-vahdat and 91 more).",
+        "tape: 8 rows added (Part 15, 10-year Treasury yield at the close of October 5, 2026, its highest close since May 2002, Part 15, Rise in the 10-year real yield from February 27 to October 8, 2026, of the 10-year's 125, Part 15, Rise in 10-year breakeven inflation over the same dates, February 27 to October 8, 2026, Part 15, Brent spot price the EIA forecast for the fourth quarter of 2026, a barrel, Part 16, Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26 and 3 more)."
+      ]
+    },
     {
       "asOf": "2026-10-14",
       "generatedAt": "2026-10-14T16:38:47.585Z",

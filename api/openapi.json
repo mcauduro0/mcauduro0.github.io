@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-19T10:33:31Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-19T15:15:13Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -57,7 +57,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The 14 parts of The Buildout with The DeepStack Call, key numbers and sources.",
+            "description": "The 16 parts of The Buildout with The DeepStack Call, key numbers and sources.",
             "content": {
               "application/json": {
                 "schema": {
@@ -98,7 +98,9 @@
                 "the-backlog-is-not-the-quarter",
                 "the-model-is-not-the-price",
                 "the-ratepayer-pays-first",
-                "the-cash-arrives-unevenly"
+                "the-cash-arrives-unevenly",
+                "oil-is-the-headline-the-real-yield-is-the-bill",
+                "the-seller-holds-the-paper"
               ]
             }
           }
@@ -255,6 +257,7 @@
                 "anthropic-grew-142-percent-openai",
                 "habit-was-the-moat",
                 "nvidias-demand-insatiable-or-manufactured",
+                "oil-is-the-headline-the-real-yield-is-the-bill",
                 "power-doesnt-depreciate",
                 "spacex-after-the-ipo-exit-liquidity",
                 "the-backlog-is-not-the-quarter",
@@ -265,7 +268,8 @@
                 "the-market-stops-paying-for-faith",
                 "the-model-is-not-the-price",
                 "the-ratepayer-pays-first",
-                "the-scarcity-is-the-collateral"
+                "the-scarcity-is-the-collateral",
+                "the-seller-holds-the-paper"
               ]
             }
           }
@@ -303,6 +307,7 @@
                 "anthropic-grew-142-percent-openai",
                 "habit-was-the-moat",
                 "nvidias-demand-insatiable-or-manufactured",
+                "oil-is-the-headline-the-real-yield-is-the-bill",
                 "power-doesnt-depreciate",
                 "spacex-after-the-ipo-exit-liquidity",
                 "the-backlog-is-not-the-quarter",
@@ -313,7 +318,8 @@
                 "the-market-stops-paying-for-faith",
                 "the-model-is-not-the-price",
                 "the-ratepayer-pays-first",
-                "the-scarcity-is-the-collateral"
+                "the-scarcity-is-the-collateral",
+                "the-seller-holds-the-paper"
               ]
             }
           }
@@ -341,7 +347,7 @@
         ],
         "responses": {
           "200": {
-            "description": "The 14 questions DeepStack settles, one page each: the Part, The DeepStack Call and the next dated test.",
+            "description": "The 16 questions DeepStack settles, one page each: the Part, The DeepStack Call and the next dated test.",
             "content": {
               "application/json": {
                 "schema": {
@@ -382,7 +388,9 @@
                 "do-the-orders-turn-into-profit",
                 "does-the-frontier-model-still-command-a-price",
                 "who-pays-for-the-ai-power-bill",
-                "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out"
+                "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
+                "can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time",
+                "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling"
               ]
             }
           }
@@ -452,7 +460,7 @@
         ],
         "responses": {
           "200": {
-            "description": "96 people with what each argued; no score or ranking.",
+            "description": "106 people with what each argued; no score or ranking.",
             "content": {
               "application/json": {
                 "schema": {

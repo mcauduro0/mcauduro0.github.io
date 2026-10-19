@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31.207Z",
+  "generatedAt": "2026-10-19T15:15:13.182Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -1550,11 +1550,25 @@
       "resolver": {
         "kind": "earnings",
         "symbol": "NVDA",
-        "rule": "results reported => read the print",
-        "question": "",
-        "source": null,
-        "ambiguity": "",
-        "specState": "pending"
+        "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
       },
       "status": "pending",
       "resultId": null
@@ -2185,6 +2199,348 @@
           }
         ],
         "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p15-t01",
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "index": 0,
+      "when": "December 31",
+      "date": "2026-12-31",
+      "precision": "day",
+      "event": "The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read every daily observation of DGS10 dated October 16, 2026 through December 31, 2026, as FRED shows them on January 5, 2027; the days read are the days for which FRED reports a value. The answer is yes if any of them is 5.50 or higher; no if every one is below 5.50. Intraday highs, other maturities and yields reported in the press are read alongside and do not decide the test.",
+        "question": "Does the 10-year Treasury constant-maturity yield (FRED series DGS10) close at 5.50% or higher on any day from October 16, 2026 through December 31, 2026 for which FRED reports a value?",
+        "source": {
+          "label": "FRED, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10), Board of Governors of the Federal Reserve System",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        "ambiguity": "FRED posts each close about one business day later, so the observation for December 31, 2026 is due by January 4, 2027. A weekday FRED leaves blank because the U.S. bond market was closed is not missing and is not read: in this window, Veterans Day (November 11), Thanksgiving (November 26) and Christmas (December 25, 2026), by the holiday schedule of the Securities Industry and Financial Markets Association. Only a weekday on which the bond market was open and FRED still shows no value on January 8, 2027 is missing; if one is, and no observation already in is 5.50 or higher, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 15, 2027. A close FRED revises before the reading is read as revised; a later revision does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p15-t02",
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "index": 1,
+      "when": "January 12, 2027",
+      "date": "2027-01-12",
+      "precision": "day",
+      "event": "The barrel: whether the EIA's January outlook puts Brent's fourth-quarter 2026 average above the $105 a barrel it forecast on October 6, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read the fourth-quarter 2026 Brent spot average, in dollars per barrel, from the energy prices table of the January 2027 Short-Term Energy Outlook, where the quarter is history. The answer is yes if it is above $105.00; no if it is $105.00 or below. The outlook's forecasts for 2027, futures prices and prices reported in the press are read alongside and do not decide the test.",
+        "question": "Does the U.S. Energy Information Administration's Short-Term Energy Outlook of January 2027 put the average Brent crude oil spot price for the fourth quarter of 2026 above $105 a barrel?",
+        "source": {
+          "label": "U.S. Energy Information Administration, Short-Term Energy Outlook, January 2027 release (energy prices table, quarterly Brent spot average), scheduled for January 12, 2027",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        "ambiguity": "The EIA schedules the January outlook for January 12, 2027. If it is not published by January 19, 2027, or its energy prices table does not give the fourth quarter of 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is the February outlook, scheduled for February 9, 2027, which also carries the quarter as history. Figures are read as first published in the release read.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p15-t03",
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "index": 2,
+      "when": "April 1, 2027",
+      "date": "2027-04-01",
+      "precision": "day",
+      "event": "Expectations: whether FRED's 5-year, 5-year forward inflation rate averages above 2.60% in March 2027, from 2.32% on October 9, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Average the daily observations of T5YIFR dated March 1 through March 31, 2027 for which FRED reports a value, as FRED shows them on April 1, 2027, rounded to two decimals. The answer is yes if the average is above 2.60; no if it is 2.60 or below. The 10-year breakeven (T10YIE), surveys of inflation expectations and readings outside March are read alongside and do not decide the test.",
+        "question": "Does the 5-year, 5-year forward inflation expectation rate (FRED series T5YIFR) average more than 2.60% over the days of March 2027 for which FRED reports a value?",
+        "source": {
+          "label": "FRED, 5-Year, 5-Year Forward Inflation Expectation Rate (T5YIFR), Federal Reserve Bank of St. Louis",
+          "url": "https://fred.stlouisfed.org/series/T5YIFR"
+        },
+        "ambiguity": "FRED posts the series about one business day later, so the observation for March 31, 2027 is due by April 1, 2027. A weekday FRED leaves blank because the U.S. bond market was closed is not missing and is left out of the average. Good Friday, March 26, 2027, is expected to be such a day: not a federal holiday, but a bond market close on the holiday schedule of the Securities Industry and Financial Markets Association, which FRED left blank in 2024 and 2025; the Result names every weekday left blank and why. Only a weekday of March on which the bond market was open and FRED still shows no value on April 8, 2027 is missing; if one is, the test is inconclusive, and the Result says what was read and what was missing; the next reading is April 15, 2027. Observations FRED revises before the reading are read as revised; a later revision does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p15-t04",
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "index": 3,
+      "when": "March 31, 2027",
+      "date": "2027-03-31",
+      "precision": "day",
+      "event": "The trade: whether the Thrift Savings Plan's C Fund, an S&P 500 index fund, closes 10% or more below its highest close since October 16, 2026, on any day through March 31, 2027.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Read the C Fund's daily share prices from October 16, 2026 through March 31, 2027 in the plan's share price history. For each day, take the highest price from October 16, 2026 through that day. The answer is yes if on any day the price is at or below 90% of that running high; no if it never is. The fund holds the stocks of the S&P 500 and reinvests their dividends, so its share price is the record the test reads; the index itself and the plan's other funds are read alongside and do not decide the test.",
+        "question": "Does the C Fund of the Thrift Savings Plan, the federal employees' S&P 500 index fund, close at or below 90% of its highest closing share price since October 16, 2026, on any business day from October 16, 2026 through March 31, 2027?",
+        "source": {
+          "label": "Thrift Savings Plan, share price history of the C Fund (daily closing share prices, tsp.gov)",
+          "url": "https://www.tsp.gov/share-price-history/"
+        },
+        "ambiguity": "If the plan has not posted the prices through March 31, 2027 by April 7, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is April 14, 2027. A price the plan corrects is read as corrected.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-12",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-12",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p16-t01",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "index": 0,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null,
+      "sameAs": "p11-t02"
+    },
+    {
+      "id": "p16-t02",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "index": 1,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether the guarantees note in its 10-Q puts total maximum exposure above $108.5 billion, the figure in the table for July 26, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Read the total maximum gross exposure the guarantees note gives, including guarantees the note says were signed after the quarter ended, as the table for July 26, 2026 did. The answer is yes if it is above $108.5 billion; no if it is $108.5 billion or below. If the note gives no total, the Result sums the maximum exposures the note lists and says that it summed them. The fair value of the guarantees and the phasing of the SB Energy guarantees are read alongside and do not decide the test.",
+        "question": "Does the guarantees note in NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026 put the total maximum gross exposure under its guarantees above $108.5 billion?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (notes to the condensed consolidated financial statements, guarantees), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the note gives no maximum exposure for a guarantee it describes, the test is inconclusive, and the Result says what was read and what was missing; the next reading is NVIDIA's annual report on Form 10-K for fiscal 2027, by March 31, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p16-t03",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "index": 2,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether its 10-Q puts AI cloud agreements, cloud services it commits to buy from its own customers, above the $36 billion of July 26, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Read the amount the 10-Q gives for AI cloud agreements, the cloud services NVIDIA has committed to buy, at October 25, 2026. The answer is yes if it is above $36 billion; no if it is $36 billion or below. Data center leases NVIDIA signed to pass on to third parties, and other purchase obligations, are read alongside and do not decide the test.",
+        "question": "Does NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026 report AI cloud agreements, in its disclosure of purchase obligations and other commitments, above $36 billion?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (commitments and contingencies note), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the 10-Q gives no amount for AI cloud agreements, the test is inconclusive, and the Result says what was read and what was missing; the next reading is NVIDIA's annual report on Form 10-K for fiscal 2027, by March 31, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p16-t04",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "index": 3,
+      "when": "November 18",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether the direct customers listed at 10% or more of receivables hold more than 70% together, after five held 70% on July 26, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Sum the percentages of the accounts receivable balance at October 25, 2026 that the 10-Q gives for each direct customer at 10% or more. The answer is yes if the sum is above 70%; no if it is 70% or below, or if the filing lists no such customer. Indirect customers and the shares of revenue are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, do the direct customers the filing lists at 10% or more of accounts receivable together account for more than 70% of accounts receivable?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (concentration of credit risk), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the filing gives the concentration only as a combined figure, that figure decides.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p16-t05",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "index": 4,
+      "when": "When filed",
+      "date": null,
+      "precision": "signal",
+      "event": "Anthropic's first public registration statement: its first audited revenue, and how much of it runs through investors that also sell it compute.",
+      "source": {
+        "kind": "label",
+        "ref": "When filed",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
       },
       "status": "pending",
       "resultId": null

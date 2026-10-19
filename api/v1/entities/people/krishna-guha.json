@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "krishna-guha",
+  "name": "Krishna Guha",
+  "role": null,
+  "url": "https://deepstack.ltd/people/krishna-guha/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/krishna-guha.json",
+  "summary": "Krishna Guha is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 15,
+      "section": "The two shocks compound",
+      "excerpt": "Krishna Guha, a guest on Eisman's program on October 4, said the Fed can no longer ignore the shocks after more than five years of inflation above its 2% target, dearer oil among the causes, and that with the job market in good shape a hike is defensible.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "The Fed can no longer ignore the shocks; inflation has been above the Fed's two percent target for more than five years due to the pandemic, tariffs, the war, and higher oil prices, though inflation is still heading down, and with the jobs market…",
+      "date": "2026-10-04",
+      "url": "https://realeismanplaybook.substack.com/p/5-rates-bessents-failed-gamble-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "There is a worry that inflation risk is building as people start building higher inflation expectations into wage negotiations and prices, which could lock inflation into the system.",
+      "date": "2026-10-04",
+      "url": "https://realeismanplaybook.substack.com/p/5-rates-bessents-failed-gamble-and",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

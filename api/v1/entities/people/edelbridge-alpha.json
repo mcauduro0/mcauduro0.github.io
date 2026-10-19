@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "organization",
   "slug": "edelbridge-alpha",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/edelbridge-alpha/",
   "api": "https://deepstack.ltd/api/v1/entities/undefined/edelbridge-alpha.json",
-  "summary": "Edelbridge Alpha is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+  "summary": "Edelbridge Alpha is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 16 (Voices that cross sides).",
   "parts": [
     {
       "part": 6,
@@ -18,6 +18,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -101,6 +106,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Nvidia's 70% growth guide is restricted by memory chip supply rather than demand, so Nvidia's revenue line is set to stop being a read on AI demand and instead become a signal for component availability.",
+      "date": "2026-08-27",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Nvidia is financing neoclouds into existence because that is what the market wants and what benefits Nvidia the most.",
+      "date": "2026-08-27",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

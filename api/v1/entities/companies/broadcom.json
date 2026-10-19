@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "broadcom",
@@ -7,12 +7,17 @@
   "ticker": "AVGO",
   "url": "https://deepstack.ltd/companies/broadcom/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/broadcom.json",
-  "summary": "Broadcom is named in 1 Part of The Buildout, most recently Part 1: Nvidia’s Demand Is Real. Its Financing Is Fragile..",
+  "summary": "Broadcom is named in 2 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 1,
       "headline": "Nvidia’s Demand Is Real. Its Financing Is Fragile.",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [
@@ -36,6 +41,24 @@
       "section": "Long the chips, short the returns",
       "excerpt": "If Google is willing to pay roughly double, if Broadcom’s orders exceed shipments by a wide margin, and if customer-wide visibility lasts a year, then scarcity is not a financing mirage.",
       "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "part": 16,
+      "section": "The financed share",
+      "excerpt": "Broadcom's 10-Q for the quarter to May 3, 2026 reports under Other Information that on June 8 it arranged for Apollo, which it calls its investor partner, to take over agreements to buy AI racks, and the related leases, with a customer it does not name, and backstopped that customer's lease payments over five years up to $29 billion.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Apollo, one of the firms Tang named, is also the investor partner Broadcom names in its June 8 arrangement, with Broadcom's $29 billion backstop beneath the customer's leases.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Beside Broadcom's $42 billion note facility, which Reuters ties to Anthropic, DeepStack reads that as an investor's backlog holding the lab's chip contracts while the chips' co-designer lends the lab money to lease them.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [

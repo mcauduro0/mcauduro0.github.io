@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "andrew-sheets",
+  "name": "Andrew Sheets",
+  "role": null,
+  "url": "https://deepstack.ltd/people/andrew-sheets/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/andrew-sheets.json",
+  "summary": "Andrew Sheets is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "Conditions appear more likely too hot than too cold, which is the opposite signal from what would be implied if rates were too high, since rates that were too high would curtail activity and push inflation below target.",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "The interest rate that helps balance the technology and spending boom is not the same rate that keeps a smaller, weaker, or more indebted company happy, so if higher rates are needed to balance things overall, the weaker tails of the market can…",
+      "date": "2026-10-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

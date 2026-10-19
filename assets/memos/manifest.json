@@ -93,11 +93,11 @@
     "the-backlog-is-not-the-quarter": {
       "part": 11,
       "slug": "the-backlog-is-not-the-quarter",
-      "hash": "d99d81c4685e5ce1dcdf78e8e9b05c65bea1b68a0937a3959a1169c977144d4f",
-      "bytes": 329304,
-      "pages": 10,
+      "hash": "0738ec69a2014b63ff5ab638a7a3e4fd4fa77d50963cace985ca92a973b829cf",
+      "bytes": 335159,
+      "pages": 11,
       "paper": "letter",
-      "printedOn": "2026-10-14"
+      "printedOn": "2026-10-19"
     },
     "the-model-is-not-the-price": {
       "part": 12,
@@ -120,11 +120,29 @@
     "the-cash-arrives-unevenly": {
       "part": 14,
       "slug": "the-cash-arrives-unevenly",
-      "hash": "ad8099a6a342b1e6334181421d5fc110fff63727eeb9715f03ead308c355e0ce",
+      "hash": "347baca954780df15b6b4dce7d0b57c0b11b1638e98849359ce1ddcefc720a71",
       "bytes": 377770,
       "pages": 13,
       "paper": "letter",
-      "printedOn": "2026-10-14"
+      "printedOn": "2026-10-19"
+    },
+    "oil-is-the-headline-the-real-yield-is-the-bill": {
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "hash": "633ea7a167d451ef77208fe263daf190f1493a0e5fa1eaf7e749eced2538b05c",
+      "bytes": 363756,
+      "pages": 12,
+      "paper": "letter",
+      "printedOn": "2026-10-19"
+    },
+    "the-seller-holds-the-paper": {
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "hash": "f19aecaf6e924aea1ba8861b12f1e0a794c6eb274264be89634be1d903322ccb",
+      "bytes": 357038,
+      "pages": 11,
+      "paper": "letter",
+      "printedOn": "2026-10-19"
     }
   },
   "generatedBy": "scripts/memo.mjs"

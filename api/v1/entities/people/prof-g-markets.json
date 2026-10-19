@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "prof-g-markets",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/prof-g-markets/",
   "api": "https://deepstack.ltd/api/v1/entities/people/prof-g-markets.json",
-  "summary": "Prof G Markets is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+  "summary": "Prof G Markets is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 4,
@@ -48,6 +48,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -105,6 +115,24 @@
       "section": "The bill has moved to debt",
       "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "section": "The two shocks compound",
+      "excerpt": "Mia Silverio of Prof G Markets named the cost on October 5: an investor who can earn 5.3% on a Treasury demands more from a stock and pays less for each dollar of its earnings.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Ed Elson of Prof G Markets estimated on July 7 that the two labs supplied 60% to 80% of the AI revenue at Amazon, Google and Microsoft and, citing The Information, about half of the hyperscalers' revenue backlog.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Mia Silverio of Prof G Markets wrote on October 5 that two customers supplied nearly a quarter of Anthropic's 2025 revenue and that 47% of its sales ran through Amazon and Google, a concentration a small company can live with and a company seeking a $2 trillion value cannot.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [],

@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "david-rosenberg",
+  "name": "David Rosenberg",
+  "role": null,
+  "url": "https://deepstack.ltd/people/david-rosenberg/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/david-rosenberg.json",
+  "summary": "David Rosenberg is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "He will not say inflation bulls are deranged and grants that inflation is always a very complex item to forecast with hundreds of variables, but says he sees nothing telling him a pernicious inflationary environment is coming.",
+      "date": "2026-10-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "If real-time rents and home prices were plugged into the CPI it would be close to zero and core would be well below 2%, and he thinks that will come through with lags because shelter matters far more than energy in the CPI.",
+      "date": "2026-10-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

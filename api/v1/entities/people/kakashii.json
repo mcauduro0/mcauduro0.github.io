@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kakashii",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kakashii/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kakashii.json",
-  "summary": "Kakashii is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
+  "summary": "Kakashii is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
   "parts": [
     {
       "part": 2,
@@ -38,6 +38,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -83,6 +88,12 @@
       "section": "The tests ahead",
       "excerpt": "Oracle reports on December 14: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 16,
+      "section": "The seller funds its demand",
+      "excerpt": "Kakashii argued on August 20 that CoreWeave exists mainly to create demand for Nvidia's GPUs: Nvidia is its only GPU supplier and also an investor, customer and sponsor, and its cash spending on equipment came to about 84% of its gross debt proceeds.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -181,6 +192,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "Nvidia, acting as supplier, investor, financier, and deal broker, introduced Nebius to four major customers worth over $1 billion each in Q1, demonstrating Nebius's dependence on Nvidia for customer acquisition.",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

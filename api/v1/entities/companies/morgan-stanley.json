@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "morgan-stanley",
@@ -46,7 +46,20 @@
       "url": "https://deepstack.ltd/stories/habit-was-the-moat/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "Morgan Stanley's investor meetings with Nvidia leadership show accelerating growth rates even at 100 billion dollars revenue per quarter, strong demand for the Vera Rubin product cycle over the next 12 months, memory shortages lasting several…",
+      "date": "2026-07-14",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    }
+  ],
   "coverage": {
     "creators": 37,
     "claims": 93,

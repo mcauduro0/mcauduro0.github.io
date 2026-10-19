@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "harley-bassman",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/harley-bassman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/harley-bassman.json",
-  "summary": "Harley Bassman is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The cash still covers it).",
+  "summary": "Harley Bassman is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
   "parts": [
     {
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -29,6 +34,18 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "Beyond the lack of trust, rates are rising so much because of massive price-insensitive demand from hyperscalers, whose projected borrowing is around seven hundred fifty million against roughly two billion issued by the Treasury, approaching thirty…",
+      "date": "2026-09-17",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "coverage": {

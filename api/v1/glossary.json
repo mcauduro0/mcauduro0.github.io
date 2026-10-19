@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "url": "https://deepstack.ltd/glossary/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/glossary.json",
@@ -105,7 +105,8 @@
       "short": "How many days of sales sit unpaid in receivables; longer terms raise it.",
       "long": "Days sales outstanding measures how long customers take to pay: receivables divided by daily sales. When a supplier stretches terms from 90 days to a year, as Nvidia did for its best-rated customers (Part 11), the number rises and the quarter's revenue arrives in cash much later.",
       "parts": [
-        11
+        11,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#days-sales-outstanding"
     },
@@ -165,7 +166,8 @@
         10,
         11,
         12,
-        14
+        14,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#capital-spending"
     },
@@ -222,7 +224,8 @@
       "long": "A real yield is the yield on Treasury Inflation-Protected Securities, whose principal follows the consumer price index. It is the cost of borrowing after inflation, the number a lender financing a data center locks in. The nominal 10-year yield minus the real yield is the breakeven inflation the bond market prices.",
       "parts": [
         7,
-        10
+        10,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#real-yield"
     },
@@ -268,7 +271,8 @@
         8,
         9,
         11,
-        14
+        14,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#free-cash-flow"
     },
@@ -293,7 +297,8 @@
       "long": "Private credit is lending by investment funds outside banks and public bond markets, often secured on specific assets such as chips or data centers. It financed the compute platforms of Part 01 and the facilities of Part 03; its terms are rarely public, which is why DeepStack reads them from filings and dated reports.",
       "parts": [
         1,
-        3
+        3,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#private-credit"
     },
@@ -313,7 +318,8 @@
         8,
         10,
         13,
-        14
+        14,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#spread"
     },
@@ -356,7 +362,9 @@
         10,
         11,
         12,
-        14
+        14,
+        15,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#hyperscaler"
     },
@@ -389,7 +397,8 @@
       "parts": [
         7,
         8,
-        10
+        10,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#basis-point"
     },
@@ -402,7 +411,8 @@
       "short": "The extra yield investors demand to hold a long bond instead of rolling short ones.",
       "long": "The term premium is the part of a long-dated yield that compensates for holding duration rather than rolling short bills. When the Fed raises short rates and long yields rise more, the market is charging for time: supply, deficits and a thinner buyer base, as Part 07 argues.",
       "parts": [
-        7
+        7,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#term-premium"
     },
@@ -457,7 +467,8 @@
         6,
         7,
         11,
-        12
+        12,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#backlog"
     },
@@ -518,7 +529,8 @@
         4,
         6,
         10,
-        13
+        13,
+        16
       ],
       "url": "https://deepstack.ltd/glossary/#megawatt"
     },
@@ -541,7 +553,8 @@
         3,
         4,
         7,
-        11
+        11,
+        15
       ],
       "url": "https://deepstack.ltd/glossary/#duration"
     },

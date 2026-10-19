@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "coreweave",
@@ -7,7 +7,7 @@
   "ticker": "CRWV",
   "url": "https://deepstack.ltd/companies/coreweave/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/coreweave.json",
-  "summary": "CoreWeave is named in 5 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "summary": "CoreWeave is named in 6 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 3,
@@ -33,6 +33,11 @@
       "part": 8,
       "headline": "AI Lenders Are Financing the End of Scarcity",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -96,6 +101,18 @@
       "section": "What lenders actually own",
       "excerpt": "CoreWeave’s convertible coupon rose from 1.75% in April to 2.875% on a larger September deal.",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 16,
+      "section": "The financed share",
+      "excerpt": "CoreWeave's 8-K of September 2025 obliges Nvidia to buy its unsold capacity, on a $6.3 billion order, through April 2032.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "The 59% that Gaetano counts outside the hyperscalers includes the neoclouds the seller's credit reaches, through commitments such as the $6.3 billion CoreWeave capacity order and the credit-support deals with AI clouds that Nvidia began pausing in August, though it also holds sovereign clouds and enterprises.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -146,6 +163,30 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "CoreWeave exists primarily to generate demand for Nvidia's GPUs, as evidenced by the fact that Nvidia is the sole GPU supplier and also an investor, customer, strategic sponsor, and that cash equipment purchases alone equaled approximately 84…",
+      "date": "2026-08-20",
+      "url": "https://kakashiii111.substack.com/p/the-nvidia-spv-series-part-2-coreweave",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "IREN is the cheapest neocloud in the market at 2.9 million dollars per MW across 5,800 secured MW, which is about one-quarter of Nebius' valuation per MW and one-seventh of CoreWeave's, despite IREN holding the largest secured power position of any…",
+      "date": "2026-08-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

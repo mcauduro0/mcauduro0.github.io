@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "oracle",
@@ -7,7 +7,7 @@
   "ticker": "ORCL",
   "url": "https://deepstack.ltd/companies/oracle/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-  "summary": "Oracle is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+  "summary": "Oracle is named in 8 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 3,
@@ -43,6 +43,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [

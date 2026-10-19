@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "url": "https://deepstack.ltd/layers/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/layers.json",
@@ -49,6 +49,13 @@
           "date": "2026-10-14",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "api": "https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json"
+        },
+        {
+          "part": 16,
+          "headline": "The Seller Holds the Paper",
+          "date": "2026-10-19",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json"
         }
       ],
       "questions": [
@@ -86,6 +93,13 @@
           "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
           "url": "https://deepstack.ltd/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out/",
           "api": "https://deepstack.ltd/api/v1/questions/is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out.json"
+        },
+        {
+          "slug": "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling",
+          "headline": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+          "question": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+          "url": "https://deepstack.ltd/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling/",
+          "api": "https://deepstack.ltd/api/v1/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling.json"
         }
       ],
       "indicators": [
@@ -123,6 +137,13 @@
           "label": "Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026",
           "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#numbers"
+        },
+        {
+          "part": 16,
+          "value": "59.6 days",
+          "label": "Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26",
+          "context": "NVIDIA Forms 10-Q filed May 20 and Aug 26, 2026; DeepStack calculation: receivables over the quarter's revenue, times 91",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#numbers"
         }
       ],
       "nextTests": [
@@ -163,6 +184,18 @@
           "url": "https://deepstack.ltd/docket/#test-p03-t01"
         },
         {
+          "part": 16,
+          "id": "p16-t01",
+          "label": "Next test",
+          "when": "Nov 18, 2026",
+          "date": "2026-11-18",
+          "precision": "day",
+          "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p16-t01"
+        },
+        {
           "part": 2,
           "id": "p02-t01",
           "label": "Next test",
@@ -187,7 +220,7 @@
           "url": "https://deepstack.ltd/docket/#test-p04-t01"
         }
       ],
-      "tests": 22,
+      "tests": 26,
       "results": 1
     },
     {
@@ -526,6 +559,13 @@
           "date": "2026-10-07",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
           "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json"
+        },
+        {
+          "part": 15,
+          "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+          "date": "2026-10-19",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+          "api": "https://deepstack.ltd/api/v1/stories/oil-is-the-headline-the-real-yield-is-the-bill.json"
         }
       ],
       "questions": [
@@ -542,6 +582,13 @@
           "question": "Does the hardware hold its value?",
           "url": "https://deepstack.ltd/questions/does-the-hardware-hold-its-value/",
           "api": "https://deepstack.ltd/api/v1/questions/does-the-hardware-hold-its-value.json"
+        },
+        {
+          "slug": "can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time",
+          "headline": "Can the AI trade survive a 10-year Treasury above 5% and an oil shock at the same time?",
+          "question": "Can the AI trade survive a 10-year Treasury above 5% and an oil shock at the same time?",
+          "url": "https://deepstack.ltd/questions/can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time/",
+          "api": "https://deepstack.ltd/api/v1/questions/can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time.json"
         }
       ],
       "indicators": [
@@ -558,6 +605,13 @@
           "label": "S&P 500 forward multiple",
           "context": "FactSet, as of Oct 2, 2026",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#numbers"
+        },
+        {
+          "part": 15,
+          "value": "5.31%",
+          "label": "10-year Treasury yield at the close of October 5, 2026, its highest close since May 2002",
+          "context": "FRED (DGS10), read Oct 12, 2026; 5.22% on Oct 8; first close at 5% or more on Sep 15",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#numbers"
         }
       ],
       "nextTests": [
@@ -584,9 +638,21 @@
           "status": "pending",
           "stage": "pre",
           "url": "https://deepstack.ltd/docket/#test-p10-t02"
+        },
+        {
+          "part": 15,
+          "id": "p15-t01",
+          "label": "Next test",
+          "when": "Dec 31, 2026",
+          "date": "2026-12-31",
+          "precision": "day",
+          "event": "The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p15-t01"
         }
       ],
-      "tests": 10,
+      "tests": 14,
       "results": 0
     }
   ]

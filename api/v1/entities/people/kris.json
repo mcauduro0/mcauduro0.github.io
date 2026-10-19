@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kris",
@@ -7,7 +7,7 @@
   "role": "Potential Multibaggers",
   "url": "https://deepstack.ltd/people/kris/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kris.json",
-  "summary": "Kris is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
+  "summary": "Kris is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides).",
   "parts": [
     {
       "part": 1,
@@ -43,6 +43,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -228,6 +233,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
       "sidesUrl": "https://deepstack.ltd/sides/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Kris reports that Bill Ackman raised the thought that higher interest rates may not reduce inflation this time because demand for AI and energy is not affected by higher rates, and Kris says there is something to be said for this.",
+      "date": "2026-09-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Nominal growth outruns the rate; the oil inflation is one hikes won't cure.",
+      "date": null,
+      "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "coverage": {

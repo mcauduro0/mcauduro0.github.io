@@ -177,6 +177,49 @@
   },
   {
     "kind": "person",
+    "slug": "andrew-sheets",
+    "name": "Andrew Sheets",
+    "role": null,
+    "summary": "Andrew Sheets is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Andrew Sheets",
+        "claim": "Conditions appear more likely too hot than too cold, which is the opposite signal from what would be implied if rates were too high, since rates that were too high would curtail activity and push inflation below target.",
+        "date": "2026-10-09",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Andrew Sheets",
+        "claim": "The interest rate that helps balance the technology and spending boom is not the same rate that keeps a smaller, weaker, or more indebted company happy, so if higher rates are needed to balance things overall, the weaker tails of the market can…",
+        "date": "2026-10-09",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 0,
+      "texts": 0,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
     "slug": "andrew-walker",
     "name": "Andrew Walker",
     "role": "Yet Another Value Blog",
@@ -298,13 +341,57 @@
   },
   {
     "kind": "person",
+    "slug": "artisan-partners",
+    "name": "Artisan Partners",
+    "role": null,
+    "summary": "Artisan Partners is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Artisan Partners",
+        "claim": "Risk assets performed well, aided by economic strength and AI enthusiasm, while Treasury yields rose due to elevated inflation readings that led to a repricing of monetary policy expectations, and credit markets generated solid returns driven by…",
+        "date": "2026-09-22",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Artisan Partners",
+        "claim": "Treasury yields rose due to elevated inflation readings, which led to a repricing of monetary policy expectations.",
+        "date": "2026-09-22",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 1,
+      "claims": 811,
+      "texts": 108,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
     "slug": "aswath-damodaran",
     "name": "Aswath Damodaran",
     "role": null,
-    "summary": "Aswath Damodaran is named in 2 Parts of The Buildout, most recently Part 12: The Model Is Not the Price.",
+    "summary": "Aswath Damodaran is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
     "parts": [
       10,
-      12
+      12,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -317,6 +404,11 @@
         "part": 12,
         "section": "Lede",
         "excerpt": "Mia Silverio of Prof G Markets, on October 5, set the $2 trillion valuation Anthropic is said to seek against Aswath Damodaran's estimate, which she relays, of an AI products and services market near $250 billion; nearly a quarter of Anthropic's 2025 revenue, by her count, came from two customers, and 47% of sales ran through Amazon and Google."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Citing Aswath Damodaran, she wrote that such a valuation needs $1.2 trillion of annual revenue within ten years, against a current market for AI products and services of about $250 billion."
       }
     ],
     "sides": [],
@@ -333,13 +425,14 @@
     "slug": "aurelion-research",
     "name": "Aurelion Research",
     "role": null,
-    "summary": "Aurelion Research is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it).",
+    "summary": "Aurelion Research is named in 6 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it), Part 15 (Oil stays out of the core).",
     "parts": [
       4,
       8,
       10,
       11,
-      14
+      14,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -440,6 +533,17 @@
         "date": "2026-08-21",
         "url": null,
         "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Aurelion Research",
+        "claim": "Aurelion Research is bearish on crude oil and expects WTI around $80 before the end of 2026, arguing China's structurally lower oil imports, more oil moving through Hormuz than headline data shows, and falling crack spreads will let the risk…",
+        "date": "2026-09-03",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -472,6 +576,49 @@
       "creators": 5,
       "claims": 43,
       "texts": 5,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
+    "slug": "blue-tower-asset-management-llc",
+    "name": "Blue Tower Asset Management LLC",
+    "role": null,
+    "summary": "Blue Tower Asset Management LLC is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Blue Tower Asset Management LLC",
+        "claim": "Blue Tower Asset Management LLC uses a Société Générale note of June 8th to argue the price response has been mild by historical standards: a 14% loss of global crude supply from the Hormuz closure lifted prices about 30%, against the 1973 embargo…",
+        "date": "2026-07-20",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Blue Tower Asset Management LLC",
+        "claim": "With the ceasefire and June memorandum of understanding declared over and full-scale fighting resumed, Brent has risen over 15% in the last week, and once global inventory buffers including the drawn-down US strategic petroleum reserve are…",
+        "date": "2026-07-20",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 49,
+      "texts": 4,
       "asOf": "2026-10-19"
     },
     "lastUpdated": "2026-10-19"
@@ -611,9 +758,10 @@
     "slug": "clark-tang",
     "name": "Clark Tang",
     "role": null,
-    "summary": "Clark Tang is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+    "summary": "Clark Tang is named in 2 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (The loan is a bridge).",
     "parts": [
-      6
+      6,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -621,9 +769,37 @@
         "part": 6,
         "section": "The rent will move",
         "excerpt": "Clark Tang of Altimeter says hyperscalers retain an advantage through investment-grade balance sheets: they can build ahead of demand and rent at spot rates, while lenders finance neocloud hardware only against contracted offtake."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Clark Tang wrote in Key Context on August 12 that the new third-party money, from Apollo to KKR, was underwritten independently and takes the place of Nvidia's balance sheet, his answer to the circularity charge."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Clark Tang",
+        "claim": "On circularity fears: recent third-party capital from Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR was independently underwritten apart from one another and replaces Nvidia's balance sheet rather than merely extending it, which…",
+        "date": "2026-08-12",
+        "url": "https://taekim.substack.com/p/nvidia-is-speedrunning-the-creation",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Clark Tang",
+        "claim": "Hyperscalers retained one structural advantage over neoclouds: investment-grade balance sheets that let them fund speculative capacity ahead of demand and rent it out at higher spot rates, whereas neoclouds could only get financing for hardware…",
+        "date": "2026-08-12",
+        "url": "https://taekim.substack.com/p/nvidia-is-speedrunning-the-creation",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 0,
       "claims": 11,
@@ -683,10 +859,48 @@
   },
   {
     "kind": "person",
+    "slug": "daniel-nishball",
+    "name": "Daniel Nishball",
+    "role": null,
+    "summary": "Daniel Nishball is named in 1 Part of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (The loan is a bridge).",
+    "parts": [
+      16
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Daniel Nishball of SemiAnalysis cast Nvidia on July 6 as the central bank of AI: small buyers can pay for GPUs but cannot show a lender a credit rating."
+      }
+    ],
+    "sides": [
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Daniel Nishball",
+        "claim": "They characterize Nvidia as acting like the central bank of AI, supplying support where the private lending system will not, because small buyers can pay for GPUs but cannot offer creditors a credit rating, and Nvidia does not want demand…",
+        "date": "2026-07-06",
+        "url": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 30,
+      "texts": 2,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
     "slug": "daniel-romero",
     "name": "Daniel Romero",
     "role": "HyperTech Invest",
-    "summary": "Daniel Romero is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Daniel Romero is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
     "parts": [
       5,
       6,
@@ -695,7 +909,9 @@
       10,
       11,
       12,
-      14
+      14,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -753,6 +969,11 @@
         "part": 14,
         "section": "The buyers have not paid yet",
         "excerpt": "Daniel Romero counted on September 21 that a one-year payback on a hypothetical 2027 buildout would take $1.9 trillion to $2.28 trillion a year in compute payments."
+      },
+      {
+        "part": 15,
+        "section": "The two shocks compound",
+        "excerpt": "Daniel Romero of HyperTech Invest recounted on September 21 a stretch in which oil rallied 35% while semiconductor shares fell 30%."
       }
     ],
     "sides": [
@@ -1030,6 +1251,49 @@
   },
   {
     "kind": "person",
+    "slug": "david-rosenberg",
+    "name": "David Rosenberg",
+    "role": null,
+    "summary": "David Rosenberg is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "David Rosenberg",
+        "claim": "He will not say inflation bulls are deranged and grants that inflation is always a very complex item to forecast with hundreds of variables, but says he sees nothing telling him a pernicious inflationary environment is coming.",
+        "date": "2026-10-01",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "David Rosenberg",
+        "claim": "If real-time rents and home prices were plugged into the CPI it would be close to zero and core would be well below 2%, and he thinks that will come through with lags because shelter matters far more than energy in the CPI.",
+        "date": "2026-10-01",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 0,
+      "texts": 0,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
     "slug": "deborah-folloni",
     "name": "Deborah Folloni",
     "role": null,
@@ -1072,11 +1336,12 @@
     "slug": "deepvalue-capital",
     "name": "DeepValue Capital",
     "role": "DeepValue Capital by Kyler",
-    "summary": "DeepValue Capital is named in 3 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "DeepValue Capital is named in 4 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
     "parts": [
       5,
       6,
-      7
+      7,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -1104,11 +1369,39 @@
         "part": 7,
         "section": "What settles it",
         "excerpt": "A negative payrolls print beside an inverted curve would, in DeepValue Capital’s reading, put recession six to 24 months out."
+      },
+      {
+        "part": 15,
+        "section": "Oil stays out of the core",
+        "excerpt": "DeepValue Capital wrote on October 1 that rate hikes fight demand-led inflation while today's is supply-led, so no amount of tightening reopens the Strait of Hormuz."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "DeepValue Capital",
+        "claim": "Job growth is weak and housing is soft, and Jim Paulson makes a strong case that the Fed hiked based on rear-view mirror data; DeepValue Capital is not calling for a recession but is not ignoring the risk either.",
+        "date": "2026-10-01",
+        "url": "https://deepvaluecapitalbykyler.substack.com/p/september-2026-portfolio-update-264",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "DeepValue Capital",
+        "claim": "DeepValue Capital argues rising mortgage rates are already pressuring housing, the largest component (40%) of core CPI, creating big downward pressure on core CPI, while job growth has been weak enough historically to always be associated with…",
+        "date": "2026-09-25",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
     "coverage": {
-      "creators": 0,
+      "creators": 1,
       "claims": 1598,
       "texts": 140,
       "asOf": "2026-10-19"
@@ -1120,9 +1413,10 @@
     "slug": "distillate-capital-partners-llc",
     "name": "Distillate Capital Partners LLC",
     "role": null,
-    "summary": "Distillate Capital Partners LLC is named in 1 Part of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 12 (The filing sets the price).",
+    "summary": "Distillate Capital Partners LLC is named in 2 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 12 (The filing sets the price), Part 16 (The seller funds its demand).",
     "parts": [
-      12
+      12,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -1130,6 +1424,11 @@
         "part": 12,
         "section": "Lede",
         "excerpt": "Distillate Capital Partners LLC, on July 15, counted roughly $180 billion committed by the hyperscalers and Nvidia to the two labs, about $1.1 trillion of compute pledged back, and $53 billion of first-quarter hyperscaler net income, 34% of the total, booked as non-cash marks on those stakes."
+      },
+      {
+        "part": 16,
+        "section": "The seller funds its demand",
+        "excerpt": "Distillate Capital Partners LLC wrote on July 15 that hyperscalers and Nvidia had committed about $180 billion to OpenAI and Anthropic, which pledged about $1.1 trillion of compute spending back."
       }
     ],
     "sides": [
@@ -1138,6 +1437,17 @@
         "question": null,
         "side": "the-filing-sets-the-price",
         "sideLabel": "The filing sets the price",
+        "voice": "Distillate Capital Partners LLC",
+        "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
+        "date": "2026-07-15",
+        "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
         "voice": "Distillate Capital Partners LLC",
         "claim": "Circular financing distorts the picture: hyperscalers and NVIDIA have committed roughly $180 billion to OpenAI and Anthropic, which pledge about $1.1 trillion of compute spending back to them against far smaller revenues, and $53 billion of…",
         "date": "2026-07-15",
@@ -1287,10 +1597,11 @@
     "slug": "ed-elson",
     "name": "Ed Elson",
     "role": null,
-    "summary": "Ed Elson is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt).",
+    "summary": "Ed Elson is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
     "parts": [
       5,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -1303,6 +1614,11 @@
         "part": 14,
         "section": "The bill has moved to debt",
         "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Ed Elson of Prof G Markets estimated on July 7 that the two labs supplied 60% to 80% of the AI revenue at Amazon, Google and Microsoft and, citing The Information, about half of the hyperscalers' revenue backlog."
       }
     ],
     "sides": [
@@ -1338,6 +1654,17 @@
         "date": "2026-08-11",
         "url": "https://www.profgmedia.com/p/plastic-surgery",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "two-labs-carry-the-chain",
+        "sideLabel": "Two labs carry the chain",
+        "voice": "Ed Elson",
+        "claim": "Back-end AI can only look profitable while unusually rich and irrational customers burn billions with no return; Ed Elson estimates OpenAI and Anthropic alone account for 60-80% of AI revenues at Amazon, Google and Microsoft and, per The…",
+        "date": "2026-07-07",
+        "url": "https://www.profgmedia.com/p/two-red-flags",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -1353,12 +1680,13 @@
     "slug": "ed-zitron",
     "name": "Ed Zitron",
     "role": null,
-    "summary": "Ed Zitron is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (A closed loop).",
+    "summary": "Ed Zitron is named in 5 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 8 (A closed loop).",
     "parts": [
       6,
       8,
       10,
-      11
+      11,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -1381,6 +1709,11 @@
         "part": 11,
         "section": "The margin the book does not show",
         "excerpt": "Eisman, in a September 9 episode with Ed Zitron, notes that Nvidia stretched payment terms for investment-grade customers to a full year from 90 days, adding 14 days to days sales outstanding, and on September 14 adds that five customers made up 70% of Nvidia's accounts receivable, some of them, OpenAI among them, not in especially healthy condition."
+      },
+      {
+        "part": 16,
+        "section": "The financed share",
+        "excerpt": "Ed Zitron, Steve Eisman's guest on The Real Eisman Playbook on September 9, said Nvidia had extended payment terms for investment-grade customers from 90 days to a full year and tied that to 14 more days outstanding."
       }
     ],
     "sides": [
@@ -1409,10 +1742,11 @@
     "slug": "edelbridge-alpha",
     "name": "Edelbridge Alpha",
     "role": null,
-    "summary": "Edelbridge Alpha is named in 2 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+    "summary": "Edelbridge Alpha is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 16 (Voices that cross sides).",
     "parts": [
       6,
-      11
+      11,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -1487,6 +1821,28 @@
         "date": "2026-09-14",
         "url": "https://edelbridge.substack.com/p/should-you-buy-vertiv",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Edelbridge Alpha",
+        "claim": "Nvidia's 70% growth guide is restricted by memory chip supply rather than demand, so Nvidia's revenue line is set to stop being a read on AI demand and instead become a signal for component availability.",
+        "date": "2026-08-27",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Edelbridge Alpha",
+        "claim": "Nvidia is financing neoclouds into existence because that is what the market wants and what benefits Nvidia the most.",
+        "date": "2026-08-27",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -1672,12 +2028,13 @@
     "slug": "gaetano",
     "name": "Gaetano",
     "role": null,
-    "summary": "Gaetano is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
+    "summary": "Gaetano is named in 5 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid), Part 16 (The loan is a bridge).",
     "parts": [
       6,
       8,
       11,
-      12
+      12,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -1725,6 +2082,16 @@
         "part": 12,
         "section": "The filing sets the price",
         "excerpt": "Gaetano's Alphabet case of October 4 leans the other way, on Cloud at $24.8 billion in the second quarter, up 82%, and on the Anthropic agreement as a way Google earns beneath a rival's interface."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Gaetano counted on August 28 that customers outside the traditional hyperscalers, from neoclouds to sovereign clouds, produced 59% of Nvidia's data center growth that quarter."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "The 59% that Gaetano counts outside the hyperscalers includes the neoclouds the seller's credit reaches, through commitments such as the $6.3 billion CoreWeave capacity order and the credit-support deals with AI clouds that Nvidia began pausing in August, though it also holds sovereign clouds and enterprises."
       }
     ],
     "sides": [
@@ -1848,6 +2215,28 @@
         "date": "2026-09-23",
         "url": null,
         "linkVerified": false
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Gaetano",
+        "claim": "NVIDIA's non-traditional hyperscaler customers (neoclouds, sovereign AI clouds, enterprises, and industrial customers) generated 59% of data center growth this quarter and are expected to drive Q3 growth primarily, because they rely more heavily on…",
+        "date": "2026-08-28",
+        "url": "https://gaetanoresearch.substack.com/p/nvda-earnings-discussion",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Gaetano",
+        "claim": "NVIDIA has invested approximately 50 billion dollars in AI labs and is working with firms like Blackstone and BlackRock to establish financing platforms targeting over 500 billion dollars of third-party infrastructure capital, with roughly…",
+        "date": "2026-08-28",
+        "url": "https://gaetanoresearch.substack.com/p/nvda-earnings-discussion",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -1938,9 +2327,10 @@
     "slug": "harley-bassman",
     "name": "Harley Bassman",
     "role": null,
-    "summary": "Harley Bassman is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The cash still covers it).",
+    "summary": "Harley Bassman is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
     "parts": [
-      14
+      14,
+      15
     ],
     "numbers": [],
     "mentions": [],
@@ -1955,12 +2345,55 @@
         "date": "2026-09-17",
         "url": null,
         "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Harley Bassman",
+        "claim": "Beyond the lack of trust, rates are rising so much because of massive price-insensitive demand from hyperscalers, whose projected borrowing is around seven hundred fifty million against roughly two billion issued by the Treasury, approaching thirty…",
+        "date": "2026-09-17",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
       "creators": 1,
       "claims": 0,
       "texts": 0,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
+    "slug": "harris-associates-oakmark",
+    "name": "Harris Associates Oakmark",
+    "role": "Harris Associates L.P.",
+    "summary": "Harris Associates Oakmark is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Harris Associates Oakmark",
+        "claim": "Heavy new bond issuance from technology hyperscalers investing in AI infrastructure is pressuring bond prices and increasing yields.",
+        "date": "2026-10-10",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 730,
+      "texts": 74,
       "asOf": "2026-10-19"
     },
     "lastUpdated": "2026-10-19"
@@ -2025,9 +2458,11 @@
     "slug": "hugh-vuillier",
     "name": "Hugh Vuillier",
     "role": null,
-    "summary": "Hugh Vuillier is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "Hugh Vuillier is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (Two labs carry the chain).",
     "parts": [
-      7
+      7,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -2035,9 +2470,31 @@
         "part": 7,
         "section": "What settles it",
         "excerpt": "Hugh Vuillier of Variant Perception says trimmed-mean PCE is still trending lower."
+      },
+      {
+        "part": 15,
+        "section": "The bill comes as a real yield",
+        "excerpt": "Howell wrote on September 18 that the rise came mainly from expected short rates, with term premia arguably falling; Hugh Vuillier of Variant Perception had written on September 6 that the real term premium drove it."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Hugh Vuillier of Variant Perception read the delayed offerings of the two labs on October 8 as a sign that the public market is running short of marginal buyers."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 16,
+        "question": null,
+        "side": "two-labs-carry-the-chain",
+        "sideLabel": "Two labs carry the chain",
+        "voice": "Hugh Vuillier",
+        "claim": "With Anthropic and OpenAI delaying their IPO dates, there are increasing signs that the public equity market is running out of marginal buyers.",
+        "date": "2026-10-08",
+        "url": "https://blog.variantperception.com/p/ai-bubble-watch",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 0,
       "claims": 280,
@@ -2051,11 +2508,12 @@
     "slug": "invest-in-assets",
     "name": "Invest in Assets",
     "role": "Invest in Quality",
-    "summary": "Invest in Assets is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it).",
+    "summary": "Invest in Assets is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it), Part 16 (Voices that cross sides).",
     "parts": [
       1,
       9,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -2083,6 +2541,16 @@
         "part": 14,
         "section": "Four wallets, one ruler",
         "excerpt": "The roughly $220 billion Invest In Assets cited for Amazon on August 5 leaves more than $120 billion after $98.4 billion, against about $130 billion of operating cash at its first-half growth of 44%."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Invest In Assets set out the bull case on September 5: a revenue guarantee on redeployable compute, for customers backed by large balance sheets, carries a different risk from a loan."
+      },
+      {
+        "part": 16,
+        "section": "The seller funds its demand",
+        "excerpt": "Invest In Assets gave the bear case in its September 5 post: if compute keeps getting cheaper, the floor Nvidia guarantees could end up above market rates."
       }
     ],
     "sides": [
@@ -2139,6 +2607,28 @@
         "claim": "Amazon expects roughly $220 billion in cash CapEx in 2026, up from an earlier $200 billion estimate, driven primarily by higher memory chip costs.",
         "date": "2026-08-11",
         "url": "https://www.investinassets.net/p/why-im-bullish-on-amazon",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Invest in Assets",
+        "claim": "The bull argument for the financing structure holds that Nvidia is not lending money but providing a revenue guarantee on compute capacity with fundamentally different risk, the compute retains value because it is redeployable, and the customers…",
+        "date": "2026-09-05",
+        "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Invest in Assets",
+        "claim": "The core criticism of Nvidia's financing structure is that revenue guarantees on compute capacity becoming cheaper every year means the floor Nvidia is guaranteeing could end up above market rates, and if token prices keep falling, the neoclouds'…",
+        "date": "2026-09-05",
+        "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown",
         "linkVerified": true
       }
     ],
@@ -2360,7 +2850,7 @@
     "slug": "junkbondinvestor",
     "name": "JunkBondInvestor",
     "role": null,
-    "summary": "JunkBondInvestor is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt).",
+    "summary": "JunkBondInvestor is named in 9 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
     "parts": [
       2,
       3,
@@ -2369,7 +2859,8 @@
       8,
       10,
       11,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -2528,6 +3019,28 @@
         "date": "2026-08-09",
         "url": "https://www.junkbondinvestor.com/p/credit-weekly-what-if-they-just-keep",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "two-labs-carry-the-chain",
+        "sideLabel": "Two labs carry the chain",
+        "voice": "JunkBondInvestor",
+        "claim": "Neoclouds resemble aircraft lessors stripped of the two features that made lessors safe: their GPU fleet depreciates far faster than an airframe as the next generation arrives, and their customer book is often concentrated in a handful of names.",
+        "date": "2026-06-15",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "two-labs-carry-the-chain",
+        "sideLabel": "Two labs carry the chain",
+        "voice": "JunkBondInvestor",
+        "claim": "A signed lease at Panther Creek would change how the market values Keel by establishing the economics, improving financing visibility and showing the power portfolio can support a viable data center business, and the full 2.2 GW does not need to…",
+        "date": "2026-09-24",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -2543,14 +3056,15 @@
     "slug": "kakashii",
     "name": "Kakashii",
     "role": null,
-    "summary": "Kakashii is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price).",
+    "summary": "Kakashii is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
     "parts": [
       2,
       6,
       8,
       10,
       11,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -2588,6 +3102,11 @@
         "part": 11,
         "section": "The tests ahead",
         "excerpt": "Oracle reports on December 14: whether new remaining performance obligations keep arriving prepaid or with the customer's own hardware, the condition for Kakashii's reading that capital spending peaks in fiscal 2027 and 2028."
+      },
+      {
+        "part": 16,
+        "section": "The seller funds its demand",
+        "excerpt": "Kakashii argued on August 20 that CoreWeave exists mainly to create demand for Nvidia's GPUs: Nvidia is its only GPU supplier and also an investor, customer and sponsor, and its cash spending on equipment came to about 84% of its gross debt proceeds."
       }
     ],
     "sides": [
@@ -2678,6 +3197,17 @@
         "date": "2026-10-05",
         "url": "https://kakashiii111.substack.com/p/nvidia-series-part-1-jensens-math",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Kakashii",
+        "claim": "Nvidia, acting as supplier, investor, financier, and deal broker, introduced Nebius to four major customers worth over $1 billion each in Q1, demonstrating Nebius's dependence on Nvidia for customer acquisition.",
+        "date": "2026-08-25",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -2915,10 +3445,48 @@
   },
   {
     "kind": "person",
+    "slug": "kira-thornton",
+    "name": "Kira Thornton",
+    "role": null,
+    "summary": "Kira Thornton is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 15,
+        "section": "Oil stays out of the core",
+        "excerpt": "Kira Thornton of Variant Perception wrote on September 14 that core inflation trends remain muted, with Iran and El Niño leaving the energy and food tails beyond policymakers' reach."
+      }
+    ],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Kira Thornton",
+        "claim": "Core muted; energy a tail risk.",
+        "date": null,
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 76,
+      "texts": 10,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
     "slug": "kris",
     "name": "Kris",
     "role": "Potential Multibaggers",
-    "summary": "Kris is named in 7 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon).",
+    "summary": "Kris is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides).",
     "parts": [
       1,
       2,
@@ -2926,7 +3494,8 @@
       7,
       8,
       10,
-      12
+      12,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -3090,12 +3659,83 @@
         "date": "2026-09-16",
         "url": "https://www.potentialmultibaggers.com/p/best-buys-now-september-2026",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Kris",
+        "claim": "Kris reports that Bill Ackman raised the thought that higher interest rates may not reduce inflation this time because demand for AI and energy is not affected by higher rates, and Kris says there is something to be said for this.",
+        "date": "2026-09-28",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Kris",
+        "claim": "Nominal growth outruns the rate; the oil inflation is one hikes won't cure.",
+        "date": null,
+        "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era",
+        "linkVerified": true
       }
     ],
     "coverage": {
       "creators": 3,
       "claims": 1913,
       "texts": 163,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
+    "slug": "krishna-guha",
+    "name": "Krishna Guha",
+    "role": null,
+    "summary": "Krishna Guha is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [
+      {
+        "part": 15,
+        "section": "The two shocks compound",
+        "excerpt": "Krishna Guha, a guest on Eisman's program on October 4, said the Fed can no longer ignore the shocks after more than five years of inflation above its 2% target, dearer oil among the causes, and that with the job market in good shape a hike is defensible."
+      }
+    ],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Krishna Guha",
+        "claim": "The Fed can no longer ignore the shocks; inflation has been above the Fed's two percent target for more than five years due to the pandemic, tariffs, the war, and higher oil prices, though inflation is still heading down, and with the jobs market…",
+        "date": "2026-10-04",
+        "url": "https://realeismanplaybook.substack.com/p/5-rates-bessents-failed-gamble-and",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Krishna Guha",
+        "claim": "There is a worry that inflation risk is building as people start building higher inflation expectations into wage negotiations and prices, which could lock inflation into the system.",
+        "date": "2026-10-04",
+        "url": "https://realeismanplaybook.substack.com/p/5-rates-bessents-failed-gamble-and",
+        "linkVerified": true
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 0,
+      "texts": 0,
       "asOf": "2026-10-19"
     },
     "lastUpdated": "2026-10-19"
@@ -3190,11 +3830,12 @@
     "slug": "longriver",
     "name": "Longriver",
     "role": null,
-    "summary": "Longriver is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid), Part 14 (The buyers have not paid yet).",
+    "summary": "Longriver is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid), Part 14 (The buyers have not paid yet).",
     "parts": [
       1,
       12,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -3222,6 +3863,16 @@
         "part": 14,
         "section": "The buyers have not paid yet",
         "excerpt": "Longriver Investment Partners warned in its July 20 letter that AI can transform business and still fail its builders, because revenue can arrive well before owner earnings."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Longriver Investment Partners Limited told clients on July 20 that Anthropic's reported annualized revenue went from about $1 billion at the end of 2024 to almost $50 billion in May 2026, evidence in its view that customers will pay for agentic work."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Longriver's almost $50 billion in May had become about $65 billion by August, a figure that Tae Kim of Key Context wrote on August 21 the market treated as a disappointment; he called that an overreaction, since the growth rate was still extremely high."
       }
     ],
     "sides": [
@@ -3263,6 +3914,49 @@
       "creators": 0,
       "claims": 27,
       "texts": 2,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
+    "slug": "luke-kawa",
+    "name": "Luke Kawa",
+    "role": null,
+    "summary": "Luke Kawa is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Luke Kawa",
+        "claim": "He attributes rising global and US Treasury bond yields predominantly to a global growth impulse, especially strength in the industrial side of economies worldwide, which is pushing inflation up and leading central banks to be expected to respond.",
+        "date": "2026-10-01",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Luke Kawa",
+        "claim": "He states he is genuinely surprised that the stability of breakevens hasn't given way to more doubt about the Fed's ability to maintain stable inflation after years of missing its target.",
+        "date": "2026-10-01",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 1,
+      "claims": 0,
+      "texts": 0,
       "asOf": "2026-10-19"
     },
     "lastUpdated": "2026-10-19"
@@ -3318,14 +4012,15 @@
     "slug": "market-sentiment",
     "name": "Market Sentiment",
     "role": null,
-    "summary": "Market Sentiment is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
+    "summary": "Market Sentiment is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield), Part 16 (The loan is a bridge).",
     "parts": [
       3,
       8,
       9,
       12,
       13,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -3441,6 +4136,17 @@
         "date": "2026-07-10",
         "url": "https://www.marketsentiment.co/p/ms-101",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Market Sentiment",
+        "claim": "The latest US AI lab models, GPT-6 Astra and Claude Fable 5.1, are priced at $10/$50 per million tokens, a similar band to GPT-4 ($30/$60) and Opus 3 ($15/$75) at their respective releases, leading Market Sentiment to conclude there is a separate…",
+        "date": "2026-09-08",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -3566,9 +4272,10 @@
     "slug": "matthew-c-klein",
     "name": "Matthew C. Klein",
     "role": null,
-    "summary": "Matthew C. Klein is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (Growth: yields are catching up).",
+    "summary": "Matthew C. Klein is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (Growth: yields are catching up), Part 15 (The boom pays the rate), Part 15 (Voices that cross sides).",
     "parts": [
-      7
+      7,
+      15
     ],
     "numbers": [],
     "mentions": [],
@@ -3594,6 +4301,28 @@
         "date": "2026-09-14",
         "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Matthew C. Klein",
+        "claim": "Matthew C. Klein has been making for years the point that prices most sensitive to domestic demand and least exposed to mismeasurement or other idiosyncrasies have consistently been rising 1-2pp faster than in the years immediately before the…",
+        "date": "2026-09-24",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Matthew C. Klein",
+        "claim": "Current long-term Treasury yields are still low relative to reasonable expectations of inflation and growth, and are only obviously too high if inflation and growth are both set to slow sharply from current levels.",
+        "date": "2026-09-01",
+        "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -3609,14 +4338,16 @@
     "slug": "mia-silverio",
     "name": "Mia Silverio",
     "role": "Prof G Markets",
-    "summary": "Mia Silverio is named in 6 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+    "summary": "Mia Silverio is named in 8 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 15 (The two shocks compound).",
     "parts": [
       7,
       9,
       10,
       11,
       12,
-      13
+      13,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -3654,6 +4385,16 @@
         "part": 13,
         "section": "The plant is late",
         "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024."
+      },
+      {
+        "part": 15,
+        "section": "The two shocks compound",
+        "excerpt": "Mia Silverio of Prof G Markets named the cost on October 5: an investor who can earn 5.3% on a Treasury demands more from a stock and pays less for each dollar of its earnings."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Mia Silverio of Prof G Markets wrote on October 5 that two customers supplied nearly a quarter of Anthropic's 2025 revenue and that 47% of its sales ran through Amazon and Google, a concentration a small company can live with and a company seeking a $2 trillion value cannot."
       }
     ],
     "sides": [
@@ -3733,6 +4474,17 @@
         "date": "2026-09-28",
         "url": "https://www.profgmedia.com/p/nobody-wants-a-data-center-not-even",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Mia Silverio",
+        "claim": "Mia Silverio concludes that given persistent inflation (above the Fed's 2% target for 5.5 years, the longest continuous stretch in 40 years), investors should invest more aggressively in stocks and avoid holding cash in checking accounts.",
+        "date": "2026-09-14",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -3748,7 +4500,7 @@
     "slug": "michael-burry",
     "name": "Michael Burry",
     "role": "Cassandra Unchained",
-    "summary": "Michael Burry is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price).",
+    "summary": "Michael Burry is named in 11 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
     "parts": [
       1,
       2,
@@ -3758,7 +4510,9 @@
       10,
       11,
       12,
-      14
+      14,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -3988,6 +4742,39 @@
         "date": "2026-09-24",
         "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Michael Burry",
+        "claim": "Interest rates are rising due to inflation and increased competition with Treasuries from more debt issuance (hyperscaler debt, Japan, or elsewhere), and higher rates can be a catalyst for the AI buildout financing chain to come apart.",
+        "date": "2026-09-28",
+        "url": "https://michaeljburry.substack.com/p/trading-post-september-28-2026",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Michael Burry",
+        "claim": "NVIDIA's revenue growth is only mostly real because circular financing sustains marginal AI compute demand above market-rate levels, and resolution of the power bottleneck will reduce revenue recurrence and compress the scarcity premium in margins…",
+        "date": "2026-07-09",
+        "url": "https://michaeljburry.substack.com/p/short-thoughts-july-8-2026-nvda-neos",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Michael Burry",
+        "claim": "Michael Burry characterises Nvidia's November 2025 defence that its strategic investments in customers were a minimal portion of revenue as evasive, because it referred only to revenue already booked rather than to future revenue.",
+        "date": "2026-07-23",
+        "url": "https://michaeljburry.substack.com/p/trading-post-july-23-2026-3-stock",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -4003,10 +4790,11 @@
     "slug": "michael-howell",
     "name": "Michael Howell",
     "role": "Capital Wars",
-    "summary": "Michael Howell is named in 2 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator. Argued in Part 7 (Growth: yields are catching up), Part 10 (A growth signal near a peak).",
+    "summary": "Michael Howell is named in 3 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (Growth: yields are catching up), Part 10 (A growth signal near a peak), Part 15 (The boom pays the rate), Part 15 (Voices that cross sides).",
     "parts": [
       7,
-      10
+      10,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -4029,6 +4817,11 @@
         "part": 10,
         "section": "The bill raises the rate",
         "excerpt": "Michael Howell reads the curve more kindly."
+      },
+      {
+        "part": 15,
+        "section": "Lede",
+        "excerpt": "On September 27, Michael Howell of Capital Wars wrote that history shows the real economy turning fragile as long-term rates approach 5.5%, so the next large move in Treasury yields may be down."
       }
     ],
     "sides": [
@@ -4075,6 +4868,39 @@
         "date": "2026-09-27",
         "url": "https://capitalwars.substack.com/p/phoney-press-panic",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Michael Howell",
+        "claim": "Term premia have increased only 29 basis points since late June while implied policy-rate expectations have risen 51 basis points, showing policy-rate expectations account for most of the yield rise.",
+        "date": "2026-09-11",
+        "url": "https://capitalwars.substack.com/p/bonds-treasury-qe-and-the-3-3-3-30",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-boom-pays-the-rate",
+        "sideLabel": "The boom pays the rate",
+        "voice": "Michael Howell",
+        "claim": "Falling term premia signal the market is moving toward the next stage of the cycle, Turbulence, which has historically been challenging for risk assets but favourable for government bonds as investors scramble for safe assets.",
+        "date": "2026-09-27",
+        "url": "https://capitalwars.substack.com/p/phoney-press-panic",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Michael Howell",
+        "claim": "Long-term Treasury yields are rising because the US economy is very strong: nominal GDP growth has accelerated, supported by a persistent fiscal deficit of around 6% of GDP and a large wave of AI-related capital expenditure.",
+        "date": "2026-08-23",
+        "url": "https://capitalwars.substack.com/p/bonds-bessent-and-bedlam",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -4090,14 +4916,15 @@
     "slug": "michael-spencer",
     "name": "Michael Spencer",
     "role": null,
-    "summary": "Michael Spencer is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price), Part 14 (The bill has moved to debt).",
+    "summary": "Michael Spencer is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 5 (Anthropic: not yet), Part 5 (OpenAI: commoditized), Part 5 (Voices that cross sides), Part 9 (Still a demo), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 12 (Open weights set the price), Part 14 (The bill has moved to debt), Part 16 (Voices that cross sides).",
     "parts": [
       5,
       6,
       9,
       10,
       12,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -4135,6 +4962,11 @@
         "part": 14,
         "section": "The buyers have not paid yet",
         "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Michael Spencer of AI Supremacy makes the defense."
       }
     ],
     "sides": [
@@ -4302,6 +5134,17 @@
         "date": "2026-10-09",
         "url": "https://www.ai-supremacy.com/p/ai-off-the-charts-ii-state-of-ai-2026-chart-summary",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Michael Spencer",
+        "claim": "Anthropic is far ahead of OpenAI pre-IPO, both in model quality and ARR, and that lead should only accelerate with IPO proceeds heading into its November IPO.",
+        "date": "2026-10-01",
+        "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -4317,9 +5160,10 @@
     "slug": "michael-w-green",
     "name": "Michael W. Green",
     "role": null,
-    "summary": "Michael W. Green is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed.. Argued in Part 7 (A missing buyer).",
+    "summary": "Michael W. Green is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (A missing buyer).",
     "parts": [
-      7
+      7,
+      15
     ],
     "numbers": [],
     "mentions": [],
@@ -4862,7 +5706,7 @@
     "slug": "prof-g-markets",
     "name": "Prof G Markets",
     "role": null,
-    "summary": "Prof G Markets is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+    "summary": "Prof G Markets is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
     "parts": [
       4,
       6,
@@ -4871,7 +5715,9 @@
       11,
       12,
       13,
-      14
+      14,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -4919,6 +5765,21 @@
         "part": 14,
         "section": "The bill has moved to debt",
         "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow."
+      },
+      {
+        "part": 15,
+        "section": "The two shocks compound",
+        "excerpt": "Mia Silverio of Prof G Markets named the cost on October 5: an investor who can earn 5.3% on a Treasury demands more from a stock and pays less for each dollar of its earnings."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Ed Elson of Prof G Markets estimated on July 7 that the two labs supplied 60% to 80% of the AI revenue at Amazon, Google and Microsoft and, citing The Information, about half of the hyperscalers' revenue backlog."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Mia Silverio of Prof G Markets wrote on October 5 that two customers supplied nearly a quarter of Anthropic's 2025 revenue and that 47% of its sales ran through Amazon and Google, a concentration a small company can live with and a company seeking a $2 trillion value cannot."
       }
     ],
     "sides": [],
@@ -4990,7 +5851,7 @@
     "slug": "ren",
     "name": "Ren",
     "role": null,
-    "summary": "Ren is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides).",
+    "summary": "Ren is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides), Part 16 (The seller funds its demand).",
     "parts": [
       6,
       7,
@@ -4999,7 +5860,9 @@
       10,
       11,
       12,
-      14
+      14,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -5196,6 +6059,28 @@
         "date": "2026-10-06",
         "url": "https://renstocks.substack.com/p/the-ai-stack-by-2030",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Ren",
+        "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+        "date": "2026-09-28",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Ren",
+        "claim": "Ren believes neoclouds and hybrids with prepayments and secured power offer the best risk-adjusted opportunity, because they earn five to eight times the revenue per megawatt of converted miners and two to three times a colocation REIT on a similar…",
+        "date": "2026-08-31",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -5419,11 +6304,12 @@
     "slug": "semianalysis",
     "name": "SemiAnalysis",
     "role": null,
-    "summary": "SemiAnalysis is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First.",
+    "summary": "SemiAnalysis is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
     "parts": [
       2,
       5,
-      13
+      13,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -5451,6 +6337,11 @@
         "part": 13,
         "section": "The plant is late",
         "excerpt": "Jeremie Eliahou Ontiveros, also of SemiAnalysis, wrote on June 25 that utilities are pushing promised load ramps out by years for lack of long-lead equipment, while buyers carry the risk through letters of credit, deposits and take-or-pay contracts and the utilities, in many cases, face no penalty for delivering late."
+      },
+      {
+        "part": 16,
+        "section": "The loan is a bridge",
+        "excerpt": "Daniel Nishball of SemiAnalysis cast Nvidia on July 6 as the central bank of AI: small buyers can pay for GPUs but cannot show a lender a credit rating."
       }
     ],
     "sides": [],
@@ -5458,6 +6349,49 @@
       "creators": 12,
       "claims": 0,
       "texts": 0,
+      "asOf": "2026-10-19"
+    },
+    "lastUpdated": "2026-10-19"
+  },
+  {
+    "kind": "person",
+    "slug": "smead-capital-management",
+    "name": "Smead Capital Management",
+    "role": null,
+    "summary": "Smead Capital Management is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+    "parts": [
+      15
+    ],
+    "numbers": [],
+    "mentions": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Smead Capital Management",
+        "claim": "Despite recent price volatility, structural supply constraints and geopolitical risk have raised the through-cycle oil price to around $80, which will allow APA Corp's oil holdings, which break even near $40, to generate significant free cash flow…",
+        "date": "2026-09-22",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "Smead Capital Management",
+        "claim": "Oil prices are around $70 a barrel amid fears of demand destruction, but strong crack spreads suggest demand remains robust, and the manager believes the market is misreading the situation similarly to past cycles, expecting higher oil prices…",
+        "date": "2026-07-15",
+        "url": null,
+        "linkVerified": false
+      }
+    ],
+    "coverage": {
+      "creators": 0,
+      "claims": 114,
+      "texts": 21,
       "asOf": "2026-10-19"
     },
     "lastUpdated": "2026-10-19"
@@ -5620,7 +6554,7 @@
     "slug": "steve-eisman",
     "name": "Steve Eisman",
     "role": "Steven Eisman",
-    "summary": "Steve Eisman is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
+    "summary": "Steve Eisman is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides).",
     "parts": [
       4,
       5,
@@ -5631,7 +6565,9 @@
       10,
       11,
       12,
-      14
+      14,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -5861,6 +6797,50 @@
         "date": "2026-09-21",
         "url": "https://realeismanplaybook.substack.com/p/stock-picking-in-difficult-times",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Steve Eisman",
+        "claim": "Only two things matter for the market day to day: oil and the Ten Year yield; when they rise, the market falls.",
+        "date": "2026-10-09",
+        "url": "https://realeismanplaybook.substack.com/p/the-weekly-wrap",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-seller-funds-its-demand",
+        "sideLabel": "The seller funds its demand",
+        "voice": "Steve Eisman",
+        "claim": "Steve raises the concern that Nvidia had an insane quarter yet seventy percent of its receivables come from five accounts, and that much of the food chain depends on the health of Anthropic and OpenAI.",
+        "date": "2026-09-28",
+        "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "two-labs-carry-the-chain",
+        "sideLabel": "Two labs carry the chain",
+        "voice": "Steve Eisman",
+        "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
+        "date": "2026-09-25",
+        "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+        "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Steve Eisman",
+        "claim": "Anthropic and OpenAI together account for roughly 70% of hyperscaler AI revenue and 25-35% of total cloud revenue, with Microsoft, Amazon, and Google's growth substantially dependent on these two companies.",
+        "date": "2026-08-14",
+        "url": "https://realeismanplaybook.substack.com/p/the-ai-achilles-heel-why-everything",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -5876,13 +6856,14 @@
     "slug": "tae-kim",
     "name": "Tae Kim",
     "role": null,
-    "summary": "Tae Kim is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
+    "summary": "Tae Kim is named in 6 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides), Part 16 (The loan is a bridge).",
     "parts": [
       9,
       10,
       11,
       12,
-      14
+      14,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -5930,6 +6911,11 @@
         "part": 14,
         "section": "The buyers have not paid yet",
         "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Longriver's almost $50 billion in May had become about $65 billion by August, a figure that Tae Kim of Key Context wrote on August 21 the market treated as a disappointment; he called that an overreaction, since the growth rate was still extremely high."
       }
     ],
     "sides": [
@@ -6042,6 +7028,17 @@
         "date": null,
         "url": "https://taekim.substack.com/p/openais-undeniable-resurgence-and",
         "linkVerified": true
+      },
+      {
+        "part": 16,
+        "question": null,
+        "side": "the-loan-is-a-bridge",
+        "sideLabel": "The loan is a bridge",
+        "voice": "Tae Kim",
+        "claim": "Morgan Stanley's investor meetings with Nvidia leadership show accelerating growth rates even at 100 billion dollars revenue per quarter, strong demand for the Vera Rubin product cycle over the next 12 months, memory shortages lasting several…",
+        "date": "2026-07-14",
+        "url": null,
+        "linkVerified": false
       }
     ],
     "coverage": {
@@ -6106,7 +7103,7 @@
     "slug": "torsten-slok",
     "name": "Torsten Slok",
     "role": "Apollo",
-    "summary": "Torsten Slok is named in 7 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides).",
+    "summary": "Torsten Slok is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides), Part 15 (The two shocks compound), Part 15 (Voices that cross sides).",
     "parts": [
       6,
       8,
@@ -6114,7 +7111,8 @@
       10,
       11,
       12,
-      14
+      14,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -6162,6 +7160,16 @@
         "part": 14,
         "section": "The bill has moved to debt",
         "excerpt": "Torsten Slok of Apollo wrote on September 12 that the spenders had raised every dollar they sought, at a rising price: spreads on their longest bonds had widened, and most of their 2026 issues traded wider than at sale."
+      },
+      {
+        "part": 15,
+        "section": "The boom pays the rate",
+        "excerpt": "Torsten Slok of Apollo answered on September 26 that more than a strong economy is lifting rates, with sticky inflation at the front end, record hyperscaler debt sales in the belly and fiscal worry at the long end."
+      },
+      {
+        "part": 15,
+        "section": "The Call",
+        "excerpt": "The single most important reason for caution is the core: if diesel reaches core prices, as Torsten Slok of Apollo argued on September 23, expectations follow and the two shocks compound."
       }
     ],
     "sides": [
@@ -6285,6 +7293,50 @@
         "date": "2026-09-21",
         "url": "https://www.apollo.com/insights-news/insights/daily-spark/hyperscaler-credit-rests-on-one-consensus-assumption",
         "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Torsten Slok",
+        "claim": "The term premium measures the extra yield investors demand for holding a long-dated bond beyond what expectations for Fed policy alone would justify, making it a key market-based gauge of fiscal sustainability and Fed credibility.",
+        "date": "2026-09-02",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "the-two-shocks-compound",
+        "sideLabel": "The two shocks compound",
+        "voice": "Torsten Slok",
+        "claim": "The combination of record diesel crack spreads and rising Treasury yields suggests the bond market is pricing in a broader inflation shock.",
+        "date": "2026-09-23",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/the-diesel-shock-is-a-core-inflation-shock",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Torsten Slok",
+        "claim": "Rates are rising for reasons beyond a strong economy: sticky inflation is lifting yields in the front end, record hyperscaler debt issuance is pressuring the belly, and fiscal worries are pushing up the long end.",
+        "date": "2026-09-26",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/recent-rates-volatility-risks-and-opportunities-in-credit",
+        "linkVerified": true
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "crossing",
+        "sideLabel": "Voices that cross sides",
+        "voice": "Torsten Slok",
+        "claim": "Because diesel is embedded in the cost of goods broadly, a rise in diesel prices does not stay confined to the energy line of the CPI but migrates with a lag into core goods and services prices, which is the kind of pass-through the Fed cannot…",
+        "date": "2026-09-23",
+        "url": "https://www.apollo.com/insights-news/insights/daily-spark/the-diesel-shock-is-a-core-inflation-shock",
+        "linkVerified": true
       }
     ],
     "coverage": {
@@ -6338,11 +7390,12 @@
     "slug": "tscs",
     "name": "TSCS",
     "role": "tscsw",
-    "summary": "TSCS is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
+    "summary": "TSCS is named in 4 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
     "parts": [
       7,
       10,
-      13
+      13,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -6385,6 +7438,21 @@
         "part": 13,
         "section": "The plant is late",
         "excerpt": "The strongest form of this side cuts against the house. tscsw's February 26 post held that if 15 to 20 gigawatts of data center load moves behind the meter by 2030, the grid's deficit and the scarcity premium paid to generators in PJM and ERCOT would shrink."
+      },
+      {
+        "part": 15,
+        "section": "The two shocks compound",
+        "excerpt": "TSCS wrote on September 16 that both keep rising until stocks fall, because the S&P 500 is the only release valve the Treasury's buybacks leave open."
+      },
+      {
+        "part": 15,
+        "section": "The bill comes as a real yield",
+        "excerpt": "TSCS measured the split on September 21: from the February 27 low the 10-year had risen 104 basis points, 96 of them real yield and 8 breakeven inflation."
+      },
+      {
+        "part": 15,
+        "section": "The bill comes as a real yield",
+        "excerpt": "DeepStack judged TSCS's split a qualification of Romero's link: the oil-to-yield channel runs through the real yield, not through inflation expectations."
       }
     ],
     "sides": [
@@ -6561,11 +7629,12 @@
     "slug": "vitaliy-katsenelson",
     "name": "Vitaliy Katsenelson",
     "role": null,
-    "summary": "Vitaliy Katsenelson is named in 3 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator. Argued in Part 3 (1999 capex plus 2008 credit), Part 7 (Debt: 99% of GDP, up from 35%).",
+    "summary": "Vitaliy Katsenelson is named in 4 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 3 (1999 capex plus 2008 credit), Part 7 (Debt: 99% of GDP, up from 35%).",
     "parts": [
       3,
       7,
-      10
+      10,
+      15
     ],
     "numbers": [],
     "mentions": [
@@ -6578,6 +7647,11 @@
         "part": 10,
         "section": "The bill raises the rate",
         "excerpt": "Vitaliy Katsenelson put the fiscal version bluntly: “I personally would not buy a 10-year Treasury even at 6%”."
+      },
+      {
+        "part": 15,
+        "section": "The bill comes as a real yield",
+        "excerpt": "Howell's August 14 projection puts a 5.5% yield beside a market multiple below 20 times, about 10% lower, and Vitaliy Katsenelson named the likely casualties on September 10: expensive stocks whose cash flows lie far in the future."
       }
     ],
     "sides": [
@@ -6660,10 +7734,12 @@
     "slug": "vp-research",
     "name": "VP Research",
     "role": "Variant Perception",
-    "summary": "VP Research is named in 2 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+    "summary": "VP Research is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 15 (Oil stays out of the core).",
     "parts": [
       3,
-      7
+      7,
+      15,
+      16
     ],
     "numbers": [],
     "mentions": [
@@ -6681,9 +7757,47 @@
         "part": 7,
         "section": "What settles it",
         "excerpt": "Variant Perception’s account shows why the Fed can look late to one analyst and reckless to another."
+      },
+      {
+        "part": 15,
+        "section": "Oil stays out of the core",
+        "excerpt": "Kira Thornton of Variant Perception wrote on September 14 that core inflation trends remain muted, with Iran and El Niño leaving the energy and food tails beyond policymakers' reach."
+      },
+      {
+        "part": 15,
+        "section": "The bill comes as a real yield",
+        "excerpt": "Howell wrote on September 18 that the rise came mainly from expected short rates, with term premia arguably falling; Hugh Vuillier of Variant Perception had written on September 6 that the real term premium drove it."
+      },
+      {
+        "part": 16,
+        "section": "Two labs carry the chain",
+        "excerpt": "Hugh Vuillier of Variant Perception read the delayed offerings of the two labs on October 8 as a sign that the public market is running short of marginal buyers."
       }
     ],
-    "sides": [],
+    "sides": [
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "VP Research",
+        "claim": "Oil and Iran are driving the inflation narrative, but underlying inflation breadth is muted.",
+        "date": "2026-10-06",
+        "url": null,
+        "linkVerified": false
+      },
+      {
+        "part": 15,
+        "question": null,
+        "side": "oil-stays-out-of-the-core",
+        "sideLabel": "Oil stays out of the core",
+        "voice": "VP Research",
+        "claim": "The recent rise in the US 10-year yield has been driven by the real term premium rather than by inflation expectations or rate expectations.",
+        "date": "2026-09-06",
+        "url": "https://blog.variantperception.com/p/politics-trumps-economics-macro-snapshot",
+        "linkVerified": true
+      }
+    ],
     "coverage": {
       "creators": 1,
       "claims": 1064,

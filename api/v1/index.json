@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -9,15 +9,15 @@
   "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
-    "stories": 14,
-    "tests": 65,
-    "datedTests": 40,
+    "stories": 16,
+    "tests": 74,
+    "datedTests": 48,
     "results": 1,
     "corrections": 1,
-    "sides": 14,
-    "questions": 14,
+    "sides": 16,
+    "questions": 16,
     "companies": 48,
-    "people": 96,
+    "people": 106,
     "editions": 3,
     "notes": 0
   },
@@ -40,7 +40,9 @@
         "the-backlog-is-not-the-quarter",
         "the-model-is-not-the-price",
         "the-ratepayer-pays-first",
-        "the-cash-arrives-unevenly"
+        "the-cash-arrives-unevenly",
+        "oil-is-the-headline-the-real-yield-is-the-bill",
+        "the-seller-holds-the-paper"
       ]
     },
     "numbers": "https://deepstack.ltd/api/v1/numbers.json",
@@ -60,6 +62,7 @@
         "anthropic-grew-142-percent-openai",
         "habit-was-the-moat",
         "nvidias-demand-insatiable-or-manufactured",
+        "oil-is-the-headline-the-real-yield-is-the-bill",
         "power-doesnt-depreciate",
         "spacex-after-the-ipo-exit-liquidity",
         "the-backlog-is-not-the-quarter",
@@ -70,7 +73,8 @@
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
         "the-ratepayer-pays-first",
-        "the-scarcity-is-the-collateral"
+        "the-scarcity-is-the-collateral",
+        "the-seller-holds-the-paper"
       ]
     },
     "sidesGrid": {
@@ -80,6 +84,7 @@
         "anthropic-grew-142-percent-openai",
         "habit-was-the-moat",
         "nvidias-demand-insatiable-or-manufactured",
+        "oil-is-the-headline-the-real-yield-is-the-bill",
         "power-doesnt-depreciate",
         "spacex-after-the-ipo-exit-liquidity",
         "the-backlog-is-not-the-quarter",
@@ -90,7 +95,8 @@
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
         "the-ratepayer-pays-first",
-        "the-scarcity-is-the-collateral"
+        "the-scarcity-is-the-collateral",
+        "the-seller-holds-the-paper"
       ]
     },
     "questions": "https://deepstack.ltd/api/v1/questions.json",
@@ -110,7 +116,9 @@
         "do-the-orders-turn-into-profit",
         "does-the-frontier-model-still-command-a-price",
         "who-pays-for-the-ai-power-bill",
-        "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out"
+        "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
+        "can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time",
+        "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling"
       ]
     },
     "layers": "https://deepstack.ltd/api/v1/layers.json",

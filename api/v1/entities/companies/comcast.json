@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "comcast",
@@ -7,7 +7,7 @@
   "ticker": "CMCSA",
   "url": "https://deepstack.ltd/companies/comcast/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/comcast.json",
-  "summary": "Comcast is named in 3 Parts of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
+  "summary": "Comcast is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 3,
@@ -23,6 +23,11 @@
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -50,6 +55,12 @@
       "section": "Lede",
       "excerpt": "The 10-year Treasury, meanwhile, closed at 5.31% on October 5, the highest in roughly two decades, according to CNBC.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "OpenAI told investors it reached about $50 billion of annualized revenue at the end of September, CNBC confirmed on October 8, against the $68 billion widely reported late in September; a person familiar with the matter said the larger figure counted partners' gross revenue, the basis that makes it comparable with Anthropic's $65 billion, so Anthropic's run-rate and OpenAI's $50 billion are not on the same basis.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [],

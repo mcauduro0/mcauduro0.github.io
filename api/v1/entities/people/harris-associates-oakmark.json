@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "harris-associates-oakmark",
+  "name": "Harris Associates Oakmark",
+  "role": "Harris Associates L.P.",
+  "url": "https://deepstack.ltd/people/harris-associates-oakmark/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/harris-associates-oakmark.json",
+  "summary": "Harris Associates Oakmark is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "Heavy new bond issuance from technology hyperscalers investing in AI infrastructure is pressuring bond prices and increasing yields.",
+      "date": "2026-10-10",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 730,
+    "texts": 74,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

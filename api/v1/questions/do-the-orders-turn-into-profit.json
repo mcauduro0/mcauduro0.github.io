@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "do-the-orders-turn-into-profit",
   "question": "Do the orders turn into profit?",
@@ -761,12 +761,12 @@
           "status": "pending",
           "resultId": null,
           "sameAs": null,
-          "stage": "open",
-          "callExpects": null,
-          "callExpectsBy": null,
-          "callExpectsAt": null,
-          "callProbability": null,
-          "callProbabilityAt": null,
+          "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-13T01:05:20Z",
+          "callProbability": 75,
+          "callProbabilityAt": "2026-10-13T01:05:20Z",
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -775,11 +775,25 @@
           "resolver": {
             "kind": "earnings",
             "symbol": "NVDA",
-            "rule": "results reported => read the print",
-            "question": "",
-            "source": null,
-            "ambiguity": "",
-            "specState": "pending"
+            "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+            "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+            "source": {
+              "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+            },
+            "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-13",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-13",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "yes"
           },
           "url": "https://deepstack.ltd/docket/#test-p11-t02",
           "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#watch",

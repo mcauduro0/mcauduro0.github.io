@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "market-sentiment",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/market-sentiment/",
   "api": "https://deepstack.ltd/api/v1/entities/people/market-sentiment.json",
-  "summary": "Market Sentiment is named in 6 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield).",
+  "summary": "Market Sentiment is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 8 (The spending pays), Part 13 (The bill no state can shield), Part 16 (The loan is a bridge).",
   "parts": [
     {
       "part": 3,
@@ -38,6 +38,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -169,6 +174,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
       "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "The latest US AI lab models, GPT-6 Astra and Claude Fable 5.1, are priced at $10/$50 per million tokens, a similar band to GPT-4 ($30/$60) and Opus 3 ($15/$75) at their respective releases, leading Market Sentiment to conclude there is a separate…",
+      "date": "2026-09-08",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "aurelion-research",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/aurelion-research/",
   "api": "https://deepstack.ltd/api/v1/entities/people/aurelion-research.json",
-  "summary": "Aurelion Research is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it).",
+  "summary": "Aurelion Research is named in 6 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 8 (The spending pays), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 14 (The cash still covers it), Part 15 (Oil stays out of the core).",
   "parts": [
     {
       "part": 4,
@@ -33,6 +33,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -146,6 +151,18 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Aurelion Research is bearish on crude oil and expects WTI around $80 before the end of 2026, arguing China's structurally lower oil imports, more oil moving through Hormuz than headline data shows, and falling crack spreads will let the risk…",
+      "date": "2026-09-03",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "coverage": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "gaetano",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/gaetano/",
   "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
-  "summary": "Gaetano is named in 4 Parts of The Buildout, most recently Part 12: The Model Is Not the Price. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid).",
+  "summary": "Gaetano is named in 5 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid), Part 16 (The loan is a bridge).",
   "parts": [
     {
       "part": 6,
@@ -28,6 +28,11 @@
       "part": 12,
       "headline": "The Model Is Not the Price",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -85,6 +90,18 @@
       "section": "The filing sets the price",
       "excerpt": "Gaetano's Alphabet case of October 4 leans the other way, on Cloud at $24.8 billion in the second quarter, up 82%, and on the Anthropic agreement as a way Google earns beneath a rival's interface.",
       "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Gaetano counted on August 28 that customers outside the traditional hyperscalers, from neoclouds to sovereign clouds, produced 59% of Nvidia's data center growth that quarter.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "The 59% that Gaetano counts outside the hyperscalers includes the neoclouds the seller's credit reaches, through commitments such as the $6.3 billion CoreWeave capacity order and the credit-support deals with AI clouds that Nvidia began pausing in August, though it also holds sovereign clouds and enterprises.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -219,6 +236,30 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "NVIDIA's non-traditional hyperscaler customers (neoclouds, sovereign AI clouds, enterprises, and industrial customers) generated 59% of data center growth this quarter and are expected to drive Q3 growth primarily, because they rely more heavily on…",
+      "date": "2026-08-28",
+      "url": "https://gaetanoresearch.substack.com/p/nvda-earnings-discussion",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "NVIDIA has invested approximately 50 billion dollars in AI labs and is working with firms like Blackstone and BlackRock to establish financing platforms targeting over 500 billion dollars of third-party infrastructure capital, with roughly…",
+      "date": "2026-08-28",
+      "url": "https://gaetanoresearch.substack.com/p/nvda-earnings-discussion",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

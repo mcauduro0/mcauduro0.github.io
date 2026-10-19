@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
   "description": "A running series of investigations into who pays for the AI build-out, who profits, and what breaks first.",
-  "count": 14,
+  "count": 16,
   "stories": [
     {
       "part": 1,
@@ -4047,6 +4047,694 @@
         }
       ],
       "earlierVersion": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
+      "corrections": []
+    },
+    {
+      "part": 15,
+      "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "dek": "From February 27 to October 8, 2026, the 10-year Treasury yield rose 125 basis points, 115 of them real yield, while breakeven inflation rose 10, by DeepStack's reading of FRED. Retail diesel set a record in the week of September 21, 71% above the week of February 23, by the EIA's survey. The oil shock reaches the AI trade through the Fed and the real yield.",
+      "summary": "The barrel gave a Fed already facing hot core prices one more reason to hike, and the borrowing of the Treasury and the hyperscalers helped lift the real yield that long-dated earnings answer to. DeepStack reads the three sides, splits the 10-year on public data and names the tests, starting with the Fed's decision of October 28.",
+      "section": "Markets",
+      "date": "2026-10-19",
+      "readingMinutes": 10,
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "api": "https://deepstack.ltd/api/v1/stories/oil-is-the-headline-the-real-yield-is-the-bill.json",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "layer": {
+        "id": "markets",
+        "label": "Markets and rates"
+      },
+      "call": {
+        "tone": "split",
+        "toneLabel": "Split",
+        "stance": "The trade pays the real yield",
+        "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Split every move in the 10-year into real yield and breakeven: from Feb 27 to Oct 8, 2026, 115 of its 125 basis points were real.",
+          "Price long-dated earnings against a 10-year at 5.5%, where Howell's Aug 14 projection put the market multiple below 20 times.",
+          "Count AI borrowing as a rates input: Eisman tied about $500 billion of AI debt issuance to the 10-year's climb on Oct 9."
+        ],
+        "flips": [
+          "The 10-year closes at 5.50% or higher with breakeven inflation under its May 4 high of 2.50%: the two shocks compound.",
+          "The 5-year, 5-year forward rate on FRED closes above 2.60%: the shock has reached inflation expectations.",
+          "The Fed holds on October 28 and the real yield closes under 2.50% by December 9: the boom is paying the rate."
+        ],
+        "side": null,
+        "against": null,
+        "version": 2,
+        "updatedOn": "2026-10-19",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-19",
+            "stance": "The trade pays the real yield",
+            "tone": "split",
+            "toneLabel": "Split",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+            "reason": "First call, with the story.",
+            "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-19",
+            "stance": "The trade pays the real yield",
+            "tone": "split",
+            "toneLabel": "Split",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+            "side": null,
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "nextTest": {
+          "id": "p15-t01",
+          "part": 15,
+          "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+          "when": "December 31",
+          "whenLabel": "Dec 31, 2026",
+          "date": "2026-12-31",
+          "precision": "day",
+          "event": "The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5.",
+          "status": "pending",
+          "resultId": null,
+          "sameAs": null,
+          "stage": "pre",
+          "callExpects": "no",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-12T22:49:54Z",
+          "callProbability": 35,
+          "callProbabilityAt": "2026-10-12T22:49:54Z",
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "manual",
+            "rule": "Read every daily observation of DGS10 dated October 16, 2026 through December 31, 2026, as FRED shows them on January 5, 2027; the days read are the days for which FRED reports a value. The answer is yes if any of them is 5.50 or higher; no if every one is below 5.50. Intraday highs, other maturities and yields reported in the press are read alongside and do not decide the test.",
+            "question": "Does the 10-year Treasury constant-maturity yield (FRED series DGS10) close at 5.50% or higher on any day from October 16, 2026 through December 31, 2026 for which FRED reports a value?",
+            "source": {
+              "label": "FRED, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10), Board of Governors of the Federal Reserve System",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            },
+            "ambiguity": "FRED posts each close about one business day later, so the observation for December 31, 2026 is due by January 4, 2027. A weekday FRED leaves blank because the U.S. bond market was closed is not missing and is not read: in this window, Veterans Day (November 11), Thanksgiving (November 26) and Christmas (December 25, 2026), by the holiday schedule of the Securities Industry and Financial Markets Association. Only a weekday on which the bond market was open and FRED still shows no value on January 8, 2027 is missing; if one is, and no observation already in is 5.50 or higher, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 15, 2027. A close FRED revises before the reading is read as revised; a later revision does not reopen the test.",
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-12",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-12",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "no"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p15-t01",
+          "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#verdict"
+      },
+      "keyNumbers": [
+        {
+          "id": "p15-n1",
+          "value": "5.31%",
+          "label": "10-year Treasury yield at the close of October 5, 2026, its highest close since May 2002",
+          "context": "FRED (DGS10), read Oct 12, 2026; 5.22% on Oct 8; first close at 5% or more on Sep 15",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#number-p15-n1",
+          "provenance": {
+            "unit": "percent, yield",
+            "universe": "The 10-year U.S. Treasury constant-maturity yield, daily close, from the Federal Reserve's H.15 release",
+            "period": "Close of October 5, 2026",
+            "source": {
+              "label": "Board of Governors of the Federal Reserve System via FRED, 10-year Treasury constant maturity (DGS10)",
+              "url": "https://fred.stlouisfed.org/series/DGS10"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "As published by FRED, daily close.",
+            "limits": "A constant-maturity series; the highest close since May 14, 2002 (5.32%) by the same series; 5.22% on October 8, 2026; first close at 5% or more on September 15.",
+            "chart": null,
+            "test": {
+              "id": "p15-t01",
+              "url": "https://deepstack.ltd/docket/#test-p15-t01"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:51:12.552Z"
+          }
+        },
+        {
+          "id": "p15-n2",
+          "value": "+115 bp",
+          "label": "Rise in the 10-year real yield from February 27 to October 8, 2026, of the 10-year's 125",
+          "context": "FRED (DFII10, DGS10), read Oct 12, 2026; DeepStack calculation; 1.72% to 2.87%",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#number-p15-n2",
+          "provenance": {
+            "unit": "basis points",
+            "universe": "The 10-year Treasury inflation-indexed (TIPS) constant-maturity yield, daily close, from the Federal Reserve's H.15 release",
+            "period": "February 27 to October 8, 2026",
+            "source": {
+              "label": "Board of Governors of the Federal Reserve System via FRED, 10-year inflation-indexed constant maturity (DFII10)",
+              "url": "https://fred.stlouisfed.org/series/DFII10"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "2.87% less 1.72%, in basis points (DeepStack calculation); the 10-year (DGS10) rose from 3.97% to 5.22% over the same dates.",
+            "limits": "TIPS yields carry a liquidity premium; the real and breakeven legs need not sum exactly to the nominal.",
+            "chart": {
+              "id": "story",
+              "label": "Nearly all of the climb is real yield",
+              "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#story-chart-title"
+            },
+            "test": null,
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:51:12.552Z"
+          }
+        },
+        {
+          "id": "p15-n3",
+          "value": "+10 bp",
+          "label": "Rise in 10-year breakeven inflation over the same dates, February 27 to October 8, 2026",
+          "context": "FRED (T10YIE), read Oct 12, 2026; DeepStack calculation; 2.25% to 2.35%",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#number-p15-n3",
+          "provenance": {
+            "unit": "basis points",
+            "universe": "The 10-year breakeven inflation rate: the 10-year nominal yield less the 10-year TIPS yield, daily",
+            "period": "February 27 to October 8, 2026",
+            "source": {
+              "label": "Federal Reserve Bank of St. Louis, FRED, 10-year breakeven inflation rate (T10YIE)",
+              "url": "https://fred.stlouisfed.org/series/T10YIE"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "2.35% less 2.25%, in basis points (DeepStack calculation).",
+            "limits": "Breakeven is inflation compensation: expectations plus an inflation risk premium; 2.33% on October 9, 2026; its 2026 high was 2.50% on May 4.",
+            "chart": {
+              "id": "story",
+              "label": "Nearly all of the climb is real yield",
+              "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#story-chart-title"
+            },
+            "test": {
+              "id": "p15-t03",
+              "url": "https://deepstack.ltd/docket/#test-p15-t03"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:51:12.552Z"
+          }
+        },
+        {
+          "id": "p15-n4",
+          "value": "$105",
+          "label": "Brent spot price the EIA forecast for the fourth quarter of 2026, a barrel",
+          "context": "EIA Short-Term Energy Outlook, Oct 6, 2026; $14 above the September outlook",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#number-p15-n4",
+          "provenance": {
+            "unit": "US dollars a barrel",
+            "universe": "The Brent crude oil spot price, quarterly average, as forecast by the U.S. Energy Information Administration",
+            "period": "Fourth quarter of 2026, forecast",
+            "source": {
+              "label": "U.S. Energy Information Administration, Short-Term Energy Outlook, October 6, 2026",
+              "url": "https://www.eia.gov/outlooks/steo/"
+            },
+            "asOf": "2026-10-06",
+            "transformation": "As published by the EIA; $14 above the September outlook.",
+            "limits": "A forecast, not a market price; the agency attributes its daily Brent spot data to a private provider.",
+            "chart": null,
+            "test": {
+              "id": "p15-t02",
+              "url": "https://deepstack.ltd/docket/#test-p15-t02"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-12T22:51:12.552Z"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve Bank of St. Louis, FRED - 10-year Treasury constant maturity (DGS10)",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "FRED - Federal funds target range, upper limit (DFEDTARU)",
+          "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+        },
+        {
+          "label": "U.S. Energy Information Administration via FRED - U.S. No. 2 diesel retail price (GASDESW)",
+          "url": "https://fred.stlouisfed.org/series/GASDESW"
+        },
+        {
+          "label": "U.S. Energy Information Administration - Short-Term Energy Outlook, October 6, 2026",
+          "url": "https://www.eia.gov/outlooks/steo/"
+        },
+        {
+          "label": "Kris, Potential Multibaggers - The End Of An Era",
+          "url": "https://www.potentialmultibaggers.com/p/the-end-of-an-era"
+        },
+        {
+          "label": "Matthew C. Klein, The Overshoot - Rising Bond Yields Are Good, Actually",
+          "url": "https://theovershoot.co/p/rising-bond-yields-are-good-actually"
+        },
+        {
+          "label": "Torsten Slok, Apollo - Recent Rates Volatility: Risks and Opportunities in Credit",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/recent-rates-volatility-risks-and-opportunities-in-credit"
+        },
+        {
+          "label": "Torsten Slok, Apollo - The Diesel Shock Is a Core Inflation Shock",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/the-diesel-shock-is-a-core-inflation-shock"
+        },
+        {
+          "label": "Torsten Slok, Apollo - From a Savings Glut to a Savings Shortage",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/from-a-savings-glut-to-a-savings-shortage"
+        },
+        {
+          "label": "Mia Silverio, Prof G Markets - Americans are turning on AI",
+          "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+        },
+        {
+          "label": "Daniel Romero, HyperTech Invest - The Math Behind the Next AI Rally",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+        },
+        {
+          "label": "Kira Thornton, Variant Perception - Growth softer, tails wider",
+          "url": "https://blog.variantperception.com/p/growth-softer-tails-wider-sep-g3"
+        },
+        {
+          "label": "Matthew C. Klein, The Overshoot - Just Waiting for Disinflation is Not Enough",
+          "url": "https://theovershoot.co/p/just-waiting-for-disinflation-is"
+        },
+        {
+          "label": "FRED - 10-year Treasury inflation-indexed yield (DFII10)",
+          "url": "https://fred.stlouisfed.org/series/DFII10"
+        },
+        {
+          "label": "FRED - 10-year breakeven inflation rate (T10YIE)",
+          "url": "https://fred.stlouisfed.org/series/T10YIE"
+        },
+        {
+          "label": "FRED - 5-year, 5-year forward inflation expectation rate (T5YIFR)",
+          "url": "https://fred.stlouisfed.org/series/T5YIFR"
+        },
+        {
+          "label": "Hugh Vuillier, Variant Perception - Politics Trumps Economics: Macro Snapshot",
+          "url": "https://blog.variantperception.com/p/politics-trumps-economics-macro-snapshot"
+        },
+        {
+          "label": "Michael W. Green, Yes, I Give a Fig - Great, Scott...",
+          "url": "https://www.yesigiveafig.com/p/great-scott"
+        },
+        {
+          "label": "FRED - Term premium on a 10-year zero-coupon bond, Kim-Wright (THREEFYTP10)",
+          "url": "https://fred.stlouisfed.org/series/THREEFYTP10"
+        },
+        {
+          "label": "Torsten Slok, Apollo - Are Rates Peaking Within the Next Month?",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/are-rates-peaking-within-the-next-month"
+        },
+        {
+          "label": "Board of Governors of the Federal Reserve System - FOMC meeting calendars",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "label": "Alphabet - Date of third quarter 2026 results",
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+        },
+        {
+          "label": "Microsoft - Quarterly earnings release date",
+          "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/"
+        },
+        {
+          "label": "U.S. Bureau of Economic Analysis - Release schedule",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "label": "U.S. Bureau of Labor Statistics - Consumer Price Index release schedule",
+          "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+        },
+        {
+          "label": "Thrift Savings Plan - Share price history",
+          "url": "https://www.tsp.gov/share-price-history/"
+        },
+        {
+          "label": "Torsten Slok, Apollo - Think Six Months Ahead",
+          "url": "https://www.apollo.com/insights-news/insights/daily-spark/think-six-months-ahead"
+        }
+      ],
+      "earlierVersion": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "corrections": []
+    },
+    {
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "headline": "The Seller Holds the Paper",
+      "dek": "Nvidia was owed 59.6 days of sales on July 26, 2026, against 45.4 in April, by DeepStack's arithmetic from its filings, and its guarantee table reached $108.5 billion from $3.5 billion, up to $105 billion of it signed in August for one Ohio campus and phased in from fiscal 2029. The buyers are real. Part of the money they pay with came from the seller.",
+      "summary": "The demand for AI chips is real, and the sellers now carry part of the bill: longer receivables, guarantees, backstops and loans to their own buyers. DeepStack measures Nvidia's share, sets the critics of Anthropic beside its defenders, and names the November 18 filing that tests the view.",
+      "section": "Markets",
+      "date": "2026-10-19",
+      "readingMinutes": 14,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/",
+      "layer": {
+        "id": "capital",
+        "label": "Capital and credit"
+      },
+      "call": {
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "stance": "The seller finances part of the demand",
+        "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "actions": [
+          "Compute days outstanding yourself on November 18: receivables over the quarter's revenue, times 91. July 26, 2026 gave 59.6.",
+          "Split Nvidia's $108.5 billion of guarantees by when they bind: $105 billion for SB Energy phases in from fiscal 2029; $3.5 billion is live.",
+          "Read Broadcom's $29B backstop and the $42B note facility in its Aug 2 10-Q, which Reuters ties to Anthropic, before its Dec 9 report."
+        ],
+        "flips": [
+          "Nvidia's 10-Q for the quarter to Oct 25, 2026 puts days outstanding below 51.1, the average before July: the second quarter was a peak.",
+          "Free cash flow tops 71% of net income on Nov 18, its average in the four quarters before July: the cash came in and the terms were timing.",
+          "AMD or Broadcom reports a gigawatt-scale accelerator deal with no warrant, investment, loan or guarantee by Dec 9: demand pays its own way."
+        ],
+        "side": "The seller funds its demand",
+        "against": {
+          "name": "Longriver",
+          "entity": "https://deepstack.ltd/people/longriver/",
+          "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+          "date": "2026-07-20",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+          "access": "public",
+          "answers": "Distillate Capital Partners LLC",
+          "relation": "contradicts",
+          "dimension": "evidence"
+        },
+        "version": 2,
+        "updatedOn": "2026-10-19",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-19",
+            "stance": "The seller finances part of the demand",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+            "reason": "First call, with the story.",
+            "by": "DeepStack"
+          },
+          {
+            "version": 2,
+            "date": "2026-10-19",
+            "stance": "The seller finances part of the demand",
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+            "side": "The seller funds its demand",
+            "reason": "Side named by the owner.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "nextTest": {
+          "id": "p16-t01",
+          "part": 16,
+          "slug": "the-seller-holds-the-paper",
+          "when": "November 18",
+          "whenLabel": "Nov 18, 2026",
+          "date": "2026-11-18",
+          "precision": "day",
+          "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+          "status": "pending",
+          "resultId": null,
+          "sameAs": "p11-t02",
+          "stage": "pre",
+          "callExpects": "yes",
+          "callExpectsBy": "Marco Cauduro",
+          "callExpectsAt": "2026-10-13T01:05:34Z",
+          "callProbability": 75,
+          "callProbabilityAt": "2026-10-13T01:05:34Z",
+          "source": {
+            "kind": "story",
+            "ref": "watchlist[0].date",
+            "url": null
+          },
+          "resolver": {
+            "kind": "earnings",
+            "symbol": "NVDA",
+            "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+            "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+            "source": {
+              "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+              "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+            },
+            "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+            "specState": "approved",
+            "specVersion": 1,
+            "specUpdatedOn": "2026-10-13",
+            "specHistory": [
+              {
+                "version": 1,
+                "date": "2026-10-13",
+                "reason": "First specification.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "callExpects": "yes"
+          },
+          "url": "https://deepstack.ltd/docket/#test-p16-t01",
+          "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+          "resultUrl": null
+        },
+        "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#verdict"
+      },
+      "keyNumbers": [
+        {
+          "id": "p16-n1",
+          "value": "59.6 days",
+          "label": "Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26",
+          "context": "NVIDIA Forms 10-Q filed May 20 and Aug 26, 2026; DeepStack calculation: receivables over the quarter's revenue, times 91",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n1",
+          "provenance": {
+            "unit": "days",
+            "universe": "NVIDIA: accounts receivable, net at quarter end against revenue for the three months",
+            "period": "The quarter ended July 26, 2026 (fiscal second quarter of 2027); 45.4 for the quarter ended April 26, 2026",
+            "source": {
+              "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+              "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "Receivables of $63,059 million divided by revenue of $96,221 million, times 91 days; April: $40,710 million over $81,615 million, times 91.",
+            "limits": "Nvidia does not publish days sales outstanding; payment terms are a different measure; late-quarter shipments lift the quarter-end balance.",
+            "chart": {
+              "id": "story",
+              "label": "Days of sales Nvidia is owed",
+              "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#story-chart-title"
+            },
+            "test": {
+              "id": "p16-t01",
+              "url": "https://deepstack.ltd/docket/#test-p16-t01"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-13T01:06:24.523Z"
+          }
+        },
+        {
+          "id": "p16-n2",
+          "value": "$15.1B",
+          "label": "Receivables above Nvidia's April collection pace, July 26, 2026: 15.7% of the quarter's revenue",
+          "context": "NVIDIA Forms 10-Q, read Oct 12, 2026; DeepStack calculation; $9.1B, or 9.4%, against the four-quarter average",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n2",
+          "provenance": {
+            "unit": "US dollars",
+            "universe": "NVIDIA: receivables above the balance the April quarter's collection pace implies for the July quarter's revenue",
+            "period": "The quarter ended July 26, 2026",
+            "source": {
+              "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+              "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "$63.1B less $96.2B times 45.4 over 91 ($48.0B); 15.7% of the quarter's revenue. Against the 51.1-day average of the four prior quarters: $9.1B, 9.4%.",
+            "limits": "A ceiling: late-quarter shipments and normal terms also lift receivables; the filing does not split the change by cause.",
+            "chart": null,
+            "test": {
+              "id": "p16-t01",
+              "url": "https://deepstack.ltd/docket/#test-p16-t01"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-13T01:06:24.523Z"
+          }
+        },
+        {
+          "id": "p16-n3",
+          "value": "$108.5B",
+          "label": "Nvidia's maximum exposure on guarantees in its July 26, 2026 table, from $3.5B at April 26",
+          "context": "NVIDIA Form 10-Q filed Aug 26, 2026; up to $105B for SB Energy, phased in from fiscal 2029",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n3",
+          "provenance": {
+            "unit": "US dollars",
+            "universe": "NVIDIA: total maximum gross exposure under guarantees, as the guarantees note tabulates it",
+            "period": "The table for July 26, 2026, which includes guarantees signed in August 2026",
+            "source": {
+              "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+              "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "As published.",
+            "limits": "A ceiling, not an expected loss: up to $105B for SB Energy takes effect in phases from fiscal 2029; $3.5B at April 26, 2026, reduced as partners pay.",
+            "chart": null,
+            "test": {
+              "id": "p16-t02",
+              "url": "https://deepstack.ltd/docket/#test-p16-t02"
+            },
+            "call": true,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-13T01:06:24.523Z"
+          }
+        },
+        {
+          "id": "p16-n4",
+          "value": "70%",
+          "label": "Share of Nvidia's receivables owed by five direct customers, July 26, 2026",
+          "context": "NVIDIA Forms 10-Q filed Aug 26 and May 20, 2026; three customers held 64% at April 26, 2026",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n4",
+          "provenance": {
+            "unit": "percent of accounts receivable",
+            "universe": "NVIDIA: direct customers the 10-Q lists at 10% or more of accounts receivable, summed",
+            "period": "July 26, 2026 (22%, 14%, 13%, 11% and 10%); three customers held 64% at April 26, 2026",
+            "source": {
+              "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+              "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+            },
+            "asOf": "2026-10-12",
+            "transformation": "Sum of the shares the filing lists.",
+            "limits": "Direct customers only; the filing does not name them, and the labs reach Nvidia through clouds and partners.",
+            "chart": null,
+            "test": {
+              "id": "p16-t04",
+              "url": "https://deepstack.ltd/docket/#test-p16-t04"
+            },
+            "call": false,
+            "approvedBy": "Marco Cauduro",
+            "approvedAt": "2026-10-13T01:06:24.523Z"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NVIDIA - Form 10-Q, quarter ended July 26, 2026",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+        },
+        {
+          "label": "NVIDIA - Form 10-Q, quarter ended April 26, 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+        },
+        {
+          "label": "NVIDIA - Results for the second quarter of fiscal 2027, August 26, 2026",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+        },
+        {
+          "label": "NVIDIA - Results for the third quarter of fiscal 2026",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
+        },
+        {
+          "label": "NVIDIA - CFO commentary, Form 8-K Exhibit 99.2, August 26, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm#ex99-2"
+        },
+        {
+          "label": "Broadcom - Form 10-Q, quarter ended May 3, 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+        },
+        {
+          "label": "Broadcom - Form 10-Q, quarter ended August 2, 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+        },
+        {
+          "label": "Reuters - Broadcom to lend Anthropic up to $42 billion, October 1, 2026",
+          "url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+        },
+        {
+          "label": "AMD - Form 8-K on the OpenAI warrant, October 6, 2025",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-230895/d28189d8k.htm"
+        },
+        {
+          "label": "CoreWeave - Form 8-K on the September 9, 2025 order with NVIDIA",
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm"
+        },
+        {
+          "label": "Alphabet - Form 10-Q, quarter ended June 30, 2026 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm#p1-item2-3"
+        },
+        {
+          "label": "Bank for International Settlements - BIS Bulletin 137, October 1, 2026",
+          "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
+        },
+        {
+          "label": "Invest In Assets - Nvidia Earnings Breakdown, September 5, 2026",
+          "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown"
+        },
+        {
+          "label": "PIMCO - AI Credit Expansion: Assessing the Micro and Macro Risks, May 22, 2026",
+          "url": "https://www.pimco.com/us/en/insights/ai-credit-expansion-assessing-the-micro-and-macro-risks"
+        },
+        {
+          "label": "Longriver Investment Partners Limited - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683"
+        },
+        {
+          "label": "The Wall Street Journal - Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies, August 27, 2026",
+          "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e"
+        },
+        {
+          "label": "Distillate Capital Partners LLC - Q2 2026 letter",
+          "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647"
+        },
+        {
+          "label": "Federal Reserve Bank of Kansas City - Beyond Valuations: Long-Term Financial Risks from the AI Build-Out, October 5, 2026",
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/beyond-valuations-long-term-financial-risks-from-the-ai-build-out/"
+        },
+        {
+          "label": "Prof G Markets - Ed Elson, Two Red Flags, July 7, 2026",
+          "url": "https://www.profgmedia.com/p/two-red-flags"
+        },
+        {
+          "label": "Prof G Markets - Mia Silverio, October 5, 2026",
+          "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+        },
+        {
+          "label": "Variant Perception - AI Bubble Watch, October 8, 2026",
+          "url": "https://blog.variantperception.com/p/ai-bubble-watch"
+        },
+        {
+          "label": "AI Supremacy - AI Frontier: Google Gemini-4 Argon, October 1, 2026",
+          "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon"
+        },
+        {
+          "label": "AI Supremacy - We've never seen an Anthropic before, August 20, 2026",
+          "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+        },
+        {
+          "label": "HyperTech Invest - The Math Behind the Next AI Rally, September 21, 2026",
+          "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+        },
+        {
+          "label": "CNBC - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report, October 8, 2026",
+          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+        }
+      ],
+      "earlierVersion": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
       "corrections": []
     }
   ]

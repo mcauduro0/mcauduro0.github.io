@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ren",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ren/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ren.json",
-  "summary": "Ren is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides).",
+  "summary": "Ren is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 8 (Real cash, real use), Part 9 (Eighteen months, or less), Part 10 (A model, not a price), Part 11 (Funded, not forecast), Part 14 (The cash still covers it), Part 14 (Voices that cross sides), Part 16 (The seller funds its demand).",
   "parts": [
     {
       "part": 6,
@@ -48,6 +48,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -269,6 +279,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "Architectures change faster than factories can retool, and with NVIDIA targeting up to 30% lower total cost of ownership with 800 VDC, a shift that large rewards whoever redesigns fastest, so today's winning box may not win in five years, which…",
+      "date": "2026-09-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "Ren believes neoclouds and hybrids with prepayments and secured power offer the best risk-adjusted opportunity, because they earn five to eight times the revenue per megawatt of converted miners and two to three times a colocation REIT on a similar…",
+      "date": "2026-08-31",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

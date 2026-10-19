@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "daniel-nishball",
+  "name": "Daniel Nishball",
+  "role": null,
+  "url": "https://deepstack.ltd/people/daniel-nishball/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/daniel-nishball.json",
+  "summary": "Daniel Nishball is named in 1 Part of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (The loan is a bridge).",
+  "parts": [
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Daniel Nishball of SemiAnalysis cast Nvidia on July 6 as the central bank of AI: small buyers can pay for GPUs but cannot show a lender a credit rating.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "They characterize Nvidia as acting like the central bank of AI, supplying support where the private lending system will not, because small buyers can pay for GPUs but cannot offer creditors a credit rating, and Nvidia does not want demand…",
+      "date": "2026-07-06",
+      "url": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 30,
+    "texts": 2,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

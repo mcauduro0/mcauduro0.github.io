@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "daniel-romero",
@@ -7,7 +7,7 @@
   "role": "HyperTech Invest",
   "url": "https://deepstack.ltd/people/daniel-romero/",
   "api": "https://deepstack.ltd/api/v1/entities/people/daniel-romero.json",
-  "summary": "Daniel Romero is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
+  "summary": "Daniel Romero is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a moat), Part 8 (The cash has to triple), Part 10 (Everyone, soon), Part 11 (Funded, not forecast), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides).",
   "parts": [
     {
       "part": 5,
@@ -48,6 +48,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -117,6 +127,12 @@
       "section": "The buyers have not paid yet",
       "excerpt": "Daniel Romero counted on September 21 that a one-year payback on a hypothetical 2027 buildout would take $1.9 trillion to $2.28 trillion a year in compute payments.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "section": "The two shocks compound",
+      "excerpt": "Daniel Romero of HyperTech Invest recounted on September 21 a stretch in which oil rallied 35% while semiconductor shares fell 30%.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "sides": [

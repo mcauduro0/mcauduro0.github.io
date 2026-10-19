@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "vp-research",
@@ -7,7 +7,7 @@
   "role": "Variant Perception",
   "url": "https://deepstack.ltd/people/vp-research/",
   "api": "https://deepstack.ltd/api/v1/entities/people/vp-research.json",
-  "summary": "VP Research is named in 2 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+  "summary": "VP Research is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 15 (Oil stays out of the core).",
   "parts": [
     {
       "part": 3,
@@ -18,6 +18,16 @@
       "part": 7,
       "headline": "The Fed Hiked. The Long End Still Climbed.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -39,9 +49,52 @@
       "section": "What settles it",
       "excerpt": "Variant Perception’s account shows why the Fed can look late to one analyst and reckless to another.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "section": "Oil stays out of the core",
+      "excerpt": "Kira Thornton of Variant Perception wrote on September 14 that core inflation trends remain muted, with Iran and El Niño leaving the energy and food tails beyond policymakers' reach.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "section": "The bill comes as a real yield",
+      "excerpt": "Howell wrote on September 18 that the rise came mainly from expected short rates, with term premia arguably falling; Hugh Vuillier of Variant Perception had written on September 6 that the real term premium drove it.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Hugh Vuillier of Variant Perception read the delayed offerings of the two labs on October 8 as a sign that the public market is running short of marginal buyers.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Oil and Iran are driving the inflation narrative, but underlying inflation breadth is muted.",
+      "date": "2026-10-06",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "The recent rise in the US 10-year yield has been driven by the real term premium rather than by inflation expectations or rate expectations.",
+      "date": "2026-09-06",
+      "url": "https://blog.variantperception.com/p/politics-trumps-economics-macro-snapshot",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
   "coverage": {
     "creators": 1,
     "claims": 1064,

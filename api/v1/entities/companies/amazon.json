@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "amazon",
@@ -7,7 +7,7 @@
   "ticker": "AMZN",
   "url": "https://deepstack.ltd/companies/amazon/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-  "summary": "Amazon is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+  "summary": "Amazon is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 3,
@@ -53,6 +53,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [
@@ -373,6 +378,42 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "Back-end AI can only look profitable while unusually rich and irrational customers burn billions with no return; Ed Elson estimates OpenAI and Anthropic alone account for 60-80% of AI revenues at Amazon, Google and Microsoft and, per The…",
+      "date": "2026-07-07",
+      "url": "https://www.profgmedia.com/p/two-red-flags",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Anthropic and OpenAI together account for roughly 70% of hyperscaler AI revenue and 25-35% of total cloud revenue, with Microsoft, Amazon, and Google's growth substantially dependent on these two companies.",
+      "date": "2026-08-14",
+      "url": "https://realeismanplaybook.substack.com/p/the-ai-achilles-heel-why-everything",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "An Anthropic IPO might be a safer bet than semiconductor or neo-cloud stocks in this climate, because the U.S. needs its frontier model maker and enterprise AI leader, so if Anthropic were ever in serious financial trouble, Nvidia, Amazon and…",
+      "date": "2026-10-01",
+      "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

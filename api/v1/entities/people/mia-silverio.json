@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "mia-silverio",
@@ -7,7 +7,7 @@
   "role": "Prof G Markets",
   "url": "https://deepstack.ltd/people/mia-silverio/",
   "api": "https://deepstack.ltd/api/v1/entities/people/mia-silverio.json",
-  "summary": "Mia Silverio is named in 6 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise).",
+  "summary": "Mia Silverio is named in 8 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 7 (A missing buyer), Part 9 (The owner of the agent), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 15 (The two shocks compound).",
   "parts": [
     {
       "part": 7,
@@ -38,6 +38,16 @@
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -83,6 +93,18 @@
       "section": "The plant is late",
       "excerpt": "Mia Silverio of Prof G Markets relayed on September 28 an estimate that 30% to 50% of the data center megawatts planned to open this year will be delayed, with opposition groups in the United States above 840, from fewer than 50 at the start of 2024.",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 15,
+      "section": "The two shocks compound",
+      "excerpt": "Mia Silverio of Prof G Markets named the cost on October 5: an investor who can earn 5.3% on a Treasury demands more from a stock and pays less for each dollar of its earnings.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Mia Silverio of Prof G Markets wrote on October 5 that two customers supplied nearly a quarter of Anthropic's 2025 revenue and that 47% of its sales ran through Amazon and Google, a concentration a small company can live with and a company seeking a $2 trillion value cannot.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -169,6 +191,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
       "sidesUrl": "https://deepstack.ltd/sides/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "Mia Silverio concludes that given persistent inflation (above the Fed's 2% target for 5.5 years, the longest continuous stretch in 40 years), investors should invest more aggressively in stocks and avoid holding cash in checking accounts.",
+      "date": "2026-09-14",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "coverage": {

@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "luke-kawa",
+  "name": "Luke Kawa",
+  "role": null,
+  "url": "https://deepstack.ltd/people/luke-kawa/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/luke-kawa.json",
+  "summary": "Luke Kawa is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "He attributes rising global and US Treasury bond yields predominantly to a global growth impulse, especially strength in the industrial side of economies worldwide, which is pushing inflation up and leading central banks to be expected to respond.",
+      "date": "2026-10-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "He states he is genuinely surprised that the stability of breakevens hasn't given way to more doubt about the Fed's ability to maintain stable inflation after years of missing its target.",
+      "date": "2026-10-01",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

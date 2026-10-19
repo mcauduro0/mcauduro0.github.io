@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "junkbondinvestor",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/junkbondinvestor/",
   "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-  "summary": "JunkBondInvestor is named in 8 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt).",
+  "summary": "JunkBondInvestor is named in 9 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
   "parts": [
     {
       "part": 2,
@@ -48,6 +48,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -227,6 +232,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "Neoclouds resemble aircraft lessors stripped of the two features that made lessors safe: their GPU fleet depreciates far faster than an airframe as the next generation arrives, and their customer book is often concentrated in a handful of names.",
+      "date": "2026-06-15",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "A signed lease at Panther Creek would change how the market values Keel by establishing the economics, improving financing visibility and showing the power portfolio can support a viable data center business, and the full 2.2 GW does not need to…",
+      "date": "2026-09-24",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

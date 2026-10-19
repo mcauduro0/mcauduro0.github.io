@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "hugh-vuillier",
@@ -7,12 +7,22 @@
   "role": null,
   "url": "https://deepstack.ltd/people/hugh-vuillier/",
   "api": "https://deepstack.ltd/api/v1/entities/people/hugh-vuillier.json",
-  "summary": "Hugh Vuillier is named in 1 Part of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+  "summary": "Hugh Vuillier is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (Two labs carry the chain).",
   "parts": [
     {
       "part": 7,
       "headline": "The Fed Hiked. The Long End Still Climbed.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -22,9 +32,34 @@
       "section": "What settles it",
       "excerpt": "Hugh Vuillier of Variant Perception says trimmed-mean PCE is still trending lower.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "section": "The bill comes as a real yield",
+      "excerpt": "Howell wrote on September 18 that the rise came mainly from expected short rates, with term premia arguably falling; Hugh Vuillier of Variant Perception had written on September 6 that the real term premium drove it.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Hugh Vuillier of Variant Perception read the delayed offerings of the two labs on October 8 as a sign that the public market is running short of marginal buyers.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "With Anthropic and OpenAI delaying their IPO dates, there are increasing signs that the public equity market is running out of marginal buyers.",
+      "date": "2026-10-08",
+      "url": "https://blog.variantperception.com/p/ai-bubble-watch",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    }
+  ],
   "coverage": {
     "creators": 0,
     "claims": 280,

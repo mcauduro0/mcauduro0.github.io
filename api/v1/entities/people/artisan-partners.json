@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "artisan-partners",
+  "name": "Artisan Partners",
+  "role": null,
+  "url": "https://deepstack.ltd/people/artisan-partners/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/artisan-partners.json",
+  "summary": "Artisan Partners is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The boom pays the rate).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "Risk assets performed well, aided by economic strength and AI enthusiasm, while Treasury yields rose due to elevated inflation readings that led to a repricing of monetary policy expectations, and credit markets generated solid returns driven by…",
+      "date": "2026-09-22",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-boom-pays-the-rate",
+      "sideLabel": "The boom pays the rate",
+      "claim": "Treasury yields rose due to elevated inflation readings, which led to a repricing of monetary policy expectations.",
+      "date": "2026-09-22",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 1,
+    "claims": 811,
+    "texts": 108,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

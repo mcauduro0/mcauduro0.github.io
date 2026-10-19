@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ed-elson",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ed-elson/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ed-elson.json",
-  "summary": "Ed Elson is named in 2 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt).",
+  "summary": "Ed Elson is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
   "parts": [
     {
       "part": 5,
@@ -18,6 +18,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -33,6 +38,12 @@
       "section": "The bill has moved to debt",
       "excerpt": "Ed Elson of Prof G Markets noted on August 11 that Google had spent $45 billion and Amazon $54 billion in a single quarter and that both ended with negative cash flow.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Ed Elson of Prof G Markets estimated on July 7 that the two labs supplied 60% to 80% of the AI revenue at Amazon, Google and Microsoft and, citing The Information, about half of the hyperscalers' revenue backlog.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -71,6 +82,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "Back-end AI can only look profitable while unusually rich and irrational customers burn billions with no return; Ed Elson estimates OpenAI and Anthropic alone account for 60-80% of AI revenues at Amazon, Google and Microsoft and, per The…",
+      "date": "2026-07-07",
+      "url": "https://www.profgmedia.com/p/two-red-flags",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "invest-in-assets",
@@ -7,7 +7,7 @@
   "role": "Invest in Quality",
   "url": "https://deepstack.ltd/people/invest-in-assets/",
   "api": "https://deepstack.ltd/api/v1/entities/people/invest-in-assets.json",
-  "summary": "Invest in Assets is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it).",
+  "summary": "Invest in Assets is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Insatiable), Part 9 (Not every habit), Part 14 (The cash still covers it), Part 16 (Voices that cross sides).",
   "parts": [
     {
       "part": 1,
@@ -23,6 +23,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -56,6 +61,18 @@
       "section": "Four wallets, one ruler",
       "excerpt": "The roughly $220 billion Invest In Assets cited for Amazon on August 5 leaves more than $120 billion after $98.4 billion, against about $130 billion of operating cash at its first-half growth of 44%.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Invest In Assets set out the bull case on September 5: a revenue guarantee on redeployable compute, for customers backed by large balance sheets, carries a different risk from a loan.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "The seller funds its demand",
+      "excerpt": "Invest In Assets gave the bear case in its September 5 post: if compute keeps getting cheaper, the floor Nvidia guarantees could end up above market rates.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -118,6 +135,30 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The bull argument for the financing structure holds that Nvidia is not lending money but providing a revenue guarantee on compute capacity with fundamentally different risk, the compute retains value because it is redeployable, and the customers…",
+      "date": "2026-09-05",
+      "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "The core criticism of Nvidia's financing structure is that revenue guarantees on compute capacity becoming cheaper every year means the floor Nvidia is guaranteeing could end up above market rates, and if token prices keep falling, the neoclouds'…",
+      "date": "2026-09-05",
+      "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

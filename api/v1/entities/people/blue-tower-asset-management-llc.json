@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "blue-tower-asset-management-llc",
+  "name": "Blue Tower Asset Management LLC",
+  "role": null,
+  "url": "https://deepstack.ltd/people/blue-tower-asset-management-llc/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/blue-tower-asset-management-llc.json",
+  "summary": "Blue Tower Asset Management LLC is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Blue Tower Asset Management LLC uses a Société Générale note of June 8th to argue the price response has been mild by historical standards: a 14% loss of global crude supply from the Hormuz closure lifted prices about 30%, against the 1973 embargo…",
+      "date": "2026-07-20",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "With the ceasefire and June memorandum of understanding declared over and full-scale fighting resumed, Brent has risen over 15% in the last week, and once global inventory buffers including the drawn-down US strategic petroleum reserve are…",
+      "date": "2026-07-20",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 49,
+    "texts": 4,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

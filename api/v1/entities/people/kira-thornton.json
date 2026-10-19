@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "kira-thornton",
+  "name": "Kira Thornton",
+  "role": null,
+  "url": "https://deepstack.ltd/people/kira-thornton/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/kira-thornton.json",
+  "summary": "Kira Thornton is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
+  "parts": [
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 15,
+      "section": "Oil stays out of the core",
+      "excerpt": "Kira Thornton of Variant Perception wrote on September 14 that core inflation trends remain muted, with Iran and El Niño leaving the energy and food tails beyond policymakers' reach.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Core muted; energy a tail risk.",
+      "date": null,
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 76,
+    "texts": 10,
+    "asOf": "2026-10-19"
+  },
+  "lastUpdated": "2026-10-19"
+}

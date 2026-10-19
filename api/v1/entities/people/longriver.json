@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "longriver",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/longriver/",
   "api": "https://deepstack.ltd/api/v1/entities/people/longriver.json",
-  "summary": "Longriver is named in 3 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid), Part 14 (The buyers have not paid yet).",
+  "summary": "Longriver is named in 4 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Voices that cross sides), Part 12 (The frontier is still paid), Part 14 (The buyers have not paid yet).",
   "parts": [
     {
       "part": 1,
@@ -23,6 +23,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -56,6 +61,18 @@
       "section": "The buyers have not paid yet",
       "excerpt": "Longriver Investment Partners warned in its July 20 letter that AI can transform business and still fail its builders, because revenue can arrive well before owner earnings.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Longriver Investment Partners Limited told clients on July 20 that Anthropic's reported annualized revenue went from about $1 billion at the end of 2024 to almost $50 billion in May 2026, evidence in its view that customers will pay for agentic work.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Longriver's almost $50 billion in May had become about $65 billion by August, a figure that Tae Kim of Key Context wrote on August 21 the market treated as a disappointment; he called that an overreaction, since the growth rate was still extremely high.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [

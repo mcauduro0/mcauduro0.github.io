@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "apollo-global-management",
@@ -7,7 +7,7 @@
   "ticker": "APO",
   "url": "https://deepstack.ltd/companies/apollo-global-management/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/apollo-global-management.json",
-  "summary": "Apollo Global Management is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+  "summary": "Apollo Global Management is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
   "parts": [
     {
       "part": 1,
@@ -58,6 +58,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [
@@ -167,6 +177,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "On circularity fears: recent third-party capital from Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR was independently underwritten apart from one another and replaces Nvidia's balance sheet rather than merely extending it, which…",
+      "date": "2026-08-12",
+      "url": "https://taekim.substack.com/p/nvidia-is-speedrunning-the-creation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

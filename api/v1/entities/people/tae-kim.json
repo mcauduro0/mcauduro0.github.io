@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "tae-kim",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/tae-kim/",
   "api": "https://deepstack.ltd/api/v1/entities/people/tae-kim.json",
-  "summary": "Tae Kim is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides).",
+  "summary": "Tae Kim is named in 6 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 9 (Eighteen months, or less), Part 9 (The inertia businesses), Part 9 (The owner of the agent), Part 9 (The rails and the atoms), Part 9 (Voices that cross sides), Part 10 (Everyone, soon), Part 12 (Voices that cross sides), Part 16 (The loan is a bridge).",
   "parts": [
     {
       "part": 9,
@@ -33,6 +33,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -90,6 +95,12 @@
       "section": "The buyers have not paid yet",
       "excerpt": "Tae Kim relayed on October 2 that Axios and the Financial Times put OpenAI's annual recurring revenue near $70 billion; Michael Spencer of AI Supremacy wrote on October 9 that a later Financial Times report found about $50 billion.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 16,
+      "section": "Two labs carry the chain",
+      "excerpt": "Longriver's almost $50 billion in May had become about $65 billion by August, a figure that Tae Kim of Key Context wrote on August 21 the market treated as a disappointment; he called that an overreaction, since the growth rate was still extremely high.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
@@ -212,6 +223,18 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "Morgan Stanley's investor meetings with Nvidia leadership show accelerating growth rates even at 100 billion dollars revenue per quarter, strong demand for the Vera Rubin product cycle over the next 12 months, memory shortages lasting several…",
+      "date": "2026-07-14",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

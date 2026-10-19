@@ -1,0 +1,1000 @@
+{
+  "generatedAt": "2026-10-19T15:15:13Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 16,
+  "slug": "the-seller-holds-the-paper",
+  "headline": "The Seller Holds the Paper",
+  "dek": "Nvidia was owed 59.6 days of sales on July 26, 2026, against 45.4 in April, by DeepStack's arithmetic from its filings, and its guarantee table reached $108.5 billion from $3.5 billion, up to $105 billion of it signed in August for one Ohio campus and phased in from fiscal 2029. The buyers are real. Part of the money they pay with came from the seller.",
+  "summary": "The demand for AI chips is real, and the sellers now carry part of the bill: longer receivables, guarantees, backstops and loans to their own buyers. DeepStack measures Nvidia's share, sets the critics of Anthropic beside its defenders, and names the November 18 filing that tests the view.",
+  "section": "Markets",
+  "date": "2026-10-19",
+  "readingMinutes": 14,
+  "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/",
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
+  "call": {
+    "tone": "bear",
+    "toneLabel": "Skeptical",
+    "stance": "The seller finances part of the demand",
+    "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Compute days outstanding yourself on November 18: receivables over the quarter's revenue, times 91. July 26, 2026 gave 59.6.",
+      "Split Nvidia's $108.5 billion of guarantees by when they bind: $105 billion for SB Energy phases in from fiscal 2029; $3.5 billion is live.",
+      "Read Broadcom's $29B backstop and the $42B note facility in its Aug 2 10-Q, which Reuters ties to Anthropic, before its Dec 9 report."
+    ],
+    "flips": [
+      "Nvidia's 10-Q for the quarter to Oct 25, 2026 puts days outstanding below 51.1, the average before July: the second quarter was a peak.",
+      "Free cash flow tops 71% of net income on Nov 18, its average in the four quarters before July: the cash came in and the terms were timing.",
+      "AMD or Broadcom reports a gigawatt-scale accelerator deal with no warrant, investment, loan or guarantee by Dec 9: demand pays its own way."
+    ],
+    "side": "The seller funds its demand",
+    "against": {
+      "name": "Longriver",
+      "entity": "https://deepstack.ltd/people/longriver/",
+      "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+      "date": "2026-07-20",
+      "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+      "access": "public",
+      "answers": "Distillate Capital Partners LLC",
+      "relation": "contradicts",
+      "dimension": "evidence"
+    },
+    "version": 2,
+    "updatedOn": "2026-10-19",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-19",
+        "stance": "The seller finances part of the demand",
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-19",
+        "stance": "The seller finances part of the demand",
+        "tone": "bear",
+        "toneLabel": "Skeptical",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+        "side": "The seller funds its demand",
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
+      }
+    ],
+    "nextTest": {
+      "id": "p16-t01",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": "p11-t02",
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-13T01:05:34Z",
+      "callProbability": 75,
+      "callProbabilityAt": "2026-10-13T01:05:34Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "id": "p16-n1",
+      "value": "59.6 days",
+      "label": "Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26",
+      "context": "NVIDIA Forms 10-Q filed May 20 and Aug 26, 2026; DeepStack calculation: receivables over the quarter's revenue, times 91",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n1",
+      "provenance": {
+        "unit": "days",
+        "universe": "NVIDIA: accounts receivable, net at quarter end against revenue for the three months",
+        "period": "The quarter ended July 26, 2026 (fiscal second quarter of 2027); 45.4 for the quarter ended April 26, 2026",
+        "source": {
+          "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "Receivables of $63,059 million divided by revenue of $96,221 million, times 91 days; April: $40,710 million over $81,615 million, times 91.",
+        "limits": "Nvidia does not publish days sales outstanding; payment terms are a different measure; late-quarter shipments lift the quarter-end balance.",
+        "chart": {
+          "id": "story",
+          "label": "Days of sales Nvidia is owed",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#story-chart-title"
+        },
+        "test": {
+          "id": "p16-t01",
+          "url": "https://deepstack.ltd/docket/#test-p16-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T01:06:24.523Z"
+      }
+    },
+    {
+      "id": "p16-n2",
+      "value": "$15.1B",
+      "label": "Receivables above Nvidia's April collection pace, July 26, 2026: 15.7% of the quarter's revenue",
+      "context": "NVIDIA Forms 10-Q, read Oct 12, 2026; DeepStack calculation; $9.1B, or 9.4%, against the four-quarter average",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n2",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "NVIDIA: receivables above the balance the April quarter's collection pace implies for the July quarter's revenue",
+        "period": "The quarter ended July 26, 2026",
+        "source": {
+          "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "$63.1B less $96.2B times 45.4 over 91 ($48.0B); 15.7% of the quarter's revenue. Against the 51.1-day average of the four prior quarters: $9.1B, 9.4%.",
+        "limits": "A ceiling: late-quarter shipments and normal terms also lift receivables; the filing does not split the change by cause.",
+        "chart": null,
+        "test": {
+          "id": "p16-t01",
+          "url": "https://deepstack.ltd/docket/#test-p16-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T01:06:24.523Z"
+      }
+    },
+    {
+      "id": "p16-n3",
+      "value": "$108.5B",
+      "label": "Nvidia's maximum exposure on guarantees in its July 26, 2026 table, from $3.5B at April 26",
+      "context": "NVIDIA Form 10-Q filed Aug 26, 2026; up to $105B for SB Energy, phased in from fiscal 2029",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n3",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "NVIDIA: total maximum gross exposure under guarantees, as the guarantees note tabulates it",
+        "period": "The table for July 26, 2026, which includes guarantees signed in August 2026",
+        "source": {
+          "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "As published.",
+        "limits": "A ceiling, not an expected loss: up to $105B for SB Energy takes effect in phases from fiscal 2029; $3.5B at April 26, 2026, reduced as partners pay.",
+        "chart": null,
+        "test": {
+          "id": "p16-t02",
+          "url": "https://deepstack.ltd/docket/#test-p16-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T01:06:24.523Z"
+      }
+    },
+    {
+      "id": "p16-n4",
+      "value": "70%",
+      "label": "Share of Nvidia's receivables owed by five direct customers, July 26, 2026",
+      "context": "NVIDIA Forms 10-Q filed Aug 26 and May 20, 2026; three customers held 64% at April 26, 2026",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#number-p16-n4",
+      "provenance": {
+        "unit": "percent of accounts receivable",
+        "universe": "NVIDIA: direct customers the 10-Q lists at 10% or more of accounts receivable, summed",
+        "period": "July 26, 2026 (22%, 14%, 13%, 11% and 10%); three customers held 64% at April 26, 2026",
+        "source": {
+          "label": "NVIDIA Form 10-Q for the quarter ended July 26, 2026",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "Sum of the shares the filing lists.",
+        "limits": "Direct customers only; the filing does not name them, and the labs reach Nvidia through clouds and partners.",
+        "chart": null,
+        "test": {
+          "id": "p16-t04",
+          "url": "https://deepstack.ltd/docket/#test-p16-t04"
+        },
+        "call": false,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T01:06:24.523Z"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "NVIDIA - Form 10-Q, quarter ended July 26, 2026",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
+    },
+    {
+      "label": "NVIDIA - Form 10-Q, quarter ended April 26, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+    },
+    {
+      "label": "NVIDIA - Results for the second quarter of fiscal 2027, August 26, 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "label": "NVIDIA - Results for the third quarter of fiscal 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
+    },
+    {
+      "label": "NVIDIA - CFO commentary, Form 8-K Exhibit 99.2, August 26, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm#ex99-2"
+    },
+    {
+      "label": "Broadcom - Form 10-Q, quarter ended May 3, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+    },
+    {
+      "label": "Broadcom - Form 10-Q, quarter ended August 2, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+    },
+    {
+      "label": "Reuters - Broadcom to lend Anthropic up to $42 billion, October 1, 2026",
+      "url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+    },
+    {
+      "label": "AMD - Form 8-K on the OpenAI warrant, October 6, 2025",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-230895/d28189d8k.htm"
+    },
+    {
+      "label": "CoreWeave - Form 8-K on the September 9, 2025 order with NVIDIA",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm"
+    },
+    {
+      "label": "Alphabet - Form 10-Q, quarter ended June 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm#p1-item2-3"
+    },
+    {
+      "label": "Bank for International Settlements - BIS Bulletin 137, October 1, 2026",
+      "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
+    },
+    {
+      "label": "Invest In Assets - Nvidia Earnings Breakdown, September 5, 2026",
+      "url": "https://www.investinassets.net/p/nvidia-earnings-breakdown"
+    },
+    {
+      "label": "PIMCO - AI Credit Expansion: Assessing the Micro and Macro Risks, May 22, 2026",
+      "url": "https://www.pimco.com/us/en/insights/ai-credit-expansion-assessing-the-micro-and-macro-risks"
+    },
+    {
+      "label": "Longriver Investment Partners Limited - Q2 2026 letter",
+      "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683"
+    },
+    {
+      "label": "The Wall Street Journal - Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies, August 27, 2026",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e"
+    },
+    {
+      "label": "Distillate Capital Partners LLC - Q2 2026 letter",
+      "url": "https://fiscal.ai/fund-letters/distillate-capital-partners-llc-q2-2026-fscl_document_3BZX2NEX647"
+    },
+    {
+      "label": "Federal Reserve Bank of Kansas City - Beyond Valuations: Long-Term Financial Risks from the AI Build-Out, October 5, 2026",
+      "url": "https://www.kansascityfed.org/research/economic-bulletin/beyond-valuations-long-term-financial-risks-from-the-ai-build-out/"
+    },
+    {
+      "label": "Prof G Markets - Ed Elson, Two Red Flags, July 7, 2026",
+      "url": "https://www.profgmedia.com/p/two-red-flags"
+    },
+    {
+      "label": "Prof G Markets - Mia Silverio, October 5, 2026",
+      "url": "https://www.profgmedia.com/p/americans-are-turning-on-ai-anthropic"
+    },
+    {
+      "label": "Variant Perception - AI Bubble Watch, October 8, 2026",
+      "url": "https://blog.variantperception.com/p/ai-bubble-watch"
+    },
+    {
+      "label": "AI Supremacy - AI Frontier: Google Gemini-4 Argon, October 1, 2026",
+      "url": "https://www.ai-supremacy.com/p/ai-frontier-google-gemini-4-argon"
+    },
+    {
+      "label": "AI Supremacy - We've never seen an Anthropic before, August 20, 2026",
+      "url": "https://www.ai-supremacy.com/p/we-have-never-seen-an-anthropic-before-2026-revenue-ipo"
+    },
+    {
+      "label": "HyperTech Invest - The Math Behind the Next AI Rally, September 21, 2026",
+      "url": "https://hypertechinvest.com/p/the-math-behind-the-next-ai-rally"
+    },
+    {
+      "label": "CNBC - Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report, October 8, 2026",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+    }
+  ],
+  "earlierVersion": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+  "corrections": [],
+  "wordCount": 3130,
+  "pullQuote": "The rescue argument is the circularity argument offered as comfort.",
+  "verdict": "DeepStack's view is that the demand is real and the seller is financing part of it. In the quarter to July 26, 2026 Nvidia's receivables ran 9% to 16% of its sales above its own recent collection pace, a ceiling on what it financed, turned 36% of its net income into free cash and listed guarantees of up to $108.5 billion, most of them phased in from fiscal 2029. Five accounts owed 70% of its receivables, and two labs stand behind much of the chain: OpenAI behind the SB Energy guarantees, Anthropic behind the $42 billion note facility in Broadcom's 10-Q for the quarter to August 2, which Reuters ties to it, and the TPU contracts Burry reads into Google's backlog. Outside capital is real too, but some of it arrived with a seller's backstop beneath it, as Apollo's did at Broadcom. The single most important reason for caution is timing: late-quarter shipments lift receivables, so one quarter can overstate the strain. The view changes if days outstanding fall below 51.1 in the quarter to October 25, 2026, or if free cash flow tops 71% of net income, its average in the four quarters before July. The first answer arrives on November 18.",
+  "sections": [
+    {
+      "id": "the-financed-share",
+      "title": "The financed share",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#the-financed-share"
+    },
+    {
+      "id": "the-loan-is-a-bridge",
+      "title": "The loan is a bridge",
+      "startsAt": 8,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#the-loan-is-a-bridge"
+    },
+    {
+      "id": "the-seller-funds-its-demand",
+      "title": "The seller funds its demand",
+      "startsAt": 13,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#the-seller-funds-its-demand"
+    },
+    {
+      "id": "two-labs-carry-the-chain",
+      "title": "Two labs carry the chain",
+      "startsAt": 17,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#two-labs-carry-the-chain"
+    },
+    {
+      "id": "what-would-settle-it",
+      "title": "What would settle it",
+      "startsAt": 24,
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#what-would-settle-it"
+    }
+  ],
+  "orientation": {
+    "question": {
+      "text": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+      "url": "/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling/"
+    },
+    "read": {
+      "stance": "The seller finances part of the demand",
+      "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+      "tone": "bear",
+      "toneLabel": "Skeptical",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [
+      "Nvidia was owed 59.6 days of sales on July 26, 2026, against 45.4 on April 26: receivables of $63.1 billion over the quarter's $96.2 billion of revenue, times 91 (NVIDIA Forms 10-Q; DeepStack calculation).",
+      "Nvidia's maximum exposure on guarantees reached $108.5 billion in the table for July 26, 2026, from $3.5 billion on April 26; up to $105 billion is for SB Energy's Ohio campus, phased in from fiscal 2029 (NVIDIA Form 10-Q and CFO commentary).",
+      "Five direct customers owed 70% of Nvidia's receivables on July 26, 2026, and it turned 36% of the quarter's net income into free cash, against 71% on average in the four quarters before (NVIDIA Form 10-Q and releases; DeepStack calculation).",
+      "Broadcom backstopped a customer's lease payments up to $29 billion in June 2026, and its 10-Q for the quarter to August 2 discloses up to $42 billion of convertible notes from a customer Reuters names as Anthropic (Broadcom Forms 10-Q; Reuters)."
+    ],
+    "uncertain": [
+      "Whether Nvidia's days outstanding stay at or above 51.1 in the quarter to October 25, 2026, reported November 18 (test p16-t01), and whether the customers it lists still hold more than 70% of receivables (test p16-t04).",
+      "Whether the same 10-Q puts guarantees above $108.5 billion and AI cloud agreements above $36 billion (tests p16-t02 and p16-t03); either answer fits the Call.",
+      "How much of the labs' demand comes from end users outside the chain: the run-rates are not audited, and Anthropic's first audited figures wait on its registration statement (test p16-t05)."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-13T01:06:53.653Z",
+    "next": {
+      "id": "p16-t01",
+      "date": "2026-11-18",
+      "whenLabel": "Nov 18, 2026",
+      "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending",
+      "callNumber": 75
+    }
+  },
+  "body": [
+    "Nvidia's customers owed it $63.1 billion on July 26, 2026, against $40.7 billion on April 26, by the second-quarter 10-Q and the first-quarter 10-Q. Revenue rose 18% from the quarter before and 106% from a year earlier, to $96.2 billion; receivables rose 55%. Receivables over the quarter's revenue, times its 91 days, give days sales outstanding, a figure Nvidia does not publish: 45.4 in the quarter to April 26 and 59.6 in the quarter to July 26, by DeepStack's arithmetic.",
+    "Free cash flow was $21.3 billion in the quarter to July 26, against net income of $59.7 billion, or 36%, after 83% in the quarter before by the May 20 release, according to the August 26 earnings release. On April 26 Nvidia's maximum exposure on guarantees of partners' leases was $3.5 billion. The 10-Q's guarantees table, which carries the July 26 balances and, by its own note, the SB Energy guarantees signed in August 2026, reads $108.5 billion, up to $105 billion of it credit support for leases at SB Energy's campus in Pike County, Ohio, on behalf of an affiliate of OpenAI. The filing also lists $36 billion of AI cloud agreements, cloud services Nvidia commits to buy from clouds that buy its systems, and $20 billion of data center leases it will pass on to third parties.",
+    "Part sixteen asks how much of the money buying AI chips was lent, guaranteed or invested by the companies selling them. Part one called Nvidia's financing fragile on August 10, before this 10-Q; Part ten and Part eleven named the loop without measuring it. DeepStack read 332 posts, letters, filings and episodes by 114 voices and verified 128 agreements and 119 disagreements, 30 of them direct contradictions and 4 refutations. A disclosure: DeepStack is built with Anthropic's models, and Anthropic is one of the two labs at the end of this chain, so its critics get their full case below.",
+    "DeepStack's measure is the financed share: receivables above the seller's recent collection pace, as a share of the quarter's revenue. At the 45.4 days of the quarter to April 26, 2026, sales in the quarter to July 26 would have left $48.0 billion owed, not $63.1 billion. The excess, $15.1 billion, is 15.7% of revenue. Against the 51.1-day average of the four quarters before, it is $9.1 billion, or 9.4%. On either base the seller carried 9% to 16% of a quarter's sales beyond its recent pace. Late-quarter shipments lift receivables too, so both figures are ceilings. The measure bounds the seller's financing; it does not say how much of the excess came from longer terms, from timing or from a shift toward slower-paying buyers.",
+    "Ed Zitron, Steve Eisman's guest on The Real Eisman Playbook on September 9, said Nvidia had extended payment terms for investment-grade customers from 90 days to a full year and tied that to 14 more days outstanding. The 10-Q describes terms of 90 days up to a year for investment-grade buyers on large builds, without saying when they began. Terms are not days outstanding: DeepStack computes a change of 14.2 days, and the filing does not say how much of it the terms explain.",
+    "The second measure sets customer-linked obligations against cash. Free cash flow over the four quarters to July 26, 2026 was $126.9 billion, summed from the releases back to the quarter to October 26, 2025. The guarantees in force, $3.5 billion, the $36 billion of cloud agreements and the $20 billion of third-party leases come to $59.5 billion, 0.47 times that cash; the guarantees are contingent, and the cloud agreements are purchases Nvidia has promised to make. Nvidia's CFO commentary of August 26 says the SB Energy guarantees take effect in phases, the first expected in fiscal 2029. With their $105 billion ceiling the total is $164.5 billion, 1.30 times free cash flow. The ratio leaves out Nvidia's equity stakes in its customers, which the filing carries as investments rather than obligations.",
+    "The habit is not Nvidia's alone. Broadcom's 10-Q for the quarter to May 3, 2026 reports under Other Information that on June 8 it arranged for Apollo, which it calls its investor partner, to take over agreements to buy AI racks, and the related leases, with a customer it does not name, and backstopped that customer's lease payments over five years up to $29 billion. Its 10-Q for the quarter to August 2, 2026 adds that a customer it does not name may, under certain conditions, issue it convertible notes of up to $42 billion to meet leases of compute capacity; none had been issued by August 2. Reuters reported on October 1, from Anthropic's offering prospectus, that the borrower is Anthropic and that the $42 billion is about a third of a $125.2 billion five-year commitment to lease TPU capacity; the prospectus was not on EDGAR as of October 12. AMD's 8-K of October 2025 gave OpenAI a warrant for up to 160 million shares that vests in tranches as OpenAI buys AMD GPUs, from the first gigawatt to the sixth, and as AMD's share price reaches targets of up to $600. CoreWeave's 8-K of September 2025 obliges Nvidia to buy its unsold capacity, on a $6.3 billion order, through April 2032. Alphabet's 10-Q for the quarter to June 30, 2026 counts an estimated $24.1 billion of future backstops for data center and energy supply build-outs.",
+    "The Bank for International Settlements found on October 1 that 55.2% of the investment into AI firms from 2021 to 2025 came from other AI firms, and that 46.4% of the value of those deals also involved a supply relationship between investor and target, ties it said carry macroeconomic risks and add opacity. The BIS shares count investment deals, and chip sales fall outside them.",
+    "The first reading holds that the seller's money fills a credit gap that outside capital is closing. Clark Tang wrote in Key Context on August 12 that the new third-party money, from Apollo to KKR, was underwritten independently and takes the place of Nvidia's balance sheet, his answer to the circularity charge. Daniel Nishball of SemiAnalysis cast Nvidia on July 6 as the central bank of AI: small buyers can pay for GPUs but cannot show a lender a credit rating. Invest In Assets set out the bull case on September 5: a revenue guarantee on redeployable compute, for customers backed by large balance sheets, carries a different risk from a loan.",
+    "The reading has an institutional form. Lotfi Karoui, Michael Puempel and Amit Arora of PIMCO wrote on May 22, 2026 that the AI credit wave is \"a more disciplined and far more financeable cycle\" than the telecom boom of the late 1990s: the largest spenders start from strong balance sheets and higher margins, and equity investors punish spending without a visible return. The same note warned that demand seeded by suppliers through prepayments, offtake and financing support can carry momentum for a time, and that only demand from end users validates it.",
+    "The buyers pay, this side adds. Gaetano counted on August 28 that customers outside the traditional hyperscalers, from neoclouds to sovereign clouds, produced 59% of Nvidia's data center growth that quarter. Longriver Investment Partners Limited told clients on July 20 that Anthropic's reported annualized revenue went from about $1 billion at the end of 2024 to almost $50 billion in May 2026, evidence in its view that customers will pay for agentic work.",
+    "One event tests this side directly. The Wall Street Journal reported on August 27 that Nvidia had paused some deals in a program, announced less than two months earlier, that offered AI cloud providers credit support in exchange for a share of their revenue; some employees had warned customers it could draw antitrust scrutiny. The pause is the nearest thing this side has to evidence of the seller stepping back, and it is thin. The reported reason was antitrust exposure, and neither report said outside lenders had taken Nvidia's place. The guarantee table, which counts August signings, still rose to $108.5 billion.",
+    "DeepStack's reading: this side names the end buyers correctly and misplaces the risk, which still sits partly with the seller. Apollo, one of the firms Tang named, is also the investor partner Broadcom names in its June 8 arrangement, with Broadcom's $29 billion backstop beneath the customer's leases. Outside money did arrive in the summer of 2026, and some of it came with the seller's credit attached, which is Nishball's central bank at work. The 59% that Gaetano counts outside the hyperscalers includes the neoclouds the seller's credit reaches, through commitments such as the $6.3 billion CoreWeave capacity order and the credit-support deals with AI clouds that Nvidia began pausing in August, though it also holds sovereign clouds and enterprises.",
+    "The second reading holds that vendor money props up marginal demand. Michael Burry wrote on July 9 that Nvidia's revenue growth is mostly, not wholly, real, because circular financing holds marginal demand for compute above market rates. Kakashii argued on August 20 that CoreWeave exists mainly to create demand for Nvidia's GPUs: Nvidia is its only GPU supplier and also an investor, customer and sponsor, and its cash spending on equipment came to about 84% of its gross debt proceeds.",
+    "Distillate Capital Partners LLC wrote on July 15 that hyperscalers and Nvidia had committed about $180 billion to OpenAI and Anthropic, which pledged about $1.1 trillion of compute spending back. Ren warned on August 2 that part of what looks like independent demand is the supply chain financing itself. Burry wrote on September 28 that chipmakers and clouds offer residual value guarantees on chips because lenders require them, citing an H100 that lost 51% of its value in its first three years. Invest In Assets gave the bear case in its September 5 post: if compute keeps getting cheaper, the floor Nvidia guarantees could end up above market rates.",
+    "The risk has an institutional form too. Padma Sharma and Pierce George of the Federal Reserve Bank of Kansas City wrote on October 5, 2026 that the most leveraged entities in the AI chain are special purpose vehicles that hyperscalers and chipmakers set up with private credit firms, financing 90% of their assets with debt on the strength of their sponsors' guarantees, with neoclouds next at 85%. The sponsors stand behind that debt through rent and residual value guarantees, they wrote, and neoclouds have drawn direct financing from chipmakers.",
+    "Eisman draws the line elsewhere. In a September 25 episode he said the visible loop, Nvidia investing in or lending to buyers of its chips, is out in the open and paid from Nvidia's own cash flow; what disturbs him is the return of off-balance-sheet vehicles. DeepStack's reading: his test is the right one, and the quarter to July 26, 2026 strains it. Nvidia turned 36% of that quarter's net income into free cash, against an average of 71% in the four quarters before. The $22.3 billion rise in receivables was the largest part of the $38.4 billion gap, so most of the weak conversion is the same receivables build, read from the cash-flow statement. Gains on equity securities, $23.7 billion in the first half of fiscal 2027 by the 10-Q, supplied 16.8% of income before tax, and those gains were marks on stakes that brought in no cash.",
+    "The third reading accepts the cash and asks whose it is. Five direct customers owed 70% of Nvidia's receivables on July 26, 2026, in shares of 22%, 14%, 13%, 11% and 10%, by the 10-Q, against three owing 30%, 18% and 16% on April 26. Eisman said on The Real Eisman Playbook on August 14 that Anthropic and OpenAI account for roughly 70% of hyperscaler AI revenue and 25% to 35% of all cloud revenue, and on September 28 that much of the industry depends on their health. Ed Elson of Prof G Markets estimated on July 7 that the two labs supplied 60% to 80% of the AI revenue at Amazon, Google and Microsoft and, citing The Information, about half of the hyperscalers' revenue backlog. Zitron argued on Eisman's September 9 show that the hyperscalers spent more than $1 trillion on GPUs largely to win revenue from two labs they also fund, a closed loop in his view.",
+    "Anthropic sits inside the loop, and its critics make the strongest case here. Mia Silverio of Prof G Markets wrote on October 5 that two customers supplied nearly a quarter of Anthropic's 2025 revenue and that 47% of its sales ran through Amazon and Google, a concentration a small company can live with and a company seeking a $2 trillion value cannot. She counted full-year 2025 revenue of $4.6 billion, a different measure from the annualized run-rates below, against a $42 billion loss, about $34 billion of it a non-cash charge tied to convertible financing. Citing Aswath Damodaran, she wrote that such a valuation needs $1.2 trillion of annual revenue within ten years, against a current market for AI products and services of about $250 billion.",
+    "Burry traced the circle through the cloud on September 24. Google Cloud's 112% backlog growth, he wrote, includes TPU sales contracts of unknown size added within six months, and one of the largest TPU buyers is Anthropic, in which he says Alphabet owns 14% and agreed in April to invest up to $40 billion; he called it circular dealing. Beside Broadcom's $42 billion note facility, which Reuters ties to Anthropic, DeepStack reads that as an investor's backlog holding the lab's chip contracts while the chips' co-designer lends the lab money to lease them. Hugh Vuillier of Variant Perception read the delayed offerings of the two labs on October 8 as a sign that the public market is running short of marginal buyers. Eisman added on October 7 that customers show the two labs no loyalty and a price war may be starting.",
+    "Michael Spencer of AI Supremacy makes the defense. On October 1 he wrote that Anthropic leads OpenAI going into its offering and that, if it were ever in serious trouble, Nvidia, Amazon and Google would have no choice but to bail it out. On August 20 he relayed preliminary second-quarter revenue of $11.5 billion and a projected adjusted operating profit of $559 million.",
+    "The critics answer with the growth line itself. Longriver's almost $50 billion in May had become about $65 billion by August, a figure that Tae Kim of Key Context wrote on August 21 the market treated as a disappointment; he called that an overreaction, since the growth rate was still extremely high. On October 2 Kim wrote that news of a slowdown in Anthropic's annualized revenue growth, from share lost to OpenAI, could have spooked markets had it come out before OpenAI's higher figure, and that with OpenAI's $70 billion figure public the downside to sentiment should be smaller. That premise predates October 8. Daniel Romero of HyperTech Invest put the two labs' combined run-rate at $105 billion in July, $65 billion of it Anthropic's, and wrote on September 21 that it is nowhere near what the 2027 buildout requires. The model he works from assumes $1.3 trillion of AI revenue by the end of 2027; at about a 30% share, he estimated, the two labs would need about $400 billion of it. None of these run-rates comes from an audited filing, nor do the shares of hyperscaler revenue Eisman and Elson give, and the writers do not say whether they count revenue gross or net of what partners pass through.",
+    "That basis matters. OpenAI told investors it reached about $50 billion of annualized revenue at the end of September, CNBC confirmed on October 8, against the $68 billion widely reported late in September; a person familiar with the matter said the larger figure counted partners' gross revenue, the basis that makes it comparable with Anthropic's $65 billion, so Anthropic's run-rate and OpenAI's $50 billion are not on the same basis. Nvidia fell 3%, Oracle nearly 6% and CoreWeave nearly 8% that day. The same report cited New Constructs, an independent research firm, calling Anthropic's coming offering the \"most ridiculous IPO of 2026\" and valuing the company at $150 billion.",
+    "DeepStack's reading: Spencer's profit is a projection on an adjusted basis that no audited filing has yet confirmed. The rescue argument is the circularity argument offered as comfort. The lab is safe, on that view, because its suppliers cannot afford to lose it. On Kim's account the growth has begun to slow, and on Romero's the buildout is priced for about four times the revenue the two labs now report. Until that gap closes, the suppliers' guarantees, loans and backlogs depend on revenue the labs have not yet reported.",
+    "The deciding filing is Nvidia's 10-Q for the quarter ending October 25, 2026, with results expected on November 18 by Financial Modeling Prep's calendar, a date Nvidia had not posted as of October 12. The release carries receivables and revenue; the guarantees, commitments and concentration notes come with the 10-Q, which NVIDIA filed the same day as its second-quarter release. DeepStack will read four lines in it: days outstanding, computed as above, against 51.1, the average of the four quarters before July; total guarantees against $108.5 billion; AI cloud agreements against $36 billion; and the share of receivables held by the customers it lists, against 70%. Anthropic's first public registration statement, which was not on EDGAR as of October 12, is already the subject of two tests in Part twelve: whether it shows a gross margin of 50% or more for the latest period, and whether customers at 10% or more of revenue add up to 20% or more in the latest fiscal year, the concentration Silverio describes.",
+    "DeepStack's Call is that the demand is real and the seller is financing part of it. The first half rests on what customers paid: revenue less the rise in receivables, a rough gauge of those payments, came to $73.9 billion, though some of the payers draw on the seller's own credit, and even Burry calls the growth mostly, though not wholly, real. What the record cannot yet show is how much of the labs' demand comes from end users outside the chain; Anthropic's first audited figures will be the first test of that. Three readings would change the Call: days outstanding below 51.1; free cash flow above 71% of net income on November 18, the average of the four quarters before July; or a gigawatt-scale accelerator deal with no warrant, investment, loan or guarantee by December 9, the test Ren set for AMD on October 7, which DeepStack applies to Broadcom as well.",
+    "Until then, read the filing's day count before its language about terms. The chips were sold. Part of the bill stayed with the seller."
+  ],
+  "chart": {
+    "title": "Days of sales Nvidia is owed",
+    "subtitle": "Accounts receivable at quarter end over the quarter's revenue, times 91 days, five fiscal quarters to July 26, 2026",
+    "unit": "",
+    "decimals": 1,
+    "source": "NVIDIA quarterly results releases and Forms 10-Q, read Oct 12, 2026; DeepStack calculation",
+    "items": [
+      {
+        "label": "Quarter to Jul 27, 2025",
+        "value": 54.1
+      },
+      {
+        "label": "Quarter to Oct 26, 2025",
+        "value": 53.3
+      },
+      {
+        "label": "Quarter to Jan 25, 2026",
+        "value": 51.4
+      },
+      {
+        "label": "Quarter to Apr 26, 2026",
+        "value": 45.4
+      },
+      {
+        "label": "Quarter to Jul 26, 2026",
+        "value": 59.6
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p16-t01",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": "p11-t02",
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-13T01:05:34Z",
+      "callProbability": 75,
+      "callProbabilityAt": "2026-10-13T01:05:34Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p16-t02",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether the guarantees note in its 10-Q puts total maximum exposure above $108.5 billion, the figure in the table for July 26, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-13T01:05:42Z",
+      "callProbability": 40,
+      "callProbabilityAt": "2026-10-13T01:05:42Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Read the total maximum gross exposure the guarantees note gives, including guarantees the note says were signed after the quarter ended, as the table for July 26, 2026 did. The answer is yes if it is above $108.5 billion; no if it is $108.5 billion or below. If the note gives no total, the Result sums the maximum exposures the note lists and says that it summed them. The fair value of the guarantees and the phasing of the SB Energy guarantees are read alongside and do not decide the test.",
+        "question": "Does the guarantees note in NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026 put the total maximum gross exposure under its guarantees above $108.5 billion?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (notes to the condensed consolidated financial statements, guarantees), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the note gives no maximum exposure for a guarantee it describes, the test is inconclusive, and the Result says what was read and what was missing; the next reading is NVIDIA's annual report on Form 10-K for fiscal 2027, by March 31, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p16-t03",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether its 10-Q puts AI cloud agreements, cloud services it commits to buy from its own customers, above the $36 billion of July 26, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "either",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-13T01:05:50Z",
+      "callProbability": 40,
+      "callProbabilityAt": "2026-10-13T01:05:50Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Read the amount the 10-Q gives for AI cloud agreements, the cloud services NVIDIA has committed to buy, at October 25, 2026. The answer is yes if it is above $36 billion; no if it is $36 billion or below. Data center leases NVIDIA signed to pass on to third parties, and other purchase obligations, are read alongside and do not decide the test.",
+        "question": "Does NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026 report AI cloud agreements, in its disclosure of purchase obligations and other commitments, above $36 billion?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (commitments and contingencies note), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the 10-Q gives no amount for AI cloud agreements, the test is inconclusive, and the Result says what was read and what was missing; the next reading is NVIDIA's annual report on Form 10-K for fiscal 2027, by March 31, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "either"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p16-t04",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "November 18",
+      "whenLabel": "Nov 18, 2026",
+      "date": "2026-11-18",
+      "precision": "day",
+      "event": "Nvidia reports: whether the direct customers listed at 10% or more of receivables hold more than 70% together, after five held 70% on July 26, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-13T01:05:59Z",
+      "callProbability": 55,
+      "callProbabilityAt": "2026-10-13T01:05:59Z",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "NVDA",
+        "rule": "Sum the percentages of the accounts receivable balance at October 25, 2026 that the 10-Q gives for each direct customer at 10% or more. The answer is yes if the sum is above 70%; no if it is 70% or below, or if the filing lists no such customer. Indirect customers and the shares of revenue are read alongside and do not decide the test.",
+        "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, do the direct customers the filing lists at 10% or more of accounts receivable together account for more than 70% of accounts receivable?",
+        "source": {
+          "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (concentration of credit risk), CIK 0001045810",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+        },
+        "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the filing gives the concentration only as a combined figure, that figure decides.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-13",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-13",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p16-t05",
+      "part": 16,
+      "slug": "the-seller-holds-the-paper",
+      "when": "When filed",
+      "whenLabel": "When filed",
+      "date": null,
+      "precision": "signal",
+      "event": "Anthropic's first public registration statement: its first audited revenue, and how much of it runs through investors that also sell it compute.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "open",
+      "callExpects": null,
+      "callExpectsBy": null,
+      "callExpectsAt": null,
+      "callProbability": null,
+      "callProbabilityAt": null,
+      "source": {
+        "kind": "label",
+        "ref": "When filed",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "",
+        "question": "",
+        "source": null,
+        "ambiguity": "",
+        "specState": "pending"
+      },
+      "url": "https://deepstack.ltd/docket/#test-p16-t05",
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "url": "https://deepstack.ltd/companies/apollo-global-management/"
+    },
+    {
+      "kind": "company",
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "url": "https://deepstack.ltd/companies/broadcom/"
+    },
+    {
+      "kind": "company",
+      "slug": "comcast",
+      "name": "Comcast",
+      "ticker": "CMCSA",
+      "url": "https://deepstack.ltd/companies/comcast/"
+    },
+    {
+      "kind": "company",
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "url": "https://deepstack.ltd/companies/coreweave/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "person",
+      "slug": "aswath-damodaran",
+      "name": "Aswath Damodaran",
+      "role": null,
+      "url": "https://deepstack.ltd/people/aswath-damodaran/"
+    },
+    {
+      "kind": "person",
+      "slug": "clark-tang",
+      "name": "Clark Tang",
+      "role": null,
+      "url": "https://deepstack.ltd/people/clark-tang/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-nishball",
+      "name": "Daniel Nishball",
+      "role": null,
+      "url": "https://deepstack.ltd/people/daniel-nishball/"
+    },
+    {
+      "kind": "person",
+      "slug": "daniel-romero",
+      "name": "Daniel Romero",
+      "role": "HyperTech Invest",
+      "url": "https://deepstack.ltd/people/daniel-romero/"
+    },
+    {
+      "kind": "person",
+      "slug": "distillate-capital-partners-llc",
+      "name": "Distillate Capital Partners LLC",
+      "role": null,
+      "url": "https://deepstack.ltd/people/distillate-capital-partners-llc/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-elson",
+      "name": "Ed Elson",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-elson/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-zitron",
+      "name": "Ed Zitron",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-zitron/"
+    },
+    {
+      "kind": "organization",
+      "slug": "edelbridge-alpha",
+      "name": "Edelbridge Alpha",
+      "role": null,
+      "url": "https://deepstack.ltd/people/edelbridge-alpha/"
+    },
+    {
+      "kind": "person",
+      "slug": "gaetano",
+      "name": "Gaetano",
+      "role": null,
+      "url": "https://deepstack.ltd/people/gaetano/"
+    },
+    {
+      "kind": "person",
+      "slug": "hugh-vuillier",
+      "name": "Hugh Vuillier",
+      "role": null,
+      "url": "https://deepstack.ltd/people/hugh-vuillier/"
+    },
+    {
+      "kind": "person",
+      "slug": "invest-in-assets",
+      "name": "Invest in Assets",
+      "role": "Invest in Quality",
+      "url": "https://deepstack.ltd/people/invest-in-assets/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "longriver",
+      "name": "Longriver",
+      "role": null,
+      "url": "https://deepstack.ltd/people/longriver/"
+    },
+    {
+      "kind": "person",
+      "slug": "market-sentiment",
+      "name": "Market Sentiment",
+      "role": null,
+      "url": "https://deepstack.ltd/people/market-sentiment/"
+    },
+    {
+      "kind": "person",
+      "slug": "mia-silverio",
+      "name": "Mia Silverio",
+      "role": "Prof G Markets",
+      "url": "https://deepstack.ltd/people/mia-silverio/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-spencer",
+      "name": "Michael Spencer",
+      "role": null,
+      "url": "https://deepstack.ltd/people/michael-spencer/"
+    },
+    {
+      "kind": "person",
+      "slug": "prof-g-markets",
+      "name": "Prof G Markets",
+      "role": null,
+      "url": "https://deepstack.ltd/people/prof-g-markets/"
+    },
+    {
+      "kind": "person",
+      "slug": "ren",
+      "name": "Ren",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ren/"
+    },
+    {
+      "kind": "person",
+      "slug": "semianalysis",
+      "name": "SemiAnalysis",
+      "role": null,
+      "url": "https://deepstack.ltd/people/semianalysis/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": "Steven Eisman",
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "tae-kim",
+      "name": "Tae Kim",
+      "role": null,
+      "url": "https://deepstack.ltd/people/tae-kim/"
+    },
+    {
+      "kind": "person",
+      "slug": "vp-research",
+      "name": "VP Research",
+      "role": "Variant Perception",
+      "url": "https://deepstack.ltd/people/vp-research/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "days-sales-outstanding",
+      "term": "days sales outstanding",
+      "short": "How many days of sales sit unpaid in receivables; longer terms raise it.",
+      "url": "https://deepstack.ltd/glossary/#days-sales-outstanding"
+    },
+    {
+      "id": "free-cash-flow",
+      "term": "free cash flow",
+      "short": "Operating cash flow minus capital spending: the cash left after the company has paid for its own buildout.",
+      "url": "https://deepstack.ltd/glossary/#free-cash-flow"
+    },
+    {
+      "id": "megawatt",
+      "term": "megawatt",
+      "short": "A unit of power: a megawatt serves a few hundred homes, a gigawatt a city; data centers are sized in both.",
+      "url": "https://deepstack.ltd/glossary/#megawatt"
+    },
+    {
+      "id": "hyperscaler",
+      "term": "hyperscaler",
+      "short": "One of the largest cloud and platform companies that build data centers at continental scale.",
+      "url": "https://deepstack.ltd/glossary/#hyperscaler"
+    },
+    {
+      "id": "private-credit",
+      "term": "private credit",
+      "short": "Loans made by funds rather than banks or public bond markets, usually to one borrower at a time.",
+      "url": "https://deepstack.ltd/glossary/#private-credit"
+    },
+    {
+      "id": "backlog",
+      "term": "backlog",
+      "short": "Orders a company has accepted but not yet delivered or recognized as revenue.",
+      "url": "https://deepstack.ltd/glossary/#backlog"
+    }
+  ]
+}

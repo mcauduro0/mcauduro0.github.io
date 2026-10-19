@@ -1,6 +1,6 @@
 # DeepStack: The Buildout, every story and its Call
 
-The money behind the machine. Generated 2026-10-19T10:33:31Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
+The money behind the machine. Generated 2026-10-19T15:15:13Z from https://deepstack.ltd. © 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors. Analysis and opinion, not investment advice.
 
 ## Part 01: Nvidia’s Demand Is Real. Its Financing Is Fragile.
 URL: https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/
@@ -294,5 +294,47 @@ Next test: Oct 28, 2026 (pending): Alphabet's September quarter: whether capital
 Key numbers: 96.1% Capital spending per dollar of operating cash, Microsoft, Alphabet, Amazon and Meta, second quarter of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025); 137.8% Amazon's purchases of property and equipment against its operating cash, first half of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025); $35.4B Microsoft's operating cash left after purchases of property and equipment, first half of 2026 (SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar); -$5.9B Alphabet's free cash flow, second quarter of 2026 (Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases)
 Who is on each side: https://deepstack.ltd/sides/the-cash-arrives-unevenly/
 JSON: https://deepstack.ltd/api/v1/stories/the-cash-arrives-unevenly.json
+
+## Part 15: Oil Is the Headline. The Real Yield Is the Bill.
+URL: https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/
+Published: 2026-10-19 · Markets · 10 min read
+Dek: From February 27 to October 8, 2026, the 10-year Treasury yield rose 125 basis points, 115 of them real yield, while breakeven inflation rose 10, by DeepStack's reading of FRED. Retail diesel set a record in the week of September 21, 71% above the week of February 23, by the EIA's survey. The oil shock reaches the AI trade through the Fed and the real yield.
+Summary: The barrel gave a Fed already facing hot core prices one more reason to hike, and the borrowing of the Treasury and the hyperscalers helped lift the real yield that long-dated earnings answer to. DeepStack reads the three sides, splits the 10-year on public data and names the tests, starting with the Fed's decision of October 28.
+The DeepStack Call (Split; conviction 3/5, Moderate): The trade pays the real yield
+Call: Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.
+What to do with this:
+1. Split every move in the 10-year into real yield and breakeven: from Feb 27 to Oct 8, 2026, 115 of its 125 basis points were real.
+2. Price long-dated earnings against a 10-year at 5.5%, where Howell's Aug 14 projection put the market multiple below 20 times.
+3. Count AI borrowing as a rates input: Eisman tied about $500 billion of AI debt issuance to the 10-year's climb on Oct 9.
+What would change the call:
+- The 10-year closes at 5.50% or higher with breakeven inflation under its May 4 high of 2.50%: the two shocks compound.
+- The 5-year, 5-year forward rate on FRED closes above 2.60%: the shock has reached inflation expectations.
+- The Fed holds on October 28 and the real yield closes under 2.50% by December 9: the boom is paying the rate.
+Next test: Dec 31, 2026 (pending): The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5. https://deepstack.ltd/docket/#test-p15-t01
+Key numbers: 5.31% 10-year Treasury yield at the close of October 5, 2026, its highest close since May 2002 (FRED (DGS10), read Oct 12, 2026; 5.22% on Oct 8; first close at 5% or more on Sep 15); +115 bp Rise in the 10-year real yield from February 27 to October 8, 2026, of the 10-year's 125 (FRED (DFII10, DGS10), read Oct 12, 2026; DeepStack calculation; 1.72% to 2.87%); +10 bp Rise in 10-year breakeven inflation over the same dates, February 27 to October 8, 2026 (FRED (T10YIE), read Oct 12, 2026; DeepStack calculation; 2.25% to 2.35%); $105 Brent spot price the EIA forecast for the fourth quarter of 2026, a barrel (EIA Short-Term Energy Outlook, Oct 6, 2026; $14 above the September outlook)
+Who is on each side: https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/
+JSON: https://deepstack.ltd/api/v1/stories/oil-is-the-headline-the-real-yield-is-the-bill.json
+
+## Part 16: The Seller Holds the Paper
+URL: https://deepstack.ltd/stories/the-seller-holds-the-paper/
+Published: 2026-10-19 · Markets · 14 min read
+Dek: Nvidia was owed 59.6 days of sales on July 26, 2026, against 45.4 in April, by DeepStack's arithmetic from its filings, and its guarantee table reached $108.5 billion from $3.5 billion, up to $105 billion of it signed in August for one Ohio campus and phased in from fiscal 2029. The buyers are real. Part of the money they pay with came from the seller.
+Summary: The demand for AI chips is real, and the sellers now carry part of the bill: longer receivables, guarantees, backstops and loans to their own buyers. DeepStack measures Nvidia's share, sets the critics of Anthropic beside its defenders, and names the November 18 filing that tests the view.
+The DeepStack Call (Skeptical; conviction 3/5, Moderate): The seller finances part of the demand
+Call: Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.
+What to do with this:
+1. Compute days outstanding yourself on November 18: receivables over the quarter's revenue, times 91. July 26, 2026 gave 59.6.
+2. Split Nvidia's $108.5 billion of guarantees by when they bind: $105 billion for SB Energy phases in from fiscal 2029; $3.5 billion is live.
+3. Read Broadcom's $29B backstop and the $42B note facility in its Aug 2 10-Q, which Reuters ties to Anthropic, before its Dec 9 report.
+What would change the call:
+- Nvidia's 10-Q for the quarter to Oct 25, 2026 puts days outstanding below 51.1, the average before July: the second quarter was a peak.
+- Free cash flow tops 71% of net income on Nov 18, its average in the four quarters before July: the cash came in and the terms were timing.
+- AMD or Broadcom reports a gigawatt-scale accelerator deal with no warrant, investment, loan or guarantee by Dec 9: demand pays its own way.
+Our Call takes the side “The seller funds its demand”.
+The strongest case against our call: Longriver (2026-07-20): Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at… https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683
+Next test: Nov 18, 2026 (pending): Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26. https://deepstack.ltd/docket/#test-p16-t01
+Key numbers: 59.6 days Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26 (NVIDIA Forms 10-Q filed May 20 and Aug 26, 2026; DeepStack calculation: receivables over the quarter's revenue, times 91); $15.1B Receivables above Nvidia's April collection pace, July 26, 2026: 15.7% of the quarter's revenue (NVIDIA Forms 10-Q, read Oct 12, 2026; DeepStack calculation; $9.1B, or 9.4%, against the four-quarter average); $108.5B Nvidia's maximum exposure on guarantees in its July 26, 2026 table, from $3.5B at April 26 (NVIDIA Form 10-Q filed Aug 26, 2026; up to $105B for SB Energy, phased in from fiscal 2029); 70% Share of Nvidia's receivables owed by five direct customers, July 26, 2026 (NVIDIA Forms 10-Q filed Aug 26 and May 20, 2026; three customers held 64% at April 26, 2026)
+Who is on each side: https://deepstack.ltd/sides/the-seller-holds-the-paper/
+JSON: https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json
 
 Analysis and opinion, not investment advice.

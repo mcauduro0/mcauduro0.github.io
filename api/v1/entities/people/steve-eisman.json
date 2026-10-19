@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "steve-eisman",
@@ -7,7 +7,7 @@
   "role": "Steven Eisman",
   "url": "https://deepstack.ltd/people/steve-eisman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-  "summary": "Steve Eisman is named in 10 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price).",
+  "summary": "Steve Eisman is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides).",
   "parts": [
     {
       "part": 4,
@@ -58,6 +58,16 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -315,6 +325,54 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
       "sidesUrl": "https://deepstack.ltd/sides/the-model-is-not-the-price/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "the-two-shocks-compound",
+      "sideLabel": "The two shocks compound",
+      "claim": "Only two things matter for the market day to day: oil and the Ten Year yield; when they rise, the market falls.",
+      "date": "2026-10-09",
+      "url": "https://realeismanplaybook.substack.com/p/the-weekly-wrap",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-seller-funds-its-demand",
+      "sideLabel": "The seller funds its demand",
+      "claim": "Steve raises the concern that Nvidia had an insane quarter yet seventy percent of its receivables come from five accounts, and that much of the food chain depends on the health of Anthropic and OpenAI.",
+      "date": "2026-09-28",
+      "url": "https://realeismanplaybook.substack.com/p/what-the-ai-boom-looks-like-from",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "two-labs-carry-the-chain",
+      "sideLabel": "Two labs carry the chain",
+      "claim": "The visible, Nvidia-funded circular financing in AI (Nvidia investing in or lending to companies that then buy Nvidia chips) is out in the open and funded from Nvidia's own cash flow, and is not what disturbs the speaker; what disturbs him is the…",
+      "date": "2026-09-25",
+      "url": "https://realeismanplaybook.substack.com/p/the-enron-era-tricks-are-back-in",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Anthropic and OpenAI together account for roughly 70% of hyperscaler AI revenue and 25-35% of total cloud revenue, with Microsoft, Amazon, and Google's growth substantially dependent on these two companies.",
+      "date": "2026-08-14",
+      "url": "https://realeismanplaybook.substack.com/p/the-ai-achilles-heel-why-everything",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
     }
   ],
   "coverage": {

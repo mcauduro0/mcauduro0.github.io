@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "deepvalue-capital",
@@ -7,7 +7,7 @@
   "role": "DeepValue Capital by Kyler",
   "url": "https://deepstack.ltd/people/deepvalue-capital/",
   "api": "https://deepstack.ltd/api/v1/entities/people/deepvalue-capital.json",
-  "summary": "DeepValue Capital is named in 3 Parts of The Buildout, most recently Part 7: The Fed Hiked. The Long End Still Climbed..",
+  "summary": "DeepValue Capital is named in 4 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (Oil stays out of the core).",
   "parts": [
     {
       "part": 5,
@@ -23,6 +23,11 @@
       "part": 7,
       "headline": "The Fed Hiked. The Long End Still Climbed.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -56,11 +61,42 @@
       "section": "What settles it",
       "excerpt": "A negative payrolls print beside an inverted curve would, in DeepValue Capital’s reading, put recession six to 24 months out.",
       "url": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    {
+      "part": 15,
+      "section": "Oil stays out of the core",
+      "excerpt": "DeepValue Capital wrote on October 1 that rate hikes fight demand-led inflation while today's is supply-led, so no amount of tightening reopens the Strait of Hormuz.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "Job growth is weak and housing is soft, and Jim Paulson makes a strong case that the Fed hiked based on rear-view mirror data; DeepValue Capital is not calling for a recession but is not ignoring the risk either.",
+      "date": "2026-10-01",
+      "url": "https://deepvaluecapitalbykyler.substack.com/p/september-2026-portfolio-update-264",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "question": null,
+      "side": "oil-stays-out-of-the-core",
+      "sideLabel": "Oil stays out of the core",
+      "claim": "DeepValue Capital argues rising mortgage rates are already pressuring housing, the largest component (40%) of core CPI, creating big downward pressure on core CPI, while job growth has been weak enough historically to always be associated with…",
+      "date": "2026-09-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+      "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    }
+  ],
   "coverage": {
-    "creators": 0,
+    "creators": 1,
     "claims": 1598,
     "texts": 140,
     "asOf": "2026-10-19"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "clark-tang",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/clark-tang/",
   "api": "https://deepstack.ltd/api/v1/entities/people/clark-tang.json",
-  "summary": "Clark Tang is named in 1 Part of The Buildout, most recently Part 6: Power Doesn’t Depreciate. Its Premium Moves..",
+  "summary": "Clark Tang is named in 2 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 16 (The loan is a bridge).",
   "parts": [
     {
       "part": 6,
       "headline": "Power Doesn’t Depreciate. Its Premium Moves.",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -22,9 +27,40 @@
       "section": "The rent will move",
       "excerpt": "Clark Tang of Altimeter says hyperscalers retain an advantage through investment-grade balance sheets: they can build ahead of demand and rent at spot rates, while lenders finance neocloud hardware only against contracted offtake.",
       "url": "https://deepstack.ltd/stories/power-doesnt-depreciate/"
+    },
+    {
+      "part": 16,
+      "section": "The loan is a bridge",
+      "excerpt": "Clark Tang wrote in Key Context on August 12 that the new third-party money, from Apollo to KKR, was underwritten independently and takes the place of Nvidia's balance sheet, his answer to the circularity charge.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "On circularity fears: recent third-party capital from Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR was independently underwritten apart from one another and replaces Nvidia's balance sheet rather than merely extending it, which…",
+      "date": "2026-08-12",
+      "url": "https://taekim.substack.com/p/nvidia-is-speedrunning-the-creation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 16,
+      "question": null,
+      "side": "the-loan-is-a-bridge",
+      "sideLabel": "The loan is a bridge",
+      "claim": "Hyperscalers retained one structural advantage over neoclouds: investment-grade balance sheets that let them fund speculative capacity ahead of demand and rent it out at higher spot rates, whereas neoclouds could only get financing for hardware…",
+      "date": "2026-08-12",
+      "url": "https://taekim.substack.com/p/nvidia-is-speedrunning-the-creation",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    }
+  ],
   "coverage": {
     "creators": 0,
     "claims": 11,

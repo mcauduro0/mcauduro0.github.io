@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
   "method": "How DeepStack settles a question",
   "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
-  "count": 14,
+  "count": 16,
   "questions": [
     {
       "slug": "is-the-marginal-buyer-of-ai-compute-real",
@@ -2457,6 +2457,354 @@
         },
         "url": "https://deepstack.ltd/docket/#test-p14-t01",
         "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/#watch",
+        "resultUrl": null
+      },
+      "relations": false
+    },
+    {
+      "slug": "can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time",
+      "question": "Can the AI trade survive a 10-year Treasury above 5% and an oil shock at the same time?",
+      "title": null,
+      "headline": "Can the AI trade survive a 10-year Treasury above 5% and an oil shock at the same time?",
+      "url": "https://deepstack.ltd/questions/can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time/",
+      "api": "https://deepstack.ltd/api/v1/questions/can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 15,
+          "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+          "question": "Can the AI trade survive a 10-year Treasury above 5% and an oil shock at the same time?",
+          "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
+          "api": "https://deepstack.ltd/api/v1/stories/oil-is-the-headline-the-real-yield-is-the-bill.json",
+          "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Split",
+            "stance": "The trade pays the real yield",
+            "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Split every move in the 10-year into real yield and breakeven: from Feb 27 to Oct 8, 2026, 115 of its 125 basis points were real.",
+              "Price long-dated earnings against a 10-year at 5.5%, where Howell's Aug 14 projection put the market multiple below 20 times.",
+              "Count AI borrowing as a rates input: Eisman tied about $500 billion of AI debt issuance to the 10-year's climb on Oct 9."
+            ],
+            "flips": [
+              "The 10-year closes at 5.50% or higher with breakeven inflation under its May 4 high of 2.50%: the two shocks compound.",
+              "The 5-year, 5-year forward rate on FRED closes above 2.60%: the shock has reached inflation expectations.",
+              "The Fed holds on October 28 and the real yield closes under 2.50% by December 9: the boom is paying the rate."
+            ],
+            "side": null,
+            "against": null,
+            "version": 2,
+            "updatedOn": "2026-10-19",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-19",
+                "stance": "The trade pays the real yield",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-19",
+                "stance": "The trade pays the real yield",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Oil reaches the AI trade through the Fed and the real yield while inflation expectations stay put. The multiple shrinks; the trade survives.",
+                "side": null,
+                "reason": "Side named by the owner.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "nextTest": {
+              "id": "p15-t01",
+              "part": 15,
+              "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+              "when": "December 31",
+              "whenLabel": "Dec 31, 2026",
+              "date": "2026-12-31",
+              "precision": "day",
+              "event": "The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5.",
+              "status": "pending",
+              "resultId": null,
+              "sameAs": null,
+              "stage": "pre",
+              "callExpects": "no",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-12T22:49:54Z",
+              "callProbability": 35,
+              "callProbabilityAt": "2026-10-12T22:49:54Z",
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "manual",
+                "rule": "Read every daily observation of DGS10 dated October 16, 2026 through December 31, 2026, as FRED shows them on January 5, 2027; the days read are the days for which FRED reports a value. The answer is yes if any of them is 5.50 or higher; no if every one is below 5.50. Intraday highs, other maturities and yields reported in the press are read alongside and do not decide the test.",
+                "question": "Does the 10-year Treasury constant-maturity yield (FRED series DGS10) close at 5.50% or higher on any day from October 16, 2026 through December 31, 2026 for which FRED reports a value?",
+                "source": {
+                  "label": "FRED, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10), Board of Governors of the Federal Reserve System",
+                  "url": "https://fred.stlouisfed.org/series/DGS10"
+                },
+                "ambiguity": "FRED posts each close about one business day later, so the observation for December 31, 2026 is due by January 4, 2027. A weekday FRED leaves blank because the U.S. bond market was closed is not missing and is not read: in this window, Veterans Day (November 11), Thanksgiving (November 26) and Christmas (December 25, 2026), by the holiday schedule of the Securities Industry and Financial Markets Association. Only a weekday on which the bond market was open and FRED still shows no value on January 8, 2027 is missing; if one is, and no observation already in is 5.50 or higher, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 15, 2027. A close FRED revises before the reading is read as revised; a later revision does not reopen the test.",
+                "specState": "approved",
+                "specVersion": 1,
+                "specUpdatedOn": "2026-10-12",
+                "specHistory": [
+                  {
+                    "version": 1,
+                    "date": "2026-10-12",
+                    "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  }
+                ],
+                "callExpects": "no"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p15-t01",
+              "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p15-t01",
+        "part": 15,
+        "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
+        "when": "December 31",
+        "whenLabel": "Dec 31, 2026",
+        "date": "2026-12-31",
+        "precision": "day",
+        "event": "The 10-year: whether FRED's daily series closes at 5.50% or higher on any business day from October 16 through December 31, 2026, after a 5.31% high on October 5.",
+        "status": "pending",
+        "resultId": null,
+        "sameAs": null,
+        "stage": "pre",
+        "callExpects": "no",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-12T22:49:54Z",
+        "callProbability": 35,
+        "callProbabilityAt": "2026-10-12T22:49:54Z",
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[0].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "manual",
+          "rule": "Read every daily observation of DGS10 dated October 16, 2026 through December 31, 2026, as FRED shows them on January 5, 2027; the days read are the days for which FRED reports a value. The answer is yes if any of them is 5.50 or higher; no if every one is below 5.50. Intraday highs, other maturities and yields reported in the press are read alongside and do not decide the test.",
+          "question": "Does the 10-year Treasury constant-maturity yield (FRED series DGS10) close at 5.50% or higher on any day from October 16, 2026 through December 31, 2026 for which FRED reports a value?",
+          "source": {
+            "label": "FRED, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10), Board of Governors of the Federal Reserve System",
+            "url": "https://fred.stlouisfed.org/series/DGS10"
+          },
+          "ambiguity": "FRED posts each close about one business day later, so the observation for December 31, 2026 is due by January 4, 2027. A weekday FRED leaves blank because the U.S. bond market was closed is not missing and is not read: in this window, Veterans Day (November 11), Thanksgiving (November 26) and Christmas (December 25, 2026), by the holiday schedule of the Securities Industry and Financial Markets Association. Only a weekday on which the bond market was open and FRED still shows no value on January 8, 2027 is missing; if one is, and no observation already in is 5.50 or higher, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 15, 2027. A close FRED revises before the reading is read as revised; a later revision does not reopen the test.",
+          "specState": "approved",
+          "specVersion": 1,
+          "specUpdatedOn": "2026-10-12",
+          "specHistory": [
+            {
+              "version": 1,
+              "date": "2026-10-12",
+              "reason": "First specification.",
+              "by": "Marco Cauduro"
+            }
+          ],
+          "callExpects": "no"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p15-t01",
+        "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/#watch",
+        "resultUrl": null
+      },
+      "relations": false
+    },
+    {
+      "slug": "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling",
+      "question": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+      "title": null,
+      "headline": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+      "url": "https://deepstack.ltd/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling/",
+      "api": "https://deepstack.ltd/api/v1/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 16,
+          "headline": "The Seller Holds the Paper",
+          "question": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
+          "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/",
+          "call": {
+            "tone": "bear",
+            "toneLabel": "Skeptical",
+            "stance": "The seller finances part of the demand",
+            "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Compute days outstanding yourself on November 18: receivables over the quarter's revenue, times 91. July 26, 2026 gave 59.6.",
+              "Split Nvidia's $108.5 billion of guarantees by when they bind: $105 billion for SB Energy phases in from fiscal 2029; $3.5 billion is live.",
+              "Read Broadcom's $29B backstop and the $42B note facility in its Aug 2 10-Q, which Reuters ties to Anthropic, before its Dec 9 report."
+            ],
+            "flips": [
+              "Nvidia's 10-Q for the quarter to Oct 25, 2026 puts days outstanding below 51.1, the average before July: the second quarter was a peak.",
+              "Free cash flow tops 71% of net income on Nov 18, its average in the four quarters before July: the cash came in and the terms were timing.",
+              "AMD or Broadcom reports a gigawatt-scale accelerator deal with no warrant, investment, loan or guarantee by Dec 9: demand pays its own way."
+            ],
+            "side": "The seller funds its demand",
+            "against": {
+              "name": "Longriver",
+              "entity": "https://deepstack.ltd/people/longriver/",
+              "claim": "Reported revenue acceleration at the two leading model companies — an annualised run-rate said to go from USD 1 billion at end-2024 to USD 9 billion at end-2025 to almost USD 50 billion in May this year at Anthropic, with a similar trajectory at…",
+              "date": "2026-07-20",
+              "url": "https://fiscal.ai/fund-letters/longriver-investment-partners-limited-q2-2026-fscl_document_8HDF9YVG683",
+              "access": "public",
+              "answers": "Distillate Capital Partners LLC",
+              "relation": "contradicts",
+              "dimension": "evidence"
+            },
+            "version": 2,
+            "updatedOn": "2026-10-19",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-19",
+                "stance": "The seller finances part of the demand",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-19",
+                "stance": "The seller finances part of the demand",
+                "tone": "bear",
+                "toneLabel": "Skeptical",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Nvidia's receivables ran 9% to 16% of sales above its own collection pace by July 26, 2026; five accounts owed 70% of them.",
+                "side": "The seller funds its demand",
+                "reason": "Side named by the owner.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "nextTest": {
+              "id": "p16-t01",
+              "part": 16,
+              "slug": "the-seller-holds-the-paper",
+              "when": "November 18",
+              "whenLabel": "Nov 18, 2026",
+              "date": "2026-11-18",
+              "precision": "day",
+              "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+              "status": "pending",
+              "resultId": null,
+              "sameAs": "p11-t02",
+              "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-13T01:05:34Z",
+              "callProbability": 75,
+              "callProbabilityAt": "2026-10-13T01:05:34Z",
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[0].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "NVDA",
+                "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+                "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+                "source": {
+                  "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+                },
+                "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+                "specState": "approved",
+                "specVersion": 1,
+                "specUpdatedOn": "2026-10-13",
+                "specHistory": [
+                  {
+                    "version": 1,
+                    "date": "2026-10-13",
+                    "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  }
+                ],
+                "callExpects": "yes"
+              },
+              "url": "https://deepstack.ltd/docket/#test-p16-t01",
+              "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p16-t01",
+        "part": 16,
+        "slug": "the-seller-holds-the-paper",
+        "when": "November 18",
+        "whenLabel": "Nov 18, 2026",
+        "date": "2026-11-18",
+        "precision": "day",
+        "event": "Nvidia reports its quarter to October 25, 2026: whether days sales outstanding, receivables over revenue times 91, hold at or above 51.1, the average before July, after 59.6 in the quarter to July 26.",
+        "status": "pending",
+        "resultId": null,
+        "sameAs": "p11-t02",
+        "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-13T01:05:34Z",
+        "callProbability": 75,
+        "callProbabilityAt": "2026-10-13T01:05:34Z",
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[0].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "NVDA",
+          "rule": "DeepStack computes days sales outstanding from two figures the 10-Q prints: accounts receivable, net on the condensed consolidated balance sheet at October 25, 2026, and revenue on the condensed consolidated statement of income for the three months then ended, times the 91 days of the quarter, rounded to one decimal. The answer is yes if the figure is 51.1 days or more; no if it is below 51.1. The line is the average of the four quarters before the quarter ended July 26, 2026, computed the same way: 54.1 (July 27, 2025), 53.3 (October 26, 2025), 51.4 (January 25, 2026) and 45.4 (April 26, 2026); the quarter ended July 26, 2026 gave 59.6. The payment terms the filing describes are read alongside and do not decide the test.",
+          "question": "In NVIDIA's Form 10-Q for its fiscal quarter ended October 25, 2026, is accounts receivable, net at quarter end, divided by the quarter's revenue and multiplied by 91, at or above 51.1 days?",
+          "source": {
+            "label": "SEC EDGAR, NVIDIA Form 10-Q for the quarter ended October 25, 2026 (balance sheet and statement of income), CIK 0001045810",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q"
+          },
+          "ambiguity": "If the 10-Q is not public on EDGAR by December 15, 2026, the test is inconclusive, and the Result says what was read and what was missing; the next reading is December 31, 2026. If the period the 10-Q covers is not 91 days, the rule uses the number of days its period dates give. Figures are read as first filed; a later amendment does not reopen the test.",
+          "specState": "approved",
+          "specVersion": 1,
+          "specUpdatedOn": "2026-10-13",
+          "specHistory": [
+            {
+              "version": 1,
+              "date": "2026-10-13",
+              "reason": "First specification.",
+              "by": "Marco Cauduro"
+            }
+          ],
+          "callExpects": "yes"
+        },
+        "url": "https://deepstack.ltd/docket/#test-p16-t01",
+        "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
         "resultUrl": null
       },
       "relations": false

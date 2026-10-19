@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "tscs",
@@ -7,7 +7,7 @@
   "role": "tscsw",
   "url": "https://deepstack.ltd/people/tscs/",
   "api": "https://deepstack.ltd/api/v1/entities/people/tscs.json",
-  "summary": "TSCS is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
+  "summary": "TSCS is named in 4 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 7 (A missing buyer), Part 7 (Debt: 99% of GDP, up from 35%), Part 7 (Voices that cross sides), Part 13 (The bill no state can shield), Part 13 (The plant is late), Part 13 (Voices that cross sides).",
   "parts": [
     {
       "part": 7,
@@ -23,6 +23,11 @@
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 15,
+      "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "numbers": [],
@@ -74,6 +79,24 @@
       "section": "The plant is late",
       "excerpt": "The strongest form of this side cuts against the house. tscsw's February 26 post held that if 15 to 20 gigawatts of data center load moves behind the meter by 2030, the grid's deficit and the scarcity premium paid to generators in PJM and ERCOT would shrink.",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 15,
+      "section": "The two shocks compound",
+      "excerpt": "TSCS wrote on September 16 that both keep rising until stocks fall, because the S&P 500 is the only release valve the Treasury's buybacks leave open.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "section": "The bill comes as a real yield",
+      "excerpt": "TSCS measured the split on September 21: from the February 27 low the 10-year had risen 104 basis points, 96 of them real yield and 8 breakeven inflation.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 15,
+      "section": "The bill comes as a real yield",
+      "excerpt": "DeepStack judged TSCS's split a qualification of Romero's link: the oil-to-yield channel runs through the real yield, not through inflation expectations.",
+      "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
     }
   ],
   "sides": [

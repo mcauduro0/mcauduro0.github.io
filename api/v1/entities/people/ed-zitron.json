@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:33:31Z",
+  "generatedAt": "2026-10-19T15:15:13Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ed-zitron",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ed-zitron/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ed-zitron.json",
-  "summary": "Ed Zitron is named in 4 Parts of The Buildout, most recently Part 11: The Backlog Is Not the Quarter. Argued in Part 8 (A closed loop).",
+  "summary": "Ed Zitron is named in 5 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 8 (A closed loop).",
   "parts": [
     {
       "part": 6,
@@ -28,6 +28,11 @@
       "part": 11,
       "headline": "The Backlog Is Not the Quarter",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 16,
+      "headline": "The Seller Holds the Paper",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "numbers": [],
@@ -55,6 +60,12 @@
       "section": "The margin the book does not show",
       "excerpt": "Eisman, in a September 9 episode with Ed Zitron, notes that Nvidia stretched payment terms for investment-grade customers to a full year from 90 days, adding 14 days to days sales outstanding, and on September 14 adds that five customers made up 70% of Nvidia's accounts receivable, some of them, OpenAI among them, not in especially healthy condition.",
       "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "part": 16,
+      "section": "The financed share",
+      "excerpt": "Ed Zitron, Steve Eisman's guest on The Real Eisman Playbook on September 9, said Nvidia had extended payment terms for investment-grade customers from 90 days to a full year and tied that to 14 more days outstanding.",
+      "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
     }
   ],
   "sides": [
