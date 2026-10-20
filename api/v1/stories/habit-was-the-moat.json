@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 9,
   "slug": "habit-was-the-moat",
@@ -91,6 +91,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 55,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -468,6 +469,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 55,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -522,8 +524,17 @@
       "callExpects": "no",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-10T17:40:22Z",
-      "callProbability": 65,
-      "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbability": 40,
+      "callProbabilityAt": "2026-10-20T03:42:08Z",
+      "callProbabilityHistory": [
+        {
+          "value": 65,
+          "at": "2026-10-11T19:37:45Z",
+          "replacedAt": "2026-10-20T03:42:08Z",
+          "reason": "The number is the Call's, not the base rate: room nights have grown every quarter since 2021, and the Call reads agents pulling bookings away from the direct channel, so it gives both conditions holding at once 40%.",
+          "by": "Marco Cauduro"
+        }
+      ],
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -580,6 +591,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 60,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -635,6 +647,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "January-April",
@@ -670,6 +683,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Amazon standoff",

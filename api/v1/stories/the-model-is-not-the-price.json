@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -92,6 +92,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 20,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -462,6 +463,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 20,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -518,6 +520,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 15,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -574,6 +577,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -629,6 +633,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 15,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[3].date",
@@ -685,6 +690,7 @@
       "callExpectsAt": "2026-10-12T18:16:56Z",
       "callProbability": 60,
       "callProbabilityAt": "2026-10-12T18:16:56Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "When it files",
@@ -734,6 +740,7 @@
       "callExpectsAt": "2026-10-12T18:16:57Z",
       "callProbability": 70,
       "callProbabilityAt": "2026-10-12T18:16:57Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "When it files",

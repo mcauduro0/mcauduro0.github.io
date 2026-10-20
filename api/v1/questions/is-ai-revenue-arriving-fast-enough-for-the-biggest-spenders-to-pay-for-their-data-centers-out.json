@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
   "question": "Is AI revenue arriving fast enough for the biggest spenders to pay for their data centers out of their own cash?",
@@ -82,6 +82,7 @@
           "callExpectsAt": "2026-10-12T22:25:10Z",
           "callProbability": 70,
           "callProbabilityAt": "2026-10-12T22:25:10Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -755,6 +756,7 @@
           "callExpectsAt": "2026-10-12T22:25:10Z",
           "callProbability": 70,
           "callProbabilityAt": "2026-10-12T22:25:10Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -805,6 +807,7 @@
           "callExpectsAt": "2026-10-12T22:25:16Z",
           "callProbability": 40,
           "callProbabilityAt": "2026-10-12T22:25:16Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -854,6 +857,7 @@
           "callExpectsAt": "2026-10-12T22:25:19Z",
           "callProbability": 55,
           "callProbabilityAt": "2026-10-12T22:25:19Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -903,6 +907,7 @@
           "callExpectsAt": "2026-10-12T22:25:22Z",
           "callProbability": 30,
           "callProbabilityAt": "2026-10-12T22:25:22Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[3].date",
@@ -1058,6 +1063,7 @@
     "callExpectsAt": "2026-10-12T22:25:10Z",
     "callProbability": 70,
     "callProbabilityAt": "2026-10-12T22:25:10Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -91,6 +91,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "October",
@@ -445,6 +446,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 75,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -501,6 +503,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "October",
@@ -556,6 +559,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "At 5.5% 10-year",
@@ -594,6 +598,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Next used-GPU print",
@@ -629,6 +634,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Productivity data",
@@ -664,6 +670,7 @@
       "callExpectsAt": "2026-10-12T18:16:54Z",
       "callProbability": 88,
       "callProbabilityAt": "2026-10-12T18:16:54Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[5].date",

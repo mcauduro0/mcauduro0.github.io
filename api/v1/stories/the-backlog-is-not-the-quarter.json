@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 11,
   "slug": "the-backlog-is-not-the-quarter",
@@ -80,8 +80,17 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-12T18:56:43Z",
-      "callProbability": 45,
-      "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbability": 65,
+      "callProbabilityAt": "2026-10-20T03:42:08Z",
+      "callProbabilityHistory": [
+        {
+          "value": 45,
+          "at": "2026-10-11T19:37:45Z",
+          "replacedAt": "2026-10-20T03:42:08Z",
+          "reason": "The near share fell to 30% from 40% in a year while the far book grew three times as fast as the near one; holding at or below 30% one quarter later is the likelier outcome. The 11/10 number misread the 37% growth rate as the share.",
+          "by": "Marco Cauduro"
+        }
+      ],
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -363,7 +372,7 @@
       "stage": "pre",
       "stageLabel": "Pre-specified",
       "status": "pending",
-      "callNumber": 45
+      "callNumber": 65
     }
   },
   "body": [
@@ -431,8 +440,17 @@
       "callExpects": "yes",
       "callExpectsBy": "Marco Cauduro",
       "callExpectsAt": "2026-10-12T18:56:43Z",
-      "callProbability": 45,
-      "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbability": 65,
+      "callProbabilityAt": "2026-10-20T03:42:08Z",
+      "callProbabilityHistory": [
+        {
+          "value": 45,
+          "at": "2026-10-11T19:37:45Z",
+          "replacedAt": "2026-10-20T03:42:08Z",
+          "reason": "The near share fell to 30% from 40% in a year while the far book grew three times as fast as the near one; holding at or below 30% one quarter later is the likelier outcome. The 11/10 number misread the 37% growth rate as the share.",
+          "by": "Marco Cauduro"
+        }
+      ],
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -489,6 +507,7 @@
       "callExpectsAt": "2026-10-13T01:05:20Z",
       "callProbability": 75,
       "callProbabilityAt": "2026-10-13T01:05:20Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[1].date",
@@ -539,6 +558,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "story",
         "ref": "watchlist[2].date",
@@ -575,6 +595,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "December",
@@ -610,6 +631,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "The optics ramp",

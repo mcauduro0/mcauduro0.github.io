@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -91,6 +91,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -400,6 +401,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Dec 10",
@@ -435,6 +437,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Year-end",
@@ -470,6 +473,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "Next quarterly count",
@@ -505,6 +509,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "First cancellation",
@@ -540,6 +545,7 @@
       "callExpectsAt": null,
       "callProbability": null,
       "callProbabilityAt": null,
+      "callProbabilityHistory": [],
       "source": {
         "kind": "label",
         "ref": "2029–30 order books",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "why-did-the-long-end-climb-after-the-hike-growth-debt-or-a-missing-buyer",
   "question": "Why did the long end climb after the hike: growth, debt, or a missing buyer?",
@@ -91,6 +91,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 35,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -571,6 +572,7 @@
           "callExpectsAt": "2026-10-11T19:37:44Z",
           "callProbability": 40,
           "callProbabilityAt": "2026-10-11T19:37:44Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -629,6 +631,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 35,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -686,6 +689,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "10-year at 5.5%",
@@ -724,6 +728,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "2028 refinancing wave",
@@ -797,6 +802,7 @@
     "callExpectsAt": "2026-10-10T17:40:22Z",
     "callProbability": 35,
     "callProbabilityAt": "2026-10-11T19:37:45Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "label",
       "ref": "Mid-October",

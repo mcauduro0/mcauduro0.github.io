@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-writes-the-checks-for-the-buildout",
   "question": "Who writes the checks for the buildout?",
@@ -91,6 +91,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 80,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -449,6 +450,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 80,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -504,6 +506,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 55,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -559,6 +562,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -594,6 +598,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "First Blackwell renewal",
@@ -629,6 +634,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Fluidstack terms",
@@ -702,6 +708,7 @@
     "callExpectsAt": "2026-10-10T17:40:22Z",
     "callProbability": 80,
     "callProbabilityAt": "2026-10-11T19:37:45Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "label",
       "ref": "Late October",

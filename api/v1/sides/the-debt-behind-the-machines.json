@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 3,
   "slug": "the-debt-behind-the-machines",
@@ -86,6 +86,7 @@
       "callExpectsAt": "2026-10-10T17:40:22Z",
       "callProbability": 60,
       "callProbabilityAt": "2026-10-11T19:37:45Z",
+      "callProbabilityHistory": [],
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",

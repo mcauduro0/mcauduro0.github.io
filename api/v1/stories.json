@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "url": "https://deepstack.ltd/api/v1/stories.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "series": "The Buildout",
@@ -87,6 +87,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "When the bottleneck clears",
@@ -344,6 +345,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "2027 buildout",
@@ -593,6 +595,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 60,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -863,6 +866,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 45,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "2027 budget",
@@ -1147,6 +1151,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "2028",
@@ -1412,6 +1417,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Dec 10",
@@ -1693,6 +1699,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 35,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Mid-October",
@@ -1984,6 +1991,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 80,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -2273,6 +2281,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 55,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -2589,6 +2598,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "October",
@@ -2881,8 +2891,17 @@
           "callExpects": "yes",
           "callExpectsBy": "Marco Cauduro",
           "callExpectsAt": "2026-10-12T18:56:43Z",
-          "callProbability": 45,
-          "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbability": 65,
+          "callProbabilityAt": "2026-10-20T03:42:08Z",
+          "callProbabilityHistory": [
+            {
+              "value": 45,
+              "at": "2026-10-11T19:37:45Z",
+              "replacedAt": "2026-10-20T03:42:08Z",
+              "reason": "The near share fell to 30% from 40% in a year while the far book grew three times as fast as the near one; holding at or below 30% one quarter later is the likelier outcome. The 11/10 number misread the 37% growth rate as the share.",
+              "by": "Marco Cauduro"
+            }
+          ],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -3189,6 +3208,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 20,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -3518,6 +3538,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 82,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -3814,6 +3835,7 @@
           "callExpectsAt": "2026-10-12T22:25:10Z",
           "callProbability": 70,
           "callProbabilityAt": "2026-10-12T22:25:10Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -4154,6 +4176,7 @@
           "callExpectsAt": "2026-10-12T22:49:54Z",
           "callProbability": 35,
           "callProbabilityAt": "2026-10-12T22:49:54Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -4507,6 +4530,7 @@
           "callExpectsAt": "2026-10-13T01:05:34Z",
           "callProbability": 75,
           "callProbabilityAt": "2026-10-13T01:05:34Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",

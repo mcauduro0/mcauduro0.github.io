@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling",
   "question": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
@@ -92,6 +92,7 @@
           "callExpectsAt": "2026-10-13T01:05:34Z",
           "callProbability": 75,
           "callProbabilityAt": "2026-10-13T01:05:34Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -600,6 +601,7 @@
           "callExpectsAt": "2026-10-13T01:05:34Z",
           "callProbability": 75,
           "callProbabilityAt": "2026-10-13T01:05:34Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[0].date",
@@ -650,6 +652,7 @@
           "callExpectsAt": "2026-10-13T01:05:42Z",
           "callProbability": 40,
           "callProbabilityAt": "2026-10-13T01:05:42Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -700,6 +703,7 @@
           "callExpectsAt": "2026-10-13T01:05:50Z",
           "callProbability": 40,
           "callProbabilityAt": "2026-10-13T01:05:50Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[2].date",
@@ -750,6 +754,7 @@
           "callExpectsAt": "2026-10-13T01:05:59Z",
           "callProbability": 55,
           "callProbabilityAt": "2026-10-13T01:05:59Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[3].date",
@@ -800,6 +805,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "When filed",
@@ -941,6 +947,7 @@
     "callExpectsAt": "2026-10-13T01:05:34Z",
     "callProbability": 75,
     "callProbabilityAt": "2026-10-13T01:05:34Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "story",
       "ref": "watchlist[0].date",

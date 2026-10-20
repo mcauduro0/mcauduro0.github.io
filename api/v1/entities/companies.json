@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
@@ -8,7 +8,7 @@
   "market": {
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
-    "asOf": "2026-10-20T02:00:05.182Z",
+    "asOf": "2026-10-20T10:31:31.630Z",
     "note": "Delayed quotes; shown on company pages only, never as evidence for a result."
   },
   "companies": [
@@ -74,7 +74,7 @@
         "change": -0.54,
         "changePercent": -0.4949,
         "marketCap": 270094468027,
-        "pe": 23.1415,
+        "pe": 23.059,
         "nextEarnings": "2026-11-24",
         "exchange": "NYSE",
         "currency": "USD",
@@ -6948,7 +6948,7 @@
         "change": 7.61,
         "changePercent": 1.8444,
         "marketCap": 2179462625600,
-        "pe": 24.5268,
+        "pe": 24.4759,
         "nextEarnings": "2027-01-21",
         "exchange": "NYSE",
         "currency": "USD",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "who-pays-for-the-ai-power-bill",
   "question": "Who pays for the AI power bill?",
@@ -92,6 +92,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 82,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -643,6 +644,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 82,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late October",
@@ -698,6 +700,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 20,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "story",
             "ref": "watchlist[1].date",
@@ -753,6 +756,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 70,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Late February 2027",
@@ -866,6 +870,7 @@
     "callExpectsAt": "2026-10-10T17:40:22Z",
     "callProbability": 82,
     "callProbabilityAt": "2026-10-11T19:37:45Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "label",
       "ref": "Late October",

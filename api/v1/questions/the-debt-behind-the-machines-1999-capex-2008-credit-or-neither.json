@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:39:38Z",
+  "generatedAt": "2026-10-20T10:33:41Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "slug": "the-debt-behind-the-machines-1999-capex-2008-credit-or-neither",
   "question": "The debt behind the machines: 1999 capex, 2008 credit, or neither?",
@@ -91,6 +91,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 60,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -302,6 +303,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": 60,
           "callProbabilityAt": "2026-10-11T19:37:45Z",
+          "callProbabilityHistory": [],
           "source": {
             "kind": "fmp-earnings",
             "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -358,6 +360,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "Next H100 batches",
@@ -393,6 +396,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "2027",
@@ -428,6 +432,7 @@
           "callExpectsAt": "2026-10-10T17:40:22Z",
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "After Labor Day",
@@ -493,6 +498,7 @@
           "callExpectsAt": null,
           "callProbability": null,
           "callProbabilityAt": null,
+          "callProbabilityHistory": [],
           "source": {
             "kind": "label",
             "ref": "When the streak ends",
@@ -637,6 +643,7 @@
     "callExpectsAt": "2026-10-10T17:40:22Z",
     "callProbability": 60,
     "callProbabilityAt": "2026-10-11T19:37:45Z",
+    "callProbabilityHistory": [],
     "source": {
       "kind": "fmp-earnings",
       "ref": "Company earnings calendar, date via Financial Modeling Prep",
