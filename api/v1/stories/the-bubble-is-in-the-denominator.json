@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:33:09Z",
+  "generatedAt": "2026-10-20T03:39:38Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 10,
   "slug": "the-bubble-is-in-the-denominator",
@@ -432,10 +432,10 @@
       "part": 10,
       "slug": "the-bubble-is-in-the-denominator",
       "when": "Late October",
-      "whenLabel": "Oct 21, 2026",
-      "date": "2026-10-21",
+      "whenLabel": "Oct 28, 2026",
+      "date": "2026-10-28",
       "precision": "day",
-      "event": "Meta reports October 21, Microsoft and Alphabet October 28 and Amazon October 29; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "event": "Microsoft and Alphabet report October 28, after Meta on October 21, and Amazon follows on October 29; depreciation, server lives and 29.5% growth will test the earnings denominator.",
       "status": "pending",
       "resultId": null,
       "sameAs": null,
@@ -452,7 +452,7 @@
       },
       "resolver": {
         "kind": "earnings",
-        "symbol": "META",
+        "symbol": "MSFT",
         "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q. The answer is yes if the year-over-year growth rate of depreciation is above the rate of operating income; no if it is equal or below. A change to server useful lives disclosed in the same filings is DeepStack's reading into the Result, not the answer.",
         "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
         "source": {
