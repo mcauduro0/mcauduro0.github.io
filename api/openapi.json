@@ -4,7 +4,7 @@
     "title": "DeepStack API",
     "version": "1",
     "summary": "The money behind the machine, as static JSON.",
-    "description": "Static files written by the DeepStack site build (generated 2026-10-20T21:32:19Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
+    "description": "Static files written by the DeepStack site build (generated 2026-10-20T21:36:04Z). No key and no rate limit; every object carries its canonical url, generatedAt and the line \"Analysis and opinion, not investment advice.\". GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files. The same content is available to agents over the Model Context Protocol at https://mcp.deepstack.ltd/mcp, documented at https://deepstack.ltd/mcp/.",
     "termsOfService": "https://deepstack.ltd/terms/",
     "license": {
       "name": "DeepStack content: quote with attribution and a link to the canonical URL",
@@ -820,7 +820,8 @@
               "pending",
               "confirmed",
               "refuted",
-              "inconclusive"
+              "inconclusive",
+              "not_reached"
             ]
           },
           "resultId": {
@@ -944,6 +945,37 @@
               "null"
             ],
             "format": "uri"
+          },
+          "machines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "model",
+                "p",
+                "at"
+              ],
+              "properties": {
+                "model": {
+                  "type": "string"
+                },
+                "p": {
+                  "type": "integer"
+                },
+                "at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            },
+            "description": "The machines’ standing numbers (content/machines.json): one per model, the latest given before the test closed; the reason and the record stay in the file."
+          },
+          "readers": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "The readers’ number from the forecast Worker: n and the median of each signed-in reader’s latest number; the pages print the median from 25 readers."
           }
         }
       },
@@ -1733,6 +1765,30 @@
             ],
             "format": "uri",
             "description": "The one-page resolution package (PDF): question, rule, official source, ambiguity clause, evidence, verdict, approver and date; null while no file exists."
+          },
+          "machines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "model",
+                "p",
+                "at"
+              ],
+              "properties": {
+                "model": {
+                  "type": "string"
+                },
+                "p": {
+                  "type": "integer"
+                },
+                "at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            },
+            "description": "The machines’ standing numbers (content/machines.json): one per model, the latest given before the test closed; the reason and the record stay in the file."
           }
         }
       },
@@ -2095,7 +2151,8 @@
                   "headline",
                   "body",
                   "evidence",
-                  "positions",
+                  "readers",
+                  "machines",
                   "resolutionPackage"
                 ],
                 "properties": {
@@ -2111,11 +2168,16 @@
                   "evidence": {
                     "type": "array"
                   },
-                  "positions": {
+                  "readers": {
                     "type": [
                       "object",
                       "null"
-                    ]
+                    ],
+                    "description": "The readers’ number on the test from the forecast Worker: n, the median, whether the page prints it (from 25 readers) and the day of the export."
+                  },
+                  "machines": {
+                    "type": "array",
+                    "description": "What each model said before the close: model, display name, p, why, at."
                   },
                   "resolutionPackage": {
                     "type": [
@@ -3707,7 +3769,8 @@
               "pending",
               "confirmed",
               "refuted",
-              "inconclusive"
+              "inconclusive",
+              "not_reached"
             ]
           },
           "stage": {

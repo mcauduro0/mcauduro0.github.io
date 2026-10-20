@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:32:19Z",
+  "generatedAt": "2026-10-20T21:36:04Z",
   "url": "https://deepstack.ltd/results/p03-t04/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "id": "p03-t04",
@@ -89,6 +89,7 @@
   "api": "https://deepstack.ltd/api/v1/results/p03-t04.json",
   "storyUrl": "https://deepstack.ltd/stories/the-debt-behind-the-machines/#result-p03-t04",
   "resolutionPackage": "https://deepstack.ltd/assets/resolution/p03-t04.pdf",
+  "machines": [],
   "page": {
     "said": {
       "asOf": "2026-09-08",
@@ -166,7 +167,8 @@
       ],
       "missing": null,
       "next": null,
-      "positions": null,
+      "readers": null,
+      "machines": [],
       "resolutionPackage": "https://deepstack.ltd/assets/resolution/p03-t04.pdf"
     },
     "changes": {

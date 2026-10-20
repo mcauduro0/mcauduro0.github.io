@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-20T21:32:19Z",
+  "generatedAt": "2026-10-20T21:36:04Z",
   "url": "https://deepstack.ltd/api/v1/search.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/search.json",
-  "count": 320,
+  "count": 323,
   "kinds": {
     "story": 16,
     "question": 16,
@@ -11,7 +11,7 @@
     "company": 48,
     "person": 106,
     "test": 74,
-    "term": 37,
+    "term": 40,
     "layer": 7
   },
   "docs": [
@@ -608,9 +608,20 @@
     },
     {
       "kind": "term",
+      "id": "the-readers-median",
+      "title": "the readers’ median",
+      "text": "readers’ median readers median The middle of the latest numbers signed-in readers gave a test, printed from 25 readers with the count beside it. Every signed-in reader can give a pending test a number from 1 to 99, the chance of the yes answer. The readers’ median is the middle of each reader’s latest number on the test: half gave more, half gave less. It prints on the Docket, under “What to watch” and on the Result from 25 readers, always with the count, and it is scored as one forecaster on the Scorecard beside the Call.",
+      "url": "https://deepstack.ltd/glossary/#the-readers-median",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
       "id": "the-call-s-number",
       "title": "the Call’s number",
-      "text": "Call’s number callProbability The chance, from 0 to 100, that the Call gives the yes answer to a test’s question, recorded before the test’s date. Every pre-specified test on the Docket can carry the Call’s number: the chance the house gives the yes answer to the test’s question, written into the record with the words of the test and before its date, so it cannot be set in hindsight. It prints on the Docket, in the Part’s list of tests, on the home strip and on the Result, on one line from 0 (no) to 100 (yes), with the readers’ share beside it once 25 have clicked. It is DeepStack’s reading, not a market price and not advice; from the tenth result it feeds the Brier score.",
+      "text": "Call’s number callProbability The chance, from 0 to 100, that the Call gives the yes answer to a test’s question, recorded before the test’s date. Every pre-specified test on the Docket can carry the Call’s number: the chance the house gives the yes answer to the test’s question, written into the record with the words of the test and before its date, so it cannot be set in hindsight. It prints on the Docket, in the Part’s list of tests, on the home strip and on the Result, on one line from 0 (no) to 100 (yes), with the readers’ median beside it once 25 readers have given a number. It is DeepStack’s reading, not a market price and not advice; from the tenth result it feeds the Brier score.",
       "url": "https://deepstack.ltd/glossary/#the-call-s-number",
       "date": null,
       "meta": {
@@ -807,8 +818,30 @@
       "kind": "term",
       "id": "brier-score",
       "title": "Brier score",
-      "text": "Brier The mean of the squared gap between the chance the Call gave the yes answer and what happened; 0 is perfect and 0.25 is what a coin flip earns. DeepStack prints the Brier score on the Scorecard from the tenth result whose test carried a number recorded before the date. For each such result the gap is the Call’s number as a fraction minus one when the answer was yes, or minus zero when it was no, squared; the score is the mean of the gaps. A Call that said 85% and was right adds 0.02; one that said 15% and was wrong adds 0.72. Lower is better, 0.25 is what a coin flip earns, and the score punishes confidence the source did not reward.",
+      "text": "Brier The mean of the squared gap between the chance the Call gave the yes answer and what happened; 0 is perfect and 0.25 is what a coin flip earns. DeepStack prints the Brier score on the Scorecard from the tenth result whose test carried a number recorded before the date. For each such result the gap is the Call’s number as a fraction minus one when the answer was yes, or minus zero when it was no, squared; the score is the mean of the gaps. A Call that said 85% and was right adds 0.02; one that said 15% and was wrong adds 0.72. Lower is better, 0.25 is what a coin flip earns, and the score punishes confidence the source did not reward. Since 20 October 2026 a reader who signs in and gives a number is scored by the same rule on the same tests.",
       "url": "https://deepstack.ltd/glossary/#brier-score",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
+      "id": "your-number",
+      "title": "Your number",
+      "text": "The chance from 1 to 99 a signed-in reader gives the yes answer to a pending test, saved beside the Call’s number. Your number is the control under a pending test on the Docket and under “What to watch”: a slider from 1 to 99 and a Save button, open to a reader who signed in by email. It can change as often as the reader likes until 00:00 UTC on the test’s date; the last number before then is the one the Brier score reads when the test resolves.",
+      "url": "https://deepstack.ltd/glossary/#your-number",
+      "date": null,
+      "meta": {
+        "parts": []
+      }
+    },
+    {
+      "kind": "term",
+      "id": "calibration",
+      "title": "calibration",
+      "text": "Whether a forecaster’s numbers come true as often as they say: of the 70s, about seven in ten. Calibration sorts a forecaster’s resolved numbers into ten bands of ten points and asks, for each band, how often the answer was yes. A calibrated forecaster’s 70s come true about seven times in ten and their 20s about two in ten, so the bars climb along the diagonal. A reader’s page and the readers’ table draw it; it rewards honest numbers, not bold ones.",
+      "url": "https://deepstack.ltd/glossary/#calibration",
       "date": null,
       "meta": {
         "parts": []

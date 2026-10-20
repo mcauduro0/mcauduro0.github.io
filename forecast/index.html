@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecast: your number beside the Call’s | DeepStack</title>
+<meta name="description" content="Sign in by email and put your own number, from 1 to 99, beside the Call’s on any pending Docket test; both are scored with the Brier score when the test resolves.">
+<meta name="theme-color" content="#F4EFE6">
+<link rel="canonical" href="https://deepstack.ltd/forecast/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DeepStack: Independent analysis of the AI economy">
+<meta property="og:url" content="https://deepstack.ltd/forecast/">
+<meta property="og:title" content="Forecast: your number beside the Call’s | DeepStack">
+<meta property="og:description" content="Sign in by email and put your own number, from 1 to 99, beside the Call’s on any pending Docket test; both are scored with the Brier score when the test resolves.">
+<meta property="og:image" content="https://deepstack.ltd/assets/og-default.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Forecast: your number beside the Call’s | DeepStack">
+<meta name="twitter:description" content="Sign in by email and put your own number, from 1 to 99, beside the Call’s on any pending Docket test; both are scored with the Brier score when the test resolves.">
+<meta name="twitter:image" content="https://deepstack.ltd/assets/og-default.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="DeepStack" href="/feed.xml">
+<link rel="alternate" type="text/calendar" title="The DeepStack Docket" href="/docket.ics">
+<link rel="preload" href="/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script src="/app.js" defer></script>
+<script src="/subscribe.js" defer></script>
+<script src="/forecast.js" defer></script>
+<meta name="deepstack-events" content="https://mcp.deepstack.ltd/event">
+<script src="/events.js" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"3fbcb0373d194f38bfc42e5db1d680fe"}'></script>
+
+</head>
+<body class="page-fixed page-forecast">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/" aria-label="DeepStack home"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path d="M19 21H81M50 21V85M19 21 50 43M81 21 50 43M22 43H78M22 43 50 66M78 43 50 66M29 66H71M29 66 50 85M71 66 50 85" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor"><circle cx="19" cy="21" r="6"/><circle cx="50" cy="21" r="6"/><circle cx="81" cy="21" r="6"/><circle cx="22" cy="43" r="6"/><circle cx="78" cy="43" r="6"/><circle cx="29" cy="66" r="6"/><circle cx="50" cy="66" r="5"/><circle cx="71" cy="66" r="6"/><circle cx="50" cy="85" r="6"/></g><circle class="mark-core" cx="50" cy="43" r="8" stroke="currentColor" stroke-width="2.6"/></svg><span>DeepStack</span></a>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="/stories/">The Buildout</a>
+      <a href="/calls/">The Calls</a>
+      <a href="/data/">Data Desk</a>
+      <a href="/weekly/">The Weekly</a>
+      <a href="/about/">About</a>
+      <a class="nav-cta" href="#newsletter">Subscribe</a>
+      <a class="nav-search" href="/search/"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg><span>Search</span></a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head wrap fixed-head">
+  <p class="label label-amber">Forecast</p>
+  <h1>Your number beside the Call’s.</h1>
+  <p class="page-dek">Every pending test on the Docket asks a question with a yes-or-no answer and a date. The Call puts a number on the yes answer before that date. Sign in by email and you can put your own beside it; both are held to the same rule when the test resolves.</p>
+</section>
+<article class="wrap fixed-page forecast-page">
+  <section class="fixed-section" id="how-it-works" aria-labelledby="how-it-works-title"><h2 id="how-it-works-title">How it works</h2>
+    <ol class="page-list forecast-steps"><li>Enter your email below. DeepStack sends one link, which works once, for 30 minutes.</li><li>Open it in this browser. It signs you in for ninety days with a token kept in the browser’s own storage: no password and no cookie.</li><li>On <a href="/docket/">the Docket</a>, or under “What to watch” in any Part, move the slider to the chance you give the yes answer, from 1 to 99, and save. Change it as often as you like: the last number before 00:00 UTC on the test’s date is the one that counts. A test without a date stays open until it resolves.</li></ol>
+  </section>
+  <section class="fixed-section" id="how-a-number-is-scored" aria-labelledby="how-a-number-is-scored-title"><h2 id="how-a-number-is-scored-title">How a number is scored</h2>
+    <p>When a test resolves, every counting number gets a Brier score: the gap between the number, read as a fraction, and the answer, one for yes and zero for no, squared. Zero is perfect, 0.25 is what a coin flip earns every time, and a confident miss costs close to one. An inconclusive test counts for no one. The Call’s own number is scored by the same rule on the same tests.</p>
+    <p>A worked example. You give a test 70. If the answer is yes, the gap is 1 minus 0.70, or 0.30, and the score is 0.30 squared: 0.09. If the answer is no, the gap is 0.70 and the score is 0.49. A 95 costs 0.0025 when it is right and 0.9025 when it is wrong, so a number earns its confidence or pays for it.</p>
+    <div class="table-scroll page-table-wrap"><table class="page-table forecast-example"><thead><tr><th scope="col">Your number</th><th scope="col">Brier score if the answer is yes</th><th scope="col">If the answer is no</th></tr></thead><tbody><tr><th scope="row">95</th><td>0.0025</td><td>0.9025</td></tr><tr><th scope="row">70</th><td>0.09</td><td>0.49</td></tr><tr><th scope="row">50</th><td>0.25</td><td>0.25</td></tr><tr><th scope="row">30</th><td>0.49</td><td>0.09</td></tr><tr><th scope="row">5</th><td>0.9025</td><td>0.0025</td></tr></tbody></table></div>
+    <p>Your page also shows your calibration: of the numbers you gave in each band of ten points, the share that came out yes. A reader whose 70s come true about seven times in ten is calibrated.</p>
+  </section>
+  <section class="fixed-section" id="the-readers-median" aria-labelledby="the-readers-median-title"><h2 id="the-readers-median-title">The readers’ median and the table</h2>
+    <p>Each pending test shows the readers’ median, the middle of the latest numbers signed-in readers gave it, once 25 readers have given one, with the count beside it. A reader with 5 resolved numbers appears on <a href="/readers/">the readers’ table</a> under the pseudonym they choose, never the address, with a mean Brier score and the gap to the Call on the same tests. The table is rebuilt every day.</p>
+  </section>
+  <section class="fixed-section" id="what-is-kept" aria-labelledby="what-is-kept-title"><h2 id="what-is-kept-title">What is kept</h2>
+    <p>Signing in keeps your email (only to send sign-in links), the pseudonym you choose and each forecast with its time; never your IP address, your browser or a cookie. Deleting the account removes all of it at once. Rate limits read a salted hash of the connection address, which cannot be turned back into it. An address that never completes a sign-in is deleted after thirty days. The pseudonym, every number and the control that deletes them are on <a href="/forecast/me/">your page</a>; the full policy is on <a href="/privacy/#forecasts-by-signed-in-readers">the privacy page</a>.</p>
+  </section>
+  <section class="fixed-section" id="sign-in" aria-labelledby="sign-in-title"><h2 id="sign-in-title">Sign in by email</h2>
+    <p class="forecast-signed-in" hidden>This browser is signed in as <strong class="forecast-signed-in-name"></strong>. <a href="/forecast/me/">Your numbers</a>.</p>
+    <form class="support-form forecast-signin-form" action="https://forecast.deepstack.ltd/signin" method="post" data-forecast-signin data-forecast-endpoint="https://forecast.deepstack.ltd" novalidate>
+      <label for="forecast-email">Email address</label>
+      <div class="field-row"><input id="forecast-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required maxlength="254" aria-describedby="forecast-email-note"><button class="btn btn-amber" type="submit">Send the link <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button></div>
+      <div class="nl-trap" aria-hidden="true"><label for="forecast-website">Leave this field empty</label><input id="forecast-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <p id="forecast-email-note" class="fine">One email with a link that works once, for 30 minutes. The answer on this page is the same for every address.</p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+  <p class="fine fixed-advice">A number is a reader’s own reading of a public question, not a trade and not advice. Analysis and opinion, not investment advice.</p>
+</article>
+</main>
+<section id="newsletter" class="newsletter" aria-labelledby="newsletter-title">
+  <div class="wrap newsletter-inner">
+    <div class="newsletter-copy">
+      <p class="label label-amber">The DeepStack dispatch</p>
+      <h2 id="newsletter-title">The week’s most consequential AI-economy questions, the evidence behind our view, and the next tests to watch.</h2>
+      <p>Every Saturday, <a href="/weekly/">The DeepStack Weekly</a>: the investigation of the week, the numbers that moved, the notes under pressure and the dates that will settle the argument. Free, independent, in your inbox. <a class="newsletter-sample" href="/weekly/">Read the latest edition <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></p>
+    </div>
+    <form class="newsletter-form" action="https://subscribe.deepstack.ltd/subscribe" method="post" data-subscribe-endpoint="https://subscribe.deepstack.ltd/subscribe" novalidate>
+      <label for="newsletter-email">Email address</label>
+      <div class="field-row">
+        <input id="newsletter-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required maxlength="254" aria-describedby="newsletter-note">
+        <button class="btn btn-amber" type="submit">Subscribe <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+      </div>
+      <div class="nl-trap" aria-hidden="true"><label for="newsletter-website">Leave this field empty</label><input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <p id="newsletter-note" class="fine">One confirmation email from DeepStack, then The Weekly every Saturday. Unsubscribe in one click from any edition. Your address stays on DeepStack’s own list and is never shared.</p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="logo logo-lg" href="/"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path d="M19 21H81M50 21V85M19 21 50 43M81 21 50 43M22 43H78M22 43 50 66M78 43 50 66M29 66H71M29 66 50 85M71 66 50 85" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor"><circle cx="19" cy="21" r="6"/><circle cx="50" cy="21" r="6"/><circle cx="81" cy="21" r="6"/><circle cx="22" cy="43" r="6"/><circle cx="78" cy="43" r="6"/><circle cx="29" cy="66" r="6"/><circle cx="50" cy="66" r="5"/><circle cx="71" cy="66" r="6"/><circle cx="50" cy="85" r="6"/></g><circle class="mark-core" cx="50" cy="43" r="8" stroke="currentColor" stroke-width="2.6"/></svg><span>DeepStack</span></a><p>The money behind the machine.</p></div>
+      <nav class="footer-col" aria-label="Read"><p class="label">Read</p><a href="/stories/">The Buildout</a><a href="/calls/">The Calls</a><a href="/docket/">The Docket</a><a href="/results/">Results</a><a href="/scorecard/">Scorecard</a><a href="/forecast/">Forecast</a><a href="/readers/">The readers’ table</a><a href="/data/">The Data Desk</a><a href="/editorial-notes/#live">The notes, tested live</a><a href="/weekly/">The Weekly</a><a href="/stories/?order=first">Start from Part 01</a></nav>
+      <nav class="footer-col" aria-label="DeepStack"><p class="label">DeepStack</p><a href="/about/">About</a><a href="/editorial-notes/">Editorial Notes</a><a href="/corrections/">Corrections</a><a href="/about/#standards">Standards</a><a href="/about/#partner">Partner with us</a><a href="/about/#privacy">Privacy</a></nav>
+      <nav class="footer-col" aria-label="Elsewhere"><p class="label">Elsewhere</p><a href="/feed.xml">RSS feed</a><a href="/docket.ics" data-event="ics_download">Docket calendar</a><a href="/api/v1/index.json">API</a><a href="https://t.me/deepstack_ltd" target="_blank" rel="noopener noreferrer">Telegram <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg></a></nav>
+    </div>
+    <div class="footer-bottom"><p>© 2026 DeepStack. Published by Marco Cauduro.</p><p class="footer-legal" aria-label="Documentation, terms, privacy and contact"><a href="/mcp/">MCP</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a></p><p>Analysis and opinion, not investment advice. Figures are as of the dates cited in each story.</p></div>
+  </div>
+</footer>
+</body>
+</html>

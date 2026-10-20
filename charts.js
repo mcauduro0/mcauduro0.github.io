@@ -182,6 +182,33 @@ const niceRange = (values, step) => [Math.floor(Math.min(...values) / step) * st
 const ticksFor = (lo, hi, step) => { const out = []; for (let t = lo; t <= hi + step / 1000; t += step) out.push(Number(t.toFixed(4))); return out; };
 const liveLegend = (items) => `<p class="legend lc-legend">${items.map((i) => `<span><i class="lkey lkey-${i.key}${i.dashed ? ' is-dashed' : ''}"></i>${esc(i.label)}</span>`).join('')}</p>`;
 
+// ---------- The index timeline (F1, 20 October 2026) ----------
+// An index of the Call's standing numbers (src/indexes.mjs indexSeries: one point per day something
+// changed, value null below the floor) as a step line from 0 to 100 on the Data Desk's line chart,
+// with its table. A stretch without a value is a gap, never a zero. Static: nothing to mount.
+export function indexTimeline(points, { title = 'Index', end: until = null } = {}) {
+  const pts = (points || []).filter((p) => p && typeof p.date === 'string');
+  const valued = pts.filter((p) => Number.isInteger(p.value));
+  if (!valued.length) return '';
+  const t = (d) => Date.parse(`${d}T12:00:00Z`);
+  const end = until && until > pts.at(-1).date ? until : pts.at(-1).date;
+  const series = [];
+  let run = [];
+  pts.forEach((p, i) => {
+    const until = pts[i + 1] ? pts[i + 1].date : end;
+    if (Number.isInteger(p.value)) { run.push([t(p.date), p.value], [t(until), p.value]); }
+    else if (run.length) { series.push(run); run = []; }
+  });
+  if (run.length) series.push(run);
+  const xMin = t(pts[0].date);
+  const xMax = Math.max(t(end), xMin + 86400000);
+  const ticks = spread(pts.length, 4).map((i) => ({ x: t(pts[i].date), label: shortDate(pts[i].date) }));
+  const last = valued.at(-1);
+  const chart = lineChart({ xMin, xMax, yMin: 0, yMax: 100, yTicks: [0, 25, 50, 75, 100], yFmt: (v) => String(v), xTicks: ticks, refs: [{ y: 50, label: '50' }], series: series.map((s) => ({ key: 's0', points: s })), dots: [{ key: 's0', x: Math.min(t(end), xMax), y: last.value, label: String(last.value) }] });
+  const rows = pts.slice().reverse().map((p) => [shortDate(p.date), Number.isInteger(p.value) ? String(p.value) : 'No value', String(p.n)]);
+  return `${liveLegend([{ key: 's0', label: title }])}${chart}<details class="desk-table"><summary>Show the data table</summary>${table(['From', title, 'Standing numbers'], rows)}</details>`;
+}
+
 // ---------- Chart types ----------
 
 export const TYPES = {};

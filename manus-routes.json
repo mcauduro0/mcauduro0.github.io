@@ -109,6 +109,14 @@
       "title": "The Docket"
     },
     {
+      "path": "/indexes/ai-capex-stress/",
+      "title": "AI capex stress"
+    },
+    {
+      "path": "/indexes/power-for-ai/",
+      "title": "Power for AI"
+    },
+    {
       "path": "/results/",
       "title": "Results"
     },
@@ -1221,6 +1229,24 @@
     {
       "path": "/scorecard/",
       "title": "Scorecard"
+    },
+    {
+      "path": "/readers/",
+      "title": "The readers’ table"
+    },
+    {
+      "path": "/forecast/",
+      "title": "Forecast"
+    },
+    {
+      "path": "/forecast/signin/",
+      "title": "Signing you in",
+      "sitemap": false
+    },
+    {
+      "path": "/forecast/me/",
+      "title": "Your numbers",
+      "sitemap": false
     },
     {
       "path": "/calls/",
