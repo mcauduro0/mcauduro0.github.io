@@ -1,0 +1,64 @@
+THE QUESTION
+Does the Fed funds target, upper bound (FRED series DFEDTARU) read higher on its first observation after October 28, 2026 than on its last observation before it?
+
+HOW IT IS SETTLED
+Rule: value after date > value before date => hike
+Source: FRED, Fed funds target, upper bound (DFEDTARU) (https://fred.stlouisfed.org/series/DFEDTARU)
+If the reading is unclear: FRED dates a change at its effective date, so the first observation after the date is the reading; a reading not in yet waits for the next run. A series that is late, revised or silent is inconclusive, and the Result says what was read and what was missing.
+Test date: 2026-10-28 (Oct 28); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 7, "The Fed Hiked. The Long End Still Climbed."
+The rate rise did not tame long yields. The bill for AI’s capital binge is arriving through bonds, deficits and the investors now setting the price of duration.
+What the page says this test would show: The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.
+
+THE SIDES
+The Part's question: Why did the long end climb after the hike: growth, debt, or a missing buyer?
+
+Side: Growth: yields are catching up
+- Michael Howell, 2026-09-18: The current bond market cycle is behaving like a normal cycle, and a major buying opportunity for fixed income is approaching as yields near a peak.
+- Michael Howell, 2026-09-18: The risk-return balance for bonds is improving: a further 50bp yield rise would still give bonds a positive annual return, while a subsequent 100bp yield fall would generate a more than 12% annual return.
+- Matthew C. Klein, 2026-09-14: Contrary to what many officials expected, inflation stopped decelerating in 2023, which is especially visible in underlying measures that exclude volatile and idiosyncratic components.
+- Matthew C. Klein, 2026-09-14: The 'supercore' version of the PCE price index was rising about 1 percentage point faster than in the years immediately preceding the pandemic even before the surprises of 2025-2026, and is now rising about 2 percentage points faster.
+- Kris, 2026-09-21: Interest rate hikes are not currently a problem for the economy or investing, because if the economy and company profits grow faster than the interest rate, value is created, and the estimated Q3 GDP growth of 5.1% plus inflation gives nominal…
+- Kris, 2026-09-21: The main reason for higher inflation is probably the more expensive oil, and a higher interest rate will not cure that; the Fed just wants to ensure inflation doesn't get out of hand.
+- Against this side, DeepValue Capital, 2026-09-18 (contradicts): DeepValue Capital reads the September BofA Fund Manager Survey as showing investors overcrowded and bullish on semiconductors and tech while selling bonds, staples, REITs and telecoms, and attributes the selling to rising yields hurting…
+
+Side: Debt: 99% of GDP, up from 35%
+- TSCS, 2026-08-29: The Federal Reserve faces a trap: if it hikes rates it loses control of the long end because it feeds an annual interest bill approaching $1 trillion, but if it cuts despite 3.4% inflation it also loses the long end, creating a frustrating setup…
+- TSCS, 2026-09-21: TSCS argues governments and central banks do not want long yields higher and will go a long way to stop it, which means that if they succeed real yields fall and today's 2.65% over inflation won't be on offer for long, and if the way they succeed…
+- Vitaliy Katsenelson, 2026-09-10: Bond investors are rejecting the government-set price for Treasuries because of large, unaddressed budget deficits that may grow rather than shrink over the next 10 years, and because budget deficits imply inflation; Vitaliy Katsenelson says they…
+- Vitaliy Katsenelson, 2026-09-10: In mid-August 2026 the 30-year Treasury yield reached its highest level in 19 years, above 5.3% (last seen in 2007), and the 10-year yield hit 4.75%; these are important because 30-year mortgage rates are set from them and about two-thirds of US…
+- Steve Eisman, 2026-09-11: Treasury Secretary Bessent's $4 billion to $6 billion effort to buy long Treasuries and push rates down failed, as rates went up anyway, and his speaking at a partisan political convention undermined his credibility with the bond market.
+- Steve Eisman, 2026-09-11: Ten-year Treasury yields have broken through 4.8% and then 4.9%, the highest level since November 2023, driven by the Iran war pushing oil prices above $100.
+- George Noble: No secretary talks down $40T of debt.
+- Stephen Clapham, 2026-09-20: Stephen Clapham states they would maintain a near-zero weight in US Treasuries, other than those trading at a near-50% discount to nominal value which they see as an asymmetric bet, a position they say they have covered in recent weeks.
+- Stephen Clapham, 2026-09-06: A rise in short rates would be a problem given the government funds around 85% of its financing needs (the flow) with short-term bills, though on a stock basis bonds of over 5 years duration are only about 30% of the total, still a fairly…
+- Against this side, Michael Howell, 2026-09-18 (contradicts): Michael Howell estimates the net-supply component of term premia at minus 27 basis points, with inflation uncertainty and volatility premia also historically subdued, so term premia are low across virtually every measure, implying a significant…
+
+Side: A missing buyer
+- Michael W. Green, 2026-08-23: The structural buyer base for long-duration Treasury debt has been withdrawing in stages for years—the Japanese hedged bid was damaged by the 2022 rate shock, Russia and China ceased buying in summer 2022, corporate pensions largely finished their…
+- Michael W. Green, 2026-08-16: What markets are showing is not a shortage of safe assets but a shortage of buyers willing to own duration, with sovereigns and corporates both saying the same thing: the corporate safe-asset factory is becoming ordinary risky debt and the…
+- Mia Silverio, 2026-09-14: Mia Silverio argues that persistent inflation concerns have pushed the U.S. 10-year Treasury yield near the closely watched 5% level for only the second time since the 2007-2008 financial crisis, and notes long-term Treasurys have returned -2%…
+- Mia Silverio, 2026-09-21: Canada's public pension funds are the third-largest pool of retirement savings in the world, and Canadian institutional managers are cooling on US investments: this past July Canadians sold $22 billion in US stocks, the biggest monthly sell-off…
+- TSCS, 2026-09-21: Oil explains the day-to-day wiggles in yields but not the trend, since Brent is cheaper today than at its spring peak while the 10-year is 70bp higher, even though since the war a $10 Brent move has come with about 5bp on the 10-year (roughly 3…
+- TSCS, 2026-09-16: TSCS argues the front end cannot cap the long end: a hike is only about 4/10 of a percent of receipts and mostly lands as income with people who spend it, Treasury buybacks manage volatility rather than level, and the buyers who used to close the…
+- Against this side, Michael Howell, 2026-09-04 (contradicts): US term premia remain broadly stable and have recently moved lower, with little sign they are rising relative to foreign equivalents, which undercuts the loss-of-confidence narrative for US Treasuries.
+
+Side: Voices that cross sides
+- TSCS, 2026-08-29: Kevin Warsh is a pretend hawk rather than a constrained one, meaning he talks tough on inflation while avoiding costly action, and this position can be falsified by a rate hike on 16 September.
+- TSCS, 2026-09-16: TSCS's forward view is that oil and long yields keep rising until stocks fall, because the S&P is the only release valve left: the bond-market valve that worked in April 2025 is the one the buybacks are designed to keep shut.
+
+THE DATA DESK
+Chart: The 10-year ladder
+The Fed raised its rate on September 16. The long end kept climbing anyway. Here is where the 10-year stands against the levels investors say will break something.
+What it reads: The move is real, not inflationary: 96 of the 104 basis points since February came from real yields. That is the market charging more for money, not panicking about prices, and it is the harder kind of rise to reverse.
+Source: Federal Reserve (Sep 16 decision); FRED (10-year and real yields, Sep 16 and Sep 24, 2026); CNBC (Oct 5 close). Thresholds as stated by the investors named. (as of 2026-10-05)
+Figures: {"decomposition":{"label":"The 104 bp climb from the late-February low, as of Sep 24","parts":[{"label":"Real yield","value":96},{"label":"Expected inflation","value":8}]},"markers":[{"date":"After Sep 16","id":"fed","kind":"policy","label":"Fed funds range","range":[3.75,4.0],"text":"The Fed raised its policy rate a quarter point on September 16, to a range of 3.75% to 4%.","value":4.0,"who":"Federal Reserve"},{"date":"Sep 16","id":"sep16","kind":"observed","label":"10-year on hike day","text":"Where the 10-year stood on the day the Fed moved.","value":5.01,"who":"FRED"},{"date":"Sep 24","id":"sep24","kind":"observed","label":"10-year, six trading days later","text":"Its highest level since 2007. The real yield had climbed to 2.85%.","value":5.18,"who":"FRED"},{"date":"Oct 5","id":"oct5","kind":"observed","label":"10-year close","text":"The highest close in roughly two decades.","value":5.31,"who":"CNBC"},{"id":"rubicon","kind":"threshold","label":"The Rubicon","text":"Eisman calls 5% the Rubicon. Ren says it is the hurdle every long-duration growth company must clear.","value":5.0,"who":"Steve Eisman; Ren"},{"id":"buckle","kind":"threshold","label":"Where cycles buckle","text":"Howell says past cycles began to buckle near 5.5%, roughly 50 basis points from a major peak.","value":5.5,"who":"Michael Howell"},{"id":"six","kind":"threshold","label":"Not even at 6%","text":"Howell sees the economy pushing the 10-year toward 6%. Katsenelson would not buy a 10-year Treasury even there.","value":6.0,"who":"Vitaliy Katsenelson; Michael Howell"}],"real":{"date":"Sep 24","kill":3.15,"value":2.85,"who":"TSCS"}}
+
+THE CALL (DeepStack's house view, in words)
+Stance: Supply sets the long end
+Line: The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.
+What would change the Call:
+- Long yields fall while nominal growth, inflation and AI capital spending stay firm.
+- Japanese and other foreign buyers return in size without a better hedge.
+The Call expects no particular answer.

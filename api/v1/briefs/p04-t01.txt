@@ -1,0 +1,55 @@
+THE QUESTION
+Did Alphabet shares close higher on the first full trading day after Alphabet disclosed a 2027 capital-spending budget above its 2026 budget than at the close before the disclosure?
+
+HOW IT IS SETTLED
+Rule: Read the 2027 capital-expenditure figure or range Alphabet gives in the release or on the call, and the Nasdaq close of GOOGL on the first full trading day after it against the close before. The answer is yes if the 2027 budget is above 2026's and the close is higher; no if the close is lower or unchanged.
+Source: Alphabet investor relations, quarterly earnings release and call (https://abc.xyz/investor/)
+If the reading is unclear: If Alphabet gives no 2027 figure by February 15, 2027, or guides 2027 at or below 2026, the test is inconclusive, and the Result says what was read and what was missing.
+Test date: 2027-01-01 (2027 budget); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 4, "AI Spending Has Met Its First Real Bill"
+Hyperscaler capital budgets are still climbing. The market has started charging for them, rewarding cash-backed returns and punishing faith.
+What the page says this test would show: Alphabet discloses its higher 2027 budget; a rise in the stock revives the defense case, another fall validates the return test.
+
+THE SIDES
+The Part's question: Is the capex spending defense, or is the return not there?
+
+Side: The return is not there (read as destruction)
+- Warden Capital, 2026-07-22: Warden Capital argues the AI investment cycle cannot earn a reasonable return absent AGI within a few years: at roughly $700 billion per year of investment, model providers would need about $1 trillion in annual end AI revenue by 2029, ramping…
+- Warden Capital, 2026-07-22: Warden Capital says they are relatively confident the AI boom ends in a bust but do not know when, are not certain it causes a US recession, and cannot judge how deep one would be; they add that the debt-heavy neocloud and datacenter financing…
+- Kevin Gee, 2026-08-04: He argues the consensus revenue path is stretched, since the ~$863 billion of incremental annual AI revenue by 2030 would require roughly $100 per month of extra AI spending from every person in the US and EU including children, and equals 19.1x…
+- Kevin Gee, 2026-08-04: He argues the hyperscalers' AI capital spending may destroy shareholder value: consensus 2026E-'30E capex of about $3.5 trillion against ~$863 billion of incremental revenue at a 40% incremental margin and 20% tax rate implies roughly an 8%…
+- First Pacific Advisors, 2026-07-30: Global AI spending is projected to reach 2.59 trillion dollars in 2026, and to achieve even a relatively low unlevered return on investment would require 207 billion dollars in after-tax income per year starting immediately, which the portfolio…
+- First Pacific Advisors, 2026-07-30: AI-related stocks have accounted for 50% to more than 75% of the S&P 500's total gains since late 2022, and AI companies now constitute approximately 50% of the S&P 500, exceeding even the Information Technology sector's 35% weight at the S&P 500's…
+- Against this side, Orbis Investments, 2026-08-11 (contradicts): Nebius, an AI-focused cloud infrastructure business with multibillion-dollar infrastructure deals with Microsoft and Meta and a $2 billion Nvidia investment, has a credible base-case pathway to over 4GW of data centre capacity by 2031 that could…
+
+Side: The spending is defense (read as defense)
+- Kris, 2026-07-26: The Mag7 capex boom should be read the same way: the risk of not investing heavily is much higher than the risk of overinvesting, which is why Alphabet announced more investment and others will follow, since their existence is at stake.
+- Moses Sternstein, 2026-07-24: Hyperscalers have poured free cashflow and debt into computational infrastructure to meet AI's demands, creating a generational run in semiconductors where demand has outpaced supply.
+- Moses Sternstein, 2026-08-21: AI usage is highly concentrated among power users and top-decile enterprises, which have increased token output by more than 17 times since April 2025, creating an approximately 8-fold gap between typical and top-decile enterprises, and a gap…
+- Quanta 72, 2026-07-22: Unlike dot-com era suppliers, today’s hyperscalers fund AI investment from profitable core businesses such as advertising, cloud, software, subscriptions, and e-commerce, so the question is not whether they can afford the spending.
+- Quanta 72, 2026-07-22: The most important signal for AI-era investors is the relationship between capital spending, free cash flow, and the growth those investments eventually produce, because in the dot-com boom stock prices turned before earnings and cash flow collapsed.
+- Against this side, Kingswell, 2026-07-24 (contradicts): Kingswell flags with unease that Alphabet's Q2 capex hit a record $44.9 billion and full-year guidance was raised to $195-205 billion from $180-190 billion, with executives expecting a higher number next year.
+
+Side: Voices that cross sides
+- Steve Eisman, 2026-07-24: If AI becomes cheaper and commoditized, spending hundreds of billions of dollars becomes much harder to justify economically.
+- Steve Eisman, 2026-07-27: The bullish case compares current AI infrastructure buildout to building the Las Vegas Strip in the 1950s, arguing that enormous upfront investment creates an eventually valuable economic ecosystem.
+- Hayden Capital, 2026-08-27: The current hyperscaler capex boom, with Alphabet, Amazon, Meta, and Microsoft together spending close to $800 billion in 2026, requires external capital funding for the first time because capex now exceeds internal cash flow.
+- Hayden Capital, 2026-08-27: AI chip prices are currently inflated by speculative demand from companies ordering more chips than they need to secure allocation, and reselling them at premiums—a dynamic similar to Rolex watch secondary market pricing.
+- JunkBondInvestor, 2026-07-26: The widening in AI-related credit is largely a supply-and-duration absorption story rather than fundamental deterioration, and saying so is true but the least informative thing one can say about it.
+- JunkBondInvestor, 2026-07-26: AI-related issuance across investment grade, high yield and loans stands at $489bn year to date against $322bn for all of 2025, is 23% of USD IG gross supply this year, and for the first time the six largest tech names carry more risk in the US…
+
+THE DATA DESK
+Chart: The capex clock
+Amazon, Google, Microsoft and Meta spent $165 billion on capital projects in three months. That is a pace you can watch.
+What it reads: Quarterly spending is up almost fivefold in three years, and new borrowing now equals about a third of it. When the cash machines start borrowing to feed the machines, the cycle has changed character.
+Source: Prof G Markets (quarterly capital spending, Aug 4, 2026); Hayden Capital (incremental debt as a share of capital spending). Earlier quarters are implied by the reported growth rates. The clock is DeepStack arithmetic at last quarter’s pace. (as of 2026-08-04)
+Figures: {"debtShare":[{"label":"2024","value":9},{"label":"Last 12 months","value":32}],"items":[{"implied":true,"label":"Same quarter, three years earlier","value":33.5},{"implied":true,"label":"Same quarter, a year earlier","value":88.2},{"label":"Latest quarter","value":165}],"quarter":165,"quarterDays":91.25}
+
+THE CALL (DeepStack's house view, in words)
+Stance: Prove the return
+Line: Capital intensity is not a moat. Every new AI dollar now has to out-earn its financing cost.
+What would change the Call:
+- Alphabet’s larger 2027 budget lifts the stock instead of sinking it.
+- Operating cash flow catches capex growth and the labs fund themselves on durable, non-circular revenue.
+The Call expects the answer no.

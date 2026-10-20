@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:36:04Z",
+  "generatedAt": "2026-10-20T23:28:54Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-20",
@@ -1700,14 +1700,19 @@
       "resultUrl": null,
       "machines": [
         {
+          "model": "claude-opus-5",
+          "p": 25,
+          "at": "2026-10-20T23:01:01Z"
+        },
+        {
           "model": "deepseek-reasoner",
-          "p": 58,
-          "at": "2026-10-20T20:37:33Z"
+          "p": 65,
+          "at": "2026-10-20T23:01:33Z"
         },
         {
           "model": "gpt-5",
           "p": 58,
-          "at": "2026-10-20T20:38:08Z"
+          "at": "2026-10-20T23:02:03Z"
         }
       ],
       "readers": null
@@ -3412,13 +3417,18 @@
       "machines": [
         {
           "model": "claude-opus-5",
-          "p": 55,
-          "at": "2026-10-20T20:51:34Z"
+          "p": 44,
+          "at": "2026-10-20T23:02:06Z"
+        },
+        {
+          "model": "deepseek-reasoner",
+          "p": 35,
+          "at": "2026-10-20T23:06:49Z"
         },
         {
           "model": "gpt-5",
-          "p": 35,
-          "at": "2026-10-20T20:53:33Z"
+          "p": 41,
+          "at": "2026-10-20T23:03:32Z"
         }
       ],
       "readers": null

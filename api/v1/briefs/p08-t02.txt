@@ -1,0 +1,47 @@
+THE QUESTION
+Did the New Mexico Environment Department approve the air-quality permit for the fuel cells at the Project Jupiter campus in Doña Ana County by November 23, 2026?
+
+HOW IT IS SETTLED
+Rule: The answer is yes if the department publishes a final permit approval, with or without conditions, on or before November 23, 2026; no if it publishes a denial by that date.
+Source: New Mexico Environment Department, Air Quality Bureau permit decisions (https://www.env.nm.gov/air-quality/)
+If the reading is unclear: A decision deferred past November 23, a permit withdrawn by the applicant, or an approval under appeal on that date is inconclusive, and the Result says what was read and what was missing.
+Test date: 2026-11-23 (Nov 23); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 8, "AI Lenders Are Financing the End of Scarcity"
+The shortage of power, chips and data-center capacity supports lenders today. But every new dollar also brings the glut that can wreck their collateral.
+What the page says this test would show: New Mexico rules on the fuel-cell permit; approval supports schedule, denial turns Oracle’s notice into a warning.
+
+THE SIDES
+The Part's question: Who writes the checks for the buildout?
+
+Side: The cash has to triple
+- Torsten Slok, 2026-09-29: The tech silo is betting on a future in which demand for AI and tech services explodes, while the silos covering the companies that would pay for those services see a much more modest outlook, and both cannot be right at the same time.
+- Torsten Slok, 2026-09-11: In S&P 500 Q2 earnings season data, AI adoption keeps broadening: 69% of companies now point to a live deployment, up from 64% last quarter.
+- Michael Burry, 2026-09-04: Alibaba's shift to financing an AI data center buildout through share issuance is a demerit against the investment thesis, as the buildout may be 'practically interminable' without a clear productive path.
+- Michael Burry, 2026-09-19: Most analysts covering the former software/social-media/AdTech companies now recast as hyperscalers have never had to model maintenance capital expenditure, and most still are not doing it, or not doing it well.
+- Daniel Romero, 2026-09-21: Using a model assuming equipment costs rise to $100 billion per GW by 2030, five-year equipment cost recovery, 25-year site cost recovery, a 15% annual return on invested capital, and a 65% cloud operating margin, AI labs would need to reach $6.8…
+- Daniel Romero, 2026-09-21: Daniel Romero states they are not arguing the buildout is unsustainable, but that one-year compute paybacks will probably become the exception rather than a baseline assumption, possibly dependent on specific timing and shortages, and that 2026…
+- Against this side, Kris, 2026-09-16 (contradicts): AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and Kris considers this kind of capacity-constrained spending among the best…
+
+Side: The spending pays
+- Market Sentiment, 2026-09-17: Based on their capex sustainability model, Market Sentiment estimates that next year's ~$1.2T+ of AI capex should drive ~$2T of incremental revenue, which they say will only be a fraction of the total incremental revenue AI generates as a business…
+- Market Sentiment, 2026-09-17: Aggressive capital spending tends to be suboptimal because after an initial euphoric rise in stock prices tied to rising capex, investors realize they overpaid for the underlying inputs, from land to memory to fiber-optic cables.
+- Aurelion Research, 2026-09-11: The customer base is broadening beyond a concentrated set of hyperscalers to enterprises, AI-native companies and cloud providers, with AI-related infrastructure commitments expected to exceed $3.1 trillion, making the next phase of demand less…
+- Aurelion Research, 2026-09-11: Hyperscaler capex is durable rather than at risk of a sudden cut, because the largest spenders keep reaffirming the necessity of AI investment and their EBITDA and EBIT margins are still rising, giving them capacity to keep funding it.
+- Kris, 2026-09-16: AWS has had more demand than supply, with customers wanting more AWS capacity for AI than could be served despite large Nvidia orders and Amazon's own Trainium chips, and Kris considers this kind of capacity-constrained spending among the best…
+- Against this side, DeepValue Capital, 2026-09-25 (contradicts): Apollo argues the hyperscaler credit story rests on a single consensus assumption that operating cash flow triples from $600 billion to $2 trillion, and that if this does not happen, the AI trade could weaken with credit spreads widening, capex…
+
+THE DATA DESK
+Chart: Commitments versus cash
+Lenders are underwriting a promise that hyperscaler cash flow will roughly triple by 2030. Pick a yardstick and see how far the commitments already run ahead of it.
+What it reads: Burry’s $2.7 trillion of leases and purchase commitments is 4.5 times what the hyperscalers generate in operating cash today, and more than six and a half times a year of earnings. The bonds treat the 2030 target as a formality. It is the whole bet.
+Source: Michael Burry (commitments and earnings, five hyperscalers); Torsten Slok, Apollo (operating cash flow and 2030 path); Apollo via DeepValue Capital (backlog), September 2026. (as of 2026-09-28)
+Figures: {"base":"ocf","items":[{"id":"earnings","label":"Hyperscaler earnings, past year","qualifier":"under","short":"Earnings","value":0.4,"who":"Michael Burry"},{"id":"ocf","label":"Operating cash flow today","short":"Cash flow today","value":0.6,"who":"Torsten Slok, Apollo"},{"id":"target","label":"Cash flow needed by 2030","short":"2030 target","value":2.0,"who":"Torsten Slok, Apollo"},{"id":"backlog","label":"Hyperscaler backlog","short":"Backlog","value":2.3,"who":"Apollo via DeepValue Capital"},{"id":"commitments","label":"Off-balance-sheet commitments","short":"Commitments","value":2.7,"who":"Michael Burry"}],"prefix":"$","suffix":"T"}
+
+THE CALL (DeepStack's house view, in words)
+Stance: Lenders are mispricing scarcity
+Line: Lenders are right to finance capacity and wrong to assume it stays scarce. Scarcity is a season; debt is a contract.
+What would change the Call:
+- September-quarter cash flow moves visibly toward $2 trillion.
+- The first Blackwell renewal holds its price without new guarantees.
+The Call expects the answer yes.

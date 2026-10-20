@@ -1,0 +1,53 @@
+THE QUESTION
+Did Nike, in the materials published for its investor day of November 16 and 17, 2026, state a numerical operating-margin or gross-margin target for a fiscal year beyond fiscal 2027?
+
+HOW IT IS SETTLED
+Rule: The answer is yes if the presentation, press release or webcast transcript on Nike's investor-relations site states a margin target with a number and a fiscal year beyond 2027; no otherwise. How much of the demand plan still assumes a person choosing (stores, app, wholesale, marketing) is DeepStack's reading from the same materials and goes in the Result, not in the answer.
+Source: Nike investor relations, investor day presentation and press release (https://investors.nike.com/)
+If the reading is unclear: If the investor day is postponed past November 30, 2026, or the materials are not public, the test is inconclusive, and the Result says what was read and what was missing.
+Test date: 2026-11-16 (Nov 16-17); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 9, "Habit Was the Moat. Agents Are Draining It."
+Meta’s Muse has inserted itself between shoppers and sellers. The first bill is coming due for businesses paid by customer inertia.
+What the page says this test would show: Nike holds its investor day; margin targets and demand plans show how much selling still assumes human choice.
+
+THE SIDES
+The Part's question: How fast do habits break?
+
+Side: Eighteen months, or less
+- Andrew Walker, 2026-09-28: Faced with two extreme camps on consumer AI agents (that they are massively overhyped versus that every consumer-facing company is a short because agents will eat their margins), Andrew Walker says both are too extreme but if forced to pick, they…
+- Andrew Walker, 2026-09-21: AI agents make price-shopping and replacing skilled workers (e.g., using AI to edit a podcast instead of a consultant) easy, and if saving money is the core consumer use case for AI, this could have a deflationary impact on the consumer economy at…
+- Tae Kim, 2026-09-07: As computer tool use rises, AI compute demand will explode just as it did when agentic coding took off, when reasoning models ramped, and when AI chatbots were first released.
+- Tae Kim, 2026-09-22: Having used Muse over the past week, Tae Kim found problems in the quality and accuracy of its responses and found it hard to choose it over ChatGPT, and suspects others will feel the same way.
+- Ren, 2026-09-25: Once an AI moves from surfacing a link to researching, deciding, executing and paying, it inserts itself between the customer and the business, potentially capturing an unusually valuable piece of the internet's discovery and transaction funnel.
+- Ren, 2026-09-25: The unit of interaction is shifting from the prompt to the objective: instead of a chatbot loop of question-and-answer, Muse takes a goal, plans, executes, and only interrupts the user at decisions it isn't allowed to make alone.
+- Against this side, Le Shrub, 2026-09-22 (contradicts): Le Shrub questions whether Meta's Muse AI agent becoming popular so quickly is a big negative for OpenAI and Anthropic.
+
+Side: Still a demo
+- Moses Sternstein, 2026-09-18: The data suggests that, for now, the story is 'App-Slop': AI has produced many more apps, but they are not successful apps in any meaningful sense.
+- Moses Sternstein, 2026-09-18: Paid consumer AI adoption remains quite low even though it is growing, per Consumer Edge data showing roughly 3% adoption as of Q1, with younger people adopting at about 4x the rate of older people.
+- David George, 2026-09-28: The creators argue OpenAI will prevail not because of best models, chips, cost-performance curve or even best product — though they think OpenAI has those — but because it is so good at creating new kinds of customers and has the most durable…
+- David George, 2026-09-28: As of September 2026, the creators say intelligence-as-a-service product rankings are no longer the most important question; intelligence is everywhere and nearly anyone can do nearly anything, yet most people aren't yet, so awakening new behavior…
+- Michael Spencer, 2026-09-29: Michael Spencer is not confident about Muse's odds of success, citing that only Anthropic has shown how to scale ARR so far in this Generative AI cycle, that the ratio of app downloads to actual users seems fairly low and suspicious, and that Meta…
+- Michael Spencer, 2026-09-08: Generative AI's impact on the macro economy and labor market is a serious concern: higher inflation, less hiring, more anxiety, and a lack of ROI compared to the debt, capex and resulting AI bubble, with higher earnings masking dangerous…
+- Against this side, Le Shrub, 2026-09-22 (contradicts): Le Shrub says that, like an everyday 'normie', they want something simple and non-geeky for daily tasks rather than a highly advanced model that solves difficult math problems, implying simpler consumer AI tools like Muse may win out over more…
+
+Side: Voices that cross sides
+- Andrew Walker, 2026-09-28: Andrew Walker says they cannot watch how easy Muse is to use and how fast its downloads have taken off and conclude it won't have a big impact on the consumer economy.
+- Andrew Walker, 2026-09-28: Andrew Walker suggests that Muse acting as a layer that decides where consumer spend goes is a massive threat and opportunity for retailers, noting as evidence that Amazon banned Muse.
+- Tae Kim: On the owner of the agent and on the rails beneath it.
+
+THE DATA DESK
+Chart: Winners and losers at the first checkout
+From the day Meta launched its shopping agent, the market sorted companies into two piles: the ones building agents, and the ones whose customers agents might reroute. Refreshed with each close; switch the start date, then sort by move or by group.
+What it reads: Every habit business in the sample fell between 11% and 19% while the index went nowhere. The market is not waiting for agents to steal customers. It is pricing the possibility now.
+Source: Financial Modeling Prep, closing prices from September 8 to October 2, 2026. (as of 2026-10-02)
+Figures: {"groups":["Building agents","Benchmark","Habit businesses"],"sourceNote":"Closing prices as Financial Modeling Prep redistributes them, delayed; changes are DeepStack arithmetic.","views":[{"decimals":0,"id":"moves","items":[{"group":"Building agents","label":"Advanced Micro Devices","value":33},{"group":"Building agents","label":"Meta","value":18},{"group":"Benchmark","label":"S&P 500","value":0},{"group":"Habit businesses","label":"Expedia","value":-11},{"group":"Habit businesses","label":"Netflix","value":-14},{"group":"Habit businesses","label":"Bank of America","value":-14},{"group":"Habit businesses","label":"Intuit","value":-16},{"group":"Habit businesses","label":"Planet Fitness","value":-17},{"group":"Habit businesses","label":"Booking Holdings","value":-18},{"group":"Habit businesses","label":"Comcast","value":-19}],"label":"Share-price moves","readout":"Advanced Micro Devices rose 33% and Meta 18%. Booking fell 18%, Comcast 19% and Planet Fitness 17%. The S&P 500 was flat.","signed":true,"suffix":"%","unitLabel":"Change in closing price, Sep 8 to Oct 2, 2026"}]}
+
+THE CALL (DeepStack's house view, in words)
+Stance: Sell habit, buy the rails
+Line: Agents will drain weak consumer habits first. Back the rails (trust, records, distribution, compute), not the forgotten subscription.
+What would change the Call:
+- Meta reports agent downloads without retained users, transaction volume or fees.
+- The first tax season with agents shows households still paying Intuit for certainty.
+The Call expects no particular answer.

@@ -1,0 +1,48 @@
+THE QUESTION
+Did Nebius's September-quarter results, in the release, the shareholder letter or on the call, still price compute capacity of six months or less at a premium to its one-to-three-year contracts?
+
+HOW IT IS SETTLED
+Rule: Read the price per megawatt (or per GPU-hour) Nebius gives for terms of six months or less and for one-to-three-year terms. The answer is yes if the short-term price is at or above 1.5 times the long-term price (the premium persists), and no if the ratio is below 1.5 (the premium collapsed toward long-term rates).
+Source: Nebius Group, quarterly results furnished to SEC EDGAR (Form 6-K) (https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBIS&type=6-K)
+If the reading is unclear: If the results carry no term pricing, or Nebius reports after November 30, 2026, the test is inconclusive, and the Result says what was read and what was missing.
+Test date: 2026-11-10 (Next Nebius disclosure); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 3, "The Machines Will Work. The Debt Might Not."
+AI demand may be real. The more dangerous question is who is financing the machines, and how quickly lenders can change their minds.
+What the page says this test would show: Short-term premiums collapsing toward long-term rates would weaken the backwardation warning; persistence would make it harder to dismiss.
+
+THE SIDES
+The Part's question: The debt behind the machines: 1999 capex, 2008 credit, or neither?
+
+Side: 1999 capex plus 2008 credit (read as the fuse)
+- Michael Burry, 2026-08-12: Nebius extended its server depreciation schedule from four years to five this year even though its own deal pricing implies roughly 50 percent annual decay; customers that would not quit depreciating are what extended the bust twenty-five years ago.
+- Michael Burry, 2026-08-12: Nebius's own disclosed terms show compute in backwardation: 20 to 25 million dollars per megawatt on one-to-three-year contracts against 40 to 50 million per megawatt for capacity of up to six months; buyers paying twice the rate for near-term use…
+- Vitaliy Katsenelson, 2026-08-06: AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…
+- Against this side, Oguz Erkan, 2026-08-06 (qualifies): Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.
+
+Side: The borrowing is rational (read as the fuel)
+- Market Sentiment, 2026-08-08: Capacity is sold before it is built: AWS backlog reached 496 billion dollars, Microsoft closed June 2026 with 678 billion of commercial RPO up 84 percent year over year, Google Cloud's backlog hit 514 billion; CoreWeave's 2020-era A100s are fully…
+- Market Sentiment, 2026-08-08: Modeled bottom-up, 100 billion dollars of annual data-center capex sustains roughly 160 billion of steady-state annual revenue, a 1.6x revenue-to-capex multiple and about a 21 percent IRR, even assuming a five-year chip life and a one-third annual…
+- Oguz Erkan, 2026-08-06: Rental prices for six-year-old A100 GPUs are up more than 20 percent year-to-date, a direct read on AI model providers' willingness to pay and, by extension, end-customer demand.
+- Variant Perception: Still risk-on, semis capital-scarce, July was a tradeable low.
+- Against this side, Vitaliy Katsenelson, 2026-08-06 (contradicts): AI profitability is elusive while open-source and Chinese models deliver comparable results at a fraction of the cost, so data-center pricing faces a race to the bottom exactly as fiber optics did after 1999; then the bankruptcies reveal who was…
+
+Side: Voices that cross sides
+- JunkBondInvestor: Three endings fit today's numbers: squeeze, triumph, or spreads just cheapen. Unsortable yet.
+- Oguz Erkan: His own tripwire: hyperscaler free cash flow may go negative in 2027; leverage on speculative returns repels.
+- Market Sentiment: His own bar: the spend needs about $960B of cloud revenue; the run rate is about $380B, growing 40% or more.
+
+THE DATA DESK
+Chart: The cloud revenue hurdle
+To justify next year’s spending, cloud revenue has to reach about $960 billion. It runs at about $380 billion today. Choose a growth rate and see how long the climb takes.
+What it reads: At the 40% growth the bulls cite, the climb takes almost three years. The spending it has to pay for arrives next year. That gap is what the debt is financing.
+Source: Company-reported backlog and commitments; revenue hurdle and run rate as cited in Part 03, August 15, 2026. Growth paths are DeepStack arithmetic. (as of 2026-08-15)
+Figures: {"backlogs":[{"label":"AWS backlog","value":496},{"label":"Google Cloud backlog","value":514},{"label":"Microsoft commercial commitments","value":678}],"growth":40,"needed":960,"runRate":380}
+
+THE CALL (DeepStack's house view, in words)
+Stance: Bearish on the credit
+Line: The machines will earn. The credit stack is where this buildout breaks first.
+What would change the Call:
+- Nebius’s short-term premium collapses toward long-term rates.
+- H100 re-lets stay near original prices and the queued $50–60 billion of issuance clears without wider concessions.
+The Call expects the answer yes.

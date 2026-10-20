@@ -1,0 +1,77 @@
+THE QUESTION
+In the EIA-861M data for calendar 2026, as first published, is the median change in the average household price per kilowatt-hour across PJM's nine jurisdictions against calendar 2025 at least four percentage points above the median of the other 42, with Texas's change below the national change?
+
+HOW IT IS SETTLED
+Rule: Same computation as p13-t01, over January to December 2026 against January to December 2025, with the national figure from the U.S. total in the same release. The answer is yes if the PJM median is at least 4.0 points above the median of the other 42 and Texas's change is below the national change; no if the gap is below 4.0 points.
+Source: U.S. Energy Information Administration, EIA-861M monthly sales and revenue (first release of the month tested) (https://www.eia.gov/electricity/data/eia861m/)
+If the reading is unclear: A gap of 4.0 points or more with Texas at or above the national change is inconclusive, and the Result says what was read and what was missing. Data for December 2026 not published by March 31, 2027 is inconclusive. Figures are read as first published.
+Test date: 2027-02-22 (Late February 2027); the test closes at 00:00 UTC that day
+
+THE PAGE: Part 13, "The Ratepayer Pays First"
+Households in the nine jurisdictions PJM serves paid a median 11.7% more per kilowatt-hour over the year to July than the year before, against 5.6% elsewhere. Data center builders tell regulators they pay their own way. PJM's market monitor told them no state commission can shield households from the capacity price their demand sets.
+What the page says this test would show: The federal data for all of 2026: the same four-point test, with Texas below the national change.
+
+THE SIDES
+The Part's question: Who pays for the AI power bill?
+
+Side: The load pays its way (Builders fund their own lines, substations and security deposits; costs assigned to whoever causes them keep households whole.)
+- Amin Vahdat, 2026-10-06: Because of how billing works, a utility building out capacity for Google could in theory raise other people's rates, so Google ensures it pays for the transmission lines, upgrades and additional utility base stations required.
+- Alphabet, 2025-12-18: Citing ERCOT's October 2025 reporting, over 200 gigawatts of large loads have requested interconnection through the interim process, yet less than 4% have been granted approval to energize and about another 7% are eligible to seek energization…
+- Alphabet, 2025-12-18: The Joint Commenters recommend the Commission adopt a unifying framework aligning all related rulemakings and ERCOT protocol revisions, advancing cost-causation-based cost assignment that shields residential and small commercial customers from cost…
+- Crusoe Energy, 2026-03-16: Crusoe states that co-located generation, when structured correctly, simultaneously advances grid reliability, reduces ratepayer costs, and accelerates AI infrastructure buildout, which is the basis of its energy-first 'bring your own power' model.
+- Crusoe Energy, 2026-03-16: Crusoe states that PJM's own filing acknowledges a lower threshold risks forcing existing BTMG resources offline during the transition period, which would increase grid burden by converting currently netted load into full network load without…
+- EDF Power Solutions, 2026-03-16: EDFps says BTMG co-location can reduce grid congestion, avoid generator interconnection queue delays, lower network upgrade needs, reduce congestion costs, allow the load to provide demand response if power demands are flexible, and deliver…
+- EDF Power Solutions, 2026-03-16: EDFps argues PJM's own proposed contract demand service changes alleviate the ability of large loads with Retail BTMG to lean on the system, since a Retail BTMG equal to the load size fully covered by Non-Firm Contract Demand would be limited to…
+- NRG Energy, 2026-04-17: NRG argues that because the funding a large load customer must supply to bring new generation greatly exceeds the $50,000/MW security amount, concerns about whether the large load can meet financial commitments are easily satisfied under BYOG…
+- NRG Energy, 2026-04-17: NRG states the ERCOT region faces unprecedented load growth over the next five years, which it says will bring both grid challenges and significant business development opportunities in Texas, making it critical to get the large load…
+- Kingswell, 2026-05-11: BHE's stance of participating in data center buildouts only if hyperscalers bear the full construction and operating cost is a disciplined framework that lets it join a major infrastructure cycle without spreading risk and cost onto existing…
+- Data Center Coalition, 2026-03-16: PJM's proposed June 1, 2029 effective date for the new transmission services presumably means PJM cannot start studying these innovative solutions for over three years, and the goal should be to implement needed reforms earlier than 2029 given the…
+- Data Center Coalition, 2026-03-16: Clearer interconnection rules for existing generators also require more concrete timelines for reviewing and approving Necessary Studies and CIR revisions, and PJM needs to account for CIRs going to the specific co-located customer so a generator…
+- Against this side, Virginia State Corporation Commission, 2025-12-15 (contradicts): Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…
+
+Side: The bill no state can shield (The capacity price reaches every bill before any invoice is drawn; no state tariff can shield households from a wholesale scarcity.)
+- Monitoring Analytics (PJM market monitor), 2025-12-05: The central issue facing PJM, which the Market Monitor says the ANOPR appears to largely ignore, is that there is not enough generating capacity to reliably serve the large loads that want to be online quickly.
+- Monitoring Analytics (PJM market monitor), 2025-12-05: The Market Monitor states that the current failure to impose a reliability requirement has led to large increases in capacity market prices, and also in energy market prices and transmission costs.
+- Virginia State Corporation Commission, 2025-12-15: Taking action specific to the PJM region appears to the VSCC to be both premature and potentially harmful, to the extent it conflicts with later guidance through the NOPR process, since the ANOPR already frames whether and how hybrid loads…
+- Virginia State Corporation Commission, 2025-12-05: Implementing a minimum set of standards designed to remove bottlenecks within the interconnection queue itself can expedite interconnections without disturbing existing state-federal jurisdictional boundaries.
+- Maryland Office of People's Counsel, 2026-06-11: Fixing cost allocation alone is insufficient if planning inputs remain corrupted by speculative and duplicative load forecasts, so a remedy must also reform the planning process to eliminate speculative load forecasts.
+- Maryland Office of People's Counsel, 2026-06-11: Absent regional reform, state-level remedies such as large load tariffs may worsen the problem by magnifying the incentive to overbuild while shifting costs to customers elsewhere in PJM.
+- Exelon, 2026-01-16: Because the transmission system is not a one-and-done investment but evolves and requires maintenance at a cost, a model where initial investment absolves co-located loads of ongoing contributions leaves other customers holding the bag and creates…
+- TSCS, 2026-02-26: Interconnection queues, turbine shortages, and permitting gridlock are preventing $33 billion offers from translating into actual megawatts of new capacity.
+- TSCS, 2026-08-11: The PJM capacity auction price for mid-Atlantic grid generation cleared at $269.92 per megawatt-day in July 2024, up 9x from the previous auction's $28.92, with all subsequent auctions clearing at administrative price caps.
+- Market Sentiment, 2026-07-10: Market Sentiment treats the January joint declaration by the governors of all 13 PJM states with the Trump administration that power prices be reined in and that data centers pay their grid costs, together with the extension of the capacity-auction…
+- Earthjustice, 2026-04-24: Earthjustice argues that no commenter describes what financial penalty would be sufficient in practice, likely because none of them know what penalty would convince large load customers—who have virtually unlimited capital and very high contractual…
+- Against this side, North American Electric Reliability Corporation, 2026-02-24 (qualifies): Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…
+
+Side: The plant is late (Neither the load nor the plants arrive when the bills assume: projections outrun what is built, and much of the queue is phantom.)
+- North American Electric Reliability Corporation, 2026-04-23: Over the past two years NERC's LTRA has shown that industry resource growth projections can outpace actual completion rates, with efforts to interconnect resources hampered by unresponsive supply chains, permitting delays, and project owner…
+- North American Electric Reliability Corporation, 2026-02-24: Large loads inherently add volatility to load forecasts because project timelines and commitments can vary with construction, permitting approvals, grid development and data center owner decisions; revised ERCOT and PJM forecasts prepared after the…
+- Electric Reliability Council of Texas, 2026-05-24: ERCOT reports it is tracking roughly 438 GW of Large Load interconnection requests and roughly 452 GW of Generation Interconnection requests.
+- Electric Reliability Council of Texas, 2026-05-24: The 438 GW of Large Load interconnection requests is tracked through the current PGRR115-based process, in which the vast majority of requests have no studies submitted; that process ends July 10, 2026, when ERCOT switches to a batch-based…
+- Reyk Knuhtsen, 2026-06-18: ERCOT illustrates phantom demand: as of April 2026 it was assessing more than 410 GW of large-load interconnection requests, over 87% from datacenters, against a Texas all-time peak of about 85 GW, and they count 311 GW of that as phantom…
+- Reyk Knuhtsen, 2026-06-18: They acknowledge open questions in judging real delays: some projects may die on local opposition while others pass and unseat the council members who approved them, labor can be imported or become a constraint, and behind-the-meter power remains a…
+- Jeremie Eliahou Ontiveros, 2026-06-25: They expect power generation to be a major bottleneck to grid-connected datacenter load growth, pointing to utilities revising promised load ramps by years because long-lead interconnection equipment is unavailable, and to buyers now bearing the…
+- Mia Silverio, 2026-09-28: Investors are understandably nervous because an estimated 30% to 50% of data center capacity planned to come online this year will be delayed, as constructors face grid connection issues, power equipment supply shortages, and increasingly community…
+- TSCS, 2026-02-26: PJM's 2027/2028 Base Residual Auction failed to meet the reliability requirement for the first time since the capacity market's creation in 2007, achieving only a 14.8% reserve margin against a 20.0% target, a shortfall of 6,623 MW.
+
+Side: Voices that cross sides
+- Jason Bordoff: On his program, Millican's large-load tariffs and 260 GW; Arent's spare grids.
+- TSCS: The capacity price ninefold; the auction short; on-site power could shrink the gap.
+- NRG Energy: Own generation answers affordability; the influx of large loads threatens bills.
+- Alphabet: Shield households by cost causation; $24B of Texas lines need loads that connect.
+
+THE DATA DESK
+Chart: Who pays the power bill first
+Household electricity prices in the nine jurisdictions PJM serves against the other 42 states, the nation and Texas, from the federal monthly filings and refreshed with each release. Switch to the latest month, then sort by the biggest rise or by group.
+What it reads: Over the twelve months to July 2026, the median household price per kilowatt-hour across the nine PJM jurisdictions rose 11.7%, against 5.6% for the other 42 states and 6.6% nationally. The data center shows up on the household bill before it shows up on anyone's balance sheet.
+Source: U.S. Energy Information Administration, EIA-861M monthly sales and revenue, as first published Sep 24, 2026; DeepStack calculation (residential revenue divided by residential sales; medians are DeepStack arithmetic). (as of 2026-07-31)
+Figures: {"groups":["PJM jurisdictions","The other 42","Reference"],"sourceNote":"Price is revenue divided by sales, cents per kilowatt-hour, as the EIA publishes it; the twelve-month view compares average prices over the two years; the medians are DeepStack arithmetic.","views":[{"decimals":1,"id":"year","items":[{"group":"PJM jurisdictions","label":"District of Columbia","value":21.9},{"group":"PJM jurisdictions","label":"Maryland","value":13.2},{"group":"PJM jurisdictions","label":"Pennsylvania","value":12.8},{"group":"PJM jurisdictions","label":"New Jersey","value":12.2},{"group":"PJM jurisdictions","label":"Ohio","value":11.7},{"group":"PJM jurisdictions","label":"Virginia","value":11.5},{"group":"PJM jurisdictions","label":"Illinois","value":11.4},{"group":"PJM jurisdictions","label":"Delaware","value":5.7},{"group":"PJM jurisdictions","label":"West Virginia","value":0.6},{"group":"The other 42","label":"Median of the other 42 states","value":5.6},{"group":"Reference","label":"United States","value":6.6},{"group":"Reference","label":"Texas","value":4.8}],"label":"12 months","readout":"District of Columbia moved most, +21.9%. PJM jurisdictions: median +11.7%.","signed":true,"suffix":"%","unitLabel":"Average price, August 2025 to July 2026, against the twelve months before"}]}
+
+THE CALL (DeepStack's house view, in words)
+Stance: The ratepayer pays first
+Line: Data centers pay for their own wires. The higher capacity price their demand sets lands first on every PJM household's bill.
+What would change the Call:
+- The median gap between PJM's nine and the other 42 falls below four points in the federal data for 2026.
+- A rule makes large loads bring their own capacity, and PJM's December 9 auction clears below the price ceiling.
+- Texas household prices rise as fast as PJM's in the 2026 data, putting the cause in the fuel and wires both grids share.
+The Call expects the answer yes.
