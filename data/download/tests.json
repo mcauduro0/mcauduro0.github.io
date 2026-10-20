@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:00:27.105Z",
+  "generatedAt": "2026-10-20T03:33:09.574Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -1285,9 +1285,9 @@
       "slug": "the-bubble-is-in-the-denominator",
       "index": 0,
       "when": "Late October",
-      "date": "2026-10-28",
+      "date": "2026-10-21",
       "precision": "day",
-      "event": "Microsoft, Alphabet, Meta and Amazon report; depreciation, server lives and 29.5% growth will test the earnings denominator.",
+      "event": "Meta reports October 21, Microsoft and Alphabet October 28 and Amazon October 29; depreciation, server lives and 29.5% growth will test the earnings denominator.",
       "source": {
         "kind": "fmp-earnings",
         "ref": "Company earnings calendar, date via Financial Modeling Prep",
@@ -1295,7 +1295,7 @@
       },
       "resolver": {
         "kind": "earnings",
-        "symbol": "MSFT",
+        "symbol": "META",
         "rule": "Sum depreciation and amortization, and sum operating income, for the four companies for the September quarter of 2026 and of 2025, from each release or 10-Q. The answer is yes if the year-over-year growth rate of depreciation is above the rate of operating income; no if it is equal or below. A change to server useful lives disclosed in the same filings is DeepStack's reading into the Result, not the answer.",
         "question": "Did the combined depreciation and amortization of Microsoft, Alphabet, Meta and Amazon for the quarter ended September 30, 2026 grow faster from the year-earlier quarter than their combined operating income?",
         "source": {
@@ -1495,7 +1495,7 @@
       "when": "October 28",
       "date": "2026-10-28",
       "precision": "day",
-      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, whether the $10.8 billion of restricted cash stays restricted.",
+      "event": "Microsoft reports: the share of backlog due within twelve months, 30% last quarter, and whether the near book's growth closes on the far book's 113%; at Alphabet, whether the TPU contracts inside cloud backlog get a size; at Meta, which reports October 21, whether the $10.8 billion of restricted cash stays restricted.",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",
@@ -1657,7 +1657,7 @@
       "when": "October 28",
       "date": "2026-10-28",
       "precision": "day",
-      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "event": "Alphabet and Microsoft report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "source": {
         "kind": "story",
         "ref": "watchlist[0].date",

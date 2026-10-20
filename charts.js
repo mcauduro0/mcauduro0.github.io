@@ -681,6 +681,204 @@ TYPES.indexed = {
   }
 };
 
+// ---------- ratio (19 October 2026): two reported lines, one quotient per period ----------
+// The chart of a Part that compares two lines of a filing (capital spending over operating cash,
+// receivables over revenue, interest over revenue). Spec: unitLabel; suffix ('%' or ' days') and
+// decimals; factor (100 for a share, 91 for days of sales); numLabel and denLabel; entities
+// [{id, label, short, rows: [{label, sub?, num, den} | {label, value}]}] with `selected`; windows
+// [{id, label, periods}] (optional, the first is the base); ref {value, label} (optional reference
+// line); rule {label, base, min, max, step, decimals?, noun?} (optional slider: a yardstick in the
+// quotient's unit, turned into dollars on the latest period). A fed entry (src/series.mjs) rebuilds
+// the rows from the store at each build; a frozen one carries the rows the Part reported.
+// "Q2 2026" reads as is; "Quarter to Jul 26, 2026" reads as "the quarter to Jul 26, 2026" mid-sentence.
+const inLabel = (l) => (/^Quarter to /.test(String(l)) ? `the q${String(l).slice(1)}` : String(l));
+const ratioValue = (row, factor) => (typeof row.value === 'number' ? row.value : (row.num / row.den) * factor);
+export function ratioRows(entity, factor) { return (entity.rows || []).map((r) => ({ ...r, value: Number(ratioValue(r, factor).toFixed(2)) })); }
+TYPES.ratio = {
+  // One entity: no chip and no `e` in the state, so the scenario link carries only what the reader can move.
+  state: (spec) => ({ ...(spec.entities.length > 1 ? { e: spec.selected || spec.entities[0].id } : {}), ...(spec.windows && spec.windows.length > 1 ? { w: spec.windows[0].id } : {}), ...(spec.rule ? { rule: spec.rule.base } : {}) }),
+  names: { e: 'company', w: 'window' },
+  labels: { rule: (s, spec) => fmt(s.rule, { suffix: spec.suffix, decimals: spec.rule.decimals ?? 0 }) },
+  pick: (spec, s) => (s.e ? spec.entities.find((e) => e.id === s.e) : spec.entities.find((e) => e.id === spec.selected)) || spec.entities[0],
+  shown(spec, s) {
+    const rows = ratioRows(this.pick(spec, s), spec.factor);
+    const w = spec.windows && spec.windows.find((x) => x.id === s.w);
+    return w && w.periods ? rows.slice(-w.periods) : rows;
+  },
+  ref: (spec, s) => (spec.rule ? Number(s.rule) : spec.ref && typeof spec.ref.value === 'number' ? spec.ref.value : null),
+  controls(spec, s) {
+    const parts = [];
+    if (spec.entities.length > 1) parts.push(segmented('e', spec.entities.map((e) => ({ id: e.id, label: e.short || e.label })), s.e, spec.entityLabel || 'Company'));
+    if (spec.windows && spec.windows.length > 1) parts.push(segmented('w', spec.windows, s.w, 'Window'));
+    if (spec.rule) parts.push(`<div class="sliders">${slider(this, spec, s, { key: 'rule', label: spec.rule.label, min: spec.rule.min, max: spec.rule.max, step: spec.rule.step, hint: spec.rule.hint || '' })}</div>`);
+    return parts.join('');
+  },
+  plot(spec, s) {
+    const rows = this.shown(spec, s);
+    const ref = this.ref(spec, s);
+    const f = (v) => fmt(v, spec);
+    const max = Math.max(...rows.map((r) => r.value), ref || 0, 1e-9) * 1.06;
+    const list = `<ol class="rows ratio-rows">${rows.map((r, i) => {
+      const over = typeof ref === 'number' && r.value > ref;
+      return `<li${i === rows.length - 1 ? ' class="is-latest"' : ''}><span class="row-label">${esc(r.label)}${r.sub ? `<small>${esc(r.sub)}</small>` : ''}</span><span class="track">${typeof ref === 'number' ? `<span class="track-base" style="left:${pct((ref / max) * 100)}"></span>` : ''}<span class="bar ${over ? 'bar-neg' : 'bar-ink'}${r.implied ? ' is-implied' : ''}" style="width:${pct((r.value / max) * 100)}"></span></span><span class="row-value${over ? ' neg' : ''}">${f(r.value)}${r.implied ? impliedTag : ''}</span></li>`;
+    }).join('')}</ol>`;
+    const last = rows[rows.length - 1];
+    const cells = [];
+    if (typeof last.num === 'number' && typeof last.den === 'number') {
+      cells.push([`${spec.numLabel}, ${last.label}`, money(last.num)]);
+      cells.push([`${spec.denLabel}, ${last.label}`, money(last.den)]);
+    }
+    if (spec.rule && typeof last.den === 'number') {
+      const gap = ((last.value - Number(s.rule)) / spec.factor) * last.den;
+      cells.push([`${gap >= 0 ? 'Above' : 'Below'} your ${spec.rule.noun || 'yardstick'}, ${last.label}`, money(Math.abs(gap)), gap > 0 ? 'neg' : 'pos']);
+    } else if (typeof ref === 'number') {
+      cells.push([`Periods above ${f(ref)}`, `${rows.filter((r) => r.value > ref).length} of ${rows.length}`]);
+    }
+    const stats = cells.length ? `<div class="ratio-stats">${cells.map(([k, v, tone]) => `<p${tone ? ` class="is-${tone}"` : ''}><span>${esc(k)}</span><b>${esc(v)}</b></p>`).join('')}</div>` : '';
+    const mark = typeof ref === 'number' ? `; the mark is ${spec.rule ? 'your yardstick' : esc(spec.ref.label)}` : '';
+    return `<p class="unit-label">${esc(spec.unitLabel)}${mark}</p>${list}${stats}`;
+  },
+  readout(spec, s) {
+    const e = this.pick(spec, s);
+    const rows = this.shown(spec, s);
+    const ref = this.ref(spec, s);
+    const f = (v) => fmt(v, spec);
+    const first = rows[0]; const last = rows[rows.length - 1];
+    const dir = last.value > first.value + 1e-9 ? 'up from' : last.value < first.value - 1e-9 ? 'down from' : 'level with';
+    let out = `${e.label}: ${f(last.value)} in ${inLabel(last.label)}, ${dir} ${f(first.value)} in ${inLabel(first.label)}.`;
+    if (spec.rule && typeof last.den === 'number') {
+      const gap = ((last.value - Number(s.rule)) / spec.factor) * last.den;
+      out += ` At your yardstick of ${f(Number(s.rule))}, the latest period carries ${money(Math.abs(gap))} ${gap >= 0 ? 'more' : 'less'} than the yardstick allows.`;
+    } else if (typeof ref === 'number') {
+      const n = rows.filter((r) => r.value > ref).length;
+      out += ` ${n === 0 ? 'No period shown is' : n === rows.length ? 'Every period shown is' : `${n} of the ${rows.length} periods shown are`} above ${f(ref)}.`;
+    }
+    return out;
+  },
+  table(spec) {
+    const f = (v) => fmt(v, spec);
+    return spec.entities.map((e) => {
+      const rows = ratioRows(e, spec.factor);
+      const withLines = rows.some((r) => typeof r.num === 'number');
+      return withLines
+        ? table([`${e.label}: period`, spec.numLabel, spec.denLabel, spec.unitLabel], rows.map((r) => [r.label, typeof r.num === 'number' ? money(r.num) : '—', typeof r.den === 'number' ? money(r.den) : '—', f(r.value)]))
+        : table([`${e.label}: period`, spec.unitLabel], rows.map((r) => [r.label, f(r.value)]));
+    }).join('');
+  }
+};
+
+// ---------- split (19 October 2026): a yield's move between two dates, real against expected inflation ----------
+// Spec: series {nominal, real, breakeven} as [[ISO date, value]] daily closes (breakeven may be
+// omitted: it is nominal minus real); labels {nominal, real, breakeven}; presets [{id, label,
+// date}] of starting dates with `selected`. The end is the last close of `nominal`.
+const closeOn = (points, date) => { let found = null; for (const p of points || []) { if (p[0] <= date) found = p; else break; } return found; };
+TYPES.split = {
+  state: (spec) => ({ from: spec.selected || spec.presets[0].id }),
+  names: { from: 'starting date' },
+  pick: (spec, s) => spec.presets.find((p) => p.id === s.from) || spec.presets[0],
+  legs(spec, s) {
+    const p = this.pick(spec, s);
+    const end = spec.series.nominal[spec.series.nominal.length - 1][0];
+    const n0 = closeOn(spec.series.nominal, p.date); const n1 = closeOn(spec.series.nominal, end);
+    const r0 = closeOn(spec.series.real, p.date); const r1 = closeOn(spec.series.real, end);
+    const be = (n, r, d) => { const b = spec.series.breakeven && closeOn(spec.series.breakeven, d); return b ? b[1] : n[1] - r[1]; };
+    const b0 = be(n0, r0, p.date); const b1 = be(n1, r1, end);
+    const dN = Math.round((n1[1] - n0[1]) * 100); const dR = Math.round((r1[1] - r0[1]) * 100); const dB = Math.round((b1 - b0) * 100);
+    return { p, start: n0[0], end: n1[0], n0: n0[1], n1: n1[1], r0: r0[1], r1: r1[1], b0, b1, dN, dR, dB };
+  },
+  controls(spec, s) {
+    return `<p class="controls-label">Count the move from</p>${segmented('from', spec.presets.map((p) => ({ id: p.id, label: `${p.label} (${shortDate(p.date).replace(/, \d{4}$/, '')})` })), s.from, 'Starting date')}`;
+  },
+  plot(spec, s) {
+    const L = this.legs(spec, s);
+    const bpS = (n) => fmt(n, { suffix: ' bp', signed: true });
+    const tone = (n) => (n > 0 ? 'dn-neg' : n < 0 ? 'dn-pos' : '');
+    const t = (d) => Date.parse(`${d}T12:00:00Z`);
+    const win = (pts) => pts.filter(([d]) => d >= L.start && d <= L.end);
+    const nom = win(spec.series.nominal); const real = win(spec.series.real);
+    const values = [...nom.map((x) => x[1]), ...real.map((x) => x[1])];
+    const [yMin, yMax] = niceRange(values, 0.5);
+    const xTicks = spread(nom.length, 5).map((i) => ({ x: t(nom[i][0]), label: shortDate(nom[i][0]).replace(/, \d{4}$/, '') }));
+    const chart = nom.length > 1 ? lineChart({
+      xMin: t(nom[0][0]), xMax: t(nom[nom.length - 1][0]), yMin, yMax, yTicks: ticksFor(yMin, yMax, 0.5), yFmt: (v) => `${v.toFixed(1)}%`, xTicks,
+      series: [{ key: 'now', points: nom.map(([d, v]) => [t(d), v]) }, { key: 's1', points: real.map(([d, v]) => [t(d), v]) }],
+      dots: [{ key: 'now', x: t(nom[nom.length - 1][0]), y: L.n1, label: `${L.n1.toFixed(2)}%` }, { key: 's1', x: t(real[real.length - 1][0]), y: L.r1, label: `${L.r1.toFixed(2)}%`, below: true }]
+    }) : '';
+    const total = Math.abs(L.dR) + Math.abs(L.dB) || 1;
+    const parts = [{ label: spec.labels.real, value: L.dR }, { label: spec.labels.breakeven, value: L.dB }];
+    return `<div class="dn-stats split-stats">
+  <p class="dn-stat ${tone(L.dN)}"><span class="dn-label">${esc(spec.labels.nominal)}</span><span class="dn-value">${bpS(L.dN)}</span></p>
+  <p class="dn-stat ${tone(L.dR)}"><span class="dn-label">${esc(spec.labels.real)}</span><span class="dn-value">${bpS(L.dR)}</span></p>
+  <p class="dn-stat ${tone(L.dB)}"><span class="dn-label">${esc(spec.labels.breakeven)}</span><span class="dn-value">${bpS(L.dB)}</span></p>
+</div>
+<div class="decomp"><p class="mini-label">The ${bpS(L.dN)} move from ${esc(shortDate(L.start))} to ${esc(shortDate(L.end))}, by part</p><div class="decomp-bar">${parts.map((x, i) => `<span class="decomp-part decomp-${i}" style="width:${pct((Math.abs(x.value) / total) * 100)}">${Math.abs(x.value) / total > 0.2 ? `<b>${bpS(x.value)}</b>` : ''}</span>`).join('')}</div><p class="decomp-legend">${parts.map((x, i) => `<span><i class="decomp-key decomp-${i}"></i>${esc(x.label)}</span>`).join('')}</p></div>
+${nom.length > 1 ? `${liveLegend([{ key: 'now', label: spec.labels.nominal }, { key: 's1', label: spec.labels.real }])}${chart}` : ''}`;
+  },
+  readout(spec, s) {
+    const L = this.legs(spec, s);
+    const bpS = (n) => fmt(n, { suffix: ' bp', signed: true });
+    const share = L.dN ? Math.round((L.dR / L.dN) * 100) : 0;
+    const verdict = !L.dN ? 'The yield is where it started.' : share >= 70 ? 'That is the market charging more for money, not pricing more inflation.' : share <= 30 ? 'That is expected inflation doing the work, not the real price of money.' : 'Both halves moved.';
+    return `From ${shortDate(L.start)} to ${shortDate(L.end)}, the ${spec.labels.nominal} moved ${bpS(L.dN)}: ${bpS(L.dR)} from the real yield and ${bpS(L.dB)} from expected inflation. ${verdict}`;
+  },
+  table(spec) {
+    const s = this.state(spec);
+    const bpS = (n) => fmt(n, { suffix: ' bp', signed: true });
+    const rows = spec.presets.map((p) => { const L = this.legs(spec, { from: p.id }); return [`${p.label} (${shortDate(L.start)})`, `${L.n0.toFixed(2)}%`, `${L.r0.toFixed(2)}%`, `${L.b0.toFixed(2)}%`, bpS(L.dN), bpS(L.dR), bpS(L.dB)]; });
+    const L = this.legs(spec, s);
+    rows.push([`Latest close (${shortDate(L.end)})`, `${L.n1.toFixed(2)}%`, `${L.r1.toFixed(2)}%`, `${L.b1.toFixed(2)}%`, '—', '—', '—']);
+    return table(['Date', spec.labels.nominal, spec.labels.real, spec.labels.breakeven, 'Move to latest', 'Of it, real', 'Of it, inflation'], rows);
+  }
+};
+
+// ---------- convert (19 October 2026): a stock of orders and the revenue a conversion rate implies ----------
+// Spec: cases [{id, label, short, backlog, backlogLabel, mark, markLabel, rate, rateLabel, who,
+// unitLabel?, prefix?, suffix?, decimals?}] with `selected`; min, max, step of the rate slider
+// (shared by the cases so the control's limits are one contract). Implied = backlog × rate.
+TYPES.convert = {
+  state(spec) { const c = this.pick(spec, { c: spec.selected }); return { c: c.id, r: c.rate }; },
+  labels: { r: (s) => `${Number(s.r).toFixed(0)}%` },
+  names: { c: 'case', r: 'conversion rate' },
+  pick: (spec, s) => spec.cases.find((c) => c.id === s.c) || spec.cases[0],
+  fmtOf: (spec, c) => ({ prefix: c.prefix ?? spec.prefix ?? '', suffix: c.suffix ?? spec.suffix ?? '', decimals: c.decimals ?? spec.decimals ?? 0 }),
+  // Switching the case while the slider sits at the old case's base moves it to the new base.
+  adjust(spec, s, patch) {
+    if (!patch.c || patch.c === s.c) return patch;
+    const was = this.pick(spec, s);
+    return same(Number(s.r), was.rate) ? { ...patch, r: this.pick(spec, { c: patch.c }).rate } : patch;
+  },
+  controls(spec, s) {
+    const c = this.pick(spec, s);
+    const parts = [];
+    if (spec.cases.length > 1) parts.push(segmented('c', spec.cases.map((x) => ({ id: x.id, label: x.short || x.label })), s.c, spec.caseLabel || 'Case'));
+    parts.push(`<div class="sliders">${slider(this, spec, s, { key: 'r', label: c.rateLabel, min: spec.min, max: spec.max, step: spec.step || 1 })}</div>`);
+    return parts.join('');
+  },
+  plot(spec, s) {
+    const c = this.pick(spec, s);
+    const F = this.fmtOf(spec, c);
+    const f = (v) => fmt(v, F);
+    const implied = c.backlog * (Number(s.r) / 100);
+    const max = Math.max(c.backlog, c.mark, implied) * 1.04;
+    const over = implied >= c.mark;
+    const row = (label, value, cls, sub = '') => `<li><span class="row-label">${esc(label)}${sub ? `<small>${esc(sub)}</small>` : ''}</span><span class="track"><span class="track-base" style="left:${pct((c.mark / max) * 100)}"></span><span class="bar ${cls}" style="width:${pct((value / max) * 100)}"></span></span><span class="row-value">${f(value)}</span></li>`;
+    return `<p class="unit-label">${esc(c.unitLabel || spec.unitLabel || '')}; the mark is ${esc(c.markLabel.replace(/^[A-Z](?=[a-z])/, (ch) => ch.toLowerCase()))}</p>
+<ol class="rows convert-rows">${row(c.backlogLabel, c.backlog, 'bar-ink', c.who)}${row(`Implied at ${Number(s.r).toFixed(0)}%`, implied, over ? 'bar-amber' : 'bar-amber is-implied', 'DeepStack arithmetic')}${row(c.markLabel, c.mark, 'key-0')}</ol>
+<div class="ratio-stats"><p><span>Implied at ${Number(s.r).toFixed(0)}%</span><b>${f(implied)}</b></p><p><span>${esc(c.markLabel)}</span><b>${f(c.mark)}</b></p><p class="${over ? 'is-pos' : 'is-neg'}"><span>Implied against the mark</span><b>${(implied / c.mark).toFixed(2)}×</b></p></div>`;
+  },
+  readout(spec, s) {
+    const c = this.pick(spec, s);
+    const f = (v) => fmt(v, this.fmtOf(spec, c));
+    const implied = c.backlog * (Number(s.r) / 100);
+    const m = implied / c.mark;
+    return `${c.label}: at ${Number(s.r).toFixed(0)}%, ${f(c.backlog)} of ${c.backlogLabel.replace(/^[A-Z](?=[a-z])/, (ch) => ch.toLowerCase())} implies ${f(implied)}, ${m >= 1 ? `${m.toFixed(2)} times` : `${Math.round(m * 100)}% of`} ${c.markLabel.replace(/^[A-Z](?=[a-z])/, (ch) => ch.toLowerCase())} (${f(c.mark)}).`;
+  },
+  table(spec) {
+    const rates = []; for (let r = spec.min; r <= spec.max + 1e-9; r += Math.max(spec.tableStep || 10, spec.step || 1)) rates.push(r);
+    return spec.cases.map((c) => { const f = (v) => fmt(v, this.fmtOf(spec, c)); return table([`${c.label}: conversion rate`, `Implied from ${f(c.backlog)}`, `Against ${c.markLabel.replace(/^[A-Z](?=[a-z])/, (ch) => ch.toLowerCase())} (${f(c.mark)})`], rates.map((r) => [`${r}%`, f(c.backlog * r / 100), `${(c.backlog * r / 100 / c.mark).toFixed(2)}×`])); }).join('');
+  }
+};
+
 // ---------- Temporal contract (UX-1.12) ----------
 // One line under the dek: when the numbers are from, how often they move, when the source published
 // them, when we read them, what kind of number they are and when the next release is due. Missing

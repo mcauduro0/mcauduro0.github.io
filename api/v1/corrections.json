@@ -1,12 +1,52 @@
 {
-  "generatedAt": "2026-10-20T02:00:27Z",
+  "generatedAt": "2026-10-20T03:33:09Z",
   "url": "https://deepstack.ltd/corrections/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/corrections.json",
   "policy": "When we get a fact wrong, we correct it in place and say so at the top of the story, with the date of the change.",
-  "count": 1,
-  "stories": 1,
+  "count": 5,
+  "stories": 4,
   "corrections": [
+    {
+      "date": "2026-10-20",
+      "text": "An earlier version listed Meta among the companies reporting on October 28, 2026, with Alphabet and Microsoft. Meta's investor relations page dates its September-quarter report October 21, 2026.",
+      "part": 12,
+      "slug": "the-model-is-not-the-price",
+      "story": "The Model Is Not the Price",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#correction-1",
+      "storyUrl": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-model-is-not-the-price.json"
+    },
+    {
+      "date": "2026-10-20",
+      "text": "An earlier version listed Meta among the companies reporting on October 28, 2026. Meta's investor relations page dates its September-quarter report October 21, 2026.",
+      "part": 11,
+      "slug": "the-backlog-is-not-the-quarter",
+      "story": "The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/#correction-2",
+      "storyUrl": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-backlog-is-not-the-quarter.json"
+    },
+    {
+      "date": "2026-10-20",
+      "text": "An earlier version listed Meta among the companies reporting on October 28, 2026. Meta reports its September quarter on October 21, Microsoft and Alphabet on October 28 and Amazon on October 29, according to each company's investor relations page.",
+      "part": 10,
+      "slug": "the-bubble-is-in-the-denominator",
+      "story": "The Bubble Is in the Denominator",
+      "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/#correction-1",
+      "storyUrl": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/",
+      "api": "https://deepstack.ltd/api/v1/stories/the-bubble-is-in-the-denominator.json"
+    },
+    {
+      "date": "2026-10-20",
+      "text": "An earlier version said Meta would report its September quarter on October 28, 2026. Meta's investor relations page dates the report October 21, 2026.",
+      "part": 9,
+      "slug": "habit-was-the-moat",
+      "story": "Habit Was the Moat. Agents Are Draining It.",
+      "url": "https://deepstack.ltd/stories/habit-was-the-moat/#correction-1",
+      "storyUrl": "https://deepstack.ltd/stories/habit-was-the-moat/",
+      "api": "https://deepstack.ltd/api/v1/stories/habit-was-the-moat.json"
+    },
     {
       "date": "2026-10-14",
       "text": "An earlier version dated Oracle's second-quarter report December 9, 2026, the day of the Fed's December decision. Oracle's investor relations page dates it December 14, 2026.",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:00:27Z",
+  "generatedAt": "2026-10-20T03:33:09Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 12,
   "slug": "the-model-is-not-the-price",
@@ -82,7 +82,7 @@
       "whenLabel": "Oct 28, 2026",
       "date": "2026-10-28",
       "precision": "day",
-      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "event": "Alphabet and Microsoft report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "status": "pending",
       "resultId": null,
       "sameAs": null,
@@ -321,7 +321,13 @@
     }
   ],
   "earlierVersion": "https://deepstack.ltd/stories/the-model-is-not-the-price/",
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2026-10-20",
+      "text": "An earlier version listed Meta among the companies reporting on October 28, 2026, with Alphabet and Microsoft. Meta's investor relations page dates its September-quarter report October 21, 2026.",
+      "url": "https://deepstack.ltd/stories/the-model-is-not-the-price/#correction-1"
+    }
+  ],
   "wordCount": 1905,
   "pullQuote": "The model is not the price. The filing is.",
   "verdict": "DeepStack's view is that the price has left the model. The gap to open weights is about four months by Slok's July 16 reading of Epoch, a majority of tokens on the two platforms that count them had moved to open or Chinese models by September, and Anthropic's list price undercut OpenAI's by 60% on September 27. What still commands a price is the lab. Ren measured it in the completed job, George located it in distribution, and Erkan counts it in the dollars that have not followed the volume. The single most important reason for caution is that no audited figure for that price is on EDGAR. Longriver's $50 billion in May, Romero's $65 billion in July and Kim's $70 billion for OpenAI on October 2 are three readings on three dates, and only the registration statement the Docket tests for by October 31 puts them on one line. DeepStack expects the filing to show a lab that is paid, in part by its investors: the first reading on the revenue, the third on what it is worth. The view changes if a prospectus shows audited revenue near the relayed run-rates with no customer above a tenth of sales and no investor-linked revenue large enough to disclose, or if Alphabet sizes the TPU contracts on October 28 and Cloud growth holds without them. The first answer arrives October 28.",
@@ -386,7 +392,7 @@
       "id": "p12-t01",
       "date": "2026-10-28",
       "whenLabel": "Oct 28, 2026",
-      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "event": "Alphabet and Microsoft report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "stage": "pre",
       "stageLabel": "Pre-specified",
       "status": "pending",
@@ -407,7 +413,7 @@
     "Alphabet is where that argument has a date. Michael Burry, on September 24, read Google Cloud's 112% backlog growth as suspect because a category of unknown size, TPU system sales contracts, entered the book in the last six months, and one of the largest TPU customers is Anthropic, in which Alphabet holds 14% and agreed in April to invest up to $40 billion. Market Sentiment, on September 17, reasoned from the spending down: about $1.2 trillion of AI capex next year should drive about $2 trillion of incremental revenue. The two were judged in contradiction, and DeepStack sides with Burry, whose charge rests on a related-party contract that a filing must disclose, where Market Sentiment's figure rests on an assumed rate of return. Daniel Romero's September 21 arithmetic lands against Market Sentiment the same way: a one-year payback on the 2027 buildout would need $2.71 trillion to $3.26 trillion of lab revenue. Gaetano's Alphabet case of October 4 leans the other way, on Cloud at $24.8 billion in the second quarter, up 82%, and on the Anthropic agreement as a way Google earns beneath a rival's interface. Silverio's count narrows his case: Anthropic, one of Cloud's largest TPU customers by Burry's reading, carries the concentration she measured on October 5.",
     "The writers do not agree on the revenue itself, so each figure carries its date. Longriver's Anthropic run-rate was almost $50 billion in May. Romero's September 21 count has the two labs at $105 billion of annualized revenue in July, $40 billion at OpenAI and $65 billion at Anthropic. Kim's October 2 figure has OpenAI alone at $70 billion. Against those run-rates sits one trailing figure, the $4.6 billion for all of 2025 that Silverio relayed from the leaked prospectus on October 5, a tenth of the May run-rate. Eisman, on September 21, gave the timing: Anthropic will want to file while token usage is near its peak, and the same day he traced roughly 70% of the hyperscalers' AI revenue to the two labs. Spencer reported on September 16 that OpenAI had delayed its listing until next year; Le Shrub, on September 22, relayed Alex Karp's view that OpenAI will never list. The two were judged in contradiction on premise; the Docket tests Anthropic's filing by a date instead. Spencer's October 1 post puts Anthropic's listing in November; the October 31 line is Part 10's, inherited, and a registration statement is public before a roadshow.",
     "DeepStack reads this side as the one that names the test. Silverio's test is the house's first line: read the customer note before the growth rate, and her October 5 note says a quarter of revenue from two customers. The house adds two lines of its own. Revenue tied to investors: $180 billion committed against $1.1 trillion pledged back, Distillate's July 15 figure. And the margin on inference, which no writer has; what leaked to Reuters carries revenue and loss, not the margin, and nothing is on EDGAR. The filing side and the paid side read the same run-rates. One calls them demand. The other asks who paid.",
-    "October 28 supplies the first check. Alphabet, Microsoft and Meta report, and the Fed decides the same day. The line to track is whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them. Amazon follows on October 29; it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's 47% of Anthropic's sales through Amazon and Google.",
+    "October 28 supplies the first check. Alphabet and Microsoft report, and the Fed decides the same day. The line to track is whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them. Amazon follows on October 29; it does not break Anthropic out, so the test is what AWS discloses about its largest customers, against Silverio's 47% of Anthropic's sales through Amazon and Google.",
     "October 31 is Part 10's test, as the Docket states it: a registration statement with audited revenue, net loss and customer concentration on EDGAR, or shares trading. A confidential draft without an EDGAR filing resolves the test as inconclusive. Nvidia reports on November 18, and the question is whether it names the labs among its largest customers, against Eisman's September 21 count of roughly 70% of the hyperscalers' AI revenue from the two. The prospectus itself, whenever it is filed, is the Part's own test: the gross margin on inference, customer concentration against Silverio's quarter from two customers, and revenue tied to investors against Distillate's $180 billion committed and $1.1 trillion pledged back.",
     "What would prove DeepStack wrong is a prospectus with audited revenue near the run-rates the letters relayed, no customer above a tenth of sales and no investor-linked revenue large enough to disclose; or Alphabet sizing the TPU contracts on October 28 with Cloud growth holding without them, which would retire Burry's charge.",
     "Part twelve asks whether the frontier model still commands a price, and finds two answers on two clocks. The token's price is reset every few months, by whoever is four months behind. The lab's price is set once, by a filing that has not reached EDGAR. The model is not the price. The filing is."
@@ -446,7 +452,7 @@
       "whenLabel": "Oct 28, 2026",
       "date": "2026-10-28",
       "precision": "day",
-      "event": "Alphabet, Microsoft and Meta report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
+      "event": "Alphabet and Microsoft report, and the Fed decides the same day: whether the TPU system sales inside Google Cloud's backlog get a size, and whether Cloud growth holds near the second quarter's 82% without them.",
       "status": "pending",
       "resultId": null,
       "sameAs": null,
@@ -789,13 +795,6 @@
       "name": "Apollo Global Management",
       "ticker": "APO",
       "url": "https://deepstack.ltd/companies/apollo-global-management/"
-    },
-    {
-      "kind": "company",
-      "slug": "meta",
-      "name": "Meta",
-      "ticker": "META",
-      "url": "https://deepstack.ltd/companies/meta/"
     },
     {
       "kind": "company",
