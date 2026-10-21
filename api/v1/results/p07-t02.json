@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-10-21T15:54:47Z",
+  "url": "https://deepstack.ltd/results/p07-t02/",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "id": "p07-t02",
+  "testId": "p07-t02",
+  "part": 7,
+  "slug": "the-fed-hiked-the-long-end-kept-climbing",
+  "story": "The Fed Hiked. The Long End Still Climbed.",
+  "resolvedOn": "2026-10-19",
+  "verdict": "refuted",
+  "effect": "supports",
+  "effectLabel": "Supports the Call",
+  "callVerdict": "confirmed",
+  "callVerdictLabel": "Call held",
+  "callProbability": 35,
+  "answer": "no",
+  "brierGap": 0.123,
+  "headline": "Japan's holdings of U.S. Treasury securities fell: $1,103.9B at end-July 2026, $1,068.3B at end-August 2026.",
+  "body": [
+    "Treasury's Table 5 of major foreign holders, read on 2026-10-19, puts Japan's holdings at $1,068.3B at end-August 2026 against $1,103.9B at end-July 2026, a change of -$35.6B in the same table (U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities).",
+    "The rule compares the 2026-08 column with the 2026-07 column for Japan: the later figure is not higher, so the test resolves refuted."
+  ],
+  "evidence": [
+    {
+      "label": "Japan, 2026-07 column (billions of dollars)",
+      "value": "$1,103.9B",
+      "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+      "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+      "asOf": "2026-10-19"
+    },
+    {
+      "label": "Japan, 2026-08 column (billions of dollars)",
+      "value": "$1,068.3B",
+      "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+      "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+      "asOf": "2026-10-19"
+    }
+  ],
+  "callUpdate": {
+    "stance": null,
+    "conviction": null,
+    "note": "Conviction unchanged; the Call stands as written."
+  },
+  "approvedAt": "2026-10-21T15:53:28Z",
+  "specVersion": 2,
+  "version": 1,
+  "history": [],
+  "missing": null,
+  "next": null,
+  "anchorUrl": "https://deepstack.ltd/results/#result-p07-t02",
+  "api": "https://deepstack.ltd/api/v1/results/p07-t02.json",
+  "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#result-p07-t02",
+  "resolutionPackage": null,
+  "machines": [],
+  "page": {
+    "said": {
+      "asOf": "2026-10-15",
+      "call": {
+        "version": 2,
+        "date": "2026-10-09",
+        "stance": "Supply sets the long end",
+        "tone": "bear",
+        "conviction": 4,
+        "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year.",
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro",
+        "toneLabel": "Skeptical",
+        "convictionLabel": "High"
+      },
+      "test": {
+        "id": "p07-t02",
+        "when": "Mid-October",
+        "whenLabel": "Oct 15, 2026",
+        "date": "2026-10-15",
+        "precision": "window",
+        "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
+        "url": "https://deepstack.ltd/docket/#test-p07-t02"
+      },
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/"
+    },
+    "rule": {
+      "specState": "approved",
+      "question": "Did Japan's holdings of U.S. Treasury securities at the end of August 2026, in the Treasury International Capital table of major foreign holders published in mid-October, read higher than at the end of July 2026?",
+      "source": {
+        "label": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities (monthly text table)",
+        "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+      },
+      "rule": "Compare Japan's August 2026 line with its July 2026 line in the same table. The answer is yes if the August figure is higher; no if it is equal or lower.",
+      "ambiguity": "A table published after November 30, 2026, or a July figure revised in the same table so that the comparison changes sign, is inconclusive, and the Result says what was read and what was missing.",
+      "approvedLine": "Approved by Marco Cauduro on October 12, 2026.",
+      "afterTestDate": false
+    },
+    "happened": {
+      "headline": "Japan's holdings of U.S. Treasury securities fell: $1,103.9B at end-July 2026, $1,068.3B at end-August 2026.",
+      "body": [
+        "Treasury's Table 5 of major foreign holders, read on 2026-10-19, puts Japan's holdings at $1,068.3B at end-August 2026 against $1,103.9B at end-July 2026, a change of -$35.6B in the same table (U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities).",
+        "The rule compares the 2026-08 column with the 2026-07 column for Japan: the later figure is not higher, so the test resolves refuted."
+      ],
+      "evidence": [
+        {
+          "label": "Japan, 2026-07 column (billions of dollars)",
+          "value": "$1,103.9B",
+          "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+          "asOf": "2026-10-19"
+        },
+        {
+          "label": "Japan, 2026-08 column (billions of dollars)",
+          "value": "$1,068.3B",
+          "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+          "asOf": "2026-10-19"
+        }
+      ],
+      "missing": null,
+      "next": null,
+      "readers": null,
+      "machines": [],
+      "resolutionPackage": null
+    },
+    "changes": {
+      "note": "Conviction unchanged; the Call stands as written.",
+      "stance": null,
+      "conviction": null,
+      "moved": false,
+      "line": "The Call did not move: it stands at version 2, Supply sets the long end, conviction 4 of 5.",
+      "after": null,
+      "current": {
+        "version": 2,
+        "updatedOn": "2026-10-09",
+        "stance": "Supply sets the long end",
+        "conviction": 4,
+        "line": "The bond market is pricing the AI bill, not a recession. The Fed cannot hike its way to a lower 10-year."
+      }
+    }
+  },
+  "card": null
+}

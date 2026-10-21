@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:33:24.102Z",
+  "generatedAt": "2026-10-21T15:54:47.241Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -871,8 +871,8 @@
         ],
         "callExpects": "no"
       },
-      "status": "pending",
-      "resultId": null
+      "status": "refuted",
+      "resultId": "p07-t02"
     },
     {
       "id": "p07-t03",
@@ -932,13 +932,13 @@
       "part": 8,
       "slug": "the-scarcity-is-the-collateral",
       "index": 0,
-      "when": "Late October",
-      "date": "2026-10-20",
-      "precision": "window",
+      "when": "Oct 29",
+      "date": "2026-10-29",
+      "precision": "day",
       "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
       "source": {
-        "kind": "label",
-        "ref": "Late October",
+        "kind": "story",
+        "ref": "watchlist[0].date",
         "url": null
       },
       "resolver": {

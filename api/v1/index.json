@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:33:24Z",
+  "generatedAt": "2026-10-21T15:54:47Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -12,7 +12,7 @@
     "stories": 17,
     "tests": 78,
     "datedTests": 52,
-    "results": 1,
+    "results": 2,
     "corrections": 5,
     "sides": 17,
     "questions": 17,
@@ -52,6 +52,7 @@
     "result": {
       "template": "https://deepstack.ltd/api/v1/results/{id}.json",
       "ids": [
+        "p07-t02",
         "p03-t04"
       ],
       "page": "https://deepstack.ltd/results/{id}/"

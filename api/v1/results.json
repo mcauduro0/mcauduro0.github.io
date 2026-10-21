@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:33:24Z",
+  "generatedAt": "2026-10-21T15:54:47Z",
   "url": "https://deepstack.ltd/results/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/results.json",
@@ -8,34 +8,88 @@
   "brierRule": "From the tenth result whose specification carried a probability before the date, the Scorecard prints the Brier score: the mean of the squared gap between the probability the Call gave the yes answer and what happened, where 0 is perfect and 0.25 is a coin flip; a public consensus is printed beside it where one exists.",
   "brier": {
     "floor": 10,
-    "scored": 0,
+    "scored": 1,
     "score": null
   },
   "callVerdictRule": "A result is read against the Call: Call held when the result is the one the Call expected, Call missed when it is the one the Call did not expect, Call informed when the Call expected either, Inconclusive when the source did not settle the question. The test’s own answer to its question wears the Answer chip beside it and is the verdict field of the record.",
-  "count": 1,
+  "count": 2,
   "counts": {
     "confirmed": 0,
-    "refuted": 1,
+    "refuted": 2,
     "inconclusive": 0
   },
   "callVerdicts": {
-    "confirmed": 1,
+    "confirmed": 2,
     "refuted": 0,
     "inconclusive": 0,
     "informed": 0
   },
   "effects": {
-    "supports": 1,
+    "supports": 2,
     "weakens": 0,
     "informs": 0
   },
   "hitRate": {
     "floor": 10,
-    "rated": 0,
-    "held": 0,
+    "rated": 1,
+    "held": 1,
     "rate": null
   },
   "results": [
+    {
+      "id": "p07-t02",
+      "testId": "p07-t02",
+      "part": 7,
+      "slug": "the-fed-hiked-the-long-end-kept-climbing",
+      "story": "The Fed Hiked. The Long End Still Climbed.",
+      "resolvedOn": "2026-10-19",
+      "verdict": "refuted",
+      "effect": "supports",
+      "effectLabel": "Supports the Call",
+      "callVerdict": "confirmed",
+      "callVerdictLabel": "Call held",
+      "callProbability": 35,
+      "answer": "no",
+      "brierGap": 0.123,
+      "headline": "Japan's holdings of U.S. Treasury securities fell: $1,103.9B at end-July 2026, $1,068.3B at end-August 2026.",
+      "body": [
+        "Treasury's Table 5 of major foreign holders, read on 2026-10-19, puts Japan's holdings at $1,068.3B at end-August 2026 against $1,103.9B at end-July 2026, a change of -$35.6B in the same table (U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities).",
+        "The rule compares the 2026-08 column with the 2026-07 column for Japan: the later figure is not higher, so the test resolves refuted."
+      ],
+      "evidence": [
+        {
+          "label": "Japan, 2026-07 column (billions of dollars)",
+          "value": "$1,103.9B",
+          "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+          "asOf": "2026-10-19"
+        },
+        {
+          "label": "Japan, 2026-08 column (billions of dollars)",
+          "value": "$1,068.3B",
+          "source": "U.S. Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+          "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt",
+          "asOf": "2026-10-19"
+        }
+      ],
+      "callUpdate": {
+        "stance": null,
+        "conviction": null,
+        "note": "Conviction unchanged; the Call stands as written."
+      },
+      "approvedAt": "2026-10-21T15:53:28Z",
+      "specVersion": 2,
+      "version": 1,
+      "history": [],
+      "missing": null,
+      "next": null,
+      "url": "https://deepstack.ltd/results/p07-t02/",
+      "anchorUrl": "https://deepstack.ltd/results/#result-p07-t02",
+      "api": "https://deepstack.ltd/api/v1/results/p07-t02.json",
+      "storyUrl": "https://deepstack.ltd/stories/the-fed-hiked-the-long-end-kept-climbing/#result-p07-t02",
+      "resolutionPackage": null,
+      "machines": []
+    },
     {
       "id": "p03-t04",
       "testId": "p03-t04",

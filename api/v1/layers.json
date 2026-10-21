@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:33:24Z",
+  "generatedAt": "2026-10-21T15:54:47Z",
   "url": "https://deepstack.ltd/layers/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/layers.json",
@@ -169,18 +169,6 @@
       ],
       "nextTests": [
         {
-          "part": 8,
-          "id": "p08-t01",
-          "label": "Next test",
-          "when": "Oct 20, 2026",
-          "date": "2026-10-20",
-          "precision": "window",
-          "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
-          "status": "pending",
-          "stage": "pre",
-          "url": "https://deepstack.ltd/docket/#test-p08-t01"
-        },
-        {
           "part": 14,
           "id": "p14-t01",
           "label": "Next test",
@@ -191,6 +179,18 @@
           "status": "pending",
           "stage": "pre",
           "url": "https://deepstack.ltd/docket/#test-p14-t01"
+        },
+        {
+          "part": 8,
+          "id": "p08-t01",
+          "label": "Next test",
+          "when": "Oct 29, 2026",
+          "date": "2026-10-29",
+          "precision": "day",
+          "event": "September-quarter results test cash flow toward $2 trillion and whether maintenance costs enter accounting.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p08-t01"
         },
         {
           "part": 3,
@@ -649,18 +649,6 @@
       ],
       "nextTests": [
         {
-          "part": 7,
-          "id": "p07-t02",
-          "label": "Next test",
-          "when": "Oct 15, 2026",
-          "date": "2026-10-15",
-          "precision": "window",
-          "event": "Treasury publishes August foreign holdings; renewed Japanese buying despite poor hedged returns would undercut the missing-buyer thesis behind the long-end selloff.",
-          "status": "pending",
-          "stage": "pre",
-          "url": "https://deepstack.ltd/docket/#test-p07-t02"
-        },
-        {
           "part": 10,
           "id": "p10-t02",
           "label": "Next test",
@@ -671,6 +659,18 @@
           "status": "pending",
           "stage": "pre",
           "url": "https://deepstack.ltd/docket/#test-p10-t02"
+        },
+        {
+          "part": 7,
+          "id": "p07-t01",
+          "label": "Next test",
+          "when": "Oct 28, 2026",
+          "date": "2026-10-28",
+          "precision": "day",
+          "event": "The Fed meets; another hike would support Klein’s inflation reading, while no move would strengthen Paulson’s case that September was a mistake.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p07-t01"
         },
         {
           "part": 15,
@@ -686,7 +686,7 @@
         }
       ],
       "tests": 14,
-      "results": 0
+      "results": 1
     }
   ]
 }
