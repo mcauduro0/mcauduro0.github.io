@@ -54,6 +54,20 @@
   <p class="label label-amber">The Docket</p>
   <h1>Every test, on the clock.</h1>
   <p class="page-dek">Each DeepStack story ends with the dated tests that will prove it right or wrong. This is all of them: what each would tell us, when it lands, and how it came in. Reference date: <time datetime="2026-10-21">October 21, 2026</time>.</p>
+  <div class="home-weekly docket-signup" aria-labelledby="docket-signup-title">
+    <p class="label label-amber" id="docket-signup-title">Results by email</p>
+    <p class="home-weekly-line">Get each result by email, the day it lands, and The Weekly every Saturday. Free.</p>
+    <form class="newsletter-form" action="https://subscribe.deepstack.ltd/subscribe" method="post" data-subscribe-endpoint="https://subscribe.deepstack.ltd/subscribe" novalidate>
+      <label for="docket-top-email">Email address</label>
+      <div class="field-row">
+        <input id="docket-top-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@company.com" required maxlength="254" aria-describedby="docket-top-note">
+        <button class="btn btn-amber" type="submit">Get the results <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+      </div>
+      <div class="nl-trap" aria-hidden="true"><label for="docket-top-website">Leave this field empty</label><input id="docket-top-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <p id="docket-top-note" class="fine">One confirmation email, then The Weekly every Saturday. Unsubscribe in one click.</p>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
   <div class="archive-bar docket-bar">
     <p>75 tests across 17 stories · 49 on the calendar · 26 signal-based · 38 specified (37 before the date, 1 after) · 2 resolved</p>
     <p class="docket-actions"><a class="btn" href="/docket.ics" data-event="ics_download">Subscribe to the calendar (.ics) <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a> <a class="link-arrow" href="/results/">See the results <svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></p>
