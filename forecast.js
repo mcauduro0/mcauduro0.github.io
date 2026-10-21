@@ -67,6 +67,24 @@
     return (what || 'That did not go through') + '. Try again in a moment.';
   }
   var ANSWER = { yes: 'Yes', no: 'No', void: 'Inconclusive' };
+  // U5 (lane FI): the words the reader shares after a Save, from the figures the page prints in the
+  // share block's data attributes (src/pages.mjs forecastShareBlock); a missing figure is left out.
+  function shareText(question, p, call, machines) {
+    var out = 'I give ' + String(question || 'this test') + ' a ' + clampP(p) + '% chance.';
+    var n = Number(call);
+    if (call !== null && call !== undefined && call !== '' && Number.isInteger(n)) out += ' The Call says ' + n + '%.';
+    if (machines) out += ' The machines: ' + String(machines) + '.';
+    return out;
+  }
+  // The share address with its query set on the base the page prints: LinkedIn takes the link, X the
+  // words and the link. The base comes from the page, so this file holds no address.
+  // The two switches of the return loop on /forecast/me/ (PATCH /me {reminders} or {results}).
+  function emailsLine(kind, on) { return 'Saved. ' + (kind === 'results' ? 'The result notes are ' : 'The reminders are ') + (on ? 'on.' : 'off.'); }
+  function shareHref(base, params) {
+    var u = new URL(base);
+    for (var k in params) if (Object.prototype.hasOwnProperty.call(params, k)) u.searchParams.set(k, params[k]);
+    return u.href;
+  }
 
   // ---------- the session: one key, nothing else ----------
 
@@ -129,6 +147,45 @@
     ruler.setAttribute('aria-label', ruler.getAttribute('data-label') + ' Your number: ' + p + '%.');
   }
 
+  // "Share your number" (U5): shown once a Save went through, with the saved number in the words.
+  // A click on LinkedIn or X, and a copy that went through, count as forecast_share (src/events.js,
+  // per day and page, never per person).
+  function count(win) { try { if (typeof win.deepstackEvent === 'function') win.deepstackEvent('forecast_share'); } catch (e) { /* the count is never in the reader's way */ } }
+  function showShare(win, box, p) {
+    var share = box.querySelector('.forecast-share');
+    if (!share) return null;
+    var url = share.getAttribute('data-share-url') || '';
+    var text = shareText(share.getAttribute('data-share-question'), p, share.getAttribute('data-share-call'), share.getAttribute('data-share-machines'));
+    var words = share.querySelector('.forecast-share-text');
+    var linkedin = share.querySelector('.forecast-share-linkedin');
+    var x = share.querySelector('.forecast-share-x');
+    var copy = share.querySelector('.forecast-share-copy');
+    var status = share.querySelector('.forecast-share-status');
+    if (!url || !words) return null;
+    words.textContent = text;
+    // The base the page printed is kept aside, so a second Save sets the query afresh.
+    each([linkedin, x].filter(Boolean), function (a) { if (!a.hasAttribute('data-base')) a.setAttribute('data-base', a.getAttribute('href')); });
+    try {
+      if (linkedin) linkedin.setAttribute('href', shareHref(linkedin.getAttribute('data-base'), { url: url }));
+      if (x) x.setAttribute('href', shareHref(x.getAttribute('data-base'), { text: text, url: url }));
+    } catch (e) { return null; }
+    if (!share.hasAttribute('data-ready')) {
+      share.setAttribute('data-ready', '');
+      each([linkedin, x].filter(Boolean), function (a) { a.addEventListener('click', function () { count(win); }); });
+      if (copy) copy.addEventListener('click', function () {
+        var done = function () { if (status) status.textContent = 'Link copied.'; count(win); };
+        var fail = function () { if (status) status.textContent = 'Copy the link: ' + url; };
+        try {
+          if (win.navigator && win.navigator.clipboard && typeof win.navigator.clipboard.writeText === 'function') win.navigator.clipboard.writeText(url).then(done, fail);
+          else fail();
+        } catch (e) { fail(); }
+      });
+    }
+    if (status) status.textContent = '';
+    share.hidden = false;
+    return text;
+  }
+
   function setupControl(win, doc, box, session, mine) {
     var endpoint = box.getAttribute('data-forecast-endpoint');
     var testId = box.getAttribute('data-test-id');
@@ -176,7 +233,7 @@
       status.textContent = 'Saving…';
       call(endpoint, 'POST', '/forecast', payload(forecastId, p), session.session).then(function (r) {
         save.disabled = false;
-        if (r.status === 201) { markRuler(doc, box, p); status.textContent = 'Saved: ' + p + '%. The last number before the date counts.'; return; }
+        if (r.status === 201) { markRuler(doc, box, p); status.textContent = 'Saved: ' + p + '%. The last number before the date counts.'; showShare(win, box, p); return; }
         if (r.status === 401) { writeSession(win, null); signedOut('Your sign-in has ended.'); return; }
         if (r.status === 409 && r.data && r.data.closed) { close(p); status.textContent = 'Closed.'; return; }
         status.textContent = failureLine(r.status, r.data, 'Your number could not be saved');
@@ -322,6 +379,33 @@
     }
     part('name').hidden = false;
 
+    // The two emails (lane FI): each switch saves on change and goes back if the Worker refused.
+    var emailsPart = part('emails');
+    if (emailsPart) {
+      var emailsStatus = emailsPart.querySelector('.form-status');
+      var prefs = data.emails && typeof data.emails === 'object' ? data.emails : {};
+      each(emailsPart.querySelectorAll('input[type="checkbox"][name]'), function (box) {
+        var kind = box.getAttribute('name');
+        if (kind !== 'reminders' && kind !== 'results') return;
+        box.checked = prefs[kind] !== false;
+        box.addEventListener('change', function () {
+          var on = box.checked;
+          var body = {};
+          body[kind] = on;
+          box.disabled = true;
+          if (emailsStatus) emailsStatus.textContent = 'Saving…';
+          call(endpoint, 'PATCH', '/me', body, session.session).then(function (r) {
+            box.disabled = false;
+            if (r.status === 200) { if (emailsStatus) emailsStatus.textContent = emailsLine(kind, on); return; }
+            box.checked = !on;
+            if (r.status === 401) { writeSession(win, null); if (emailsStatus) emailsStatus.textContent = 'Your sign-in has ended.'; return; }
+            if (emailsStatus) emailsStatus.textContent = failureLine(r.status, r.data, 'The choice could not be saved');
+          }).catch(function () { box.disabled = false; box.checked = !on; if (emailsStatus) emailsStatus.textContent = 'The choice could not be saved. Try again in a moment.'; });
+        });
+      });
+      emailsPart.hidden = false;
+    }
+
     // The record against the Call, and the calibration.
     var s = data.summary || {};
     var dl = box.querySelector('.forecast-me-summary');
@@ -415,7 +499,7 @@
     initMe(win, doc);
   }
 
-  var api = { KEY: KEY, payload: payload, clampP: clampP, isClosed: isClosed, tokenFrom: tokenFrom, standingOf: standingOf, fmtBrier: fmtBrier, fmtGap: fmtGap, gapLine: gapLine, failureLine: failureLine, readSession: readSession, writeSession: writeSession, markRuler: markRuler, calibrationMarkup: calibrationMarkup };
+  var api = { KEY: KEY, payload: payload, clampP: clampP, isClosed: isClosed, tokenFrom: tokenFrom, standingOf: standingOf, fmtBrier: fmtBrier, fmtGap: fmtGap, gapLine: gapLine, failureLine: failureLine, readSession: readSession, writeSession: writeSession, markRuler: markRuler, calibrationMarkup: calibrationMarkup, shareText: shareText, shareHref: shareHref, showShare: showShare, emailsLine: emailsLine };
   if (typeof globalThis !== 'undefined') globalThis.DeepStackForecast = api;
 
   if (typeof window !== 'undefined' && typeof document !== 'undefined') {

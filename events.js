@@ -16,7 +16,7 @@
 
   // The allowlist, the Worker's own (mcp-worker/src/events.js EVENTS); test/ux3-events.test.mjs
   // keeps the two identical. A name outside it is not sent.
-  var EVENTS = ['orient_click', 'number_open', 'glossary_open', 'scenario_share', 'expect_click', 'follow_submit', 'ics_download', 'result_effect_view', 'layer_open', 'share_call'];
+  var EVENTS = ['orient_click', 'number_open', 'glossary_open', 'scenario_share', 'expect_click', 'follow_submit', 'ics_download', 'result_effect_view', 'layer_open', 'share_call', 'forecast_share'];
   var META = 'meta[name="deepstack-events"]';
   var WINDOW_MS = 1000;
 

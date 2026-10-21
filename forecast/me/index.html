@@ -67,6 +67,16 @@
       <p class="form-status" role="status" aria-live="polite"></p>
     </form>
   </section>
+  <section class="fixed-section" data-me-part="emails" aria-labelledby="me-emails-title" hidden><h2 id="me-emails-title">Emails</h2>
+    <p>Two emails bring you back, each at most once a day and never twice for the same test: a reminder before a test you forecast closes, with your number, and a note when one resolves, with your Brier score beside the Call’s. Each carries a one-click stop; the switches below turn either off or back on.</p>
+    <form class="support-form forecast-emails-form" novalidate>
+      <div class="forecast-emails" role="group" aria-labelledby="me-emails-title">
+        <p class="forecast-emails-row"><input type="checkbox" id="me-reminders" name="reminders" checked><label for="me-reminders">The reminder before a test you forecast closes</label></p>
+        <p class="forecast-emails-row"><input type="checkbox" id="me-results" name="results" checked><label for="me-results">The note when a test you forecast resolves</label></p>
+      </div>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
   <section class="fixed-section" data-me-part="summary" aria-labelledby="me-summary-title" hidden><h2 id="me-summary-title">Your record</h2>
     <dl class="numbers results-counts forecast-me-summary"></dl>
     <p class="forecast-me-gap"></p>
