@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "amazon",
@@ -7,7 +7,7 @@
   "ticker": "AMZN",
   "url": "https://deepstack.ltd/companies/amazon/",
   "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-  "summary": "Amazon is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+  "summary": "Amazon is named in 11 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
   "parts": [
     {
       "part": 3,
@@ -58,6 +58,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [
@@ -74,6 +79,13 @@
       "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
       "part": 14,
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "value": "$1.12 trillion",
+      "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+      "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+      "part": 17,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "mentions": [
@@ -414,15 +426,99 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
       "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-lease-is-already-debt",
+      "sideLabel": "The lease is already debt",
+      "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+      "date": "2026-08-17",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-lease-is-already-debt",
+      "sideLabel": "The lease is already debt",
+      "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+      "date": "2026-09-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+      "date": "2026-09-17",
+      "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+      "date": null,
+      "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+      "date": "2026-09-24",
+      "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "The refusal to disclose real AI revenue, with only an easily manipulated ARR figure from Amazon and anecdotes from the rest, is itself a bad sign about the strength of the existing AI businesses.",
+      "date": "2026-08-11",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 139,
     "claims": 938,
     "texts": 577,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "market": {
     "price": 262.63,
     "change": 0.18,

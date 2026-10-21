@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "steve-eisman",
@@ -7,7 +7,7 @@
   "role": "Steven Eisman",
   "url": "https://deepstack.ltd/people/steve-eisman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-  "summary": "Steve Eisman is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides).",
+  "summary": "Steve Eisman is named in 13 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides), Part 17 (The lease is already debt).",
   "parts": [
     {
       "part": 4,
@@ -68,6 +68,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -373,13 +378,25 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
       "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-lease-is-already-debt",
+      "sideLabel": "The lease is already debt",
+      "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+      "date": "2026-08-17",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 844,
     "texts": 149,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

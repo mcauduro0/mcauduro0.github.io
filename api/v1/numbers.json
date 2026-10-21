@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/data/#every-number",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/numbers.json",
   "title": "The key numbers of The Buildout",
   "rule": "A key number carries its provenance once the owner approved it: the unit, the universe it counts, the period, the public source and the date it was read, the transformation applied, its limits, and the chart and the test it feeds. Until then the number prints with its label and context only.",
-  "count": 64,
-  "withSource": 64,
+  "count": 68,
+  "withSource": 68,
   "numbers": [
     {
       "id": "p01-n1",
@@ -2116,6 +2116,130 @@
         "call": false,
         "approvedBy": "Marco Cauduro",
         "approvedAt": "2026-10-13T01:06:24.523Z"
+      }
+    },
+    {
+      "id": "p17-n1",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 0,
+      "value": "$1.12 trillion",
+      "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+      "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n1",
+      "provenance": {
+        "unit": "US dollars, undiscounted",
+        "universe": "Leases signed but not yet commenced, as each company prints them, at Microsoft, Oracle, Meta, Amazon and Alphabet; Alphabet's separate short-term lease of about $5.8 billion left out",
+        "period": "June 30, 2026 for four companies; August 31, 2026 for Oracle",
+        "source": {
+          "label": "SEC EDGAR, Form 10-K of Microsoft and Form 10-Q of Oracle, Meta, Amazon and Alphabet, read October 12, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "DeepStack's sum of the five printed amounts: $329.1 billion, $288 billion, $278.99 billion, $137.2 billion and $85.2 billion, $1,118.5 billion.",
+        "limits": "Mixed dates; undiscounted rent over terms of up to 30 years is not comparable one to one with debt; leases signed after each date, such as Meta's $68 billion of July 2026, are left out. The test reads the same lines at year-end.",
+        "chart": {
+          "id": "story",
+          "label": "One obligation, five totals",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#story-chart-title"
+        },
+        "test": {
+          "id": "p17-t01",
+          "url": "https://deepstack.ltd/docket/#test-p17-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n2",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 1,
+      "value": "$28 billion",
+      "label": "Approximate threshold of Meta's residual value guarantees on the Hyperion venture, June 30, 2026, with no liability recorded",
+      "context": "Meta Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR; inside a $46.03 billion maximum exposure that also counts equity, funding and lease commitments",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n2",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The aggregate threshold of Meta's residual value guarantees to the Louisiana data center joint venture (Hyperion)",
+        "period": "June 30, 2026",
+        "source": {
+          "label": "Meta Platforms, Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR, read October 12, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "As published (approximately $28 billion).",
+        "limits": "A cap on payments, not an expected loss; it sits inside the $46.03 billion maximum exposure, which also counts Meta's equity, funding commitments and leases from the venture; the filing records no liability for the guarantees.",
+        "chart": null,
+        "test": {
+          "id": "p17-t04",
+          "url": "https://deepstack.ltd/docket/#test-p17-t04"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n3",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 2,
+      "value": "1.86%",
+      "label": "Liability on Alphabet's data center credit derivatives as a share of their notional amount, June 30, 2026",
+      "context": "Alphabet Form 10-Q, June 30, 2026, SEC EDGAR: $815 million on $43.8 billion; 0.41% at Dec 31, 2025; DeepStack's division",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n3",
+      "provenance": {
+        "unit": "percent",
+        "universe": "The liability recorded on Alphabet's credit derivatives that backstop data center payment obligations, divided by their gross notional amount",
+        "period": "June 30, 2026 (0.41% at December 31, 2025)",
+        "source": {
+          "label": "Alphabet, Form 10-Q for the quarter ended June 30, 2026, note on derivative financial instruments, SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm#p1-item2-3"
+        },
+        "asOf": "2026-07-23",
+        "transformation": "DeepStack's division: $815 million of liabilities divided by $43,785 million of notional.",
+        "limits": "Fair value at one date; the estimated $24.1 billion of backstops not yet final is outside the notional; the test reads the same two rows at December 31, 2026, against 1.86%.",
+        "chart": null,
+        "test": {
+          "id": "p17-t02",
+          "url": "https://deepstack.ltd/docket/#test-p17-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n4",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 3,
+      "value": "49.2%",
+      "label": "Share of Oracle's operating cash from customer prepayments with a financing component, quarter to Aug 31, 2026",
+      "context": "Oracle first-quarter fiscal 2027 release, Sep 10, 2026, SEC EDGAR: $11.36 billion of $23.10 billion",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n4",
+      "provenance": {
+        "unit": "percent",
+        "universe": "Oracle's increase in deferred revenues from customer prepayments with significant financing component, as a share of net cash provided by operating activities",
+        "period": "The quarter ended August 31, 2026",
+        "source": {
+          "label": "Oracle, first-quarter fiscal 2027 results, Form 8-K Exhibit 99.1, September 10, 2026, SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+        },
+        "asOf": "2026-09-10",
+        "transformation": "DeepStack's division: $11,363 million divided by $23,103 million.",
+        "limits": "One quarter; the test reads the six months to November 30, 2026, against a line of 40%.",
+        "chart": null,
+        "test": {
+          "id": "p17-t03",
+          "url": "https://deepstack.ltd/docket/#test-p17-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
       }
     }
   ]

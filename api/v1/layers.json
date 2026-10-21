@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/layers/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/layers.json",
@@ -56,6 +56,13 @@
           "date": "2026-10-19",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "api": "https://deepstack.ltd/api/v1/stories/the-seller-holds-the-paper.json"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "date": "2026-10-21",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-guarantee-has-no-date.json"
         }
       ],
       "questions": [
@@ -100,6 +107,13 @@
           "question": "How much of the money buying AI chips was lent, guaranteed or invested by the companies selling them?",
           "url": "https://deepstack.ltd/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling/",
           "api": "https://deepstack.ltd/api/v1/questions/how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling.json"
+        },
+        {
+          "slug": "how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a",
+          "headline": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+          "question": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+          "url": "https://deepstack.ltd/questions/how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a/",
+          "api": "https://deepstack.ltd/api/v1/questions/how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a.json"
         }
       ],
       "indicators": [
@@ -144,6 +158,13 @@
           "label": "Days of sales Nvidia was owed at July 26, 2026, from 45.4 at April 26",
           "context": "NVIDIA Forms 10-Q filed May 20 and Aug 26, 2026; DeepStack calculation: receivables over the quarter's revenue, times 91",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#numbers"
+        },
+        {
+          "part": 17,
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#numbers"
         }
       ],
       "nextTests": [
@@ -196,6 +217,18 @@
           "url": "https://deepstack.ltd/docket/#test-p16-t01"
         },
         {
+          "part": 17,
+          "id": "p17-t03",
+          "label": "Next test",
+          "when": "Dec 14, 2026",
+          "date": "2026-12-14",
+          "precision": "day",
+          "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+          "status": "pending",
+          "stage": "pre",
+          "url": "https://deepstack.ltd/docket/#test-p17-t03"
+        },
+        {
           "part": 2,
           "id": "p02-t01",
           "label": "Next test",
@@ -220,7 +253,7 @@
           "url": "https://deepstack.ltd/docket/#test-p04-t01"
         }
       ],
-      "tests": 26,
+      "tests": 30,
       "results": 1
     },
     {

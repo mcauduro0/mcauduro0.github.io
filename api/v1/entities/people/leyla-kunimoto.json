@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "leyla-kunimoto",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/leyla-kunimoto/",
   "api": "https://deepstack.ltd/api/v1/entities/people/leyla-kunimoto.json",
-  "summary": "Leyla Kunimoto is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
+  "summary": "Leyla Kunimoto is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
   "parts": [
     {
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -22,6 +27,12 @@
       "section": "The bill raises the rate",
       "excerpt": "Leyla Kunimoto, citing an Apollo presentation, reports that hyperscalers sold close to $250 billion of high-grade bonds in 2026, more than in the previous ten years combined.",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 17,
+      "section": "The weak link pays first",
+      "excerpt": "Leyla Kunimoto of Accredited Insight traced the Jupiter money on October 5, 2026: about $18 billion of construction debt and $3 billion of Blue Owl equity.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "sides": [],
@@ -29,7 +40,7 @@
     "creators": 0,
     "claims": 1081,
     "texts": 99,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

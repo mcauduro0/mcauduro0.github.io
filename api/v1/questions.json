@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/questions/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/questions.json",
   "method": "How DeepStack settles a question",
   "about": "One page per question The Buildout takes up: the strongest case on each side, attributed and dated; The DeepStack Call with its history; the dated tests that settle it; the results as they come in. A question is settled by its tests, never by a count of opinions.",
-  "count": 16,
+  "count": 17,
   "questions": [
     {
       "slug": "is-the-marginal-buyer-of-ai-compute-real",
@@ -2853,6 +2853,188 @@
         },
         "url": "https://deepstack.ltd/docket/#test-p16-t01",
         "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/#watch",
+        "resultUrl": null
+      },
+      "relations": false
+    },
+    {
+      "slug": "how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a",
+      "question": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+      "title": null,
+      "headline": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+      "url": "https://deepstack.ltd/questions/how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a/",
+      "api": "https://deepstack.ltd/api/v1/questions/how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a.json",
+      "aliases": [],
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "question": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "api": "https://deepstack.ltd/api/v1/stories/the-guarantee-has-no-date.json",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/",
+          "call": {
+            "tone": "split",
+            "toneLabel": "Split",
+            "stance": "The risk off the books is still rising.",
+            "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+            "conviction": 3,
+            "convictionLabel": "Moderate",
+            "actions": [
+              "Add the five 'not yet commenced' lines in February 2027: $1,118.5 billion at mid-2026 against Moody's $662 billion at end-2025.",
+              "Read guarantees at their threshold, not booked liability: Meta's Hyperion guarantee of about $28 billion carried none on June 30, 2026.",
+              "Strip prepayments from Oracle's operating cash on Dec 14: $11.4 billion of $23.1 billion in the quarter to Aug 31, 2026."
+            ],
+            "flips": [
+              "The five 'not yet commenced' lines at Dec 31, 2026 sum to no more than the $1,118.5 billion of mid-2026.",
+              "Alphabet's annual report puts its backstops' liability at 1.86% of notional or less at Dec 31, 2026, where it stood at June 30.",
+              "Oracle's Dec 14 release puts customer prepayments at 40% or less of six-month operating cash."
+            ],
+            "side": null,
+            "against": null,
+            "version": 2,
+            "updatedOn": "2026-10-21",
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-21",
+                "stance": "The risk off the books is still rising.",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+                "reason": "First call, with the story.",
+                "by": "DeepStack"
+              },
+              {
+                "version": 2,
+                "date": "2026-10-21",
+                "stance": "The risk off the books is still rising.",
+                "tone": "split",
+                "toneLabel": "Split",
+                "conviction": 3,
+                "convictionLabel": "Moderate",
+                "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+                "side": null,
+                "reason": "Side named by the owner.",
+                "by": "Marco Cauduro"
+              }
+            ],
+            "nextTest": {
+              "id": "p17-t03",
+              "part": 17,
+              "slug": "the-guarantee-has-no-date",
+              "when": "December 14",
+              "whenLabel": "Dec 14, 2026",
+              "date": "2026-12-14",
+              "precision": "day",
+              "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+              "status": "pending",
+              "resultId": null,
+              "sameAs": null,
+              "stage": "pre",
+              "callExpects": "yes",
+              "callExpectsBy": "Marco Cauduro",
+              "callExpectsAt": "2026-10-21T03:33:08Z",
+              "callProbability": 70,
+              "callProbabilityAt": "2026-10-21T03:33:08Z",
+              "callProbabilityHistory": [],
+              "source": {
+                "kind": "story",
+                "ref": "watchlist[2].date",
+                "url": null
+              },
+              "resolver": {
+                "kind": "earnings",
+                "symbol": "ORCL",
+                "rule": "Divide the line for the increase in deferred revenues from customer prepayments with significant financing component by net cash provided by operating activities, both for the six months ended November 30, 2026, as printed in the statement of cash flows of the earnings release, or of the Form 10-Q when the release does not print the six months. The answer is yes if the line is above 40% of operating cash flow, which includes any case where operating cash flow is zero or negative; no if it is 40% or less. In the quarter to August 31, 2026 the same two lines gave $11,363 million of $23,103 million, 49.2%.",
+                "question": "For the six months ended November 30, 2026, does Oracle's increase in deferred revenues from customer prepayments with significant financing component exceed 40% of its net cash provided by operating activities?",
+                "source": {
+                  "label": "SEC EDGAR, Oracle second-quarter fiscal 2027 results (Form 8-K, Exhibit 99.1) and Form 10-Q, statements of cash flows (CIK 1341439)",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=8-K"
+                },
+                "ambiguity": "If neither the earnings release nor the Form 10-Q prints both lines for the six months by January 11, 2027, or the prepayment line is renamed, merged or dropped, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 18, 2027, in the Form 10-Q's statement of cash flows.",
+                "specState": "approved",
+                "specVersion": 1,
+                "specUpdatedOn": "2026-10-21",
+                "specHistory": [
+                  {
+                    "version": 1,
+                    "date": "2026-10-21",
+                    "reason": "First specification.",
+                    "by": "Marco Cauduro"
+                  }
+                ],
+                "callExpects": "yes",
+                "think": {
+                  "baseRate": "In the quarter to August 31, 2026, customer prepayments with a financing component were $11.4 billion of Oracle's $23.1 billion of operating cash, or 49.2%.",
+                  "outsideView": "For the six months to reach 40% or less, the second quarter's share would have to fall to about 31% on similar operating cash, which an ordinary collections quarter could do.",
+                  "wouldChange": "Fewer new data center contracts paid in advance, or a quarter of strong ordinary collections, would lower the number, and a drop in operating cash would raise it."
+                }
+              },
+              "url": "https://deepstack.ltd/docket/#test-p17-t03",
+              "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+              "resultUrl": null
+            },
+            "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#verdict"
+          }
+        }
+      ],
+      "nextTest": {
+        "id": "p17-t03",
+        "part": 17,
+        "slug": "the-guarantee-has-no-date",
+        "when": "December 14",
+        "whenLabel": "Dec 14, 2026",
+        "date": "2026-12-14",
+        "precision": "day",
+        "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+        "status": "pending",
+        "resultId": null,
+        "sameAs": null,
+        "stage": "pre",
+        "callExpects": "yes",
+        "callExpectsBy": "Marco Cauduro",
+        "callExpectsAt": "2026-10-21T03:33:08Z",
+        "callProbability": 70,
+        "callProbabilityAt": "2026-10-21T03:33:08Z",
+        "callProbabilityHistory": [],
+        "source": {
+          "kind": "story",
+          "ref": "watchlist[2].date",
+          "url": null
+        },
+        "resolver": {
+          "kind": "earnings",
+          "symbol": "ORCL",
+          "rule": "Divide the line for the increase in deferred revenues from customer prepayments with significant financing component by net cash provided by operating activities, both for the six months ended November 30, 2026, as printed in the statement of cash flows of the earnings release, or of the Form 10-Q when the release does not print the six months. The answer is yes if the line is above 40% of operating cash flow, which includes any case where operating cash flow is zero or negative; no if it is 40% or less. In the quarter to August 31, 2026 the same two lines gave $11,363 million of $23,103 million, 49.2%.",
+          "question": "For the six months ended November 30, 2026, does Oracle's increase in deferred revenues from customer prepayments with significant financing component exceed 40% of its net cash provided by operating activities?",
+          "source": {
+            "label": "SEC EDGAR, Oracle second-quarter fiscal 2027 results (Form 8-K, Exhibit 99.1) and Form 10-Q, statements of cash flows (CIK 1341439)",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=8-K"
+          },
+          "ambiguity": "If neither the earnings release nor the Form 10-Q prints both lines for the six months by January 11, 2027, or the prepayment line is renamed, merged or dropped, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 18, 2027, in the Form 10-Q's statement of cash flows.",
+          "specState": "approved",
+          "specVersion": 1,
+          "specUpdatedOn": "2026-10-21",
+          "specHistory": [
+            {
+              "version": 1,
+              "date": "2026-10-21",
+              "reason": "First specification.",
+              "by": "Marco Cauduro"
+            }
+          ],
+          "callExpects": "yes",
+          "think": {
+            "baseRate": "In the quarter to August 31, 2026, customer prepayments with a financing component were $11.4 billion of Oracle's $23.1 billion of operating cash, or 49.2%.",
+            "outsideView": "For the six months to reach 40% or less, the second quarter's share would have to fall to about 31% on similar operating cash, which an ordinary collections quarter could do.",
+            "wouldChange": "Fewer new data center contracts paid in advance, or a quarter of strong ordinary collections, would lower the number, and a drop in operating cash would raise it."
+          }
+        },
+        "url": "https://deepstack.ltd/docket/#test-p17-t03",
+        "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
         "resultUrl": null
       },
       "relations": false

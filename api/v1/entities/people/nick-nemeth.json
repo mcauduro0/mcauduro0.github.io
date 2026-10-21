@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-21T03:40:16Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "nick-nemeth",
+  "name": "Nick Nemeth",
+  "role": null,
+  "url": "https://deepstack.ltd/people/nick-nemeth/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/nick-nemeth.json",
+  "summary": "Nick Nemeth is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The weak link pays first).",
+  "parts": [
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "The NAIC's rating-challenge power is real but requires a gap of at least three notches, regulatory review and procedural protections and is expected to be used selectively in exceptional cases, so having the power does not mean anyone has checked…",
+      "date": "2026-09-27",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 312,
+    "texts": 30,
+    "asOf": "2026-10-21"
+  },
+  "lastUpdated": "2026-10-21"
+}

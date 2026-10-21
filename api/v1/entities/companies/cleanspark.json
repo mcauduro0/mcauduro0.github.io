@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "cleanspark",
@@ -43,14 +43,27 @@
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "AI-related borrowers are paying materially more for financing across multiple instrument types: CleanSpark paid about 175bps more than the average BB issuer versus similar IG-tenant financings that cleared below 6% earlier this year…",
+      "date": "2026-09-20",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
   "coverage": {
     "creators": 3,
     "claims": 5,
     "texts": 4,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "market": {
     "price": 8.43,
     "change": -0.03,

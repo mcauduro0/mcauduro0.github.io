@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17.600Z",
+  "generatedAt": "2026-10-21T03:40:16.387Z",
   "tests": [
     {
       "id": "p01-t01",
@@ -2541,6 +2541,185 @@
         "source": null,
         "ambiguity": "",
         "specState": "pending"
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p17-t01",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 0,
+      "when": "February 16, 2027",
+      "date": "2027-02-16",
+      "precision": "day",
+      "event": "The year-end filings: whether the leases not yet begun at the five pass $1.2 trillion as printed at December 31, 2026, from $1,118.5 billion in mid-2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Add, as printed and undiscounted, the amount each filing gives for leases that have not yet commenced: Alphabet, Amazon, Meta and Microsoft at December 31, 2026, and Oracle at November 30, 2026. Alphabet's separately disclosed short-term lease is left out, as it was from the base of $1,118.5 billion at mid-2026. The answer is yes if the sum is above $1,200 billion; no if it is $1,200 billion or less.",
+        "question": "Do the leases signed but not yet commenced that Alphabet, Amazon and Meta report as of December 31, 2026 in their Form 10-K for 2026, that Microsoft reports in its Form 10-Q for the quarter ended December 31, 2026, and that Oracle reports in its Form 10-Q for the quarter ended November 30, 2026, add up to more than $1.2 trillion?",
+        "source": {
+          "label": "SEC EDGAR, lease notes of the Form 10-K for 2026 of Alphabet (CIK 1652044), Amazon (CIK 1018724) and Meta Platforms (CIK 1326801), and of the Form 10-Q of Microsoft (CIK 789019) for December 31, 2026 and Oracle (CIK 1341439) for November 30, 2026",
+          "url": "https://www.sec.gov/edgar/search/#/q=%22not%20yet%20commenced%22&forms=10-K,10-Q"
+        },
+        "ambiguity": "If any of the five filings is not public on EDGAR by February 16, 2027, or one of them gives no amount for leases not yet commenced, the test is inconclusive, and the Result says what was read and what was missing; the next reading is February 26, 2027. A filing that gives the amount as approximate is read at the figure it states.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "The five builders' leases not yet begun rose 69% in six to eight months, from the $662 billion Moody's counted at the end of 2025 to $1,118.5 billion by mid-2026.",
+          "outsideView": "A lease leaves this line on the day it starts, so the sum grows only while new signings outrun the leases that begin, and Microsoft's begin from its fiscal 2027, which opened in July 2026.",
+          "wouldChange": "The line is $81.5 billion away and Meta already reports about $68 billion signed in July, so slower signings or a wave of leases starting by December 31 would lower the number."
+        }
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p17-t02",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 1,
+      "when": "February 16, 2027",
+      "date": "2027-02-16",
+      "precision": "day",
+      "event": "Alphabet's annual report: whether the liability on its data center credit derivatives passes 1.86% of notional at December 31, 2026, its level at June 30, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Divide the liability shown for credit derivatives in the table of fair values of outstanding derivative instruments by the gross notional amount of credit derivatives in the table of notional amounts, both as of December 31, 2026. The answer is yes if the ratio is above 1.86%; no if it is 1.86% or less. At June 30, 2026 the same two rows gave $815 million on $43,785 million, 1.86%, and at December 31, 2025 $69 million on $16,940 million, 0.41%. The estimated backstops not yet final are read into the Result and do not decide the test.",
+        "question": "Does Alphabet's Form 10-K for 2026 show a liability on its credit derivatives above 1.86% of their gross notional amount, both as of December 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Alphabet Form 10-K for the year ended December 31, 2026, note on derivative financial instruments (CIK 1652044)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K"
+        },
+        "ambiguity": "If the 10-K is not public on EDGAR by February 16, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is February 26, 2027. If the 10-K no longer shows credit derivatives as a row of their own in both tables, the test is inconclusive, and the Result says what was read and what was missing; the next reading is the same two rows in Alphabet's Form 10-Q for the quarter ending March 31, 2027, by May 15, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "The liability on Alphabet's data center backstops rose from 0.41% of notional at the end of 2025 to 1.86% at June 30, 2026, while the notional rose two and a half times.",
+          "outsideView": "A backstop marked at fair value is carried at a fraction of its notional, and the fraction rises when the credit of the parties it backs weakens.",
+          "wouldChange": "The estimated $24.1 billion of backstops awaiting final terms would enter at a low starting value and pull the ratio down, so final terms by December 31 would lower the number."
+        }
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p17-t03",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 2,
+      "when": "December 14",
+      "date": "2026-12-14",
+      "precision": "day",
+      "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "Divide the line for the increase in deferred revenues from customer prepayments with significant financing component by net cash provided by operating activities, both for the six months ended November 30, 2026, as printed in the statement of cash flows of the earnings release, or of the Form 10-Q when the release does not print the six months. The answer is yes if the line is above 40% of operating cash flow, which includes any case where operating cash flow is zero or negative; no if it is 40% or less. In the quarter to August 31, 2026 the same two lines gave $11,363 million of $23,103 million, 49.2%.",
+        "question": "For the six months ended November 30, 2026, does Oracle's increase in deferred revenues from customer prepayments with significant financing component exceed 40% of its net cash provided by operating activities?",
+        "source": {
+          "label": "SEC EDGAR, Oracle second-quarter fiscal 2027 results (Form 8-K, Exhibit 99.1) and Form 10-Q, statements of cash flows (CIK 1341439)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=8-K"
+        },
+        "ambiguity": "If neither the earnings release nor the Form 10-Q prints both lines for the six months by January 11, 2027, or the prepayment line is renamed, merged or dropped, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 18, 2027, in the Form 10-Q's statement of cash flows.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "In the quarter to August 31, 2026, customer prepayments with a financing component were $11.4 billion of Oracle's $23.1 billion of operating cash, or 49.2%.",
+          "outsideView": "For the six months to reach 40% or less, the second quarter's share would have to fall to about 31% on similar operating cash, which an ordinary collections quarter could do.",
+          "wouldChange": "Fewer new data center contracts paid in advance, or a quarter of strong ordinary collections, would lower the number, and a drop in operating cash would raise it."
+        }
+      },
+      "status": "pending",
+      "resultId": null
+    },
+    {
+      "id": "p17-t04",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "index": 3,
+      "when": "February 26, 2027",
+      "date": "2027-02-26",
+      "precision": "day",
+      "event": "Meta's annual report for 2026: whether it consolidates Hyperion or records a liability above zero for its residual value guarantees, neither at June 30, 2026.",
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "Read the 10-K's notes on the Louisiana data center joint venture and on residual value guarantees. The answer is yes if the filing says Meta consolidates the joint venture, or records a liability above zero for the residual value guarantees; no if it does neither. At June 30, 2026 the Form 10-Q did neither: an equity method investment of $2.92 billion, a maximum exposure to loss of $46.03 billion and no liability recorded for the guarantees.",
+        "question": "Does Meta's Form 10-K for the year ended December 31, 2026 either consolidate the Hyperion joint venture in Louisiana or record a liability above zero for its residual value guarantees to that venture?",
+        "source": {
+          "label": "SEC EDGAR, Meta Platforms Form 10-K for the year ended December 31, 2026, notes on variable interest entities and guarantees (CIK 1326801)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=10-K"
+        },
+        "ambiguity": "If the 10-K is not public on EDGAR by March 1, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is March 31, 2027. A guarantee liability recorded without its amount counts as above zero; a change that ends the guarantees before December 31, 2026 is read into the Result and resolves no.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no",
+        "think": {
+          "baseRate": "Meta neither consolidated Hyperion nor booked a liability for its guarantees at December 31, 2025 or at June 30, 2026, and its 10-Q calls payment not probable.",
+          "outsideView": "A lessee's residual value guarantee is booked only once payment turns probable, and the venture's four-year leases start in 2029, so the first chance not to renew comes about 2033.",
+          "wouldChange": "A change in Meta's judgment of who directs the venture, the call Ernst & Young found especially challenging to audit, would raise the number."
+        }
       },
       "status": "pending",
       "resultId": null

@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-21T03:40:16Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "haim-zaltzman",
+  "name": "Haim Zaltzman",
+  "role": null,
+  "url": "https://deepstack.ltd/people/haim-zaltzman/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/haim-zaltzman.json",
+  "summary": "Haim Zaltzman is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The cash flows cover it).",
+  "parts": [
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 17,
+      "section": "Who holds the guarantee",
+      "excerpt": "Haim Zaltzman of Latham & Watkins, on Bloomberg Intelligence's Tech Disruptors on September 29, read the same tool the other way: deals this large and this fast probably need guarantees and credit support to clear.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "The presence of guarantees and credit support in the market means that clearing the market, particularly at this size and speed, probably requires it, just as wrappers, insurance or guarantees get car and airplane deals done faster and at better…",
+      "date": "2026-09-29",
+      "url": "https://traffic.megaphone.fm/BLM6876553816.mp3",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
+  "coverage": {
+    "creators": 0,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-21"
+  },
+  "lastUpdated": "2026-10-21"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "jeremie-eliahou-ontiveros",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
   "api": "https://deepstack.ltd/api/v1/entities/people/jeremie-eliahou-ontiveros.json",
-  "summary": "Jeremie Eliahou Ontiveros is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
+  "summary": "Jeremie Eliahou Ontiveros is named in 4 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (The number is real), Part 13 (The plant is late), Part 17 (The weak link pays first).",
   "parts": [
     {
       "part": 2,
@@ -23,6 +23,11 @@
       "part": 13,
       "headline": "The Ratepayer Pays First",
       "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -88,13 +93,25 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
       "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "AI labs like OpenAI and Anthropic face a financing constraint because they are not investment grade and much of data center build-out requires capital-intensive, upfront CapEx they cannot afford, which slows their ambition to be more vertically…",
+      "date": "2026-07-09",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 34,
     "texts": 3,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

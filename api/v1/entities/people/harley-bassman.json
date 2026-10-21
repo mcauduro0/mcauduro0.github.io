@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "harley-bassman",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/harley-bassman/",
   "api": "https://deepstack.ltd/api/v1/entities/people/harley-bassman.json",
-  "summary": "Harley Bassman is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
+  "summary": "Harley Bassman is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
   "parts": [
     {
       "part": 14,
@@ -18,10 +18,22 @@
       "part": 15,
       "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
       "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
-  "mentions": [],
+  "mentions": [
+    {
+      "part": 17,
+      "section": "The cash flows cover it",
+      "excerpt": "Harley Bassman, on Erik Townsend's MacroVoices on September 17, 2026, said most hyperscalers own cash businesses that can carry their debt; shareholders may suffer, but short of a breakup the debt gets repaid.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
   "sides": [
     {
       "part": 14,
@@ -52,7 +64,7 @@
     "creators": 1,
     "claims": 0,
     "texts": 0,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

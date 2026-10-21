@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/api/v1/index.json",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "name": "DeepStack API",
@@ -9,15 +9,15 @@
   "license": "© 2026 DeepStack. The analysis is DeepStack’s own; quote it with attribution and a link to the canonical URL. Arguments from other publications are paraphrased and attributed, and the original words belong to their authors.",
   "cors": "GitHub Pages serves every file with Access-Control-Allow-Origin: *, so a browser can read the API from any origin; no CORS configuration exists or is needed for these static files.",
   "counts": {
-    "stories": 16,
-    "tests": 74,
-    "datedTests": 48,
+    "stories": 17,
+    "tests": 78,
+    "datedTests": 52,
     "results": 1,
     "corrections": 5,
-    "sides": 16,
-    "questions": 16,
-    "companies": 48,
-    "people": 106,
+    "sides": 17,
+    "questions": 17,
+    "companies": 49,
+    "people": 113,
     "editions": 3,
     "notes": 0
   },
@@ -42,7 +42,8 @@
         "the-ratepayer-pays-first",
         "the-cash-arrives-unevenly",
         "oil-is-the-headline-the-real-yield-is-the-bill",
-        "the-seller-holds-the-paper"
+        "the-seller-holds-the-paper",
+        "the-guarantee-has-no-date"
       ]
     },
     "numbers": "https://deepstack.ltd/api/v1/numbers.json",
@@ -70,6 +71,7 @@
         "the-cash-arrives-unevenly",
         "the-debt-behind-the-machines",
         "the-fed-hiked-the-long-end-kept-climbing",
+        "the-guarantee-has-no-date",
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
         "the-ratepayer-pays-first",
@@ -92,6 +94,7 @@
         "the-cash-arrives-unevenly",
         "the-debt-behind-the-machines",
         "the-fed-hiked-the-long-end-kept-climbing",
+        "the-guarantee-has-no-date",
         "the-market-stops-paying-for-faith",
         "the-model-is-not-the-price",
         "the-ratepayer-pays-first",
@@ -118,7 +121,8 @@
         "who-pays-for-the-ai-power-bill",
         "is-ai-revenue-arriving-fast-enough-for-the-biggest-spenders-to-pay-for-their-data-centers-out",
         "can-the-ai-trade-survive-a-10-year-treasury-above-5-and-an-oil-shock-at-the-same-time",
-        "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling"
+        "how-much-of-the-money-buying-ai-chips-was-lent-guaranteed-or-invested-by-the-companies-selling",
+        "how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a"
       ]
     },
     "layers": "https://deepstack.ltd/api/v1/layers.json",
@@ -136,31 +140,31 @@
       "page": "https://deepstack.ltd/data/download/",
       "index": "https://deepstack.ltd/data/download/index.json",
       "current": {
-        "asOf": "2026-10-20",
+        "asOf": "2026-10-21",
         "files": {
           "tests": {
-            "csv": "https://deepstack.ltd/data/download/tests-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/tests-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/tests-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/tests-2026-10-21.json"
           },
           "results": {
-            "csv": "https://deepstack.ltd/data/download/results-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/results-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/results-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/results-2026-10-21.json"
           },
           "sides": {
-            "csv": "https://deepstack.ltd/data/download/sides-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/sides-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/sides-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/sides-2026-10-21.json"
           },
           "companies": {
-            "csv": "https://deepstack.ltd/data/download/companies-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/companies-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/companies-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/companies-2026-10-21.json"
           },
           "people": {
-            "csv": "https://deepstack.ltd/data/download/people-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/people-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/people-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/people-2026-10-21.json"
           },
           "tape": {
-            "csv": "https://deepstack.ltd/data/download/tape-2026-10-20.csv",
-            "json": "https://deepstack.ltd/data/download/tape-2026-10-20.json"
+            "csv": "https://deepstack.ltd/data/download/tape-2026-10-21.csv",
+            "json": "https://deepstack.ltd/data/download/tape-2026-10-21.json"
           }
         }
       }

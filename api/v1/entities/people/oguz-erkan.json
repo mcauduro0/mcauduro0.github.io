@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "oguz-erkan",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/oguz-erkan/",
   "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-  "summary": "Oguz Erkan is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides).",
+  "summary": "Oguz Erkan is named in 6 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides), Part 17 (The cash flows cover it).",
   "parts": [
     {
       "part": 3,
@@ -33,6 +33,11 @@
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -66,6 +71,12 @@
       "section": "The cash still covers it",
       "excerpt": "Oguz Erkan argued on August 23 that Meta's committed capital already earns a return in the core business and that internal deployments can be delayed or cancelled.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "section": "The cash flows cover it",
+      "excerpt": "Oguz Erkan of Capitalist Letters noted on August 23, 2026 that Meta can delay or cancel its own builds, though not its pay-or-take contracts with neoclouds.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "sides": [
@@ -152,13 +163,25 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "Neocloud contracts are pay-or-take and leave Meta little flexibility once committed, while internal data center deployment can be delayed or cancelled; even in the worst case committed capacity is unlikely to exceed internal consumption long term…",
+      "date": "2026-08-23",
+      "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 586,
     "texts": 47,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

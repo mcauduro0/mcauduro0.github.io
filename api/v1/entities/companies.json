@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
   "kind": "company",
-  "count": 48,
+  "count": 49,
   "market": {
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
@@ -66,9 +66,9 @@
         "creators": 33,
         "claims": 170,
         "texts": 96,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 108.7,
         "change": 0.13,
@@ -91,7 +91,7 @@
       "ticker": "GOOGL",
       "url": "https://deepstack.ltd/companies/alphabet/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/alphabet.json",
-      "summary": "Alphabet is named in 14 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Alphabet is named in 15 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 1,
@@ -162,6 +162,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -185,6 +190,20 @@
           "context": "Alphabet release, Jul 22, 2026: $39.1B of operating cash against $44.9B of purchases",
           "part": 14,
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        },
+        {
+          "value": "1.86%",
+          "label": "Liability on Alphabet's data center credit derivatives as a share of their notional amount, June 30, 2026",
+          "context": "Alphabet Form 10-Q, June 30, 2026, SEC EDGAR: $815 million on $43.8 billion; 0.41% at Dec 31, 2025; DeepStack's division",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "mentions": [
@@ -549,15 +568,87 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "With SpaceX and Google issuance, Meta considering more equity, and confidential IPO filings from both leading labs, it is plausible that markets absorb trillions of dollars of AI-themed equity supply over the next year, and since price is a…",
+          "date": "2026-06-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 207,
         "claims": 3150,
         "texts": 1484,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 340.275,
         "change": -3.905,
@@ -580,7 +671,7 @@
       "ticker": "AMZN",
       "url": "https://deepstack.ltd/companies/amazon/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/amazon.json",
-      "summary": "Amazon is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Amazon is named in 11 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 3,
@@ -631,6 +722,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -647,6 +743,13 @@
           "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 94.5% across 2025",
           "part": 14,
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "mentions": [
@@ -987,15 +1090,99 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+          "date": "2026-08-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "The refusal to disclose real AI revenue, with only an easily manipulated ARR figure from Amazon and anecdotes from the rest, is itself a bad sign about the strength of the existing AI businesses.",
+          "date": "2026-08-11",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 139,
         "claims": 938,
         "texts": 577,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 262.63,
         "change": 0.18,
@@ -1048,9 +1235,9 @@
         "creators": 52,
         "claims": 399,
         "texts": 205,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 534.74,
         "change": -3.31,
@@ -1073,7 +1260,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/anthropic/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/anthropic.json",
-      "summary": "Anthropic is named in 11 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Anthropic is named in 12 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 1,
@@ -1129,6 +1316,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -1686,15 +1878,51 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "AI labs like OpenAI and Anthropic face a financing constraint because they are not investment grade and much of data center build-out requires capital-intensive, upfront CapEx they cannot afford, which slows their ambition to be more vertically…",
+          "date": "2026-07-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 139,
         "claims": 2292,
         "texts": 851,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": null
     },
     {
@@ -1892,9 +2120,9 @@
         "creators": 39,
         "claims": 278,
         "texts": 215,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 111.22,
         "change": 0.27,
@@ -1963,9 +2191,9 @@
         "creators": 92,
         "claims": 995,
         "texts": 528,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 339.5,
         "change": -3.44,
@@ -2010,9 +2238,9 @@
         "creators": 27,
         "claims": 115,
         "texts": 96,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 50.64,
         "change": 0.25,
@@ -2057,9 +2285,9 @@
         "creators": 44,
         "claims": 2011,
         "texts": 546,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 809555,
         "change": 10855,
@@ -2135,9 +2363,9 @@
         "creators": 23,
         "claims": 66,
         "texts": 54,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 110.34,
         "change": 3.25,
@@ -2160,12 +2388,17 @@
       "ticker": "OBDC",
       "url": "https://deepstack.ltd/companies/blue-owl-capital/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/blue-owl-capital.json",
-      "summary": "Blue Owl Capital is named in 1 Part of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "Blue Owl Capital is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 8,
           "headline": "AI Lenders Are Financing the End of Scarcity",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -2175,16 +2408,35 @@
           "section": "Lede",
           "excerpt": "On September 24, Oracle sent a letter to a unit of Blue Owl Capital about Project Jupiter, a 2.45-gigawatt New Mexico campus being built for the Stargate venture with OpenAI.",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 17,
+          "section": "The lease is already debt",
+          "excerpt": "Meta's announcement of October 21, 2025 gives the other 80% to funds managed by Blue Owl Capital; PIMCO, which Eisman counted among the owners, bought debt.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "On the same day the spread closed at 2.80%, Oracle sent a force majeure notice to Blue Owl Capital, developer of the Project Jupiter Stargate campus, covering potential cost increases and letting Oracle delay payments if the campus misses its 2028…",
+          "date": "2026-09-27",
+          "url": "https://quanta72.substack.com/p/q72-brief-the-chips-are-underwater",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
       "coverage": {
         "creators": 7,
         "claims": 9,
         "texts": 8,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 9.92,
         "change": 0.03,
@@ -2279,9 +2531,9 @@
         "creators": 45,
         "claims": 157,
         "texts": 98,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 334.37,
         "change": -0.22,
@@ -2359,9 +2611,9 @@
         "creators": 5,
         "claims": 85,
         "texts": 26,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 341.95,
         "change": -2.25,
@@ -2428,9 +2680,9 @@
         "creators": 32,
         "claims": 80,
         "texts": 58,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 106.71,
         "change": 0.21,
@@ -2489,14 +2741,27 @@
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "AI-related borrowers are paying materially more for financing across multiple instrument types: CleanSpark paid about 175bps more than the average BB issuer versus similar IG-tenant financings that cleared below 6% earlier this year…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
       "coverage": {
         "creators": 3,
         "claims": 5,
         "texts": 4,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 8.43,
         "change": -0.03,
@@ -2553,9 +2818,9 @@
         "creators": 9,
         "claims": 175,
         "texts": 59,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 231.8,
         "change": -0.22,
@@ -2639,9 +2904,9 @@
         "creators": 19,
         "claims": 65,
         "texts": 52,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 22.36,
         "change": 0.46,
@@ -2850,9 +3115,9 @@
         "creators": 41,
         "claims": 198,
         "texts": 100,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 62.13,
         "change": 1.01,
@@ -2945,9 +3210,9 @@
         "creators": 53,
         "claims": 221,
         "texts": 106,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": null
     },
     {
@@ -2992,9 +3257,9 @@
         "creators": 22,
         "claims": 46,
         "texts": 33,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 461.77,
         "change": 6.96,
@@ -3052,9 +3317,9 @@
         "creators": 20,
         "claims": 66,
         "texts": 33,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 191.67,
         "change": -1.86,
@@ -3099,9 +3364,9 @@
         "creators": 2,
         "claims": 2,
         "texts": 2,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 43.03,
         "change": 0.62,
@@ -3183,9 +3448,9 @@
         "creators": 8,
         "claims": 49,
         "texts": 17,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 355.48,
         "change": -7.21,
@@ -3230,9 +3495,9 @@
         "creators": 16,
         "claims": 92,
         "texts": 43,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 799.73,
         "change": 18.66,
@@ -3277,9 +3542,9 @@
         "creators": 3,
         "claims": 33,
         "texts": 11,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 47.01,
         "change": 0.9,
@@ -3355,9 +3620,9 @@
         "creators": 41,
         "claims": 91,
         "texts": 76,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 884.81,
         "change": 9.03,
@@ -3427,9 +3692,9 @@
         "creators": 16,
         "claims": 61,
         "texts": 32,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 335.29,
         "change": 9.67,
@@ -3486,9 +3751,9 @@
         "creators": 7,
         "claims": 168,
         "texts": 65,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 822.51,
         "change": -12,
@@ -3511,7 +3776,7 @@
       "ticker": "META",
       "url": "https://deepstack.ltd/companies/meta/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/meta.json",
-      "summary": "Meta is named in 9 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly.",
+      "summary": "Meta is named in 10 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 4,
@@ -3557,6 +3822,11 @@
           "part": 14,
           "headline": "The Cash Arrives Unevenly",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -3580,6 +3850,20 @@
           "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 64.8% across 2025",
           "part": 14,
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        },
+        {
+          "value": "$28 billion",
+          "label": "Approximate threshold of Meta's residual value guarantees on the Hyperion venture, June 30, 2026, with no liability recorded",
+          "context": "Meta Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR; inside a $46.03 billion maximum exposure that also counts equity, funding and lease commitments",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "mentions": [
@@ -3884,15 +4168,171 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Meta's data center JV structure shows that the parties closest to the assets do not believe the value will hold: lenders would not bear residual value risk without protection, so Meta issued a residual value guarantee of up to $28 billion on…",
+          "date": "2026-09-24",
+          "url": "https://michaeljburry.substack.com/p/capital-cycle-iq-and-the-forensic",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Because purpose-built data centers with specialized power, cooling and racks lack a deep resale or sublease market (unlike office space), when data-center capacity is not needed it will be written down, as illustrated by Meta's 2022 office and…",
+          "date": "2026-09-19",
+          "url": "https://michaeljburry.substack.com/p/the-heretics-guide-to-ais-stars-part-c9c",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+          "date": "2026-08-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "What matters for hyperscaler investment is the relationship between earnings growth and the capital required to produce it rather than when capex peaks; Meta in 2023 illustrates the cash-flow math, with operating cash flow going from $50.5B to…",
+          "date": "2026-09-15",
+          "url": "https://gaetanoresearch.substack.com/p/if-ai-slows-down-heres-where-i-still",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Neocloud contracts are pay-or-take and leave Meta little flexibility once committed, while internal data center deployment can be delayed or cancelled; even in the worst case committed capacity is unlikely to exceed internal consumption long term…",
+          "date": "2026-08-23",
+          "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "If AI compute demand holds and Meta monetizes roughly 5 GW of projected 2030 excess capacity at an assumed blended $20 billion per GW, Oguz Erkan estimates $100 billion incremental revenue and $20-$30 billion net income at assumed 20-30% net…",
+          "date": "2026-08-23",
+          "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "With SpaceX and Google issuance, Meta considering more equity, and confidential IPO filings from both leading labs, it is plausible that markets absorb trillions of dollars of AI-themed equity supply over the next year, and since price is a…",
+          "date": "2026-06-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "The line between AI borrowers who can keep paying up and borrowers who are squeezed follows cash flow and financing options more than sector: a borrower with a strategic counterparty (like Meta or Alphabet), a public stock, and lenders competing…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "He thinks Meta, trading at roughly $1.5 trillion, is silly and worth way more than that in a logical sense, given its cash flows, the infrastructure it is hoarding, and the compute it will be able to sell at high dollar-per-watt rates, either via…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 152,
         "claims": 2064,
         "texts": 878,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 694.25,
         "change": -11.19,
@@ -3938,14 +4378,27 @@
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Kris argues that the widespread professional view of an AI/chip bubble is wrong, because infrastructure companies have multi-year supply contracts and chipmakers like Micron and Nvidia cannot currently produce enough chips to satisfy demand.",
+          "date": "2026-08-24",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
       "coverage": {
         "creators": 49,
         "claims": 250,
         "texts": 137,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 896.07,
         "change": -8.83,
@@ -3968,7 +4421,7 @@
       "ticker": "MSFT",
       "url": "https://deepstack.ltd/companies/microsoft/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/microsoft.json",
-      "summary": "Microsoft is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Microsoft is named in 13 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 2,
@@ -4029,6 +4482,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -4052,6 +4510,13 @@
           "context": "SEC XBRL filings, read Oct 12, 2026; DeepStack calculation; 65.3 cents spent per dollar",
           "part": 14,
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "mentions": [
@@ -4272,15 +4737,99 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+          "date": "2026-08-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Microsoft is viewed as a great business with strong cash flows, intelligent capital allocation, and massive intellectual property that existed before the AI boom, and is believed to be reasonably priced with the financial strength to withstand…",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Risks to Microsoft include premature capital spending on AI, delays in deploying data centers postponing profits, and the possibility that early enthusiasm for AI is not shared by the broader population.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Unlike Amazon, Google and Microsoft, which had strong free cash flow, strong balance sheets and little or no debt pre-AI era letting them own their datacenters and equipment, Oracle entered the AI era already carrying dozens of billions in debt…",
+          "date": "2026-09-24",
+          "url": "https://kakashiii111.substack.com/p/oracle-hyperscaler-or-neocloud-a",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 139,
         "claims": 934,
         "texts": 565,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 531.87,
         "change": -1.65,
@@ -4331,9 +4880,9 @@
         "creators": 7,
         "claims": 8,
         "texts": 8,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 366.18,
         "change": 17.49,
@@ -4413,9 +4962,9 @@
         "creators": 38,
         "claims": 99,
         "texts": 73,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 180.4,
         "change": 1.93,
@@ -4582,9 +5131,9 @@
         "creators": 24,
         "claims": 296,
         "texts": 89,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 171.45,
         "change": 1.21,
@@ -4646,9 +5195,9 @@
         "creators": 57,
         "claims": 236,
         "texts": 140,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 68.69,
         "change": -1.16,
@@ -4693,9 +5242,9 @@
         "creators": 22,
         "claims": 94,
         "texts": 38,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 37.88,
         "change": 0.67,
@@ -4740,9 +5289,9 @@
         "creators": 1,
         "claims": 1,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 97.84,
         "change": -1.54,
@@ -4765,7 +5314,7 @@
       "ticker": "NVDA",
       "url": "https://deepstack.ltd/companies/nvidia/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/nvidia.json",
-      "summary": "Nvidia is named in 10 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Nvidia is named in 11 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 1,
@@ -4816,6 +5365,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -5464,15 +6018,39 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Oracle sent a force majeure notice on Project Jupiter, the New Mexico AI data center tied to the $400 billion Stargate project it started with OpenAI, SoftBank, Nvidia and other partners, and Kris hopes this is in hindsight not the first crack.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Kris argues that the widespread professional view of an AI/chip bubble is wrong, because infrastructure companies have multi-year supply contracts and chipmakers like Micron and Nvidia cannot currently produce enough chips to satisfy demand.",
+          "date": "2026-08-24",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 142,
         "claims": 1416,
         "texts": 675,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 216.47,
         "change": -0.62,
@@ -5495,7 +6073,7 @@
       "ticker": null,
       "url": "https://deepstack.ltd/companies/openai/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/openai.json",
-      "summary": "OpenAI is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "OpenAI is named in 13 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 2,
@@ -5556,6 +6134,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -6183,15 +6766,75 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Hyperscalers including Google, Microsoft, Amazon, and Meta have spent over a trillion dollars in capital expenditure on GPUs, largely to capture revenue from OpenAI and Anthropic, which they themselves continue to fund, creating a closed loop where…",
+          "date": "2026-09-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Kris has always said that if one pin falls among the AI companies many others would follow; they mostly thought of OpenAI, but consider Oracle a weak link in the chain as well.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Oracle sent a force majeure notice on Project Jupiter, the New Mexico AI data center tied to the $400 billion Stargate project it started with OpenAI, SoftBank, Nvidia and other partners, and Kris hopes this is in hindsight not the first crack.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "SoftBank was able to borrow $11bn at record yields to fund its OpenAI stake, the 4th largest junk bond deal on record, and the market absorbed it without much trouble, showing that borrowers who can use the money to earn a new source of return can…",
+          "date": "2026-09-27",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "AI labs like OpenAI and Anthropic face a financing constraint because they are not investment grade and much of data center build-out requires capital-intensive, upfront CapEx they cannot afford, which slows their ambition to be more vertically…",
+          "date": "2026-07-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 170,
         "claims": 2261,
         "texts": 1019,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": null
     },
     {
@@ -6201,7 +6844,7 @@
       "ticker": "ORCL",
       "url": "https://deepstack.ltd/companies/oracle/",
       "api": "https://deepstack.ltd/api/v1/entities/companies/oracle.json",
-      "summary": "Oracle is named in 8 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper.",
+      "summary": "Oracle is named in 9 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 3,
@@ -6242,6 +6885,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [
@@ -6251,6 +6899,20 @@
           "context": "Record that week, according to Seeking Alpha",
           "part": 8,
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "value": "$1.12 trillion",
+          "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+          "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        },
+        {
+          "value": "49.2%",
+          "label": "Share of Oracle's operating cash from customer prepayments with a financing component, quarter to Aug 31, 2026",
+          "context": "Oracle first-quarter fiscal 2027 release, Sep 10, 2026, SEC EDGAR: $11.36 billion of $23.10 billion",
+          "part": 17,
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "mentions": [
@@ -6435,15 +7097,75 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Anthropic itself is not borrowing the money; it is the hyperscalers (he names Meta, Google, Amazon, Microsoft, Oracle) who are borrowing to use Anthropic's products, so if Anthropic were to go bust, that would be an equity problem rather than a…",
+          "date": "2026-09-17",
+          "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "On the same day the spread closed at 2.80%, Oracle sent a force majeure notice to Blue Owl Capital, developer of the Project Jupiter Stargate campus, covering potential cost increases and letting Oracle delay payments if the campus misses its 2028…",
+          "date": "2026-09-27",
+          "url": "https://quanta72.substack.com/p/q72-brief-the-chips-are-underwater",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Kris has always said that if one pin falls among the AI companies many others would follow; they mostly thought of OpenAI, but consider Oracle a weak link in the chain as well.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Oracle sent a force majeure notice on Project Jupiter, the New Mexico AI data center tied to the $400 billion Stargate project it started with OpenAI, SoftBank, Nvidia and other partners, and Kris hopes this is in hindsight not the first crack.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 74,
         "claims": 249,
         "texts": 159,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 131.09,
         "change": 1.5,
@@ -6494,9 +7216,9 @@
         "creators": 33,
         "claims": 117,
         "texts": 66,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 192.6,
         "change": -1.55,
@@ -6511,6 +7233,40 @@
         "sourceUrl": "https://financialmodelingprep.com",
         "note": "Delayed quotes."
       }
+    },
+    {
+      "kind": "company",
+      "slug": "s-p-global",
+      "name": "S&P Global",
+      "ticker": "SPGI",
+      "url": "https://deepstack.ltd/companies/s-p-global/",
+      "api": "https://deepstack.ltd/api/v1/entities/companies/s-p-global.json",
+      "summary": "S&P Global is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date.",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "It enters the balance sheet when it commences, as late as 2036 for Meta, and at least one agency counts it sooner: S&P Global Ratings, cutting Oracle to BBB- on July 9, 2026, added to the debt in its forecast the $260 billion of leases Oracle then expected to start between fiscal 2027 and 2029.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 15,
+        "claims": 75,
+        "texts": 43,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21",
+      "market": null
     },
     {
       "kind": "company",
@@ -6541,9 +7297,9 @@
         "creators": 54,
         "claims": 173,
         "texts": 123,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 242.43,
         "change": -0.02,
@@ -6588,9 +7344,9 @@
         "creators": 24,
         "claims": 49,
         "texts": 34,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 149.54,
         "change": 4.18,
@@ -6666,9 +7422,9 @@
         "creators": 36,
         "claims": 118,
         "texts": 81,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 173.48,
         "change": 2.42,
@@ -6840,15 +7596,51 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "With SpaceX and Google issuance, Meta considering more equity, and confidential IPO filings from both leading labs, it is plausible that markets absorb trillions of dollars of AI-themed equity supply over the next year, and since price is a…",
+          "date": "2026-06-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 84,
         "claims": 433,
         "texts": 227,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": null
     },
     {
@@ -6880,9 +7672,9 @@
         "creators": 6,
         "claims": 6,
         "texts": 6,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 69.56,
         "change": 1.49,
@@ -6940,9 +7732,9 @@
         "creators": 55,
         "claims": 367,
         "texts": 212,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 425.08,
         "change": 4.86,
@@ -7017,9 +7809,9 @@
         "creators": 12,
         "claims": 24,
         "texts": 15,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "market": {
         "price": 203.56,
         "change": -2.52,

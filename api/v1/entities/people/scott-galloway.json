@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "scott-galloway",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/scott-galloway/",
   "api": "https://deepstack.ltd/api/v1/entities/people/scott-galloway.json",
-  "summary": "Scott Galloway is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
+  "summary": "Scott Galloway is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The lease is already debt).",
   "parts": [
     {
       "part": 10,
       "headline": "The Bubble Is in the Denominator",
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -24,12 +29,25 @@
       "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-lease-is-already-debt",
+      "sideLabel": "The lease is already debt",
+      "claim": "Investors are not paying sufficient attention to off-balance-sheet obligations that underlie Big Tech's artificial intelligence infrastructure spending.",
+      "date": "2026-07-27",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
   "coverage": {
     "creators": 2,
     "claims": 896,
     "texts": 136,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

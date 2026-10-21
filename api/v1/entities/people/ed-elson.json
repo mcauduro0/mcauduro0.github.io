@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "ed-elson",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/ed-elson/",
   "api": "https://deepstack.ltd/api/v1/entities/people/ed-elson.json",
-  "summary": "Ed Elson is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
+  "summary": "Ed Elson is named in 4 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain), Part 17 (The weak link pays first).",
   "parts": [
     {
       "part": 5,
@@ -23,6 +23,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -94,13 +99,25 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
       "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "Hyperscalers have accumulated off-balance-sheet debt that funds the AI buildout and should be a focus for investors.",
+      "date": "2026-07-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 596,
     "texts": 69,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

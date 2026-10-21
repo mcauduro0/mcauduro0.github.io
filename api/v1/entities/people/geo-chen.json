@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "geo-chen",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/geo-chen/",
   "api": "https://deepstack.ltd/api/v1/entities/people/geo-chen.json",
-  "summary": "Geo Chen is named in 2 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
+  "summary": "Geo Chen is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The weak link pays first).",
   "parts": [
     {
       "part": 5,
@@ -18,6 +18,11 @@
       "part": 8,
       "headline": "AI Lenders Are Financing the End of Scarcity",
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -35,12 +40,37 @@
       "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "The market conversation is shifting from token maximization toward token optimization and questioning the return on investment of enterprise AI spending.",
+      "date": "2026-07-14",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "With SpaceX and Google issuance, Meta considering more equity, and confidential IPO filings from both leading labs, it is plausible that markets absorb trillions of dollars of AI-themed equity supply over the next year, and since price is a…",
+      "date": "2026-06-23",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
   "coverage": {
     "creators": 0,
     "claims": 1517,
     "texts": 157,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

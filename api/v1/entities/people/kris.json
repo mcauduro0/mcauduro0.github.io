@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kris",
@@ -7,7 +7,7 @@
   "role": "Potential Multibaggers",
   "url": "https://deepstack.ltd/people/kris/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kris.json",
-  "summary": "Kris is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides).",
+  "summary": "Kris is named in 9 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides), Part 17 (The weak link pays first), Part 17 (Voices that cross sides).",
   "parts": [
     {
       "part": 1,
@@ -48,6 +48,11 @@
       "part": 15,
       "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
       "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -257,13 +262,49 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
       "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "Kris has always said that if one pin falls among the AI companies many others would follow; they mostly thought of OpenAI, but consider Oracle a weak link in the chain as well.",
+      "date": "2026-09-28",
+      "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Kris repeats a long-held view that one should not expect the AI bubble to burst simply because it is a bubble; technological revolutions typically skip efficiency first and overspend, and the current data-center build-out assumes linear capacity…",
+      "date": "2026-06-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Kris argues that the widespread professional view of an AI/chip bubble is wrong, because infrastructure companies have multi-year supply contracts and chipmakers like Micron and Nvidia cannot currently produce enough chips to satisfy demand.",
+      "date": "2026-08-24",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 3,
     "claims": 1963,
     "texts": 167,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

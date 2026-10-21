@@ -1,0 +1,974 @@
+{
+  "generatedAt": "2026-10-21T03:40:16Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "part": 17,
+  "slug": "the-guarantee-has-no-date",
+  "headline": "The Guarantee Has No Date",
+  "dek": "By mid-2026 the five largest builders of AI data centers had signed $1.12 trillion of leases not yet begun, by DeepStack's sum of their filings, 69% more than Moody's counted at the end of 2025. The leases reach the balance sheet on a schedule. The guarantees beside them have no date.",
+  "summary": "The leases the AI builders signed reach their balance sheets on dates their filings print. The guarantees behind the projects carry little or no recorded liability, and four filings between December 2026 and February 2027 test whether the risk off the books is still rising.",
+  "section": "Markets",
+  "date": "2026-10-21",
+  "readingMinutes": 10,
+  "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+  "api": "https://deepstack.ltd/api/v1/stories/the-guarantee-has-no-date.json",
+  "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/",
+  "layer": {
+    "id": "capital",
+    "label": "Capital and credit"
+  },
+  "call": {
+    "tone": "split",
+    "toneLabel": "Split",
+    "stance": "The risk off the books is still rising.",
+    "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+    "conviction": 3,
+    "convictionLabel": "Moderate",
+    "actions": [
+      "Add the five 'not yet commenced' lines in February 2027: $1,118.5 billion at mid-2026 against Moody's $662 billion at end-2025.",
+      "Read guarantees at their threshold, not booked liability: Meta's Hyperion guarantee of about $28 billion carried none on June 30, 2026.",
+      "Strip prepayments from Oracle's operating cash on Dec 14: $11.4 billion of $23.1 billion in the quarter to Aug 31, 2026."
+    ],
+    "flips": [
+      "The five 'not yet commenced' lines at Dec 31, 2026 sum to no more than the $1,118.5 billion of mid-2026.",
+      "Alphabet's annual report puts its backstops' liability at 1.86% of notional or less at Dec 31, 2026, where it stood at June 30.",
+      "Oracle's Dec 14 release puts customer prepayments at 40% or less of six-month operating cash."
+    ],
+    "side": null,
+    "against": null,
+    "version": 2,
+    "updatedOn": "2026-10-21",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-21",
+        "stance": "The risk off the books is still rising.",
+        "tone": "split",
+        "toneLabel": "Split",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+        "reason": "First call, with the story.",
+        "by": "DeepStack"
+      },
+      {
+        "version": 2,
+        "date": "2026-10-21",
+        "stance": "The risk off the books is still rising.",
+        "tone": "split",
+        "toneLabel": "Split",
+        "conviction": 3,
+        "convictionLabel": "Moderate",
+        "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+        "side": null,
+        "reason": "Side named by the owner.",
+        "by": "Marco Cauduro"
+      }
+    ],
+    "nextTest": {
+      "id": "p17-t03",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "when": "December 14",
+      "whenLabel": "Dec 14, 2026",
+      "date": "2026-12-14",
+      "precision": "day",
+      "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-21T03:33:08Z",
+      "callProbability": 70,
+      "callProbabilityAt": "2026-10-21T03:33:08Z",
+      "callProbabilityHistory": [],
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "Divide the line for the increase in deferred revenues from customer prepayments with significant financing component by net cash provided by operating activities, both for the six months ended November 30, 2026, as printed in the statement of cash flows of the earnings release, or of the Form 10-Q when the release does not print the six months. The answer is yes if the line is above 40% of operating cash flow, which includes any case where operating cash flow is zero or negative; no if it is 40% or less. In the quarter to August 31, 2026 the same two lines gave $11,363 million of $23,103 million, 49.2%.",
+        "question": "For the six months ended November 30, 2026, does Oracle's increase in deferred revenues from customer prepayments with significant financing component exceed 40% of its net cash provided by operating activities?",
+        "source": {
+          "label": "SEC EDGAR, Oracle second-quarter fiscal 2027 results (Form 8-K, Exhibit 99.1) and Form 10-Q, statements of cash flows (CIK 1341439)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=8-K"
+        },
+        "ambiguity": "If neither the earnings release nor the Form 10-Q prints both lines for the six months by January 11, 2027, or the prepayment line is renamed, merged or dropped, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 18, 2027, in the Form 10-Q's statement of cash flows.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "In the quarter to August 31, 2026, customer prepayments with a financing component were $11.4 billion of Oracle's $23.1 billion of operating cash, or 49.2%.",
+          "outsideView": "For the six months to reach 40% or less, the second quarter's share would have to fall to about 31% on similar operating cash, which an ordinary collections quarter could do.",
+          "wouldChange": "Fewer new data center contracts paid in advance, or a quarter of strong ordinary collections, would lower the number, and a drop in operating cash would raise it."
+        }
+      },
+      "url": "https://deepstack.ltd/docket/#test-p17-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+      "resultUrl": null
+    },
+    "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#verdict"
+  },
+  "keyNumbers": [
+    {
+      "id": "p17-n1",
+      "value": "$1.12 trillion",
+      "label": "Leases signed but not yet begun at Microsoft, Oracle, Meta, Amazon and Alphabet, mid-2026",
+      "context": "DeepStack's sum of the five filings at June 30, 2026 (Oracle at Aug 31, 2026), SEC EDGAR; Moody's counted $662 billion at the end of 2025",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n1",
+      "provenance": {
+        "unit": "US dollars, undiscounted",
+        "universe": "Leases signed but not yet commenced, as each company prints them, at Microsoft, Oracle, Meta, Amazon and Alphabet; Alphabet's separate short-term lease of about $5.8 billion left out",
+        "period": "June 30, 2026 for four companies; August 31, 2026 for Oracle",
+        "source": {
+          "label": "SEC EDGAR, Form 10-K of Microsoft and Form 10-Q of Oracle, Meta, Amazon and Alphabet, read October 12, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "DeepStack's sum of the five printed amounts: $329.1 billion, $288 billion, $278.99 billion, $137.2 billion and $85.2 billion, $1,118.5 billion.",
+        "limits": "Mixed dates; undiscounted rent over terms of up to 30 years is not comparable one to one with debt; leases signed after each date, such as Meta's $68 billion of July 2026, are left out. The test reads the same lines at year-end.",
+        "chart": {
+          "id": "story",
+          "label": "One obligation, five totals",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#story-chart-title"
+        },
+        "test": {
+          "id": "p17-t01",
+          "url": "https://deepstack.ltd/docket/#test-p17-t01"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n2",
+      "value": "$28 billion",
+      "label": "Approximate threshold of Meta's residual value guarantees on the Hyperion venture, June 30, 2026, with no liability recorded",
+      "context": "Meta Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR; inside a $46.03 billion maximum exposure that also counts equity, funding and lease commitments",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n2",
+      "provenance": {
+        "unit": "US dollars",
+        "universe": "The aggregate threshold of Meta's residual value guarantees to the Louisiana data center joint venture (Hyperion)",
+        "period": "June 30, 2026",
+        "source": {
+          "label": "Meta Platforms, Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR, read October 12, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+        },
+        "asOf": "2026-10-12",
+        "transformation": "As published (approximately $28 billion).",
+        "limits": "A cap on payments, not an expected loss; it sits inside the $46.03 billion maximum exposure, which also counts Meta's equity, funding commitments and leases from the venture; the filing records no liability for the guarantees.",
+        "chart": null,
+        "test": {
+          "id": "p17-t04",
+          "url": "https://deepstack.ltd/docket/#test-p17-t04"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n3",
+      "value": "1.86%",
+      "label": "Liability on Alphabet's data center credit derivatives as a share of their notional amount, June 30, 2026",
+      "context": "Alphabet Form 10-Q, June 30, 2026, SEC EDGAR: $815 million on $43.8 billion; 0.41% at Dec 31, 2025; DeepStack's division",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n3",
+      "provenance": {
+        "unit": "percent",
+        "universe": "The liability recorded on Alphabet's credit derivatives that backstop data center payment obligations, divided by their gross notional amount",
+        "period": "June 30, 2026 (0.41% at December 31, 2025)",
+        "source": {
+          "label": "Alphabet, Form 10-Q for the quarter ended June 30, 2026, note on derivative financial instruments, SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm#p1-item2-3"
+        },
+        "asOf": "2026-07-23",
+        "transformation": "DeepStack's division: $815 million of liabilities divided by $43,785 million of notional.",
+        "limits": "Fair value at one date; the estimated $24.1 billion of backstops not yet final is outside the notional; the test reads the same two rows at December 31, 2026, against 1.86%.",
+        "chart": null,
+        "test": {
+          "id": "p17-t02",
+          "url": "https://deepstack.ltd/docket/#test-p17-t02"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    },
+    {
+      "id": "p17-n4",
+      "value": "49.2%",
+      "label": "Share of Oracle's operating cash from customer prepayments with a financing component, quarter to Aug 31, 2026",
+      "context": "Oracle first-quarter fiscal 2027 release, Sep 10, 2026, SEC EDGAR: $11.36 billion of $23.10 billion",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#number-p17-n4",
+      "provenance": {
+        "unit": "percent",
+        "universe": "Oracle's increase in deferred revenues from customer prepayments with significant financing component, as a share of net cash provided by operating activities",
+        "period": "The quarter ended August 31, 2026",
+        "source": {
+          "label": "Oracle, first-quarter fiscal 2027 results, Form 8-K Exhibit 99.1, September 10, 2026, SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+        },
+        "asOf": "2026-09-10",
+        "transformation": "DeepStack's division: $11,363 million divided by $23,103 million.",
+        "limits": "One quarter; the test reads the six months to November 30, 2026, against a line of 40%.",
+        "chart": null,
+        "test": {
+          "id": "p17-t03",
+          "url": "https://deepstack.ltd/docket/#test-p17-t03"
+        },
+        "call": true,
+        "approvedBy": "Marco Cauduro",
+        "approvedAt": "2026-10-13T02:48:54.993Z"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "Microsoft - Form 10-K for the fiscal year ended June 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+    },
+    {
+      "label": "Oracle - Form 10-Q for the quarter ended August 31, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    },
+    {
+      "label": "Meta Platforms - Form 10-Q for the quarter ended June 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+    },
+    {
+      "label": "Amazon.com - Form 10-Q for the quarter ended June 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+    },
+    {
+      "label": "Alphabet - Form 10-Q for the quarter ended June 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm#p1-item2-3"
+    },
+    {
+      "label": "Fortune - Moody's count of $662 billion in data center commitments, February 25, 2026",
+      "url": "https://fortune.com/2026/02/25/hyperscaler-risk-off-balance-sheet-662-billion-data-center-commitments-meta-amazon-microsoft-oracle-alphabet/"
+    },
+    {
+      "label": "Meta Platforms - Form 10-K for the year ended December 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+    },
+    {
+      "label": "UBS Asset Management - Webs of AI debt, September 29, 2026",
+      "url": "https://www.ubs.com/us/en/assetmanagement/insights/investment-outlook/the-red-thread/trt-end-year-2026/articles/webs-of-ai-debt.html"
+    },
+    {
+      "label": "DeepStack - Part one, Nvidia's Demand Is Real. Its Financing Is Fragile.",
+      "url": "https://deepstack.ltd/stories/nvidias-demand-insatiable-or-manufactured/"
+    },
+    {
+      "label": "DeepStack - Part three, The Machines Will Work. The Debt Might Not.",
+      "url": "https://deepstack.ltd/stories/the-debt-behind-the-machines/"
+    },
+    {
+      "label": "DeepStack - Part eight, AI Lenders Are Financing the End of Scarcity",
+      "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+    },
+    {
+      "label": "DeepStack - Part eleven, The Backlog Is Not the Quarter",
+      "url": "https://deepstack.ltd/stories/the-backlog-is-not-the-quarter/"
+    },
+    {
+      "label": "Meta - The Hyperion joint venture with funds managed by Blue Owl Capital, October 21, 2025",
+      "url": "https://about.fb.com/news/2025/10/meta-blue-owl-capital-develop-hyperion-data-center/"
+    },
+    {
+      "label": "MacroVoices #550 - Harley Bassman: In FED We Trust, hosted by Erik Townsend, September 17, 2026",
+      "url": "https://www.macrovoices.com/1550-macrovoices-550-harley-bassman-in-fed-we-trust"
+    },
+    {
+      "label": "Harris Associates Oakmark - Q3 2026 letter, via fiscal.ai",
+      "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375"
+    },
+    {
+      "label": "Capitalist Letters (Oguz Erkan) - META Deep Dive: Opportunity or a Trap?, August 23, 2026",
+      "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap"
+    },
+    {
+      "label": "YCG Investments - Q2 2026 letter, via fiscal.ai",
+      "url": "https://fiscal.ai/fund-letters/ycg-wealth-management-q2-2026-fscl_document_6UCM4GWA580"
+    },
+    {
+      "label": "Bloomberg Intelligence, Tech Disruptors - Latham & Watkins on AI's Capital-Spending Boom, with Haim Zaltzman, September 29, 2026",
+      "url": "https://traffic.megaphone.fm/BLM6876553816.mp3"
+    },
+    {
+      "label": "JunkBondInvestor - Credit Weekly: Who the Hike Hits, September 20, 2026",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits"
+    },
+    {
+      "label": "JunkBondInvestor - Credit Weekly: Repriced, Not Differentiated, July 26, 2026",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-repriced-not-differentiated"
+    },
+    {
+      "label": "NVIDIA - Form 8-K dated August 17, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm"
+    },
+    {
+      "label": "Potential Multibaggers (Kris) - The First AI Crack?, September 28, 2026",
+      "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack"
+    },
+    {
+      "label": "Accredited Insight (Leyla Kunimoto) - Follow the Breadcrumbs: Who Owns the Risk in Project Jupiter?, October 5, 2026",
+      "url": "https://www.accreditedinsight.com/p/follow-the-breadcrumbs-who-owns-the"
+    },
+    {
+      "label": "Oracle - First-quarter fiscal 2027 results, Form 8-K Exhibit 99.1, September 10, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+    },
+    {
+      "label": "Oracle Investor Relations - FAQ, next earnings date, read October 13, 2026",
+      "url": "https://investor.oracle.com/faq/default.aspx"
+    }
+  ],
+  "earlierVersion": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+  "corrections": [],
+  "wordCount": 2269,
+  "pullQuote": "The lease will be counted when it starts. Nobody has set a date to count the guarantee.",
+  "verdict": "The DeepStack Call is that the risk off the books is still rising. On leases the defenders are right about timing: the $1.12 trillion the five builders had signed by mid-2026 starts on schedules their filings print, and S&P already counts Oracle's share in its forecast. Timing does not shrink the pile, which grew 69% from the $662 billion Moody's counted at the end of 2025. Their case on cash is thinner than they allow: after capital spending, operating cash left Microsoft $67.0 billion in the year to June 30, 2026 and fell $11.6 billion short at Amazon over the same 12 months. On guarantees the critics are right that the first loss stays with whoever wrote the guarantee. Alphabet's booked liability on its $43.8 billion of data center backstops rose from 0.41% of notional at the end of 2025 to 1.86% at June 30, 2026, while Meta recorded none on its Hyperion guarantees of about $28 billion. Oracle is where the strain already shows: 49.2% of its operating cash in the quarter to August 31, 2026 came from financed customer prepayments. The single most important reason for caution is that a zero on the books does not measure the risk: a lessee's residual value guarantee, like Meta's, is booked only once payment turns probable, and Meta's 10-Q for June 30, 2026 calls its payments not probable; only a backstop marked at fair value, like Alphabet's, shows its cost before a payment. The Call changes if the five builders' leases not yet begun sum to no more than the $1,118.5 billion of mid-2026 at year-end, if Alphabet's ratio is 1.86% or less at December 31, 2026, or if Oracle's prepayments are 40% or less of six-month operating cash on December 14. A year-end sum above $1,118.5 billion but not above $1.2 trillion, or a Hyperion liability, would lose a bet and lower the conviction without flipping the Call. The first answer arrives December 14, with Oracle's second quarter.",
+  "sections": [
+    {
+      "id": "the-lease-is-already-debt",
+      "title": "The lease is already debt",
+      "startsAt": 3,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#the-lease-is-already-debt"
+    },
+    {
+      "id": "the-cash-flows-cover-it",
+      "title": "The cash flows cover it",
+      "startsAt": 6,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#the-cash-flows-cover-it"
+    },
+    {
+      "id": "who-holds-the-guarantee",
+      "title": "Who holds the guarantee",
+      "startsAt": 11,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#who-holds-the-guarantee"
+    },
+    {
+      "id": "the-weak-link-pays-first",
+      "title": "The weak link pays first",
+      "startsAt": 16,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#the-weak-link-pays-first"
+    },
+    {
+      "id": "the-tests-ahead",
+      "title": "The tests ahead",
+      "startsAt": 20,
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#the-tests-ahead"
+    }
+  ],
+  "orientation": {
+    "question": {
+      "text": "How much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away?",
+      "url": "/questions/how-much-of-the-ai-buildout-is-debt-the-balance-sheets-do-not-show-yet-and-who-carries-it-if-a/"
+    },
+    "read": {
+      "stance": "The risk off the books is still rising.",
+      "line": "Leases pile up faster than they start, Alphabet's backstops cost more to carry, and Oracle's cash leans on its customers' prepayments.",
+      "tone": "split",
+      "toneLabel": "Split",
+      "conviction": 3,
+      "convictionLabel": "Moderate"
+    },
+    "established": [
+      "Microsoft, Oracle, Meta, Amazon and Alphabet reported $1,118.5 billion of leases signed and not yet commenced at mid-2026 (Oracle at August 31), against the $662 billion Moody's counted at the end of 2025 (SEC filings; DeepStack sum; Fortune).",
+      "Meta's guarantees on the Hyperion venture have a threshold of about $28 billion, and its 10-Q for June 30, 2026 records no liability for them, calling payment not probable (Meta Form 10-Q).",
+      "The liability Alphabet books on its $43.8 billion of data center credit derivatives rose from 0.41% of notional at the end of 2025 to 1.86% at June 30, 2026 (Alphabet Form 10-Q; DeepStack calculation).",
+      "Customer prepayments with a significant financing component made up $11.4 billion, or 49.2%, of Oracle's $23.1 billion of operating cash in the quarter to August 31, 2026 (Oracle earnings release; DeepStack calculation)."
+    ],
+    "uncertain": [
+      "Whether customer prepayments exceed 40% of Oracle's operating cash for the six months to November 30, 2026, reported December 14 (test p17-t03).",
+      "Whether the five builders' leases not yet commenced pass $1.2 trillion at year-end and Alphabet's ratio passes 1.86% at December 31, 2026, both read February 16, 2027 (tests p17-t01 and p17-t02).",
+      "Whether Meta's annual report for 2026 consolidates Hyperion or books a liability for its guarantees, read February 26, 2027 (test p17-t04)."
+    ],
+    "approvedBy": "Marco Cauduro",
+    "approvedAt": "2026-10-13T01:46:06.908Z",
+    "next": {
+      "id": "p17-t03",
+      "date": "2026-12-14",
+      "whenLabel": "Dec 14, 2026",
+      "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+      "stage": "pre",
+      "stageLabel": "Pre-specified",
+      "status": "pending",
+      "callNumber": 70
+    }
+  },
+  "body": [
+    "Microsoft had signed $329.1 billion of leases, mostly for data centers, that had not begun by June 30, 2026, according to its annual report. Oracle reported $288 billion on August 31, 2026 in its quarterly report, to start by fiscal 2029. At June 30, 2026, Meta reported $278.99 billion, Amazon $137.2 billion and Alphabet $85.2 billion. The five add up to $1,118.5 billion, by DeepStack's sum. Moody's put the same line at $662 billion at the end of 2025, equal to 113% of the five companies' adjusted debt, Fortune reported on February 25, 2026. Meta's share then was $103.77 billion, by its annual report for 2025.",
+    "The published totals look irreconcilable until they stand in a row. Moody's and DeepStack count the same instrument, leases signed and not yet begun, at two dates, and the count rose 69% in six to eight months. The Bear Cave relayed on September 27, 2026 Michael Burry's tally of nearly $1.2 trillion of such leases plus more than $1.5 trillion of purchase commitments, a wider instrument; Burry wrote on September 19 that vehicles, guarantees and backstops could lift the total above $3 trillion. UBS Asset Management reached about $3.5 trillion on September 29 from Bloomberg data of August 2026 by changing the base: $808 billion of reported debt, plus $1.25 trillion of leases not yet commenced, about $2 trillion of service and production commitments and $86 billion of backstops, less about $620 billion of cash.",
+    "Part seventeen asks how much of the AI buildout is debt the balance sheets do not show yet, and who carries it if a tenant walks away. Parts one, three, eight and eleven followed the financing without setting the totals side by side. DeepStack read 396 sources by 111 voices between June 15 and October 11, 2026, and verified 167 disagreements, 57 of them contradictions or refutations.",
+    "Burry did the arithmetic for Microsoft on September 24, 2026. Discounted at the 4.5% rate Microsoft files, he wrote, the signed book adds about $240 billion to the $88.5 billion of lease liabilities already carried, about $330 billion of lease debt against $40 billion of bonds, so the company cannot simply slow down if demand changes. Microsoft's annual report for the year to June 30, 2026 confirms the $88.5 billion and starts the $329.1 billion between fiscal 2027 and fiscal 2033.",
+    "Steve Eisman of The Real Eisman Playbook went after the structures on September 25, 2026. Meta, he wrote, financed a $27 billion Louisiana campus through Beignet Investor LLC, kept 20%, bears delays and overruns and promised to rent it for 20 years, yet the debt stays off its books. Such designs, he argued, spare a company the rating agencies and work until they don't. He read the critical audit matter Ernst & Young wrote on the venture as the sign of an auditor unsure the deal belonged off the balance sheet.",
+    "The documents narrow his reading. Meta's announcement of October 21, 2025 gives the other 80% to funds managed by Blue Owl Capital; PIMCO, which Eisman counted among the owners, bought debt. Meta's 10-Q for June 30, 2026 starts the venture's leases in 2029 on four-year terms renewable to 20 years. In Meta's annual report for 2025, Ernst & Young called auditing Meta's judgment of who directs the venture \"especially challenging,\" which records a hard call and finds no error in it.",
+    "Gaetano and Burry drew opposite lessons from Meta's own history. Gaetano pointed on September 15, 2026 to 2023, no AI case by his own account, when Meta's capital spending fell and its free cash flow rose from $18.4 billion to $43 billion. Burry cited on September 19 Meta's 2022 charges for abandoned offices and data centers: a purpose-built data center lacks an office's sublease market, so capacity nobody needs gets written down. What separates 2023 from 2026 is a signature. A capital budget can be cut; a signed lease is a promise about someone else's building.",
+    "Harley Bassman, on Erik Townsend's MacroVoices on September 17, 2026, said most hyperscalers own cash businesses that can carry their debt; shareholders may suffer, but short of a breakup the debt gets repaid. Harris Associates Oakmark wrote in its third-quarter 2026 letter that it holds bonds of Meta, Alphabet, Amazon and Oracle for their wider spreads and lower leverage than the investment-grade market.",
+    "The filings give this side its best facts, and they concern timing. Amazon's 10-Q for June 30, 2026 schedules $93.5 billion of its $137.2 billion for after 2030. Moody's analyst David Gonzales told Fortune in February 2026 that the $662 billion was \"yet to be on the balance sheet\" rather than missing. The agency itself was warier: it said \"the accounting liability is unlikely to reflect certain plausible future scenarios\" and that it may make a nonstandard adjustment to its debt measure as lease dates draw nearer. Oguz Erkan of Capitalist Letters noted on August 23, 2026 that Meta can delay or cancel its own builds, though not its pay-or-take contracts with neoclouds.",
+    "The cash is a closer call than the timing. YCG Investments wrote in its second-quarter 2026 letter that Microsoft and Amazon, which once paid for the buildout from free cash flow, now spend enough to push it below zero and are turning to debt. The filings split the two. Microsoft's annual report shows $182.9 billion of operating cash in the year to June 30, 2026 against $115.9 billion of additions to property and equipment, leaving $67.0 billion. Amazon's 10-Q shows $161.4 billion of operating cash and $173.0 billion of property and equipment purchases in the 12 months to June 30, 2026, a gap of $11.6 billion before a single new lease starts. Alphabet's 10-Q puts its first half of 2026 at $84.9 billion of operating cash and $80.6 billion of capital spending.",
+    "DeepStack's reading is that a signed lease is debt with a start date. It enters the balance sheet when it commences, as late as 2036 for Meta, and at least one agency counts it sooner: S&P Global Ratings, cutting Oracle to BBB- on July 9, 2026, added to the debt in its forecast the $260 billion of leases Oracle then expected to start between fiscal 2027 and 2029. Moody's has said only that it may adjust. The lease's risk is timing, and the risk is concentrated: Oracle's $288 billion is 4.6 times the $63.2 billion of undiscounted payments left on the leases it carried on August 31, 2026. On timing, the cash side has the better of it. On cash, its case holds at Microsoft and leans on borrowing at Amazon.",
+    "On June 30, 2026, Meta put its maximum loss on the Hyperion venture at $46.03 billion, a figure that counts its equity, its funding commitments and its leases from the venture as well as its guarantees, against $2.92 billion carried as an investment. The guarantees are residual value guarantees with a threshold of about $28 billion: if Meta ends or does not renew a lease and other conditions are met, it pays any shortfall between the campus's value and the threshold. The 10-Q calls such payments \"not probable, and therefore no liability has been recorded to date.\"",
+    "Burry read the structure on September 24, 2026 as a tell: lenders would not carry the residual risk without Meta's protection, so the parties closest to the asset doubt its value. Haim Zaltzman of Latham & Watkins, on Bloomberg Intelligence's Tech Disruptors on September 29, read the same tool the other way: deals this large and this fast probably need guarantees and credit support to clear. JunkBondInvestor priced the gap on September 20: debt backed by such a guarantee typically pays 100 to 150 basis points over the guarantor's own bonds. On July 26, JunkBondInvestor had tracked the Hyperion paper itself, issued at par, later above 109 and near 95 by then. It trades off the tenant's curve, JunkBondInvestor wrote, so it cheapens when the tenant's own bonds do, even with nothing changed at the project.",
+    "Alphabet's 10-Q for June 30, 2026 reports $43.8 billion of credit derivatives backstopping other parties' data center payments, up from $16.94 billion on December 31, 2025, with an estimated $24.1 billion more awaiting final terms. The liability recorded on them rose from $69 million to $815 million over the same six months, from 0.41% of notional to 1.86% by DeepStack's division. Exposure rose two and a half times and the liability nearly twelvefold. The filing adds that terms run up to 15 years and that on a default Alphabet may take over the leases.",
+    "Nvidia wrote the largest promise. Its 8-K of August 17, 2026 describes residual value guarantees, capped at $105 billion, on leases at a campus in Pike County, Ohio, with OpenAI as tenant and buildings expected ready from 2028. OpenAI will reimburse anything Nvidia pays, and the obligation ends if OpenAI earns a satisfactory credit rating. That is the cash side's best fact on guarantees, and it rests on the tenant whose default would trigger them.",
+    "DeepStack's reading is that a guarantee is debt with no date. A lease reaches the balance sheet on a known day; a guarantee has no such day. A lessee's residual value guarantee, like Meta's, is booked only once payment turns probable, and a backstop marked at fair value, like Alphabet's, is carried at a fraction of its notional. The guarantee does not take risk off the company that writes it. It keeps the first loss with the guarantor, up to the cap, while little is recorded: nothing for Meta on Hyperion's residual value, 1.86% of notional for Alphabet on other parties' data center payments. Lenders hold what lies past the cap, and until then they hold the tenant's credit in the price of their paper. Eisman's Enron comparison fits the consolidation judgment only; nothing in these filings suggests a misstatement.",
+    "Kris of Potential Multibaggers reported on September 28, 2026 that Oracle had sent a force majeure notice on Project Jupiter, its New Mexico campus tied to Stargate, and hoped it would not prove the first crack. Eisman said on September 25 that the notice went to Blue Owl, with the project's debt near 90 cents. Quanta 72 added on September 27 that the notice lets Oracle delay payments if power delays push the campus past its 2028 start; Oracle has missed no payment, and Blue Owl calls its commitments unchanged.",
+    "Bassman had answered the premise on September 17, 2026: the hyperscalers, not labs such as Anthropic, do the borrowing, so a lab's failure would be an equity problem rather than a bond problem. Oracle is the hyperscaler that answer fits least. Kakashii noted on September 24 that Oracle entered the AI era already owing tens of billions of dollars.",
+    "Leyla Kunimoto of Accredited Insight traced the Jupiter money on October 5, 2026: about $18 billion of construction debt and $3 billion of Blue Owl equity. Oracle is not the borrower, she wrote, but its rent is the loan's main source of cash once the lease begins. JunkBondInvestor drew the line on September 20 between borrowers with a strategic counterparty such as Meta or Alphabet, who can pay up, and a developer carrying an unhedged floating-rate construction loan and no revenue before 2027. Set beside Eisman on Beignet, the same structure reads as evasion to one and as strength to the other, and both readings hold, for different tenants.",
+    "Oracle's own cash shows the strain. In the quarter to August 31, 2026, its earnings release reported $23.1 billion of operating cash, of which $11.4 billion, or 49.2%, came from customer prepayments with a significant financing component. Capital spending was $28.5 billion in the same quarter; without the prepayments, operating cash covered 41% of it.",
+    "Oracle reports first, on December 14, 2026 by its investor relations page, and the annual reports follow in February 2027; every test reads a period still open on the day this story appears. The first, read on December 14, is whether customer prepayments with a significant financing component exceed 40% of Oracle's operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+    "On February 16, 2027, two tests read the year-end filings. One is whether the leases not yet commenced that Alphabet, Amazon and Meta print for December 31, 2026, with Microsoft's figure for the same date and Oracle's for November 30, sum to more than $1.2 trillion, undiscounted. The base is $1,118.5 billion at mid-2026, and Meta's 10-Q for June 30 already reports about $68 billion of leases signed in July. The other is whether the liability on Alphabet's data center credit derivatives exceeds 1.86% of their gross notional at December 31, 2026, from 0.41% at the end of 2025 and 1.86% at June 30, 2026. The last waits for Meta's annual report for 2026, read on February 26, 2027: whether it consolidates Hyperion or records a liability above zero for the guarantees, neither of which it did at the end of 2025 or at June 30, 2026.",
+    "What would prove DeepStack wrong is a year-end sum of the five lease lines no higher than the $1,118.5 billion of mid-2026, Alphabet's ratio at 1.86% or less at December 31, 2026, or Oracle's prepayments at 40% or less of its six-month operating cash on December 14, 2026. A year-end sum above $1,118.5 billion but not above $1.2 trillion would lose DeepStack's bet on that test without flipping the Call, because the pile would still have grown.",
+    "The lease will be counted when it starts. Nobody has set a date to count the guarantee."
+  ],
+  "chart": {
+    "title": "One obligation, five totals",
+    "subtitle": "Published totals for the five builders' commitments off the balance sheet, trillions of dollars; each step changes the date, the instrument, the contingency or the base, and the steps overlap",
+    "unit": "$T",
+    "decimals": 2,
+    "source": "Moody's via Fortune, Feb 25, 2026; company 10-K and 10-Q filings at June 30 and Aug 31, 2026, DeepStack's sum; UBS Asset Management, Sep 29, 2026; Michael Burry, Sep 19, 2026",
+    "items": [
+      {
+        "label": "Moody's, end of 2025",
+        "value": 0.66
+      },
+      {
+        "label": "DeepStack sum, mid-2026",
+        "value": 1.12
+      },
+      {
+        "label": "UBS AM leases, Aug 2026",
+        "value": 1.25
+      },
+      {
+        "label": "Burry with purchases, Sep",
+        "value": 2.7
+      },
+      {
+        "label": "UBS AM, net of cash",
+        "value": 3.5
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "p17-t01",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "when": "February 16, 2027",
+      "whenLabel": "Feb 16, 2027",
+      "date": "2027-02-16",
+      "precision": "day",
+      "event": "The year-end filings: whether the leases not yet begun at the five pass $1.2 trillion as printed at December 31, 2026, from $1,118.5 billion in mid-2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-21T03:33:03Z",
+      "callProbability": 60,
+      "callProbabilityAt": "2026-10-21T03:33:03Z",
+      "callProbabilityHistory": [],
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[0].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "manual",
+        "rule": "Add, as printed and undiscounted, the amount each filing gives for leases that have not yet commenced: Alphabet, Amazon, Meta and Microsoft at December 31, 2026, and Oracle at November 30, 2026. Alphabet's separately disclosed short-term lease is left out, as it was from the base of $1,118.5 billion at mid-2026. The answer is yes if the sum is above $1,200 billion; no if it is $1,200 billion or less.",
+        "question": "Do the leases signed but not yet commenced that Alphabet, Amazon and Meta report as of December 31, 2026 in their Form 10-K for 2026, that Microsoft reports in its Form 10-Q for the quarter ended December 31, 2026, and that Oracle reports in its Form 10-Q for the quarter ended November 30, 2026, add up to more than $1.2 trillion?",
+        "source": {
+          "label": "SEC EDGAR, lease notes of the Form 10-K for 2026 of Alphabet (CIK 1652044), Amazon (CIK 1018724) and Meta Platforms (CIK 1326801), and of the Form 10-Q of Microsoft (CIK 789019) for December 31, 2026 and Oracle (CIK 1341439) for November 30, 2026",
+          "url": "https://www.sec.gov/edgar/search/#/q=%22not%20yet%20commenced%22&forms=10-K,10-Q"
+        },
+        "ambiguity": "If any of the five filings is not public on EDGAR by February 16, 2027, or one of them gives no amount for leases not yet commenced, the test is inconclusive, and the Result says what was read and what was missing; the next reading is February 26, 2027. A filing that gives the amount as approximate is read at the figure it states.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "The five builders' leases not yet begun rose 69% in six to eight months, from the $662 billion Moody's counted at the end of 2025 to $1,118.5 billion by mid-2026.",
+          "outsideView": "A lease leaves this line on the day it starts, so the sum grows only while new signings outrun the leases that begin, and Microsoft's begin from its fiscal 2027, which opened in July 2026.",
+          "wouldChange": "The line is $81.5 billion away and Meta already reports about $68 billion signed in July, so slower signings or a wave of leases starting by December 31 would lower the number."
+        }
+      },
+      "url": "https://deepstack.ltd/docket/#test-p17-t01",
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p17-t02",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "when": "February 16, 2027",
+      "whenLabel": "Feb 16, 2027",
+      "date": "2027-02-16",
+      "precision": "day",
+      "event": "Alphabet's annual report: whether the liability on its data center credit derivatives passes 1.86% of notional at December 31, 2026, its level at June 30, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-21T03:33:05Z",
+      "callProbability": 60,
+      "callProbabilityAt": "2026-10-21T03:33:05Z",
+      "callProbabilityHistory": [],
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[1].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "GOOGL",
+        "rule": "Divide the liability shown for credit derivatives in the table of fair values of outstanding derivative instruments by the gross notional amount of credit derivatives in the table of notional amounts, both as of December 31, 2026. The answer is yes if the ratio is above 1.86%; no if it is 1.86% or less. At June 30, 2026 the same two rows gave $815 million on $43,785 million, 1.86%, and at December 31, 2025 $69 million on $16,940 million, 0.41%. The estimated backstops not yet final are read into the Result and do not decide the test.",
+        "question": "Does Alphabet's Form 10-K for 2026 show a liability on its credit derivatives above 1.86% of their gross notional amount, both as of December 31, 2026?",
+        "source": {
+          "label": "SEC EDGAR, Alphabet Form 10-K for the year ended December 31, 2026, note on derivative financial instruments (CIK 1652044)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K"
+        },
+        "ambiguity": "If the 10-K is not public on EDGAR by February 16, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is February 26, 2027. If the 10-K no longer shows credit derivatives as a row of their own in both tables, the test is inconclusive, and the Result says what was read and what was missing; the next reading is the same two rows in Alphabet's Form 10-Q for the quarter ending March 31, 2027, by May 15, 2027.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "The liability on Alphabet's data center backstops rose from 0.41% of notional at the end of 2025 to 1.86% at June 30, 2026, while the notional rose two and a half times.",
+          "outsideView": "A backstop marked at fair value is carried at a fraction of its notional, and the fraction rises when the credit of the parties it backs weakens.",
+          "wouldChange": "The estimated $24.1 billion of backstops awaiting final terms would enter at a low starting value and pull the ratio down, so final terms by December 31 would lower the number."
+        }
+      },
+      "url": "https://deepstack.ltd/docket/#test-p17-t02",
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p17-t03",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "when": "December 14",
+      "whenLabel": "Dec 14, 2026",
+      "date": "2026-12-14",
+      "precision": "day",
+      "event": "Oracle's second quarter: whether customer prepayments with a financing component pass 40% of operating cash for the six months to November 30, from 49.2% in the quarter to August 31, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "yes",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-21T03:33:08Z",
+      "callProbability": 70,
+      "callProbabilityAt": "2026-10-21T03:33:08Z",
+      "callProbabilityHistory": [],
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[2].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "ORCL",
+        "rule": "Divide the line for the increase in deferred revenues from customer prepayments with significant financing component by net cash provided by operating activities, both for the six months ended November 30, 2026, as printed in the statement of cash flows of the earnings release, or of the Form 10-Q when the release does not print the six months. The answer is yes if the line is above 40% of operating cash flow, which includes any case where operating cash flow is zero or negative; no if it is 40% or less. In the quarter to August 31, 2026 the same two lines gave $11,363 million of $23,103 million, 49.2%.",
+        "question": "For the six months ended November 30, 2026, does Oracle's increase in deferred revenues from customer prepayments with significant financing component exceed 40% of its net cash provided by operating activities?",
+        "source": {
+          "label": "SEC EDGAR, Oracle second-quarter fiscal 2027 results (Form 8-K, Exhibit 99.1) and Form 10-Q, statements of cash flows (CIK 1341439)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=8-K"
+        },
+        "ambiguity": "If neither the earnings release nor the Form 10-Q prints both lines for the six months by January 11, 2027, or the prepayment line is renamed, merged or dropped, the test is inconclusive, and the Result says what was read and what was missing; the next reading is January 18, 2027, in the Form 10-Q's statement of cash flows.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "yes",
+        "think": {
+          "baseRate": "In the quarter to August 31, 2026, customer prepayments with a financing component were $11.4 billion of Oracle's $23.1 billion of operating cash, or 49.2%.",
+          "outsideView": "For the six months to reach 40% or less, the second quarter's share would have to fall to about 31% on similar operating cash, which an ordinary collections quarter could do.",
+          "wouldChange": "Fewer new data center contracts paid in advance, or a quarter of strong ordinary collections, would lower the number, and a drop in operating cash would raise it."
+        }
+      },
+      "url": "https://deepstack.ltd/docket/#test-p17-t03",
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+      "resultUrl": null
+    },
+    {
+      "id": "p17-t04",
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "when": "February 26, 2027",
+      "whenLabel": "Feb 26, 2027",
+      "date": "2027-02-26",
+      "precision": "day",
+      "event": "Meta's annual report for 2026: whether it consolidates Hyperion or records a liability above zero for its residual value guarantees, neither at June 30, 2026.",
+      "status": "pending",
+      "resultId": null,
+      "sameAs": null,
+      "stage": "pre",
+      "callExpects": "no",
+      "callExpectsBy": "Marco Cauduro",
+      "callExpectsAt": "2026-10-21T03:33:10Z",
+      "callProbability": 15,
+      "callProbabilityAt": "2026-10-21T03:33:10Z",
+      "callProbabilityHistory": [],
+      "source": {
+        "kind": "story",
+        "ref": "watchlist[3].date",
+        "url": null
+      },
+      "resolver": {
+        "kind": "earnings",
+        "symbol": "META",
+        "rule": "Read the 10-K's notes on the Louisiana data center joint venture and on residual value guarantees. The answer is yes if the filing says Meta consolidates the joint venture, or records a liability above zero for the residual value guarantees; no if it does neither. At June 30, 2026 the Form 10-Q did neither: an equity method investment of $2.92 billion, a maximum exposure to loss of $46.03 billion and no liability recorded for the guarantees.",
+        "question": "Does Meta's Form 10-K for the year ended December 31, 2026 either consolidate the Hyperion joint venture in Louisiana or record a liability above zero for its residual value guarantees to that venture?",
+        "source": {
+          "label": "SEC EDGAR, Meta Platforms Form 10-K for the year ended December 31, 2026, notes on variable interest entities and guarantees (CIK 1326801)",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=10-K"
+        },
+        "ambiguity": "If the 10-K is not public on EDGAR by March 1, 2027, the test is inconclusive, and the Result says what was read and what was missing; the next reading is March 31, 2027. A guarantee liability recorded without its amount counts as above zero; a change that ends the guarantees before December 31, 2026 is read into the Result and resolves no.",
+        "specState": "approved",
+        "specVersion": 1,
+        "specUpdatedOn": "2026-10-21",
+        "specHistory": [
+          {
+            "version": 1,
+            "date": "2026-10-21",
+            "reason": "First specification.",
+            "by": "Marco Cauduro"
+          }
+        ],
+        "callExpects": "no",
+        "think": {
+          "baseRate": "Meta neither consolidated Hyperion nor booked a liability for its guarantees at December 31, 2025 or at June 30, 2026, and its 10-Q calls payment not probable.",
+          "outsideView": "A lessee's residual value guarantee is booked only once payment turns probable, and the venture's four-year leases start in 2029, so the first chance not to renew comes about 2033.",
+          "wouldChange": "A change in Meta's judgment of who directs the venture, the call Ernst & Young found especially challenging to audit, would raise the number."
+        }
+      },
+      "url": "https://deepstack.ltd/docket/#test-p17-t04",
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
+      "resultUrl": null
+    }
+  ],
+  "results": [],
+  "entities": [
+    {
+      "kind": "company",
+      "slug": "alphabet",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "url": "https://deepstack.ltd/companies/alphabet/"
+    },
+    {
+      "kind": "company",
+      "slug": "amazon",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "url": "https://deepstack.ltd/companies/amazon/"
+    },
+    {
+      "kind": "company",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/anthropic/"
+    },
+    {
+      "kind": "company",
+      "slug": "blue-owl-capital",
+      "name": "Blue Owl Capital",
+      "ticker": "OBDC",
+      "url": "https://deepstack.ltd/companies/blue-owl-capital/"
+    },
+    {
+      "kind": "company",
+      "slug": "meta",
+      "name": "Meta",
+      "ticker": "META",
+      "url": "https://deepstack.ltd/companies/meta/"
+    },
+    {
+      "kind": "company",
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "url": "https://deepstack.ltd/companies/microsoft/"
+    },
+    {
+      "kind": "company",
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "url": "https://deepstack.ltd/companies/nvidia/"
+    },
+    {
+      "kind": "company",
+      "slug": "openai",
+      "name": "OpenAI",
+      "ticker": null,
+      "url": "https://deepstack.ltd/companies/openai/"
+    },
+    {
+      "kind": "company",
+      "slug": "oracle",
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "url": "https://deepstack.ltd/companies/oracle/"
+    },
+    {
+      "kind": "company",
+      "slug": "s-p-global",
+      "name": "S&P Global",
+      "ticker": "SPGI",
+      "url": "https://deepstack.ltd/companies/s-p-global/"
+    },
+    {
+      "kind": "person",
+      "slug": "dylan-patel",
+      "name": "Dylan Patel",
+      "role": null,
+      "url": "https://deepstack.ltd/people/dylan-patel/"
+    },
+    {
+      "kind": "person",
+      "slug": "ed-elson",
+      "name": "Ed Elson",
+      "role": null,
+      "url": "https://deepstack.ltd/people/ed-elson/"
+    },
+    {
+      "kind": "person",
+      "slug": "erik-townsend",
+      "name": "Erik Townsend",
+      "role": null,
+      "url": "https://deepstack.ltd/people/erik-townsend/"
+    },
+    {
+      "kind": "person",
+      "slug": "gaetano",
+      "name": "Gaetano",
+      "role": null,
+      "url": "https://deepstack.ltd/people/gaetano/"
+    },
+    {
+      "kind": "person",
+      "slug": "geo-chen",
+      "name": "Geo Chen",
+      "role": null,
+      "url": "https://deepstack.ltd/people/geo-chen/"
+    },
+    {
+      "kind": "person",
+      "slug": "haim-zaltzman",
+      "name": "Haim Zaltzman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/haim-zaltzman/"
+    },
+    {
+      "kind": "person",
+      "slug": "harley-bassman",
+      "name": "Harley Bassman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/harley-bassman/"
+    },
+    {
+      "kind": "person",
+      "slug": "harris-associates-oakmark",
+      "name": "Harris Associates Oakmark",
+      "role": "Harris Associates L.P.",
+      "url": "https://deepstack.ltd/people/harris-associates-oakmark/"
+    },
+    {
+      "kind": "person",
+      "slug": "jeremie-eliahou-ontiveros",
+      "name": "Jeremie Eliahou Ontiveros",
+      "role": null,
+      "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/"
+    },
+    {
+      "kind": "person",
+      "slug": "junkbondinvestor",
+      "name": "JunkBondInvestor",
+      "role": null,
+      "url": "https://deepstack.ltd/people/junkbondinvestor/"
+    },
+    {
+      "kind": "person",
+      "slug": "kakashii",
+      "name": "Kakashii",
+      "role": null,
+      "url": "https://deepstack.ltd/people/kakashii/"
+    },
+    {
+      "kind": "person",
+      "slug": "kris",
+      "name": "Kris",
+      "role": "Potential Multibaggers",
+      "url": "https://deepstack.ltd/people/kris/"
+    },
+    {
+      "kind": "person",
+      "slug": "leyla-kunimoto",
+      "name": "Leyla Kunimoto",
+      "role": null,
+      "url": "https://deepstack.ltd/people/leyla-kunimoto/"
+    },
+    {
+      "kind": "person",
+      "slug": "michael-burry",
+      "name": "Michael Burry",
+      "role": "Cassandra Unchained",
+      "url": "https://deepstack.ltd/people/michael-burry/"
+    },
+    {
+      "kind": "person",
+      "slug": "nick-nemeth",
+      "name": "Nick Nemeth",
+      "role": null,
+      "url": "https://deepstack.ltd/people/nick-nemeth/"
+    },
+    {
+      "kind": "person",
+      "slug": "oguz-erkan",
+      "name": "Oguz Erkan",
+      "role": null,
+      "url": "https://deepstack.ltd/people/oguz-erkan/"
+    },
+    {
+      "kind": "person",
+      "slug": "quanta-72",
+      "name": "Quanta 72",
+      "role": null,
+      "url": "https://deepstack.ltd/people/quanta-72/"
+    },
+    {
+      "kind": "person",
+      "slug": "s-p-global-ratings",
+      "name": "S&P Global Ratings",
+      "role": null,
+      "url": "https://deepstack.ltd/people/s-p-global-ratings/"
+    },
+    {
+      "kind": "person",
+      "slug": "scott-galloway",
+      "name": "Scott Galloway",
+      "role": null,
+      "url": "https://deepstack.ltd/people/scott-galloway/"
+    },
+    {
+      "kind": "person",
+      "slug": "steve-eisman",
+      "name": "Steve Eisman",
+      "role": "Steven Eisman",
+      "url": "https://deepstack.ltd/people/steve-eisman/"
+    },
+    {
+      "kind": "person",
+      "slug": "the-bear-cave",
+      "name": "The Bear Cave",
+      "role": null,
+      "url": "https://deepstack.ltd/people/the-bear-cave/"
+    },
+    {
+      "kind": "person",
+      "slug": "torsten-slok",
+      "name": "Torsten Slok",
+      "role": "Apollo",
+      "url": "https://deepstack.ltd/people/torsten-slok/"
+    },
+    {
+      "kind": "person",
+      "slug": "weitz-investment-management",
+      "name": "Weitz Investment Management",
+      "role": null,
+      "url": "https://deepstack.ltd/people/weitz-investment-management/"
+    },
+    {
+      "kind": "person",
+      "slug": "ycg-investments",
+      "name": "Ycg Investments",
+      "role": "YCG Wealth Management",
+      "url": "https://deepstack.ltd/people/ycg-investments/"
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "id": "capital-spending",
+      "term": "capital spending",
+      "short": "Cash a company spends on long-lived assets: data centers, chips, networks, power.",
+      "url": "https://deepstack.ltd/glossary/#capital-spending"
+    },
+    {
+      "id": "free-cash-flow",
+      "term": "free cash flow",
+      "short": "Operating cash flow minus capital spending: the cash left after the company has paid for its own buildout.",
+      "url": "https://deepstack.ltd/glossary/#free-cash-flow"
+    },
+    {
+      "id": "hyperscaler",
+      "term": "hyperscaler",
+      "short": "One of the largest cloud and platform companies that build data centers at continental scale.",
+      "url": "https://deepstack.ltd/glossary/#hyperscaler"
+    },
+    {
+      "id": "spread",
+      "term": "spread",
+      "short": "The extra yield a borrower pays above a Treasury of the same maturity, in basis points.",
+      "url": "https://deepstack.ltd/glossary/#spread"
+    },
+    {
+      "id": "basis-point",
+      "term": "basis point",
+      "short": "One hundredth of a percentage point: 25 basis points is 0.25%.",
+      "url": "https://deepstack.ltd/glossary/#basis-point"
+    },
+    {
+      "id": "residual-value-guarantee",
+      "term": "residual-value guarantee",
+      "short": "A promise to make up the difference if an asset is worth less than expected at the end of a lease.",
+      "url": "https://deepstack.ltd/glossary/#residual-value-guarantee"
+    }
+  ]
+}

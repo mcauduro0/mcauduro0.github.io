@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "part": 6,
   "slug": "power-doesnt-depreciate",
@@ -169,15 +169,15 @@
         }
       ],
       "against": {
-        "name": "CoreWeave",
-        "entity": "https://deepstack.ltd/companies/coreweave/",
-        "claim": "Older generations of installed infrastructure retain substantial value because a large share of AI workloads do not require frontier silicon, so clusters rolling off their initial contract are recontracted rather than retired.",
-        "date": "2026-08-11",
-        "url": "https://financialmodelingprep.com/earning-call-transcript/CRWV/2026-q2",
-        "access": "public",
-        "answers": "Michael Burry",
-        "relation": "contradicts",
-        "dimension": "mechanism"
+        "name": "Daniel Romero",
+        "entity": "https://deepstack.ltd/people/daniel-romero/",
+        "claim": "The ERCOT process will prove bullish in the medium and long term by rewarding serious data center operators and punishing speculative projects, allowing available power to be used more effectively.",
+        "date": "2026-09-13",
+        "url": "https://hypertechinvest.com/p/portfolio-update-c24",
+        "access": "paid",
+        "answers": "Steve Eisman",
+        "relation": "qualifies",
+        "dimension": "condition"
       }
     },
     {

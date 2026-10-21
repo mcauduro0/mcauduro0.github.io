@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "dylan-patel",
@@ -7,12 +7,17 @@
   "role": null,
   "url": "https://deepstack.ltd/people/dylan-patel/",
   "api": "https://deepstack.ltd/api/v1/entities/people/dylan-patel.json",
-  "summary": "Dylan Patel is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides).",
+  "summary": "Dylan Patel is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides), Part 17 (Voices that cross sides).",
   "parts": [
     {
       "part": 14,
       "headline": "The Cash Arrives Unevenly",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -65,13 +70,37 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
       "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "He thinks Meta, trading at roughly $1.5 trillion, is silly and worth way more than that in a logical sense, given its cash flows, the infrastructure it is hoarding, and the compute it will be able to sell at high dollar-per-watt rates, either via…",
+      "date": "2026-08-25",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 5,
     "claims": 886,
     "texts": 90,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

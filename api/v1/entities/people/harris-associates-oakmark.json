@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "harris-associates-oakmark",
@@ -7,16 +7,28 @@
   "role": "Harris Associates L.P.",
   "url": "https://deepstack.ltd/people/harris-associates-oakmark/",
   "api": "https://deepstack.ltd/api/v1/entities/people/harris-associates-oakmark.json",
-  "summary": "Harris Associates Oakmark is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+  "summary": "Harris Associates Oakmark is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 15 (The two shocks compound), Part 17 (The cash flows cover it).",
   "parts": [
     {
       "part": 15,
       "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
       "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
-  "mentions": [],
+  "mentions": [
+    {
+      "part": 17,
+      "section": "The cash flows cover it",
+      "excerpt": "Harris Associates Oakmark wrote in its third-quarter 2026 letter that it holds bonds of Meta, Alphabet, Amazon and Oracle for their wider spreads and lower leverage than the investment-grade market.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
   "sides": [
     {
       "part": 15,
@@ -24,18 +36,30 @@
       "side": "the-two-shocks-compound",
       "sideLabel": "The two shocks compound",
       "claim": "Heavy new bond issuance from technology hyperscalers investing in AI infrastructure is pressuring bond prices and increasing yields.",
-      "date": "2026-10-10",
+      "date": null,
       "url": null,
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
       "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+      "date": null,
+      "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 779,
     "texts": 80,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "junkbondinvestor",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/junkbondinvestor/",
   "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-  "summary": "JunkBondInvestor is named in 9 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
+  "summary": "JunkBondInvestor is named in 10 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain), Part 17 (The weak link pays first).",
   "parts": [
     {
       "part": 2,
@@ -53,6 +53,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -122,6 +127,12 @@
       "section": "The bill has moved to debt",
       "excerpt": "JunkBondInvestor counted on August 9 about $400 billion of hyperscaler debt issuance penciled in for 2027, with AI-related paper at about 6% of the investment-grade index, double its share a year earlier.",
       "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+    },
+    {
+      "part": 17,
+      "section": "Who holds the guarantee",
+      "excerpt": "JunkBondInvestor priced the gap on September 20: debt backed by such a guarantee typically pays 100 to 150 basis points over the guarantor's own bonds.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "sides": [
@@ -256,13 +267,37 @@
       "linkVerified": false,
       "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
       "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "AI-related borrowers are paying materially more for financing across multiple instrument types: CleanSpark paid about 175bps more than the average BB issuer versus similar IG-tenant financings that cleared below 6% earlier this year…",
+      "date": "2026-09-20",
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-weak-link-pays-first",
+      "sideLabel": "The weak link pays first",
+      "claim": "SoftBank was able to borrow $11bn at record yields to fund its OpenAI stake, the 4th largest junk bond deal on record, and the market absorbed it without much trouble, showing that borrowers who can use the money to earn a new source of return can…",
+      "date": "2026-09-27",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 1622,
     "texts": 134,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

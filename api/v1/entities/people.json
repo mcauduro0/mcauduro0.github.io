@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "url": "https://deepstack.ltd/people/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/people.json",
   "kind": "person",
-  "count": 106,
+  "count": 113,
   "note": "What each person argued, attributed and dated. No score, ranking or accuracy figure exists for anyone.",
   "people": [
     {
@@ -36,9 +36,9 @@
         "creators": 0,
         "claims": 596,
         "texts": 48,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -69,9 +69,9 @@
         "creators": 0,
         "claims": 12,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -139,9 +139,9 @@
         "creators": 0,
         "claims": 68,
         "texts": 7,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -172,9 +172,9 @@
         "creators": 3,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -218,9 +218,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -269,9 +269,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -410,9 +410,9 @@
         "creators": 1,
         "claims": 3011,
         "texts": 297,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -438,7 +438,7 @@
           "side": "the-boom-pays-the-rate",
           "sideLabel": "The boom pays the rate",
           "claim": "Risk assets performed well, aided by economic strength and AI enthusiasm, while Treasury yields rose due to elevated inflation readings that led to a repricing of monetary policy expectations, and credit markets generated solid returns driven by…",
-          "date": "2026-09-22",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
@@ -450,7 +450,7 @@
           "side": "the-boom-pays-the-rate",
           "sideLabel": "The boom pays the rate",
           "claim": "Treasury yields rose due to elevated inflation readings, which led to a repricing of monetary policy expectations.",
-          "date": "2026-09-22",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
@@ -461,9 +461,9 @@
         "creators": 1,
         "claims": 858,
         "texts": 117,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -516,9 +516,9 @@
         "creators": 5,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -689,9 +689,9 @@
         "creators": 1,
         "claims": 532,
         "texts": 48,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -722,9 +722,9 @@
         "creators": 5,
         "claims": 43,
         "texts": 5,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -773,9 +773,9 @@
         "creators": 0,
         "claims": 49,
         "texts": 4,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -801,7 +801,7 @@
           "side": "the-buyers-have-not-paid-yet",
           "sideLabel": "The buyers have not paid yet",
           "claim": "They say it remains uncertain to them how likely it is that AI spending dramatically slows as Wall Street and the AI funders realise they cannot get a return.",
-          "date": "2026-09-08",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
@@ -813,7 +813,7 @@
           "side": "the-buyers-have-not-paid-yet",
           "sideLabel": "The buyers have not paid yet",
           "claim": "They conclude either the AI companies will not earn a return on the trillions they are spending, or they will earn it at the cost of very large short-term unemployment, or most likely a combination of both.",
-          "date": "2026-09-08",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
@@ -824,9 +824,9 @@
         "creators": 0,
         "claims": 62,
         "texts": 6,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -870,9 +870,9 @@
         "creators": 0,
         "claims": 778,
         "texts": 70,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -928,9 +928,9 @@
         "creators": 0,
         "claims": 14,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -997,9 +997,9 @@
         "creators": 0,
         "claims": 11,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -1055,9 +1055,9 @@
         "creators": 0,
         "claims": 13,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1101,9 +1101,9 @@
         "creators": 0,
         "claims": 30,
         "texts": 2,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1354,9 +1354,9 @@
         "creators": 0,
         "claims": 889,
         "texts": 65,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -1412,9 +1412,9 @@
         "creators": 0,
         "claims": 14,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1552,9 +1552,9 @@
         "creators": 0,
         "claims": 115,
         "texts": 11,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1603,9 +1603,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1654,9 +1654,9 @@
         "creators": 0,
         "claims": 593,
         "texts": 49,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1757,9 +1757,9 @@
         "creators": 1,
         "claims": 1610,
         "texts": 141,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1826,9 +1826,9 @@
         "creators": 0,
         "claims": 61,
         "texts": 5,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1859,9 +1859,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1870,12 +1870,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/dylan-patel/",
       "api": "https://deepstack.ltd/api/v1/entities/people/dylan-patel.json",
-      "summary": "Dylan Patel is named in 1 Part of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides).",
+      "summary": "Dylan Patel is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 14 (The bill has moved to debt), Part 14 (Voices that cross sides), Part 17 (Voices that cross sides).",
       "parts": [
         {
           "part": 14,
           "headline": "The Cash Arrives Unevenly",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -1928,15 +1933,39 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Because all compute has to be financed and most compute is contracted well before it is built, players like Meta, Microsoft, Amazon and SpaceX that can build without first finding a customer control the situation, whereas a smaller cloud must…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "He thinks Meta, trading at roughly $1.5 trillion, is silly and worth way more than that in a logical sense, given its cash flows, the infrastructure it is hoarding, and the compute it will be able to sell at high dollar-per-watt rates, either via…",
+          "date": "2026-08-25",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 5,
         "claims": 886,
         "texts": 90,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -1980,9 +2009,9 @@
         "creators": 2,
         "claims": 15,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -1991,7 +2020,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/ed-elson/",
       "api": "https://deepstack.ltd/api/v1/entities/people/ed-elson.json",
-      "summary": "Ed Elson is named in 3 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
+      "summary": "Ed Elson is named in 4 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 5 (Voices that cross sides), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain), Part 17 (The weak link pays first).",
       "parts": [
         {
           "part": 5,
@@ -2007,6 +2036,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -2078,15 +2112,27 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Hyperscalers have accumulated off-balance-sheet debt that funds the AI buildout and should be a focus for investors.",
+          "date": "2026-07-28",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 596,
         "texts": 69,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2174,9 +2220,9 @@
         "creators": 4,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -2314,9 +2360,9 @@
         "creators": 0,
         "claims": 229,
         "texts": 20,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -2372,9 +2418,9 @@
         "creators": 0,
         "claims": 15,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -2430,9 +2476,42 @@
         "creators": 0,
         "claims": 40,
         "texts": 3,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "erik-townsend",
+      "name": "Erik Townsend",
+      "role": null,
+      "url": "https://deepstack.ltd/people/erik-townsend/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/erik-townsend.json",
+      "summary": "Erik Townsend is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date.",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "Harley Bassman, on Erik Townsend's MacroVoices on September 17, 2026, said most hyperscalers own cash businesses that can carry their debt; shareholders may suffer, but short of a breakup the debt gets repaid.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 229,
+        "texts": 21,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2522,9 +2601,9 @@
         "creators": 0,
         "claims": 233,
         "texts": 22,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2533,7 +2612,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/gaetano/",
       "api": "https://deepstack.ltd/api/v1/entities/people/gaetano.json",
-      "summary": "Gaetano is named in 5 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid), Part 16 (The loan is a bridge).",
+      "summary": "Gaetano is named in 6 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 6 (Scarcity as a warning), Part 8 (Real cash, real use), Part 11 (A backlog is a promise), Part 11 (Funded, not forecast), Part 11 (Voices that cross sides), Part 12 (The frontier is still paid), Part 16 (The loan is a bridge).",
       "parts": [
         {
           "part": 6,
@@ -2559,6 +2638,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -2628,6 +2712,12 @@
           "section": "The loan is a bridge",
           "excerpt": "The 59% that Gaetano counts outside the hyperscalers includes the neoclouds the seller's credit reaches, through commitments such as the $6.3 billion CoreWeave capacity order and the credit-support deals with AI clouds that Nvidia began pausing in August, though it also holds sovereign clouds and enterprises.",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "Gaetano and Burry drew opposite lessons from Meta's own history.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [
@@ -2792,9 +2882,9 @@
         "creators": 0,
         "claims": 3216,
         "texts": 278,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2803,7 +2893,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/geo-chen/",
       "api": "https://deepstack.ltd/api/v1/entities/people/geo-chen.json",
-      "summary": "Geo Chen is named in 2 Parts of The Buildout, most recently Part 8: AI Lenders Are Financing the End of Scarcity.",
+      "summary": "Geo Chen is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The weak link pays first).",
       "parts": [
         {
           "part": 5,
@@ -2814,6 +2904,11 @@
           "part": 8,
           "headline": "AI Lenders Are Financing the End of Scarcity",
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -2831,14 +2926,39 @@
           "url": "https://deepstack.ltd/stories/the-scarcity-is-the-collateral/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "The market conversation is shifting from token maximization toward token optimization and questioning the return on investment of enterprise AI spending.",
+          "date": "2026-07-14",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "With SpaceX and Google issuance, Meta considering more equity, and confidential IPO filings from both leading labs, it is plausible that markets absorb trillions of dollars of AI-themed equity supply over the next year, and since price is a…",
+          "date": "2026-06-23",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
       "coverage": {
         "creators": 0,
         "claims": 1517,
         "texts": 157,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2887,9 +3007,55 @@
         "creators": 0,
         "claims": 736,
         "texts": 82,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "haim-zaltzman",
+      "name": "Haim Zaltzman",
+      "role": null,
+      "url": "https://deepstack.ltd/people/haim-zaltzman/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/haim-zaltzman.json",
+      "summary": "Haim Zaltzman is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The cash flows cover it).",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "Who holds the guarantee",
+          "excerpt": "Haim Zaltzman of Latham & Watkins, on Bloomberg Intelligence's Tech Disruptors on September 29, read the same tool the other way: deals this large and this fast probably need guarantees and credit support to clear.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The presence of guarantees and credit support in the market means that clearing the market, particularly at this size and speed, probably requires it, just as wrappers, insurance or guarantees get car and airplane deals done faster and at better…",
+          "date": "2026-09-29",
+          "url": "https://traffic.megaphone.fm/BLM6876553816.mp3",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2898,7 +3064,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/harley-bassman/",
       "api": "https://deepstack.ltd/api/v1/entities/people/harley-bassman.json",
-      "summary": "Harley Bassman is named in 2 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
+      "summary": "Harley Bassman is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 14 (The cash still covers it), Part 15 (The two shocks compound).",
       "parts": [
         {
           "part": 14,
@@ -2909,10 +3075,22 @@
           "part": 15,
           "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
           "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
-      "mentions": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "Harley Bassman, on Erik Townsend's MacroVoices on September 17, 2026, said most hyperscalers own cash businesses that can carry their debt; shareholders may suffer, but short of a breakup the debt gets repaid.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
       "sides": [
         {
           "part": 14,
@@ -2943,9 +3121,9 @@
         "creators": 1,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -2954,16 +3132,28 @@
       "role": "Harris Associates L.P.",
       "url": "https://deepstack.ltd/people/harris-associates-oakmark/",
       "api": "https://deepstack.ltd/api/v1/entities/people/harris-associates-oakmark.json",
-      "summary": "Harris Associates Oakmark is named in 1 Part of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 15 (The two shocks compound).",
+      "summary": "Harris Associates Oakmark is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 15 (The two shocks compound), Part 17 (The cash flows cover it).",
       "parts": [
         {
           "part": 15,
           "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
           "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
-      "mentions": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "Harris Associates Oakmark wrote in its third-quarter 2026 letter that it holds bonds of Meta, Alphabet, Amazon and Oracle for their wider spreads and lower leverage than the investment-grade market.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
       "sides": [
         {
           "part": 15,
@@ -2971,20 +3161,32 @@
           "side": "the-two-shocks-compound",
           "sideLabel": "The two shocks compound",
           "claim": "Heavy new bond issuance from technology hyperscalers investing in AI infrastructure is pressuring bond prices and increasing yields.",
-          "date": "2026-10-10",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
           "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The portfolio is positioned in bonds of highly profitable hyperscaler technology companies (Meta, Alphabet, Amazon, Oracle, SpaceX), taking advantage of wider spreads and lower leverage compared to the broader investment-grade market.",
+          "date": null,
+          "url": "https://fiscal.ai/fund-letters/harris-associates-oakmark-q3-2026-fscl_document_2QRD4GKW375",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 779,
         "texts": 80,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3051,9 +3253,9 @@
         "creators": 1,
         "claims": 57,
         "texts": 4,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3119,9 +3321,9 @@
         "creators": 0,
         "claims": 280,
         "texts": 28,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3288,9 +3490,9 @@
         "creators": 0,
         "claims": 1880,
         "texts": 165,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3321,9 +3523,9 @@
         "creators": 0,
         "claims": 190,
         "texts": 25,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3367,9 +3569,9 @@
         "creators": 0,
         "claims": 225,
         "texts": 22,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3422,9 +3624,9 @@
         "creators": 22,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3433,7 +3635,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/jeremie-eliahou-ontiveros/",
       "api": "https://deepstack.ltd/api/v1/entities/people/jeremie-eliahou-ontiveros.json",
-      "summary": "Jeremie Eliahou Ontiveros is named in 3 Parts of The Buildout, most recently Part 13: The Ratepayer Pays First. Argued in Part 2 (The number is real), Part 13 (The plant is late).",
+      "summary": "Jeremie Eliahou Ontiveros is named in 4 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (The number is real), Part 13 (The plant is late), Part 17 (The weak link pays first).",
       "parts": [
         {
           "part": 2,
@@ -3449,6 +3651,11 @@
           "part": 13,
           "headline": "The Ratepayer Pays First",
           "url": "https://deepstack.ltd/stories/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -3514,15 +3721,27 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-ratepayer-pays-first/",
           "sidesUrl": "https://deepstack.ltd/sides/the-ratepayer-pays-first/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "AI labs like OpenAI and Anthropic face a financing constraint because they are not investment grade and much of data center build-out requires capital-intensive, upfront CapEx they cannot afford, which slows their ambition to be more vertically…",
+          "date": "2026-07-09",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 34,
         "texts": 3,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3553,9 +3772,9 @@
         "creators": 1,
         "claims": 430,
         "texts": 40,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3564,7 +3783,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/junkbondinvestor/",
       "api": "https://deepstack.ltd/api/v1/entities/people/junkbondinvestor.json",
-      "summary": "JunkBondInvestor is named in 9 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain).",
+      "summary": "JunkBondInvestor is named in 10 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (Voices that cross sides), Part 3 (Voices that cross sides), Part 4 (Voices that cross sides), Part 8 (Scarcity as collateral), Part 11 (A backlog is a promise), Part 14 (The bill has moved to debt), Part 16 (Two labs carry the chain), Part 17 (The weak link pays first).",
       "parts": [
         {
           "part": 2,
@@ -3610,6 +3829,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -3679,6 +3903,12 @@
           "section": "The bill has moved to debt",
           "excerpt": "JunkBondInvestor counted on August 9 about $400 billion of hyperscaler debt issuance penciled in for 2027, with AI-related paper at about 6% of the investment-grade index, double its share a year earlier.",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "section": "Who holds the guarantee",
+          "excerpt": "JunkBondInvestor priced the gap on September 20: debt backed by such a guarantee typically pays 100 to 150 basis points over the guarantor's own bonds.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [
@@ -3813,15 +4043,39 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "AI-related borrowers are paying materially more for financing across multiple instrument types: CleanSpark paid about 175bps more than the average BB issuer versus similar IG-tenant financings that cleared below 6% earlier this year…",
+          "date": "2026-09-20",
+          "url": "https://www.junkbondinvestor.com/p/credit-weekly-who-the-hike-hits",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "SoftBank was able to borrow $11bn at record yields to fund its OpenAI stake, the 4th largest junk bond deal on record, and the market absorbed it without much trouble, showing that borrowers who can use the money to earn a new source of return can…",
+          "date": "2026-09-27",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 1622,
         "texts": 134,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -3830,7 +4084,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/kakashii/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kakashii.json",
-      "summary": "Kakashii is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
+      "summary": "Kakashii is named in 8 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
       "parts": [
         {
           "part": 2,
@@ -3866,6 +4120,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -3917,6 +4176,12 @@
           "section": "The seller funds its demand",
           "excerpt": "Kakashii argued on August 20 that CoreWeave exists mainly to create demand for Nvidia's GPUs: Nvidia is its only GPU supplier and also an investor, customer and sponsor, and its cash spending on equipment came to about 84% of its gross debt proceeds.",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "section": "The weak link pays first",
+          "excerpt": "Kakashii noted on September 24 that Oracle entered the AI era already owing tens of billions of dollars.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [
@@ -4033,9 +4298,9 @@
         "creators": 0,
         "claims": 421,
         "texts": 43,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4130,9 +4395,9 @@
         "creators": 33,
         "claims": 1547,
         "texts": 140,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4234,9 +4499,9 @@
         "creators": 0,
         "claims": 4990,
         "texts": 429,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4267,9 +4532,9 @@
         "creators": 20,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4324,9 +4589,9 @@
         "creators": 1,
         "claims": 4193,
         "texts": 407,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4370,9 +4635,9 @@
         "creators": 0,
         "claims": 76,
         "texts": 10,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4381,7 +4646,7 @@
       "role": "Potential Multibaggers",
       "url": "https://deepstack.ltd/people/kris/",
       "api": "https://deepstack.ltd/api/v1/entities/people/kris.json",
-      "summary": "Kris is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides).",
+      "summary": "Kris is named in 9 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 1 (Insatiable), Part 1 (Voices that cross sides), Part 2 (Exit liquidity), Part 4 (The spending is defense), Part 7 (Growth: yields are catching up), Part 8 (The spending pays), Part 10 (Everyone, soon), Part 15 (Oil stays out of the core), Part 15 (Voices that cross sides), Part 17 (The weak link pays first), Part 17 (Voices that cross sides).",
       "parts": [
         {
           "part": 1,
@@ -4422,6 +4687,11 @@
           "part": 15,
           "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
           "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -4631,15 +4901,51 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
           "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "Kris has always said that if one pin falls among the AI companies many others would follow; they mostly thought of OpenAI, but consider Oracle a weak link in the chain as well.",
+          "date": "2026-09-28",
+          "url": "https://www.potentialmultibaggers.com/p/the-first-ai-crack",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Kris repeats a long-held view that one should not expect the AI bubble to burst simply because it is a bubble; technological revolutions typically skip efficiency first and overspend, and the current data-center build-out assumes linear capacity…",
+          "date": "2026-06-28",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Kris argues that the widespread professional view of an AI/chip bubble is wrong, because infrastructure companies have multi-year supply contracts and chipmakers like Micron and Nvidia cannot currently produce enough chips to satisfy demand.",
+          "date": "2026-08-24",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 3,
         "claims": 1963,
         "texts": 167,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4695,9 +5001,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4765,9 +5071,9 @@
         "creators": 0,
         "claims": 653,
         "texts": 90,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4776,12 +5082,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/leyla-kunimoto/",
       "api": "https://deepstack.ltd/api/v1/entities/people/leyla-kunimoto.json",
-      "summary": "Leyla Kunimoto is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
+      "summary": "Leyla Kunimoto is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date.",
       "parts": [
         {
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -4791,6 +5102,12 @@
           "section": "The bill raises the rate",
           "excerpt": "Leyla Kunimoto, citing an Apollo presentation, reports that hyperscalers sold close to $250 billion of high-grade bonds in 2026, more than in the previous ten years combined.",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 17,
+          "section": "The weak link pays first",
+          "excerpt": "Leyla Kunimoto of Accredited Insight traced the Jupiter money on October 5, 2026: about $18 billion of construction debt and $3 billion of Blue Owl equity.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [],
@@ -4798,9 +5115,9 @@
         "creators": 0,
         "claims": 1081,
         "texts": 99,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4919,9 +5236,9 @@
         "creators": 0,
         "claims": 27,
         "texts": 2,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4970,9 +5287,9 @@
         "creators": 1,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -4996,9 +5313,9 @@
         "creators": 0,
         "claims": 1104,
         "texts": 90,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5029,9 +5346,9 @@
         "creators": 10,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5225,9 +5542,9 @@
         "creators": 0,
         "claims": 1894,
         "texts": 198,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -5283,9 +5600,9 @@
         "creators": 0,
         "claims": 14,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5358,9 +5675,9 @@
         "creators": 2,
         "claims": 55,
         "texts": 4,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5438,9 +5755,9 @@
         "creators": 0,
         "claims": 701,
         "texts": 60,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5651,9 +5968,9 @@
         "creators": 1,
         "claims": 176,
         "texts": 14,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -5662,7 +5979,7 @@
       "role": "Cassandra Unchained",
       "url": "https://deepstack.ltd/people/michael-burry/",
       "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-      "summary": "Michael Burry is named in 11 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
+      "summary": "Michael Burry is named in 12 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
       "parts": [
         {
           "part": 1,
@@ -5718,6 +6035,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -6017,9 +6339,9 @@
         "creators": 13,
         "claims": 1118,
         "texts": 106,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6169,9 +6491,9 @@
         "creators": 0,
         "claims": 1498,
         "texts": 141,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6467,9 +6789,9 @@
         "creators": 0,
         "claims": 1688,
         "texts": 156,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6523,9 +6845,9 @@
         "creators": 0,
         "claims": 819,
         "texts": 73,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -6581,9 +6903,9 @@
         "creators": 0,
         "claims": 14,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6685,9 +7007,9 @@
         "creators": 1,
         "claims": 206,
         "texts": 15,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6755,9 +7077,9 @@
         "creators": 0,
         "claims": 1173,
         "texts": 103,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6806,9 +7128,48 @@
         "creators": 0,
         "claims": 154,
         "texts": 15,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "nick-nemeth",
+      "name": "Nick Nemeth",
+      "role": null,
+      "url": "https://deepstack.ltd/people/nick-nemeth/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/nick-nemeth.json",
+      "summary": "Nick Nemeth is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The weak link pays first).",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-weak-link-pays-first",
+          "sideLabel": "The weak link pays first",
+          "claim": "The NAIC's rating-challenge power is real but requires a gap of at least three notches, regulatory review and procedural protections and is expected to be used selectively in exceptional cases, so having the power does not mean anyone has checked…",
+          "date": "2026-09-27",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 312,
+        "texts": 30,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -6864,9 +7225,9 @@
         "creators": 0,
         "claims": 45,
         "texts": 3,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6910,9 +7271,9 @@
         "creators": 0,
         "claims": 47,
         "texts": 5,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -6921,7 +7282,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/oguz-erkan/",
       "api": "https://deepstack.ltd/api/v1/entities/people/oguz-erkan.json",
-      "summary": "Oguz Erkan is named in 5 Parts of The Buildout, most recently Part 14: The Cash Arrives Unevenly. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides).",
+      "summary": "Oguz Erkan is named in 6 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 3 (The borrowing is rational), Part 3 (Voices that cross sides), Part 9 (Not every habit), Part 12 (Voices that cross sides), Part 14 (Voices that cross sides), Part 17 (The cash flows cover it).",
       "parts": [
         {
           "part": 3,
@@ -6947,6 +7308,11 @@
           "part": 14,
           "headline": "The Cash Arrives Unevenly",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -6980,6 +7346,12 @@
           "section": "The cash still covers it",
           "excerpt": "Oguz Erkan argued on August 23 that Meta's committed capital already earns a return in the core business and that internal deployments can be delayed or cancelled.",
           "url": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "Oguz Erkan of Capitalist Letters noted on August 23, 2026 that Meta can delay or cancel its own builds, though not its pay-or-take contracts with neoclouds.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [
@@ -7066,15 +7438,27 @@
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/the-cash-arrives-unevenly/",
           "sidesUrl": "https://deepstack.ltd/sides/the-cash-arrives-unevenly/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Neocloud contracts are pay-or-take and leave Meta little flexibility once committed, while internal data center deployment can be delayed or cancelled; even in the worst case committed capacity is unlikely to exceed internal consumption long term…",
+          "date": "2026-08-23",
+          "url": "https://www.capitalist-letters.com/p/meta-deep-dive-opportunity-or-a-trap",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 586,
         "texts": 47,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7105,9 +7489,9 @@
         "creators": 0,
         "claims": 157,
         "texts": 19,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7138,9 +7522,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7282,9 +7666,9 @@
         "creators": 0,
         "claims": 1105,
         "texts": 87,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7293,7 +7677,7 @@
       "role": null,
       "url": "https://deepstack.ltd/people/quanta-72/",
       "api": "https://deepstack.ltd/api/v1/entities/people/quanta-72.json",
-      "summary": "Quanta 72 is named in 2 Parts of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The spending is defense).",
+      "summary": "Quanta 72 is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 4 (The spending is defense), Part 17 (The cash flows cover it).",
       "parts": [
         {
           "part": 1,
@@ -7304,6 +7688,11 @@
           "part": 4,
           "headline": "AI Spending Has Met Its First Real Bill",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -7319,6 +7708,12 @@
           "section": "Defense has a case",
           "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce.",
           "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 17,
+          "section": "The weak link pays first",
+          "excerpt": "Quanta 72 added on September 27 that the notice lets Oracle delay payments if power delays push the campus past its 2028 start; Oracle has missed no payment, and Blue Owl calls its commitments unchanged.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "sides": [
@@ -7345,15 +7740,39 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
           "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "On the same day the spread closed at 2.80%, Oracle sent a force majeure notice to Blue Owl Capital, developer of the Project Jupiter Stargate campus, covering potential cost increases and letting Oracle delay payments if the campus misses its 2028…",
+          "date": "2026-09-27",
+          "url": "https://quanta72.substack.com/p/q72-brief-the-chips-are-underwater",
+          "linkVerified": true,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "The current AI-related selloff is not evidence that AI itself has failed, but a moment where investors are demanding proof that the infrastructure buildout converts into proportional revenue.",
+          "date": "2026-06-28",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 841,
         "texts": 73,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7664,9 +8083,9 @@
         "creators": 0,
         "claims": 578,
         "texts": 44,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7722,9 +8141,9 @@
         "creators": 0,
         "claims": 15,
         "texts": 1,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7755,9 +8174,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7788,9 +8207,42 @@
         "creators": 0,
         "claims": 3145,
         "texts": 354,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "s-p-global-ratings",
+      "name": "S&P Global Ratings",
+      "role": null,
+      "url": "https://deepstack.ltd/people/s-p-global-ratings/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/s-p-global-ratings.json",
+      "summary": "S&P Global Ratings is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date.",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "It enters the balance sheet when it commences, as late as 2036 for Meta, and at least one agency counts it sooner: S&P Global Ratings, cutting Oracle to BBB- on July 9, 2026, added to the debt in its forecast the $260 billion of leases Oracle then expected to start between fiscal 2027 and 2029.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 2,
+        "claims": 0,
+        "texts": 0,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7832,9 +8284,9 @@
         "creators": 0,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7890,9 +8342,9 @@
         "creators": 0,
         "claims": 780,
         "texts": 70,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -7901,12 +8353,17 @@
       "role": null,
       "url": "https://deepstack.ltd/people/scott-galloway/",
       "api": "https://deepstack.ltd/api/v1/entities/people/scott-galloway.json",
-      "summary": "Scott Galloway is named in 1 Part of The Buildout, most recently Part 10: The Bubble Is in the Denominator.",
+      "summary": "Scott Galloway is named in 2 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The lease is already debt).",
       "parts": [
         {
           "part": 10,
           "headline": "The Bubble Is in the Denominator",
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -7918,14 +8375,27 @@
           "url": "https://deepstack.ltd/stories/the-bubble-is-in-the-denominator/"
         }
       ],
-      "sides": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Investors are not paying sufficient attention to off-balance-sheet obligations that underlie Big Tech's artificial intelligence infrastructure spending.",
+          "date": "2026-07-27",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
       "coverage": {
         "creators": 2,
         "claims": 896,
         "texts": 136,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8001,9 +8471,9 @@
         "creators": 13,
         "claims": 0,
         "texts": 0,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8029,7 +8499,7 @@
           "side": "oil-stays-out-of-the-core",
           "sideLabel": "Oil stays out of the core",
           "claim": "Despite recent price volatility, structural supply constraints and geopolitical risk have raised the through-cycle oil price to around $80, which will allow APA Corp's oil holdings, which break even near $40, to generate significant free cash flow…",
-          "date": "2026-09-22",
+          "date": null,
           "url": null,
           "linkVerified": false,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
@@ -8052,9 +8522,9 @@
         "creators": 0,
         "claims": 137,
         "texts": 23,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8085,9 +8555,9 @@
         "creators": 0,
         "claims": 210,
         "texts": 23,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8118,9 +8588,9 @@
         "creators": 0,
         "claims": 44,
         "texts": 5,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8255,9 +8725,9 @@
         "creators": 1,
         "claims": 711,
         "texts": 57,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8266,7 +8736,7 @@
       "role": "Steven Eisman",
       "url": "https://deepstack.ltd/people/steve-eisman/",
       "api": "https://deepstack.ltd/api/v1/entities/people/steve-eisman.json",
-      "summary": "Steve Eisman is named in 12 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides).",
+      "summary": "Steve Eisman is named in 13 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 4 (Voices that cross sides), Part 6 (Scarcity as a warning), Part 7 (Debt: 99% of GDP, up from 35%), Part 8 (Guarantees, not faith), Part 10 (Not the customers, yet), Part 11 (A backlog is a promise), Part 11 (Shipping is not earning), Part 11 (Voices that cross sides), Part 12 (Open weights set the price), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand), Part 16 (Two labs carry the chain), Part 16 (Voices that cross sides), Part 17 (The lease is already debt).",
       "parts": [
         {
           "part": 4,
@@ -8327,6 +8797,11 @@
           "part": 16,
           "headline": "The Seller Holds the Paper",
           "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -8632,15 +9107,27 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/the-seller-holds-the-paper/",
           "sidesUrl": "https://deepstack.ltd/sides/the-seller-holds-the-paper/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "Steve Eisman supports Jason's dilution worry with figures: Meta's quarterly cash flow was $785 million, Microsoft's was about $19 billion but down roughly 25% year over year, and Amazon's trailing-twelve-month cash flow was negative.",
+          "date": "2026-08-17",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 0,
         "claims": 844,
         "texts": 149,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8883,9 +9370,55 @@
         "creators": 2,
         "claims": 591,
         "texts": 65,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "the-bear-cave",
+      "name": "The Bear Cave",
+      "role": null,
+      "url": "https://deepstack.ltd/people/the-bear-cave/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/the-bear-cave.json",
+      "summary": "The Bear Cave is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The lease is already debt).",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "Lede",
+          "excerpt": "The Bear Cave relayed on September 27, 2026 Michael Burry's tally of nearly $1.2 trillion of such leases plus more than $1.5 trillion of purchase commitments, a wider instrument; Burry wrote on September 19 that vehicles, guarantees and backstops could lift the total above $3 trillion.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-lease-is-already-debt",
+          "sideLabel": "The lease is already debt",
+          "claim": "The relayed Bank OZK argument holds that the weakest construction projects must find genuine buyers or long-term lenders before sponsor support and property values fail.",
+          "date": "2026-07-26",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
+      "coverage": {
+        "creators": 3,
+        "claims": 56,
+        "texts": 10,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8941,9 +9474,9 @@
         "creators": 1,
         "claims": 116,
         "texts": 10,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -8952,7 +9485,7 @@
       "role": "Apollo",
       "url": "https://deepstack.ltd/people/torsten-slok/",
       "api": "https://deepstack.ltd/api/v1/entities/people/torsten-slok.json",
-      "summary": "Torsten Slok is named in 8 Parts of The Buildout, most recently Part 15: Oil Is the Headline. The Real Yield Is the Bill.. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides), Part 15 (The two shocks compound), Part 15 (Voices that cross sides).",
+      "summary": "Torsten Slok is named in 9 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 8 (The cash has to triple), Part 9 (The inertia businesses), Part 10 (A long end nobody caps), Part 10 (Not the customers, yet), Part 11 (Funded, not forecast), Part 14 (The buyers have not paid yet), Part 14 (Voices that cross sides), Part 15 (The two shocks compound), Part 15 (Voices that cross sides), Part 17 (Voices that cross sides).",
       "parts": [
         {
           "part": 6,
@@ -8993,6 +9526,11 @@
           "part": 15,
           "headline": "Oil Is the Headline. The Real Yield Is the Bill.",
           "url": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
         }
       ],
       "numbers": [],
@@ -9244,15 +9782,39 @@
           "linkVerified": true,
           "storyUrl": "https://deepstack.ltd/stories/oil-is-the-headline-the-real-yield-is-the-bill/",
           "sidesUrl": "https://deepstack.ltd/sides/oil-is-the-headline-the-real-yield-is-the-bill/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "A cycle that builds at 0.85 percentage points a year can unwind at a similar pace, and that pace of unwind, rather than the buildout itself, is the macro risk if AI demand disappoints.",
+          "date": "2026-08-06",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "crossing",
+          "sideLabel": "Voices that cross sides",
+          "claim": "Hyperscaler credit spreads are widening as the AI buildout is increasingly funded with debt rather than organic free cash flow, and as issuance surges the question is whether the all-in yield climbs to a level where the marginal data-center dollar…",
+          "date": "2026-07-29",
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
         }
       ],
       "coverage": {
         "creators": 4,
         "claims": 4301,
         "texts": 1574,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9296,9 +9858,9 @@
         "creators": 0,
         "claims": 222,
         "texts": 29,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9525,9 +10087,9 @@
         "creators": 0,
         "claims": 1595,
         "texts": 122,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "organization",
@@ -9583,9 +10145,9 @@
         "creators": 0,
         "claims": 27,
         "texts": 2,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9680,9 +10242,9 @@
         "creators": 2,
         "claims": 2967,
         "texts": 472,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9724,9 +10286,9 @@
         "creators": 2,
         "claims": 40,
         "texts": 3,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9827,9 +10389,9 @@
         "creators": 1,
         "claims": 1070,
         "texts": 139,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -9896,9 +10458,60 @@
         "creators": 0,
         "claims": 77,
         "texts": 7,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "weitz-investment-management",
+      "name": "Weitz Investment Management",
+      "role": null,
+      "url": "https://deepstack.ltd/people/weitz-investment-management/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/weitz-investment-management.json",
+      "summary": "Weitz Investment Management is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The cash flows cover it).",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [],
+      "sides": [
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Microsoft is viewed as a great business with strong cash flows, intelligent capital allocation, and massive intellectual property that existed before the AI boom, and is believed to be reasonably priced with the financial strength to withstand…",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        },
+        {
+          "part": 17,
+          "question": null,
+          "side": "the-cash-flows-cover-it",
+          "sideLabel": "The cash flows cover it",
+          "claim": "Risks to Microsoft include premature capital spending on AI, delays in deploying data centers postponing profits, and the possibility that early enthusiasm for AI is not shared by the broader population.",
+          "date": null,
+          "url": null,
+          "linkVerified": false,
+          "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+          "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+        }
+      ],
+      "coverage": {
+        "creators": 0,
+        "claims": 152,
+        "texts": 25,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     },
     {
       "kind": "person",
@@ -10001,9 +10614,42 @@
         "creators": 2,
         "claims": 1979,
         "texts": 165,
-        "asOf": "2026-10-20"
+        "asOf": "2026-10-21"
       },
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-10-21"
+    },
+    {
+      "kind": "person",
+      "slug": "ycg-investments",
+      "name": "Ycg Investments",
+      "role": "YCG Wealth Management",
+      "url": "https://deepstack.ltd/people/ycg-investments/",
+      "api": "https://deepstack.ltd/api/v1/entities/people/ycg-investments.json",
+      "summary": "Ycg Investments is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date.",
+      "parts": [
+        {
+          "part": 17,
+          "headline": "The Guarantee Has No Date",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "numbers": [],
+      "mentions": [
+        {
+          "part": 17,
+          "section": "The cash flows cover it",
+          "excerpt": "YCG Investments wrote in its second-quarter 2026 letter that Microsoft and Amazon, which once paid for the buildout from free cash flow, now spend enough to push it below zero and are turning to debt.",
+          "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+        }
+      ],
+      "sides": [],
+      "coverage": {
+        "creators": 0,
+        "claims": 42,
+        "texts": 5,
+        "asOf": "2026-10-21"
+      },
+      "lastUpdated": "2026-10-21"
     }
   ]
 }

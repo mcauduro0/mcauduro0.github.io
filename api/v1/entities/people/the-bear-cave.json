@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-21T03:40:16Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "the-bear-cave",
+  "name": "The Bear Cave",
+  "role": null,
+  "url": "https://deepstack.ltd/people/the-bear-cave/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/the-bear-cave.json",
+  "summary": "The Bear Cave is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 17 (The lease is already debt).",
+  "parts": [
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 17,
+      "section": "Lede",
+      "excerpt": "The Bear Cave relayed on September 27, 2026 Michael Burry's tally of nearly $1.2 trillion of such leases plus more than $1.5 trillion of purchase commitments, a wider instrument; Burry wrote on September 19 that vehicles, guarantees and backstops could lift the total above $3 trillion.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-lease-is-already-debt",
+      "sideLabel": "The lease is already debt",
+      "claim": "The relayed Bank OZK argument holds that the weakest construction projects must find genuine buyers or long-term lenders before sponsor support and property values fail.",
+      "date": "2026-07-26",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
+  "coverage": {
+    "creators": 3,
+    "claims": 56,
+    "texts": 10,
+    "asOf": "2026-10-21"
+  },
+  "lastUpdated": "2026-10-21"
+}

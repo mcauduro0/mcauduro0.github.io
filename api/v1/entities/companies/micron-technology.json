@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "micron-technology",
@@ -30,14 +30,27 @@
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
     }
   ],
-  "sides": [],
+  "sides": [
+    {
+      "part": 17,
+      "question": null,
+      "side": "crossing",
+      "sideLabel": "Voices that cross sides",
+      "claim": "Kris argues that the widespread professional view of an AI/chip bubble is wrong, because infrastructure companies have multi-year supply contracts and chipmakers like Micron and Nvidia cannot currently produce enough chips to satisfy demand.",
+      "date": "2026-08-24",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    }
+  ],
   "coverage": {
     "creators": 49,
     "claims": 250,
     "texts": 137,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "market": {
     "price": 896.07,
     "change": -8.83,

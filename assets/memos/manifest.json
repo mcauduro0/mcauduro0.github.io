@@ -48,11 +48,11 @@
     "power-doesnt-depreciate": {
       "part": 6,
       "slug": "power-doesnt-depreciate",
-      "hash": "ccb9cdde09e2e117fa0d20b1a4675c3f25d66d349d3cc02982ce81b994489538",
-      "bytes": 240815,
+      "hash": "df2cd15e7b0619cc5eff03d7fb4c5c5a9826646c17a59789786dcca8e392c30a",
+      "bytes": 240670,
       "pages": 6,
       "paper": "letter",
-      "printedOn": "2026-10-13"
+      "printedOn": "2026-10-21"
     },
     "the-fed-hiked-the-long-end-kept-climbing": {
       "part": 7,
@@ -120,29 +120,38 @@
     "the-cash-arrives-unevenly": {
       "part": 14,
       "slug": "the-cash-arrives-unevenly",
-      "hash": "347baca954780df15b6b4dce7d0b57c0b11b1638e98849359ce1ddcefc720a71",
-      "bytes": 377770,
+      "hash": "9013da0db787975df3e5b43ec79b7328163e9fec8b4a6e46d83a08ecc46995d3",
+      "bytes": 377023,
       "pages": 13,
       "paper": "letter",
-      "printedOn": "2026-10-19"
+      "printedOn": "2026-10-21"
     },
     "oil-is-the-headline-the-real-yield-is-the-bill": {
       "part": 15,
       "slug": "oil-is-the-headline-the-real-yield-is-the-bill",
-      "hash": "633ea7a167d451ef77208fe263daf190f1493a0e5fa1eaf7e749eced2538b05c",
-      "bytes": 363756,
+      "hash": "a76d6cc438c08db1f1d2f5f752dc7a6d8a5e441466d15f6199b6507cba4b3abc",
+      "bytes": 362255,
       "pages": 12,
       "paper": "letter",
-      "printedOn": "2026-10-19"
+      "printedOn": "2026-10-21"
     },
     "the-seller-holds-the-paper": {
       "part": 16,
       "slug": "the-seller-holds-the-paper",
-      "hash": "f19aecaf6e924aea1ba8861b12f1e0a794c6eb274264be89634be1d903322ccb",
-      "bytes": 357038,
+      "hash": "f5ee316f17cc644cbb19603d85d517d16fa526a7c5fcfe6e7c09c58d5a2b97d3",
+      "bytes": 357036,
       "pages": 11,
       "paper": "letter",
-      "printedOn": "2026-10-19"
+      "printedOn": "2026-10-21"
+    },
+    "the-guarantee-has-no-date": {
+      "part": 17,
+      "slug": "the-guarantee-has-no-date",
+      "hash": "a4a7418a758604202f5a5955784f274da0de4998310455b3e5b0bd8907dee794",
+      "bytes": 353474,
+      "pages": 12,
+      "paper": "letter",
+      "printedOn": "2026-10-21"
     }
   },
   "generatedBy": "scripts/memo.mjs"

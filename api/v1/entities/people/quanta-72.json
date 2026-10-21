@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "quanta-72",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/quanta-72/",
   "api": "https://deepstack.ltd/api/v1/entities/people/quanta-72.json",
-  "summary": "Quanta 72 is named in 2 Parts of The Buildout, most recently Part 4: AI Spending Has Met Its First Real Bill. Argued in Part 4 (The spending is defense).",
+  "summary": "Quanta 72 is named in 3 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 4 (The spending is defense), Part 17 (The cash flows cover it).",
   "parts": [
     {
       "part": 1,
@@ -18,6 +18,11 @@
       "part": 4,
       "headline": "AI Spending Has Met Its First Real Bill",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -33,6 +38,12 @@
       "section": "Defense has a case",
       "excerpt": "Quanta 72 compares Cisco, EMC, Oracle and Sun with Nvidia, Microsoft, Alphabet and Amazon and points to the difference: the dot-com suppliers depended on customers who could stop buying, while today’s spenders fund the buildout from advertising, cloud, software and e-commerce.",
       "url": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 17,
+      "section": "The weak link pays first",
+      "excerpt": "Quanta 72 added on September 27 that the notice lets Oracle delay payments if power delays push the campus past its 2028 start; Oracle has missed no payment, and Blue Owl calls its commitments unchanged.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "sides": [
@@ -59,13 +70,37 @@
       "linkVerified": true,
       "storyUrl": "https://deepstack.ltd/stories/the-market-stops-paying-for-faith/",
       "sidesUrl": "https://deepstack.ltd/sides/the-market-stops-paying-for-faith/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "On the same day the spread closed at 2.80%, Oracle sent a force majeure notice to Blue Owl Capital, developer of the Project Jupiter Stargate campus, covering potential cost increases and letting Oracle delay payments if the campus misses its 2028…",
+      "date": "2026-09-27",
+      "url": "https://quanta72.substack.com/p/q72-brief-the-chips-are-underwater",
+      "linkVerified": true,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
+    },
+    {
+      "part": 17,
+      "question": null,
+      "side": "the-cash-flows-cover-it",
+      "sideLabel": "The cash flows cover it",
+      "claim": "The current AI-related selloff is not evidence that AI itself has failed, but a moment where investors are demanding proof that the infrastructure buildout converts into proportional revenue.",
+      "date": "2026-06-28",
+      "url": null,
+      "linkVerified": false,
+      "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/",
+      "sidesUrl": "https://deepstack.ltd/sides/the-guarantee-has-no-date/"
     }
   ],
   "coverage": {
     "creators": 0,
     "claims": 841,
     "texts": 73,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

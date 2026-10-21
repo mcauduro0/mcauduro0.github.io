@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "kakashii",
@@ -7,7 +7,7 @@
   "role": null,
   "url": "https://deepstack.ltd/people/kakashii/",
   "api": "https://deepstack.ltd/api/v1/entities/people/kakashii.json",
-  "summary": "Kakashii is named in 7 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
+  "summary": "Kakashii is named in 8 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 2 (Exit liquidity), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 10 (A model, not a price), Part 16 (The seller funds its demand).",
   "parts": [
     {
       "part": 2,
@@ -43,6 +43,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -94,6 +99,12 @@
       "section": "The seller funds its demand",
       "excerpt": "Kakashii argued on August 20 that CoreWeave exists mainly to create demand for Nvidia's GPUs: Nvidia is its only GPU supplier and also an investor, customer and sponsor, and its cash spending on equipment came to about 84% of its gross debt proceeds.",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "section": "The weak link pays first",
+      "excerpt": "Kakashii noted on September 24 that Oracle entered the AI era already owing tens of billions of dollars.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "sides": [
@@ -210,7 +221,7 @@
     "creators": 0,
     "claims": 421,
     "texts": 43,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }

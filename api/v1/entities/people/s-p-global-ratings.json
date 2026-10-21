@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-21T03:40:16Z",
+  "disclaimer": "Analysis and opinion, not investment advice.",
+  "kind": "person",
+  "slug": "s-p-global-ratings",
+  "name": "S&P Global Ratings",
+  "role": null,
+  "url": "https://deepstack.ltd/people/s-p-global-ratings/",
+  "api": "https://deepstack.ltd/api/v1/entities/people/s-p-global-ratings.json",
+  "summary": "S&P Global Ratings is named in 1 Part of The Buildout, most recently Part 17: The Guarantee Has No Date.",
+  "parts": [
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "numbers": [],
+  "mentions": [
+    {
+      "part": 17,
+      "section": "The cash flows cover it",
+      "excerpt": "It enters the balance sheet when it commences, as late as 2036 for Meta, and at least one agency counts it sooner: S&P Global Ratings, cutting Oracle to BBB- on July 9, 2026, added to the debt in its forecast the $260 billion of leases Oracle then expected to start between fiscal 2027 and 2029.",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
+    }
+  ],
+  "sides": [],
+  "coverage": {
+    "creators": 2,
+    "claims": 0,
+    "texts": 0,
+    "asOf": "2026-10-21"
+  },
+  "lastUpdated": "2026-10-21"
+}

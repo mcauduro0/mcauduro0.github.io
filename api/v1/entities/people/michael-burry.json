@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:02:17Z",
+  "generatedAt": "2026-10-21T03:40:16Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "person",
   "slug": "michael-burry",
@@ -7,7 +7,7 @@
   "role": "Cassandra Unchained",
   "url": "https://deepstack.ltd/people/michael-burry/",
   "api": "https://deepstack.ltd/api/v1/entities/people/michael-burry.json",
-  "summary": "Michael Burry is named in 11 Parts of The Buildout, most recently Part 16: The Seller Holds the Paper. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
+  "summary": "Michael Burry is named in 12 Parts of The Buildout, most recently Part 17: The Guarantee Has No Date. Argued in Part 1 (Manufactured), Part 3 (1999 capex plus 2008 credit), Part 6 (Scarcity as a warning), Part 8 (Guarantees, not faith), Part 8 (The cash has to triple), Part 10 (A long end nobody caps), Part 10 (A model, not a price), Part 11 (A backlog is a promise), Part 12 (The filing sets the price), Part 15 (The two shocks compound), Part 16 (The seller funds its demand).",
   "parts": [
     {
       "part": 1,
@@ -63,6 +63,11 @@
       "part": 16,
       "headline": "The Seller Holds the Paper",
       "url": "https://deepstack.ltd/stories/the-seller-holds-the-paper/"
+    },
+    {
+      "part": 17,
+      "headline": "The Guarantee Has No Date",
+      "url": "https://deepstack.ltd/stories/the-guarantee-has-no-date/"
     }
   ],
   "numbers": [],
@@ -362,7 +367,7 @@
     "creators": 13,
     "claims": 1118,
     "texts": 106,
-    "asOf": "2026-10-20"
+    "asOf": "2026-10-21"
   },
-  "lastUpdated": "2026-10-20"
+  "lastUpdated": "2026-10-21"
 }
