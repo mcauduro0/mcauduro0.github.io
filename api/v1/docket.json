@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:44:46Z",
+  "generatedAt": "2026-10-21T10:33:24Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-21",
@@ -1255,7 +1255,10 @@
           "at": "2026-10-20T20:36:22Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 35
+      }
     },
     {
       "id": "p07-t02",
@@ -1715,7 +1718,10 @@
           "at": "2026-10-20T23:02:03Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 60
+      }
     },
     {
       "id": "p09-t02",
@@ -2023,7 +2029,10 @@
           "at": "2026-10-20T20:41:24Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 90
+      }
     },
     {
       "id": "p10-t02",
@@ -2349,7 +2358,10 @@
           "at": "2026-10-20T20:42:28Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 80
+      }
     },
     {
       "id": "p11-t02",
@@ -2608,7 +2620,10 @@
           "at": "2026-10-20T20:43:40Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 20
+      }
     },
     {
       "id": "p12-t02",
@@ -2683,7 +2698,10 @@
           "at": "2026-10-20T20:44:16Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 10
+      }
     },
     {
       "id": "p12-t03",
@@ -3227,7 +3245,10 @@
           "at": "2026-10-20T20:49:05Z"
         }
       ],
-      "readers": null
+      "readers": {
+        "n": 1,
+        "median": 80
+      }
     },
     {
       "id": "p14-t02",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:44:46Z",
+  "generatedAt": "2026-10-21T10:33:24Z",
   "url": "https://deepstack.ltd/companies/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "api": "https://deepstack.ltd/api/v1/entities/companies.json",
@@ -8,7 +8,7 @@
   "market": {
     "source": "Financial Modeling Prep",
     "sourceUrl": "https://financialmodelingprep.com",
-    "asOf": "2026-10-20T21:31:56.762Z",
+    "asOf": "2026-10-21T10:31:03.185Z",
     "note": "Delayed quotes; shown on company pages only, never as evidence for a result."
   },
   "companies": [
@@ -74,7 +74,7 @@
         "change": 0.13,
         "changePercent": 0.1197,
         "marketCap": 270417874869,
-        "pe": 23.0536,
+        "pe": 22.807,
         "nextEarnings": "2026-11-24",
         "exchange": "NYSE",
         "currency": "USD",
@@ -4337,7 +4337,7 @@
         "price": 694.25,
         "change": -11.19,
         "changePercent": -1.5862,
-        "marketCap": 1768606200872,
+        "marketCap": 1768606137695,
         "pe": 25.799,
         "nextEarnings": "2026-10-21",
         "exchange": "NASDAQ",
@@ -5204,7 +5204,7 @@
         "changePercent": -1.6607,
         "marketCap": 286021038600,
         "pe": 19.5142,
-        "nextEarnings": "2026-10-20",
+        "nextEarnings": "2027-01-19",
         "exchange": "NASDAQ",
         "currency": "USD",
         "asOf": "2026-10-20T20:00:00.000Z",
@@ -5249,7 +5249,7 @@
         "price": 37.88,
         "change": 0.67,
         "changePercent": 1.8006,
-        "marketCap": 56263500488,
+        "marketCap": 56263502534,
         "pe": 18.1244,
         "nextEarnings": "2026-12-17",
         "exchange": "NYSE",
@@ -7266,7 +7266,20 @@
         "asOf": "2026-10-21"
       },
       "lastUpdated": "2026-10-21",
-      "market": null
+      "market": {
+        "price": 438.12,
+        "change": 10.29,
+        "changePercent": 2.4052,
+        "marketCap": 129157776000,
+        "pe": 26.6659,
+        "nextEarnings": "2026-10-27",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "asOf": "2026-10-20T20:00:02.000Z",
+        "source": "Financial Modeling Prep",
+        "sourceUrl": "https://financialmodelingprep.com",
+        "note": "Delayed quotes."
+      }
     },
     {
       "kind": "company",
@@ -7429,7 +7442,7 @@
         "price": 173.48,
         "change": 2.42,
         "changePercent": 1.4147,
-        "marketCap": 225117128509,
+        "marketCap": 225117129549,
         "pe": 116.4295,
         "nextEarnings": "2026-11-03",
         "exchange": "NASDAQ",
@@ -7740,7 +7753,7 @@
         "change": 4.86,
         "changePercent": 1.1565,
         "marketCap": 2204668918400,
-        "pe": 24.4759,
+        "pe": 24.6285,
         "nextEarnings": "2027-01-21",
         "exchange": "NYSE",
         "currency": "USD",

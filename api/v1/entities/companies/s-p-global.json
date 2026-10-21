@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:44:46Z",
+  "generatedAt": "2026-10-21T10:33:24Z",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "kind": "company",
   "slug": "s-p-global",
@@ -32,5 +32,18 @@
     "asOf": "2026-10-21"
   },
   "lastUpdated": "2026-10-21",
-  "market": null
+  "market": {
+    "price": 438.12,
+    "change": 10.29,
+    "changePercent": 2.4052,
+    "marketCap": 129157776000,
+    "pe": 26.6659,
+    "nextEarnings": "2026-10-27",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "asOf": "2026-10-20T20:00:02.000Z",
+    "source": "Financial Modeling Prep",
+    "sourceUrl": "https://financialmodelingprep.com",
+    "note": "Delayed quotes."
+  }
 }
