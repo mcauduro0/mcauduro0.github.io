@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:40:16Z",
+  "generatedAt": "2026-10-21T03:44:46Z",
   "url": "https://deepstack.ltd/docket/",
   "disclaimer": "Analysis and opinion, not investment advice.",
   "asOf": "2026-10-21",
@@ -4073,7 +4073,23 @@
       "url": "https://deepstack.ltd/docket/#test-p17-t01",
       "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
       "resultUrl": null,
-      "machines": [],
+      "machines": [
+        {
+          "model": "claude-opus-5",
+          "p": 80,
+          "at": "2026-10-21T03:41:44Z"
+        },
+        {
+          "model": "deepseek-reasoner",
+          "p": 88,
+          "at": "2026-10-21T03:41:47Z"
+        },
+        {
+          "model": "gpt-5",
+          "p": 81,
+          "at": "2026-10-21T03:42:13Z"
+        }
+      ],
       "readers": null
     },
     {
@@ -4131,7 +4147,23 @@
       "url": "https://deepstack.ltd/docket/#test-p17-t02",
       "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
       "resultUrl": null,
-      "machines": [],
+      "machines": [
+        {
+          "model": "claude-opus-5",
+          "p": 48,
+          "at": "2026-10-21T03:42:17Z"
+        },
+        {
+          "model": "deepseek-reasoner",
+          "p": 70,
+          "at": "2026-10-21T03:42:24Z"
+        },
+        {
+          "model": "gpt-5",
+          "p": 68,
+          "at": "2026-10-21T03:42:45Z"
+        }
+      ],
       "readers": null
     },
     {
@@ -4189,7 +4221,23 @@
       "url": "https://deepstack.ltd/docket/#test-p17-t03",
       "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
       "resultUrl": null,
-      "machines": [],
+      "machines": [
+        {
+          "model": "claude-opus-5",
+          "p": 72,
+          "at": "2026-10-21T03:42:49Z"
+        },
+        {
+          "model": "deepseek-reasoner",
+          "p": 74,
+          "at": "2026-10-21T03:43:08Z"
+        },
+        {
+          "model": "gpt-5",
+          "p": 74,
+          "at": "2026-10-21T03:43:46Z"
+        }
+      ],
       "readers": null
     },
     {
@@ -4247,7 +4295,23 @@
       "url": "https://deepstack.ltd/docket/#test-p17-t04",
       "storyUrl": "https://deepstack.ltd/stories/the-guarantee-has-no-date/#watch",
       "resultUrl": null,
-      "machines": [],
+      "machines": [
+        {
+          "model": "claude-opus-5",
+          "p": 13,
+          "at": "2026-10-21T03:43:50Z"
+        },
+        {
+          "model": "deepseek-reasoner",
+          "p": 9,
+          "at": "2026-10-21T03:44:19Z"
+        },
+        {
+          "model": "gpt-5",
+          "p": 30,
+          "at": "2026-10-21T03:44:42Z"
+        }
+      ],
       "readers": null
     }
   ]
